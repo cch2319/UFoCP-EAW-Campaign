@@ -158,6 +158,11 @@ AI Fixes:
 • Luke Skywalker was only considered a "LandHero" for AI planning, and not both a land hero and "SpaceHero" despite controlling his X-wing in space. (BUG #420)
 
 
+Animation Fixes:
+• Only half of the AT-AT Barge's model would explode upon death, the remainder permanently floating in space.  The animation ends on the same frame it would disable the model in an explosion, but it doesn't work due to an engine bug.  The animation was extended 2 frames to compensate, with the entire barge model exploding properly now. (BUG #387)
+• Slave I, The Hound's Tooth, IG-2000, Red 5 and the Moldy Crow didn't have SFX when landing or taking off from reinforcing a planet.  The related entries were missing from the animation SFX mapping. (BUG #454)
+
+
 Audio Fixes:
 • General Veers' callouts for appearing on the battlefield wouldn't play because the reference wasn't looking for "Veers_AT_AT_Walker." (BUG #372)
 • Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
@@ -292,7 +297,6 @@ Model Fixes:
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
-• Only half of the AT-AT Barge's model would explode upon death, the remainder permanently floating in space.  The animation ends on the same frame it would disable the model in an explosion, but it doesn't work due to an engine bug.  The animation was extended 2 frames to compensate, with the entire barge model exploding properly now. (BUG #387)
 • The Canderous Assault Tank's "crusher" bounds to detect when infantry should be crushed was egregiously big and difficult to play against.  Its reduction is now more fair to the actual model's extents. (Thanks theshyshallot!) (BUG #389)
 
 

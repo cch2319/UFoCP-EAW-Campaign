@@ -1637,3 +1637,18 @@ SOUND	ev_executorstardestroyer_d_die_00	90159	Unit_Cruiser_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	106785	Unit_Cruiser_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	101456	Unit_Cruiser_Death_SFX
 
+SOUND	ev_slave1_land_00	74	Unit_Barge_Landing
+SOUND	ev_slave1_takeoff_00	74	Unit_Barge_Takeoff
+
+SOUND	uv_houndstooth_landing_land_00	74	Unit_Barge_Landing
+SOUND	uv_houndstooth_landing_takeoff_00	74	Unit_Barge_Takeoff
+
+SOUND	rv_xwing_landing_land_00	74	Unit_Xwing_Landing
+SOUND	rv_xwing_landing_takeoff_00	74	Unit_Xwing_Takeoff
+
+SOUND	uv_ig2000_landing_land_00	74	Unit_Gallofree_Landing
+SOUND	uv_ig2000_landing_takeoff_00	74	Unit_Gallofree_Takeoff
+
+SOUND	nv_moldycrow_landing_land_00	74	Unit_Barge_Landing
+SOUND	nv_moldycrow_landing_takeoff_00	74	Unit_Barge_Takeoff
+

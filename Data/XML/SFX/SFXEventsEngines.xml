@@ -753,6 +753,11 @@
 	  <Samples>EGL_Falcon_Takeoff.wav</Samples>
 </SFXEvent>
 
+ <SFXEvent Name="Unit_Xwing_Takeoff">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>EGL_Gallofree_Takeoff.wav</Samples> <!-- AM1994: Unused version of Unit_Gallofree_Takeoff without the harsh beginning, will be useful until I can make/get a custom SFX. -->
+</SFXEvent>
+
  <SFXEvent Name="Unit_Gallofree_Takeoff">
 	  <Use_Preset>Preset_EXP</Use_Preset>
 	  <Samples>EGB_Gallofree_Takeoff_2.wav</Samples>
@@ -793,6 +798,11 @@
  <SFXEvent Name="Unit_Falcon_Landing">
 	  <Use_Preset>Preset_EXP</Use_Preset>
 	  <Samples>EGL_Falcon_Landing.wav</Samples>
+</SFXEvent>
+
+ <SFXEvent Name="Unit_Xwing_Landing">
+	  <Use_Preset>Preset_EXP</Use_Preset>
+	  <Samples>EGL_Gallofree_Landing.wav</Samples> <!-- AM1994: Unused version of Unit_Gallofree_Landing without the harshness, will be useful until I can make/get a custom SFX. -->
 </SFXEvent>
 
  <SFXEvent Name="Unit_Gallofree_Landing">
