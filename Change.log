@@ -298,6 +298,7 @@ Model Fixes:
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
 • The Canderous Assault Tank's "crusher" bounds to detect when infantry should be crushed was egregiously big and difficult to play against.  Its reduction is now more fair to the actual model's extents. (Thanks theshyshallot!) (BUG #389)
+• Slave I's "landing" model was far too small compared to other ships.  Petroglyph never gave it a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
 
 
 Script/Story Fixes:
