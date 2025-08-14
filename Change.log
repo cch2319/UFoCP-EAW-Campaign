@@ -299,6 +299,7 @@ Model Fixes:
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
 • The Canderous Assault Tank's "crusher" bounds to detect when infantry should be crushed was egregiously big and difficult to play against.  Its reduction is now more fair to the actual model's extents. (Thanks theshyshallot!) (BUG #389)
 • Slave I's "landing" model was far too small compared to other ships.  Petroglyph never gave it a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
+• Red 5's "landing" model was far too small compared to other ships.  Petroglyph gave it a scale override, but it was still somewhat smaller than other ships that land like it.  Red 5's landing model is now 0.7x bigger when landing. (BUG #456)
 
 
 Script/Story Fixes:

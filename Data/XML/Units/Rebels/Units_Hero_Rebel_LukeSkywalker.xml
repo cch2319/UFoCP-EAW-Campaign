@@ -472,7 +472,7 @@
 		<Land_Model_Name>RV_XWing_Landing.alo</Land_Model_Name>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>3.5</Scale_Factor>
+		<Scale_Factor>4.2</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
