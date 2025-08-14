@@ -29,7 +29,7 @@
 
 	<File> SFXEventsDeaths.xml </File>
 	<File> SFXEventsWeapons.xml </File>
-	<File> SFXEventsEngines.xml </File>
+	<File> SFX\SFXEventsEngines.xml </File>
 	<File> SFXEventsFootsteps.xml </File>
 
 	<File> SFX\SFXEvents_EXP_UnitsGround.xml </File>
