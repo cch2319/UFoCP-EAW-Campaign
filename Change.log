@@ -28,7 +28,7 @@ When fixed, bugs introduced by the Unofficial Patch are included in the next hot
 the "UFoCP" header and retroactively edited in the changelog.
 
 Dates, grammar, and times are always in American format.
-(i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52.")
+(i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM EST" > "13:52.")
 
 All entries have tags that are accurate to their GitHub report page's URL. Insert the report
 number into the below URL to see the original report.
@@ -48,22 +48,22 @@ UFoCP:
 ======
 ENHANCEMENTS:
 • New shaders have been implemented that default to x16 anisotropic filtering instead of linear filtering.  Distant textures should now be much sharper. (Thanks evilbobthebob!) (BUG #379)
-• The Canderous Assault Tank's shadow mesh had some awkward parts that wouldn't reflect shadows properly on the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
-• A new HD/recreated main menu and loading screen were added; resolution was boosted from 1280x768 to 1920x1440 for both, and comes with a smaller filesize than the original files.  The main menu has also been mostly aspect-corrected for Widescreen, and the game's main logo should no longer be stretched; because Petroglyph's website button requires some unmodifyable changes, while their and LucasArts' logos have been recreated as well, it'll still be a little stretched horizontally. (BUG #451)
-• As apart of #442, extra debugging messages/info has been added to PGBase, specifically <function Flush_G()>.
+• The Canderous Assault Tank's shadow mesh had some awkward geometry that wouldn't reflect shadows properly on the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
+• A recreated/new HD loading screen and main menu were added for English and German languages.  Logo resolutions were boosted from 1280x768 to 1920x1440 for both, and comes with a smaller filesize than the original files.  Both screens have been mostly aspect-corrected for Widescreen, and the game's main logo should no longer be stretched; because Petroglyph's website button requires some unmodifyable changes, while their and LucasArts' logos have been recreated as well, it will still be a little stretched horizontally. (BUG #451)
+• As apart of #442, extra debugging messages/info has been added to PGBase's <function Flush_G()>.
 
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
 • R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml.
-• Bossk's unit entries were headered as the IG-2000's unit data.
-• Thrawn's ability entries were headered as Captain Piett's abilities.
-• IG-2000's entry has been renamed to "IG2000."  The Galactic AI for what planet(s) heroes like to hang out on wouldn't parse when his entry was "IG-2000."
+• Fix Bossk's unit entries being headered as IG-2000's unit data.
+• Fix Thrawn's ability entries being headered as Captain Piett's abilities.
+• IG-2000's internal unit entry has been renamed to "IG2000."  The Galactic AI for what planet(s) heroes like to hang out on wouldn't parse when his entry was "IG-2000."
 • B-wings' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #353)
 • TIE defenders' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #355)
 • Skipray Blastboats' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #357)
-• Tyber Zann's main ion cannon was internally coded as a "special weapon" instead of an ion cannon.  There shouldn't be any forward-facing changes, except that his unit can now detect when his ion cannon fails, and can use VO for it. (BUG #259)
+• Tyber Zann's main ion cannon was internally coded as a "special weapon" instead of an ion cannon.  There shouldn't be any forward-facing changes, except that the game can now detect when his ion cannon fails, and can use VO for it. (BUG #259)
 • Thrawn's unused "political" unit that was supposed to replace Tarkin, Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, were both broken in odd ways.  The named hero wasn't linked to the Admonitor_Star_Destroyer unit entry, while the team only spawned/contained the Grand_Moff_Tarkin hero, among other issues.  This unit isn't currently used, but is now available should someone want to, or otherwise. (BUG #371)
-• AI plans for firing the Death Star wouldn't cancel for other factions than the Empire.  There shouldn't be forward-facing changes, as the Rebels and Consortium shouldn't have been using this plan anyway. (BUG #410)
+• AI plans for firing the Death Star wouldn't cancel for factions other than the Empire.  There shouldn't be forward-facing changes, as the Rebels and Consortium shouldn't have been using this plan anyway. (BUG #410)
 
 • The game's interface definitions (CommandBarComponents.xml) had multiple unused settings/tags that were removed before release.  These settings were throwing WARNINGS in the game's logging, so they have been removed.
 •• i_main_commandbar: "<Mega_Texture_Name>"
@@ -73,7 +73,7 @@ HOUSEKEEPING:
 •• b_fast_forward_t: "<Disabled_Darken>"
 
 MISC:
-• Disable game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
+• Disable the game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
 • Corulag and Kessel's space piracy missions no longer use IG-2000 placed directly on map, they now use a spawned in version of IG-2000 from a script.  This is to bugfix and future proof any changes needed to be made to IG-2000's entry in the future (as before, the reference was missing with #256).
 ======
 
@@ -90,7 +90,7 @@ Ability Fixes:
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
 • "SENSOR_JAMMING" for Bossk would prematurely stop rendering the blue jamming ring particles before the ability completed.  The ability was using its internally defined lifetime, instead of a lifetime overridden to be 30 seconds. (BUG #367)
 • Fix the Empire's and Rebels' Power Generators, and the Consortium's Palace, not applying their income debuff against the respective faction's mining facilities when destroyed, because the ability was targeted towards the wrong structure. (BUG #382)
-• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed entirely for balance, like other heroes with capital ships, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
+• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship that can nuke the battlefield, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability as a GC tile has been removed entirely for balance, like other heroes with capital ships, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
 
 
 AI Fixes:
@@ -100,7 +100,7 @@ AI Fixes:
 •• RaidPlan (Rebel AI raiding script) (BUG #69)
 •• DeathStarUsePlan (Empire AI script for exploding planets on the GC scale) (BUG #69)
 
-• During various AI considerations, the AI would exit out of many completely valid plans because they would only check if they applied toward the player.  In EaW, these plans would look for "REBEL" or "EMPIRE," as EaW was a 1v1 game in GC, so these plans would look for a "human" player for the AI so it doesn't waste its time on Neutral or Pirate ("speedbump") planets.  However, for FoC, it appears a Content Designer had the wrong idea, and changed these checks so the AI ONLY looks for human players, and tends to ignore the second AI player on the map (with the exception of the "Conquer Pirate" plan, which the 2 AI players used against each other).  The following equations have had their check for a "human" player removed (NOTE: These equations will be further updated to work more like they did in EaW for when the EaW GCs are re-enabled):
+• During various AI considerations, the AI would exit out of many valid plans because they would only check if they applied toward the player.  In EaW, these plans would look for "REBEL" or "EMPIRE," because EaW was a 1v1 game in GC and these plans would look for a "human" player for the AI so it doesn't waste its time on Neutral or Pirate ("speedbump") planets.  However, for FoC, it appears a Content Designer had the wrong idea, and changed these checks so the AI ONLY looks for human players, and tends to ignore the second AI player on the map (with the exception of the "Conquer Pirate" plan, which the 2 AI players used against each other).  This had the side effect of forcing the AI to only use abilities on the human player as well (Rebels would only raid the human, DS2 would only be used on player's planets, etc.).  The following equations have had their check for a "human" player removed (NOTE: These equations will be further updated to work more like they did in EaW for when the EaW GCs are re-enabled):
 •• (OffensiveGalaticEquations) Is_Good_Weaken_Target (Smuggler/Bounty Hunter use) (BUG #409)
 •• (OffensiveGalaticEquations) Want_To_Fire_DS (BUG #411)
 •• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (BUG #422)
