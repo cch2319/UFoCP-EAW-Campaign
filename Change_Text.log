@@ -522,6 +522,10 @@ International:
 	-- ENG: Rogue 10: Tarrub Datch --> Rogue 10: Tarrin Datch
 	-- GER: Rogue 10: Tarrub Datch --> Rogue 10: Tarrin Datch
 
+• TEXT_UNIT_VICTORY_DESTROYER (BUG #459)
+	-- ENG: Victory Cruiser --> Victory-class Cruiser
+	-- GER: N/A
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
