@@ -44,18 +44,18 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 
 
-v2.0.0.#### (##-##-2024) [FoC v1.121.]
+v2.0.0.#### (##-##-2025) [FoC v1.121.]
 ============================================
 
 Additions:
 • UFoCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak).
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	- A related change, the Noghri description changed for consistency (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
-		- ENG: ...They are fierce warriors and assassins. -> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
-		- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. -> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
+		- ENG: ...They are fierce warriors and assassins. --> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
+		- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. --> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
 	- In related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
-		- ENG: An indigenous unit enslaved to the will of the Zann Consortium -> This indigenous unit is enslaved to the will of the Zann Consortium.
-		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. -> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
+		- ENG: An indigenous unit enslaved to the will of the Zann Consortium --> This indigenous unit is enslaved to the will of the Zann Consortium.
+		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. --> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
 • Imperial technology tooltips now include what heroes the player recruits by upgrading their technology (TEXT_ENCYCLOPEDIA_TECH_UPGRADE_XX_RECRUITMENT). (BUG #369)
 • Fix Grand Admiral Thrawn having an unfinished/subpar unit description (TEXT_TOOLTIP_SD_ADMONITOR_02). (BUG #225)
 • Fix Captain Piett having an unfinished/subpar unit description (TEXT_TOOLTIP_PIETT_02). (BUG #227)
@@ -75,457 +75,461 @@ Housekeeping:
 
 
 International:
-• German localization, on occasion, used English names instead of German ones.  Despite much German Star Wars material sometimes using English naming, multiple things in-game that do have official German cognates didn't use them.  The Hound's Tooth wasn't "Reißzahn," the Merciless "Gnadenlos" nor the Accuser "Ankläger," and more.  Some instances have been swapped for their German cognate from Jedipedia, these changes are incomplete.
+• German localization, on occasion, used English names instead of German ones.  Despite much German Star Wars material sometimes using English naming, multiple things in-game that do have official German cognates didn't use them.  The Hound's Tooth wasn't "Reißzahn," the Merciless "Gnadenlos" nor the Accuser "Ankläger," and more.  Some instances have been swapped for their German cognate from Jedipedia, though these changes are incomplete.
 
 
 • MB_LAND_PLANET_ALZOCIII_INTIMIDATION: (BUG #278)
-	-- ENG: The food Commissioner is an important behind the scenes power broker on the Planet. ... -> The Food Commissioner is an important behind-the-scenes power broker on the planet. ...
+	-- ENG: The food Commissioner is an important behind the scenes power broker on the Planet. ... --> The Food Commissioner is an important behind-the-scenes power broker on the planet. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_ANAXES_INTIMIDATION: (BUG #279)
-	-- ENG: The fleet commander Flankar is located on Anaxes. ... -> Fleet Commander Flankar is located on Anaxes. ...
+	-- ENG: The fleet commander Flankar is located on Anaxes. ... --> Fleet Commander Flankar is located on Anaxes. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_BESTINE_INTIMIDATION: (BUG #280)
-	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. -> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
+	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. --> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
 	-- GER: N/A
 
 • MB_LAND_PLANET_BOTHAWUI_INTIMIDATION: (BUG #281)
-	-- ENG: Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui connected planets into the hands of the Zann Consortium. ... -> Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui-connected planets into the hands of the Zann Consortium. ...
+	-- ENG: Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui connected planets into the hands of the Zann Consortium. ... --> Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui-connected planets into the hands of the Zann Consortium. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_BYSS_KIDNAPPING: (BUG #282)
-	-- ENG: Byss, an extremely dangerous world, prized by the Emperor. Taking planetary governor Kirith can reap great rewards in credits. ... -> Byss, an extremely dangerous world, is prized by the emperor.  Kidnapping Planetary Governor Kirith can reap great rewards in credits. ...
+	-- ENG: Byss, an extremely dangerous world, prized by the Emperor. Taking planetary governor Kirith can reap great rewards in credits. ... --> Byss, an extremely dangerous world, is prized by the emperor.  Kidnapping Planetary Governor Kirith can reap great rewards in credits. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_MUUNILINST_KIDNAPPING: (BUG #283)
-	-- ENG: Chairman San Hill is the head of the Intergalactic Banking Clan on the planet. He must be acquired to further the Zann Consortium ends in this sector. ... -> Chairman San Hill is the head of the Intergalactic Banking Clan on the planet.  He must be acquired to further the Zann Consortium's ends in this sector. ...
+	-- ENG: Chairman San Hill is the head of the Intergalactic Banking Clan on the planet. He must be acquired to further the Zann Consortium ends in this sector. ... --> Chairman San Hill is the head of the Intergalactic Banking Clan on the planet.  He must be acquired to further the Zann Consortium's ends in this sector. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_NABOO_INTIMIDATION: (BUG #284)
-	-- ENG: We'll use intimidation on the Chairman of the Plasma Energy Trade commission. In this way the Consortium will have inroads into the most powerful group on the planet. ... -> We'll use intimidation on the Chairman of the Plasma Energy Trade Commission.  In this way, the Consortium will have inroads into the most powerful group on the planet. ...
+	-- ENG: We'll use intimidation on the Chairman of the Plasma Energy Trade commission. In this way the Consortium will have inroads into the most powerful group on the planet. ... --> We'll use intimidation on the Chairman of the Plasma Energy Trade Commission.  In this way, the Consortium will have inroads into the most powerful group on the planet. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_NALHUTTA_KIDNAPPING: (BUG #285)
-	-- ENG: Kidnapping the Space Port director will halt the flow of minerals to the moon of Nar Shaddaa. If the moon can't process those resources our enemies' ability to build warships will be drastically curtailed. ... -> Kidnapping the Space Port Director will halt the flow of minerals to the moon of Nar Shaddaa.  If the moon can't process those resources, our enemies' ability to build warships will be drastically curtailed. ...
+	-- ENG: Kidnapping the Space Port director will halt the flow of minerals to the moon of Nar Shaddaa. If the moon can't process those resources our enemies' ability to build warships will be drastically curtailed. ... --> Kidnapping the Space Port Director will halt the flow of minerals to the moon of Nar Shaddaa.  If the moon can't process those resources, our enemies' ability to build warships will be drastically curtailed. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_TARIS_INTIMIDATION: (BUG #286)
-	-- ENG: A Gungan Duelist named Twitch is the perfect target for intimidation. ... -> A Gungan duelist named "Twitch" is the perfect target for intimidation. ...
+	-- ENG: A Gungan Duelist named Twitch is the perfect target for intimidation. ... --> A Gungan duelist named "Twitch" is the perfect target for intimidation. ...
 	-- GER: N/A
 
 • MB_LAND_PLANET_UTAPAU_KIDNAPPING: (BUG #287)
-	-- ENG: The Fey Family has a long history of leadership on the planet. Taking someone like Garnak Fey shows the planet and the sector who they should really fear. ... -> The Fey family has a long history of leadership on the planet.  Kidnapping someone like Garnak Fey shows the planet and the sector who they should really fear. ...
+	-- ENG: The Fey Family has a long history of leadership on the planet. Taking someone like Garnak Fey shows the planet and the sector who they should really fear. ... --> The Fey family has a long history of leadership on the planet.  Kidnapping someone like Garnak Fey shows the planet and the sector who they should really fear. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_AETENII_PIRACY: (BUG #288)
-	-- ENG: Aeten II is known for its rare and dwindling supply Stygium Crystal deposits which are used in the construction of various ship based cloaking technologies. ... -> Aeten II is known for its rare and dwindling supply of stygium crystal deposits, which are used in the construction of various ship-based cloaking technologies. ...
+	-- ENG: Aeten II is known for its rare and dwindling supply Stygium Crystal deposits which are used in the construction of various ship based cloaking technologies. ... --> Aeten II is known for its rare and dwindling supply of stygium crystal deposits, which are used in the construction of various ship-based cloaking technologies. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_BESPIN_PIRACY: (BUG #289)
-	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
+	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. --> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
 	-- GER: N/A
 
 • MB_SPACE_PLANET_BESPIN_PIRACY_STORY: (BUG #289)
-	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. ... -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates. ...
+	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. ... --> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_CORELLIA_PIRACY: (BUG #290)
-	-- ENG: There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. ... -> There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet. ...
+	-- ENG: There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. ... --> There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_CORULAG_PIRACY: (BUG #291)
-	-- ENG: One of the most powerful planets in the Bormea Sector, its system wide riches are ripe for Piracy efforts. ... -> One of the most powerful planets in the Bormea Sector, its system-wide riches are ripe for piracy efforts. ...
+	-- ENG: One of the most powerful planets in the Bormea Sector, its system wide riches are ripe for Piracy efforts. ... --> One of the most powerful planets in the Bormea Sector, its system-wide riches are ripe for piracy efforts. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_FONDOR_PIRACY: (BUG #292)
-	-- ENG: Several space stations are orbiting Fondor. In destroying one of them, we establish the Zann Consortium presence on the nearby world. ... -> Several space stations are orbiting Fondor.  In destroying one of them, we establish the Zann Consortium's presence on the nearby world. ...
+	-- ENG: Several space stations are orbiting Fondor. In destroying one of them, we establish the Zann Consortium presence on the nearby world. ... --> Several space stations are orbiting Fondor.  In destroying one of them, we establish the Zann Consortium's presence on the nearby world. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_KESSEL_PIRACY: (BUG #293)
-	-- ENG: ...These satellites are weak to an assault by our Defilers. Controlling them will trick Consortium enemies into sending ships to Zann controlled docks. ... -> ...These satellites are weak to an assault by our fleet.  Controlling them will trick our enemies into sending ships to Consortium-controlled docks. ...
+	-- ENG: ...These satellites are weak to an assault by our Defilers. Controlling them will trick Consortium enemies into sending ships to Zann controlled docks. ... --> ...These satellites are weak to an assault by our fleet.  Controlling them will trick our enemies into sending ships to Consortium-controlled docks. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY: (BUG #294)
-	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. ... -> Piracy is going to be especially dangerous to set up around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
+	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. ... --> Piracy is going to be especially dangerous to set up around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY_STORY: (BUG #294)
-	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. . ... -> Piracy is going to be especially dangerous to set up around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
+	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. . ... --> Piracy is going to be especially dangerous to set up around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
 	-- GER: N/A
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE: (BUG #295)
-	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. ... -> Piracy is going to be especially dangerous to set up around Mandalore. ...
+	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. ... --> Piracy is going to be especially dangerous to set up around Mandalore. ...
 	-- GER: N/A
 
 • TEXT_BOMB_CLASS: (BUG #249)
-	-- ENG: Bomb -> Class: Bomb
-	-- GER: Bombe -> Klasse: Bombe
+	-- ENG: Bomb --> Class: Bomb
+	-- GER: Bombe --> Klasse: Bombe
 
 • TEXT_CORRUPTION_AETENII_STORY_PIRACY: (BUG #297)
-	-- ENG: Aeten II is known for its rare and dwindling supply Stygium Crystal deposits which are used in the construction of various ship based cloaking technologies. ... -> Aeten II is known for its rare and dwindling supply of stygium crystal deposits, which are used in the construction of various ship-based cloaking technologies. ...
+	-- ENG: Aeten II is known for its rare and dwindling supply Stygium Crystal deposits which are used in the construction of various ship based cloaking technologies. ... --> Aeten II is known for its rare and dwindling supply of stygium crystal deposits, which are used in the construction of various ship-based cloaking technologies. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_AETENII_STORY_RACKETEER: (BUG #298)
-	-- ENG: Stygium Crystal miners on Aeten II are wealthy and highly susceptible to rigged games of chance as well as the special entertainments the Zann Consortium can bring to the world. -> Stygium crystal miners on Aeten II are wealthy, and highly susceptible to rigged games of chance, as well as the special entertainment the Zann Consortium can bring to the world.
+	-- ENG: Stygium Crystal miners on Aeten II are wealthy and highly susceptible to rigged games of chance as well as the special entertainments the Zann Consortium can bring to the world. --> Stygium crystal miners on Aeten II are wealthy, and highly susceptible to rigged games of chance, as well as the special entertainment the Zann Consortium can bring to the world.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET: (BUG #299)
-	-- ENG: A Black Market organization on Alzoc III brings in important technologies in that section of space. The new ship specs from the Imperial and Rebel labs will greatly strengthen the Zann Consortium. -> A black market organization on Alzoc III brings in important technologies in that section of space.  The new ship specs from Imperial and Rebel labs will greatly strengthen the Zann Consortium.
+	-- ENG: A Black Market organization on Alzoc III brings in important technologies in that section of space. The new ship specs from the Imperial and Rebel labs will greatly strengthen the Zann Consortium. --> A black market organization on Alzoc III brings in important technologies in that section of space.  The new ship specs from Imperial and Rebel labs will greatly strengthen the Zann Consortium.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ALZOCIII_STORY_INTIMIDATION: (BUG #300)
-	-- ENG: The food Commissioner is an important behind the scenes power broker on the Planet. ... -> The Food Commissioner is an important behind-the-scenes power broker on the planet. ...
+	-- ENG: The food Commissioner is an important behind the scenes power broker on the Planet. ... --> The Food Commissioner is an important behind-the-scenes power broker on the planet. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ANAXES_STORY_BLACKMARKET: (BUG #301)
-	-- ENG: The Defender of the Core and its top of the line technology is a tough place to set up a Black Market, but if successful it will be well worth the trouble. -> The "Defender of the Core" and its top-of-the-line technology is a tough place to set up a black market, but if we're successful, it will be well worth the trouble.
+	-- ENG: The Defender of the Core and its top of the line technology is a tough place to set up a Black Market, but if successful it will be well worth the trouble. --> The "Defender of the Core" and its top-of-the-line technology is a tough place to set up a black market, but if we're successful, it will be well worth the trouble.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ANAXES_STORY_INTIMIDATION: (BUG #302)
-	-- ENG: The fleet commander Flankar is located on Anaxes. ... -> Fleet Commander Flankar is located on Anaxes. ...
+	-- ENG: The fleet commander Flankar is located on Anaxes. ... --> Fleet Commander Flankar is located on Anaxes. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET: (BUG #303)
-	-- ENG: The marketplaces of Atzerri are almost ready-made for Consortium Black Markets ... -> The marketplaces of Atzerri are almost ready-made for the Consortium's black markets ...
+	-- ENG: The marketplaces of Atzerri are almost ready-made for Consortium Black Markets ... --> The marketplaces of Atzerri are almost ready-made for the Consortium's black markets ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER: (BUG #304)
-	-- ENG: With the planet already seeded in racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win/win situation. -> With the planet already seeded with racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win-win situation.
+	-- ENG: With the planet already seeded in racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win/win situation. --> With the planet already seeded with racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win-win situation.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BESPIN_STORY_PIRACY: (BUG #305)
-	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
+	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. --> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BESPIN_STORY_RACKETEER: (BUG #306)
-	-- ENG: The potential targets for Racketeering are all clustered on one level of the Bespin gas giant. The cloud city metropolis is a perfect  target for our consortium. -> The potential targets for racketeering are all clustered at one location on the Bespin gas giant.  Cloud City's metropolis is a perfect target for our consortium.
+	-- ENG: The potential targets for Racketeering are all clustered on one level of the Bespin gas giant. The cloud city metropolis is a perfect  target for our consortium. --> The potential targets for racketeering are all clustered at one location on the Bespin gas giant.  Cloud City's metropolis is a perfect target for our consortium.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BESTINE_STORY_BLACKMARKET: (BUG #307)
-	-- ENG: The on-planet ship yards are a virtual mine of technology, making a black market set up ideal on the planet. -> The on-planet shipyards are virtual mines of technology, making a black market setup ideal on this planet.
+	-- ENG: The on-planet ship yards are a virtual mine of technology, making a black market set up ideal on the planet. --> The on-planet shipyards are virtual mines of technology, making a black market setup ideal on this planet.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BESTINE_STORY_KIDNAP: (BUG #308)
-	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping  commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. -> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
+	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping  commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. --> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BONADAN_STORY_BLACKMARKET: (BUG #309)
-	-- ENG: This highly populated Corporate Sector world will be an ideal place to hide a Black Market right under the noses of the authorities. -> This highly-populated Corporate Sector world will be an ideal place to hide a black market right under the noses of the authorities.
+	-- ENG: This highly populated Corporate Sector world will be an ideal place to hide a Black Market right under the noses of the authorities. --> This highly-populated Corporate Sector world will be an ideal place to hide a black market right under the noses of the authorities.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BONADAN_STORY_CORUPTMILITIA: (BUG #310)
-	-- ENG: On Bonadan they have odd rules about carrying weapons, making the corruption of their Militia a useful priority for the Zann Consortium. ... -> On Bonadan they have odd rules about carrying weapons, making the corruption of their militia a useful priority for the Zann Consortium. ...
+	-- ENG: On Bonadan they have odd rules about carrying weapons, making the corruption of their Militia a useful priority for the Zann Consortium. ... --> On Bonadan they have odd rules about carrying weapons, making the corruption of their militia a useful priority for the Zann Consortium. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BONADAN_STORY_RACKETEER: (BUG #311)
-	-- ENG: ...The Zann Consortium has the resources to bring in many different styles of mind numbing activities to part the miners from their credits. -> ...The Zann Consortium has the resources to bring in many different styles of mind-numbing activities to part the miners from their credits.
+	-- ENG: ...The Zann Consortium has the resources to bring in many different styles of mind numbing activities to part the miners from their credits. --> ...The Zann Consortium has the resources to bring in many different styles of mind-numbing activities to part the miners from their credits.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BOTHAWUI_STORY_BLACKMARKET: (BUG #312)
-	-- ENG: The Bothans' neutrality will allow us to set up a Black Market without the usual obstacles found on Imperial and Alliance-controlled planets. -> The Bothans' neutrality will allow us to set up a black market without the usual obstacles found on Imperial and Alliance-controlled planets.
+	-- ENG: The Bothans' neutrality will allow us to set up a Black Market without the usual obstacles found on Imperial and Alliance-controlled planets. --> The Bothans' neutrality will allow us to set up a black market without the usual obstacles found on Imperial and Alliance-controlled planets.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BOTHAWUI_STORY_INTIMIDATION: (BUG #313)
-	-- ENG: Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui connected planets into the hands of the Zann Consortium. -> Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui-connected planets into the hands of the Zann Consortium.
+	-- ENG: Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui connected planets into the hands of the Zann Consortium. --> Intimidating Galactic Senator Polo Se'Lab puts important information and the political power of many Bothawui-connected planets into the hands of the Zann Consortium.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_BYSS_STORY_KIDNAP: (BUG #314)
-	-- ENG: Byss, an extremely dangerous world, prized by the Emperor. Taking planetary governor Kirith can reap great rewards in credits. -> Byss, an extremely dangerous world, is prized by the emperor.  Kidnapping Planetary Governor Kirith can reap great rewards in credits.
+	-- ENG: Byss, an extremely dangerous world, prized by the Emperor. Taking planetary governor Kirith can reap great rewards in credits. --> Byss, an extremely dangerous world, is prized by the emperor.  Kidnapping Planetary Governor Kirith can reap great rewards in credits.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET: (BUG #315)
-	-- ENG: Connecting into the Black Market of Carida gains us great power and prestige as well as new Imperial technology for our units. -> Connecting into the black markets of Carida gains us great power and prestige, as well as new Imperial and Alliance technology for our units.
+	-- ENG: Connecting into the Black Market of Carida gains us great power and prestige as well as new Imperial technology for our units. --> Connecting into the black markets of Carida gains us great power and prestige, as well as new Imperial and Alliance technology for our units.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_CORELLIA_STORY_PIRACY: (BUG #316)
-	-- ENG: There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. ... -> There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet. ...
+	-- ENG: There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. ... --> There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_CORULAG_STORY_PIRACY: (BUG #317)
-	-- ENG: One of the most powerful planets in the Bormea Sector, its system wide riches are ripe for Piracy efforts. -> One of the most powerful planets in the Bormea Sector, its system-wide riches are ripe for piracy efforts.
+	-- ENG: One of the most powerful planets in the Bormea Sector, its system wide riches are ripe for Piracy efforts. --> One of the most powerful planets in the Bormea Sector, its system-wide riches are ripe for piracy efforts.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_DANTOOINE_STORY_BRIBERY: (BUG #318)
-	-- ENG: The farmers of Dantooine are linked into a world wide farm cooperative. ... -> The farmers of Dantooine are linked into a world-wide farm cooperative. ...
+	-- ENG: The farmers of Dantooine are linked into a world wide farm cooperative. ... --> The farmers of Dantooine are linked into a world-wide farm cooperative. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_DATHOMIR_STORY_RACKETEER: (BUG #319)
-	-- ENG: While the Witches of Dathomir are resistant to corruption, their Imperial guards aren't. ... -> While the Witches of Dathomir are resistant to corruption, the occupying forces guarding them aren't. ...
+	-- ENG: While the Witches of Dathomir are resistant to corruption, their Imperial guards aren't. ... --> While the Witches of Dathomir are resistant to corruption, the occupying forces guarding them aren't. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ENDOR_STORY_BONDEDCITIZENS: (BUG #320)
-	-- ENG: ... Ewoks make more effective weapons when they are gripped by fear...and strapped to a very large explosive. ... -> ... Ewoks make more effective weapons when they are gripped by fear... And strapped to a very large explosive. ...
+	-- ENG: ... Ewoks make more effective weapons when they are gripped by fear...and strapped to a very large explosive. ... --> ... Ewoks make more effective weapons when they are gripped by fear... And strapped to a very large explosive. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ERIADU_STORY_BLACKMARKET: (BUG #321)
-	-- ENG: Because Eriadu is on so many star trading lanes it's perfectly set up for Black Markets to be established on the moons and outer reaches of the capital world. -> Because Eriadu is on so many star trading lanes, it's perfectly setup for black markets to be established on the moons and outer reaches of the capital world.
+	-- ENG: Because Eriadu is on so many star trading lanes it's perfectly set up for Black Markets to be established on the moons and outer reaches of the capital world. --> Because Eriadu is on so many star trading lanes, it's perfectly setup for black markets to be established on the moons and outer reaches of the capital world.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ERIADU_STORY_RACKETEER: (BUG #322)
-	-- ENG: The orbital habitats of Eriadu are perfect for racketeering organizations that can take advantage of the habitats isolated status. -> The orbital habitats of Eriadu are perfect for racketeering organizations that can take advantage of the habitats' isolated status.
+	-- ENG: The orbital habitats of Eriadu are perfect for racketeering organizations that can take advantage of the habitats isolated status. --> The orbital habitats of Eriadu are perfect for racketeering organizations that can take advantage of the habitats' isolated status.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_FELUCIA_STORY_RACKETEER: (BUG #323)
-	-- ENG: Only a successful infiltration of the Jiaozi facility will adequately allow the Consortium to set up the type of Racketeering organization Felucia needs. -> Only a successful infiltration of the Jiaozi metropolis' water distribution facilities will adequately allow the Consortium to set up the type of racketeering organization Felucia needs.
+	-- ENG: Only a successful infiltration of the Jiaozi facility will adequately allow the Consortium to set up the type of Racketeering organization Felucia needs. --> Only a successful infiltration of the Jiaozi metropolis' water distribution facilities will adequately allow the Consortium to set up the type of racketeering organization Felucia needs.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_FONDOR_STORY_PIRACY: (BUG #324)
-	-- ENG: ... In destroying one of them, we establish the Zann Consortium presence on the nearby world. -> ... In destroying one of them, we establish the Zann Consortium's presence on the nearby world.
+	-- ENG: ... In destroying one of them, we establish the Zann Consortium presence on the nearby world. --> ... In destroying one of them, we establish the Zann Consortium's presence on the nearby world.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_FRESIA_STORY_BRIBERY: (BUG #325)
-	-- ENG: In bribing the president of the Incom Corporation, a great deal of political and technological power falls into the Zann Consortium hands. -> In bribing the President of the Incom Corporation, a great deal of political and technological power falls into the Zann Consortium's hands.
+	-- ENG: In bribing the president of the Incom Corporation, a great deal of political and technological power falls into the Zann Consortium hands. --> In bribing the President of the Incom Corporation, a great deal of political and technological power falls into the Zann Consortium's hands.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_GEONOSIS_STORY_BONDEDCITIZENS: (BUG #326)
-	-- ENG: The people are weak on Geonosis and enslaving them greatly aids the Zann Consortium. -> The insect-like Geonosians are weak, but are also efficient drone workers and warriors.  Enslaving them not only grants us access to their sonic weaponry, but also to hordes of cannon fodder.
+	-- ENG: The people are weak on Geonosis and enslaving them greatly aids the Zann Consortium. --> The insect-like Geonosians are weak, but are also efficient drone workers and warriors.  Enslaving them not only grants us access to their sonic weaponry, but also to hordes of cannon fodder.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_GEONOSIS_STORY_CORUPTMILITIA: (BUG #327)
-	-- ENG: The planet is famous for battle droids and corrupting its militia allows the Zann forces to bring these droids under our control. -> Geonosis is infamous for the Separatists' battle droids.  Corrupting this planet's militia brings these relics from the Clone Wars under the Consortium's control.
+	-- ENG: The planet is famous for battle droids and corrupting its militia allows the Zann forces to bring these droids under our control. --> Geonosis is infamous for the Separatists' battle droids.  Corrupting this planet's militia brings these relics from the Clone Wars under the Consortium's control.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_HOTH_STORY_RACKETEER: (BUG #328)
-	-- ENG: An ice world, Racketeering organizations on this planet will have far reaching influence among the Rebel forces. -> While mostly desolate, racketeering will be especially lucrative.  We'll sell the rare creatures of this world for large sums in poaching rings, while draining the occupying forces of their credits through the Consortium's special entertainment.
+	-- ENG: An ice world, Racketeering organizations on this planet will have far reaching influence among the Rebel forces. --> While mostly desolate, racketeering will be especially lucrative.  We'll sell the rare creatures of this world for large sums in poaching rings, while draining the occupying forces of their credits through the Consortium's special entertainment.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_ILUM_STORY_BRIBERY: (BUG #329)
-	-- ENG: A thinly populated world filled with ice caves, bribing members of the population could reveal many Jedi secrets about the planet's Adegan Crystals. -> A thinly-populated world filled with ice caves, bribing members of the population could reveal many Jedi secrets about the planet's Adegan crystals.
+	-- ENG: A thinly populated world filled with ice caves, bribing members of the population could reveal many Jedi secrets about the planet's Adegan Crystals. --> A thinly-populated world filled with ice caves, bribing members of the population could reveal many Jedi secrets about the planet's Adegan crystals.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_JABIIM_STORY_RACKETEER: (BUG #330)
-	-- ENG: ...This factor alone should make Zann Consortium plans unfold quicker in this part of the galaxy. -> ... This factor alone should make the Zann Consortium's plans unfold quicker in this part of the galaxy.
+	-- ENG: ...This factor alone should make Zann Consortium plans unfold quicker in this part of the galaxy. --> ... This factor alone should make the Zann Consortium's plans unfold quicker in this part of the galaxy.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_KAMINO_STORY_BLACKMARKET: (BUG #331)
-	-- ENG: The Kaminoans are expert in the art of cloning. Establishing a black market on this world can reveal a great deal about the Empire. -> The Kaminoans are experts in the art of cloning.  Establishing a black market on this world can reveal a great deal about their affiliations.
+	-- ENG: The Kaminoans are expert in the art of cloning. Establishing a black market on this world can reveal a great deal about the Empire. --> The Kaminoans are experts in the art of cloning.  Establishing a black market on this world can reveal a great deal about their affiliations.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_KESSEL_STORY_PIRACY: (BUG #332)
-	-- ENG: ...These satellites are weak to an assault by our Defilers. Controlling them will trick Consortium enemies into sending ships to Zann controlled docks. ... -> ...These satellites are weak to an assault by our fleet.  Controlling them will trick our enemies into sending ships to Consortium-controlled docks. ...
+	-- ENG: ...These satellites are weak to an assault by our Defilers. Controlling them will trick Consortium enemies into sending ships to Zann controlled docks. ... --> ...These satellites are weak to an assault by our fleet.  Controlling them will trick our enemies into sending ships to Consortium-controlled docks. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_KIDNAPPING_BENEFIT: (BUG #333)
-	-- ENG: BENEFITS: The one-time credit bonus will go toward building up the Consortium fleets. Knowledge from the victim will allow other chances at bribery on nearby inhabited systems. (Required for Bribery) -> The victim's ransom grants a one-time credit bonus that will go toward building up the Consortium's fleets.  Knowledge from the victim will allow other chances at bribery in nearby inhabited systems.  (Required for Bribery)
+	-- ENG: BENEFITS: The one-time credit bonus will go toward building up the Consortium fleets. Knowledge from the victim will allow other chances at bribery on nearby inhabited systems. (Required for Bribery) --> The victim's ransom grants a one-time credit bonus that will go toward building up the Consortium's fleets.  Knowledge from the victim will allow other chances at bribery in nearby inhabited systems.  (Required for Bribery)
 	-- GER: N/A
 
 • TEXT_CORRUPTION_KIDNAPPING_ENCYCLOPEDIA: (BUG #334)
-	-- ENG: This mission requires the Zann Consortium to initiate land tactical combat on the planet to find and kidnap a high ranking member of society. -> This mission requires the Zann Consortium to initiate land tactical combat on the planet to find and kidnap a high-ranking member of society.
+	-- ENG: This mission requires the Zann Consortium to initiate land tactical combat on the planet to find and kidnap a high ranking member of society. --> This mission requires the Zann Consortium to initiate land tactical combat on the planet to find and kidnap a high-ranking member of society.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_MANDALORE_STORY_PIRACY: (BUG #335)
-	-- ENG: ... Tyber Zann will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. -> ... Tyber Zann will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader.
+	-- ENG: ... Tyber Zann will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. --> ... Tyber Zann will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_MUSTAFAR_STORY_CORUPTMILITIA: (BUG #336)
-	-- ENG: The planet is too important not to control.  Corrupting the militia is the best way to move Consortium plans forward. -> The planet is too important not to control.  Corrupting the militia is the best way to move the Consortium's plans forward.
+	-- ENG: The planet is too important not to control.  Corrupting the militia is the best way to move Consortium plans forward. --> The planet is too important not to control.  Corrupting the militia is the best way to move the Consortium's plans forward.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_NABOO_STORY_INTIMIDATION: (BUG #337)
-	-- ENG: We'll use intimidation on the Chairman of the Plasma Energy Trade commission. In this way the Consortium will have inroads into the most powerful group on the planet. -> We'll use intimidation on the Chairman of the Plasma Energy Trade Commission.  In this way, the Consortium will have inroads into the most powerful group on the planet.
+	-- ENG: We'll use intimidation on the Chairman of the Plasma Energy Trade commission. In this way the Consortium will have inroads into the most powerful group on the planet. --> We'll use intimidation on the Chairman of the Plasma Energy Trade Commission.  In this way, the Consortium will have inroads into the most powerful group on the planet.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_NALHUTTA_STORY_BLACKMARKET: (BUG #338)
-	-- ENG: The Hutt organization is rife with jealousy and politics. The Zann Consortium can easily set up a Black Market pulling data from Rebel and Imperial technologies. -> The Hutt organization is rife with jealousy and politics.  The Zann Consortium can easily set up a black market pulling data from Rebel and Imperial technologies.
+	-- ENG: The Hutt organization is rife with jealousy and politics. The Zann Consortium can easily set up a Black Market pulling data from Rebel and Imperial technologies. --> The Hutt organization is rife with jealousy and politics.  The Zann Consortium can easily set up a black market pulling data from Rebel and Imperial technologies.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_NALHUTTA_STORY_KIDNAP: (BUG #339)
-	-- ENG: Kidnapping the Space Port director will halt the flow of minerals to the moon of Nar Shaddaa. If the moon can't process those resources our enemies' ability to build warships will be drastically curtailed. -> Kidnapping the Space Port Director will halt the flow of minerals to the moon of Nar Shaddaa.  If the moon can't process those resources, our enemies' ability to build warships will be drastically curtailed.
+	-- ENG: Kidnapping the Space Port director will halt the flow of minerals to the moon of Nar Shaddaa. If the moon can't process those resources our enemies' ability to build warships will be drastically curtailed. --> Kidnapping the Space Port Director will halt the flow of minerals to the moon of Nar Shaddaa.  If the moon can't process those resources, our enemies' ability to build warships will be drastically curtailed.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_PIRACY_BENEFIT: (BUG #340)
-	-- ENG: ...The Consortium also gains access to specific enemy ship types that vary per piracy ring. ... -> ...The Consortium also gains access to specific enemy ship types that vary per-piracy-ring. ...
+	-- ENG: ...The Consortium also gains access to specific enemy ship types that vary per piracy ring. ... --> ...The Consortium also gains access to specific enemy ship types that vary per-piracy-ring. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET: (BUG #341)
-	-- ENG: ...getting them to look the other way when we set up a Black Market shouldn't be too hard. -> ...getting them to look the other way when we set up a black market shouldn't be too hard.
+	-- ENG: ...getting them to look the other way when we set up a Black Market shouldn't be too hard. --> ...getting them to look the other way when we set up a black market shouldn't be too hard.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA: (BUG #342)
-	-- ENG: The mission requires a Defiler to set up gambling complexes all over the planet. -> This mission requires a Defiler to infiltrate a planet and set up racketeering organizations.  The Consortium will gain passive income from gambling complexes, salvaging, smuggling, trafficking, social manipulation or animal poaching rings.
-	-- GER: Dieser Einsatz erfordert einen Verderber, um den gesamten Planeten mit Spielhöllen zu überziehen. -> In dieser Einsatz muss ein Verderber einen Planeten infiltrieren und ihn mit organisiertem Verbrechen überziehen. Das Zann-Konsortium verdient passives Einkommen durch Spielhöllen, Wrackbergung, Schmuggel, Schwarzmarkthandel, soziale Manipulation oder Tierwilderei.
+	-- ENG: The mission requires a Defiler to set up gambling complexes all over the planet. --> This mission requires a Defiler to infiltrate a planet and set up racketeering organizations.  The Consortium will gain passive income from gambling complexes, salvaging, smuggling, trafficking, social manipulation or animal poaching rings.
+	-- GER: Dieser Einsatz erfordert einen Verderber, um den gesamten Planeten mit Spielhöllen zu überziehen. --> In dieser Einsatz muss ein Verderber einen Planeten infiltrieren und ihn mit organisiertem Verbrechen überziehen. Das Zann-Konsortium verdient passives Einkommen durch Spielhöllen, Wrackbergung, Schmuggel, Schwarzmarkthandel, soziale Manipulation oder Tierwilderei.
 
 • TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER: (BUG #343)
-	-- ENG: ...Once set up, they will be self maintaining and provide huge credit totals for use by the Zann Consortium. -> Once set up, they will be self-maintaining, and provide huge credit totals for use by the Zann Consortium.
+	-- ENG: ...Once set up, they will be self maintaining and provide huge credit totals for use by the Zann Consortium. --> Once set up, they will be self-maintaining, and provide huge credit totals for use by the Zann Consortium.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_TARIS_STORY_INTIMIDATION: (BUG #345)
-	-- ENG: A Gungan Duelist named Twitch is the perfect target for intimidation. ... -> A Gungan duelist named "Twitch" is the perfect target for intimidation. ...
+	-- ENG: A Gungan Duelist named Twitch is the perfect target for intimidation. ... --> A Gungan duelist named "Twitch" is the perfect target for intimidation. ...
 	-- GER: N/A
 
 • TEXT_CORRUPTION_TATOOINE_STORY_BLACKMARKET: (BUG #346)
-	-- ENG: Jabba's Palace is already set up to support a Black Market so our efforts should be easy on this world. -> Jabba's Palace is already set up to support a black market, so our efforts should be easy on this world.
+	-- ENG: Jabba's Palace is already set up to support a Black Market so our efforts should be easy on this world. --> Jabba's Palace is already set up to support a black market, so our efforts should be easy on this world.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP: (BUG #347)
-	-- ENG: The Fey Family has a long history of leadership on the planet. Taking someone like Garnak Fey shows the planet and the sector who really to fear. -> The Fey family has a long history of leadership on the planet.  Kidnapping someone like Garnak Fey shows the planet and the sector who really to fear.
+	-- ENG: The Fey Family has a long history of leadership on the planet. Taking someone like Garnak Fey shows the planet and the sector who really to fear. --> The Fey family has a long history of leadership on the planet.  Kidnapping someone like Garnak Fey shows the planet and the sector who really to fear.
 	-- GER: N/A
 
 • TEXT_CORRUPTION_YAVIN_STORY_BRIBERY: (BUG #348)
-	-- ENG: There are powerful Rebel forces on and around Yavin 4 that can be bribed to gain knowledge of their movements in the sector. -> There are powerful forces on and around Yavin 4 that can be bribed to gain knowledge of their movements in the sector.
+	-- ENG: There are powerful Rebel forces on and around Yavin 4 that can be bribed to gain knowledge of their movements in the sector. --> There are powerful forces on and around Yavin 4 that can be bribed to gain knowledge of their movements in the sector.
 	-- GER: N/A
 
 • TEXT_ENCYCLOPEDIA_ANIMAL_NEST: (BUG #391)
-	-- ENG: Animal Nest -> Class: Animal Nest
-	-- GER: Tiernest -> Klasse: Tiernest
+	-- ENG: Animal Nest --> Class: Animal Nest
+	-- GER: Tiernest --> Klasse: Tiernest
 
 • TEXT_ENCYCLOPEDIA_CLASS_DUELIST: (BUG #392)
-	-- ENG: Gungan Duelist -> Class: Duelist
-	-- GER: Gunganer-Duellant -> Klasse: Duellant
+	-- ENG: Gungan Duelist --> Class: Duelist
+	-- GER: Gunganer-Duellant --> Klasse: Duellant
 
 • TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON: (BUG #257)
-	-- ENG: Fighter Squadron -> Class: Fighter Squadron
-	-- GER: Jägergeschwader -> Klasse: Jägergeschwader
+	-- ENG: Fighter Squadron --> Class: Fighter Squadron
+	-- GER: Jägergeschwader --> Klasse: Jägergeschwader
 
 • TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01: (BUG #369)
-	-- ENG: Allows Production (with pre-requisites) of: Heavy Vehicle Factory, SPMA-T, TIE mauler, TIE bomber, Broadside-class Cruiser, Upgrade to Tech Level 2 -> Allows production (with prerequisites) of: Barracks, Light Vehicle Factory, Mining Facility, Officer Academy, Research Facility, Imperial Field Commander, basic Imperial Light Infantry and Vehicles, Imperial Space Station Lv. 1, basic Imperial Light Cruisers, Imperial Fleet Commander, Probe Droids, and an Upgrade to Tech Level 2.
-	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwere Fahrzeugfabrik, SPMA-T, TIE-Mauler, TIE-Bomber, Kreuzer der Broadside-Klasse, Aufrüstung auf Tech-Stufe 2 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Kaserne, Leichte Fabrik, Mine, Offiziersakademie, Forschungseinrichtung, Feldkommandeur, einfache imperiale Leichte Infanterie und Fahrzeuge, Raumstation des Imperiums Stufe 1, leichte Kreuzer der imperialen Grundflotte, Flottenkommandeur, Suchdroide, und Aufrüstung auf Tech-Stufe 2.
+	-- ENG: Allows Production (with pre-requisites) of: Heavy Vehicle Factory, SPMA-T, TIE mauler, TIE bomber, Broadside-class Cruiser, Upgrade to Tech Level 2 --> Allows production (with prerequisites) of: Barracks, Light Vehicle Factory, Mining Facility, Officer Academy, Research Facility, Imperial Field Commander, basic Imperial Light Infantry and Vehicles, Imperial Space Station Lv. 1, basic Imperial Light Cruisers, Imperial Fleet Commander, Probe Droids, and an Upgrade to Tech Level 2.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwere Fahrzeugfabrik, SPMA-T, TIE-Mauler, TIE-Bomber, Kreuzer der Broadside-Klasse, Aufrüstung auf Tech-Stufe 2 --> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Kaserne, Leichte Fabrik, Mine, Offiziersakademie, Forschungseinrichtung, Feldkommandeur, einfache imperiale Leichte Infanterie und Fahrzeuge, Raumstation des Imperiums Stufe 1, leichte Kreuzer der imperialen Grundflotte, Flottenkommandeur, Suchdroide, und Aufrüstung auf Tech-Stufe 2.
 
 • TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02: (BUG #369)
-	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 3, Victory-class Star Destroyer, Heavy Vehicle Factory, Base Shield Generator, Magnapulse Cannon, Turbolaser Tower, SPMA-T Upgrade to Tech Level 3 -> Allows production (with prerequisites) of: Imperial Space Station Lv. 3, Victory-class Cruiser, Base Shield Generator, Heavy Vehicle Factory, Magnapulse Cannon, Turbolaser Tower Defenses, 2-M Repulsor Tanks, SPMA-T, and an Upgrade to Tech Level 3.
-	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Sternenzerstörer der Victory-Klasse, Schwere Fahrzeugfabrik, Stützpunktschildgenerator, Magnetpuls-Geschütz, Turbolaser-Turm, SPMA-T, Aufrüstung auf Tech-Stufe 3 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Victory-Kreuzer, Schildgenerator, Schwere Fabrik, Magnetpulsgeschütz, Turbolaserturm-Verteidigung, Repulsor-Panzer 2-M, SPMA-T-Kampfläufer, und Aufrüstung auf Tech-Stufe 3.
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 3, Victory-class Star Destroyer, Heavy Vehicle Factory, Base Shield Generator, Magnapulse Cannon, Turbolaser Tower, SPMA-T Upgrade to Tech Level 3 --> Allows production (with prerequisites) of: Imperial Space Station Lv. 3, Victory-class Cruiser, Base Shield Generator, Heavy Vehicle Factory, Magnapulse Cannon, Turbolaser Tower Defenses, 2-M Repulsor Tanks, SPMA-T, and an Upgrade to Tech Level 3.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Sternenzerstörer der Victory-Klasse, Schwere Fahrzeugfabrik, Stützpunktschildgenerator, Magnetpuls-Geschütz, Turbolaser-Turm, SPMA-T, Aufrüstung auf Tech-Stufe 3 --> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Victory-Kreuzer, Schildgenerator, Schwere Fabrik, Magnetpulsgeschütz, Turbolaserturm-Verteidigung, Repulsor-Panzer 2-M, SPMA-T-Kampfläufer, und Aufrüstung auf Tech-Stufe 3.
 
 • TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03: (BUG #369)
-	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4 -> Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaught transport, and an Upgrade to Tech Level 4.
-	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Hyper-V-Geschütz, Mine, Verbesserte Fabrik, Repulsor-Panzer 2-M, AT-AT-Kampfläufer, Aufrüstung auf Tech-Stufe 4 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Verbesserte Fabrik, Hyper-V-Geschütz, AT-AT-Kampfläufer, Juggernaut HAVt B5, und Aufrüstung auf Tech-Stufe 4.
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4 --> Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaught transport, and an Upgrade to Tech Level 4.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Hyper-V-Geschütz, Mine, Verbesserte Fabrik, Repulsor-Panzer 2-M, AT-AT-Kampfläufer, Aufrüstung auf Tech-Stufe 4 --> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Verbesserte Fabrik, Hyper-V-Geschütz, AT-AT-Kampfläufer, Juggernaut HAVt B5, und Aufrüstung auf Tech-Stufe 4.
 
 • TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04: (BUG #369)
-	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5 -> Allows production (with prerequisites) of: Gravity Well Station, Imperial Space Station Lv. 5, Imperial Star Destroyer, Interdictor Cruiser, TIE phantom, AT-AA Walker, Dark Trooper Phase I and II, Lancet Air Wing, and an Upgrade to Tech Level 5.
-	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 5, Schwerkraftsteuerung, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, Repulsorlift-Störer, AT-AA-Kampfläufer, Aufrüstung auf Tech-Stufe 5 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwerkraftsteuerung, Raumstation des Imperiums Stufe 5, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, TIE-Phantom, AT-AA-Kampfläufer, Dunkle Truppe Phase I und II, Lancet-Flugartillerie, und Aufrüstung auf Tech-Stufe 5.
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5 --> Allows production (with prerequisites) of: Gravity Well Station, Imperial Space Station Lv. 5, Imperial Star Destroyer, Interdictor Cruiser, TIE phantom, AT-AA Walker, Dark Trooper Phase I and II, Lancet Air Wing, and an Upgrade to Tech Level 5.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 5, Schwerkraftsteuerung, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, Repulsorlift-Störer, AT-AA-Kampfläufer, Aufrüstung auf Tech-Stufe 5 --> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwerkraftsteuerung, Raumstation des Imperiums Stufe 5, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, TIE-Phantom, AT-AA-Kampfläufer, Dunkle Truppe Phase I und II, Lancet-Flugartillerie, und Aufrüstung auf Tech-Stufe 5.
 
 • TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05: (BUG #369)
-	-- ENG: Allows Production (with pre-requisites) of: The Death Star -> Allows production (with prerequisites) of: the Death Star II, the Executor Super Star Destroyer, TIE defender, and the Dark Trooper Phase III.
-	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion des Todessterns -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: der Todesstern II, der Super-Sternenzerstörer Exekutor, TIE-Defender, und Dunkle Truppe Phase III.
+	-- ENG: Allows Production (with pre-requisites) of: The Death Star --> Allows production (with prerequisites) of: the Death Star II, the Executor Super Star Destroyer, TIE defender, and the Dark Trooper Phase III.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion des Todessterns --> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: der Todesstern II, der Super-Sternenzerstörer Exekutor, TIE-Defender, und Dunkle Truppe Phase III.
 
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
-	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
-	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Keldabe-Klasse).
+	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). --> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
+	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). --> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Keldabe-Klasse).
 
 • TEXT_PLANET_HYPORI_ENCYC/TEXT_PLANET_HYPORI_INFO_TAC: (BUG #216)
-	-- ENG: Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build -> Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
-	-- GER: Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit. -> Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit (Dunklen Truppe und Zerstörerdroiden sind ausgeschlossen).
+	-- ENG: Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build --> Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
+	-- GER: Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit. --> Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit (Dunklen Truppe und Zerstörerdroiden sind ausgeschlossen).
 
 • TEXT_PROXIMITY_MINE: (BUG #248)
-	-- ENG: Proximity mine -> Proximity Mine
+	-- ENG: Proximity mine --> Proximity Mine
 	-- GER: N/A
 
 • TEXT_PROXIMITY_MINE_DESC: (BUG #250)
-	-- ENG: Causes a lot of damage if a unit gets too close. -> Proximity mines are a silent and powerful trap that causes immense damage to infantry and light vehicles within its explosion radius.
-	-- GER: Richtet jede Menge Schaden an, wenn eine Einheit ihr zu nahe kommt. -> Annäherungsminen sind leise und mächtige Fallen, die der Infanterie und leichten Fahrzeugen in ihrem Explosionsradius immensen Schaden zufügen.
+	-- ENG: Causes a lot of damage if a unit gets too close. --> Proximity mines are a silent and powerful trap that causes immense damage to infantry and light vehicles within its explosion radius.
+	-- GER: Richtet jede Menge Schaden an, wenn eine Einheit ihr zu nahe kommt. --> Annäherungsminen sind leise und mächtige Fallen, die der Infanterie und leichten Fahrzeugen in ihrem Explosionsradius immensen Schaden zufügen.
 
 • TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
-	-- ENG: Garm Bel Iblis -> The Gargantuan - Garm Bel Iblis
-	-- GER: Garm Bel Iblis -> Der Gargantuaner - Garm Bel Iblis
+	-- ENG: Garm Bel Iblis --> The Gargantuan - Garm Bel Iblis
+	-- GER: Garm Bel Iblis --> Der Gargantuaner - Garm Bel Iblis
 
 • TEXT_HERO_GENERAL_VEERS_02/TEXT_HERO_VEERS_TEAM: (BUG #48)
-	-- ENG: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
-	-- GER: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
+	-- ENG: General Maximilian Veers --> Blizzard 1 - General Maximilian Veers
+	-- GER: General Maximilian Veers --> Blizzard 1 - General Maximilian Veers
 
 • TEXT_HERO_PEACEBRINGER: (BUG #193)
-	-- ENG: The Merciless -> The Merciless - Tyber Zann
-	-- GER: Die Merciless -> Die Gnadenlos - Tyber Zann
+	-- ENG: The Merciless --> The Merciless - Tyber Zann
+	-- GER: Die Merciless --> Die Gnadenlos - Tyber Zann
 
 • TEXT_SPEECH_ABREGADORAE_BRB_VICTORY_COR01_01: (BUG #363)
-	-- ENG: ...I've bribed the spaceport commissioner, to stop the flow of garrison units from Abregado-rae to our enemies.  I've also acquired records of ship movements along the Remma trade route. -> ...I've bribed the spaceport commissioner to stop the flow of garrison units from Abregado-rae to our enemies.  I've also acquired records of ship movements along the Remma Trade Route.
+	-- ENG: ...I've bribed the spaceport commissioner, to stop the flow of garrison units from Abregado-rae to our enemies.  I've also acquired records of ship movements along the Remma trade route. --> ...I've bribed the spaceport commissioner to stop the flow of garrison units from Abregado-rae to our enemies.  I've also acquired records of ship movements along the Remma Trade Route.
 	-- GER: N/A
 
 • TEXT_SPEECH_AETENII_PIR_LOAD_COR02_01 (BUG #364)
-	-- ENG: ...Anyone not doing their part, I'll kill personally, begin the battle. -> ...Anyone not doing their part, I'll kill personally.  Begin the battle!
+	-- ENG: ...Anyone not doing their part, I'll kill personally, begin the battle. --> ...Anyone not doing their part, I'll kill personally.  Begin the battle!
 	-- GER: N/A
 
 • TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02 (BUG #364)
-	-- ENG: ...The Stygium Crystal storage containers will be well guarded.  Destroying 5 containers and nearby enemy ships will help to secure our hold on the Aeten II system. -> The stygium crystal storage containers will be well-guarded.  Destroying five containers and the nearby enemy ships will help to secure our hold on the Aeten II system.
+	-- ENG: ...The Stygium Crystal storage containers will be well guarded.  Destroying 5 containers and nearby enemy ships will help to secure our hold on the Aeten II system. --> The stygium crystal storage containers will be well-guarded.  Destroying five containers and the nearby enemy ships will help to secure our hold on the Aeten II system.
 	-- GER: N/A
 
 • TEXT_SPEECH_UNDERWORLD_PIRACY_TUTORIAL_02: (BUG #209)
-	-- ENG: ...This will allow us to intimidate the Mandalorians and offer them Protection from further pirate activities. Our objective will be approaching shortly enroute to the Hutt asteroid base orbiting Mandalore. -> ...This will allow us to intimidate the Mandalorians and offer them "protection" from further pirate activities.  Our objective will be approaching shortly, en route to the Hutt asteroid base orbiting Mandalore.
+	-- ENG: ...This will allow us to intimidate the Mandalorians and offer them Protection from further pirate activities. Our objective will be approaching shortly enroute to the Hutt asteroid base orbiting Mandalore. --> ...This will allow us to intimidate the Mandalorians and offer them "protection" from further pirate activities.  Our objective will be approaching shortly, en route to the Hutt asteroid base orbiting Mandalore.
 	-- GER: N/A
 
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #212)
-	-- ENG: Underworld Soldier: What appears to be Lord Vader's shuttle... -> Zann Consortium Soldier: What appears to be Lord Vader's shuttle...
-	-- GER: Unterwelt-Soldat: Ein Schiff, anscheinend Lord Vaders Fähre... -> Soldat des Zann-Konsortiums: Ein Schiff, anscheinend Lord Vaders Fähre...
+	-- ENG: Underworld Soldier: What appears to be Lord Vader's shuttle... --> Zann Consortium Soldier: What appears to be Lord Vader's shuttle...
+	-- GER: Unterwelt-Soldat: Ein Schiff, anscheinend Lord Vaders Fähre... --> Soldat des Zann-Konsortiums: Ein Schiff, anscheinend Lord Vaders Fähre...
 
 • TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION: (BUG #134)
-	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. -> Affected units will fight for the Empire for a limited amount of time.
-	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. -> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
+	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. --> Affected units will fight for the Empire for a limited amount of time.
+	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. --> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
 
 • TEXT_TOOLTIP_ABILITY_CAPTURE_VEHICLE_DESCRIPTION: (BUG #252)
-	-- ENG: Use Chewbacca's brute strength to hijack an enemy vehicle. -> [original text +] When an enemy vehicle is captured, Chewbacca becomes disguised; he can hide among other enemies, and won't automatically attack or be attacked.  The disguise is permanently broken after attacking.
-	-- GER: Verwendet Chewbaccas animalische Kraft, um ein feindliches Fahrzeug zu kapern. -> [original text +] Wenn ein feindliches Fahrzeug gekapert wird, wird Chewbacca getarnt; er kann sich zwischen anderen Feinden verstecken und wird nicht automatisch angreifen oder angegriffen werden. Die Tarnung wird nach einem Angriff dauerhaft aufgehoben.
+	-- ENG: Use Chewbacca's brute strength to hijack an enemy vehicle. --> [original text +] When an enemy vehicle is captured, Chewbacca becomes disguised; he can hide among other enemies, and won't automatically attack or be attacked.  The disguise is permanently broken after attacking.
+	-- GER: Verwendet Chewbaccas animalische Kraft, um ein feindliches Fahrzeug zu kapern. --> [original text +] Wenn ein feindliches Fahrzeug gekapert wird, wird Chewbacca getarnt; er kann sich zwischen anderen Feinden verstecken und wird nicht automatisch angreifen oder angegriffen werden. Die Tarnung wird nach einem Angriff dauerhaft aufgehoben.
 
 • TEXT_TOOLTIP_R2D2: (BUG #45)
-	-- ENG: A droid duo with a knack... -> A droid with a knack...
+	-- ENG: A droid duo with a knack... --> A droid with a knack...
 	-- GER: N/A
 
 • TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME (BUG #276)
-	-- ENG: Reinforcement point -> Reinforcement Point
+	-- ENG: Reinforcement point --> Reinforcement Point
 	-- GER: N/A
 
 • TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
-	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
-	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
+	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. --> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
+	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. --> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
 
 • TEXT_TOOLTIP_STAR_DESTROYER: (BUG #229)
-	-- ENG: ...2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. -> ...2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons.
-	-- GER: ...2 Ionenkanonen-Batterien, 10 TIE-Fighter-Geschwadern und 5 TIE-Bomber-Geschwadern. -> ...2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern.
+	-- ENG: ...2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. --> ...2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons.
+	-- GER: ...2 Ionenkanonen-Batterien, 10 TIE-Fighter-Geschwadern und 5 TIE-Bomber-Geschwadern. --> ...2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern.
+
+• TEXT_TOOLTIP_VICTORY: (BUG #457, #458)
+	-- ENG: ...Also carries 6 TIE fighter squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries. --> ...Also carries 5 TIE interceptor squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
+	-- GER: ...Ist außerdem mit 6 TIE-Fighter- und 2 TIE-Bomber-Geschwadern ausgestattet. Kann gegnerische Schilde schnell ausschalten und kompensiert damit ihre eher schwach besetzten Turbolaser-Batterien. --> Ist außerdem mit 5 TIE-Interceptor- und 2 TIE-Bomber-Geschwadern ausgestattet. Kann gegnerische Schilde schnell ausschalten und kompensiert damit ihre eher schwach besetzten Turbolaser-Batterien.
 
 • TEXT_UNIT_ARC_HAMMER: (BUG #197)
-	-- ENG: Arc Hammer -> The Arc Hammer - General Mohc
-	-- GER: Arc Hammer -> Die Arc Hammer - General Mohc
+	-- ENG: Arc Hammer --> The Arc Hammer - General Mohc
+	-- GER: Arc Hammer --> Die Arc Hammer - General Mohc
 
 • TEXT_UNIT_HOME_ONE: (BUG #198)
-	-- ENG: Home One -> Home One - Admiral Ackbar
-	-- GER: Home Einz -> Heimat Eins - Admiral Ackbar
+	-- ENG: Home One --> Home One - Admiral Ackbar
+	-- GER: Home Einz --> Heimat Eins - Admiral Ackbar
 
 • TEXT_UNIT_HOUNDSTOOTH: (BUG #191)
-	-- ENG: Hound's Tooth -> The Hound's Tooth - Bossk
-	-- GER: Hound's Tooth -> Die Reißzahn - Bossk
+	-- ENG: Hound's Tooth --> The Hound's Tooth - Bossk
+	-- GER: Hound's Tooth --> Die Reißzahn - Bossk
 
 • TEXT_UNIT_IG2000 (BUG #192)
-	-- ENG: IG-2000 -> IG-2000 - IG-88
-	-- GER: IG-2000 -> IG-2000 - IG-88
+	-- ENG: IG-2000 --> IG-2000 - IG-88
+	-- GER: IG-2000 --> IG-2000 - IG-88
 
 • TEXT_UNIT_LUKE_XWING: (BUG #201)
-	-- ENG: Luke Skywalker (Red 5) -> Red Five - Luke Skywalker
-	-- GER: Luke Skywalker (Red 5) -> Rot Fünf - Luke Skywalker
+	-- ENG: Luke Skywalker (Red 5) --> Red Five - Luke Skywalker
+	-- GER: Luke Skywalker (Red 5) --> Rot Fünf - Luke Skywalker
 
 • TEXT_UNIT_MILLENNIUM_FALCON: (BUG #199)
-	-- ENG: Millennium Falcon -> The Millennium Falcon - Han Solo & Chewbacca
-	-- GER: Rasender Falke -> Der Rasender Falke - Han Solo & Chewbacca 
+	-- ENG: Millennium Falcon --> The Millennium Falcon - Han Solo & Chewbacca
+	-- GER: Rasender Falke --> Der Rasender Falke - Han Solo & Chewbacca 
 
 • TEXT_UNIT_SD_ACCUSER: (BUG #231)
 	-- ENG: N/A
-	-- GER: Accuser - Captain Piett -> Die Ankläger - Kapitän Piett
+	-- GER: Accuser - Captain Piett --> Die Ankläger - Kapitän Piett
 
 • TEXT_UNIT_SD_ADMONITOR: (BUG #196)
-	-- ENG: Admonitor -> The Admonitor - Grand Admiral Thrawn
-	-- GER: Admonitor -> Die Admonitor - Großadmiral Thrawn
+	-- ENG: Admonitor --> The Admonitor - Grand Admiral Thrawn
+	-- GER: Admonitor --> Die Admonitor - Großadmiral Thrawn
 
 • TEXT_UNIT_SSD_EXECUTOR: (BUG #194)
-	-- ENG: Executor -> The Executor - Darth Vader
-	-- GER: Executor -> Die Exekutor - Darth Vader
+	-- ENG: Executor --> The Executor - Darth Vader
+	-- GER: Executor --> Die Exekutor - Darth Vader
 
 • TEXT_UNIT_SLAVE_I: (BUG #195)
-	-- ENG: Slave I -> Slave I - Boba Fett
-	-- GER: Slave I -> Sklave I - Boba Fett
+	-- ENG: Slave I --> Slave I - Boba Fett
+	-- GER: Slave I --> Sklave I - Boba Fett
 
 • TEXT_UNIT_SUNDERED_HEART: (BUG #200)
-	-- ENG: Sundered Heart -> The Sundered Heart - Captain Antilles
-	-- GER: Sundered Heart -> Die Geteiltes Herz - Kapitän Antilles
+	-- ENG: Sundered Heart --> The Sundered Heart - Captain Antilles
+	-- GER: Sundered Heart --> Die Geteiltes Herz - Kapitän Antilles
 
 • TEXT_UNIT_ROGUE_10: (BUG #108)
-	-- ENG: Rogue 10: Tarrub Datch -> Rogue 10: Tarrin Datch
-	-- GER: Rogue 10: Tarrub Datch -> Rogue 10: Tarrin Datch
+	-- ENG: Rogue 10: Tarrub Datch --> Rogue 10: Tarrin Datch
+	-- GER: Rogue 10: Tarrub Datch --> Rogue 10: Tarrin Datch
 
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
-	-- ENG: ...armor deflects 25% of incoming laser fire. -> ...armor deflects 30% of incoming laser fire.
-	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
+	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
 
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3: (BUG #76)
-	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
-	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+	-- ENG: ...armor deflects 25% of incoming laser fire. --> ... armor deflects 30% of incoming laser fire.
+	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
 
 • TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
-	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. -> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
-	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. -> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
+	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. --> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
+	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. --> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.

@@ -18371,7 +18371,7 @@ TEXT_TOOLTIP_VEERS_01,Befehligt im Bodenkampf einen verbesserten AT-AT, der gege
 TEXT_TOOLTIP_VEERS_ATAT,Commander Veers steuert einen aufgerüsteten AT-AT, der  mit schweren Laserkanonen ausgerüstet ist, die große Schäden anrichten können, wenn sie erst einmal volle Feuerkraft erreicht haben. Erhöht die Verteidigung aller imperialen Einheiten um 25%.
 TEXT_TOOLTIP_VENETOR,Ein Schlachtschiff, das ursprünglich in der Flotte der Alten Republik diente. Ein solides Schiff, doch inzwischen technisch überholt.
 TEXT_TOOLTIP_VENGEANCE,Fregatten der Vengeance-Klasse tragen vier schwere Massentreibergeschütze und zwei Turbolaser-Batterien. Sie haben keine Schutzschilde, aber sehr dicke Panzerung und eine Tarnvorrichtung.
-TEXT_TOOLTIP_VICTORY,Schwere Fregatte, ausgerüstet mit 2 verbesserten Turbolaser-Batterien und einer Ionenkanonen-Batterie. Ist außerdem mit 6 TIE-Fighter- und 2 TIE-Bomber-Geschwadern ausgestattet. Kann gegnerische Schilde schnell ausschalten und kompensiert damit ihre eher schwach besetzten Turbolaser-Batterien.
+TEXT_TOOLTIP_VICTORY,Schwere Fregatte, ausgerüstet mit 2 verbesserten Turbolaser-Batterien und einer Ionenkanonen-Batterie. Ist außerdem mit 5 TIE-Interceptor- und 2 TIE-Bomber-Geschwadern ausgestattet. Kann gegnerische Schilde schnell ausschalten und kompensiert damit ihre eher schwach besetzten Turbolaser-Batterien.
 TEXT_TOOLTIP_WAYPOINT,Wegpunkt setzen
 TEXT_TOOLTIP_WAYPOINT_01,Die ausgewählten Einheiten werden sich zu der angegebenen Position auf der Karte bewegen. Ihr könnt weitere Punkte anklicken, um so eine Route festzulegen, der die Einheiten folgen, bis Ihr den Wegpunktmodus ausschaltet.
 TEXT_TOOLTIP_WEATHER_MODIFIER_ASH_30,Die Sichtweite dieser Einheit wurde durch Flugasche um 30% verringert.

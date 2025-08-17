@@ -18371,7 +18371,7 @@ TEXT_TOOLTIP_VEERS_01,Commands an enhanced AT-AT while in land combat that is im
 TEXT_TOOLTIP_VEERS_ATAT,Commander Veers pilots an advanced AT-AT armed with boosted heavy laser cannons able to inflict great damage when charged for maximum firepower. Boosts all Imperial units' defenses by 25%.
 TEXT_TOOLTIP_VENETOR,Battle ship formerly used by the Old Republic. Well rounded, but is now considered obsolete.
 TEXT_TOOLTIP_VENGEANCE,The Vengeance frigate carries four heavy mass driver cannons and two turbolaser batteries. It has no shields, but has very heavy armor and a cloaking device.
-TEXT_TOOLTIP_VICTORY,Heavy frigate armed with 2 enhanced turbolaser batteries and 1 ion cannon battery. Also carries 6 TIE fighter squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
+TEXT_TOOLTIP_VICTORY,Heavy frigate armed with 2 enhanced turbolaser batteries and 1 ion cannon battery. Also carries 5 TIE interceptor squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
 TEXT_TOOLTIP_WAYPOINT,Set waypoint
 TEXT_TOOLTIP_WAYPOINT_01,The selected units will move to the targeted point on the map.  You can continue clicking the map to create a path for the units to follow until waypoint mode is turned off.
 TEXT_TOOLTIP_WEATHER_MODIFIER_ASH_30,This unit's sight range has been reduced by 30% due to falling ash.
