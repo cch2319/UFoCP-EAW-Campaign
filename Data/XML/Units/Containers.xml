@@ -267,6 +267,13 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 		<Show_Name>No</Show_Name>
+
+		<!-- AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.         -->
+		<!-- We can use Is_Named_Hero on the container with no side effects as far as I can tell, -->
+		<!-- however, we have to change the unit icon to the 'bust' b/c it'll use the unit icon   -->
+		<!-- for the hero bar.                                                                    -->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
@@ -293,7 +300,8 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_EI_field_commander.tga</Icon_Name>
+		<!-- <Icon_Name>i_button_EI_field_commander.tga</Icon_Name> -->
+		<Icon_Name>i_button_EI_field_commander_bust.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -555,6 +563,13 @@
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Show_Name>No</Show_Name>
+
+		<!-- AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.         -->
+		<!-- We can use Is_Named_Hero on the container with no side effects as far as I can tell, -->
+		<!-- however, we have to change the unit icon to the 'bust' b/c it'll use the unit icon   -->
+		<!-- for the hero bar.                                                                    -->
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
@@ -581,7 +596,8 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_field_commander.tga</Icon_Name>
+		<!-- <Icon_Name>i_button_field_commander.tga</Icon_Name> -->
+		<Icon_Name>i_button_RI_field_commander_bust.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>

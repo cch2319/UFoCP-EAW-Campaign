@@ -217,6 +217,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_FLEET_REBEL</Text_ID>
 		<Icon_Name>i_button_RI_fleet_commander.tga</Icon_Name>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -261,6 +262,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_FLEET_EMPIRE</Text_ID>
 		<Icon_Name>i_button_EI_fleet_commander.tga</Icon_Name>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -303,6 +305,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_REBEL</Text_ID>
 		<Icon_Name>i_button_RI_field_commander.tga</Icon_Name>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -351,6 +354,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
 		<Icon_Name>i_button_EI_field_commander.tga</Icon_Name>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
