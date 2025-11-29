@@ -2022,6 +2022,6 @@ end
 
 -- ##########################################################################################
 function JoeMessage(...)
-	JoeMessage("current current_spawn_times  is %d", current_spawn_times)
+	--JoeMessage("current current_spawn_times  is %d", current_spawn_times)
 	_CustomScriptMessage("JoeLog.txt", string.format(unpack(arg)))
 end

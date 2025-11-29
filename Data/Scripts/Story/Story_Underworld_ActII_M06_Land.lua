@@ -3571,7 +3571,7 @@ end
 
 function Thread_Monitor_Parked_Vehicles_Status()
 	while (true) do
-		local bool_parked_cars _exist = false
+		local bool_parked_cars = false
 
 		--parked_vehicle_list = Find_All_Objects_With_Hint("parked")
 		for i,parked_vehicle in pairs(parked_vehicle_list) do
@@ -3602,7 +3602,7 @@ end
 
 
 function JoeMessage(...)
-	JoeMessage("current current_spawn_times  is %d", current_spawn_times)
+	--JoeMessage("current current_spawn_times  is %d", current_spawn_times)
 
 	_CustomScriptMessage("JoeLog.txt", string.format(unpack(arg)))
 
