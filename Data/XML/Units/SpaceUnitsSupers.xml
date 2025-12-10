@@ -114,17 +114,17 @@
 		<!-- based on its presence in the background.  -->
 		<Space_Override_Population_Value>0</Space_Override_Population_Value>
 	</SpaceUnit>
-	
-	
-	
-	
+
+
+
+
 	<SpaceUnit Name="Death_Star_II">
-	
+
 		<Variant_Of_Existing_Type>Death_Star</Variant_Of_Existing_Type>
-		
+
 		<Text_ID>TEXT_UNIT_DEATH_STAR_II</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR_II</Encyclopedia_Text>
-		
+
 		<Tech_Level>5</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
@@ -139,16 +139,16 @@
 				Victory_Destroyer,
 				Star_Destroyer
 		</Space_Escort_Unit_Types>
-		
+
 		<!-- DSII is tactically relevant above and beyond its escort (can fire laser at ships) -->
 		<AI_Combat_Power>3000</AI_Combat_Power>
-		
+
 		<Behavior> DUMMY_STARSHIP </Behavior>
 		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
 		<SpaceBehavior> TACTICAL_SUPER_WEAPON, IDLE, ABILITY_COUNTDOWN, TARGETING </SpaceBehavior>
-	
+
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<Unit_Ability>
 				<Type>SUPER_LASER</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
@@ -158,9 +158,9 @@
 				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-		
+
 		<Abilities SubObjectList="Yes">
 
 			<Planet_Destruction_Ability Name="Death_Star_Planet_Destruction">
@@ -177,10 +177,10 @@
                 <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
                 <Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
 				<Activation_Min_Range>0</Activation_Min_Range>
-	            <Activation_Max_Range>20000</Activation_Max_Range>
+				<Activation_Max_Range>20000</Activation_Max_Range>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>500</Damage_Per_Frame>			
+				<Damage_Per_Frame>500</Damage_Per_Frame>
 				<Fire_Frame>60</Fire_Frame>
 				<Attack_Anim_Sub_Index>1</Attack_Anim_Sub_Index>
 				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
@@ -195,12 +195,11 @@
 			</Super_Laser_Ability>
 
 		</Abilities>
-		
-	</SpaceUnit>
-	
-	
-	
-	
-	
-</SpaceUnitsSupers>
 
+	</SpaceUnit>
+
+
+
+
+
+</SpaceUnitsSupers>
