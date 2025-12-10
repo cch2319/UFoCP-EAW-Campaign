@@ -5,7 +5,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>w_planet_deathstar02.alo</Space_Model_Name>
 		<Galactic_Fleet_Override_Model_Name> w_planet_fleet_ds.alo </Galactic_Fleet_Override_Model_Name> <!-- Override for seeing DS icon as fleet icon in Galactic mode -->
-		<Galactic_Fleet_Override_Icon_Index> 4 </Galactic_Fleet_Override_Icon_Index> <!-- Override for seeing DS icon as fleet icon in Galactic mode -->
+		<Galactic_Fleet_Override_Icon_Index> 6 </Galactic_Fleet_Override_Icon_Index> <!-- Override for seeing DS icon as fleet icon in Galactic mode -->
 		<Ranking_In_Category> 0 </Ranking_In_Category>
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
 		<Mass>0.9995</Mass>

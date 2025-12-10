@@ -251,6 +251,7 @@ Interface Fixes:
 • Conditions for campaign "Equal Footing" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 8,000 credits (everyone started with 12,000). (BUG #449)
 • Conditions for campaign "Origin of Corruption" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000), and all factions are supposed to start at Tech Level 1 (Rebels started at Tech Level 2). (BUG #450)
 • Field and Fleet Commanders for both the Empire and Rebellion would not show their "bust" icons on the hero bar when summoned in battle.  The functionality of the "Show_Hero_Head" function for minor/generic heroes changed from EaW, and will not work if not assigned to both the unit's group AND unit, and not just the latter.  This function does not work for Field Commanders at all - instead, Field Commanders' land "container" has become a "named/major hero," while the unit itself is a minor one.  There should be no forward-facing side effects (aside from the aforementioned bugfix).
+• While possibly deprecated, the Death Star II was defined to use the Hutts faction symbol instead of its own fleet icon override.  This was because, when indexed, the DS's symbol was #4, but became #6 with the release of FoC, and wasn't corrected. (BUG #461)
 
 
 Map/Planet Fixes:
