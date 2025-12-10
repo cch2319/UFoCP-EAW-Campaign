@@ -24,7 +24,7 @@
 	<File>SpaceUnitsFighters.xml</File>
 	<File>Units\SpaceUnitsCorvettes.xml</File>
 	<File>SpaceUnitsFrigates.xml</File>
-	<File>SpaceUnitsSupers.xml</File>
+	<File>Units\SpaceUnitsSupers.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
 	<File>SpaceBuildablesSkirmish.xml</File>
