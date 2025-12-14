@@ -138,6 +138,7 @@ AI Fixes:
 • Consortium AI plans wouldn't consider buying the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader appears in-battle, as the unit list didn't include Vader's unit for FoC land combat. (BUG #27)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Silri appears in-battle during a Consortium mirror-match. (BUG #187)
+• Consortium AI plans wouldn't budget for the "Targeting Systems" upgrade series like other upgrades, and had a higher chance not to purchase it.  The appropriate upgrades were missing from the AI list. (BUG #463)
 • The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
 • The Master Force Adept (the Teleporter) in Consortium campaign mission #8 "Following the Artifact" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
 • The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced. (BUG #130)
@@ -376,4 +377,4 @@ Upgrade Fixes:
 • "Recharge Special Abilities" would increase the Consortium's ability recharge times in Land Skirmish, instead of decrease.  The percentage was corrected from "+0.85" to "-0.15." (BUG #173)
 • "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as their faction reference was misspelled as "Hutt" instead of "Hutts." (BUG #74)
 • "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
-• "Starbase Plasma Cannon" for the Consortium space station was able to be used infinitely after purchasing it the first time (BUG #418).
+• "Starbase Plasma Cannon" for the Consortium space station was able to be used infinitely after purchasing it the first time. (BUG #418)
