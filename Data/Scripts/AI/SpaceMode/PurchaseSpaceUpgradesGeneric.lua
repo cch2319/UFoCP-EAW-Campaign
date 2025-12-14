@@ -43,7 +43,7 @@ require("pgevents")
 
 
 function Definitions()
-	
+
 	Category = "Purchase_Space_Upgrades_Generic"
 	IgnoreTarget = true
 	TaskForce = {
@@ -56,14 +56,14 @@ function Definitions()
 		,"UL_Extort_Cash_L1_Upgrade | UL_Extort_Cash_L2_Upgrade | US_Reinforced_Structure_L1_Upgrade | US_Reinforced_Structure_L2_Upgrade | US_Reinforced_Structure_L3_Upgrade | US_BlackMarket_Reactors_L1_Upgrade | US_BlackMarket_Reactors_L2_Upgrade | US_BlackMarket_Reactors_L3_Upgrade | US_Magnetically_Sealed_Armor_L1_Upgrade | US_Magnetically_Sealed_Armor_L2_Upgrade | US_Magnetically_Sealed_Armor_L3_Upgrade | US_Carbonite_Coolant_Systems_L1_Upgrade | US_Carbonite_Coolant_Systems_L2_Upgrade | US_Cloaking_Generator_L1_Upgrade | US_Cloaking_Generator_L2_Upgrade | US_Plasma_Cannon_Use_Upgrade = 0,2"
 	}
 	}
-	 
+
 	RequiredCategories = {"Upgrade"}
 	AllowFreeStoreUnits = false
 
 end
 
 function ReserveForce_Thread()
-			
+
 	BlockOnCommand(ReserveForce.Produce_Force())
 	ReserveForce.Set_Plan_Result(true)
 	ReserveForce.Set_As_Goal_System_Removable(false)
@@ -76,7 +76,7 @@ function ReserveForce_Thread()
 	elseif tech_level >= 3 then
 		min_credits = 6000
 	end
-	
+
 	max_sleep_seconds = 120
 	current_sleep_seconds = 0
 	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
