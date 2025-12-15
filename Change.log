@@ -66,6 +66,8 @@ HOUSEKEEPING:
 • AI plans for firing the Death Star wouldn't cancel for factions other than the Empire.  There shouldn't be forward-facing changes, as the Rebels and Consortium shouldn't have been using this plan anyway. (BUG #410)
 • To support future changes that will reimplement the EaW GC maps, the original Death Star's icons have been restored to the game files and are currently unused.  The Death Star II's icon files have had their names changed (adding a "2" to the name), and all the appropriate files adjusted.
 • FoC's master icons texture (where all icons and UI elements are stored), MT_CommandBar.tga, has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).
+• The Rebels' AI plans would consider an unused upgrade (RS_More_Garrisons_L1_Upgrade) when budgeting for what they should buy.  There shouldn't be forward-facing changes, but this upgrade has been removed from the plan.
+• The Empire's AI plans would consider an unused upgrade (ES_More_Garrisons_L1_Upgrade) when budgeting for what they should buy.  There shouldn't be forward-facing changes, but this upgrade has been removed from the plan.
 
 • The game's interface definitions (CommandBarComponents.xml) had multiple unused settings/tags that were removed before release.  These settings were throwing WARNINGS in the game's logging, so they have been removed.
 •• i_main_commandbar: "<Mega_Texture_Name>"
