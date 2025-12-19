@@ -17,107 +17,144 @@
 ~ By the UFoCP Team. ~
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Unofficial fixes are noted below with a bullet (•).  Bugfixes by Petroglyph will be noted
-in the subsequent hotfix's changelog; changes made by the Unofficial Patch will be removed
-in tandem and mentioned in the next update.
+in the subsequent update's (or hotfix's) changelog.  Changes made by the Unofficial Patch
+will be removed in tandem, mentioned in the same update, and retroactively edited in the
+changelog with a note pointing to the patch it was fixed in.
 
-When fixed, bugs introduced by the Unofficial Patch are included in the next hotfix under
-the "UFoCP" header and retroactively edited in the changelog.
+Bugs accidentally introduced by the Unofficial Patch, when fixed, will be included in the
+next hotfix under the "UFoCP" header.
 
-Dates, grammar, and times are always in American format.
-(i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM EST" > "13:52.")
+Dates, grammar, spelling and times are always in American format.
+(e.g. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM EST" > "13:52.")
 
-All entries have tags that are accurate to their GitHub report page's URL. Insert the report
-number into the below URL to see the original report.
-(i.e. "(BUG #123456)" = https://github.com/AlyMar1994/UFoCP/issues/123456)
+All bugfix entries have a postfix tag number that indicates the bug report page number on
+GitHub.  Insert the report number into the URL below to see the original report.
+(e.g. "• Fixed [bug]. (BUG #123456)" = https://github.com/AlyMar1994/UFoCP/issues/123456)
 
 https://github.com/AlyMar1994/UFoCP/issues/
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
-v2.0.0.#### (##-##-2025) [FoC v1.121.]
+v2.0.0.#### (##-##-2025) [FoC v1.121.859328]
 ============================================
 
 UFoCP:
 ======
 ENHANCEMENTS:
-• New shaders have been implemented that default to x16 anisotropic filtering instead of linear filtering.  Distant textures should now be much sharper. (Thanks evilbobthebob!) (BUG #379)
-• The Canderous Assault Tank's shadow mesh had some awkward geometry that wouldn't reflect shadows properly on the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
-• A recreated/new HD loading screen and main menu were added for English and German languages.  Logo resolutions were boosted from 1280x768 to 1920x1440 for both, and comes with a smaller filesize than the original files.  Both screens have been mostly aspect-corrected for Widescreen, and the game's main logo should no longer be stretched; because Petroglyph's website button requires some unmodifyable changes, while their and LucasArts' logos have been recreated as well, it will still be a little stretched horizontally. (BUG #451)
-• As apart of #442, extra debugging messages/info has been added to PGBase's <function Flush_G()>.
+• Distant and angled textures should now be much sharper.  EaW and FoC originally used linear filtering for texture rendering, but a new set of shaders have been implemented that now leverage x16 anisotropic filtering instead. (Thanks evilbobthebob!) (BUG #379)
+• The shadow mesh for the Canderous Assault Tank had awkward geometry that wouldn't properly reflect shadows on or off of the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
+
+• A new loading screen and main menu have been added for English and German game languages.  File resolutions were upscaled from 1280x768 to 1920x1440 for both files, have smaller filesizes than the originals (3.0 MB -> ~2.5 MB), and are widescreen corrected (there should no longer be any horizontal stretching at widescreen resolutions).  The upscaled menus (and new graphic material, see below bullet point) were designed to address grievances regarding players not knowing if the Unofficial Patch was enabled, as there was no indication when launching the game. (BUG #451)
+•• Both loading screens also have new graphic material added to them from promotional images released during FoC's development cycle.  The logo was also adjusted, and has the Zann Consortium's stylized Mandalorian Skull graphic behind it.
+
+• Extra debugging notifications have been added to Petroglyph's scripting library (specifically, PGBase's <function Flush_G()>). (BUG #442)
+
 
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
 • R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml.
-• Fix Bossk's unit entries being headered as IG-2000's unit data.
-• Fix Thrawn's ability entries being headered as Captain Piett's abilities.
-• IG-2000's internal unit entry has been renamed to "IG2000."  The Galactic AI for what planet(s) heroes like to hang out on wouldn't parse when his entry was "IG-2000."
-• B-wings' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #353)
-• TIE defenders' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #355)
-• Skipray Blastboats' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #357)
-• Tyber Zann's main ion cannon was internally coded as a "special weapon" instead of an ion cannon.  There shouldn't be any forward-facing changes, except that the game can now detect when his ion cannon fails, and can use VO for it. (BUG #259)
-• Thrawn's unused "political" unit that was supposed to replace Tarkin, Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, were both broken in odd ways.  The named hero wasn't linked to the Admonitor_Star_Destroyer unit entry, while the team only spawned/contained the Grand_Moff_Tarkin hero, among other issues.  This unit isn't currently used, but is now available should someone want to, or otherwise. (BUG #371)
-• AI plans for firing the Death Star wouldn't cancel for factions other than the Empire.  There shouldn't be forward-facing changes, as the Rebels and Consortium shouldn't have been using this plan anyway. (BUG #410)
-• To support future changes that will reimplement the EaW GC maps, the original Death Star's icons have been restored to the game files and are currently unused.  The Death Star II's icon files have had their names changed (adding a "2" to the name), and all the appropriate files adjusted.
-• FoC's master icons texture (where all icons and UI elements are stored), MT_CommandBar.tga, has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).
-• The Rebels' AI plans would consider an unused upgrade (RS_More_Garrisons_L1_Upgrade) when budgeting for what they should buy.  There shouldn't be forward-facing changes, but this upgrade has been removed from the plan.
-• The Empire's AI plans would consider an unused upgrade (ES_More_Garrisons_L1_Upgrade) when budgeting for what they should buy.  There shouldn't be forward-facing changes, but this upgrade has been removed from the plan.
+• Fixed Bossk's unit entries being headered as IG-2000's unit data. (No forward facing changes.)
+• Fixed Thrawn's ability definitions being headered as Captain Piett's abilities.  (No forward facing changes.)
+• IG-2000's internal unit entry has been renamed to "IG2000" to address a scripting problem where the "-" caused an error.
+• B-wings' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #353)
+• TIE defenders' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #355)
+• Skipray Blastboats' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #357)
+• The Merciless' main ion cannon has been redefined as an ion cannon, instead of as a "Special Weapon," to address the game being unable to process which individual Special Weapon was destroyed.  (No forward facing gameplay changes, however, Tyber Zann can now use unused VO for his Special Weapon and Ion Cannon as a part of BUG #259 now.)
+• Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, Thrawn's unused unit entries intended to replace Tarkin in FoC, had multiple broken parts which rendered these units unusable.  This unit isn't currently used, but it is now functional and available should any modder want to. (BUG #371)
+• AI plans for firing the Death Star will now cancel for the Rebels or the Consortium, instead of evaluating.  (No forward facing changes.) (BUG #410)
+• AI plans for buying upgrades have had two upgrades removed, as they are no longer used (RS_More_Garrisons_L1_Upgrade, ES_More_Garrisons_L1_Upgrade).  (No forward facing changes.)
+• The game's master atlas for icons (where all icons and UI elements are stored), has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).  (No forward facing changes.)
+• To support reimplementing EaW's Galactic Conquests in future updates, the original Death Star's Galactic icons and radar icon have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed (adding "2" to the names), and all the appropriate files adjusted.  (No forward facing changes.)
 
-• The game's interface definitions (CommandBarComponents.xml) had multiple unused settings/tags that were removed before release.  These settings were throwing WARNINGS in the game's logging, so they have been removed.
-•• i_main_commandbar: "<Mega_Texture_Name>"
-•• b_play_pause: "<Disabled_Darken>" (Texture darkening is handled through a seperate texture)
-•• b_fast_forward: "<Disabled_Darken>"
-•• b_play_pause_t: "<Disabled_Darken>"
-•• b_fast_forward_t: "<Disabled_Darken>"
+• The game's interface definitions (CommandBarComponents.xml) have had multiple unused settings removed.  These settings were removed before release, and were causing warnings in the game's logging.
+•• i_main_commandbar: <Mega_Texture_Name>
+•• b_play_pause: <Disabled_Darken> (Texture darkening is handled through a seperate texture)
+•• b_fast_forward: <Disabled_Darken>
+•• b_play_pause_t: <Disabled_Darken>
+•• b_fast_forward_t: <Disabled_Darken>
+
 
 MISC:
-• Disable the game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
-• Corulag and Kessel's space piracy missions no longer use IG-2000 placed directly on map, they now use a spawned in version of IG-2000 from a script.  This is to bugfix and future proof any changes needed to be made to IG-2000's entry in the future (as before, the reference was missing with #256).
+• The internal hardware check for Intel GPUs has been disabled.  Shaders would typically be disabled for Intel's newest line of GPUs, because the game would think they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
+• Corulag and Kessel's Piracy corruption missions now use a script-spawned version of IG-2000, instead of being placed on the map itself.  (No forward facing changes, this was to address crashes caused by BUG #256).
 ======
 
 
 Ability Fixes:
-• "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
-• "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
-• Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
+• "BARRAGE" prematurely stopped because the ability's invisible targeting marker would die in the attacking unit's splash damage. (BUG #1)
+• "REMOVE_CORRUPTION_ABILITY" wasn't usable for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade.  These were not defined correctly in GameConstants, and Ackbar's Remove Corruption ability was added to the wrong unit entirely (Commander_Akbar instead of Home_One).  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored.  AI plans for removing corruption also would not plan to use Admiral Ackbar, Darth Vader and Grand Admiral Thrawn, as their references were missing ikn the plan. (BUG #35)
 • "TARGETED_HACK" for R2-D2 and C-3PO's wasn't able to hack Consortium turbolaser towers, Black Sun anti-aircraft turrets, or Hutt anti-aircraft, grenade mortar or rapid-fire laser turrets.  In addition, "TARGETED_REPAIR" didn't affect any Consortium tanks Chewbacca captured, hacked Consortium turrets, Rebel or hacked Hutt rapid-fire laser turrets, hacked Empire or Hutt grenade mortars, Juggernaut transports, hacked Pirate anti-aircraft, infantry or vehicle turrets. (BUG #20)
-• "Cuddles_Rancor_Eat_Infantry" attack for Cuddles (Silri's rancor) wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
-• "Vader_ObiWan" Hero Duel wouldn't start with Darth Vader's FoC land unit, only his EaW unit. (BUG #26)
-• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect the campaign Force Adepts' lightsabers. (BUG #80)
-• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
-• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
-• "SENSOR_JAMMING" for Bossk would prematurely stop rendering the blue jamming ring particles before the ability completed.  The ability was using its internally defined lifetime, instead of a lifetime overridden to be 30 seconds. (BUG #367)
-• Fix the Empire's and Rebels' Power Generators, and the Consortium's Palace, not applying their income debuff against the respective faction's mining facilities when destroyed, because the ability was targeted towards the wrong structure. (BUG #382)
-• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship that can nuke the battlefield, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability as a GC tile has been removed entirely for balance, like other heroes with capital ships, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
+• "SENSOR_JAMMING" for Bossk would prematurely stop rendering the blue ring particles before the ability completed.  The particles were using their internally defined lifetime, instead of a lifetime overridden to be 30 seconds. (BUG #367)
+• "Urai_Block_Lightsaber" (Urai Fen's cortosis blades) didn't have a chance to deflect the Consortium campaign's Force Adept lightsabers. (BUG #80)
+• "Urai_Block_Lightsaber" (Urai Fen's cortosis blades) didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror matches. (BUG #81)
+• "Urai_Block_Lightsaber" (Urai Fen's cortosis blades) didn't have a chance to deflect Darth Vader's lightsaber. (BUG #30)
+• Hero Duel "Vader_ObiWan" wouldn't begin because the scripted encounter would only start with the EaW version of Darth Vader. (BUG #26)
+• The Rebels' Orbital Bombardment ability would still be available without ships with ion cannons in orbit (namely Nebulon-B and Alliance Assault Frigates).  The Mon Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
+• The Empire, Rebels, and Consortium's Skirmish Power Generators would not apply their income debuff against the respective faction's mining facilities when destroyed, because the abilities were targeted towards the wrong structures. (BUG #382)
 
 
 AI Fixes:
-• During various AI conquering plans, the AI would always stall/sleep for 5 minutes after a victory or failure because the AI code was unable to properly find the player's Difficulty setting, and in turn was unable to apply the proper time to sleep.  The following scripts were rectified to use their appropriate sleep times (5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard):
+• During various AI conquering plans, the AI would always pause for 5 minutes after a victory/failure because the code was unable to properly find the player's Difficulty setting.  The following scripts were rectified to use their appropriate sleep times (5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard):
 •• ConquerOpponentPlan (General AI conquering script) (BUG #69)
-•• CrushPlan (General AI "blitzkrieg" conquering script for Hard difficulty) (BUG #69) (BUG #79)
+•• CrushPlan ("Blitzkrieg" AI conquering script for the Hard difficulty) (BUG #69) (BUG #79)
 •• RaidPlan (Rebel AI raiding script) (BUG #69)
 •• DeathStarUsePlan (Empire AI script for exploding planets on the GC scale) (BUG #69)
 
-• During various AI considerations, the AI would exit out of many valid plans because they would only check if they applied toward the player.  In EaW, these plans would look for "REBEL" or "EMPIRE," because EaW was a 1v1 game in GC and these plans would look for a "human" player for the AI so it doesn't waste its time on Neutral or Pirate ("speedbump") planets.  However, for FoC, it appears a Content Designer had the wrong idea, and changed these checks so the AI ONLY looks for human players, and tends to ignore the second AI player on the map (with the exception of the "Conquer Pirate" plan, which the 2 AI players used against each other).  This had the side effect of forcing the AI to only use abilities on the human player as well (Rebels would only raid the human, DS2 would only be used on player's planets, etc.).  The following equations have had their check for a "human" player removed (NOTE: These equations will be further updated to work more like they did in EaW for when the EaW GCs are re-enabled):
-•• (OffensiveGalaticEquations) Is_Good_Weaken_Target (Smuggler/Bounty Hunter use) (BUG #409)
-•• (OffensiveGalaticEquations) Want_To_Fire_DS (BUG #411)
-•• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (BUG #422)
-•• (OffensiveGalaticEquations) Is_Neglected_By_My_Opponent_Space, Is_Neglected_By_My_Opponent_Ground (If a planet is left neglected by a faction) (BUG #426)
-•• (OffensiveGalaticEquations) Is_Target_A_Current_Threat (If the enemy has a threatening force on a nearby planet) (BUG #427)
-•• (OffensiveGalaticEquations) Enemy_Present (If an enemy is present on a target) (BUG #428)
-•• (OffensiveGalaticEquations) Is_Good_Raid_Target (Rebel Raid AI pool, see if it's a good target) (BUG #429)
-•• (OffensiveGalaticEquations) Opens_New_Front, Should_Conquer_Pirate_Planet (If conquering a planet or conquering from a Pirate will open a new front/is a good idea) (BUG #430)
-•• (OffensiveGalaticEquations) Should_Conquer_Opponent_Planet (General AI conquering focus) (BUG #431)
+• During various AI evaluations, the AI would bail out of plans prematurely because they would only check if they applied towards the human player.  EaW was primarily a 1v1 game in Galactic Conquest, and these plans accordingly would attempt to find the opposing faction, as that was the important (human) enemy, instead of a speedbump enemy like the Pirates.  In FoC, for some reason, Petroglyph modified these considerations to ONLY look for a human player, which forced the AI to avoid using any of the following plans against the second AI faction on the map.  (NOTE: These equations will be further updated to work more like they did in EaW for when the EaW GCs are re-enabled.)
+•• (OffensiveGalaticEquations) Is_Good_Weaken_Target (Smuggler/Bounty Hunter use.) (BUG #409)
+•• (OffensiveGalaticEquations) Want_To_Fire_DS (Death Star use.) (BUG #411)
+•• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (Alt. conquering considerations.) (BUG #422)
+•• (OffensiveGalaticEquations) Is_Neglected_By_My_Opponent_Space, Is_Neglected_By_My_Opponent_Ground (Consider if a planet is weak.) (BUG #426)
+•• (OffensiveGalaticEquations) Is_Target_A_Current_Threat (Consider if an enemy is a nearby threat.) (BUG #427)
+•• (OffensiveGalaticEquations) Enemy_Present (Consider if an enemy is present on a target.) (BUG #428)
+•• (OffensiveGalaticEquations) Is_Good_Raid_Target (Rebel Raid AI raiding considerations.) (BUG #429)
+•• (OffensiveGalaticEquations) Opens_New_Front, Should_Conquer_Pirate_Planet (Consider if conquering a planet or Pirate planet is a good idea.) (BUG #430)
+•• (OffensiveGalaticEquations) Should_Conquer_Opponent_Planet (General conquering considerations.) (BUG #431)
 •• (OffensiveGalaticEquations) Needs_More_Space_Force_Globally (BUG #439)
 •• (OffensiveGalaticEquations) Am_I_In_Winning_Position (BUG #440)
 
-• Various AI plans and considerations wouldn't properly grab the Death_Star_II unit, instead having an outdated check to look for the DS1 from EaW.  The following plans, equations and files have had their checks updated (NOTE: These equations will be further updated in the coming versions to be a little more backwards-compatible for EaW for when the EaW GCs are re-enabled) (BUG #28, #32, #33, #51, #53, #71):
+• AI plans for building anti-infantry turrets wouldn't include the Consortium's Proton Torpedo Turret. (BUG #114)
+• AI plans for building Repair Facilities wouldn't consider if IG-88 nor Garm Bel Iblis are on the battlefield. (BUG #117)
+• AI plans for finding the nearest appropriate healing building for special units misreferenced Darth Vader. (BUG #27)
+• AI plans for finding the nearest appropriate healing building for special units didn't include General Veers. (BUG #188)
+• AI plans for calculating what planets need the most defense didn't include Tyber Zann into the equation, despite doing so for Palpatine and Mon Mothma. (BUG #414)
+• AI plans for calculating high defense and needed defenses misreferenced an unused version of the Repulsorlift Jammer. (BUG #415)
+• AI plans for considering which structure to attack wouldn't factor in targeting the Consortium's Repulsorlift Jammers alongside other "tactically active" infrastructure. (BUG #115)
+• AI plans for building planetary weapons for frontline planets misreferenced an unused version of the Consortium's Repulsorlift Jammer. (BUG #413)
+• AI plans for attacking buildings wouldn't factor in the Consortium's turbolaser towers as artillery to avoid.  Consortium turbolaser towers also weren't a part of the artillery infrastructure list to specifically target. (BUG #116)
+• AI plans for avoiding artillery fire during offense wouldn't factor in the Consortium's mobile artillery (MALs), nor any faction's missile defense satellites.  The aforementioned units also weren't a part of the artillery infrastructure list to target specifically. (BUG #160)
+• Consortium AI plans wouldn't consider budgeting for the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
+• Consortium AI plans wouldn't consider budgeting for the "Targeting Systems" upgrade series in space combat, because the appropriate entries were missing from the upgrade list. (BUG #463)
+• Consortium AI plans wouldn't consider budgeting for the Repulsorlift Jammer, because it wasn't apart of the defensive structure list. (BUG #118)
+• Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader appears in-battle, because the unit list misreferenced Vader's entry. (BUG #27)
+• Consortium AI plans wouldn't consider building Ysalamiri cages when Silri appears in-battle during a Consortium mirror match. (BUG #187)
+• The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced. (BUG #130)
+• The Galactic AI for what planet(s) to attack or to find targets didn't include Tyber Zann as a possible faction leader. (BUG #140)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Garm Bel Iblis. (BUG #203)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Tyber Zann. (BUG #254)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Bossk. (BUG #255)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include IG-88. (BUG #256)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use misreferenced an unused version of Captain Piett. (BUG #204)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use misreferenced an unused version of Red Squadron. (BUG #205)
+• The Galactic AI's magic defense spawning system now cannot spawn TIE interceptor Squadrons on the Galactic map to prevent AI pathfinding errors when the AI can't move Interceptors. (BUG #243)
+• The Galactic AI wouldn't build Cantinas due to reversed logic tricking it into thinking it was always at max capacity.  The AI now builds 1 Cantina per applicable planet. (BUG #407)
+• The Galactic AI wouldn't build Hutt Palaces due to the logic considerations being disabled.  The original planning was incomplete (or unfinished).  The AI should now build 1 Hutt Palace per applicable planet, and Bounty Hunters with them should enemy Smugglers exist on their controlled planets.  In addition, the outdated Bounty Hunter "SabotagePoliticalControl" plan has been disabled, as Bounty Hunters no longer can wreck a faction's political control over a planet; this plan also lead to the AI overbuying bounty hunters. (BUG #408)
+• The Galactic AI wouldn't properly budget to purchase Vader and the Executor.  As a major hero and ship, they've been added to the Empire's tech plan AI to push them to properly budget for him. (BUG #421)
+• The Galactic AI would waste processing time trying to give orders/evaluate locations to units already moving and therefore unapplicable to use a movement opportunity. (BUG #434)
+• The Tactical AI's difficulty-based "chance" system to dictate if a unit's ability should be used, and if the unit should divert itself to a large group of targets to optimally use its ability, was left to always occur 100% of the time in FoC.  In EaW, this would only happen if the "chance" given is larger than what was rolled (the longer the battle, the smaller the roll).  On Easy, the chance was 20, Medium 60, and Hard was 100 (always divert/use abilities).  EaW's original chance values have been restored, and easier difficulties should now see less optimal ability usage in battle. (BUG #435)
+• Han Solo & Chewbacca's galactic planning AI wouldn't avoid Darth Vader properly, as it misreferenced his unit, nor factor in attacking the Death Star II. (BUG #27/53)
+• Luke Skywalker was only considered a "LandHero" for AI planning, and not also a "SpaceHero" despite controlling his X-wing in space. (BUG #420)
+• Darth Vader's land assistance AI misreferenced his own unit, and would prematurely shut down. (BUG #27)
+• The Master Force Adept (the Teleporter) in Consortium campaign mission #8 "Following the Artifact" couldn't properly target the player because his script misreferenced the player's faction, instead attacking any hostile entity in the area. (BUG #126)
+
+• In various scenarios, the game would look for EaW's Death Star instead of FoC's Death Star II.  This resulted in improperly or non-functioning VO, AI plans and considerations or win conditions in the following files:  (NOTE: These equations will be further updated to work more like they did in EaW for when the EaW GCs are re-enabled.) (BUG #28, #32, #33, #51, #53, #71)
 •• Factions.xml (Empire and Rebel conditional advisor dialogue checks)
 •• Factions.xml (Empire "faction superweapon" for GC win conditions)
 •• Expansion_Factions.xml (Consortium conditional advisor dialogue checks)
@@ -127,81 +164,53 @@ AI Fixes:
 •• (OffensiveGalaticEquations) Need_To_Flush_MajorItem_Budget, Should_Conquer_Opponent_Planet
 •• (InfrastructureGalacticEquations) Empire_Should_Upgrade_Tech, Empire_Tech_Trigger, Empire_Tech_Untrigger
 
-• AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
-• AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
-• AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
-• AI plans for finding the nearest appropriate healing object for special units didn't include General Veers as a valid recipiant for repairing. (BUG #188)
-• AI plans for calculating what planets need the most defense didn't include Tyber Zann into the equation like Palpatine or Mothma were. (BUG #414)
-• AI plans for calculating high defense and needed defenses misreferenced an unused version of the Repulsorlift Jammer. (BUG #415)
-• AI plans wouldn't factor in targeting Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure when deciding on structures to attack. (BUG #115)
-• AI plans for building planetary weapons for frontline planets referenced the wrong entry for the Consortium's Repulsorlift Jammer as a holdover from when the Empire was originally supposed to have that building. (BUG #413)
-• AI plans wouldn't factor in Consortium turbolaser towers as artillery to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to specifically target. (BUG #116)
-• AI plans wouldn't factor in Consortium mobile artillery (MALs), nor any faction's missile defense satellites as artillery to avoid when attacking; they also weren't apart of the artillery infrastructure list to specifically target. (BUG #160)
-• Consortium AI plans wouldn't consider buying the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
-• Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader appears in-battle, as the unit list didn't include Vader's unit for FoC land combat. (BUG #27)
-• Consortium AI plans wouldn't consider building Ysalamiri cages when Silri appears in-battle during a Consortium mirror-match. (BUG #187)
-• Consortium AI plans wouldn't budget for the "Targeting Systems" upgrade series like other upgrades, and had a higher chance not to purchase it.  The appropriate upgrades were missing from the AI list. (BUG #463)
-• The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
-• The Master Force Adept (the Teleporter) in Consortium campaign mission #8 "Following the Artifact" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
-• The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced. (BUG #130)
-• The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Garm Bel Iblis. (BUG #203)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Tyber Zann. (BUG #254)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Bossk. (BUG #255)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include IG-88. (BUG #256)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use included an unused version of Captain Piett, and not the proper unit. (BUG #204)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use included an unused version of Red Squadron, and not the proper unit team. (BUG #205)
-• The Galactic AI's magic defense spawning system now cannot spawn TIE interceptor Squadrons on the Galactic map to prevent AI pathfinding errors when the AI can't move Interceptors. (BUG #243)
-• The Galactic AI wouldn't build cantinas due to reversed logic tricking them into thinking they were always at max capacity for cantinas.  They now build 1 cantina per planet if applicable. (BUG #407)
-• The Galactic AI wouldn't build Hutt palaces due to their logic being disabled.  The original building AI was incomplete/unfinished and lacked basic checks the building AI for the cantinas have.  They should now build 1 Hutt palace per planet if applicable, and bounty hunters with them should enemy smugglers exist on their controlled planets.  In addition, the outdated bounty hunter "SabotagePoliticalControl" plan has been disabled, as bounty hunters no longer can wreck a faction's political control over a planet; this plan also lead to the AI overbuying bounty hunters. (BUG #408)
-• The Galactic AI wouldn't be inclined to purchase Vader and the Executor.  As a major hero and ship, they've been added to the Empire's tech plan AI; Vader is now a mandatory purchase before building the Death Star II. (BUG #421)
-• The Galactic AI would waste processing time trying to give orders/evaluate locations to units already moving and therefore unapplicable to use a movement opportunity. (BUG #434)
-• The Tactical AI used a difficulty-based "chance" in EaW to dictate if a unit's ability should be used, and in more specific plans, should the unit divert itself to a large group of targets to optimally use its Area of Effect ability.  The ability would pop if the "chance" given is larger than what was rolled (the longer the battle, the smaller the roll).  In EaW, on Easy, the chance was 20, on Medium was 60, and on Hard was 100 (all the time).  In FoC, chance rolls were disabled for testing purposes (set to 100% all the time) and never re-enabled.  EaW's original chance values have been restored - easier difficulties should now see less optimal ability usage earlier in battles. (BUG #435)
-• Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
-• Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
-• Luke Skywalker was only considered a "LandHero" for AI planning, and not both a land hero and "SpaceHero" despite controlling his X-wing in space. (BUG #420)
-
 
 Animation Fixes:
-• Only half of the AT-AT Barge's model would explode upon death, the remainder permanently floating in space.  The animation ends on the same frame it would disable the model in an explosion, but it doesn't work due to an engine bug.  The animation was extended 2 frames to compensate, with the entire barge model exploding properly now. (BUG #387)
-• Slave I, The Hound's Tooth, IG-2000, Red 5 and the Moldy Crow didn't have SFX when landing or taking off from reinforcing a planet.  The related entries were missing from the animation SFX mapping. (BUG #454)
+• Only half of the AT-AT Barge's space model would explode upon death, leaving the remainder permanently floating in space, because the animation ends on the same frame it would disable the model in an explosion.  To avoid this engine bug, the animation was extended by 2 frames. (BUG #387)
+• Slave I, The Hound's Tooth, IG-2000, Red 5 and the Moldy Crow didn't have SFX when landing or taking off from reinforcing a planet, because the related entries were missing from the animation SFX mapping. (BUG #454)
 
 
 Audio Fixes:
-• General Veers' callouts for appearing on the battlefield wouldn't play because the reference wasn't looking for "Veers_AT_AT_Walker." (BUG #372)
-• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
-• Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
+• General Veers' callouts for appearing on the battlefield wouldn't play because the check wasn't looking for "Veers_AT_AT_Walker." (BUG #372)
+• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks were misreferenced. (BUG #29)
+• Thrawn's callout for appearing on the battlefield wouldn't play because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
-• Thrawn's VO for moving into asteroids, nebulas, responding to the player's commands to attack hardpoints and his VO for activating his Assault ability wasn't implemented at all, and instead used generic Star Destroyer VO. (BUG #258)
-• Rom Mohc's VO for attacking Gravity Well Generators, using his Missile Shield ability or losing his missile launchers went unused as the proper SFX wasn't implemented at all. (BUG #264)
-• Mara Jade's Force Corrupt ability, which was patched to play dialogue restored in patch 1.121.859328, didn't have specialized VO for Mara Jade using it.  Instead, Emperor Palpatine's VO would play instead.  Jade now has some reorganized VO when using Force Corrupt, 1 unused line and 2 lines moved from her generic attack VO. (BUG #368)
-• Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
-• Tyber Zann was missing a great wealth of VO overall: attacking hanger bays and gravity wells, various movement and attack VO, VO for losing the plasma and ion cannons on his flagship, VO for overcharging his plasma cannon, and other missing VO for his abilities.  While some of these lines are duplicates, they have different cadences and add some fresh air to Zann's VO. (BUG #259)
-• Urai Fen had a chance to use strange VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake that was left unused in the files. (BUG #261)
-• Urai Fen was missing over 10 lines of VO: VO for the Stun ability, low health and very-low-health callouts weren't implemented at all. (BUG #262)
-• Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented at all. (BUG #263)
-• Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells and losing its main ion or plasma cannon.  The former SFX wasn't referenced in the unit's entry, the latter wasn't used at all. (BUG #265)
-• Keldabe-class Battleships were missing VO regarding attacking Gravity Wells and about entering asteroid fields.  The respective SFX wasn't referenced in the unit's entry. (BUG #266)
-• Interceptor IV Frigates were missing VO regarding attacking hangar bays and entering asteroids fields.  The respective SFX weren't referenced in the unit's entry. (BUG #401)
-• Skipray Blastboats were missing VO regarding entering asteroid fields and dogfighting lines when their enemies' health is low or critical.  The respective SFX wasn't referenced in the unit's entry. (BUG #267)
-• StarViper Squadrons were missing VO regarding entering asteroid fields and dogfighting lines when joining in a dogfight or group movement.  The respective SFX wasn't referenced in the unit's entry. (BUG #268)
-• Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
+• Thrawn's VO for moving into asteroids, nebulas, responding to the player's commands to attack hardpoints and his VO for activating his Assault ability wasn't implemented, and instead used generic Star Destroyer VO. (BUG #258)
+• Rom Mohc's VO for attacking Gravity Well Generators, using his Missile Shield ability or losing his missile launchers went unused as the proper SFX wasn't implemented. (BUG #264)
+• The Force Corrupt ability, which was officially fixed in patch 1.121.859328 to play dialogue, didn't have specialized VO for Mara Jade using it.  Instead, Emperor Palpatine's VO would play instead.  Jade now has some reorganized VO when using Force Corrupt, 1 unused line and 2 lines moved from her generic attack VO. (BUG #368)
+• Tyber Zann's callout for appearing in space battles was confusing, because the Consortium announcer would claim "Tyber Zann has landed!" during space battles.  This callout has been removed entirely. (BUG #59)
+• Tyber Zann was missing a great wealth of VO: attacking hanger bays and gravity wells, various movement and attack VO, VO for losing the plasma and ion cannons on his flagship, VO for overcharging his plasma cannon, and other missing VO for his abilities. (BUG #259)
+• Urai Fen had a chance to use beta VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake that was left unused in the files. (BUG #261)
+• Urai Fen was missing over 10 lines of VO: low health callouts, very-low-health callouts, and VO for his Stun ability weren't implemented. (BUG #262)
+• Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented. (BUG #263)
+• Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells and losing their main ion or plasma cannon.  The former SFX wasn't referenced in the unit's entry, the latter wasn't used at all. (BUG #265)
+• Keldabe-class Battleships were missing VO regarding attacking Gravity Wells and about entering asteroid fields, because the respective SFX wasn't referenced in the unit's entry. (BUG #266)
+• Interceptor IV Frigates were missing VO regarding attacking hangar bays and entering asteroid fields, because the respective SFX weren't referenced in the unit's entry. (BUG #401)
+• Skipray Blastboats were missing VO regarding entering asteroid fields and dogfighting lines when their enemies' health is low or critical, because the respective SFX wasn't referenced in the unit's entry. (BUG #267)
+• StarViper Squadrons were missing VO regarding entering asteroid fields and dogfighting lines when joining in a dogfight or group movement, because the respective SFX wasn't referenced in the unit's entry. (BUG #268)
+• Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misreferenced as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
-• Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
-• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditions were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
-• Consortium advisors would callout that "the Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
+• Consortium Piracy reward ships used their faction-oriented VO when bought and constructed instead of using Consortium VO. (BUG #50)
+• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditions were disabled before release, and many were not programmed at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
+• Consortium advisors would call out that "The Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
 • The Consortium Advisor would use the wrong dialogue when the Repulsorlift Jammer was destroyed.  It used to play the "Jammer under attack" line for both low health and being destroyed, instead of its appropriate "Jammer destroyed" VO. (BUG #437)
 • Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
 • MDUs would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
-• No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
+• No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'.  The Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Imperial Force Adepts no longer use both the Rebel blaster SFX and a lightsaber swing sound when attacking. (BUG #63)
-• Silri no longer uses both the Stormtrooper blaster SFX and a lightsaber swing sound when attacking. (BUG #207)
+• Silri no longer uses both the Stormtrooper blaster SFX and a lightsaber whip crack sound when attacking. (BUG #207)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle. (BUG #179)
 • Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
 • The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
+
+
+Balance Modifications:
+• "Tyber_Galactic_Stealth" has been removed from Tyber Zann.  He retains this stealth ability in the Consortium campaign, as it is reliant on him having it.  His galactic stealth ability has been removed for several reasons, visible on the GitHub. (BUG #154)
+• Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game.  They are now restricted to the same planets other capital ships are. (BUG #144)
+• Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their respective classes in the Galactic fleet management window. (BUG #175)
+• "Starbase Plasma Cannon" upgrade for the Consortium Skirmish space station was able to be used infinitely after purchasing it the first time, unlike the other factions. (BUG #418)
 
 
 Interface Fixes:
@@ -210,7 +219,7 @@ Interface Fixes:
 • Boba Fett's GC tooltip didn't indicate if the unit could capture build pads. (BUG #94)
 • Bossk's tooltips didn't indicate if the unit could capture build pads. (BUG #95)
 • Defilers' GC tooltip didn't indicate if the unit could capture build pads. (BUG #96)
-• R2-D2 & C-3PO's GC tooltip didn't indicate if the unit could capture build pads, and the land team tooltip didn't include any information about the droid pair. (BUG #97)
+• R2-D2 & C-3PO's GC tooltip didn't indicate if the unit could capture build pads, and the land tooltip wouldn't display standard info about the droids. (BUG #97)
 • Emperor Palpatine's GC tooltip didn't indicate if the unit could capture build pads. (BUG #98)
 • Ewok Handlers' GC tooltip didn't indicate if the unit could capture build pads. (BUG #99)
 • Luke Skywalker's tooltips didn't indicate if the unit could capture build pads. (BUG #100)
@@ -219,23 +228,22 @@ Interface Fixes:
 • Darth Vader's tooltips across the board didn't indicate if the unit could capture build pads. (BUG #107)
 • Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #110)
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
-• Imperial Force Adepts' tooltip didn't indicate if the unit could capture build pads. (BUG #112)
-• The Governor's Quarters from Consortium campaign mission #5 "A Dark Ally" didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
-• Guard Towers from the campaign didn't use a tooltip icon despite having one in the interface GFX library. (BUG #55)
-• Reinforcement Points didn't use a tooltip icon despite having one in the interface GFX library. (BUG #141)
-• Shaaks didn't use a tooltip icon despite having one in the interface GFX library. (BUG #90)
-• Tatooine's sarlacc pit didn't use a tooltip icon despite having one in the interface GFX library. (BUG #155)
-• Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
-• Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
+• Force Adepts' tooltip didn't indicate if the unit could capture build pads. (BUG #112)
+• The Governor's Quarters from Consortium campaign mission #5 "A Dark Ally" didn't use its unique tooltip icon despite having one in the GFX library, instead using the Imperial Prison icon. (BUG #54)
+• Guard Towers from the campaign didn't use a tooltip icon despite having one in the GFX library. (BUG #55)
+• Reinforcement Points didn't use a tooltip icon despite having one in the GFX library. (BUG #141)
+• Shaaks didn't use a tooltip icon despite having one in the GFX library. (BUG #90)
+• Tatooine's sarlacc pit didn't use a tooltip icon despite having one in the GFX library. (BUG #155)
+• Desert Skettos didn't use a tooltip icon despite having one in the GFX library. (BUG #156)
+• Tauntauns didn't use a tooltip icon despite having one in the GFX library. (BUG #157)
 • R2-D2 and C-3PO didn't use their appropriate icons or tooltips, despite having them, due to an interface bug.  The underlying issue has been resolved, and now the GC description, unit description and icons display appropriately.  Because of another underlying issue, the droids were forced to have advantage indicators, so I've assigned enemy faction turrets in both categories as they are technically both good and weak against them. (BUG #45)
 • Skipray Blastboats had mismatched advantage indicators, one claiming they're good against Star Destroyers and Calamari Cruisers, and the other only against all Imperial frigates.  Now it displays the Star Destroyer, Calamari Cruiser, and Acclamator-class. (BUG #84)
 • Consortium Piracy reward units would have Consortium units in the advantages indicators in the tooltip.  Considering these units can't be used in mirror matches, the Consortium icons have been swapped out for appropriate faction ones. (BUG #82)
-• Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
+• Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") didn't have a selection ring in combat. (BUG #384)
+• The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") didn't have a selection ring in combat. (BUG #384)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
-• Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their types in the Galactic fleet management window. (BUG #175)
-• Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
+• Interceptor IV Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
 • Pirate Soldier Mobs used in Consortium campaign mission #5 "A Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Jabba's Criminal Empire in the campaign wouldn't display their faction icon on a planet's info window despite having one in the GFX library. (BUG #232)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
@@ -247,15 +255,15 @@ Interface Fixes:
 • The Empire's skirmish dashboard had its Main Menu icon misaligned by a couple pixels.  It overlapped with the bar. (BUG #377)
 • The Pause/Play button on the command bar was referencing a non-existent texture (i_button_command_bar_disabled) when disabled.  The proper icon has been assigned (i_button_command_bar_play_disabled). (BUG #433)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
-• The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
-• Defilers' icon usage is now consistent with other Minor Heroes, despite being formatted the same way.  Their "hero head"/"closeup" icon should've only been used on the hero bar/physical unit to emphasize they are Minor Heroes in-battle, and otherwise (like in GC), their unused, unique "infantry-styled" icon should be used to be consistent with other infantry. (BUG #443)
+• The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because both textures had swapped names. (BUG #260)
+• Defilers' icon usage is now consistent with other minor heroes.  Their "hero head"/"closeup" icon should've only been used on the hero bar/physical unit to emphasize they are Minor Heroes in-battle, and otherwise (like in GC), their unused, unique "infantry-styled" icon should be used to be consistent with other infantry. (BUG #443)
 • Conditions for campaign "Heart of the Maw" were wrong compared to what the player actually got in-game.  All factions were supposed to start at Tech Level 4 (only the Rebels did, Empire started at Tech Level 3) and were supposed to start with 12,000 credits (everyone started with 13,000). (BUG #445)
 • Conditions for campaign "Clusters" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 5,000 credits (everyone started with 12,000). (BUG #446)
 • Conditions for campaign "Rim World Conflict" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000). (BUG #447)
 • Conditions for campaign "Gateways" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 8,000 credits (everyone started with 12,000). (BUG #448)
 • Conditions for campaign "Equal Footing" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 8,000 credits (everyone started with 12,000). (BUG #449)
 • Conditions for campaign "Origin of Corruption" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000), and all factions are supposed to start at Tech Level 1 (Rebels started at Tech Level 2). (BUG #450)
-• Field and Fleet Commanders for both the Empire and Rebellion would not show their "bust" icons on the hero bar when summoned in battle.  The functionality of the "Show_Hero_Head" function for minor/generic heroes changed from EaW, and will not work if not assigned to both the unit's group AND unit, and not just the latter.  This function does not work for Field Commanders at all - instead, Field Commanders' land "container" has become a "named/major hero," while the unit itself is a minor one.  There should be no forward-facing side effects (aside from the aforementioned bugfix).
+• Field and Fleet Commanders for both the Empire and Rebellion would not show their "bust" icons on the hero bar when summoned in battle, because the functionality of the "Show_Hero_Head" setting for minor/generic heroes was changed. (BUG #135)
 • While possibly deprecated, the Death Star II was defined to use the Hutts faction symbol instead of its own fleet icon override.  This was because, when indexed, the DS's symbol was #4, but became #6 with the release of FoC, and wasn't corrected. (BUG #461)
 
 
@@ -267,18 +275,18 @@ Map/Planet Fixes:
 • Space Dathomir's defense satellites would only appear when the planet was owned by the Rebels. (BUG #251)
 • Space Nal Hutta's moon would be destroyed by the Death Star II, instead of Nal Hutta.  Upon returning to the map, it magically reappeared with Nal Hutta destroyed, because the moon used Coruscant's model.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's Legends name) has been added and swapped into the map. (BUG #166)
 • Space Bespin's Piracy map, including its Consortium Campaign variant, had a "huge asteroid" prop missing from the closest southern asteroid field.  This prop was mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #465)
-• Space Corulag's Piracy map had multiple asteroids and asteroid field props missing from around the map.  These props were mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #466)
+• Space Corulag's Piracy map had multiple asteroids and asteroid field props missing from around the map.  These props were mistakenly set to be owned by the Pirates instead of being neutral objects. (BUG #466)
 • Land Bestine Kidnapping had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, the small lakes on the map weren't tagged for hover vehicles to fly over.  The whole map has gotten a new brush pass where units can move and regenerated AI pathfinding zones. (BUG #374)
 • Land Bonadan had awkward/bad passability painting near some of the walkway's walls, meaning units could enter the sinkholes and defy gravity.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #373)
-• Land Tatooine's sarlacc was cut for censorship (i.e. eating infantry alive), but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Petroglyph uncensored the rancor's eat-infantry ability in patch 1.121.826596, therefore consistency the sarlacc has been restored to Tatooine. (BUG #129)
+• Land Tatooine's sarlacc was cut for censorship (i.e. eating infantry alive), but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Petroglyph uncensored the rancor's eat-infantry ability in patch 1.121.826596, therefore consistency reasons, the sarlacc has been restored to Tatooine. (BUG #129)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move. (BUG #77)
 • Land Honoghr had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, water pathfinding was awkward and constricted on some smaller lakes.  Bushes that were supposed to be impassable also weren't.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #375)
-• Land Shola would damage Darth Vader because the map's infantry damage script marker didn't include his FoC land unit, only his EaW one. (BUG #27)
+• Land Shola would damage Darth Vader because the map's infantry damage script marker misreferenced his unit. (BUG #27)
 • Land Bothawui's intimidation mission had a landing platform that would disappear when the Rebels owned the planet, leaving two floating Gallofree Transports. (BUG #217)
 • Land Bothawui's intimidation mission had Rebel Gallofree Transports instead of Imperial Lambda Shuttles when the Empire owns the planet. (BUG #218)
 • Land Bothawui's intimidation mission had a group of Bothan guards set to Rebel-only, instead of letting the script handle their faction, leading to the Empire version of the mission lacking a squad of Bothan guards. (BUG #220)
 • Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
-• Mustafar's galactic map model used the generic volcanic planet GFX instead of the custom blue-glow planet like other planets with custom models.  The original planet model couldn't be used due to LOD states being reversed, so a new W_PLANET_MUSTAFAR_LOW model was created to function on the GC view. (BUG #240)
+• Mustafar's galactic map model used the generic volcanic planet GFX instead of the custom blue-glow planet like other planets with custom models.  The original planet model couldn't be used due to LOD states being reversed, so a new "W_PLANET_MUSTAFAR_LOW" model was created to function in Galactic Conquest. (BUG #240)
 • Nal Hutta was defined as a swamp planet but with "temperate" terrain; this caused music, GFX and SFX conflicts with the planet's setting.  The campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
 • Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Expansion."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
@@ -302,25 +310,25 @@ Model Fixes:
 • The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks irampagingrhin0!) (BUG #137)
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
-• Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
+• Rebel and Consortium turbolaser towers would use green muzzle flashes, despite using red lasers, because they reused the Empire's turbolaser tower model.  A new model has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
 • The Canderous Assault Tank's "crusher" bounds to detect when infantry should be crushed was egregiously big and difficult to play against.  Its reduction is now more fair to the actual model's extents. (Thanks theshyshallot!) (BUG #389)
-• Slave I's "landing" model was far too small compared to other ships.  Petroglyph never gave it a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
-• Red 5's "landing" model was far too small compared to other ships.  Petroglyph gave it a scale override, but it was still somewhat smaller than other ships that land like it.  Red 5's landing model is now 0.7x bigger when landing. (BUG #456)
+• Slave I's "landing" model was far too small compared to other ships, because it never recieved a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
+• Red 5's "landing" model was far too small compared to other ships.  It recieved a scale override, but it was still somewhat smaller than other ships that land like it.  Red 5's landing model is now 0.7x bigger when landing. (BUG #456)
 
 
 Script/Story Fixes:
-• Consortium Campaign #3 ("Communications Breakdown") would, on widescreen resolutions, crop Urai's head out of camera view during his monologue at the Hutt ambush.  The camera's position was only intended for 4:3/Normal resolutions, and has been adjusted to pan out the frame more. (BUG #270)
-• Consortium Campaign #5 ("A Dark Ally")'s turrets wouldn't disable if the player rushed the Nightsisters to the Governor's Palace and destroyed it prematurely, ignoring all other prisons or generators.  The ensuring scene was funny, but had to be fixed. (BUG #400)
-• Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
-• Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene.  While funny, it would break the sequence. (BUG #131)
-• Consortium Campaign #7 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
+• Consortium campaign mission #3 ("Communications Breakdown") would, on widescreen resolutions, crop Urai's head out of camera view during his monologue at the Hutt ambush.  The camera's position was only intended for 4:3 resolutions, and has been adjusted to pan out the frame more. (BUG #270)
+• Consortium campaign mission #5 ("A Dark Ally")'s turrets wouldn't disable if the player rushed the Nightsisters to the Governor's Palace and destroyed it prematurely, ignoring all other prisons or generators.  The ensuring scene was funny, but had to be fixed. (BUG #400)
+• Consortium campaign mission #6 ("Cloud City Conflict") would spawn the EaW's Darth Vader instead of FoC's Vader. (BUG #27)
+• Consortium campaign mission #6 ("Cloud City Conflict") would not clean up Proximity Mines during the ending sequence, where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene.  While funny, it would break the sequence. (BUG #131)
+• Consortium campaign mission #7 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
-• Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
-• Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)
-• Empire Tutorial 5 (Land Empire) had a sequence break where the Imperial Field Commander demands you lead the charge "against the locals," which required you to destroy a Jawa Sandcrawler.  The Sandcrawler was accidentally forgotten and not added to the map - the sequence would break, not give the player a tutorial about indigenous units, and skip immediately to the "destroy the Power Generator" objective. (BUG #444)
+• Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," and would be affected by the mission script as intended. (BUG #219)
+• Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, and would be affected by the mission script as intended. (BUG #222)
+• Empire Tutorial 5 (Land Empire) had a sequence break where the Imperial Field Commander demands you lead the charge "against the locals," which required you to destroy a Jawa Sandcrawler.  The Sandcrawler was accidentally forgotten and not added to the map, causing the sequence to break, not give the player a tutorial about indigenous units, and skip immediately to the "destroy the Power Generator" objective. (BUG #444)
 • It was originally possible that the game's scripting system may try to reference cleared information in consequtive tactical battles, because scripts would not be re-referenced due to still being held in memory, but the tables contained within them are cleared. (Thanks __pox__!) (BUG #442)
 
 
@@ -329,18 +337,18 @@ Structure Fixes:
 • The Pirate Asteroid Base's hardpoints didn't have damage multipliers against units because its multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 • The Hutt/Skirmish Asteroid Base had a permanently missing hardpoint because there was no "dummy" replacement for the hangar hardpoint usually used on the Pirate Asteroid Base. (BUG #399)
 • The Consortium's space station's weapons majorily weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios. (BUG #358)
-• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
-• The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)
-• The Empire's Skirmish Mining Facility would be revealed wherever the opposing player was on the map in some instances because its "collision" size was overridden to 800x800 units manually, instead of 50x50 like other mining facilities. (BUG #351)
+• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> Unavailable --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
+• The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction, which would break the Fog of War for the Empire and give them extra info. (BUG #159)
+• The Empire's Skirmish Mining Facility would be revealed for the opposing player was on the map in some instances because its "collision" size was overridden to 800x800 units, instead of 50x50 like other mining facilities. (BUG #351)
 • Missile Defense Satellites would frequently miss the Rebels' Nebulon-B Frigates, because the frigate's vertical targeting adjustment setting was overshot by 16 units.  Satellites should not miss these frigates anymore. (BUG #462)
 • Missile Defense Satellites, among other units, would miss when targeting the Consortium's hero transport shuttle because the shuttles vertical targeting adjustment setting was undershot by 10 units.  Targeting units should not undershoot the shuttle anymore. (BUG #464)
 
 
 Texture Fixes:
-• All map previews (except Bespin's) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
-•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, processed/wavy water, no rendered clouds).
-•• Consortium Campaign previews not including scripted units or structures on the map.
-•• MP Space Bespin displayed an incorrect/unused map entirely.
+• Land map previews have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  Space previews size was boosted, and are now sharper.  All previews also were completely redone due to incomplete or inconsistent material, or low-quality material.  Changes include: (BUG #253)
+•• Many previews (both original and patched) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, processed/wavy water, no rendered clouds).
+•• Consortium campaign previews not including scripted units or structures on the map.
+•• MP Space Bespin displayed an unused map.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.
 •• Multiplayer map previews originally displayed possible base positions for the Rebels or Empire; this was regressed in patch 1.121.826596 (bases were removed).  Base positions have been restored, and as an enhancement, applicable 3-way map previews now display all 3 faction bases on the map as possible layouts, where FoC on release only displayed Empire and Rebel bases.
 
@@ -350,8 +358,8 @@ Unit Fixes:
 • Garm Bel Iblis didn't have the Rebel hero logo under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
 • Acclamator-class Cruisers had the laser cannon (anti-fighter) damage multipliers applied to its back-right turbolaser, instead of the turbolaser multipliers. (BUG #25)
 • Interceptor IV Frigates had the Acclamator-class laser cannon (anti-fighter) damage multipliers applied to its turbolasers; it now has custom damage multipliers based off of the Acclamator's turbolasers. (BUG #185)
-• Interceptor IV Frigates, the refurbished pirate frigates, used the Empire's green turbolaser bolts instead of red ones, like the majority of non-Star-Destroyer units in the Consortium's arsenal.  They now use red turbolasers. (BUG #402) 
-• Crusader-class Gunships didn't originally have damage multipliers, leading to game-breaking damage output in swarms.  This was originally half-fixed in patch 1.121.826596 with one of the testers appending the Corellian Corvette's multipliers to the Crusader's hardpoints.  The Crusader now has its own damage multipliers for finetuning, based off of the Corellian Corvette's. (BUG #190)
+• Interceptor IV Frigates, the refurbished Pirate frigates, used the Empire's green turbolaser bolts instead of red ones, like the majority of non-Star-Destroyer units in the Consortium's arsenal.  They now use red turbolasers. (BUG #402) 
+• Crusader-class Gunships didn't have damage multipliers, leading to game-breaking damage output in swarms.  This was originally half-fixed in patch 1.121.826596 with one of the testers appending the Corellian Corvette's multipliers to the Crusader's hardpoints.  The Crusader now has its own damage multipliers for finetuning, based off of the Corellian Corvette's. (BUG #190)
 • The Arc Hammer didn't originally have damage multipliers for its lasers or turbolasers.  Since it's a Star Destroyer, the turbolasers now use the normal Star Destroyer multipliers, but no multipliers existed for its laser cannons, which are accurate against fighters.  It now uses multipliers based on the Corellian Corvette's, for finetuning. (BUG #359)
 • B-wings would use a green laser instead of red when firing, not only unlike all other Rebel ships, but conflicting with its red muzzle flash. (BUG #34)
 • B-wings couldn't use one of their ion cannons; their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
@@ -361,11 +369,10 @@ Unit Fixes:
 • TIE defenders' weapons weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios.  For example, their proton torpedoes weren't around 4-8x effective against certain ship types.  A small list of multipliers that now take effect are listed in the bug report. (BUG #354)
 • TIE defenders were categorized as "Fighter | AntiBomber" despite being primarily bombers, leading to occasions where the AI would prioritize them as normal starfighters to fill up plan goals.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #182)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
-• Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
+• Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end.  The slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story." (BUG #138)
-• Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game. (BUG #144)
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
-• Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table didn't include Vader's land FoC unit, only his EaW one. (BUG #68)
+• Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table misreferenced Darth Vader's unit. (BUG #68)
 • Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
 • Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
 • Bossk's space weapons weren't defined with daamge multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #360)
@@ -373,8 +380,9 @@ Unit Fixes:
 • IG-88's space weapons weren't defined with daamge multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #361)
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
-• Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an extensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
+• Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an expensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
+• The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
+• "Cuddles_Rancor_Eat_Infantry" attack for Cuddles (Silri's rancor) wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
 
 
 Upgrade Fixes:
@@ -383,4 +391,3 @@ Upgrade Fixes:
 • "Recharge Special Abilities" would increase the Consortium's ability recharge times in Land Skirmish, instead of decrease.  The percentage was corrected from "+0.85" to "-0.15." (BUG #173)
 • "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as their faction reference was misspelled as "Hutt" instead of "Hutts." (BUG #74)
 • "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
-• "Starbase Plasma Cannon" for the Consortium space station was able to be used infinitely after purchasing it the first time. (BUG #418)
