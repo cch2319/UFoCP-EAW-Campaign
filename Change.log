@@ -266,6 +266,8 @@ Map/Planet Fixes:
 • Space Saleucami's orbital defense satellites wouldn't spawn on the map when bought in GC. (BUG #19)
 • Space Dathomir's defense satellites would only appear when the planet was owned by the Rebels. (BUG #251)
 • Space Nal Hutta's moon would be destroyed by the Death Star II, instead of Nal Hutta.  Upon returning to the map, it magically reappeared with Nal Hutta destroyed, because the moon used Coruscant's model.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's Legends name) has been added and swapped into the map. (BUG #166)
+• Space Bespin's Piracy map, including its Consortium Campaign variant, had a "huge asteroid" prop missing from the closest southern asteroid field.  This prop was mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #465)
+• Space Corulag's Piracy map had multiple asteroids and asteroid field props missing from around the map.  These props were mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #466)
 • Land Bestine Kidnapping had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, the small lakes on the map weren't tagged for hover vehicles to fly over.  The whole map has gotten a new brush pass where units can move and regenerated AI pathfinding zones. (BUG #374)
 • Land Bonadan had awkward/bad passability painting near some of the walkway's walls, meaning units could enter the sinkholes and defy gravity.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #373)
 • Land Tatooine's sarlacc was cut for censorship (i.e. eating infantry alive), but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Petroglyph uncensored the rancor's eat-infantry ability in patch 1.121.826596, therefore consistency the sarlacc has been restored to Tatooine. (BUG #129)
@@ -279,7 +281,6 @@ Map/Planet Fixes:
 • Mustafar's galactic map model used the generic volcanic planet GFX instead of the custom blue-glow planet like other planets with custom models.  The original planet model couldn't be used due to LOD states being reversed, so a new W_PLANET_MUSTAFAR_LOW model was created to function on the GC view. (BUG #240)
 • Nal Hutta was defined as a swamp planet but with "temperate" terrain; this caused music, GFX and SFX conflicts with the planet's setting.  The campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
-• Space Bespin's Piracy map, including its Consortium Campaign variant, had a "huge asteroid" prop missing from the closest southern asteroid field.  This prop was mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #465)
 • Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Expansion."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
 • Alderaan_Expansion's weather indicator wasn't updated from EaW and left as "rain" instead of "clear;" the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 • Alderaan_Expansion wouldn't have a space map preview in the Galactic view's "planet info" screen.  The game can only pull previews from land maps, so the space map was set as both the land and space map to force it to pull a preview.  Alderaan_Expansion is still a space-only map. (BUG #275)
@@ -294,8 +295,6 @@ Map/Planet Fixes:
 • MP Land Felucia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Felucia has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #397)
 • MP Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #398)
 • Kamino and it's MP map had multiple badly painted movement zones that affected the AI's navigation, and caused levitating bugs.  To rectify this, both maps recieved major revisions/passes at where units are allowed to move, and AI zones were regenerated. (BUG #424)
-• Missile Defense Satellites would frequently miss the Rebels' Nebulon-B Frigates, because the frigate's vertical targeting adjustment setting was overshot by 16 units.  Satellites should not miss these frigates anymore. (BUG #462)
-• Missile Defense Satellites, among other units, would miss when targeting the Consortium's hero transport shuttle because the shuttles vertical targeting adjustment setting was undershot by 10 units.  Targeting units should not undershoot the shuttle anymore. (BUG #464)
 
 
 Model Fixes:
@@ -333,6 +332,8 @@ Structure Fixes:
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
 • The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)
 • The Empire's Skirmish Mining Facility would be revealed wherever the opposing player was on the map in some instances because its "collision" size was overridden to 800x800 units manually, instead of 50x50 like other mining facilities. (BUG #351)
+• Missile Defense Satellites would frequently miss the Rebels' Nebulon-B Frigates, because the frigate's vertical targeting adjustment setting was overshot by 16 units.  Satellites should not miss these frigates anymore. (BUG #462)
+• Missile Defense Satellites, among other units, would miss when targeting the Consortium's hero transport shuttle because the shuttles vertical targeting adjustment setting was undershot by 10 units.  Targeting units should not undershoot the shuttle anymore. (BUG #464)
 
 
 Texture Fixes:
