@@ -388,8 +388,9 @@ Unit Fixes:
 
 
 Upgrade Fixes:
-• "Reinforced Durasteel" wouldn't give the Consortium space station a damage reduction in Skirmish or GC; the upgrade only affected Land Skirmish, and only affected defensive satellites. (BUG #14)
-• "Modified Cloaking Generator" wouldn't provide a 25% or 50% cloaking time extension for Tyber Zann or the Vengeance Frigate; the upgrade only affected Land Skirmish despite being available for purchase in Space Skirmish. (BUG #15)
-• "Recharge Special Abilities" would increase the Consortium's ability recharge times in Land Skirmish, instead of decrease.  The percentage was corrected from "+0.85" to "-0.15." (BUG #173)
-• "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as their faction reference was misspelled as "Hutt" instead of "Hutts." (BUG #74)
+• Consortium upgrade series "Reinforced Durasteel" wouldn't give their space station a damage reduction in Skirmish or GC.  The series would only affect defensive satellites, if it wasn't set to apply in Land Skirmish. (BUG #14)
+• Consortium upgrade series "Modified Cloaking Generator" wouldn't provide a 25% or 50% cloaking time extension for Tyber Zann or the Vengeance Frigate; the upgrade was set for Land Skirmish instead of Space Skirmish. (BUG #15)
+• Consortium upgrade "Recharge Special Abilities" would increase the ability recharge times in Land Skirmish, instead of decrease. (BUG #173)
+• Consortium upgrade "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as the faction was misreferenced as "Hutt" instead of "Hutts." (BUG #74)
+• Rebel upgrade series "Improved Defenses" wouldn't give their space stations their 15%/30%/50% damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
 • "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
