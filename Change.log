@@ -388,11 +388,12 @@ Unit Fixes:
 
 
 Upgrade Fixes:
-• Consortium upgrade series "Reinforced Durasteel" wouldn't give their space station a damage reduction in Skirmish or GC.  The series would only affect defensive satellites, if it wasn't set to apply in Land Skirmish. (BUG #14)
+• Consortium upgrade series "Reinforced Durasteel" wouldn't give their space stations a damage reduction in Skirmish or GC.  The series would only affect defensive satellites, if it wasn't set to apply in Land Skirmish. (BUG #14)
 • Consortium upgrade series "Modified Cloaking Generator" wouldn't provide a 25% or 50% cloaking time extension for Tyber Zann or the Vengeance Frigate; the upgrade was set for Land Skirmish instead of Space Skirmish. (BUG #15)
 • Consortium upgrade "Recharge Special Abilities" would increase the ability recharge times in Land Skirmish, instead of decrease. (BUG #173)
 • Consortium upgrade "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as the faction was misreferenced as "Hutt" instead of "Hutts." (BUG #74)
-• Rebel upgrade series "Improved Defenses" wouldn't give their space stations their 15%/30%/50% damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
+• Rebel upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
 • Rebel upgrade series "Reinforced Armor" wouldn't give B-wings the 25% armor bonus the rest of the Rebels' fighter roster recieved. (BUG #471).
-• Rebel upgrade "Improved Weapons Level 1" would not improve the B-wing's weapons damage by 25%, unlike Levels 2 and 3. (BUG #470)
-• "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
+• Rebel upgrade "Improved Weapons Level 1" would not improve the B-wing's weapons damage, unlike Levels 2 and 3. (BUG #470)
+• Empire upgrade "Enhanced Reactors Level 1" would not improve the TIE defender's engine speed, unlike Levels 2 and 3. (BUG #472)
+• "Increased Production" Level 1 and 2 wouldn't affect Land Skirmish mining facilities. (BUG #246)
