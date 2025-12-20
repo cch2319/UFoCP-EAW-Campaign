@@ -296,13 +296,13 @@ Map/Planet Fixes:
 • The Maw wouldn't have a space map preview in the Galactic view's "planet info" screen.  The game can only pull previews from land maps, so the space map was set as both the land and space map to force it to pull a preview.  The Maw is still a space-only map. (BUG #350)
 • Honoghr in the campaign would display a generic human instead of a Noghri in its loading screen. (BUG #88)
 • Mandalore in the campaign and prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
-• Land Saleucami had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Saleucami has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #393)
-• Land Taris had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #394)
-• Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #395)
-• MP Land Dathomir had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, it has also recieved a pass at where units are allowed to move, some of the bases adjusted so units don't spawn locked in objects, and AI zones were regenerated. (BUG #396)
-• MP Land Felucia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Felucia has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #397)
-• MP Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #398)
-• Kamino and it's MP map had multiple badly painted movement zones that affected the AI's navigation, and caused levitating bugs.  To rectify this, both maps recieved major revisions/passes at where units are allowed to move, and AI zones were regenerated. (BUG #424)
+• Land Saleucami had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Saleucami has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #393)
+• Land Taris had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #394)
+• Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #395)
+• MP Land Dathomir had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, it has also received a pass at where units are allowed to move, some of the bases adjusted so units don't spawn locked in objects, and AI zones were regenerated. (BUG #396)
+• MP Land Felucia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Felucia has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #397)
+• MP Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #398)
+• Kamino and it's MP map had multiple badly painted movement zones that affected the AI's navigation, and caused levitating bugs.  To rectify this, both maps received major revisions/passes at where units are allowed to move, and AI zones were regenerated. (BUG #424)
 
 
 Model Fixes:
@@ -312,11 +312,11 @@ Model Fixes:
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
 • Rebel and Consortium turbolaser towers would use green muzzle flashes, despite using red lasers, because they reused the Empire's turbolaser tower model.  A new model has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
-• Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
+• Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have received new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
 • The Canderous Assault Tank's "crusher" bounds to detect when infantry should be crushed was egregiously big and difficult to play against.  Its reduction is now more fair to the actual model's extents. (Thanks theshyshallot!) (BUG #389)
-• Slave I's "landing" model was far too small compared to other ships, because it never recieved a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
-• Red 5's "landing" model was far too small compared to other ships.  It recieved a scale override, but it was still somewhat smaller than other ships that land like it.  Red 5's landing model is now 0.7x bigger when landing. (BUG #456)
+• Slave I's "landing" model was far too small compared to other ships, because it never received a scale override.  Slave I's landing model is now 3.0x bigger than its space model base. (BUG #455)
+• Red 5's "landing" model was far too small compared to other ships.  It received a scale override, but it was still somewhat smaller than other ships that land like it.  Red 5's landing model is now 0.7x bigger when landing. (BUG #456)
 
 
 Script/Story Fixes:
@@ -393,7 +393,7 @@ Upgrade Fixes:
 • Consortium upgrade "Recharge Special Abilities" would increase the ability recharge times in Land Skirmish, instead of decrease. (BUG #173)
 • Consortium upgrade "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as the faction was misreferenced as "Hutt" instead of "Hutts." (BUG #74)
 • Rebel upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
-• Rebel upgrade series "Reinforced Armor" wouldn't give B-wings the 25% armor bonus the rest of the Rebels' fighter roster recieved. (BUG #471).
+• Rebel upgrade series "Reinforced Armor" wouldn't give B-wings the 25% armor bonus the rest of the Rebels' fighter roster received. (BUG #471).
 • Rebel upgrade "Improved Weapons Level 1" would not improve the B-wing's weapons damage, unlike Levels 2 and 3. (BUG #470)
 • Empire upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #474)
 • Empire upgrade "Enhanced Reactors Level 1" would not improve the TIE defender's engine speed, unlike Levels 2 and 3. (BUG #472)
