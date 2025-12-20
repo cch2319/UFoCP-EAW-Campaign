@@ -384,6 +384,7 @@ Unit Fixes:
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 • Cuddles' (Silri's familiar) attack "Cuddles_Rancor_Eat_Infantry" wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
 • AT-ATs (and by extension General Veers) would be able to rotate their turret 360* and hit targets behind them in certain scenarios, such as deploying Stormtroopers. (BUG #467)
+• Multiple units would struggle to hit the 2-M Repulsor Tank in multiple scenarios because the unit's vertical targeting adjustment setting was overshot by 3 units, and would shoot over the tank's base instead. (BUG #468)
 
 
 Upgrade Fixes:
