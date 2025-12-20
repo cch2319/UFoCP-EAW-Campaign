@@ -50,8 +50,8 @@ ENHANCEMENTS:
 • Distant and angled textures should now be much sharper.  EaW and FoC originally used linear filtering for texture rendering, but a new set of shaders have been implemented that now leverage x16 anisotropic filtering instead. (Thanks evilbobthebob!) (BUG #379)
 • The shadow mesh for the Canderous Assault Tank had awkward geometry that wouldn't properly reflect shadows on or off of the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
 
-• A new loading screen and main menu have been added for English and German game languages.  File resolutions were upscaled from 1280x768 to 1920x1440 for both files, have smaller filesizes than the originals (3.0 MB -> ~2.5 MB), and are widescreen corrected (there should no longer be any horizontal stretching at widescreen resolutions).  The upscaled menus (and new graphic material, see below bullet point) were designed to address grievances regarding players not knowing if the Unofficial Patch was enabled, as there was no indication when launching the game. (BUG #451)
-•• Both loading screens also have new graphic material added to them from promotional images released during FoC's development cycle.  The logo was also adjusted, and has the Zann Consortium's stylized Mandalorian Skull graphic behind it.
+• A new loading screen and main menu have been added for English and German game languages.  File resolutions were upscaled from 1280x768 to 1920x1440 for both files, have smaller filesizes than the originals (3.0 MB -> ~2.5 MB), and are widescreen corrected (there should no longer be any horizontal stretching at widescreen resolutions).  The upscaled menus (and new graphic material, see below bullet point) were designed to address grievances regarding players not knowing if the Unofficial Patch was enabled because there was no indication when launching the game. (BUG #451)
+•• Both loading screens also have new graphic material from promotional images released during FoC's development cycle.  The logo was also adjusted, and has the Zann Consortium's stylized Mandalorian Skull graphic behind it.
 
 • Extra debugging notifications have been added to Petroglyph's scripting library (specifically, PGBase's <function Flush_G()>). (BUG #442)
 
@@ -203,14 +203,14 @@ Audio Fixes:
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle. (BUG #179)
 • Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
+• The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
 
 
 Balance Modifications:
 • "Tyber_Galactic_Stealth" has been removed from Tyber Zann.  He retains this stealth ability in the Consortium campaign, as it is reliant on him having it.  His galactic stealth ability has been removed for several reasons, visible on the GitHub. (BUG #154)
 • Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game.  They are now restricted to the same planets other capital ships are. (BUG #144)
-• Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their respective classes in the Galactic fleet management window. (BUG #175)
-• "Starbase Plasma Cannon" upgrade for the Consortium Skirmish space station was able to be used infinitely after purchasing it the first time, unlike the other factions. (BUG #418)
+• Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their respective classes in the galactic fleet management windows. (BUG #175)
+• "Starbase Plasma Cannon" upgrade for the Consortium Skirmish space station was able to be used infinitely after purchasing it the first time, unlike the other factions.  This may have been intentional, but after AoE damage was fixed after the 2016 patch, the starbase plasma cannon is now of similar strength to the Hypervelocity Gun and needed a nerf. (BUG #418)
 
 
 Interface Fixes:
@@ -274,7 +274,7 @@ Map/Planet Fixes:
 • Space Saleucami's orbital defense satellites wouldn't spawn on the map when bought in GC. (BUG #19)
 • Space Dathomir's defense satellites would only appear when the planet was owned by the Rebels. (BUG #251)
 • Space Nal Hutta's moon would be destroyed by the Death Star II, instead of Nal Hutta.  Upon returning to the map, it magically reappeared with Nal Hutta destroyed, because the moon used Coruscant's model.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's Legends name) has been added and swapped into the map. (BUG #166)
-• Space Bespin's Piracy map, including its Consortium Campaign variant, had a "huge asteroid" prop missing from the closest southern asteroid field.  This prop was mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #465)
+• Space Bespin's Piracy map, including its Consortium campaign variant, had a "huge asteroid" prop missing from the closest southern asteroid field.  This prop was mistakenly set to be owned by the Pirates instead of being a neutral object. (BUG #465)
 • Space Corulag's Piracy map had multiple asteroids and asteroid field props missing from around the map.  These props were mistakenly set to be owned by the Pirates instead of being neutral objects. (BUG #466)
 • Land Bestine Kidnapping had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, the small lakes on the map weren't tagged for hover vehicles to fly over.  The whole map has gotten a new brush pass where units can move and regenerated AI pathfinding zones. (BUG #374)
 • Land Bonadan had awkward/bad passability painting near some of the walkway's walls, meaning units could enter the sinkholes and defy gravity.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #373)
@@ -373,7 +373,7 @@ Unit Fixes:
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story." (BUG #138)
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
 • Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table misreferenced Darth Vader's unit. (BUG #68)
-• Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
+• Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit's death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
 • Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
 • Bossk's space weapons weren't defined with daamge multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #360)
 • IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)
@@ -383,7 +383,7 @@ Unit Fixes:
 • Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an expensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 • Cuddles' (Silri's familiar) attack "Cuddles_Rancor_Eat_Infantry" wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
-• AT-ATs (and by extension General Veers) would be able to rotate their turret 360* and hit targets behind them in certain scenarios, such as deploying Stormtroopers. (BUG #467)
+• AT-ATs (and by extension General Veers) would be able to rotate their turret 360* and hit targets behind them in certain scenarios, such as when deploying Stormtroopers. (BUG #467)
 • Multiple units would struggle to hit the 2-M Repulsor Tank in multiple scenarios because the unit's vertical targeting adjustment setting was overshot by 3 units, and would shoot over the tank's base instead. (BUG #468)
 
 
