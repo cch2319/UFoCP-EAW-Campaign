@@ -395,6 +395,7 @@ Upgrade Fixes:
 • Rebel upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
 • Rebel upgrade series "Reinforced Armor" wouldn't give B-wings the 25% armor bonus the rest of the Rebels' fighter roster recieved. (BUG #471).
 • Rebel upgrade "Improved Weapons Level 1" would not improve the B-wing's weapons damage, unlike Levels 2 and 3. (BUG #470)
+• Empire upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #474)
 • Empire upgrade "Enhanced Reactors Level 1" would not improve the TIE defender's engine speed, unlike Levels 2 and 3. (BUG #472)
-• Empire upgrade "Improved Weapons Level 1" would not improve the TIE defender's weapons damage, unlike Levels 2 and 3. (BUG #472)
+• Empire upgrade "Improved Weapons Level 1" would not improve the TIE defender's weapons damage, unlike Levels 2 and 3. (BUG #473)
 • "Increased Production" Level 1 and 2 wouldn't affect Land Skirmish mining facilities. (BUG #246)
