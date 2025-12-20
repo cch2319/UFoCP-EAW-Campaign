@@ -2249,7 +2249,7 @@
 			<Combat_Bonus_Ability Name="RS_Reinforced_Armor_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel</Applicable_Unit_Types>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, B-Wing, Z-95_Headhunter_Rebel</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2289,7 +2289,7 @@
 			<Combat_Bonus_Ability Name="RS_Reinforced_Armor_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Nebulon_B_Frigate, Alliance_Assault_Frigate</Applicable_Unit_Types>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, B-Wing, Z-95_Headhunter_Rebel, Nebulon_B_Frigate, Alliance_Assault_Frigate</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
