@@ -2933,7 +2933,7 @@
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>TIE_Phantom, TIE_Interceptor, TIE_Fighter, TIE_Bomber, TIE_Scout</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE_Phantom, TIE_Interceptor, TIE_Fighter, TIE_Bomber, TIE_Scout, TIE_Defender</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
