@@ -382,7 +382,8 @@ Unit Fixes:
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
 • Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an expensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
-• "Cuddles_Rancor_Eat_Infantry" attack for Cuddles (Silri's rancor) wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
+• Cuddles' (Silri's familiar) attack "Cuddles_Rancor_Eat_Infantry" wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
+• AT-ATs (and by extension General Veers) would be able to rotate their turret 360* and hit targets behind them in certain scenarios, such as deploying Stormtroopers. (BUG #467)
 
 
 Upgrade Fixes:

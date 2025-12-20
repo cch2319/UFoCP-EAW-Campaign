@@ -92,6 +92,7 @@
 		<Turret_Rotate_Extent_Degrees>55</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Turret</Barrel_Bone_Name>
 		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
@@ -256,7 +257,7 @@
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
 
-      <Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
 		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
 
@@ -285,7 +286,7 @@
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
- 		<Presence_Range>200.0</Presence_Range>
+		<Presence_Range>200.0</Presence_Range>
 
 	</GroundVehicle>
 
@@ -308,7 +309,7 @@
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
- 		<Presence_Range>200.0</Presence_Range>
+		<Presence_Range>200.0</Presence_Range>
 
 	</GroundVehicle>
 
@@ -330,7 +331,7 @@
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
- 		<Presence_Range>200.0</Presence_Range>
+		<Presence_Range>200.0</Presence_Range>
 
 	</GroundVehicle>
 
