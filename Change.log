@@ -69,8 +69,8 @@ HOUSEKEEPING:
 • Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, Thrawn's unused unit entries intended to replace Tarkin in FoC, had multiple broken parts which rendered these units unusable.  This unit isn't currently used, but it is now functional and available should any modder want to. (BUG #371)
 • AI plans for firing the Death Star will now cancel for the Rebels or the Consortium, instead of evaluating.  (No forward facing changes.) (BUG #410)
 • AI plans for buying upgrades have had two upgrades removed, as they are no longer used (RS_More_Garrisons_L1_Upgrade, ES_More_Garrisons_L1_Upgrade).  (No forward facing changes.)
-• The game's master atlas for icons (where all icons and UI elements are stored), has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).  (No forward facing changes.)
-• To support reimplementing EaW's Galactic Conquests in future updates, the original Death Star's Galactic icons and radar icon have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed (adding "2" to the names), and all the appropriate files adjusted.  (No forward facing changes.)
+• The game's master atlas for icons (where all icons and UI elements are stored) has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).  (No forward facing changes.)
+• To support reimplementing EaW's Galactic Conquests in future updates, the original Death Star's Galactic and radar icons have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed (adding "2" to the names), and all the appropriate files adjusted.  (No forward facing changes.)
 
 • The game's interface definitions (CommandBarComponents.xml) have had multiple unused settings removed.  These settings were removed before release, and were causing warnings in the game's logging.
 •• i_main_commandbar: <Mega_Texture_Name>
@@ -388,14 +388,14 @@ Unit Fixes:
 
 
 Upgrade Fixes:
-• Consortium upgrade series "Reinforced Durasteel" wouldn't give their space stations a damage reduction in Skirmish or GC.  The series would only affect defensive satellites, if it wasn't set to apply in Land Skirmish. (BUG #14)
+• Consortium upgrade series "Reinforced Durasteel" wouldn't provide their space stations a damage reduction in Skirmish or GC.  The series would only affect defensive satellites, if it wasn't set to apply in Land Skirmish. (BUG #14)
 • Consortium upgrade series "Modified Cloaking Generator" wouldn't provide a 25% or 50% cloaking time extension for Tyber Zann or the Vengeance Frigate; the upgrade was set for Land Skirmish instead of Space Skirmish. (BUG #15)
 • Consortium upgrade "Recharge Special Abilities" would increase the ability recharge times in Land Skirmish, instead of decrease. (BUG #173)
 • Consortium upgrade "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as the faction was misreferenced as "Hutt" instead of "Hutts." (BUG #74)
-• Rebel upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
-• Rebel upgrade series "Reinforced Armor" wouldn't give B-wings the 25% armor bonus the rest of the Rebels' fighter roster received. (BUG #471).
+• Rebel upgrade series "Improved Defenses" wouldn't provide their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #469)
+• Rebel upgrade series "Reinforced Armor" wouldn't provide B-wings the 25% armor bonus the rest of the Rebels' fighter roster received. (BUG #471).
 • Rebel upgrade "Improved Weapons Level 1" would not improve the B-wing's weapons damage, unlike Levels 2 and 3. (BUG #470)
-• Empire upgrade series "Improved Defenses" wouldn't give their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #474)
+• Empire upgrade series "Improved Defenses" wouldn't provide their space stations a damage bonus in GC.  The series would only improve Space Skirmish space stations. (BUG #474)
 • Empire upgrade "Enhanced Reactors Level 1" would not improve the TIE defender's engine speed, unlike Levels 2 and 3. (BUG #472)
 • Empire upgrade "Improved Weapons Level 1" would not improve the TIE defender's weapons damage, unlike Levels 2 and 3. (BUG #473)
 • "Increased Production" Level 1 and 2 wouldn't affect Land Skirmish mining facilities. (BUG #246)
