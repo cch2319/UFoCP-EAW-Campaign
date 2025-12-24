@@ -2,28 +2,10 @@
 v1.16.682
 =========================================================================================
 
-==================
-General
-==================
--Honoghr – Fixed campaign Intimidation corruption mission not marking objective Urai surviving as complete when finished.
-
-
-==================
-Maps/Planets (Land)
-==================
--Nal Hutta – Modified terrain passability in the northernmost building area.  Underworld droidekas could get stuck on the steep slope to the right of a factory if placed there.
--Nal Hutta – Modified top-right swamp's left-most building position so the build pad isn't colliding with a possible building.
-
 
 ==================
 Maps/Planets (Space)
 ==================
--Dantooine – Fixed space station spawner being affiliated with the Rebels.
-
--Dathomir – Fixed none of the defense satellites spawning.
--Dathomir – Fixed Dathomir not being labeled as a space map but as a desert.
-
--Felucia – Fixed two defense satellites only appearing for the Rebellion.
 
 -Nal Hutta – Fixed perimeter defense turret satellites only appearing if the Black Sun Pirates owned the planet.
 
