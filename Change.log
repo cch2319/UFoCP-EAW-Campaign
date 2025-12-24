@@ -71,6 +71,13 @@ HOUSEKEEPING:
 • AI plans for buying upgrades have had two upgrades removed, as they are no longer used (RS_More_Garrisons_L1_Upgrade, ES_More_Garrisons_L1_Upgrade).  (No forward facing changes.)
 • The game's master atlas for icons (where all icons and UI elements are stored) has been compressed to save space and is now considerably smaller (16 MB -> 5 MB).  (No forward facing changes.)
 • To support reimplementing EaW's Galactic Conquests in future updates, the original Death Star's Galactic and radar icons have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed (adding "2" to the names), and all the appropriate files adjusted.  (No forward facing changes.)
+• The Anaxes-Carida trade route definition was duplicated, which may have lead to unintentional consequences when modifying this trade route.  The earliest duplicate was removed.
+• The Mandalore-Utapau trade route definition was duplicated, which may have lead to unintentional consequences when modifying this trade route.  The earliest duplicate was removed.
+• Removed ability definition "Tani_Slicer" in the core game constant settings because it was causing an internal error.  (Tani was an EaW alpha development unit for the Rebels, and was axed before release.)
+• Removed ability definition "Mara_Jade_Sabotage" in the core game constant settings because it was causing an internal error.  (No forward facing changes.  Jade is not a Galactic Conquest hero, and the Defiler's Sabotage ability was never defined for her anyway...)
+• Removed ability definition "Kyle_Katarn_Sabotage" in the core game constant settings because it was causing an internal error.  (No forward facing changes.  Katarn is not a Galactic Conquest hero, and the Defiler's Sabotage ability was never defined for him anyway...)
+• Removed ability definition "Corruptor_Corrupt_Planet_1" in the core game constant settings because it was causing an internal error.  (The Corruptor was an FoC alpha development unit that eventually became the Defiler, and this ability remains unused.)
+• Removed "U000_MAL0503_ENG" from the pool of VO from the Consortium's M.A.L., because this audio file was not included in-game and causes an error.
 
 • The game's interface definitions (CommandBarComponents.xml) have had multiple unused settings removed.  These settings were removed before release, and were causing warnings in the game's logging.
 •• i_main_commandbar: <Mega_Texture_Name>
