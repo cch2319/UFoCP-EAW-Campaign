@@ -57,15 +57,15 @@ ENHANCEMENTS:
 
 
 HOUSEKEEPING:
-• Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
-• R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml.
+• Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml. (No forward facing changes.)
+• R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml. (No forward facing changes.)
 • Fixed Bossk's unit entries being headered as IG-2000's unit data. (No forward facing changes.)
 • Fixed Thrawn's ability definitions being headered as Captain Piett's abilities.  (No forward facing changes.)
 • IG-2000's internal unit entry has been renamed to "IG2000" to address a scripting problem where the "-" caused an error.
 • B-wings' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #353)
 • TIE defenders' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #355)
 • Skipray Blastboats' ion cannons have been redefined as ion cannons, instead of laser cannons, for internal consistency with other bombers.  (No forward facing changes.) (BUG #357)
-• The Merciless' main ion cannon has been redefined as an ion cannon, instead of as a "Special Weapon," to address the game being unable to process which individual Special Weapon was destroyed.  (No forward facing gameplay changes, however, Tyber Zann can now use unused VO for his Special Weapon and Ion Cannon as a part of BUG #259 now.)
+• The Merciless' main ion cannon has been redefined as an ion cannon, instead of as a "Special Weapon," to address the game being unable to process which individual Special Weapon was destroyed.  (Tyber Zann can now use unused VO for his Special Weapon and Ion Cannon as a part of BUG #259 now.)
 • Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, Thrawn's unused unit entries intended to replace Tarkin in FoC, had multiple broken parts which rendered these units unusable.  This unit isn't currently used, but it is now functional and available should any modder want to. (BUG #371)
 • AI plans for firing the Death Star will now cancel for the Rebels or the Consortium, instead of evaluating.  (No forward facing changes.) (BUG #410)
 • AI plans for buying upgrades have had two upgrades removed, as they are no longer used (RS_More_Garrisons_L1_Upgrade, ES_More_Garrisons_L1_Upgrade).  (No forward facing changes.)
@@ -155,7 +155,7 @@ AI Fixes:
 • The Galactic AI's magic defense spawning system now cannot spawn TIE interceptor Squadrons on the Galactic map to prevent AI pathfinding errors when the AI can't move Interceptors. (BUG #243)
 • The Galactic AI wouldn't build Cantinas due to reversed logic tricking it into thinking it was always at max capacity.  The AI now builds 1 Cantina per applicable planet. (BUG #407)
 • The Galactic AI wouldn't build Hutt Palaces due to the logic considerations being disabled.  The original planning was incomplete (or unfinished).  The AI should now build 1 Hutt Palace per applicable planet, and Bounty Hunters with them should enemy Smugglers exist on their controlled planets.  In addition, the outdated Bounty Hunter "SabotagePoliticalControl" plan has been disabled, as Bounty Hunters no longer can wreck a faction's political control over a planet; this plan also lead to the AI overbuying bounty hunters. (BUG #408)
-• The Galactic AI wouldn't properly budget to purchase Vader and the Executor.  As a major hero and ship, they've been added to the Empire's tech plan AI to push them to properly budget for him. (BUG #421)
+• The Galactic AI wouldn't properly budget to purchase Vader and the Executor.  As a Major Hero and ship, they've been added to the Empire's tech plan AI to push them to properly budget for him. (BUG #421)
 • The Galactic AI would waste processing time trying to give orders/evaluate locations to units already moving and therefore unapplicable to use a movement opportunity. (BUG #434)
 • The Tactical AI's difficulty-based "chance" system to dictate if a unit's ability should be used, and if the unit should divert itself to a large group of targets to optimally use its ability, was left to always occur 100% of the time in FoC.  In EaW, this would only happen if the "chance" given is larger than what was rolled (the longer the battle, the smaller the roll).  On Easy, the chance was 20, Medium 60, and Hard was 100 (always divert/use abilities).  EaW's original chance values have been restored, and easier difficulties should now see less optimal ability usage in battle. (BUG #435)
 • Han Solo & Chewbacca's galactic planning AI wouldn't avoid Darth Vader properly, as it misreferenced his unit, nor factor in attacking the Death Star II. (BUG #27/53)
