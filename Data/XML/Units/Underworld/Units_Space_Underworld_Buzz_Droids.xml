@@ -50,7 +50,7 @@
 
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 
-		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter | AntiBomber | AntiTransport </CategoryMask>
 
 		<SFXEvent_Ambient_Moving> Unit_Buzz_Droids_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
@@ -64,7 +64,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Population_Value>0</Population_Value>
 
-		<Special_Weapon_Valid_Targets>Fighter | Transport | Corvette | Frigate </Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Fighter | Bomber | Transport | Corvette </Special_Weapon_Valid_Targets>
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Is_Valid_Target>False</Is_Valid_Target>
