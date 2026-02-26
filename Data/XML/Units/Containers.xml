@@ -1,39 +1,41 @@
 <?xml version="1.0"?>
 <Containers>
-
 	<Container Name="Galactic_Fleet">
 		<Text_ID>TEXT_OBJECT_GALACTIC_FLEET</Text_ID>
 		<Galactic_Model_Name>w_planet_fleet.alo</Galactic_Model_Name>
-        <Pre_Lit>Yes</Pre_Lit>
+		<Pre_Lit>Yes</Pre_Lit>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Show_Name>No</Show_Name>
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, FLEET, FLEET_LOCOMOTOR</Behavior>
+		<Behavior>
+			SELECTABLE, FLEET, FLEET_LOCOMOTOR
+		</Behavior>
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Pre_Lit>yes</Pre_Lit>
 		<Layer_Z_Adjust>0.5</Layer_Z_Adjust>
-		 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		 <!-- "Scale" for containers' icons is the worls-space ACTUAL SIZE of these icons. -->
-		 <!--  This is done because containers don't have constant size/radius and -->
-		 <!-- change constantly, whereas supposed to be shown on Radar as one constant-sized blip -->
-		 <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		 <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
+		<!--
+			"Scale" for containers' icons is the worls-space ACTUAL SIZE of these icons.
+			This is done because containers don't have constant size/radius and
+			change constantly, whereas supposed to be shown on Radar as one constant-sized blip
+		-->
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	</Container>
 
 	<Container Name="Galactic_Squadron">
 		<Text_ID>TEXT_OBJECT_GALACTIC_SQUADRON</Text_ID>
-        <Pre_Lit>Yes</Pre_Lit>
+		<Pre_Lit>Yes</Pre_Lit>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Show_Name>No</Show_Name>
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
 
-		 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		 <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Behavior>FLEET</Behavior>
@@ -43,27 +45,30 @@
 		<Text_ID>TEXT_OBJECT_TEAM</Text_ID>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR</Behavior>
-		<LandBehavior>REVEAL</LandBehavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<LandBehavior>
+			REVEAL
+		</LandBehavior>
+		<SpaceBehavior>
+			REVEAL
+		</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
-		 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		 <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		 <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
-
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	</Container>
 
 
 	<Container Name="Red_Squadron_Container">
 		<Text_ID>TEXT_HERO_RED_SQUADRON</Text_ID>
+		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_RED_SQUADRON</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Death_Star </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_RED_SQUADRON</Encyclopedia_Text>
+
 		<Show_Name>No</Show_Name>
-		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
@@ -78,8 +83,17 @@
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
 
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
@@ -90,7 +104,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-	 	<CategoryMask>SpaceHero | Fighter | AntiCapital | AntiSuper</CategoryMask>
+		<CategoryMask>SpaceHero | Fighter | AntiCapital | AntiSuper</CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -108,20 +122,19 @@
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,0.0,0.0</Squadron_Offsets>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>15000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<!-- Unit abilities description-->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				 <Type>LUCKY_SHOT</Type>
+				<Type>LUCKY_SHOT</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 600</Mod_Multiplier>
 				<Projectile_Types_Override>Proj_Ship_Lucky_Shot_Medium_Laser_Cannon_Red</Projectile_Types_Override>
@@ -130,15 +143,13 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
-		<Unit_Ability>
+			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
-		</Unit_Ability>
-
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -150,27 +161,34 @@
 				<!-- <SFXEvent_Activate>Unit_Flamethrower_Fire</SFXEvent_Activate> -->
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
-
 	</Container>
-
 
 	<Container Name="Y_Wing_Squadron_Container">
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
 		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-
-		<Icon_Name />
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
 
 		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
@@ -198,21 +216,28 @@
 				<Applicable_Unit_Types />
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
-
 	</Container>
 
 
 	<Container Name="Stormtrooper_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_IMPERIAL_STORMTROOPER_SQUAD</Text_ID>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
+		<SpaceBehavior>
+			REVEAL
+		</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -237,8 +262,6 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
-
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -251,36 +274,43 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
 	</Container>
 
 	<Container Name="Empire_Field_Commander_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
+		<!-- <Icon_Name>i_button_EI_field_commander.tga</Icon_Name> -->
+		<Icon_Name>i_button_ei_field_commander_bust.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MPTL UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		<Show_Name>No</Show_Name>
 
-		<!-- AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.         -->
-		<!-- We can use Is_Named_Hero on the container with no side effects as far as I can tell, -->
-		<!-- however, we have to change the unit icon to the 'bust' b/c it'll use the unit icon   -->
-		<!-- for the hero bar.                                                                    -->
+		<!--
+			AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.
+			We can use Is_Named_Hero on the container with no side effects as far as I can tell.
+			However, we have to change the unit icon to the 'bust' b/c it'll use the unit icon
+			for the hero bar.
+		-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Show_Name>No</Show_Name>
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
+		<CategoryMask>Infantry</CategoryMask>
 
 		<Max_Speed> .8 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
@@ -299,9 +329,6 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
-		<!-- <Icon_Name>i_button_EI_field_commander.tga</Icon_Name> -->
-		<Icon_Name>i_button_EI_field_commander_bust.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -315,25 +342,27 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
-
-		<CategoryMask>Infantry</CategoryMask>
 	</Container>
 
 	<Container Name="Rebel_Trooper_Team">
 		<Text_ID>TEXT_REBEL_INFANTRY_SQUAD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
@@ -358,8 +387,6 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -367,15 +394,15 @@
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
-        <Select_Box_Scale>65</Select_Box_Scale>
-        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-        <!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -386,18 +413,25 @@
 
 	<Container Name="Pirate_Trooper_Team">
 		<Text_ID>TEXT_PIRATE_SOLDIER_SQUAD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
+		<CategoryMask>Infantry</CategoryMask>
 
 		<Max_Speed> 1.1 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
@@ -416,8 +450,6 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
-		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -426,38 +458,42 @@
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
-        <Select_Box_Scale>65</Select_Box_Scale>
-        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-        <!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
-		<CategoryMask>Infantry</CategoryMask>
 	</Container>
 
 	<Container Name="Pirate_Plex_Soldier_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_PIRATE_PLEX_SQUAD</Text_ID>
+		<Icon_Name>i_button_pirate_plex.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATEPLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank T2B_Tank </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Scout_Trooper Rebel_Trooper </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATEPLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
 
 		<Max_Speed> .8 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
@@ -477,8 +513,6 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_pirate_plex.tga</Icon_Name>
-
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -491,22 +525,20 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-
-		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
 	</Container>
 
 	<Container Name="Plex_Soldier_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_REBEL_TANK_BUSTER_SQUAD</Text_ID>
+		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> M1_Repulsor_Tank TIE_Crawler AT_AT_Walker </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Stormtrooper UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
@@ -515,6 +547,7 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
+		<Select_Box_Scale>65</Select_Box_Scale>
 
 		<Max_Speed> .8 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
@@ -534,8 +567,6 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
-
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -549,34 +580,41 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</Container>
 
 	<Container Name="Rebel_Field_Commander_Team">
 		<Text_ID>TEXT_HERO_UNIT_FIELD_REBEL</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<!-- <Icon_Name>i_button_field_commander.tga</Icon_Name> -->
+		<Icon_Name>i_button_RI_field_commander_bust.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Show_Name>No</Show_Name>
 
-		<!-- AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.         -->
-		<!-- We can use Is_Named_Hero on the container with no side effects as far as I can tell, -->
-		<!-- however, we have to change the unit icon to the 'bust' b/c it'll use the unit icon   -->
-		<!-- for the hero bar.                                                                    -->
+		<!--
+			AM1994 (11/20/25): FoC broke using Show_Hero_Head on squads with Containers.
+			We can use Is_Named_Hero on the container with no side effects as far as I can tell.
+			However, we have to change the unit icon to the 'bust' b/c it'll use the unit icon
+			for the hero bar.
+		-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Behavior>
+			TEAM, SELECTABLE, UNIT_AI
+		</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
+		<Show_Name>No</Show_Name>
 
 		<Max_Speed> 1.1 </Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
@@ -595,9 +633,6 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
-		<!-- <Icon_Name>i_button_field_commander.tga</Icon_Name> -->
-		<Icon_Name>i_button_RI_field_commander_bust.tga</Icon_Name>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -610,28 +645,21 @@
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-        <!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</Container>
 
 
-
-
-
-<!-- ****************************************************** -->
-<!-- **********  INDIGENOUS CIVILIAN CONTAINERS  ********** -->
-<!-- ****************************************************** -->
-
-
-
+	<!-- ****************************************************** -->
+	<!-- **********  INDIGENOUS CIVILIAN CONTAINERS  ********** -->
+	<!-- ****************************************************** -->
 	<Container Name="Ewok_Team">
 		<Text_ID>TEXT_INDIGENOUS_EWOK_PARTY</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -1359,15 +1387,6 @@
 		<CategoryMask>Infantry</CategoryMask>
 		<Tactical_Bribe_Cost>60</Tactical_Bribe_Cost>
 	</Container>
-
-
-
-
-
-
-
-
-
 
 	<Container Name="Civilian_Independent_AI_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>

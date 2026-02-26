@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 <Tyber_Zann_Data>
-
-
-
-
-
-
 	<HeroUnit Name="Tyber_Zann">
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_HERO_TYBER_ZANN</Text_ID>
@@ -19,8 +13,9 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
-		<LandBehavior> ABILITY_COUNTDOWN, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT </LandBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior> ABILITY_COUNTDOWN, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,
+			WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT </LandBehavior>
 
 		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
 		<Hover_Offset>16.0</Hover_Offset>
@@ -101,7 +96,7 @@
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -129,175 +124,167 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
-            <Unit_Ability>
-                <Type>TACTICAL_BRIBE</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Tyber_Tactical_Bribe </GUI_Activated_Ability_Name>
-                <SFXEvent_Target_Ability> Unit_Bribe_Tyber_Zann </SFXEvent_Target_Ability>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>TACTICAL_BRIBE</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Tyber_Tactical_Bribe </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Bribe_Tyber_Zann </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 
-            <Unit_Ability>
-                <Type>STEALTH</Type>
+			<Unit_Ability>
+				<Type>STEALTH</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_TYBER_CLOAKING</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TYBER_CLOAKING_DESCRIPTION</Alternate_Description_Text>
-                <Recharge_Seconds>10.0</Recharge_Seconds>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<Expiration_Seconds>35.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>Stealth_Tyber_Zann</GUI_Activated_Ability_Name>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
-            </Unit_Ability>
-
+				<GUI_Activated_Ability_Name>Stealth_Tyber_Zann</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-<!--
-            <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
+		<Abilities SubObjectList="Yes">
+			<!--
+			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
--->
-            <Black_Market_Ability Name="Tyber_Zann_Black_Market">
-                <Initially_Enabled>Yes</Initially_Enabled>
-                <Causes_Despawn>Yes</Causes_Despawn>
+			-->
+			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Causes_Despawn>Yes</Causes_Despawn>
 
-                <Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
-                <Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
+				<Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
+				<Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
 
-                <Price_Modifier>1.0</Price_Modifier>
-                <Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
-            </Black_Market_Ability>
+				<Price_Modifier>1.0</Price_Modifier>
+				<Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
+			</Black_Market_Ability>
 
-            <Stealth_Ability Name="Stealth_Tyber_Zann">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
-            </Stealth_Ability>
+			<Stealth_Ability Name="Stealth_Tyber_Zann">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
 
-            <Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>100.0</Activation_Max_Range>
-                <Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
-                <Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
-                <Effect_Z_Offset>35.0</Effect_Z_Offset>
-                <SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
-                <SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
-            </Tactical_Bribe_Ability>
-
-        </Abilities>
-
-
+			<Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
+				<Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
+				<Effect_Z_Offset>35.0</Effect_Z_Offset>
+				<SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
+				<SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
+			</Tactical_Bribe_Ability>
+		</Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Tyber_Zann_Passenger">
 		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
+
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 
-        <Abilities SubObjectList="Yes">
-
-            <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-            <Black_Market_Ability Name="Tyber_Zann_Black_Market">
-                <Initially_Enabled>Yes</Initially_Enabled>
-                <Causes_Despawn>Yes</Causes_Despawn>
+			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Causes_Despawn>Yes</Causes_Despawn>
 
-                <Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
-                <Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
+				<Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
+				<Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
 
-                <Price_Modifier>1.0</Price_Modifier>
-                <Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
-            </Black_Market_Ability>
+				<Price_Modifier>1.0</Price_Modifier>
+				<Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
+			</Black_Market_Ability>
 
-            <Stealth_Ability Name="Stealth_Tyber_Zann">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
-            </Stealth_Ability>
+			<Stealth_Ability Name="Stealth_Tyber_Zann">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
 
-            <Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>100.0</Activation_Max_Range>
-                <Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
-                <Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
-                <Effect_Z_Offset>35.0</Effect_Z_Offset>
-                <SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
-                <SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
-            </Tactical_Bribe_Ability>
-
-        </Abilities>
+			<Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
+				<Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
+				<Effect_Z_Offset>35.0</Effect_Z_Offset>
+				<SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
+				<SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
+			</Tactical_Bribe_Ability>
+		</Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Tyber_Zann_Prologue">
 		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
+
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
 			<Unit_Ability>
-                <Type>TACTICAL_BRIBE</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Tyber_Tactical_Bribe </GUI_Activated_Ability_Name>
-                <SFXEvent_Target_Ability> Unit_Bribe_Tyber_Zann </SFXEvent_Target_Ability>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
+				<Type>TACTICAL_BRIBE</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Tyber_Tactical_Bribe </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Bribe_Tyber_Zann </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 
-            <Unit_Ability>
-                <Type>STEALTH</Type>
+			<Unit_Ability>
+				<Type>STEALTH</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_TYBER_CLOAKING</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TYBER_CLOAKING_DESCRIPTION</Alternate_Description_Text>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<Expiration_Seconds>90.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>Stealth_Tyber_Zann</GUI_Activated_Ability_Name>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
-            </Unit_Ability>
-
+				<GUI_Activated_Ability_Name>Stealth_Tyber_Zann</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-            <Black_Market_Ability Name="Tyber_Zann_Black_Market">
-                <Initially_Enabled>Yes</Initially_Enabled>
-                <Causes_Despawn>Yes</Causes_Despawn>
+			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Causes_Despawn>Yes</Causes_Despawn>
 
-                <Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
-                <Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
+				<Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
+				<Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
 
-                <Price_Modifier>1.0</Price_Modifier>
-                <Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
-            </Black_Market_Ability>
+				<Price_Modifier>1.0</Price_Modifier>
+				<Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
+			</Black_Market_Ability>
 
-            <Stealth_Ability Name="Stealth_Tyber_Zann">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
-            </Stealth_Ability>
+			<Stealth_Ability Name="Stealth_Tyber_Zann">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
 
-            <Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>100.0</Activation_Max_Range>
-                <Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
-                <Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
-                <Effect_Z_Offset>35.0</Effect_Z_Offset>
-                <SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
-                <SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
-            </Tactical_Bribe_Ability>
-
-        </Abilities>
+			<Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
+				<Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
+				<Effect_Z_Offset>35.0</Effect_Z_Offset>
+				<SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
+				<SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
+			</Tactical_Bribe_Ability>
+		</Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Tyber_Zann_Prologue_Cin">
 		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
+
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
@@ -320,8 +307,11 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
-		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT </LandBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>
+			SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL,
+			HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT
+		</LandBehavior>
 
 		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
 		<Hover_Offset>16.0</Hover_Offset>
@@ -402,7 +392,7 @@
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -422,23 +412,15 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+	</HeroUnit>
 
-
+	<!-- jdg this is a one-off of Tyber for UM06 because I need him to have stealth (for now..haha) -->
+	<HeroUnit Name="UM06_Tyber_Zann">
+		<Variant_Of_Existing_Type>Tyber_Zann</Variant_Of_Existing_Type>
 	</HeroUnit>
 
 
-
-
-
-
-
-
-
-
-
 	<!-- Hero Company Data -->
-
-
 	<HeroCompany Name="Tyber_Zann_Team">
 		<Text_ID>TEXT_HERO_TYBER_ZANN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_TYBER_ZANN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -479,7 +461,7 @@
 		<Cheap_Bribe_Cost>5</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>10</Expensive_Bribe_Cost>
 
-		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		<Unit_Abilities_Data SubObjectList="Yes" />
 
 		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
@@ -488,7 +470,6 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Tyber_Zann_Team_No_Peacebringer">
 		<Text_ID>TEXT_HERO_TYBER_ZANN</Text_ID>
@@ -530,24 +511,23 @@
 		<Cheap_Bribe_Cost>5</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>10</Expensive_Bribe_Cost>
 
-		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		<Unit_Abilities_Data SubObjectList="Yes" />
 	</HeroCompany>
 
-	<!--Prologue Tyber-->
 
+	<!-- Prologue Tyber -->
 	<HeroCompany Name="Tyber_Zann_Team_Prologue">
 		<Variant_Of_Existing_Type>Tyber_Zann_Team_No_Peacebringer</Variant_Of_Existing_Type>
+
 		<Company_Units>Tyber_Zann_Prologue</Company_Units>
 		<Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
 	</HeroCompany>
 
-
 	<UniqueUnit Name="Tyber_Zann_Boarding_Shuttle_Prologue">
-
 		<Variant_Of_Existing_Type>Underworld_Infantry_Droid_Shuttle</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
-		<Encyclopedia_Text>  </Encyclopedia_Text>
+		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
@@ -559,7 +539,10 @@
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
 
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>
+			SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED,
+			REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE
+		</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 
 		<Ranking_In_Category> 1 </Ranking_In_Category>
@@ -584,20 +567,11 @@
 		<SFXEvent_Build_Complete>Unit_Select_Tyber_Zann</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-
-
 	</UniqueUnit>
 
 
-
-
-
-
-
-	<!-- Tyber's Flagship  -->
-
+	<!-- Tyber's Flagship -->
 	<UniqueUnit Name="The_Peacebringer">
-
 		<Variant_Of_Existing_Type>Krayt_Class_Destroyer</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_HERO_PEACEBRINGER</Text_ID>
@@ -611,7 +585,10 @@
 		<Is_Named_Hero>true</Is_Named_Hero>
 
 		<Behavior> SELECTABLE, TRANSPORT, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING,
+			HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA
+		</SpaceBehavior>
 
 		<Tech_Level>99</Tech_Level>
 		<No_Colorization_Color />
@@ -650,8 +627,8 @@
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tyber_Zann_Space </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tyber_Zann_Space </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-		<SFXEvent_Bombard_Select_Target>	UHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> UHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Bombard_Select_Target> UHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> UHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
@@ -676,54 +653,50 @@
 		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
 
-
 		<Death_Clone>Damage_Normal, Peacebringer_Death_Clone </Death_Clone>
 		<Landing_Transport_Variant>Peacebringer_Landing</Landing_Transport_Variant>
 		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
-         <Unit_Ability>
-             <Type>BLAST</Type>
-             <Recharge_Seconds>90.0</Recharge_Seconds>
-             <GUI_Activated_Ability_Name> Peacebringer_Blast </GUI_Activated_Ability_Name>
-             <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
-             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Blast_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
-         </Unit_Ability>
+			<Unit_Ability>
+				<Type>BLAST</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Peacebringer_Blast </GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Blast_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 
-         <Unit_Ability>
-             <Type>STEALTH</Type>
-             <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
-             <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
-             <GUI_Activated_Ability_Name>Stealth_Peacebringer</GUI_Activated_Ability_Name>
-             <Recharge_Seconds>10.0</Recharge_Seconds>
-             <Expiration_Seconds>180.0</Expiration_Seconds>
-             <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann_Space</SFXEvent_GUI_Unit_Ability_Activated>
-         </Unit_Ability>
-
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+				<GUI_Activated_Ability_Name>Stealth_Peacebringer</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
+				<Expiration_Seconds>180.0</Expiration_Seconds>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann_Space</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Stealth_Ability Name="Stealth_Peacebringer">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
-                <SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Peacebringer">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>.3</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Stealth_Ability>
 
 			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
@@ -740,21 +713,20 @@
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-            <Blast_Ability Name="Peacebringer_Blast">
-                <Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>5</Charge_Up_Seconds>
-                <Damage_Multiplier>5</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
-                <SFXEvent_Activate>Unit_Underworld_Plasma_Fire</SFXEvent_Activate>
-            </Blast_Ability>
-
-        </Abilities>
-
+			<Blast_Ability Name="Peacebringer_Blast">
+				<Activation_Style> User_Input </Activation_Style>
+				<Charge_Up_Seconds>5</Charge_Up_Seconds>
+				<Damage_Multiplier>5</Damage_Multiplier>
+				<Charging_Effect />
+				<Charged_Effect />
+				<SFXEvent_Activate>Unit_Underworld_Plasma_Fire</SFXEvent_Activate>
+			</Blast_Ability>
+		</Abilities>
 	</UniqueUnit>
 
 	<TransportUnit Name="Peacebringer_Landing">
 		<Variant_Of_Existing_Type>Underworld_Hero_Shuttle</Variant_Of_Existing_Type>
+
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.0</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
@@ -781,11 +753,4 @@
 		<Glory_Cinematics />
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</UniqueUnit>
-
-
-<!--jdg this is a one-off of Tyber for UM06 because I need him to have stealth (for now..haha)-->
-	<HeroUnit Name="UM06_Tyber_Zann">
-		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
-	</HeroUnit>
-
 </Tyber_Zann_Data>

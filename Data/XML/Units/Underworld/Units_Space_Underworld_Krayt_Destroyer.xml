@@ -1,18 +1,12 @@
 <?xml version="1.0"?>
-
-
 <Krayt_Destroyer_Data>
-
-
-
-
 	<SpaceUnit Name="Krayt_Class_Destroyer">
 		<Text_ID>TEXT_UNIT_KRAYT_DESTROYER</Text_ID>
+		<Icon_Name>i_button_uv_krayt.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KRAYT_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS </Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Star_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Y-Wing </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text> TEXT_TOOLTIP_KRAYT_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_uv_krayt.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UV_KRAYTCLASSDESTROYER.ALO</Space_Model_Name>
@@ -49,7 +43,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story</Required_Planets> <!-- AM1994: Mandalore_Story for the UW campaign -->
+		<!-- AM1994: Mandalore_Story for the UW campaign -->
+		<Required_Planets>
+			MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story
+		</Required_Planets>
 		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Tactical_Health>7000</Tactical_Health>
 		<Shield_Points>1800</Shield_Points>
@@ -70,8 +67,9 @@
 		<Tactical_Bribe_Cost>3500</Tactical_Bribe_Cost>
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SELF_DESTRUCT </SpaceBehavior>
-
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SELF_DESTRUCT
+		</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -104,8 +102,8 @@
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Krayt_Class_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Krayt_Class_Destroyer </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-		<SFXEvent_Bombard_Select_Target>	UHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> UHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Bombard_Select_Target> UHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> UHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Krayt_Class_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Krayt_Class_Destroyer </SFXEvent_Attack_Hardpoint>
@@ -128,7 +126,6 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
-
 		<Selt_Destruct_SFXEvent_Start_Die> Unit_ZC_Self_Destruct </Selt_Destruct_SFXEvent_Start_Die> <!-- When self destruct sequence begins -->
 
 		<Death_Clone>Damage_Normal, Krayt_Class_Destroyer_Death_Clone</Death_Clone>
@@ -152,14 +149,14 @@
 
 		<Lua_Script>ObjectScript_Krayt</Lua_Script>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>4800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -172,14 +169,12 @@
 				<Spawned_Object_Type> Krayt_Self_Destruct_Blast </Spawned_Object_Type>
 				<GUI_Activated_Ability_Name>Krayt_Self_Destruct</GUI_Activated_Ability_Name>
 				<Stop_When_Activated>No</Stop_When_Activated>
-					 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                <Supports_Autofire>True</Supports_Autofire>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</SpaceUnit>
-
 
 	<SpaceUnit Name="Krayt_Class_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_KRAYT_DESTROYER</Text_ID>
@@ -197,5 +192,4 @@
 		<Glory_Cinematics />
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
 </Krayt_Destroyer_Data>

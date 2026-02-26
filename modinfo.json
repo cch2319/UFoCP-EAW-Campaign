@@ -1,5 +1,5 @@
 {
-	"name": "Unofficial Forces of Corruption Patch",
+	"name": "Unofficial Forces of Corruption Patch (UFCP)",
 	"summary": "A comprehensive bug-fixing mod for Forces of Corruption.",
 	"icon": "",
 	"version": "2.0.0.XXXX",
@@ -9,17 +9,17 @@
 		"contentfolder": "1548018187",
 		"previewfile": "1548018187/.png",
 		"visibility": 2,
-		"title": "Unofficial Forces of Corruption Patch (UFoCP)",
+		"title": "Unofficial Forces of Corruption Patch (UFCP)",
 		"description": "",
 		"metadata": "",
 		"tags":
 		[
-			"Single Player",
-			"Multiplayer",
-			"Land",
-			"Space",
+			"FOC",
 			"Campaign",
-			"FOC"
+			"Land",
+			"Multiplayer",
+			"Single Player",
+			"Space"
 		]
 	}
 }

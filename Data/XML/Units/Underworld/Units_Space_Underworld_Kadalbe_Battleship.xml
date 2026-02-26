@@ -1,20 +1,12 @@
 <?xml version="1.0"?>
-
-
-
-
 <Kedalbe_Battleship_Data>
-
-
-
-
 	<SpaceUnit Name="Kedalbe_Battleship">
 		<Text_ID>TEXT_UNIT_KEDALBE_BATTLESHIP</Text_ID>
+		<Icon_Name>i_button_Keldabe.tga</Icon_Name>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KEDALBE_BATTLESHIP TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Victory_Destroyer Alliance_Assault_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Defender B-Wing </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text> TEXT_TOOLTIP_KEDALBE_BATTLESHIP TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_Keldabe.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UV_KedalbeBattleship.alo</Space_Model_Name>
@@ -46,7 +38,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story</Required_Planets> <!-- AM1994: Mandalore_Story for the UW campaign -->
+		<!-- AM1994 (07/02/2024): Mandalore_Story for the UW campaign -->
+		<Required_Planets>
+			MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story
+		</Required_Planets>
 		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -68,8 +63,13 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Squadron_Capacity>40</Squadron_Capacity>
 
-		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Behavior>
+			SELECTABLE,
+			DUMMY_STARSHIP
+		</Behavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA
+		</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -117,12 +117,12 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Kadalbe </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Kadalbe </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Kadalbe </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Kadalbe </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
@@ -152,59 +152,53 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
-            <Unit_Ability>
-                <Type>LEECH_SHIELDS</Type>
-                <Recharge_Seconds>55.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Kadalbe_Leech_Shields </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Leech_Sheilds_Kadalbe</SFXEvent_GUI_Unit_Ability_Activated>
-                <SFXEvent_Target_Ability> Unit_Leech_Sheilds_Kadalbe </SFXEvent_Target_Ability>
-					 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
- 				<Supports_Autofire>True</Supports_Autofire>
-           </Unit_Ability>
-
+			<Unit_Ability>
+				<Type>LEECH_SHIELDS</Type>
+				<Recharge_Seconds>55.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Kadalbe_Leech_Shields </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Leech_Sheilds_Kadalbe</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_Target_Ability> Unit_Leech_Sheilds_Kadalbe </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Leech_Shields_Ability Name="Kadalbe_Leech_Shields">
-                <Activation_Style> User_Input </Activation_Style>
-                <Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
-                <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-                <Activation_Min_Range>10</Activation_Min_Range>
-                <Activation_Max_Range>2000</Activation_Max_Range>
-                <Duration_In_Secs> 25.0 </Duration_In_Secs>
-                <Shield_Damage_Per_Second> 100.0 </Shield_Damage_Per_Second>
-                <Damage_Multiplier> 3.0 </Damage_Multiplier>
-                <Beam_Color>34, 34, 235, 255</Beam_Color>
-                <Beam_Bone_Name>HP_SHL_00_BONE</Beam_Bone_Name>
-                <Beam_Frames>10</Beam_Frames>
-                <Beam_Width>40.0</Beam_Width>
-                <Beam_Texture_Name>tractor_beam00.tga</Beam_Texture_Name>
-                <Beam_Effect_Name>Leech_Shields</Beam_Effect_Name>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                <Leech_Effect>Leech_Effect</Leech_Effect>
-            </Leech_Shields_Ability>
-
-        </Abilities>
-
 		<Abilities SubObjectList="Yes">
+			<Leech_Shields_Ability Name="Kadalbe_Leech_Shields">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+				<Activation_Min_Range>10</Activation_Min_Range>
+				<Activation_Max_Range>2000</Activation_Max_Range>
+				<Duration_In_Secs> 25.0 </Duration_In_Secs>
+				<Shield_Damage_Per_Second> 100.0 </Shield_Damage_Per_Second>
+				<Damage_Multiplier> 3.0 </Damage_Multiplier>
+				<Beam_Color>34, 34, 235, 255</Beam_Color>
+				<Beam_Bone_Name>HP_SHL_00_BONE</Beam_Bone_Name>
+				<Beam_Frames>10</Beam_Frames>
+				<Beam_Width>40.0</Beam_Width>
+				<Beam_Texture_Name>tractor_beam00.tga</Beam_Texture_Name>
+				<Beam_Effect_Name>Leech_Shields</Beam_Effect_Name>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Leech_Effect>Leech_Effect</Leech_Effect>
+			</Leech_Shields_Ability>
+
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
-				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
+				<Initially_Enabled> No </Initially_Enabled> <!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -218,7 +212,6 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 		</Abilities>
-
 	</SpaceUnit>
 
 	<SpaceUnit Name="Kedalbe_Battleship_Death_Clone">
@@ -236,5 +229,4 @@
 		<Ship_Class> capital_ship </Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
 </Kedalbe_Battleship_Data>

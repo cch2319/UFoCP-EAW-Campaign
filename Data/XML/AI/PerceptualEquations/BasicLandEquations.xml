@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
 	<!-- Certain plans are disallowed as a defender.  These plans are allowed if
 	It's a skirmish game
 	OR
@@ -105,7 +103,7 @@
 		Function_Allowed_As_Defender_Land.Evaluate
 		*
 		5.0
- 		*
+		*
 		Variable_Target.EnemyUnitConcentrationNBTD {Parameter_Category = GameObjectCategoryType[Vehicle]}
 	</Should_Clear_Vehicles>
 
@@ -139,25 +137,25 @@
 			0.001
 			+
 			(2 * Variable_Target.Type.IsType {Parameter_Type = "Ground_Ion_Cannon",
-															Parameter_Type = "Empire_Ground_Shutter_Shield",
-															Parameter_Type = "Rebel_Ground_Shutter_Shield",
-															Parameter_Type = "Ground_Empire_Hypervelocity_Gun",
-															Parameter_Type = "Ground_Magnepulse_Cannon"})
+												Parameter_Type = "Empire_Ground_Shutter_Shield",
+												Parameter_Type = "Rebel_Ground_Shutter_Shield",
+												Parameter_Type = "Ground_Empire_Hypervelocity_Gun",
+												Parameter_Type = "Ground_Magnepulse_Cannon"})
 			+
 			(5.0 * Variable_Target.Type.IsType {Parameter_Type = "Empire_Anti_Infantry_Turret",
-															Parameter_Type = "Rebel_Anti_Infantry_Turret",
-															Parameter_Type = "Empire_Anti_Aircraft_Turret",
-															Parameter_Type = "Rebel_Anti_Aircraft_Turret",
-															Parameter_Type = "Empire_Anti_Vehicle_Turret",
-															Parameter_Type = "Rebel_Anti_Vehicle_Turret",
-															Parameter_Type = "Empire_Buildable_Bacta_Tank",
-															Parameter_Type = "Rebel_Buildable_Bacta_Tank",
-															Parameter_Type = "Underworld_Buildable_Bacta_Tank",
-															Parameter_Type = "Empire_Buildable_Repair_Facility",
-															Parameter_Type = "Rebel_Buildable_Repair_Facility",
-															Parameter_Type = "Underworld_Buildable_Repair_Facility",
-															Parameter_Type = "Underworld_Mass_Driver_Turret",
-															Parameter_Type = "Underworld_Torpedo_Turret"})
+												Parameter_Type = "Rebel_Anti_Infantry_Turret",
+												Parameter_Type = "Empire_Anti_Aircraft_Turret",
+												Parameter_Type = "Rebel_Anti_Aircraft_Turret",
+												Parameter_Type = "Empire_Anti_Vehicle_Turret",
+												Parameter_Type = "Rebel_Anti_Vehicle_Turret",
+												Parameter_Type = "Empire_Buildable_Bacta_Tank",
+												Parameter_Type = "Rebel_Buildable_Bacta_Tank",
+												Parameter_Type = "Underworld_Buildable_Bacta_Tank",
+												Parameter_Type = "Empire_Buildable_Repair_Facility",
+												Parameter_Type = "Rebel_Buildable_Repair_Facility",
+												Parameter_Type = "Underworld_Buildable_Repair_Facility",
+												Parameter_Type = "Underworld_Mass_Driver_Turret",
+												Parameter_Type = "Underworld_Torpedo_Turret"})
 			+
 			(10 * Variable_Target.Type.IsType { Parameter_Type = "E_Ground_Base_Shield",
 												Parameter_Type = "R_Ground_Base_Shield",
@@ -402,13 +400,13 @@
 		UNUSED
 	-->
 	<Need_AntiVehicle_Turret>
-		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad"
-										,Parameter_Type = "Rebel_Build_Pad"
-										,Parameter_Type = "Empire_Build_Pad"
-										,Parameter_Type = "Underworld_Build_Pad"
-										,Parameter_Type = "Rebel_Build_Pad_Offensive"
-										,Parameter_Type = "Empire_Build_Pad_Offensive"
-										,Parameter_Type = "Underworld_Build_Pad_Offensive" }
+		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad",
+										Parameter_Type = "Empire_Build_Pad",
+										Parameter_Type = "Underworld_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad_Offensive",
+										Parameter_Type = "Empire_Build_Pad_Offensive",
+										Parameter_Type = "Underworld_Build_Pad_Offensive" }
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		*
@@ -497,7 +495,7 @@
 												,Parameter_Type = "Underworld_Build_Pad"
 												,Parameter_Type = "Rebel_Build_Pad_Offensive"
 												,Parameter_Type = "Empire_Build_Pad_Offensive"
-												,Parameter_Type = "Underworld_Build_Pad_Offensive"		}
+												,Parameter_Type = "Underworld_Build_Pad_Offensive"}
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		*
@@ -530,17 +528,17 @@
 		*
 		(
 			10 * (0 == Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Anti_Infantry_Turret",
-																					Parameter_Type = "Rebel_Anti_Infantry_Turret",
-																					Parameter_Type = "Underworld_Torpedo_Turret",
-																					Parameter_Type = "Pirate_Anti_Infantry_Turret",
-																					Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"})
+																	Parameter_Type = "Rebel_Anti_Infantry_Turret",
+																	Parameter_Type = "Underworld_Torpedo_Turret",
+																	Parameter_Type = "Pirate_Anti_Infantry_Turret",
+																	Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"})
 			+
 			5 * (0.7 - Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Anti_Infantry_Turret",
-																					Parameter_Type = "Rebel_Anti_Infantry_Turret",
-																					Parameter_Type = "Underworld_Torpedo_Turret",
-																					Parameter_Type = "Pirate_Anti_Infantry_Turret",
-																					Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"}
-																					/ Function_Build_Pad_Count.Evaluate)
+																	Parameter_Type = "Rebel_Anti_Infantry_Turret",
+																	Parameter_Type = "Underworld_Torpedo_Turret",
+																	Parameter_Type = "Pirate_Anti_Infantry_Turret",
+																	Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"}
+																	/ Function_Build_Pad_Count.Evaluate)
 			+
 			2 * (200 > Variable_Target.DistanceToNearestFriendly {Parameter_Category = GameObjectCategoryType[Structure]})
 		)
@@ -556,13 +554,13 @@
 	UNUSED
 	-->
 	<Need_Bacta_Tank>
-		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad"
-												,Parameter_Type = "Rebel_Build_Pad"
-												,Parameter_Type = "Empire_Build_Pad"
-												,Parameter_Type = "Underworld_Build_Pad"
-												,Parameter_Type = "Rebel_Build_Pad_Defensive"
-												,Parameter_Type = "Empire_Build_Pad_Defensive"
-												,Parameter_Type = "Underworld_Build_Pad_Defensive" }
+		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad",
+										Parameter_Type = "Empire_Build_Pad",
+										Parameter_Type = "Underworld_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad_Defensive",
+										Parameter_Type = "Empire_Build_Pad_Defensive",
+										Parameter_Type = "Underworld_Build_Pad_Defensive" }
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		*
@@ -588,43 +586,44 @@
 																	Parameter_Type = "Hutt_Buildable_Bacta_Tank"})
 			+
 			5 * (0.1 - Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Buildable_Bacta_Tank",
-																					Parameter_Type = "Rebel_Buildable_Bacta_Tank",
-																					Parameter_Type = "Pirate_Buildable_Bacta_Tank",
-																					Parameter_Type = "Underworld_Buildable_Bacta_Tank",
-																					Parameter_Type = "Hutt_Buildable_Bacta_Tank"} / Function_Build_Pad_Count.Evaluate)
+																	Parameter_Type = "Rebel_Buildable_Bacta_Tank",
+																	Parameter_Type = "Pirate_Buildable_Bacta_Tank",
+																	Parameter_Type = "Underworld_Buildable_Bacta_Tank",
+																	Parameter_Type = "Hutt_Buildable_Bacta_Tank"} / Function_Build_Pad_Count.Evaluate)
 			-
-			2 * (800 > Variable_Target.DistanceToNearestFriendly {	Parameter_Type = "Empire_Buildable_Bacta_Tank",
-																					Parameter_Type = "Rebel_Buildable_Bacta_Tank",
-																					Parameter_Type = "Pirate_Buildable_Bacta_Tank",
-																					Parameter_Type = "Underworld_Buildable_Bacta_Tank",
-																					Parameter_Type = "Hutt_Buildable_Bacta_Tank"})
+			2 * (800 > Variable_Target.DistanceToNearestFriendly {Parameter_Type = "Empire_Buildable_Bacta_Tank",
+																	Parameter_Type = "Rebel_Buildable_Bacta_Tank",
+																	Parameter_Type = "Pirate_Buildable_Bacta_Tank",
+																	Parameter_Type = "Underworld_Buildable_Bacta_Tank",
+																	Parameter_Type = "Hutt_Buildable_Bacta_Tank"})
 		)
 	</Need_Bacta_Tank>
 
 	<Has_Infantry_Hero>
-		Variable_Self.HasUnit{ Parameter_Type = "Emperor_Palpatine"
-								,Parameter_Type = "Boba_Fett"
-								,Parameter_Type = "Han_Solo"
-								,Parameter_Type = "Chewbacca"
-								,Parameter_Type = "Mara_Jade"
-								,Parameter_Type = "Obi_Wan_Kenobi"
-								,Parameter_Type = "Darth_Vader"
-								,Parameter_Type = "Darth_Vader_Expansion"
-								,Parameter_Type = "Kyle_Katarn"
-								,Parameter_Type = "Tyber_Zann"
-								,Parameter_Type = "Silri"
-								,Parameter_Type = "Urai_Fen"
-								,Parameter_Type = "Bossk"
-								,Parameter_Type = "Luke_Skywalker_Jedi"
-								,Parameter_Type = "Yoda"}
+		Variable_Self.HasUnit{ Parameter_Type = "Emperor_Palpatine",
+								Parameter_Type = "Boba_Fett",
+								Parameter_Type = "Han_Solo",
+								Parameter_Type = "Chewbacca",
+								Parameter_Type = "Mara_Jade",
+								Parameter_Type = "Obi_Wan_Kenobi",
+								Parameter_Type = "Darth_Vader",
+								Parameter_Type = "Darth_Vader_Expansion",
+								Parameter_Type = "Kyle_Katarn",
+								Parameter_Type = "Tyber_Zann",
+								Parameter_Type = "Silri",
+								Parameter_Type = "Urai_Fen",
+								Parameter_Type = "Bossk",
+								Parameter_Type = "Luke_Skywalker_Jedi",
+								Parameter_Type = "Yoda"}
 	</Has_Infantry_Hero>
 
 	<Has_Vehicle_Hero>
-		Variable_Self.HasUnit { Parameter_Type = "General_Veers"
-								,Parameter_Type = "Tactical_R2_3PO_Team"
-								,Parameter_Type = "Garm_Bel_Iblis_Team"
-								,Parameter_Type = "IG88_Team" }
+		Variable_Self.HasUnit { Parameter_Type = "General_Veers",
+								Parameter_Type = "Tactical_R2_3PO_Team",
+								Parameter_Type = "Garm_Bel_Iblis_Team",
+								Parameter_Type = "IG88_Team" }
 	</Has_Vehicle_Hero>
+
 	<!--
 	Do we have a use for this
 	AND
@@ -635,13 +634,13 @@
 	UNUSED
 	-->
 	<Need_Repair_Bay>
-		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad"
-												,Parameter_Type = "Rebel_Build_Pad"
-												,Parameter_Type = "Empire_Build_Pad"
-												,Parameter_Type = "Underworld_Build_Pad"
-												,Parameter_Type = "Rebel_Build_Pad_Defensive"
-												,Parameter_Type = "Empire_Build_Pad_Defensive"
-												,Parameter_Type = "Underworld_Build_Pad_Defensive" }
+		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad",
+										Parameter_Type = "Empire_Build_Pad",
+										Parameter_Type = "Underworld_Build_Pad",
+										Parameter_Type = "Rebel_Build_Pad_Defensive",
+										Parameter_Type = "Empire_Build_Pad_Defensive",
+										Parameter_Type = "Underworld_Build_Pad_Defensive" }
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		*
@@ -672,7 +671,7 @@
 																	Parameter_Type = "Underworld_Buildable_Repair_Facility",
 																	Parameter_Type = "Hutt_Buildable_Repair_Facility"} / Function_Build_Pad_Count.Evaluate)
 			-
-			2 * (800 > Variable_Target.DistanceToNearestFriendly { 	Parameter_Type = "Empire_Buildable_Repair_Facility",
+			2 * (800 > Variable_Target.DistanceToNearestFriendly {Parameter_Type = "Empire_Buildable_Repair_Facility",
 																	Parameter_Type = "Rebel_Buildable_Repair_Facility",
 																	Parameter_Type = "Pirate_Buildable_Repair_Facility",
 																	Parameter_Type = "Underworld_Buildable_Repair_Facility",
@@ -776,7 +775,7 @@
 	AND
 	Make sure this is a contestable structure and desire unguarded contestables more
 	AND
-   Sink desire if we already have enough for this difficulty.
+	Sink desire if we already have enough for this difficulty.
 	OR
 	Flat desire bonus for reinforcement points in land control games
 	OR
@@ -858,10 +857,10 @@
 	</Number_Resource_Structures_Land>
 
 	<!-- Boolean.  Global desire to sell off a tactical structure to make room on a build pad for something else.
-	Are we out of build pads or money
-	AND
-	Is there high desire for a new structure
-	 -->
+		Are we out of build pads or money
+		AND
+		Is there high desire for a new structure
+	-->
 	<Need_To_Sell>
 		(
 			(
@@ -1190,7 +1189,7 @@
 			+
 			5 * (0.3 > Variable_Target.Shield)
 		)
-   </Needs_Repair>
+	</Needs_Repair>
 
 	<Is_Build_Pad>
 		Variable_Target.IsBuildPad
@@ -1239,5 +1238,4 @@
 		*
 		(Function_Num_Refineries.Evaluate > 1)
 	</Should_Hold_Position>
-
 </Equations>

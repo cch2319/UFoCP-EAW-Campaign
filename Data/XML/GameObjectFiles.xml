@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
-
 <Game_Object_Files>
-
 	<File>Units\TransportUnits.xml</File>
 
-	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>TechBuilding.xml</File> <!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
@@ -17,7 +15,6 @@
 	<File>GroundBuildablesRebel.xml</File>
 	<File>GroundBuildablesEmpire.xml</File>
 	<File>GroundBuildablesPirate.xml</File>
-
 
 	<File>Maps\SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
@@ -67,7 +64,6 @@
 
 
 	<!-- Expansion Units: Empire -->
-
 	<File>Units\Empire\Units_Hero_Empire_Thrawn.xml</File>
 	<File>Units\Empire\Units_Hero_Empire_Darth_Vader.xml</File>
 	<File>Units\Empire\Units_Land_Empire_DarkTroopers.xml</File>
@@ -82,9 +78,7 @@
 	<File>Units_Land_Empire_Juggernaut.xml</File>
 
 
-
 	<!-- Expansion Units: Rebel -->
-
 	<File>Units\Rebels\Units_Hero_Rebel_DroidDuo.xml</File>
 	<File>Units\Rebels\Units_Hero_Rebel_Yoda.xml</File>
 	<File>Units\Rebels\Units_Hero_Rebel_LukeSkywalker.xml</File>
@@ -97,9 +91,7 @@
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
 
 
-
 	<!-- Expansion Units: Underworld -->
-
 	<File>Units\Underworld\Units_Space_Underworld_StarViper.xml</File>
 	<File>Units\Underworld\Units_Space_Underworld_Skipray.xml</File>
 	<File>Units_Space_Underworld_Crusader_Gunship.xml</File>
@@ -113,16 +105,13 @@
 	<File>Maps\StarBases_Underworld.xml</File>
 
 
-
 	<!-- Expansion Units: Neutral -->
-
 	<File>Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
 	<File>GroundBuildablesHutts.xml</File>
 
 
 	<!-- Expansion General Files -->
-
 	<File>SpaceProps_Underworld.xml</File>
 	<File>Units\Underworld_TransportUnits.xml</File>
 	<File>Props_Felucia.xml</File>
@@ -132,7 +121,6 @@
 	<File>Modifiers\UpgradeObjects_Underworld.XML</File>
 
 	<!-- Expansion Units: Heroes -->
-
 	<File>Units\Underworld\Units_Hero_Underworld_IG88.xml</File>
 	<File>Units\Underworld\Units_Hero_Underworld_Bossk.xml</File>
 	<File>Units\Underworld\Units_Hero_Underworld_Tyber_Zann.xml</File>
@@ -141,7 +129,7 @@
 
 	<File>Units\Underworld\Units_Land_Underworld_MercenaryInf.xml</File>
 	<File>Units\Underworld\Units_Land_Underworld_DisruptorInf.xml</File>
-	<File>Units\Underworld\Minor_Heroes_Expansion.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Defiler.xml</File>
 	<File>Units\Underworld\Corruption_Special_Units.XML</File>
 	<File>Units\Underworld\Units_Land_Underworld_Ewok_Bomber.xml</File>
 	<File>Units_Land_Underworld_DestroyerDroids.xml</File>
@@ -167,8 +155,9 @@
 	<File>Maps\Props_Generic.xml</File>
 	<File>Maps\Props_Story.xml</File>
 
-	<!-- CIN Files -->
 
+
+	<!-- CIN Files -->
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
 	<File>CIN_SpaceUnitsCorvettes.xml</File>
@@ -180,7 +169,4 @@
 	<File>CIN_Projectiles.xml</File>
 	<File>CIN_GroundProps.xml</File>
 	<File>CIN_GroundTurrets.xml</File>
-
-
-
 </Game_Object_Files>

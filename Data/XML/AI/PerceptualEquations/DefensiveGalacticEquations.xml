@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
 	<!-- High priority whenever a friendly planet has an enemy force in orbit
 			... consider how valuable this planet is
 			... and if we don't own much space, this is even more important
@@ -309,5 +307,4 @@
 		*
 		(Function_Am_I_In_Winning_Position.Evaluate == 0.0)
 	</Needs_Magic_Cash_Drop>
-
 </Equations>

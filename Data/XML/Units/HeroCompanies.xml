@@ -1,9 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <HeroCompanies>
 	<!--			  -->
 	<!-- Minor Heroes -->
 	<!--			  -->
-
 	<HeroCompany Name="Smuggler_Team_E">
 		<Text_ID>TEXT_HERO_UNIT_SMUGGLER</Text_ID>
 		<Icon_Name>i_button_smuggler.tga</Icon_Name>
@@ -72,7 +71,6 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-
 	<HeroCompany Name="Smuggler_Team_R_Tutorial">
 		<Text_ID>TEXT_HERO_UNIT_SMUGGLER</Text_ID>
 		<Icon_Name>i_button_smuggler.tga</Icon_Name>
@@ -105,6 +103,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
 		<CategoryMask>NonCombatHero</CategoryMask>
 	</HeroCompany>
+
 
 	<HeroCompany Name="Probe_Droid_Team">
 		<GUI_Row>1</GUI_Row>
@@ -174,7 +173,6 @@
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
 
-
 	<HeroCompany Name="Bounty_Hunter_Team_R">
 		<GUI_Row>1</GUI_Row>
 		<Text_ID>TEXT_HERO_UNIT_BOUNTY_HUNTER</Text_ID>
@@ -210,7 +208,6 @@
 		<CategoryMask>NonCombatHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
 
 
 	<HeroCompany Name="Fleet_Com_Rebel_Team">
@@ -256,7 +253,6 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Fleet_Com_Empire_Team">
 		<GUI_Row>1</GUI_Row>
@@ -337,7 +333,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 
-				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -384,7 +380,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 
-				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -401,8 +397,6 @@
 	<!--			         -->
 	<!-- Empire Major Heroes -->
 	<!--			         -->
-
-
 	<HeroCompany Name="Boba_Fett_Team">
 		<Text_ID>TEXT_HERO_BOBA_FETT_TEAM</Text_ID>
 		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
@@ -463,6 +457,7 @@
 
 	<HeroCompany Name="Boba_Fett_Team_NoStealth">
 		<Variant_Of_Existing_Type>Boba_Fett_Team</Variant_Of_Existing_Type>
+
 		<Company_Units>Boba_Fett_NoStealth</Company_Units>
 		<Is_Named_Hero>No</Is_Named_Hero>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
@@ -481,7 +476,7 @@
 	</HeroCompany>
 
 	<!-- AM1994: Disabling for Object-Contest bug: prefer IG2000_MP -->
-<!--	<HeroCompany Name="Boba_Fett_Team_Space_MP">
+	<!--	<HeroCompany Name="Boba_Fett_Team_Space_MP">
 		<Variant_Of_Existing_Type>Boba_Fett_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette A-Wing </Encyclopedia_Vulnerable_To>
@@ -496,7 +491,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
--->
+	-->
 
 	<HeroCompany Name="Piet_Team">
 		<Text_ID>TEXT_HERO_PIET_TEAM</Text_ID>
@@ -527,26 +522,25 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
 
 
-	   <Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-					<Type>TRACTOR_BEAM</Type>
-					<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-					<GUI_Activated_Ability_Name> Piet_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-					<Recharge_Seconds>20</Recharge_Seconds>
+				<Type>TRACTOR_BEAM</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Piet_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>20</Recharge_Seconds>
 			</Unit_Ability>
 
-	      <Unit_Ability>
-	         <Type>ENERGY_WEAPON</Type>
-	         <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	         <GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	         <Recharge_Seconds>20</Recharge_Seconds>
+			<Unit_Ability>
+				<Type>ENERGY_WEAPON</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>10</Expiration_Seconds>
-	      </Unit_Ability>
-	   </Unit_Abilities_Data>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 		<CategoryMask>SpaceHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 	</HeroCompany>
-
 
 	<HeroCompany Name="General_Veers_Team">
 		<Text_ID>TEXT_HERO_VEERS_TEAM</Text_ID>
@@ -583,7 +577,7 @@
 				<Type>MAXIMUM_FIREPOWER</Type>
 				<Expiration_Seconds>4</Expiration_Seconds>
 				<Recharge_Seconds>30</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.3f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name>AT_AT_Maximum_Firepower_Attack</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Projectile_Types_Override>Proj_Veers_AT_AT_Max_Power_Laser_Red</Projectile_Types_Override>
 				<Mod_Flag>ALLOW_TARGET_DIMINISHING_FIREPOWER, false</Mod_Flag>
@@ -596,7 +590,6 @@
 				<Spawned_Object_Type>Veers_Deployed_Imperial_Stormtrooper_Squad</Spawned_Object_Type>
 				<Max_Num_Spawned_Objects>2</Max_Num_Spawned_Objects>
 				<Owner_Attachment_Bone>B_Trooper_00, B_Trooper_01, B_Trooper_02 </Owner_Attachment_Bone>
-
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -613,7 +606,6 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Grand_Moff_Tarkin_Team">
 		<Text_ID>TEXT_HERO_TARKIN_TEAM</Text_ID>
@@ -646,7 +638,6 @@
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Mara_Jade_Team">
 		<Text_ID>TEXT_HERO_MARA_JADE_TEAM</Text_ID>
@@ -695,7 +686,6 @@
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<Score_Cost_Credits> 9000 </Score_Cost_Credits>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Emperor_Palpatine_Team">
 		<Text_ID>TEXT_HERO_EMPEROR_PALPATINE</Text_ID>
@@ -759,12 +749,9 @@
 	</HeroCompany>
 
 
-
 	<!--			            -->
 	<!-- Rebellion Major Heroes -->
 	<!--			            -->
-
-
 	<HeroCompany Name="Commander_Akbar_Team">
 		<Text_ID>TEXT_HERO_AKBAR_TEAM</Text_ID>
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
@@ -795,7 +782,6 @@
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Ackbar</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
 
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -811,20 +797,17 @@
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>20</Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Han_Solo_Team">
 		<Text_ID>TEXT_HERO_HAN_SOLO_TEAM</Text_ID>
@@ -872,7 +855,7 @@
 				<Type>SPRINT</Type>
 				<Expiration_Seconds> 10.0 </Expiration_Seconds>
 				<Recharge_Seconds> 30.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 			<Unit_Ability>
@@ -901,8 +884,8 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
-		<!-- AM1994: Disable to fix Object-Contest bug. Prefer Millennium_Falcon_MP -->
-<!--	<HeroCompany Name="Han_Solo_Team_Space_MP">
+	<!-- AM1994: Disable to fix Object-Contest bug. Prefer Millennium_Falcon_MP -->
+	<!--	<HeroCompany Name="Han_Solo_Team_Space_MP">
 		<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
@@ -917,7 +900,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
--->
+	-->
 
 	<HeroCompany Name="Katarn_Team">
 		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
@@ -966,8 +949,6 @@
 		<Score_Cost_Credits> 9000 </Score_Cost_Credits>
 	</HeroCompany>
 
-
-
 	<HeroCompany Name="Luke_Team">
 		<Text_ID>TEXT_HERO_LUKE_TEAM</Text_ID>
 		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
@@ -1001,24 +982,22 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Someone commented this out. This is needed on ALL Red Squadron units! -Oksana -->
 			<Unit_Ability>
-				 <Type>LUCKY_SHOT</Type>
+				<Type>LUCKY_SHOT</Type>
 			</Unit_Ability>
-
 
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<CategoryMask>SpaceHero</CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Mon_Mothma_Team">
 		<Text_ID>TEXT_HERO_MON_MOTHMA_TEAM</Text_ID>
@@ -1049,7 +1028,6 @@
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
 
 	<HeroCompany Name="Obi_Wan_Team">
 		<Text_ID>TEXT_HERO_OBI_WAN_TEAM</Text_ID>
@@ -1142,7 +1120,6 @@
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_REFUGEE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
-
 		<CategoryMask>NonCombatHero</CategoryMask>
 	</HeroCompany>
 </HeroCompanies>

@@ -149,9 +149,6 @@
 	</StarBase>
 
 
-
-
-
 	<StarBase Name="Rebel_Star_Base_2">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
@@ -301,9 +298,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Rebel_Star_Base_3">
@@ -462,9 +456,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Rebel_Star_Base_4">
@@ -635,10 +626,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
-
 
 
 	<StarBase Name="Rebel_Star_Base_5">
@@ -813,6 +800,13 @@
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
 
+	<Starbase Name="Rebel_Star_Base_Tutorial">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE, HIDE_WHEN_FOGGED</Behavior>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	</Starbase>
+
 
 
 
@@ -950,8 +944,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 
 
 	<StarBase Name="Empire_Star_Base_2">
@@ -1096,8 +1088,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
 
 
 	<StarBase Name="Empire_Star_Base_3">
@@ -1251,8 +1241,6 @@
 	</StarBase>
 
 
-
-
 	<StarBase Name="Empire_Star_Base_4">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_4</Text_ID>
@@ -1402,9 +1390,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Empire_Star_Base_5">
@@ -1573,10 +1558,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
-
 
 
 
@@ -1754,13 +1735,6 @@
 		</HardPoints>
 	</StarBase>
 
-	<Starbase Name="Rebel_Star_Base_Tutorial">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
-		<Behavior>DUMMY_STAR_BASE, SELECTABLE, HIDE_WHEN_FOGGED</Behavior>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-	</Starbase>
-
 	<StarBase Name="Pirate_Asteroid_Base_Death_Clone">
 		<Text_ID>TEXT_PIRATE_STAR_BASE_1</Text_ID>
 		<Space_Model_Name>NB_APBase_D.alo</Space_Model_Name>
@@ -1773,14 +1747,7 @@
 
 
 
-
-
-
-
-
-
 	<!-- SKIRMISH SPECIFIC STARBASES DEFINED BELOW -->
-
 	<!-- Rebel Skirmish Starbases -->
 	<StarBase Name="Skirmish_Rebel_Star_Base_1">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
@@ -2642,5 +2609,4 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
 </StarBases>

@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
 	<Underworld_Offensive_Budget_Allocation>
 		5.0
 		+
@@ -29,5 +27,4 @@
 		+
 		3.0 * Function_Should_Save_For_Corruption.Evaluate
 	</Underworld_Infrastructure_Budget_Allocation>
-
 </Equations>

@@ -25,12 +25,17 @@ For more information, please refer to <https://unlicense.org>
 
 ----
 
-CLARIFICATION: James Suzuki, 03/10/2025
-The Unofficial Forces of Corruption Patch (retroactively and continually
-referred to as "this"/"the" "Software") consists of source code from
-Disney Interactive's STAR WARS: EMPIRE AT WAR ("the game").  EULA should
-state all content is owned by Disney and no implication is made otherwise.
+Addendum by James Suzuki, 02/05/2025
+The Unofficial Forces of Corruption Patch consists of source code from
+Disney Interactive's STAR WARS: EMPIRE AT WAR.  EULA and other related
+user-end contracts all state that all content is owned by Disney Inter-
+active, and no implication is made to the contrary.
 
-Use of The Unlicense is to clarify nothing is owned by Suzuki and can obviously
-be used freely, however, in the spirit of open-source projects, contributors
-should be credited.
+The Unofficial Forces of Corruption Patch uses The Unlicense to clarify
+nothing in STAR WARS: EMPIRE AT WAR is owned by Suzuki or related con-
+tributors.  All content is owned by Disney Interactive.
+
+However, in the spirit of open-source projects, the developers and con-
+tributors of the Unofficial Forces of Corruption Patch should be credited,
+as they are seen in the file READ.ME, because they are the building blocks
+of this project's existence.

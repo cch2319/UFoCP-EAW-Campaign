@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <UpgradeObjects_Underworld>
+	<!-- ================== UNDERWORLD LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
 
-<!-- ================== UNDERWORLD LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
-
-<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
+	<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_Black_Market_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -83,7 +82,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
+	<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -203,7 +202,7 @@
 	</UpgradeObject>
 
 
-<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
+	<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -477,7 +476,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<!-- Extort Cash (Level 1): Increases income by 15%. -->
 	<UpgradeObject Name="UL_Extort_Cash_L1_Upgrade">
@@ -528,7 +527,7 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<!-- Extort Cash (Level 2): Increases income by 45%. -->
 	<UpgradeObject Name="UL_Extort_Cash_L2_Upgrade">
@@ -579,9 +578,9 @@
 		</Abilities>
 
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-  	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
+	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -623,7 +622,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-	 <!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
+	<!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -667,12 +666,9 @@
 
 
 
+	<!-- ================== UNDERWORLD SPACE MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
 
-
-
-<!-- ================== UNDERWORLD SPACE MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
-
-<!-- Reinforced Durasteel: Space Station take 15% less damage. -->
+	<!-- Reinforced Durasteel: Space Station take 15% less damage. -->
 	<UpgradeObject Name="US_Reinforced_Structure_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -710,10 +706,9 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-<!-- Reinforced Durasteel: Space Station take 25% less damage. -->
-
+	<!-- Reinforced Durasteel: Space Station take 25% less damage. -->
 <UpgradeObject Name="US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -751,9 +746,9 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-<!-- Reinforced Durasteel: Space Station take 40% less damage. -->
+	<!-- Reinforced Durasteel: Space Station take 40% less damage. -->
 	<UpgradeObject Name="US_Reinforced_Structure_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -791,9 +786,9 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-<!-- Black Market Reactors (Level 1): Skipray Figthers gain a 25% movement speed increase. -->
+	<!-- Black Market Reactors (Level 1): Skipray Figthers gain a 25% movement speed increase. -->
 	<UpgradeObject Name="US_BlackMarket_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -834,7 +829,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- Black Market Reactors Mod (Level 2): Skipray, Interceptor gain a 25% movement speed increase. -->
+	<!-- Black Market Reactors Mod (Level 2): Skipray, Interceptor gain a 25% movement speed increase. -->
 	<UpgradeObject Name="US_BlackMarket_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -875,7 +870,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- Black Market Reactors (Level 3): Skipray, Interceptor, Krayt gain a 25% movement speed increase. -->
+	<!-- Black Market Reactors (Level 3): Skipray, Interceptor, Krayt gain a 25% movement speed increase. -->
 	<UpgradeObject Name="US_BlackMarket_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -916,7 +911,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- Magnetically Sealed Armor (Level 1): Starvipers deflect 25% of incoming blaster fire. -->
+	<!-- Magnetically Sealed Armor (Level 1): Starvipers deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -949,9 +944,9 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-<!-- Magnetically Sealed Armor (Level 2): Starvipers, Crusaders deflect 25% of incoming blaster fire. -->
+	<!-- Magnetically Sealed Armor (Level 2): Starvipers, Crusaders deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -984,10 +979,10 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
- <!-- Magnetically Sealed Armor (Level 3): Starvipers, Crusaders, Keldalbe deflect 25% of incoming blaster fire. -->
+	<!-- Magnetically Sealed Armor (Level 3): Starvipers, Crusaders, Keldalbe deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -1020,10 +1015,10 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
-<!-- Carbonite Firing Coolant (Level 1): Vengence Frigates gain a 30% damage increase. -->
+	<!-- Carbonite Firing Coolant (Level 1): Vengence Frigates gain a 30% damage increase. -->
 	<UpgradeObject Name="US_Carbonite_Coolant_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -1064,7 +1059,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- Carbonite Coolant Systems (Level 2): Vengence Frigates, Krayt Destroyers gain a 30% damage increase. -->
+	<!-- Carbonite Coolant Systems (Level 2): Vengence Frigates, Krayt Destroyers gain a 30% damage increase. -->
 	<UpgradeObject Name="US_Carbonite_Coolant_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -1106,7 +1101,7 @@
 	</UpgradeObject>
 
 	<!-- Modified Cloaking Generators (Level 1): Vengence cloaking systems last 25% longer. -->
-<UpgradeObject Name="US_Cloaking_Generator_L1_Upgrade">
+	<UpgradeObject Name="US_Cloaking_Generator_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
@@ -1140,8 +1135,8 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-		<!-- Modified Cloaking Generators (Level 2): Vengence and PeaceBringer cloaking systems last 50% longer. -->
-<UpgradeObject Name="US_Cloaking_Generator_L2_Upgrade">
+	<!-- Modified Cloaking Generators (Level 2): Vengence and PeaceBringer cloaking systems last 50% longer. -->
+	<UpgradeObject Name="US_Cloaking_Generator_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2200 </Tactical_Build_Cost_Multiplayer>
@@ -1301,9 +1296,9 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-<!-- ================== LAND SKIRMISH UNDERWORLD COMMAND CENTER TECH UPGRADE OBJECTS =================== -->
+	<!-- ================== LAND SKIRMISH UNDERWORLD COMMAND CENTER TECH UPGRADE OBJECTS =================== -->
 
-<UpgradeObject Name="UC_Level_Two_Tech_Upgrade">
+	<UpgradeObject Name="UC_Level_Two_Tech_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
@@ -1364,7 +1359,7 @@
 
 
 
-<!-- Align Space Station Cannon: Allows the player to fire the Plasma Cannon once. -->
+	<!-- Align Space Station Cannon: Allows the player to fire the Plasma Cannon once. -->
 	<UpgradeObject Name="US_Plasma_Cannon_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -1403,11 +1398,11 @@
 
 
 
-<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->
-<!--========================================================================================= -->
-<!--========================================================================================= -->
+	<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->
+	<!--========================================================================================= -->
+	<!--========================================================================================= -->
 
-<UpgradeObject Name="RL_Planetary_Bombard_Use_Upgrade">
+	<UpgradeObject Name="RL_Planetary_Bombard_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 6000 </Tactical_Build_Cost_Multiplayer>
@@ -1438,10 +1433,10 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->
-<UpgradeObject Name="EL_Planetary_Bombard_Use_Upgrade">
+	<UpgradeObject Name="EL_Planetary_Bombard_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 7500 </Tactical_Build_Cost_Multiplayer>
@@ -1472,7 +1467,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<!-- Planetary Bombardment : Lets the player bombard, must be purchased for each bombardment. -->
 	<UpgradeObject Name="UL_Planetary_Bombard_Use_Upgrade">
@@ -1506,16 +1501,16 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
 
-<!-- New Mercenary Outfitter Upgrades -->
-<!--========================================================================================= -->
-<!--========================================================================================= -->
+	<!-- New Mercenary Outfitter Upgrades -->
+	<!--========================================================================================= -->
+	<!--========================================================================================= -->
 
-<!-- Magnetically sealed Plating: Structures Armor redirects 25% laser fire. -->
-<UpgradeObject Name="U_Magnetically_Sealed_Structure_Upgrade">
+	<!-- Magnetically sealed Plating: Structures Armor redirects 25% laser fire. -->
+	<UpgradeObject Name="U_Magnetically_Sealed_Structure_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1200 </Tactical_Build_Cost_Multiplayer>
@@ -1546,7 +1541,7 @@
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<UpgradeObject Name="R_Magnetically_Sealed_Structure_Upgrade">
 		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
@@ -1565,7 +1560,7 @@
 				<Affects_All_Allies> Yes </Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<UpgradeObject Name="E_Magnetically_Sealed_Structure_Upgrade">
 		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
@@ -1584,9 +1579,9 @@
 				<Affects_All_Allies> Yes </Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
-  	</UpgradeObject>
+	</UpgradeObject>
 
-  	<UpgradeObject Name="U_Secure_Area_Upgrade">
+	<UpgradeObject Name="U_Secure_Area_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
@@ -1617,7 +1612,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<UpgradeObject Name="R_Secure_Area_Upgrade">
 		<Variant_Of_Existing_Type>U_Secure_Area_Upgrade</Variant_Of_Existing_Type>
@@ -1635,7 +1630,7 @@
 				<Stacking_Category>3</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 		</Abilities>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 	<UpgradeObject Name="E_Secure_Area_Upgrade">
 		<Variant_Of_Existing_Type>U_Secure_Area_Upgrade</Variant_Of_Existing_Type>
@@ -1654,15 +1649,15 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
-  	<!-- New Hutt Palace Upgrades -->
-<!--========================================================================================= -->
-<!--========================================================================================= -->
+	<!-- New Hutt Palace Upgrades -->
+	<!--========================================================================================= -->
+	<!--========================================================================================= -->
 
 
-	 <!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
+	<!-- Reinforcement Enhacements (Level 1): Affects Reinforcment Deployment -->
 	<UpgradeObject Name="UL_Enhanced_Deployment_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -1771,7 +1766,7 @@
 
 
 
-<!-- ================== UNDERWORLD GENERAL UPGRADE OBJECTS =================== -->
+	<!-- ================== UNDERWORLD GENERAL UPGRADE OBJECTS =================== -->
 
 	<!-- Underworld Planetary Corruption -->
 
@@ -1995,7 +1990,7 @@
 
 
 
-<!-- ================== NEW PLANETARY ADVANTAGE UPGRADE OBJECTS =================== -->
+	<!-- ================== NEW PLANETARY ADVANTAGE UPGRADE OBJECTS =================== -->
 
 
 	<UpgradeObject Name="Bespin_Plantary_Advantage">
@@ -2116,7 +2111,7 @@
 	</UpgradeObject>
 
 	<!-- Honoghr Planetary Advantage: Capture points are converted faster. -->
-  	<UpgradeObject Name="Honoghr_Planetary_Advantage">
+	<UpgradeObject Name="Honoghr_Planetary_Advantage">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
@@ -2138,7 +2133,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
 	<UpgradeObject Name="NalHutta_Planetary_Advantage">
@@ -2174,12 +2169,7 @@
 	</UpgradeObject>
 
 
-<!-- PLANET BONUSES -->
-
-
-
-
-
+	<!-- PLANET BONUSES -->
 	<UpgradeObject Name="Utapau_Kedalbe_Shield_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -2222,7 +2212,6 @@
 	</UpgradeObject>
 
 
-
 	<UpgradeObject Name="Byss_ATAT_Enhanced_Damage_Bonus">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
@@ -2261,7 +2250,7 @@
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
-  	</UpgradeObject>
+	</UpgradeObject>
 
 
 	<UpgradeObject Name="Bespin_Krayt_Damage_Upgrade">
@@ -2311,18 +2300,18 @@
 
 
 
-<!-- ******************************************************************************************* -->
-<!-- ******				UPGRADE OBJECTS FOR SOLO PLAY UNDERWORLD GROUND STRUCTURES		  ****** -->
-<!-- ******************************************************************************************* -->
+	<!-- ******************************************************************************************* -->
+	<!-- ******				UPGRADE OBJECTS FOR SOLO PLAY UNDERWORLD GROUND STRUCTURES		  ****** -->
+	<!-- ******************************************************************************************* -->
 
 
 
-<!-- ############## -->
-<!-- ### PALACE ### -->
-<!-- ############## -->
+	<!-- ############## -->
+	<!-- ### PALACE ### -->
+	<!-- ############## -->
 
 
-<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
+	<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
@@ -2487,11 +2476,11 @@
 
 
 
-<!-- ################ -->
-<!-- ### BARRACKS ### -->
-<!-- ################ -->
+	<!-- ################ -->
+	<!-- ### BARRACKS ### -->
+	<!-- ################ -->
 
-  	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
+	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
@@ -2533,7 +2522,7 @@
 		</Abilities>
 	</UpgradeObject>
 
-	 <!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
+	<!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L2_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
@@ -2579,12 +2568,12 @@
 
 
 
-<!-- ################### -->
-<!-- ### DROID WORKS ### -->
-<!-- ################### -->
+	<!-- ################### -->
+	<!-- ### DROID WORKS ### -->
+	<!-- ################### -->
 
 
-<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
+	<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
@@ -2668,7 +2657,7 @@
 	</UpgradeObject>
 
 
-<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
+	<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
@@ -2759,12 +2748,9 @@
 
 
 
-<!-- ############### -->
-<!-- ### FACTORY ### -->
-<!-- ############### -->
-
-
-
+	<!-- ############### -->
+	<!-- ### FACTORY ### -->
+	<!-- ############### -->
 	<UpgradeObject Name="UL_Weapon_Boost_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
@@ -2845,10 +2831,4 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</UpgradeObject>
-
-
-
-
-
-
 </UpgradeObjects_Underworld>

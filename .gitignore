@@ -3,13 +3,12 @@
 Data/Audio/Music/UND_Zann_Consortium_Theme.mp3
 
 # VSCode
+.classpath
+.project
 .settings/
 .vscode/
 bin/
-.classpath
-.project
 *.code-workspace
-
 
 
 ### Windows ###
@@ -36,9 +35,7 @@ $RECYCLE.BIN/
 *.msp
 
 # Shortcuts
-*.code-workspace
 *.lnk
-
 
 
 ### Apple ###

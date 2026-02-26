@@ -1,8 +1,7 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
-	<!-- See if the target system is connected to a system owned by whatever faction I am.
+	<!--
+		See if the target system is connected to a system owned by whatever faction I am.
 	-->
 	<Is_Connected_To_Me>
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} *
@@ -69,23 +68,23 @@
 		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
 		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
-      (1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
+		(1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Ground>
 
-	 <!--  the AI just always wants to be building offensive units if it can afford it.  Just tune
+	<!--  the AI just always wants to be building offensive units if it can afford it.  Just tune
 		this number so that high desirability conquer plans will win and cause production, but low desirability conquer plans
 		will eventually get the forces they need, via build_forces.
 
 		(1.0 - (Function_Need_Tech_Upgrade_Unblocked.Evaluate * Function_Has_Enough_Space_Force_Globally.Evaluate))
 
 		-->
-	 <Global_Offensive_Need_Space>
+	<Global_Offensive_Need_Space>
 		(1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate)
 		*
 		3.0
-	 </Global_Offensive_Need_Space>
+	</Global_Offensive_Need_Space>
 
-	 <Allow_Blind_Ground_Production>
+	<Allow_Blind_Ground_Production>
 		(
 			0.5
 			*
@@ -103,9 +102,9 @@
 		(3.0 > Function_Allow_Blind_Space_Production.Evaluate)
 		*
 		(Script_AnyFreeLandSlots.Evaluate)
-	 </Allow_Blind_Ground_Production>
+	</Allow_Blind_Ground_Production>
 
-	 <Allow_Blind_Space_Production>
+	<Allow_Blind_Space_Production>
 		1.0
 		*
 		(Variable_Self.CreditsUnnormalized >= 2000)
@@ -113,7 +112,7 @@
 		(Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (1.33 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
 		+
 		(Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
-	 </Allow_Blind_Space_Production>
+	</Allow_Blind_Space_Production>
 
 	<!-- Determine if we'd like to invade this system.
 
@@ -121,12 +120,12 @@
 		factor in systems that my non-pirate opponent has neglected to defended
 		factor in connected systems (the enemy_destination reachability already considers this, but this equation is also used for scouting needs)
 		factor in planets which would connect islands of ownership (all targets are 0 if there is only one island of ownership)
-      and add weight for having trade routes
+		and add weight for having trade routes
 		factor in systems with high offensive value
 		bonus for chokepoint hints
 		bonus for targets which have been marked up by script (as on the path to a juicy target) if the player has started to attack us
 		dislike pirate systems under some circumstances (don't zero out desire entirely, because we want to expand through pirates toward the player)
-	 -->
+	-->
 	<Is_Good_Invasion_Target>
 		15.0 * (Variable_Target.EnemyForce.HasGroundForce == 0.0) * (Variable_Target.EnemyForce.HasSpaceForce == 0.0) * (Function_System_Recon_Relevance.Evaluate)
 		+
@@ -290,7 +289,7 @@
 	AND SCALE BY
 		base invasion worth PLUS bonus to prevent this from going negative
 		bonus for having no ground force (should be a quick win for Fast Expansion)
-	 -->
+	-->
 	<Is_Good_Space_Sweep_Target>
 		Variable_Target.EnemyForce.HasSpaceForce
 		*
@@ -309,7 +308,7 @@
 	AND SCALE BY
 		base invasion worth PLUS bonus to prevent this from going negative
 		bonus for having no ground force (should be a quick win for Fast Expansion)
-	 -->
+	-->
 	<Is_Good_Ground_Grab_Target>
 		(Variable_Target.StarbaseLevel == 0.0)
 		*
@@ -343,7 +342,7 @@
 		This fix isn't exactly very backwards compatible since the AI will
 		consider neutrals/pirates a valid target.
 		In EaW, this entire check was
-		(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"} + 
+		(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"} +
 		Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"})
 	-->
 	<Enemy_Present>
@@ -610,5 +609,4 @@
 		*
 		(5 > Variable_Human.PlanetsControlledUnnormalized)
 	</Should_Shutdown_Offense_For_Story_Campaign>
-
 </Equations>

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <SpecialStructures>
-
 	<SpecialStructure Name="Ground_Ion_Cannon">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_ION_CANNON</Text_ID>
@@ -2682,7 +2681,6 @@
 	</SpecialStructure>
 
 
-
 	<!-- Template for the Turbolaser Defenses galactic base enhancement.  -->
 	<SpecialStructure Name="Template_Galactic_Turbolaser_Tower_Defenses">
 		<Text_ID>TEXT_TURBOLASER_DEFENSE_UPGRADE</Text_ID>
@@ -3297,8 +3295,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-
-
 	<SpecialStructure Name="R_Ground_Light_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
@@ -3646,7 +3642,6 @@
 
 		</Abilities>
 	</SpecialStructure>
-
 
 	<SpecialStructure Name="R_Ground_Heavy_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.2</GUI_Bounds_Scale>
@@ -4952,7 +4947,7 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
  		</Abilities>
-   </SpecialStructure>
+	</SpecialStructure>
 
 	<SpecialStructure Name="Communications_Array_R">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
@@ -5093,7 +5088,7 @@
 			</Redirect_Blaster_Ability>
 
 		</Abilities>
-   </SpecialStructure>
+	</SpecialStructure>
 
 
 
@@ -5313,7 +5308,7 @@
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 		<Base_Position>In_Base</Base_Position>
-   </SpecialStructure>
+	</SpecialStructure>
 
 
 	<SpecialStructure Name="Rebel_Command_Center">
@@ -5633,11 +5628,9 @@
 	<!-- ============================================================================================================================== -->
 	<!-- ============================================================================================================================== -->
 	<!-- ============================================================================================================================== -->
-
 	<!-- Space mode versions of ground special weapons, that fire up from the planet, are defined below... -->
 	<!-- AJA 10/11/2005 - Mike and I couldn't remember why we made these and they weren't getting
 	instantiated in campaign games anyway, so they get the axe!! -->
-
 
 	<!-- This version is for space mode and attacking up from planets. There is a land-based version defined above -->
 	<!--
@@ -5717,7 +5710,6 @@
 	</SpecialStructure>
 	-->
 
-
 	<!-- This version is for space mode and attacking up from planets. There is a land-based version defined above -->
 	<!--
 	<SpecialStructure Name="Space_Mode_Ground_Empire_Hypervelocity_Gun">
@@ -5785,9 +5777,6 @@
 
 
 <!--  TEST of destroyable asteroids getting progressivly smaller -->
-
-
-
 	<SpecialStructure Name="Destroyable_Asteroid_Small">
 		<Text_ID>TEXT_DESTROYABLE_ASTEROID</Text_ID>
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
@@ -5937,6 +5926,7 @@
 
 		<Score_Cost_Credits> 300 </Score_Cost_Credits>
 	</SpecialStructure>
+
 
 
 	<SpecialStructure Name="Defense_Satellite">
@@ -6332,7 +6322,4 @@
 
 		<Score_Cost_Credits> 300 </Score_Cost_Credits>
 	</SpecialStructure>
-
-
-
 </SpecialStructures>

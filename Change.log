@@ -59,6 +59,7 @@ ENHANCEMENTS:
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml. (No forward facing changes.)
 • R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml. (No forward facing changes.)
+• The Defiler's unit information file has been renamed: [Units\Underworld\]Units_Hero_Underworld_Defiler.xml, from "Minor_Heroes_Expansion." (No forward facing changes.)
 • Fixed Bossk's unit entries being headered as IG-2000's unit data. (No forward facing changes.)
 • Fixed Thrawn's ability definitions being headered as Captain Piett's abilities.  (No forward facing changes.)
 • IG-2000's internal unit entry has been renamed to "IG2000" to address a scripting problem where the "-" caused an error.
@@ -81,9 +82,9 @@ HOUSEKEEPING:
 • Space Dantooine's space station position marker was internally defined as Rebel-owned, instead of Neutral. (No forward facing changes.)
 • Space Dathomir internally was defined as a Desert map, and not as a Space map. (No forward facing changes.)
 
-• The game's interface definitions (CommandBarComponents.xml) have had multiple unused settings removed.  These settings were removed before release, and were causing warnings in the game's logging.
+• The game's interface definitions (CommandBarComponents.xml) have had multiple broken settings fixed.  These settings either didn't exist or was misspelled, but appeared to work regardless (likely because the defaults were already correct).  So, because there's no functionality changes, this is noted as housekeeping:
 •• i_main_commandbar: <Mega_Texture_Name>
-•• b_play_pause: <Disabled_Darken> (Texture darkening is handled through a seperate texture)
+•• b_play_pause: <Disabled_Darken> --> <Disable_Darken>
 •• b_fast_forward: <Disabled_Darken>
 •• b_play_pause_t: <Disabled_Darken>
 •• b_fast_forward_t: <Disabled_Darken>

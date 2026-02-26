@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Executor_Files>
-
 	<!-- The Executor is Darth Vader's flagship -->
 	<UniqueUnit Name="Executor_Super_Star_Destroyer">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
@@ -11,8 +10,8 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_EXECUTOR </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
 
-        <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
 
 		<Icon_Name>i_button_EV_ExecutorStarDestroyer.tga</Icon_Name>
 
@@ -133,8 +132,6 @@
 			HP_EXECUTOR_FIGHTER_BAY_00
 		</HardPoints>
 
-
-
 		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
@@ -143,11 +140,11 @@
 		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
-        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
@@ -193,29 +190,30 @@
 		<Space_Override_Population_Value>3</Space_Override_Population_Value>
 
 		<!-- Non-Hero unit abilities description -->
-	   <Unit_Abilities_Data SubObjectList="Yes">
-	      <!-- Primary ability -->
-	      <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
 				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-	      <Unit_Ability>
-                <Type>DEPLOY_SQUAD</Type>
-	            <Recharge_Seconds>5</Recharge_Seconds>
-	            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Deploy_Squad_Vader_Executor </SFXEvent_GUI_Unit_Ability_Activated>
-          </Unit_Ability>
-	   </Unit_Abilities_Data>
+			</Unit_Ability>
 
-	   <Abilities SubObjectList="Yes">
-	      <Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+			<Unit_Ability>
+				<Type>DEPLOY_SQUAD</Type>
+				<Recharge_Seconds>5</Recharge_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Deploy_Squad_Vader_Executor </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 
 				<Excluded_Unit_Types>
 					Buzz_Droids,
@@ -254,14 +252,14 @@
 					Skirmish_Hutt_Asteroid_Base
 				</Excluded_Unit_Types>
 
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>2000</Activation_Max_Range>
+				<Activation_Min_Range>10</Activation_Min_Range>
+				<Activation_Max_Range>2000</Activation_Max_Range>
 
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>
-	      </Tractor_Beam_Attack_Ability>
-	   </Abilities>
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Tractor_Beam_Attack_Ability>
+		</Abilities>
 
 		<Score_Cost_Credits> 100000</Score_Cost_Credits>
 
@@ -292,7 +290,6 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Executor_Super_Star_Destroyer_No_Tractor_Beam">
-
 		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
 
 		<HardPoints>
@@ -326,7 +323,5 @@
 			HP_EXECUTOR_ENGINES_01,
 			HP_EXECUTOR_FIGHTER_BAY_00
 		</HardPoints>
-
 	</UniqueUnit>
-
 </Executor_Files>

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <GroundBuildables>
-
 	<GroundBuildable Name="Skirmish_Build_Pad">
 		<Behavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT </Behavior>
 
@@ -120,7 +119,7 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
 		<Immune_To_Damage>True</Immune_To_Damage>
-      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 
 	</GroundBuildable>
 
@@ -231,7 +230,6 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
-
 <!--************************************************************************************************************-->
 
 	<GroundBuildable Name="Skirmish_Build_Pad_Bacta">
@@ -296,8 +294,6 @@
 				UC_Underworld_Buildable_Mass_Driver_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
-
-
 
 
 
@@ -403,8 +399,8 @@
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-	    <Tactical_Health>800</Tactical_Health>
-	    <Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		 <Tactical_Health>800</Tactical_Health>
+		 <Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00, TEXT_ENCYCLOPEDIA_POWER_GENERATOR_01  </Encyclopedia_Text>
@@ -415,7 +411,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</SpecialStructure>
 
-<GroundBuildable Name="Power_Generator_E_Build_Pad">
+	<GroundBuildable Name="Power_Generator_E_Build_Pad">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -580,8 +576,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
@@ -645,8 +641,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -706,7 +702,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
@@ -789,8 +785,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Affiliation>Rebel</Affiliation>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
@@ -814,7 +810,7 @@
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED, BASE_SHIELD</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Base_Shield_Always_Off> True </Base_Shield_Always_Off>
-      <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<Victory_Relevant>No</Victory_Relevant>
 		<Obstacle_Proxy_Type> R_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
@@ -850,8 +846,8 @@
 		<Fine_Tune_Occupied_Passability> false </Fine_Tune_Occupied_Passability>
 
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
@@ -875,8 +871,8 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-	    <Tactical_Health>650</Tactical_Health>
-	    <Tactical_Build_Cost_Multiplayer> 1700 </Tactical_Build_Cost_Multiplayer>
+		 <Tactical_Health>650</Tactical_Health>
+		 <Tactical_Build_Cost_Multiplayer> 1700 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -893,7 +889,7 @@
 		<Tactical_Build_Cost_Multiplayer> 1900 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
 
-        <SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
+		  <SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 	</GroundBuildable>
@@ -952,8 +948,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -1019,7 +1015,7 @@
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED, BASE_SHIELD</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Base_Shield_Always_Off> True </Base_Shield_Always_Off>
-      <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Obstacle_Proxy_Type> N_Small_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Tactical_Buildable_Constructed> E_Ground_Base_Shield_Small </Tactical_Buildable_Constructed>
@@ -1051,8 +1047,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
@@ -1079,8 +1075,8 @@
 		<Movie_Object>false</Movie_Object>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-	    <Tactical_Health>500</Tactical_Health>
-	    <Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
+		 <Tactical_Health>500</Tactical_Health>
+		 <Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -1127,8 +1123,8 @@
 		<Fine_Tune_Occupied_Passability> false </Fine_Tune_Occupied_Passability>
 
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+ 		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
@@ -1154,8 +1150,8 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-	    <Tactical_Health>500</Tactical_Health>
-	    <Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
+		 <Tactical_Health>500</Tactical_Health>
+		 <Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -1170,10 +1166,10 @@
 		<Tactical_Buildable_Constructed> U_Ground_Base_Shield_Small </Tactical_Buildable_Constructed>
 		<Tech_Level>0</Tech_Level>
 		<Tactical_Health>500</Tactical_Health>
-	    <Tactical_Build_Cost_Multiplayer> 1500 </Tactical_Build_Cost_Multiplayer>
+		 <Tactical_Build_Cost_Multiplayer> 1500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
 
- 		<SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 	</GroundBuildable>
@@ -1646,7 +1642,7 @@
 		<Victory_Relevant>No</Victory_Relevant>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-        <SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		  <SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 
@@ -1961,7 +1957,7 @@
 		<Tactical_Build_Cost_Multiplayer> 1600 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 
-        <SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		  <SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Special_Weapon_Ready>UHD_Turbo_Tower_Available</SFXEvent_Special_Weapon_Ready>
@@ -2972,7 +2968,7 @@
 		<Variant_Of_Existing_Type>Ground_Cantina_E</Variant_Of_Existing_Type>
 		<Behavior>REVEAL, CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		  <Ownership_Sticks>Yes</Ownership_Sticks>
 		<Capture_Point_Transition_Time_Seconds>5</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>200</Capture_Point_Radius>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -2999,11 +2995,11 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-       	<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 
-        <Is_Community_Property>Yes</Is_Community_Property>
+		  <Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -3295,7 +3291,7 @@
 
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
- 		<Immune_To_Damage>True</Immune_To_Damage>
+		<Immune_To_Damage>True</Immune_To_Damage>
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Communications_Array_E">
@@ -3357,7 +3353,7 @@
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-   </GroundBuildable>
+	</GroundBuildable>
 
 	<GroundBuildable Name="Communications_Array_R_Build_Pad">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
@@ -3403,12 +3399,12 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
- 		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
 
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Immune_To_Damage>True</Immune_To_Damage>
-	 </GroundBuildable>
+	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Communications_Array_R">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
@@ -3461,15 +3457,15 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_REBEL_PAD_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 
- 		<Tactical_Health>350</Tactical_Health>
+		<Tactical_Health>350</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-   </GroundBuildable>
+	</GroundBuildable>
 
 <!--************************************************************************************************************-->
 
@@ -3519,14 +3515,14 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
- 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
 
- 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
 
-   </GroundBuildable>
+	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Imperial_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -3585,16 +3581,16 @@
 		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_EMPIRE_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 
- 		<Tactical_Health>2800</Tactical_Health>
+		<Tactical_Health>2800</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 2400 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 50 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
-   </GroundBuildable>
+	</GroundBuildable>
 
 	<GroundBuildable Name="Rebel_Command_Center_Build_Pad">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -3646,8 +3642,8 @@
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
- 		<Immune_To_Damage>True</Immune_To_Damage>
-  </GroundBuildable>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Rebel_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -3714,8 +3710,7 @@
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-   </GroundBuildable>
-
+	</GroundBuildable>
 
 <!--************************************************************************************************************-->
 
@@ -3782,6 +3777,7 @@
 		<Immune_To_Damage>True</Immune_To_Damage>
 	</GroundBuildable>
 
+
 	<GroundBuildable Name="UC_Empire_Mineral_Processor">
 		<Text_ID> TEXT_STRUCTURE_NEUTRAL_RESOURCE_PAD </Text_ID>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, SELECTABLE</Behavior>
@@ -3836,17 +3832,16 @@
 		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_EMPTY_00  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_EMPTY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 
- 		<Tactical_Health>250</Tactical_Health>
- 		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Health>250</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
-   </GroundBuildable>
-
+	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Rebel_Mineral_Processor">
 		<Select_Box_Scale>100</Select_Box_Scale>
@@ -3905,15 +3900,30 @@
 		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_EMPTY_00  </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_EMPTY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
- 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 
- 		<Tactical_Health>250</Tactical_Health>
- 		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Health>250</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-   </GroundBuildable>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Underworld_Mineral_Processor">
+		<Variant_Of_Existing_Type>UC_Rebel_Mineral_Processor</Variant_Of_Existing_Type>
+		<Affiliation>Underworld</Affiliation>
+		<Text_ID> TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD </Text_ID>
+		<Tactical_Buildable_Constructed> Underworld_Mineral_Processor </Tactical_Buildable_Constructed>
+		<Tactical_Health>250</Tactical_Health>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+	</GroundBuildable>
+
 
 	<GroundBuildable Name="Empire_Mineral_Processor">
 		<Behavior> TACTICAL_SELL, SELECTABLE, IDLE, REVEAL, DAMAGE_TRACKING, UNIT_AI </Behavior>
@@ -4112,20 +4122,6 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 
-	<GroundBuildable Name="UC_Underworld_Mineral_Processor">
-		<Variant_Of_Existing_Type>UC_Rebel_Mineral_Processor</Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Text_ID> TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD </Text_ID>
-		<Tactical_Buildable_Constructed> Underworld_Mineral_Processor </Tactical_Buildable_Constructed>
-		<Tactical_Health>250</Tactical_Health>
- 		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
-
- 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundBuildable>
-
 	<GroundBuildable Name="Underworld_Mineral_Processor">
 		<Variant_Of_Existing_Type>Rebel_Mineral_Processor</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
@@ -4168,7 +4164,7 @@
 <!--*****************************************Underworld Build Pads**********************************************-->
 <!--************************************************************************************************************-->
 
-<GroundBuildable Name="U_Ground_Merc_Outpost_Build_Pad">
+	<GroundBuildable Name="U_Ground_Merc_Outpost_Build_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -4331,8 +4327,8 @@
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
- 		<Immune_To_Damage>True</Immune_To_Damage>
-  </GroundBuildable>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Underworld_Palace">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -4398,10 +4394,10 @@
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-   </GroundBuildable>
+	</GroundBuildable>
 
 
-   <GroundBuildable Name="U_Ground_Droid_Works_Build_Pad">
+	<GroundBuildable Name="U_Ground_Droid_Works_Build_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -4699,7 +4695,7 @@
 
 <!--*****************************************Underworld Outpost Structures**********************************************-->
 
-<GroundBuildable Name="UC_Ground_Hutt_Palace_R">
+	<GroundBuildable Name="UC_Ground_Hutt_Palace_R">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
@@ -4767,8 +4763,6 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 
-
-
 	<GroundBuildable Name="UC_Ground_Hutt_Palace_E">
 		<Variant_Of_Existing_Type>UC_Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
@@ -4802,6 +4796,7 @@
 		<Tactical_Build_Time_Seconds> 17 </Tactical_Build_Time_Seconds>
 
 	</GroundBuildable>
+
 
 	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_R">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
@@ -4872,7 +4867,7 @@
 
 <!--***************************************************************************************-->
 
-<GroundBuildable Name="UC_Ground_Magnepulse_Cannon_E">
+	<GroundBuildable Name="UC_Ground_Magnepulse_Cannon_E">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
@@ -4942,7 +4937,6 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 
-
 	<GroundBuildable Name="Skirmish_Ground_Magnepulse_Cannon_E">
 		<Variant_Of_Existing_Type>Ground_Magnepulse_Cannon</Variant_Of_Existing_Type>
 		<Space_Layer> Land </Space_Layer>
@@ -4968,20 +4962,16 @@
 				<!-- Oksana: Make sure it matches this tag: <Projectile_Fire_Recharge_Seconds> or it will ASSERT-->
 				<Recharge_Seconds>30</Recharge_Seconds>
 
-	         <Area_Effect_Decal_Distance> 200.0 </Area_Effect_Decal_Distance>
+				<Area_Effect_Decal_Distance> 200.0 </Area_Effect_Decal_Distance>
 				<!--AJA - This broke the rendering code when I tried to enable it. <Effective_Radius>1500.0</Effective_Radius>-->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 	</GroundBuildable>
 
-
-
-
-
 <!--***************************************************************************************-->
 
-<GroundBuildable Name="UC_U_Ground_Gravity_Generator">
+	<GroundBuildable Name="UC_U_Ground_Gravity_Generator">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
@@ -5151,7 +5141,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-
 	<GroundBuildable Name="Skirmish_Ground_Gravity_Generator_U">
 		<Variant_Of_Existing_Type>U_Ground_Gravity_Generator</Variant_Of_Existing_Type>
 		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
@@ -5172,7 +5161,7 @@
 
 <!--***************************************************************************************-->
 
-<GroundBuildable Name="UC_R_Uplink_Station">
+	<GroundBuildable Name="UC_R_Uplink_Station">
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Obstacle_Proxy_Type> Skirmish_Outpost_Pad </Obstacle_Proxy_Type>
@@ -5274,15 +5263,15 @@
 
 <!--***************************************************************************************-->
 
-<GroundBuildable Name="Bunker_Pad">
+	<GroundBuildable Name="Bunker_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT</LandBehavior>
 		<Space_Layer> Land </Space_Layer>
-        <UnitCollisionClass> Vehicle </UnitCollisionClass>
-        <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
+		  <UnitCollisionClass> Vehicle </UnitCollisionClass>
+		  <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
+		  <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
 
 		<Minimum_Time_Before_Pad_Can_Build_Again> 20.0 </Minimum_Time_Before_Pad_Can_Build_Again>
 
@@ -5371,9 +5360,9 @@
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 
 		<Space_Layer> Land </Space_Layer>
-        <UnitCollisionClass> Vehicle </UnitCollisionClass>
-        <Custom_Hard_XExtent> 26.0</Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
+		  <UnitCollisionClass> Vehicle </UnitCollisionClass>
+		  <Custom_Hard_XExtent> 26.0</Custom_Hard_XExtent>
+		  <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -5447,6 +5436,4 @@
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
-
-
 </GroundBuildables>

@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 <Silri_Data>
-
-
-
-
-
-
 	<HeroUnit Name="Silri">
 		<LOD_Bias>5</LOD_Bias>
 		<GUI_Bounds_Scale>0.6</GUI_Bounds_Scale>
@@ -102,7 +96,7 @@
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -127,76 +121,74 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>SUMMON</Type>
 				<Recharge_Seconds>80.0</Recharge_Seconds>
-            <Area_Effect_Decal_Distance> 25.0 </Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name> Silri_Summon</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Area_Effect_Decal_Distance> 25.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name> Silri_Summon</GUI_Activated_Ability_Name>				<!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability> Unit_Summon_Silri </SFXEvent_Target_Ability>
 			</Unit_Ability>
 
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
 				<Recharge_Seconds>50.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Silri_Drain_Life </GUI_Activated_Ability_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes">
 
-            <Black_Market_Ability Name="Silri_Black_Market">
-                <Initially_Enabled>Yes</Initially_Enabled>
-                <Causes_Despawn>Yes</Causes_Despawn>
-                <Min_Respawn_Times>60.0, 60.0, 60.0, 60.0, 60.0</Min_Respawn_Times>
-                <Max_Respawn_Times>60.0, 60.0, 60.0, 60.0, 60.0</Max_Respawn_Times>
-                <Price_Modifier>.75</Price_Modifier>
-                <Tech_Level_Adjustment>0</Tech_Level_Adjustment>
-            </Black_Market_Ability>
+			<Black_Market_Ability Name="Silri_Black_Market">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Min_Respawn_Times>60.0, 60.0, 60.0, 60.0, 60.0</Min_Respawn_Times>
+				<Max_Respawn_Times>60.0, 60.0, 60.0, 60.0, 60.0</Max_Respawn_Times>
+				<Price_Modifier>.75</Price_Modifier>
+				<Tech_Level_Adjustment>0</Tech_Level_Adjustment>
+			</Black_Market_Ability>
 
-            <Summon_Ability Name="Silri_Summon">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>30.0</Activation_Min_Range>
-   				<Activation_Max_Range>70.0</Activation_Max_Range>
-                <Object_Type>Cuddles_The_Rancor</Object_Type>
-                <SFXEvent_Unit_Summoned>Unit_Force_Summon</SFXEvent_Unit_Summoned>
-                <Creation_Delay_In_Seconds>3.5</Creation_Delay_In_Seconds>
-                <Target_Particle_Effect>Summon_Effect</Target_Particle_Effect>
-            </Summon_Ability>
+			<Summon_Ability Name="Silri_Summon">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>30.0</Activation_Min_Range>
+				<Activation_Max_Range>70.0</Activation_Max_Range>
+				<Object_Type>Cuddles_The_Rancor</Object_Type>
+				<SFXEvent_Unit_Summoned>Unit_Force_Summon</SFXEvent_Unit_Summoned>
+				<Creation_Delay_In_Seconds>3.5</Creation_Delay_In_Seconds>
+				<Target_Particle_Effect>Summon_Effect</Target_Particle_Effect>
+			</Summon_Ability>
 
-            <Force_Confuse_Ability Name="Silri_Confuse">
-               <Activation_Style> User_Input </Activation_Style>
-   				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
-   				<Activation_Min_Range>0.0</Activation_Min_Range>
-   				<Activation_Max_Range>100.0</Activation_Max_Range>
-   				<Confuse_Time_In_Secs>10.0</Confuse_Time_In_Secs>
-   				<Confuse_Range>100.0</Confuse_Range>
-   				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
-   				<Confuse_Travel_Time_In_Secs>1.0</Confuse_Travel_Time_In_Secs>
-                <Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
-   				<!-- We only consider the following unit types "valid targets": -->
-   				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-   				<Applicable_Unit_Types />
-   				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
-   				<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>
-   				<Owner_Particle_Bone_Name />
-   				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-   				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
-   				<Owner_Light_Effect_Color2 />
-   				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-   				<Owner_Light_Effect_Pulse_Count />
-   			</Force_Confuse_Ability>
+			<Force_Confuse_Ability Name="Silri_Confuse">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Confuse_Time_In_Secs>10.0</Confuse_Time_In_Secs>
+				<Confuse_Range>100.0</Confuse_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Confuse_Travel_Time_In_Secs>1.0</Confuse_Travel_Time_In_Secs>
+				<Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
+				<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name />
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Force_Confuse_Ability>
 
-            <Galactic_Stealth_Ability Name="Silri_Galactic_Stealth">
+			<Galactic_Stealth_Ability Name="Silri_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
 
-            <Drain_Life_Ability Name="Silri_Drain_Life">
-                <Activation_Style> User_Input </Activation_Style>
-                <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
-                <Applicable_Unit_Types />
+			<Drain_Life_Ability Name="Silri_Drain_Life">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
 
 				<Excluded_Unit_Types>
 					Droid_R2D2,
@@ -210,18 +202,18 @@
 					Proximity_Mine
 				</Excluded_Unit_Types>
 
-                <Duration_In_Seconds>5</Duration_In_Seconds>
-                <Damage_Per_Second>30</Damage_Per_Second>
-                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
-                <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
-                <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
-                <Drain_Radius> 100.0 </Drain_Radius>
-                <SFXEvent_Activate>Unit_Drain_Life_Silri</SFXEvent_Activate>
-                <SFXEvent_Target_Affected>Unit_Force_Lightning</SFXEvent_Target_Affected>
-                <Should_Heal>Yes</Should_Heal>
-            </Drain_Life_Ability>
+				<Duration_In_Seconds>5</Duration_In_Seconds>
+				<Damage_Per_Second>30</Damage_Per_Second>
+				<Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
+				<Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+				<Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+				<Drain_Radius> 100.0 </Drain_Radius>
+				<SFXEvent_Activate>Unit_Drain_Life_Silri</SFXEvent_Activate>
+				<SFXEvent_Target_Affected>Unit_Force_Lightning</SFXEvent_Target_Affected>
+				<Should_Heal>Yes</Should_Heal>
+			</Drain_Life_Ability>
 
-        </Abilities>
+		</Abilities>
 
 	</HeroUnit>
 
@@ -316,13 +308,13 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Lua_Script>ObjectScript_Silri</Lua_Script>
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- CHange back to no after focus -->
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>		<!-- CHange back to no after focus -->
 
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -395,7 +387,7 @@
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
-		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		<Unit_Abilities_Data SubObjectList="Yes"></Unit_Abilities_Data>
 
 		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -408,7 +400,7 @@
 
 
 
-<!-- Silri's Rancor Mount -->
+	<!-- Silri's Rancor Mount -->
 
 
 
@@ -504,12 +496,12 @@
 		<Death_Clone>Damage_Normal, Cuddles_The_Rancor_Death_Clone_00</Death_Clone>
 		<Death_Clone>Damage_Normal, Cuddles_The_Rancor_Death_Clone_01</Death_Clone>
 
-        <Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
-        <Dynamic_Transform_Start_Scale>.01</Dynamic_Transform_Start_Scale>
-        <Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
-        <Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
-        <Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
-        <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
+		<Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
+		<Dynamic_Transform_Start_Scale>.01</Dynamic_Transform_Start_Scale>
+		<Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
+		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
+		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
+		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
 
 		<Abilities SubObjectList="Yes">
 
@@ -552,7 +544,7 @@
 					Cuddles_The_Rancor
 				</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
-                <Health_Per_Victim>40</Health_Per_Victim>
+				<Health_Per_Victim>40</Health_Per_Victim>
 			</Eat_Attack_Ability>
 
 			<Arc_Sweep_Attack_Ability Name="Cuddles_Rancor_Swat_Infantry_Left">
@@ -564,7 +556,7 @@
 				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
 				<Attack_Animation>ATTACK</Attack_Animation>
 				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
-				<Attack_Animation_Subindex>0</Attack_Animation_Subindex>	<!-- right-to-left sweep -->
+				<Attack_Animation_Subindex>0</Attack_Animation_Subindex>				<!-- right-to-left sweep -->
 				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
 				<Arc_Min_Range>10.0</Arc_Min_Range>
 				<Arc_Max_Range>25.0</Arc_Max_Range>
@@ -572,7 +564,7 @@
 				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
 				<Apply_Damage_Right_To_Left>Yes</Apply_Damage_Right_To_Left>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
 
@@ -585,7 +577,7 @@
 				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
 				<Attack_Animation>ATTACK</Attack_Animation>
 				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
-				<Attack_Animation_Subindex>1</Attack_Animation_Subindex>	<!-- left-to-right sweep -->
+				<Attack_Animation_Subindex>1</Attack_Animation_Subindex>				<!-- left-to-right sweep -->
 				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
 				<Arc_Min_Range>10.0</Arc_Min_Range>
 				<Arc_Max_Range>25.0</Arc_Max_Range>
@@ -593,7 +585,7 @@
 				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
 				<Apply_Damage_Right_To_Left>No</Apply_Damage_Right_To_Left>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
 
@@ -615,12 +607,12 @@
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 
-        <Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
-        <Dynamic_Transform_Start_Scale>.8</Dynamic_Transform_Start_Scale>
-        <Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
-        <Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
-        <Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
-        <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
+		<Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
+		<Dynamic_Transform_Start_Scale>.8</Dynamic_Transform_Start_Scale>
+		<Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
+		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
+		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
+		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
 	</HeroUnit>
 
 	<HeroUnit Name="Cuddles_The_Rancor_Death_Clone_01">
@@ -637,12 +629,12 @@
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 
-        <Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
-        <Dynamic_Transform_Start_Scale>.8</Dynamic_Transform_Start_Scale>
-        <Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
-        <Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
-        <Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
-        <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
+		<Dynamic_Transform_Delay_Seconds>0</Dynamic_Transform_Delay_Seconds>
+		<Dynamic_Transform_Start_Scale>.8</Dynamic_Transform_Start_Scale>
+		<Dynamic_Transform_End_Scale>.8</Dynamic_Transform_End_Scale>
+		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
+		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
+		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
 	</HeroUnit>
 
 

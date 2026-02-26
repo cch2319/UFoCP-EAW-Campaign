@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <Planets>
-
 	<Planet Name="Galaxy_Core_Art_Model">
 		<Text_ID />
 		<Galactic_Model_Name>w_galaxy00.alo</Galactic_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -23,77 +22,73 @@
 		<Max_Space_Base>0</Max_Space_Base>
 	</Planet>
 
+	<!--
+		NOTE: Planet Capture Bonus = (Max_Ground_Base + Max_Space_Base) x 2000
 
-<!--
+		To that number add the following bonuses for planet type:
 
-NOTE: Planet Capture Bonus = (Max_Ground_Base + Max_Space_Base) x 2000
-
-To that number add the following bonuses for planet type:
-
-	Desert/Barren		-3000
-	Arctic				-2000
-	Swamp				-1000
-	Gas Giant				0
-	Ocean					0
-	Volcanic			+1000
-	Forest				+2000
-	Temperate			+3000
-	Urban				+4000
+			Desert/Barren		-3000
+			Arctic				-2000
+			Swamp				-1000
+			Gas Giant				0
+			Ocean					0
+			Volcanic			+1000
+			Forest				+2000
+			Temperate			+3000
+			Urban				+4000
 
 
-Slice Difficulty Rating
+		Slice Difficulty Rating
 
-This rating is a measurement of the law-level of a planet.  This can include Imperial control, but
-can also include the indigenous forces and their ability (or willingness) to root out theft
-and lawlessness.  The number after the rating is used for the Underworld Black Market modifier.
+		This rating is a measurement of the law-level of a planet.  This can include Imperial control, but
+		can also include the indigenous forces and their ability (or willingness) to root out theft
+		and lawlessness.  The number after the rating is used for the Underworld Black Market modifier.
 
-	0	=	Incredibly Easy		(0)
-	1	=	Easy				(+200)
-	2	=	Average				(+400)
-	3	=	Somewhat Difficult	(+600)
-	4	=	Difficult			(+800)
-	5	=	Next to Impossible	(+1000)
+			0	=	Incredibly Easy		(0)
+			1	=	Easy				(+200)
+			2	=	Average				(+400)
+			3	=	Somewhat Difficult	(+600)
+			4	=	Difficult			(+800)
+			5	=	Next to Impossible	(+1000)
 
-Slicing Tech Availability Rating
+		Slicing Tech Availability Rating
 
-This is a measurement of how much tech is available on the planet in question; generally a rating
-of the technological advancement level of the indigenous species.  A sample planet is included for
-a guide.  The number after the rating is used for the Underworld Black Market modifier.
+		This is a measurement of how much tech is available on the planet in question; generally a rating
+		of the technological advancement level of the indigenous species.  A sample planet is included for
+		a guide.  The number after the rating is used for the Underworld Black Market modifier.
 
-	0	=	No Tech, Primitive Culture (Ewoks on Endor)					(+500)
-	1	=	Low Tech, Colonists with little access (Gamorr)				(+400)
-	2	=	Back-Water, Little access to high tech (Tatooine)			(+300)
-	3	=	Average, Average citizens of the galaxy (Alderaan)			(+100)
-	4	=	Semi-Urban, Large population with plentifiul Tech (Sullust)	(0)
-	5	=	Megalopolis, Huge urban and industrial centers (Coruscant)	(-200)
-
-
-Black Market Modifier
-
-This modifier adds or subtracts from the base cost of items on the Underworld Black Market menu. It
-is a sum of the two ratings in the above tech measurements.  It can also be further modified per planet
-for special circumstances (such as the unlikelihood of finding a black market in The Maw).
+			0	=	No Tech, Primitive Culture (Ewoks on Endor)					(+500)
+			1	=	Low Tech, Colonists with little access (Gamorr)				(+400)
+			2	=	Back-Water, Little access to high tech (Tatooine)			(+300)
+			3	=	Average, Average citizens of the galaxy (Alderaan)			(+100)
+			4	=	Semi-Urban, Large population with plentifiul Tech (Sullust)	(0)
+			5	=	Megalopolis, Huge urban and industrial centers (Coruscant)	(-200)
 
 
-Corruption Type Values
+		Black Market Modifier
 
-Supported planetary corruption types can be one of the following values:
-	* Corruption_Intimidation
-	* Corruption_Piracy
-	* Corruption_Kidnapping
-	* Corruption_Racketeering
-	* Corruption_Corrupt_Militia
-	* Corruption_Bribery
-	* Corruption_Black_Market
-	* Corruption_Bonded_Citizens
+		This modifier adds or subtracts from the base cost of items on the Underworld Black Market menu. It
+		is a sum of the two ratings in the above tech measurements.  It can also be further modified per planet
+		for special circumstances (such as the unlikelihood of finding a black market in The Maw).
 
-A tactical battle will be launched if the corruption choice has valid entries for:
-	<Corruption_X_Tactical_Game_Mode> and <Corruption_X_Tactical_Map_Name>
 
--->
+		Corruption Type Values
 
+		Supported planetary corruption types can be one of the following values:
+			* Corruption_Intimidation
+			* Corruption_Piracy
+			* Corruption_Kidnapping
+			* Corruption_Racketeering
+			* Corruption_Corrupt_Militia
+			* Corruption_Bribery
+			* Corruption_Black_Market
+			* Corruption_Bonded_Citizens
+
+		A tactical battle will be launched if the corruption choice has valid entries for:
+			<Corruption_X_Tactical_Game_Mode> and <Corruption_X_Tactical_Map_Name>
+	-->
 	<Planet Name="Abregado_Rae">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ABREGADORAE</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -127,7 +122,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ABREGADORAE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ABREGADORAE_INFO_WL</Describe_Wildlife>
@@ -173,13 +168,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ABREGADORAE_STORY_BRIBERY</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="AetenII">
- 		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_AETENII</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -212,7 +206,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
 		<Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-        <Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_AETENII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_AETENII_INFO_WL</Describe_Wildlife>
@@ -260,11 +254,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_RACKETEER</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Alderaan">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -325,11 +318,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Land_Upgrade_Type> RL_Combat_Armor_L1_Upgrade </Land_Upgrade_Type>
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
-
 	</Planet>
 
 	<Planet Name="Alderaan_Expansion">
- 		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -367,7 +359,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Planet_Starbase_Stealth>Yes</Planet_Starbase_Stealth>
 
@@ -392,11 +384,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>3</Additional_Population_Capacity>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="AlzocIII">
- 		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALZOCIII</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -431,7 +422,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
 		<Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ALZOCIII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ALZOCIII_INFO_WL</Describe_Wildlife>
@@ -477,13 +468,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Anaxes">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ANAXES</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -515,7 +505,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Shutter_Shield</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ANAXES_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ANAXES_INFO_WL</Describe_Wildlife>
@@ -583,13 +573,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ANAXES_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Atzerri">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ATZERRI</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -622,7 +611,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Ground_Light_Vehicle_Factory</Planet_Slice_Affinity_Types>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-        <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ATZERRI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ATZERRI_INFO_WL</Describe_Wildlife>
@@ -674,13 +663,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Bespin">
- 		<Zoomed_Terrain_Index>11</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>11</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESPIN</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Gas01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -712,7 +700,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BESPIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESPIN_INFO_WL</Describe_Wildlife>
@@ -768,13 +756,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESPIN_STORY_RACKETEER</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Bespin_Story">
- 		<Zoomed_Terrain_Index>11</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>11</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESPIN</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Gas01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -806,7 +793,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BESPIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESPIN_INFO_WL</Describe_Wildlife>
@@ -860,13 +847,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> BESPIN_RKT_VICTORY_COR06_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESPIN_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-
 	</Planet>
 
 	<Planet Name="Bestine">
- 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESTINE</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -898,7 +884,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BESTINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESTINE_INFO_WL</Describe_Wildlife>
@@ -956,13 +942,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
-
 	</Planet>
 
 	<Planet Name="Bonadan">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BONADAN</Text_ID>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_bonadan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -993,7 +978,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BONADAN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BONADAN_INFO_WL</Describe_Wildlife>
@@ -1044,16 +1029,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_BONADAN_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Bothawui">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BOTHAWUI</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1081,7 +1065,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
 
 		<Potential_Indigenous_Power>Bothan_Civilian, 150</Potential_Indigenous_Power>
 
@@ -1167,16 +1151,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_BOTHAWUI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Byss">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BYSS</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1204,7 +1187,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, Rebel_Orbital_Long_Range_Scanner, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>2000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>2000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BYSS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BYSS_INFO_WL</Describe_Wildlife>
@@ -1259,16 +1242,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BYSS_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Carida">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CARIDA</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1297,7 +1279,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CARIDA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CARIDA_INFO_WL</Describe_Wildlife>
@@ -1365,16 +1347,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Corellia">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORELLIA</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1402,7 +1383,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CORELLIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORELLIA_INFO_WL</Describe_Wildlife>
@@ -1461,16 +1442,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Corulag">
- 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORULAG</Text_ID>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1498,7 +1478,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CORULAG_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORULAG_INFO_WL</Describe_Wildlife>
@@ -1559,16 +1539,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_CORULAG_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Coruscant">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
 		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1596,7 +1575,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CORUSCANT_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORUSCANT_INFO_WL</Describe_Wildlife>
@@ -1638,12 +1617,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_CORUSCANT_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Dathomir"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_DATHOMIR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1678,7 +1656,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DATHOMIR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DATHOMIR_INFO_WL</Describe_Wildlife>
@@ -1701,7 +1679,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
 		<!-- unlock witches of Dathomir for underworld -->
-		<Abilities SubObjectList="Yes">	</Abilities>
+		<Abilities SubObjectList="Yes"> </Abilities>
 
 		<Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
 		<Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
@@ -1732,17 +1710,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing> TEXT_CORRUPTION_DATHOMIR_STORY_RACKETEER </Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Dagobah">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_DAGOBAH</Text_ID>
 		<Galactic_Model_Name>W_planet_dagobah_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1770,7 +1747,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DAGOBAH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DAGOBAH_INFO_WL</Describe_Wildlife>
@@ -1802,16 +1779,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_DAGOBAH_STORY_RACKETEER </Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Dantooine">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_DANTOOINE</Text_ID>
 		<Galactic_Model_Name>W_planet_Dantooine01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Dantooine01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -1840,7 +1816,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DANTOOINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DANTOOINE_INFO_WL</Describe_Wildlife>
@@ -1887,17 +1863,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_DANTOOINE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Endor">
- 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ENDOR</Text_ID>
 		<Galactic_Model_Name>W_planet_endor_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.3</Scale_Factor>
@@ -1925,7 +1900,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ENDOR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ENDOR_INFO_WL</Describe_Wildlife>
@@ -1966,16 +1941,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Unlock_Unit_Type>Underworld_Ewok_Handler_Company</Corruption_1_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Eriadu">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ERIADU</Text_ID>
 		<Galactic_Model_Name>W_planet_eriadu_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2004,7 +1978,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>200</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ERIADU_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ERIADU_INFO_WL</Describe_Wildlife>
@@ -2058,12 +2032,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_ERIADU_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Felucia"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>12</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>12</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FELUCIA</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2097,7 +2070,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_FELUCIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FELUCIA_INFO_WL</Describe_Wildlife>
@@ -2148,17 +2121,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_FELUCIA_STORY_BRIBERY </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Fondor">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FONDOR</Text_ID>
 		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2186,7 +2158,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_FONDOR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FONDOR_INFO_WL</Describe_Wildlife>
@@ -2247,16 +2219,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_FONDOR_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Fresia">
- 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FRESIA</Text_ID>
 		<Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2285,7 +2256,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_FRESIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FRESIA_INFO_WL</Describe_Wildlife>
@@ -2339,16 +2310,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_FRESIA_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Geonosis">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_GEONOSIS</Text_ID>
 		<Galactic_Model_Name>W_planet_geonosis_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2376,7 +2346,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility, R_Ground_Heavy_Vehicle_Factory, R_Ground_Light_Vehicle_Factory, Rebel_Heavy_Tank_Brigade</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_GEONOSIS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_GEONOSIS_INFO_WL</Describe_Wildlife>
@@ -2433,12 +2403,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Geonosian_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Honoghr"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_HONOGHR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2472,7 +2441,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HONOGHR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HONOGHR_INFO_WL</Describe_Wildlife>
@@ -2529,12 +2498,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_HONOGHR_STORY_RACKETEER</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Honoghr_Story"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_HONOGHR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2568,7 +2536,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HONOGHR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HONOGHR_INFO_WL</Describe_Wildlife>
@@ -2625,12 +2593,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 
 	<Planet Name="Hoth">
- 		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_HOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -2659,7 +2627,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HOTH_INFO_WL</Describe_Wildlife>
@@ -2693,12 +2661,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HOTH_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Hypori"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_HYPORI</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2732,7 +2699,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>-300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HYPORI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HYPORI_INFO_WL</Describe_Wildlife>
@@ -2774,17 +2741,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_HYPORI_STORY_BLACKMARKET </Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Ilum">
- 		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ILUM</Text_ID>
 		<Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2812,7 +2778,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ILUM_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ILUM_INFO_WL</Describe_Wildlife>
@@ -2853,17 +2819,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ILUM_STORY_BRIBERY</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Jabiim">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_JABIIM</Text_ID>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -2892,43 +2857,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Planet_Restricted_Unit_Categories />
 
-		<Planet_Restricted_Unit_Types>
-			Imperial_Armor_Group,
-			Imperial_Light_Scout_Squad,
-			Lancet_Air_Wing,
-			Empire_MDU_Company,
-
-			M1_Repulsor_Tank,
-			Scout_Trooper,
-			Lancet_Air_Artillery,
-			Empire_Mobile_Defense_Unit,
-
-			Rebel_Light_Tank_Brigade,
-			Rebel_Speeder_Wing,
-			Gallofree_HTT_Company,
-			Rebel_MDU_Company,
-
-			T2B_Tank,
-			Snowspeeder,
-			Gallofree_HTT_Transport,
-			Rebel_Mobile_Defense_Unit,
-
-			F9TZ_Cloaking_Transport_Company,
-			MAL_Rocket_Vehicle_Company,
-			Canderous_Assault_Tank_Company,
-			Underworld_MDU_Company,
-
-			F9TZ_Cloaking_Transport,
-			MAL_Rocket_Vehicle,
-			Canderous_Assault_Tank,
-			Underworld_Mobile_Defense_Unit,
-
-			Skiff,
-		</Planet_Restricted_Unit_Types>
+		<Planet_Restricted_Unit_Types> Imperial_Armor_Group, Imperial_Light_Scout_Squad, Lancet_Air_Wing, Empire_MDU_Company, M1_Repulsor_Tank, Scout_Trooper, Lancet_Air_Artillery, Empire_Mobile_Defense_Unit, Rebel_Light_Tank_Brigade, Rebel_Speeder_Wing, Gallofree_HTT_Company, Rebel_MDU_Company, T2B_Tank, Snowspeeder, Gallofree_HTT_Transport, Rebel_Mobile_Defense_Unit, F9TZ_Cloaking_Transport_Company, MAL_Rocket_Vehicle_Company, Canderous_Assault_Tank_Company, Underworld_MDU_Company, F9TZ_Cloaking_Transport, MAL_Rocket_Vehicle, Canderous_Assault_Tank, Underworld_Mobile_Defense_Unit, Skiff, </Planet_Restricted_Unit_Types>
 
 		<Describe_Population>TEXT_PLANET_JABIIM_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_JABIIM_INFO_WL</Describe_Wildlife>
@@ -2973,16 +2906,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Kamino">
- 		<Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
 		<Galactic_Model_Name>W_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3011,7 +2943,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KAMINO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KAMINO_INFO_WL_00</Describe_Wildlife>
@@ -3073,16 +3005,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KAMINO_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Kamino_Prologue">
- 		<Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
 		<Galactic_Model_Name>W_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3111,7 +3042,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KAMINO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KAMINO_INFO_WL_00</Describe_Wildlife>
@@ -3161,16 +3092,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> SHOLA_RKT_VICTORY_COR44_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_SHOLA_STORY_RACKETEER </Corruption_1_Mission_Briefing>
-
 	</Planet>
 
 	<Planet Name="Kashyyyk">
- 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KASHYYYK</Text_ID>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3199,7 +3129,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KASHYYYK_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KASHYYYK_INFO_WL</Describe_Wildlife>
@@ -3245,16 +3175,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Wookiee_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Kessel">
- 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KESSEL</Text_ID>
 		<Galactic_Model_Name>W_planet_Kessel_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Kessel_low.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3281,7 +3210,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KESSEL_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KESSEL_INFO_WL</Describe_Wildlife>
@@ -3329,16 +3258,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KESSEL_STORY_CORUPTMILITIA </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Korriban">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KORRIBAN</Text_ID>
 		<Galactic_Model_Name>W_planet_Korriban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Korriban01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.4</Scale_Factor>
@@ -3366,7 +3294,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_AETENII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KORRIBAN_INFO_WL</Describe_Wildlife>
@@ -3412,16 +3340,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_KORRIBAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Kuat">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KUAT</Text_ID>
 		<Galactic_Model_Name>W_planet_Kuat_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Kuat_low.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3451,7 +3378,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Calamari_Cruiser</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KUAT_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KUAT_INFO_WL</Describe_Wildlife>
@@ -3510,16 +3437,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KUAT_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Manaan">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANAAN</Text_ID>
 		<Galactic_Model_Name>W_planet_Kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3547,7 +3473,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANAAN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANAAN_INFO_WL</Describe_Wildlife>
@@ -3579,12 +3505,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MANAAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Mandalore"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3618,7 +3543,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -3677,13 +3602,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 
 	<Planet Name="Mandalore_Prologue"> <!-- Variant created for the Prologue -->
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3717,7 +3641,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -3758,7 +3682,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Tactical_Map_Name> _Space_Planet_Mandalore_Piracy_Prologue.ted </Corruption_1_Tactical_Map_Name>
 		<Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Mandalore_Piracy_Prologue.xml </Corruption_1_Tactical_Script_Name>
 		<Corruption_1_Mission_Commencing_Speech_Event>MANDALORE_STORY_PIR_LOAD_COR34_02</Corruption_1_Mission_Commencing_Speech_Event>
-		<Corruption_1_Success_Speech_Event>  </Corruption_1_Success_Speech_Event>
+		<Corruption_1_Success_Speech_Event> </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Tyber_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Failure_Speech_Event>MANDALORE_PIR_LOSS_COR34_07</Corruption_1_Failure_Speech_Event>
 		<Corruption_1_Failure_Bink_Hologram_Name>Tyber_Loop</Corruption_1_Failure_Bink_Hologram_Name>
@@ -3772,11 +3696,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> MANDALORE_BRB_VICTORY_COR34_08 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-
 	</Planet>
 
 	<Planet Name="Mandalore_Story"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3810,7 +3733,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -3865,16 +3788,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> MANDALORE_BRB_VICTORY_COR34_08 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-
 	</Planet>
 
 	<Planet Name="MonCalimari">
- 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MONCALAMARI</Text_ID>
 		<Galactic_Model_Name>W_planet_Moncalamari01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Moncalamari01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -3904,7 +3826,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Calamari_Cruiser</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MONCALAMARI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MONCALAMARI_INFO_WL</Describe_Wildlife>
@@ -3965,12 +3887,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_MONCALAMARI_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Mon_Calamari_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Mustafar"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -4004,7 +3925,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MUSTAFAR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MUSTAFAR_INFO_WL</Describe_Wildlife>
@@ -4027,7 +3948,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
 		<Abilities SubObjectList="Yes">
-		<!-- production time reduction capital ships -->
+			<!-- production time reduction capital ships -->
 			<Reduce_Production_Time_Ability Name="Mustafar_Capital_Ship_Production_Time_Reduction">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
@@ -4058,13 +3979,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUSTAFAR_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 
 	<Planet Name="Muunilinst"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUUNILINST</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -4098,7 +4018,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>1200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1200</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MUUNILINST_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MUUNILINST_INFO_WL</Describe_Wildlife>
@@ -4144,12 +4064,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUUNILINST_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Myrkr"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYRKR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -4183,7 +4102,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>-500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MYRKR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MYRKR_INFO_WL</Describe_Wildlife>
@@ -4218,18 +4137,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MYRKR_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 
 	<Planet Name="Naboo">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
 		<Galactic_Model_Name>W_planet_naboo_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -4258,7 +4176,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NABOO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NABOO_INFO_WL</Describe_Wildlife>
@@ -4316,16 +4234,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Gungan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="NalHutta">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -4355,7 +4272,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-        <Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -4420,16 +4337,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		</Abilities>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="NalHutta_Prologue">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -4459,7 +4375,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-        <Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -4487,7 +4403,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
 		<Corruption_1_Required_Mission_Type> Corruption_Piracy </Corruption_1_Required_Mission_Type>
 		<Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-		<Corruption_1_Success_Speech_Event>  </Corruption_1_Success_Speech_Event>
+		<Corruption_1_Success_Speech_Event> </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_BLACKMARKET</Corruption_1_Mission_Briefing>
 
@@ -4498,16 +4414,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> NALHUTTA_BRB_VICTORY_COR40_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-
 	</Planet>
 
 	<Planet Name="NalHutta_Tutorial_4">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -4556,17 +4471,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Native_Icon_Name>load_hutt.tga</Native_Icon_Name>
 
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
-
 	</Planet>
 
 
 	<Planet Name="NalHutta_Story">
- 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -4596,7 +4510,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-        <Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -4649,19 +4563,18 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Land_Upgrade_Type> NalHutta_Planetary_Advantage </Land_Upgrade_Type>
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
-
 	</Planet>
 
 
 
 	<Planet Name="Polus">
 		<Native_Icon_Name>load_snow.tga</Native_Icon_Name>
- 		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_POLUS</Text_ID>
 		<Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -4690,7 +4603,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POLUS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_POLUS_INFO_WL</Describe_Wildlife>
@@ -4741,16 +4654,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Ryloth">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -4779,7 +4691,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_RYLOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_RYLOTH_INFO_WL</Describe_Wildlife>
@@ -4830,17 +4742,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Twilek_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Ryloth_Prologue">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -4869,7 +4780,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_RYLOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_RYLOTH_INFO_WL</Describe_Wildlife>
@@ -4920,12 +4831,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Twilek_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Saleucami"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SALEUCAMI</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -4959,7 +4869,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SALEUCAMI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SALEUCAMI_INFO_WL</Describe_Wildlife>
@@ -5017,17 +4927,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="Shola">
- 		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SHOLA</Text_ID>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5057,7 +4966,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SHOLA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SHOLA_INFO_WL</Describe_Wildlife>
@@ -5090,16 +4999,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SHOLA_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Sullust">
- 		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SULLUST</Text_ID>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5129,7 +5037,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Corellian_Gunboat, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SULLUST_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SULLUST_INFO_WL</Describe_Wildlife>
@@ -5184,16 +5092,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Unlock_Unit_Type>Sullustan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Taris">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TARIS</Text_ID>
 		<Galactic_Model_Name>W_planet_taris01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_taris01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
@@ -5223,7 +5130,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, R_Orbital_Jamming_Station, Corellian_Gunboat, Calamari_Cruiser, Nebulon_B_Frigate, Rebel_Orbital_Long_Range_Scanner, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>-100</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-100</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TARIS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_TARIS_INFO_WL</Describe_Wildlife>
@@ -5283,16 +5190,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TARIS_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Tatooine">
- 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TATOOINE</Text_ID>
 		<Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5321,7 +5227,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TATOOINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_TATOOINE_INFO_WL</Describe_Wildlife>
@@ -5374,12 +5280,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TATOOINE_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="The_Maw"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_THEMAW</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -5416,7 +5321,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_THEMAW_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_THEMAW_INFO_WL</Describe_Wildlife>
@@ -5444,17 +5349,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
 			</Reduce_Technology_Price_Ability>
 		</Abilities>
-
 	</Planet>
 
 
 	<Planet Name="Thyferra">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_THYFERRA</Text_ID>
 		<Galactic_Model_Name>W_planet_thyferra01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_thyferra01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5483,7 +5387,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
-        <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_THYFERRA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_THYFERRA_INFO_WL</Describe_Wildlife>
@@ -5530,12 +5434,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> THYFERRA_RKT_VICTORY_COR48_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_THYFERRA_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-
 	</Planet>
 
 
 	<Planet Name="Utapau"> <!-- EXPANSION PLANET -->
- 		<Zoomed_Terrain_Index>10</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>10</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_UTAPAU</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -5570,7 +5473,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_UTAPAU_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_UTAPAU_INFO_WL</Describe_Wildlife>
@@ -5623,17 +5526,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 
 	<Planet Name="VergessoAsteroids">
- 		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_VERGESSO</Text_ID>
 		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5669,7 +5571,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-        <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_VERGESSO_INFO_WEA</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_VERGESSO_INFO_WEA</Describe_Wildlife>
@@ -5697,16 +5599,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Land_Upgrade_Type />
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
-
 	</Planet>
 
 	<Planet Name="Wayland">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_WAYLAND</Text_ID>
 		<Galactic_Model_Name>W_planet_wayland_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
@@ -5736,7 +5637,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-        <Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_WAYLAND_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_WAYLAND_INFO_WL</Describe_Wildlife>
@@ -5786,16 +5687,15 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_WAYLAND_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<Planet Name="Yavin">
- 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_YAVIN</Text_ID>
 		<Galactic_Model_Name>W_planet_yavinIV_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.3</Scale_Factor>
@@ -5825,7 +5725,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-        <Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_YAVIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_YAVIN_INFO_WL</Describe_Wildlife>
@@ -5877,16 +5777,5 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_YAVIN_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
-
-
-
-
-
-
-
-
-
-
 </Planets>

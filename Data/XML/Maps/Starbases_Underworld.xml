@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <StarBases>
-
-
-
-
 	<StarBase Name="Underworld_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
@@ -137,9 +133,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Underworld_Star_Base_2">
@@ -277,9 +270,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Underworld_Star_Base_3">
@@ -429,9 +419,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
 
 
 	<StarBase Name="Underworld_Star_Base_4">
@@ -595,10 +582,6 @@
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
-
-
-
-
 
 
 	<StarBase Name="Underworld_Star_Base_5">
@@ -1135,9 +1118,6 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
-
-
 	<StarBase Name="Skirmish_Underworld_Star_Base_5">
 		<Variant_Of_Existing_Type>Underworld_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
@@ -1251,8 +1231,4 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
-
-
-
-
 </StarBases>

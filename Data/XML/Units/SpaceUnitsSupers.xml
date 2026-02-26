@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <SpaceUnitsSupers>
 	<SpaceUnit Name="Death_Star">
 		<Text_ID>TEXT_UNIT_DEATH_STAR</Text_ID>
@@ -49,18 +49,23 @@
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Size_Value>200</Size_Value>
 		<Space_Escort_Unit_Types>
-				TIE_Scout_Squadron,
-				Tartan_Patrol_Cruiser,
-				Tartan_Patrol_Cruiser,
-				Victory_Destroyer,
-				Victory_Destroyer
+			TIE_Scout_Squadron,
+			Tartan_Patrol_Cruiser,
+			Tartan_Patrol_Cruiser,
+			Victory_Destroyer,
+			Victory_Destroyer
 		</Space_Escort_Unit_Types>
-		<Behavior> DUMMY_STARSHIP DUMMY_CANT_PATHFIND</Behavior>
+		<Behavior>
+			DUMMY_STARSHIP, DUMMY_CANT_PATHFIND
+		</Behavior>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<!-- Death Star needs IDLE so that it can play it's attack anim for some strange reason -->
 		<!-- The Death Star does not use SIMPLE_SPACE_LOCOMOTOR to move into range, but rather TACTICAL_SUPER_WEAPON. The SSL is required so Design cas override max speed through scripts -->
 		<!-- MBL 11.21.2005: Removing SIMPLE_SPACE_LOCOMOTOR so the AI does not mess with the Death Star. We'll give it it's own, inert locomotor data so the max speed override can still be done -->
-		<SpaceBehavior> TACTICAL_SUPER_WEAPON, IDLE </SpaceBehavior>
+		<SpaceBehavior>
+			TACTICAL_SUPER_WEAPON,
+			IDLE
+		</SpaceBehavior>
 		<In_Background>Yes</In_Background>
 		<!-- The SFXEvent for the Death Star firing it's super weapon -->
 		<SFXEvent_Fire> Unit_Superlaser_Fire </SFXEvent_Fire>
@@ -94,7 +99,9 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION</Encyclopedia_Unit_Class>
 		<Targeting_Max_Attack_Distance>20000.0</Targeting_Max_Attack_Distance>
-		<Unit_Abilities_Data SubObjectList="Yes"></Unit_Abilities_Data>
+
+		<Unit_Abilities_Data SubObjectList="Yes" />
+
 		<Abilities SubObjectList="Yes">
 			<Planet_Destruction_Ability Name="Death_Star_Planet_Destruction">
 				<Activation_Style>Ground_Activated</Activation_Style>
@@ -103,9 +110,10 @@
 				<Target_Particle_Bone_Name />
 			</Planet_Destruction_Ability>
 		</Abilities>
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>i_radar_death_star.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.2  0.2</Radar_Icon_Size>
+		<Radar_Icon_Size>0.2, 0.2</Radar_Icon_Size>
 		<Radar_Register_As_Foreground_Object>Yes</Radar_Register_As_Foreground_Object>
 		<Radar_Clip_To_Visible_Region>Yes</Radar_Clip_To_Visible_Region>
 		<Population_Value>15</Population_Value>
@@ -115,11 +123,7 @@
 		<Space_Override_Population_Value>0</Space_Override_Population_Value>
 	</SpaceUnit>
 
-
-
-
 	<SpaceUnit Name="Death_Star_II">
-
 		<Variant_Of_Existing_Type>Death_Star</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_DEATH_STAR_II</Text_ID>
@@ -128,31 +132,30 @@
 
 		<Tech_Level>5</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 
 		<Galactic_Fleet_Override_Icon_Index> 7 </Galactic_Fleet_Override_Icon_Index> <!-- Override for seeing DS icon as fleet icon in Galactic mode -->
 		<Radar_Icon_Name>i_radar_death_star_2.tga</Radar_Icon_Name>
 
 		<Space_Escort_Unit_Types>
-				TIE_Interceptor_Squadron,
-				TIE_Interceptor_Squadron,
-				TIE_Defender_Squadron,
-				Tartan_Patrol_Cruiser,
-				Tartan_Patrol_Cruiser,
-				Victory_Destroyer,
-				Victory_Destroyer,
-				Star_Destroyer
+			TIE_Interceptor_Squadron,
+			TIE_Interceptor_Squadron,
+			TIE_Defender_Squadron,
+			Tartan_Patrol_Cruiser,
+			Tartan_Patrol_Cruiser,
+			Victory_Destroyer,
+			Victory_Destroyer,
+			Star_Destroyer
 		</Space_Escort_Unit_Types>
 
 		<!-- DSII is tactically relevant above and beyond its escort (can fire laser at ships) -->
 		<AI_Combat_Power>3000</AI_Combat_Power>
 
 		<Behavior> DUMMY_STARSHIP </Behavior>
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<SpaceBehavior> TACTICAL_SUPER_WEAPON, IDLE, ABILITY_COUNTDOWN, TARGETING </SpaceBehavior>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>SUPER_LASER</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
@@ -162,11 +165,9 @@
 				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<Planet_Destruction_Ability Name="Death_Star_Planet_Destruction">
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<SFXEvent_Target_Affected>Planet_Death_SFX</SFXEvent_Target_Affected>
@@ -178,8 +179,8 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories> Capital | Frigate </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-                <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
-                <Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
+				<Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
 				<Activation_Min_Range>0</Activation_Min_Range>
 				<Activation_Max_Range>20000</Activation_Max_Range>
 
@@ -194,16 +195,9 @@
 				<Face_Target>true</Face_Target>
 				<Turn_Rate>-1.0f</Turn_Rate>
 				<Firing_Cone>10.0f</Firing_Cone>
-            <Fire_Delay>0</Fire_Delay>
-            <Fire_Continuation>0.01</Fire_Continuation>
+				<Fire_Delay>0</Fire_Delay>
+				<Fire_Continuation>0.01</Fire_Continuation>
 			</Super_Laser_Ability>
-
 		</Abilities>
-
 	</SpaceUnit>
-
-
-
-
-
 </SpaceUnitsSupers>

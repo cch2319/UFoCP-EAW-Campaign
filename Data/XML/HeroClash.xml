@@ -1,6 +1,5 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <Hero_Clashes>
-
 	<Hero_Clash Name="Vader_ObiWan">
 		<Clash_Type>Melee_Duel</Clash_Type>
 		<Involved_Hero_Types>Darth_Vader, Obi_Wan_Kenobi</Involved_Hero_Types>
@@ -33,7 +32,6 @@
 
 		<First_Hero_Win_Speech>Hero_Clash_Obiwan_Vader__Vader_Win</First_Hero_Win_Speech>
 		<Second_Hero_Win_Speech>Hero_Clash_Obiwan_Vader__Obiwan_Win</Second_Hero_Win_Speech>
-
 	</Hero_Clash>
 
 	<Hero_Clash Name="VaderExpansion_ObiWan">
@@ -68,14 +66,13 @@
 
 		<First_Hero_Win_Speech>Hero_Clash_Obiwan_Vader__Vader_Win</First_Hero_Win_Speech>
 		<Second_Hero_Win_Speech>Hero_Clash_Obiwan_Vader__Obiwan_Win</Second_Hero_Win_Speech>
-
 	</Hero_Clash>
 
 
-<!-- AM1994 07/17/2024 - Due to engine changes that broke these clashes, -->
-<!-- I'm hard disabling it just so it isn't processed and causing any    -->
-<!-- issues as apart of commit 9d648dd (#27). -->
-<!--
+	<!-- AM1994 07/17/2024 - Due to engine changes that broke these clashes, -->
+	<!-- I'm hard disabling it just so it isn't processed and causing any    -->
+	<!-- issues as apart of commit 9d648dd (#27). -->
+	<!--
 	<Hero_Clash Name="ObiWan_BobaFett">
 		<Clash_Type>Action_Driven</Clash_Type>
 		<Involved_Hero_Types>Obi_Wan_Kenobi, Boba_Fett</Involved_Hero_Types>

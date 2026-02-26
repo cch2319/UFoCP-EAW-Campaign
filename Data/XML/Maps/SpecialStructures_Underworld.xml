@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <SpecialStructures>
-
-
-
 	<SpecialStructure Name="U_Ground_Palace">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_PALACE_UNDERWORLD</Text_ID>
@@ -140,7 +137,6 @@
 		<AI_Combat_Power>300</AI_Combat_Power>
 
 		<Abilities SubObjectList="Yes">
-
 			<Force_Healing_Ability Name="U_Palace1_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
@@ -190,10 +186,10 @@
 			</Income_Stream_Mod_Ability>
 
 			<!-- The state of these abilities (enabled/disabled) is controlled by hard points -->
- 			<Enable_Radar_Ability Name="Underworld_Palace_Enable_Radar">
- 				<Activation_Style>Ground_Automatic</Activation_Style>
- 				<Affects_All_Allies>True</Affects_All_Allies>
- 			</Enable_Radar_Ability>
+			<Enable_Radar_Ability Name="Underworld_Palace_Enable_Radar">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Affects_All_Allies>True</Affects_All_Allies>
+			</Enable_Radar_Ability>
 
 			<Base_Power_Ability Name="Underworld_Palace_Base_Power">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -212,12 +208,8 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</SpecialStructure>
-
-
 
 	<SpecialStructure Name="U_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -382,13 +374,8 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</SpecialStructure>
-
-
-
 
 	<SpecialStructure Name="U_Ground_Droid_Works">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -548,7 +535,6 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
 	</SpecialStructure>
 
@@ -668,7 +654,7 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 
 
-<!-- put this back once canderous is approved Canderous_Assault_Tank_Company, -->
+		<!-- put this back once canderous is approved Canderous_Assault_Tank_Company, -->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
 
@@ -712,10 +698,8 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
 	</SpecialStructure>
-
 
 
 
@@ -802,7 +786,6 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
         <AI_Combat_Power>100</AI_Combat_Power>
 		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
-
 	</SpecialStructure>
 
 	<SpecialStructure Name="Garrison_Bunker_Empire">
@@ -840,10 +823,6 @@
 		<Affiliation>Rebel, Empire, Underworld, Pirates, Neutral,Hutts</Affiliation>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
-      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</SpecialStructure>
-
-
-
-
 </SpecialStructures>

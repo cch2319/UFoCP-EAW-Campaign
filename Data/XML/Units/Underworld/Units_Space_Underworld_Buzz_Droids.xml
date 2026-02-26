@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <Buzz_Droids_Data>
-
 	<SpaceUnit Name="Buzz_Droids">
 		<Text_ID>TEXT_TOOLTIP_ABILITY_BUZZ_DROIDS_NAME</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ABILITY_BUZZ_DROIDS_DESCRIPTION</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_buzz_droid.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ABILITY_BUZZ_DROIDS_DESCRIPTION</Encyclopedia_Text>
 
 		<Space_Model_Name>p_b_droids.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -16,7 +15,7 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Mass>0.9995</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-        <Ranking_In_Category>7</Ranking_In_Category>
+		<Ranking_In_Category>7</Ranking_In_Category>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 
 		<Max_Speed>3.5</Max_Speed>
@@ -25,7 +24,7 @@
 		<Space_Layer> None </Space_Layer>
 
 		<Armor_Type> Armor_Bomber </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 
 		<Affiliation>Underworld</Affiliation>
 
@@ -42,8 +41,13 @@
 		<AI_Combat_Power>5</AI_Combat_Power>
 		<Size_Value>120</Size_Value>
 
-		<Behavior>DUMMY_STARSHIP, POWERED</Behavior>
-		<SpaceBehavior> BUZZ_DROIDS, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_TOOLTIP, IDLE,AMBIENT_SFX </SpaceBehavior>
+		<Behavior>
+			DUMMY_STARSHIP,
+			POWERED
+		</Behavior>
+		<SpaceBehavior>
+			BUZZ_DROIDS, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_TOOLTIP, IDLE, AMBIENT_SFX
+		</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
@@ -55,7 +59,7 @@
 		<SFXEvent_Ambient_Moving> Unit_Buzz_Droids_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop>  </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop />
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -64,11 +68,9 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Population_Value>0</Population_Value>
 
-		<Special_Weapon_Valid_Targets>Fighter | Bomber | Transport | Corvette </Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Fighter | Bomber | Transport | Corvette</Special_Weapon_Valid_Targets>
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Is_Valid_Target>False</Is_Valid_Target>
-
 	</SpaceUnit>
-
 </Buzz_Droids_Data>

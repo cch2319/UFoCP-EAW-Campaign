@@ -1,14 +1,7 @@
 <?xml version="1.0"?>
-
-
 <TIE_Interceptor_Files>
-
-
-<!-- **** BASE SHIP INFORMATION **** -->
-
-
+	<!-- **** BASE SHIP INFORMATION **** -->
 	<SpaceUnit Name="TIE_Interceptor">
-
 		<Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
@@ -61,7 +54,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>3</Damage>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
@@ -152,8 +145,8 @@
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
 
+	<!-- **** SQUADRON INFORMATION **** -->
 	<Squadron Name="TIE_Interceptor_Squadron">
 		<Text_ID>TEXT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
@@ -224,11 +217,5 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 	</Squadron>
-
-
-
-
-
 </TIE_Interceptor_Files>

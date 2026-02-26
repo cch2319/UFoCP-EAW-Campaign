@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <Underworld_Mercenary_Infantry_Data>
-
-
 	<GroundInfantry Name="Underworld_Merc">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_UNDERWORLD_MERC</Text_ID>
+		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
 		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseII UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MERC_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
 
 		<Land_Model_Name>UI_Mercenary.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+		<LandBehavior>
+			SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN
+		</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -23,7 +23,6 @@
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
-
 
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
@@ -128,16 +127,15 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />
-                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>80.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_Target_Ability />
+				<Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -147,30 +145,26 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Proximity_Mines_Ability Name="Grenadier_Proximity">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Grenadier_Proximity">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>70.0</Activation_Max_Range>
+				<Mine_Type>Proximity_Mine</Mine_Type>
+				<Trigger_Radius>30</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Proximity_Mines_Ability>
 		</Abilities>
-
 	</GroundInfantry>
-
 
 	<GroundInfantry Name="Underworld_Merc_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Underworld_Merc </Variant_Of_Existing_Type>
+
 		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>
 		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>
 		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>
@@ -182,28 +176,32 @@
 
 	<GroundInfantry Name="Underworld_Merc_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type> Underworld_Merc </Variant_Of_Existing_Type>
+
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Underworld_Merc_Skiff_Pilot">
 		<Variant_Of_Existing_Type> Underworld_Merc </Variant_Of_Existing_Type>
+
 		<Behavior>SELECTABLE, UNIT_AI</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,WEAPON, TARGETING, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN, GARRISON_UNIT</LandBehavior>
-        <Select_Box_Scale>20</Select_Box_Scale>
-        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<LandBehavior>
+			SURFACE_FX, WALK_LOCOMOTOR, IDLE, WEAPON, TARGETING, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, GARRISON_UNIT
+		</LandBehavior>
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Create_Team>False</Create_Team>
 		<Garrison_Category> Infantry </Garrison_Category>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity_Solo </GUI_Activated_Ability_Name>
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />
-                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>80.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Grenadier_Proximity_Solo </GUI_Activated_Ability_Name>
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_Target_Ability />
+				<Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -215,35 +213,30 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-            <Proximity_Mines_Ability Name="Grenadier_Proximity_Solo">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>3</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Grenadier_Proximity_Solo">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>70.0</Activation_Max_Range>
+				<Mine_Type>Proximity_Mine</Mine_Type>
+				<Trigger_Radius>30</Trigger_Radius>
+				<Number_Of_Mines>3</Number_Of_Mines>
+				<Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Proximity_Mines_Ability>
 		</Abilities>
 	</GroundInfantry>
 
 
-
-
-
-<!-- COMPANY INFO -->
-
-
+	<!-- COMPANY INFO -->
 	<GroundCompany Name="Underworld_Merc_Squad">
 		<Text_ID>TEXT_UNIT_UNDERWORLD_MERC_SQUAD</Text_ID>
-		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseII UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MERC_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
+		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler Dark_Trooper_PhaseII UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -267,7 +260,11 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
 		<Create_Team_Type> Underworld_Merc_Team </Create_Team_Type>
-		<Company_Units>Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc Underworld_Merc Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc</Company_Units>
+		<Company_Units>
+			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,
+			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,
+			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc
+		</Company_Units>
 		<Max_Squad_Size> 4 </Max_Squad_Size>
 
 		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
@@ -281,27 +278,26 @@
 		<Cheap_Bribe_Cost>2</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>5</Expensive_Bribe_Cost>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />
-                <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>80.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_Target_Ability />
+				<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -311,23 +307,20 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Proximity_Mines_Ability Name="Grenadier_Proximity">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Grenadier_Proximity">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>70.0</Activation_Max_Range>
+				<Mine_Type>Proximity_Mine</Mine_Type>
+				<Trigger_Radius>30</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Proximity_Mines_Ability>
 		</Abilities>
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
@@ -335,24 +328,20 @@
 	</GroundCompany>
 
 
-
-
-<!-- CONTAINER INFO -->
-
-
-
-
+	<!-- CONTAINER INFO -->
 	<Container Name="Underworld_Merc_Team">
 		<Text_ID>TEXT_UNIT_UNDERWORLD_MERC_SQUAD</Text_ID>
+		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MERC_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
 
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Behavior>TEAM,SELECTABLE, UNIT_AI</Behavior>
+		<LandBehavior>
+			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
+		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
@@ -385,22 +374,21 @@
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-        <Select_Box_Scale>60</Select_Box_Scale>
-        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<CategoryMask>Infantry</CategoryMask>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />
-                <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>80.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_Target_Ability />
+				<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -410,31 +398,20 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Proximity_Mines_Ability Name="Grenadier_Proximity">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-
+		<Abilities SubObjectList="Yes">
+			<Proximity_Mines_Ability Name="Grenadier_Proximity">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>70.0</Activation_Max_Range>
+				<Mine_Type>Proximity_Mine</Mine_Type>
+				<Trigger_Radius>30</Trigger_Radius>
+				<Number_Of_Mines>6</Number_Of_Mines>
+				<Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Proximity_Mines_Ability>
 		</Abilities>
-
 	</Container>
-
-
-
-
-
-
-
 </Underworld_Mercenary_Infantry_Data>

@@ -1,15 +1,8 @@
-<?xml version="1.0" ?>
-
-
+<?xml version="1.0"?>
 <Story>
-
 <!-- Underworld Act II Mission 07: Cloud City Conflict -->
 
-
-
-
 <!-- Preliminary setup -->
-
 	<Event Name="Underworld_A02M07_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -52,7 +45,7 @@
 
 
 	<!--TEXT_UW_ACT02_M07_GOAL_00
-	 Collect 8 gas containers with the Gas Cargo Droids-->
+	Collect 8 gas containers with the Gas Cargo Droids-->
 	<Event Name="Underworld_A02M07_State_Misson_Goal_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
@@ -62,7 +55,7 @@
 	</Event>
 
 	<!--TEXT_UW_ACT02_M07_GOAL_X0
-	 After filling your droids at the refineries, return them to the shuttle to unload the gas.-->
+	After filling your droids at the refineries, return them to the shuttle to unload the gas.-->
 	<Event Name="Underworld_A02M07_State_Misson_Goal_00b_Return_To_Shuttle">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -73,7 +66,7 @@
 
 
 	<!--TEXT_UW_ACT02_M07_GOAL_11
-	 Use Tyber to locate and plant evidence at the four security outposts.-->
+	Use Tyber to locate and plant evidence at the four security outposts.-->
 	<Event Name="Underworld_A02M07_State_Misson_Goal_00b">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -1734,5 +1727,4 @@ TYBER ZANN: Hurry up, get those droids unloaded!  -->
 					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 					<Prereq>Underworld_A02M07_Speech_Line_36_Remove_Text</Prereq>
 				</Event>
-
 </Story>

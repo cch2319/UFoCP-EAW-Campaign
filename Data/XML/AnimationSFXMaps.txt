@@ -1,10 +1,10 @@
-SURFACE	ei_trooper_move_00	0	INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ei_trooper_move_00	0		INFANTRY_FOOT_PLANT	B_Foot_R
 SURFACE	ei_trooper_move_00	1032	INFANTRY_FOOT_PLANT	B_Foot_L
 
-SURFACE	ei_trooper_move_01	0	INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ei_trooper_move_01	0		INFANTRY_FOOT_PLANT	B_Foot_R
 SURFACE	ei_trooper_move_01	1170	INFANTRY_FOOT_PLANT	B_Foot_L
 
-SURFACE	ei_trooper_move_02	0	INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ei_trooper_move_02	0		INFANTRY_FOOT_PLANT	B_Foot_R
 SURFACE	ei_trooper_move_02	1164	INFANTRY_FOOT_PLANT	B_Foot_L
 
 SURFACE	ei_trooper_die_00	1152	TROOPER_IMPACT	B_Head
@@ -21,7 +21,7 @@ SURFACE	ei_trooper_fl_die_00	8653	TROOPER_IMPACT	B_Pelvis
 
 SURFACE	ei_trooper_fl_die_01	9437	TROOPER_IMPACT	B_Pelvis
 
-SURFACE	ei_trooper_land_00	805	TROOPER_IMPACT	B_Neck
+SURFACE	ei_trooper_land_00	805		TROOPER_IMPACT	B_Neck
 SURFACE	ei_trooper_land_00	2632	TROOPER_IMPACT	B_Neck
 
 SOUND	ei_trooper_crushed_00	698	Unit_Infantry_Squish
@@ -55,7 +55,7 @@ SOUND	ev_at-at_die_01	6149	Unit_Anim_AT_AT_Walk_Hydraulics
 SOUND	ev_at-at_die_01	8152	Unit_Space_Station_Break_Death_SFX
 SOUND	ev_at-at_die_01	7049	Unit_Anim_AT_AT_Death_Fall
 
-SOUND	ev_at-at_die_02	480	Unit_Anim_AT_AT_Death_Fall
+SOUND	ev_at-at_die_02	480		Unit_Anim_AT_AT_Death_Fall
 SOUND	ev_at-at_die_02	18450	Unit_Anim_AT_AT_Ground_Slam
 SOUND	ev_at-at_die_02	9209	Unit_Anim_AT_AT_Foot_Plant
 SOUND	ev_at-at_die_02	12089	Unit_Anim_AT_AT_Foot_Plant
@@ -1593,7 +1593,7 @@ SOUND	uv_vehtransport_landing_land_00	74	Unit_Barge_Landing
 
 SOUND	uv_vehtransport_landing_takeoff_00	104	Unit_Barge_Takeoff
 
-SOUND	ev_executorstardestroyer_d_die_00	240	Unit_Star_Destroyer_Death_SFX
+SOUND	ev_executorstardestroyer_d_die_00	240		Unit_Star_Destroyer_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	2759	Unit_Star_Destroyer_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	5159	Unit_Star_Destroyer_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	7680	Unit_Star_Destroyer_Death_SFX
@@ -1637,18 +1637,17 @@ SOUND	ev_executorstardestroyer_d_die_00	90159	Unit_Cruiser_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	106785	Unit_Cruiser_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	101456	Unit_Cruiser_Death_SFX
 
-SOUND	ev_slave1_land_00	74	Unit_Barge_Landing
+SOUND	ev_slave1_land_00		74	Unit_Barge_Landing
 SOUND	ev_slave1_takeoff_00	74	Unit_Barge_Takeoff
 
-SOUND	uv_houndstooth_landing_land_00	74	Unit_Barge_Landing
+SOUND	uv_houndstooth_landing_land_00		74	Unit_Barge_Landing
 SOUND	uv_houndstooth_landing_takeoff_00	74	Unit_Barge_Takeoff
 
 SOUND	rv_xwing_landing_land_00	74	Unit_Xwing_Landing
 SOUND	rv_xwing_landing_takeoff_00	74	Unit_Xwing_Takeoff
 
-SOUND	uv_ig2000_landing_land_00	74	Unit_Gallofree_Landing
+SOUND	uv_ig2000_landing_land_00		74	Unit_Gallofree_Landing
 SOUND	uv_ig2000_landing_takeoff_00	74	Unit_Gallofree_Takeoff
 
 SOUND	nv_moldycrow_landing_land_00	74	Unit_Barge_Landing
 SOUND	nv_moldycrow_landing_takeoff_00	74	Unit_Barge_Takeoff
-

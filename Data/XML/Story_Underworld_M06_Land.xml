@@ -1,15 +1,8 @@
 <?xml version="1.0" ?>
-
-
 <Story>
-
 <!-- Underworld Act II Mission 06: A Dark Ally -->
 
-
-
-
 <!-- Preliminary setup -->
-
 	<Event Name="Underworld_A02M06_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -71,15 +64,6 @@
 		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
 		<Prereq>Underworld_A02M06_Begin</Prereq>
 	</Event>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1877,18 +1861,4 @@
 						<Reward_Param4>Remove</Reward_Param4>
 						<Prereq>UM06_DIALOG_Finale_Line06</Prereq>
 					</Event>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Story>

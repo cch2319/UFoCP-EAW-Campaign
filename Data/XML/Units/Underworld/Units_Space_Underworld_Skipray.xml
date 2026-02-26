@@ -1,18 +1,12 @@
 <?xml version="1.0"?>
-
-
 <Skipray_Blastboat_Data>
-
-
-
-
 	<SpaceUnit Name="Skipray_Blastboat">
 		<Text_ID>TEXT_UNIT_SKIPRAY</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
+		<Icon_Name>i_button_skipray.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_skipray.tga</Icon_Name>
 
 		<Space_Model_Name>UV_SKIPRAY.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -45,7 +39,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		<Armor_Type> Armor_Bomber </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 
 		<Formation_Priority>2</Formation_Priority>
 		<Size_Value>8</Size_Value>
@@ -55,7 +49,9 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Number_per_Squadron>3</Number_per_Squadron>
 
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA
+		</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
@@ -130,42 +126,36 @@
 		<Population_Value>0</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
 				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
 				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
-                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>
-
 		</Abilities>
-
 	</SpaceUnit>
 
 
 	<!-- Squadron info -->
-
 	<Squadron Name="Skipray_Squadron">
 		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
+		<Icon_Name>i_button_skipray.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_skipray.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -209,84 +199,34 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 
-     	<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
 				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
 				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
-                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>
-
 		</Abilities>
-
-
 	</Squadron>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Skipray_Blastboat_Data>

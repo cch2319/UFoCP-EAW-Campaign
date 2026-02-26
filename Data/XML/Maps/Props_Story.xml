@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Props_Story>
-
 	<Props_Story Name="Mission_Goal_AA_Turret_00">
 		<Text_ID>TEXT_STRUCTURE_TURRET_AA</Text_ID>
 		<Land_Model_Name>EB_AATURRET.ALO</Land_Model_Name>
@@ -60,7 +59,6 @@
 	</Props_Story>
 
     <!-- AI  Empire Shipyard Props (Rebel Mission 1) -->
-
 	<SpaceStructure Name="Drydock_Tie_Bomber">
 		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
@@ -91,9 +89,7 @@
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
-
-	</SpaceStructure>
+		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>	</SpaceStructure>
 
     <SpaceStructure Name="Drydock_Tie_Fighter">
 		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
@@ -125,9 +121,7 @@
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
-
-	</SpaceStructure>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>	</SpaceStructure>
 
 	<SpaceStructure Name="Drydock_Star_Destroyer_Construction">
 		<GUI_Bounds_Scale>0.1</GUI_Bounds_Scale>
@@ -164,9 +158,7 @@
 
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Icon_Name>i_button_imperator.tga</Icon_Name>
-
-	</SpaceStructure>
+		<Icon_Name>i_button_imperator.tga</Icon_Name>	</SpaceStructure>
 
 			<SpaceStructure Name="Drydock_Star_Destroyer_Construction_Death_Clone">
 				<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
@@ -209,7 +201,6 @@
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Icon_Name>i_button_Lamba_Shuttle.tga</Icon_Name>
-
 	</SpaceStructure>
 
 
@@ -248,7 +239,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</SpaceStructure>
 
 	<SpaceStructure Name="Orbital_Resource_Container_Small">
@@ -308,7 +298,6 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
 		<Death_Clone>Damage_Normal, Empire_Dock_Destroyable_Death_Clone</Death_Clone>
-
 	</SpaceStructure>
 
 			<SpaceStructure Name="Empire_Dock_Destroyable_Death_Clone">
@@ -345,8 +334,7 @@
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-	</SpaceStructure>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>	</SpaceStructure>
 
 	<SpaceStructure Name="Cargo_Debris_02">
 		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
@@ -362,7 +350,6 @@
 
 
 	<!-- Used for Rebel Act I Mission 9 -->
-
 	<GroundBuildable Name="Bacta_Tank_00">
 		<Variant_Of_Existing_Type>Empire_Buildable_Bacta_Tank</Variant_Of_Existing_Type>
 	</GroundBuildable>
@@ -383,16 +370,15 @@
 	</Props_Story>
 
 	<!-- Used for Underworld Act I Mission Prologue -->
-
 	<Props_Story Name="UMP_Spice_Power_Up">
 		<Text_ID />
 		<Land_Model_Name>w_spice_crate.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Is_Decoration>No</Is_Decoration>
 		<Scale_Factor>1.25</Scale_Factor>
- 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
- 		<Lua_Script>UMP_SpicePowerUp</Lua_Script>
-  		<Death_Explosions>Credits_Gained_Particles</Death_Explosions>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Lua_Script>UMP_SpicePowerUp</Lua_Script>
+		<Death_Explosions>Credits_Gained_Particles</Death_Explosions>
 		<Death_SFXEvent_Start_Die>SFX_Crate_Pickup</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
     </Props_Story>
@@ -409,9 +395,6 @@
 		<Tactical_Health>35</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
     </Props_Story>
-
-
-
 
 	<Props_Story Name="UM05_Dumb_Guard">
 		<Variant_Of_Existing_Type>SCOUT_TROOPER_NO_BIKE</Variant_Of_Existing_Type>
@@ -500,8 +483,6 @@
         <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
         <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
-
-
 
 			<Props_Story Name="UMP_Prisoner_Human_Company">
 				<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
@@ -626,7 +607,7 @@
 
 
 	<Props_Story Name="UMP_DropPoint_Empire">
- 		<!-- Lua_Script>UMP_Empire_DropShips</Lua_Script -->
+		<!-- Lua_Script>UMP_Empire_DropShips</Lua_Script -->
 		<Land_Model_Name>W_Pedistal_Imperial.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -676,11 +657,11 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>UMP_Mission_Script</Lua_Script>
+		<Lua_Script>UMP_Mission_Script</Lua_Script>
 	</Props_Story>
 
     <Props_Story Name="UM02_Magnetically_Sealed_Doorway">
- 		<Lua_Script>UM02_MagnetDoors</Lua_Script>
+		<Lua_Script>UM02_MagnetDoors</Lua_Script>
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Text_ID>TEXT_DOOR</Text_ID>
@@ -707,7 +688,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-	        <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
@@ -743,7 +724,6 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-
 		</Abilities>
 	</Props_Story>
 
@@ -774,7 +754,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-	    <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
@@ -788,7 +768,7 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>UM02_Destroyer_Spawn</Lua_Script>
+		<Lua_Script>UM02_Destroyer_Spawn</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="UM02_Droids_Spawner">
@@ -796,7 +776,7 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>UM02_Droids_Spawn</Lua_Script>
+		<Lua_Script>UM02_Droids_Spawn</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="UM02_Droid_Crate">
@@ -805,9 +785,9 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Is_Decoration>No</Is_Decoration>
- 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
- 		<Lua_Script>UM02_DroidCrate</Lua_Script>
-  		<Death_Explosions>VEHICLE_THIEF_TRANSITION_PARTICLES</Death_Explosions>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Lua_Script>UM02_DroidCrate</Lua_Script>
+		<Death_Explosions>VEHICLE_THIEF_TRANSITION_PARTICLES</Death_Explosions>
 		<Death_SFXEvent_Start_Die>SFX_Asteroid_Detonation</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
     </Props_Story>
@@ -817,7 +797,7 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>UM02_Mission_Script</Lua_Script>
+		<Lua_Script>UM02_Mission_Script</Lua_Script>
 	</Props_Story>
 
 	<ScriptMarker Name="UM06_MissionScript_Temp">
@@ -825,7 +805,7 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Space_Model_Name> W_FLAG_MARKER_WHITE.ALO </Space_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>UM06_Mission_Script</Lua_Script>
+		<Lua_Script>UM06_Mission_Script</Lua_Script>
 	</ScriptMarker>
 
 	<Props_Story Name="E3_Felucia_Zone">
@@ -833,7 +813,7 @@
 		<Is_Marker> Yes </Is_Marker>
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<Lua_Script>E3_Felucia_Zone</Lua_Script>
+		<Lua_Script>E3_Felucia_Zone</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="JGS_Test_Trigger">
@@ -842,7 +822,7 @@
 		<Land_Model_Name> W_FLAG_MARKER_WHITE.ALO </Land_Model_Name>
 		<Space_Model_Name> W_FLAG_MARKER_WHITE.ALO </Space_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
- 		<!-- <Lua_Script>JGS_Test_Script</Lua_Script> -->
+		<!-- <Lua_Script>JGS_Test_Script</Lua_Script> -->
 	</Props_Story>
 
 	<Props_Story Name="JGS_PATHPOINT_1">
@@ -1741,7 +1721,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_BOUNTY_HUNTER">
-	    <!-- this is a dead bounty hunter cine prop -->
+		<!-- this is a dead bounty hunter cine prop -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_bountyhunter.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
@@ -1938,7 +1918,7 @@
 	<Props_Story Name="UM05_ADEPTONE">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>185</Tactical_Health>
- 		<Lua_Script>UM11_ForceAdeptOne</Lua_Script>
+		<Lua_Script>UM11_ForceAdeptOne</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="UM05_ADEPTONECINE">
@@ -1949,7 +1929,7 @@
 	<Props_Story Name="UM05_ADEPTTWO">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>125</Tactical_Health>
- 		<Lua_Script>UM11_ForceAdeptTwo</Lua_Script>
+		<Lua_Script>UM11_ForceAdeptTwo</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="UM05_ADEPTTWOCINE">
@@ -1960,7 +1940,7 @@
 	<Props_Story Name="UM05_ADEPTTHREE">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>150</Tactical_Health>
- 		<Lua_Script>UM11_ForceAdeptThree</Lua_Script>
+		<Lua_Script>UM11_ForceAdeptThree</Lua_Script>
 	</Props_Story>
 
 	<Props_Story Name="UM05_ADEPTTHREECINE">
@@ -1971,7 +1951,7 @@
 	<Props_Story Name="UM05_ADEPTFOUR">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Scale_Factor>2</Scale_Factor>
- 		<Lua_Script>UM11_ForceAdeptFour</Lua_Script>
+		<Lua_Script>UM11_ForceAdeptFour</Lua_Script>
 		<!-- Non-Hero unit abilities description -->
 		<Tactical_Health>1000</Tactical_Health>
 		<Max_Speed>.35</Max_Speed>
@@ -2033,7 +2013,6 @@
 	</Props_Story>
 
 <!-- jdg : um06 props..., Governor's_Quarters, Guard_Tower -->
-
 	<Props_Story Name="UM06_Governors_Quarters">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_GOVERNORS_QUARTERS</Text_ID>
@@ -2417,10 +2396,7 @@
 		<Text_ID>TEXT_TOOLTIP_ANNIHILATOR</Text_ID>
 		<Layer_Z_Adjust>-600.0</Layer_Z_Adjust>
 
-
-
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
-
 
 		<Encyclopedia_Good_Against> Calamari_Cruiser Rebel_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
@@ -2548,8 +2524,6 @@
 			HP_EXECUTOR_FIGHTER_BAY_00
 		</HardPoints>
 
-
-
 		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
@@ -2604,38 +2578,39 @@
 		<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
 
 		<!-- Non-Hero unit abilities description -->
-	   <Unit_Abilities_Data SubObjectList="Yes">
-	      <!-- Primary ability -->
-	      <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
 				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-	      <Unit_Ability>
+			</Unit_Ability>
+
+			<Unit_Ability>
                 <Type>DEPLOY_SQUAD</Type>
-	            <Recharge_Seconds>5</Recharge_Seconds>
-	            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Deploy_Squad_Vader_Executor </SFXEvent_GUI_Unit_Ability_Activated>
-          </Unit_Ability>
-	   </Unit_Abilities_Data>
+				<Recharge_Seconds>5</Recharge_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Deploy_Squad_Vader_Executor </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
-	   <Abilities SubObjectList="Yes">
-	      <Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>2000</Activation_Max_Range>
+				<Activation_Min_Range>10</Activation_Min_Range>
+				<Activation_Max_Range>2000</Activation_Max_Range>
 
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>
-	      </Tractor_Beam_Attack_Ability>
-	   </Abilities>
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Tractor_Beam_Attack_Ability>
+		</Abilities>
 
 		<Score_Cost_Credits> 100000</Score_Cost_Credits>
 
@@ -2740,10 +2715,8 @@
 			HP_Empire_Station_Five_01,
 			HP_Empire_Station_Five_02,
 			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_One_Supply_Dock_Dummy <!-- Comm array and supply dock should be replaced by dummy hard points -->
 		</HardPoints>
-
-<!-- Comm array and supply dock should be replaced by dummy hard points -->
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -2999,7 +2972,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Tread_Scroll_Rate>0.167</Tread_Scroll_Rate> <!-- 0.167 -->
 		<Overall_Length>5.0</Overall_Length> 	<!-- For vehicle pitching up and down on terrain (35 by geometry) -->
-		<Overall_Width>5.0</Overall_Width> 		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+		<Overall_Width>5.0</Overall_Width>		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 	</Props_Story>
 
 <!--  Corruption Objective Props -->
@@ -3284,8 +3257,7 @@
 		<Encyclopedia_Text>TEXT_STRUCTURE_STYGIUM_CRYSTAL_CONTAINER</Encyclopedia_Text>
 		<Tactical_Health>75</Tactical_Health>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation_Underworld_Immune</Death_Projectiles>
-		<Affiliation>Empire, Rebel, Underworld</Affiliation>
-	</SpaceStructure>
+		<Affiliation>Empire, Rebel, Underworld</Affiliation>	</SpaceStructure>
 
 
 
@@ -3334,8 +3306,6 @@
 		<Behavior>UNIT_AI, SELECTABLE</Behavior>
 		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, DUMMY_TOOLTIP</LandBehavior>
 
-
-
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<GUI_Hide_Health_Bar>false</GUI_Hide_Health_Bar>
 
@@ -3380,7 +3350,6 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-
 		<GUI_Hide_Health_Bar>false</GUI_Hide_Health_Bar>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
@@ -3389,7 +3358,6 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
-
 	</Props_Story>
 
 	<Props_Story Name="Senator_Polo_SeLab">
@@ -3523,7 +3491,6 @@
     </Props_Story>
 
 	<Props_Story Name="PROP_CORUSCANT_SKYDOME">
-	    <!-- this is a dead bounty hunter cine prop -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_sky_smog00.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
@@ -3550,5 +3517,4 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Story>
-
 </Props_Story>

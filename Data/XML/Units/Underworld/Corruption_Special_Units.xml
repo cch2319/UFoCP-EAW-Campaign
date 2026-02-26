@@ -1,16 +1,9 @@
 <?xml version="1.0"?>
 <Corruption_Special_Units>
-
-
-
-
-
-<!-- ************************************************************************* -->
-<!-- *****							SLAVERY UNITS						 ***** -->
-<!-- ************************************************************************* -->
-
-
-<!-- BOTHANS -->
+	<!-- ************************************************************************* -->
+	<!-- *****							SLAVERY UNITS						 ***** -->
+	<!-- ************************************************************************* -->
+	<!-- BOTHANS -->
 	<Slave_Unit Name="Bothan_Slave">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
@@ -21,7 +14,7 @@
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
+		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -123,9 +116,7 @@
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
 
-
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Bothan_Slave_Company">
@@ -200,9 +191,7 @@
 	</Container>
 
 
-<!-- GEONOSIAN -->
-
-
+	<!-- GEONOSIAN -->
 	<Slave_Unit Name="Geonosian_Slave">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
@@ -316,7 +305,6 @@
 		<Death_Persistence_Duration>0.3</Death_Persistence_Duration>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Geonosian_Slave_Company">
@@ -391,11 +379,7 @@
 	</Container>
 
 
-
-<!-- WOOKIEE -->
-
-
-
+	<!-- WOOKIEE -->
 	<Slave_Unit Name="Wookiee_Slave">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_WOOKIE</Text_ID>
@@ -502,7 +486,6 @@
 
 		<Movie_Object>false</Movie_Object>
 
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Wookiee_Slave_Company">
@@ -578,9 +561,7 @@
 	</Container>
 
 
-<!-- GUNGAN -->
-
-
+	<!-- GUNGAN -->
 	<Slave_Unit Name="Gungan_Slave">
 		<Text_ID>TEXT_INDIG_GUNGAN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GUNGAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -692,7 +673,6 @@
 		<Create_Team>True</Create_Team>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Gungan_Slave_Company">
@@ -767,11 +747,7 @@
 	</Container>
 
 
-
-<!-- PYNGANI -->
-
-
-
+	<!-- PYNGANI -->
 	<Slave_Unit Name="Pyngani_Slave">
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
@@ -845,7 +821,7 @@
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
- 		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
@@ -881,7 +857,6 @@
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Pyngani_Slave_Company">
@@ -956,10 +931,7 @@
 	</Container>
 
 
-<!-- TWI'LEK -->
-
-
-
+	<!-- TWI'LEK -->
 	<Slave_Unit Name="Twilek_Slave">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -1069,7 +1041,6 @@
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Twilek_Slave_Company">
@@ -1146,10 +1117,7 @@
 	</Container>
 
 
-<!-- SULLUSTAN -->
-
-
-
+	<!-- SULLUSTAN -->
 	<Slave_Unit Name="Sullustan_Slave">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -1260,7 +1228,6 @@
 		<Create_Team>True</Create_Team>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Sullustan_Slave_Company">
@@ -1335,8 +1302,7 @@
 	</Container>
 
 
-<!-- MON CALAMARI -->
-
+	<!-- MON CALAMARI -->
 	<Slave_Unit Name="Mon_Calamari_Slave">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -1446,7 +1412,6 @@
 		<Create_Team>True</Create_Team>
 
 		<Movie_Object>false</Movie_Object>
-
 	</Slave_Unit>
 
 	<SlaveCompany Name="Mon_Calamari_Slave_Company">
@@ -1523,24 +1488,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ************************************************************************* -->
-<!-- *****							PIRACY UNITS						 ***** -->
-<!-- ************************************************************************* -->
-
-
-
+	<!-- ************************************************************************* -->
+	<!-- *****							PIRACY UNITS						 ***** -->
+	<!-- ************************************************************************* -->
 	<SpaceUnit Name="Acclamator_Underworld">
 		<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
 
@@ -1718,7 +1668,6 @@
 				<Type>LURE</Type>
 				<!-- details in the unit's XML -->
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 	</Squadron>
 
@@ -1730,7 +1679,6 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
-
 
 	<Squadron Name="Underworld_TIE_Defender_Squadron">
 		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON</Text_ID>
@@ -1778,14 +1726,13 @@
 		<Population_Value>1</Population_Value>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
- 		<!-- Unit abilities description -->
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-                <Recharge_Seconds>25.0</Recharge_Seconds>
-                <Supports_Autofire>True</Supports_Autofire>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<Supports_Autofire>True</Supports_Autofire>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<GUI_Activated_Ability_Name>Tie_Defender_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
@@ -1793,7 +1740,6 @@
 
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
@@ -1804,47 +1750,15 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-            <Ion_Cannon_Shot_Attack_Ability Name="Tie_Defender_Ion_Cannon_Shot">
-                <Activation_Style> User_Input </Activation_Style>
-                <!-- We only consider the following unit types "valid targets": -->
-                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-                <Applicable_Unit_Types />
-            </Ion_Cannon_Shot_Attack_Ability>
-        </Abilities>
-
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Tie_Defender_Ion_Cannon_Shot">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
 	</Squadron>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Corruption_Special_Units>

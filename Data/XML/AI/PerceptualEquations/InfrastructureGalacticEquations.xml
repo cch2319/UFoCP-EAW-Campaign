@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
 	<!--
 	Do we have some structure here already
 	AND
@@ -54,11 +52,11 @@
 
 
 	UNUSED:
-         Require the starbase upgrade boost for unblocking tech to be on the highest level system.
+			Require the starbase upgrade boost for unblocking tech to be on the highest level system.
 			*
 			(Variable_Target.StarbaseLevelUnnormalized == Variable_Self.MaxStarbaseLevelUnnormalized)
 
-      -->
+	-->
 	<Needs_Starbase_Upgrade>
 		(Variable_Target.StarbaseLevel > 0.0)
 		*
@@ -545,7 +543,7 @@
 		More than 75% of owned planets have a level 1 groundbase
 		AND
 		At least one level 3 starbase
-		 -->
+		-->
 	<Has_Enough_Bases_For_Tech>
 		(Variable_Self.PlanetsControlledUnnormalized > 1)
 		*
@@ -569,15 +567,15 @@
 
 
 		UNUSED:
-		 Scale with income relative to max possible income
+		Scale with income relative to max possible income
 		Variable_Self.GrossIncomeNBTF
 
-		 We haven't been attacked in a while OR
-		 The enemy is ahead in tech OR	-WAITING ON Enemy.TechLevel
-		 We have enough systems that it couldn't hurt to have one tied up in tech OR
-		 We're so far ahead in space forces that it can't hurt
-		 Game.FriendlyForce.SpaceTotalUnnormalized - Game.EnemyForce.SpaceTotalUnnormalized
-		 -->
+		We haven't been attacked in a while OR
+		The enemy is ahead in tech OR	-WAITING ON Enemy.TechLevel
+		We have enough systems that it couldn't hurt to have one tied up in tech OR
+		We're so far ahead in space forces that it can't hurt
+		Game.FriendlyForce.SpaceTotalUnnormalized - Game.EnemyForce.SpaceTotalUnnormalized
+		-->
 	<Empire_Should_Upgrade_Tech>
 		(Variable_Self.IsFaction {Parameter_Faction = "Empire"})
 		*
@@ -747,6 +745,4 @@
 	<Enemy_Planets_Controlled>
 		Variable_Human.PlanetsControlledUnnormalized
 	</Enemy_Planets_Controlled>
-
-
 </Equations>

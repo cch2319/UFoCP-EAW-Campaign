@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <Yoda_Hero_Files>
-
-
 	<!-- MAIN YODA HERO DATA -->
-
-
 	<HeroUnit Name="Yoda">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -18,7 +14,6 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
-
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -121,7 +116,7 @@
 		<Select_Box_Scale>28</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>500</AI_Combat_Power>
@@ -145,29 +140,26 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>BERSERKER</Type>
+				<Recharge_Seconds>70.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Yoda_Force_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_Target_Ability> Unit_Attack_Grunts_Yoda </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 
-            <Unit_Ability>
-                <Type>BERSERKER</Type>
-                <Recharge_Seconds>70.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Yoda_Force_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability> Unit_Attack_Grunts_Yoda </SFXEvent_Target_Ability>
- 				<Supports_Autofire>True</Supports_Autofire>
-           </Unit_Ability>
-
-            <Unit_Ability>
-                <Type>FORCE_SIGHT</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Yoda_Force_Sight </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Force_Sight_Yoda </SFXEvent_GUI_Unit_Ability_Activated>
-                <SFXEvent_Special_Ability_Loop> Unit_Yoda_Force_Sight_Loop </SFXEvent_Special_Ability_Loop>
-            </Unit_Ability>
-
-        </Unit_Abilities_Data>
+			<Unit_Ability>
+				<Type>FORCE_SIGHT</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Yoda_Force_Sight </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Force_Sight_Yoda </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_Special_Ability_Loop> Unit_Yoda_Force_Sight_Loop </SFXEvent_Special_Ability_Loop>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
 			<Redirect_Blaster_Ability Name="Yoda_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -220,55 +212,50 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-            <Berserker_Ability Name="Yoda_Force_Attack">
+			<Berserker_Ability Name="Yoda_Force_Attack">
 				<Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>120.0</Activation_Max_Range>
-                <Berserker_Speed>5.0</Berserker_Speed>
-                <Berserker_Damage>35.0</Berserker_Damage>
-                <Berserker_Damage_Range>12.0</Berserker_Damage_Range>
-                <Berserker_Duration_In_Secs>6.0</Berserker_Duration_In_Secs>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>120.0</Activation_Max_Range>
+				<Berserker_Speed>5.0</Berserker_Speed>
+				<Berserker_Damage>35.0</Berserker_Damage>
+				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
+				<Berserker_Duration_In_Secs>6.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry | Vehicle | Structure | LandHero</Applicable_Unit_Categories>
-            </Berserker_Ability>
+			</Berserker_Ability>
 
-            <Force_Sight_Ability Name="Yoda_Force_Sight">
+			<Force_Sight_Ability Name="Yoda_Force_Sight">
 				<Activation_Style> User_Input </Activation_Style>
-                <Force_Sight_Duration_In_Secs>10.0</Force_Sight_Duration_In_Secs>
-            </Force_Sight_Ability>
+				<Force_Sight_Duration_In_Secs>10.0</Force_Sight_Duration_In_Secs>
+			</Force_Sight_Ability>
 
-            <Combat_Bonus_Ability Name="Yoda_Combat_Bonus">
-                <Activation_Style>Combat_Automatic</Activation_Style>
-                <Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Unit_Strength_Category>
-                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Applicable_Unit_Categories>
-                <Applicable_Unit_Types />
-                <Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-                <Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
-                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
-                <Stacking_Category>0</Stacking_Category>
-            </Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Yoda_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 
 			<Remove_Corruption_Ability Name="Yoda_Remove_Corruption">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>.95</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->				<Activation_Style>Ground_Activated</Activation_Style>
-				<Corruption_Removal_Time_In_Secs>6</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Corruption_Removal_Cost_Multiplier>.95</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>6</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
 		</Abilities>
-
 	</HeroUnit>
 
 
 
-
-
 	<!-- YODA COMPANY DATA -->
-
-
 	<HeroCompany Name="Yoda_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_YODA_TEAM</Text_ID>
@@ -310,30 +297,9 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		<Unit_Abilities_Data SubObjectList="Yes" />
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 	</HeroCompany>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Yoda_Hero_Files>

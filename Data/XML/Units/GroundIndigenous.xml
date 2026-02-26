@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <Indigenous_Units>
-
-
-
-<!-- **************  SENTIENT BEINGS ************** -->
-
-
+	<!-- **************  SENTIENT BEINGS ************** -->
 	<Indigenous_Unit Name="Civilian_Independent_AI">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -120,18 +115,17 @@
 
 	<Indigenous_Unit Name="Civilian_Independent_AI_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Civilian_Independent_AI</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Civilian_Independent_AI_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Civilian_Independent_AI</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
-
-
-
 
 
 	<Indigenous_Unit Name="Ewok_Hunter">
@@ -254,29 +248,34 @@
 
 	<Indigenous_Unit Name="Ewok_A_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_A_Fire_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_A_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_Hunter_B">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Land_Model_Name> NI_EWOK_B.ALO </Land_Model_Name>
 		<Death_Clone>Damage_Force_Whirlwind, Ewok_B_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Ewok_B_Force_Lightning_Death_Clone</Death_Clone>
@@ -286,29 +285,34 @@
 
 	<Indigenous_Unit Name="Ewok_B_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_B</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_B_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_B</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_B_Fire_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_B</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_B_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_B</Variant_Of_Existing_Type>
+
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_Hunter_C">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
+
 		<Land_Model_Name> NI_EWOK_C.ALO </Land_Model_Name>
 		<Death_Clone>Damage_Force_Whirlwind, Ewok_C_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Ewok_C_Force_Lightning_Death_Clone</Death_Clone>
@@ -318,24 +322,28 @@
 
 	<Indigenous_Unit Name="Ewok_C_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_C</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_C_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_C</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_C_Fire_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_C</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_C_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Ewok_Hunter_C</Variant_Of_Existing_Type>
+
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
 	</Indigenous_Unit>
 
@@ -620,8 +628,6 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Swamp_Civilian_B">
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Land_Model_Name> NI_Gmale_swamp_B.ALO </Land_Model_Name>
@@ -657,7 +663,6 @@
 	</Indigenous_Unit>
 
 
-
 	<Indigenous_Unit Name="Swamp_Civilian_C">
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Land_Model_Name> NI_Gmale_swamp_C.ALO </Land_Model_Name>
@@ -691,7 +696,6 @@
 		<Variant_Of_Existing_Type>Swamp_Civilian_C</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
 	</Indigenous_Unit>
-
 
 
 	<!-- This civilian will be selectable/usable by Rebel human or AI players -->
@@ -838,8 +842,6 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Urban_Civilian_B">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<Land_Model_Name> NI_Gmale_Urban_B.ALO </Land_Model_Name>
@@ -875,7 +877,6 @@
 	</Indigenous_Unit>
 
 
-
 	<Indigenous_Unit Name="Urban_Civilian_C">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<Land_Model_Name> NI_Gmale_Urban_C.ALO </Land_Model_Name>
@@ -909,8 +910,6 @@
 		<Variant_Of_Existing_Type>Urban_Civilian_C</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Snow_Civilian_A">
@@ -1053,8 +1052,6 @@
 		<Variant_Of_Existing_Type>Snow_Civilian_A</Variant_Of_Existing_Type>
 		<Affiliation>Pirates</Affiliation>
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Gungan_Warrior">
@@ -1317,9 +1314,6 @@
 	</Indigenous_Unit>
 
 
-
-
-
 	<Indigenous_Unit Name="Wookie_Warrior_Unarmed">
 		<Text_ID>TEXT_INDIG_WOOKIE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -1536,10 +1530,6 @@
 	</Indigenous_Unit>
 
 
-
-
-
-
 	<Indigenous_Unit Name="Jawa_Scout">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_JAWA</Text_ID>
@@ -1675,9 +1665,6 @@
 		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
-
-
-
 
 
 	<Indigenous_Unit Name="Sand_Person_Sniper_A">
@@ -1843,8 +1830,6 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Bothan_Civilian">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -1990,9 +1975,6 @@
 	</Indigenous_Unit>
 
 
-
-
-
 	<Indigenous_Unit Name="Imperial_Elite_Guard">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -2107,8 +2089,6 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Hutt_Civilian">
 		<Text_ID>TEXT_INDIG_HUTT_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -2212,8 +2192,6 @@
 		<Movie_Object>false</Movie_Object>
 
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Twilek_Female">
@@ -2347,9 +2325,6 @@
 	</Indigenous_Unit>
 
 
-
-
-
 	<Indigenous_Unit Name="Geonosian">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -2477,9 +2452,6 @@
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</Indigenous_Unit>
-
-
-
 
 
 	<Indigenous_Unit Name="Sullustan_Civilian">
@@ -2614,8 +2586,6 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Pyngani_Warrior">
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
@@ -2689,7 +2659,7 @@
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
- 		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
@@ -2856,25 +2826,25 @@
 		<Movie_Object>false</Movie_Object>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>DRAIN_LIFE</Type>
-                <Recharge_Seconds>40.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name>
-                <Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated>
-				</Unit_Ability>
+			<Unit_Ability>
+				<Type>DRAIN_LIFE</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name>
+				<Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 
-            <Drain_Life_Ability Name="NightSister_Drain_Life">
-                <Activation_Style> User_Input </Activation_Style>
-                <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
-                <Applicable_Unit_Types />
+			<Drain_Life_Ability Name="NightSister_Drain_Life">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
 
-                <Excluded_Unit_Types>
+				<Excluded_Unit_Types>
 					Droid_R2D2,
 					Droid_C3P0,
 					MPTL_Spotter,
@@ -2886,23 +2856,21 @@
 					Proximity_Mine
 				</Excluded_Unit_Types>
 
-                <Duration_In_Seconds>5</Duration_In_Seconds>
-                <Damage_Per_Second>15</Damage_Per_Second>
-                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
-                <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
-                <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
-                <Drain_Radius> 100.0 </Drain_Radius>
-                <SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
-                <Max_Drain_Victims>4</Max_Drain_Victims>
-                <Should_Heal>No</Should_Heal>
-            </Drain_Life_Ability>
+				<Duration_In_Seconds>5</Duration_In_Seconds>
+				<Damage_Per_Second>15</Damage_Per_Second>
+				<Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
+				<Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+				<Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+				<Drain_Radius> 100.0 </Drain_Radius>
+				<SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
+				<Max_Drain_Victims>4</Max_Drain_Victims>
+				<Should_Heal>No</Should_Heal>
+			</Drain_Life_Ability>
 
 
 		</Abilities>
 
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Noghri_Indigenous">
@@ -2977,7 +2945,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
- 		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
@@ -3033,9 +3001,6 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-
-
-
 
 
 	<Indigenous_Unit Name="Mustafarian_Indigenous">
@@ -3110,7 +3075,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
- 		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
@@ -3166,9 +3131,6 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-
-
-
 
 
 	<Indigenous_Unit Name="Mandalorian_Indigenous">
@@ -3243,7 +3205,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
- 		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
@@ -3301,24 +3263,7 @@
 	</GroundInfantry>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- **************  ANIMAL LIFE  ************** -->
-
+	<!-- **************  ANIMAL LIFE  ************** -->
 
 
 	<Indigenous_Unit Name="Bantha">
@@ -3384,7 +3329,6 @@
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 
 	</Indigenous_Unit>
-
 
 
 	<Indigenous_Unit Name="Wampa">
@@ -3508,9 +3452,6 @@
 	</Indigenous_Unit>
 
 
-
-
-
 	<Indigenous_Unit Name="Sarlacc">
 		<Text_ID>TEXT_INDIG_SARLACC</Text_ID>
 		<Icon_Name>i_button_sarlacc.tga</Icon_Name>
@@ -3614,7 +3555,6 @@
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 	</Indigenous_Unit>
-
 
 
 	<Indigenous_Unit Name="Rancor">
@@ -3743,7 +3683,7 @@
 					Night_Sister,
 					UM06_Night_Sister,
 					Prisoner_Night_Sister,
-                    Wampa,
+					Wampa,
 					Cuddles_The_Rancor
 				</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
@@ -3765,7 +3705,7 @@
 				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
 				<Apply_Damage_Right_To_Left>Yes</Apply_Damage_Right_To_Left>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
 
@@ -3786,7 +3726,7 @@
 				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
 				<Apply_Damage_Right_To_Left>No</Apply_Damage_Right_To_Left>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
 		</Abilities>
@@ -3844,7 +3784,7 @@
 		<Text_ID>TEXT_UNIT_SNOWSPEEDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Bird.ALO</Land_Model_Name>
-        <Movie_Object>false</Movie_Object>
+		<Movie_Object>false</Movie_Object>
 		<Mass>0.985</Mass>
 
 		<Scale_Factor>1.0</Scale_Factor>
@@ -3902,15 +3842,13 @@
 		<Can_Indigenous_Unit_Stop>No</Can_Indigenous_Unit_Stop>
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Bird_Medium_Color">
 		<Text_ID>TEXT_UNIT_SNOWSPEEDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Bird_medium.ALO</Land_Model_Name>
-        <Movie_Object>false</Movie_Object>
+		<Movie_Object>false</Movie_Object>
 		<Mass>0.985</Mass>
 
 		<Scale_Factor>1.0</Scale_Factor>
@@ -3969,15 +3907,13 @@
 		<Can_Indigenous_Unit_Stop>No</Can_Indigenous_Unit_Stop>
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Bird_Light_Color">
 		<Text_ID>TEXT_UNIT_SNOWSPEEDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Bird_light.ALO</Land_Model_Name>
-        <Movie_Object>false</Movie_Object>
+		<Movie_Object>false</Movie_Object>
 		<Mass>0.985</Mass>
 
 		<Scale_Factor>1.0</Scale_Factor>
@@ -4036,8 +3972,6 @@
 		<Can_Indigenous_Unit_Stop>No</Can_Indigenous_Unit_Stop>
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Desert_Sketto">
@@ -4105,8 +4039,6 @@
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Dust_Devil">
@@ -4254,7 +4186,6 @@
 	</Indigenous_Unit>
 
 
-
 	<Indigenous_Unit Name="Womprat">
 		<Text_ID>TEXT_INDIGENOUS_WOMPRAT</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
@@ -4317,7 +4248,6 @@
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 
 	</Indigenous_Unit>
-
 
 
 	<Indigenous_Unit Name="TaunTaun">
@@ -4385,8 +4315,6 @@
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 
 	</Indigenous_Unit>
-
-
 
 
 	<Indigenous_Unit Name="Shaak">
@@ -4702,13 +4630,10 @@
 	</Indigenous_Unit>
 
 
-
-
-
 	<Indigenous_Unit Name="Kamino_Aiwha">
 		<Land_Model_Name>AI_AirWhale.alo</Land_Model_Name>
 		<Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
-        <Movie_Object>false</Movie_Object>
+		<Movie_Object>false</Movie_Object>
 		<Mass>1.0</Mass>
 
 		<Scale_Factor>0.4</Scale_Factor>
@@ -4765,11 +4690,9 @@
 	</Indigenous_Unit>
 
 
-
-
 	<Indigenous_Unit Name="Utapau_Dactillion">
 		<Land_Model_Name>AI_Dactillion.alo</Land_Model_Name>
-        <Movie_Object>false</Movie_Object>
+		<Movie_Object>false</Movie_Object>
 		<Mass>0.985</Mass>
 
 		<Scale_Factor>0.8</Scale_Factor>
@@ -4823,12 +4746,4 @@
 		<Can_Indigenous_Unit_Stop>No</Can_Indigenous_Unit_Stop>
 		<Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
 	</Indigenous_Unit>
-
-
-
-
-
-
-
-
 </Indigenous_Units>

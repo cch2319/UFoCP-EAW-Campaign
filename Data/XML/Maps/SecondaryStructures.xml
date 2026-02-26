@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <SecondaryStructures>
-
 	<SecondaryStructure Name="Secondary_Prison_E">
 		<Text_ID>TEXT_GROUND_SECONDARY_EMPIRE_PRISON</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -320,10 +319,10 @@
 
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 		<Lua_Script>ProximitySpawnTrigger</Lua_Script>
-  </SecondaryStructure>
+	</SecondaryStructure>
 
 
-  <SecondaryStructure Name="Secondary_Heavy_Factory_E">
+	<SecondaryStructure Name="Secondary_Heavy_Factory_E">
 		<Text_ID>TEXT_GROUND_SECONDARY_ABANDONED_HEAVY_FACTORY</Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SECONDARY_FACTORY_E TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -905,7 +904,7 @@
 
 	</SecondaryStructure>
 
-		<StarBase Name="Hutt_Asteroid_Base">
+	<StarBase Name="Hutt_Asteroid_Base">
 		<Text_ID>TEXT_HUTT_STAR_BASE_1</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
@@ -1155,6 +1154,4 @@
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>Yes</Initial_State_Visible_Under_FOW>
 	</SecondaryStructure>
-
-
 </SecondaryStructures>

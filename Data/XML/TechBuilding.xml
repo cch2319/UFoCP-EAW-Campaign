@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <!--  These objects are used for the technical      -->
 <!--  progression of the Empire as well as the      -->
-<!--  the final production of the Death Stat unit.  -->
+<!--  the final production of the Death Star unit.  -->
 <TechBuildings>
 	<TechBuilding Name="DS_Primary_Hyperdrive">
 		<Text_ID>TEXT_DEATHSTAR_PART_SHIELDGEN</Text_ID>
@@ -25,9 +25,7 @@
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02_RECRUITMENT </Encyclopedia_Text>
-
 	</TechBuilding>
-
 
 	<TechBuilding Name="DS_Shield_Gen">
 		<Text_ID>TEXT_DEATHSTAR_PART_SUPERLASER</Text_ID>
@@ -51,9 +49,7 @@
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03_RECRUITMENT </Encyclopedia_Text>
-
 	</TechBuilding>
-
 
 	<TechBuilding Name="DS_Superlaser_Core">
 		<Text_ID>TEXT_DEATHSTAR_PART_DURASTEEL</Text_ID>
@@ -77,9 +73,7 @@
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04_RECRUITMENT </Encyclopedia_Text>
-
 	</TechBuilding>
-
 
 	<TechBuilding Name="DS_Durasteel">
 		<Text_ID>TEXT_DEATHSTAR_PART_HYPERMATTER</Text_ID>
@@ -103,9 +97,7 @@
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05_RECRUITMENT </Encyclopedia_Text>
-
 	</TechBuilding>
-
 
 	<!-- Currently Empire tech levels run from 0 to 4, so this tech is unused. -->
 	<!-- <TechBuilding Name="DS_Hypermatter_Power">
@@ -129,8 +121,5 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05 </Encyclopedia_Text>
-
 	</TechBuilding> -->
-
-
 </TechBuildings>

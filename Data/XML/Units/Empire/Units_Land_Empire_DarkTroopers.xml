@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <Dark_Trooper_Data>
-
-
-<!-- DARK TROOPER PHASE I: Anti-infantry -->
+	<!-- DARK TROOPER PHASE I: Anti-infantry -->
 	<GroundVehicle Name="Dark_Trooper_PhaseI">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P1</Text_ID>
@@ -19,7 +17,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 
-		<Movement_Animation_Speed> .8 </Movement_Animation_Speed> <!--.8-->
+		<Movement_Animation_Speed> .8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
@@ -42,7 +40,7 @@
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX, AFFECTED_BY_SHIELD,WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING,GARRISON_UNIT</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, TARGETING, IDLE, WEAPON, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
 
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
@@ -63,7 +61,7 @@
 		<Projectile_Types>Proj_Dark_Trooper_Blade</Projectile_Types>
 		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames> <!--17-->
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds> <!--.2-->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds> <!--1-->
 
 		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
@@ -132,43 +130,36 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
-		<!--<Custom_Hard_XExtent> 8.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>-->
-
-
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>SPRINT</Type>
 				<Expiration_Seconds> 8.0 </Expiration_Seconds>
 				<Recharge_Seconds> 35.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 1.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 	1.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Dark_Trooper_1</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
 			<Redirect_Blaster_Ability Name="DT1_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
+
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.25</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
 				<Max_Projectile_Redirection_Angle_In_Degrees> 180.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</GroundVehicle>
 
 	<GroundCompany Name="DarkTrooper_P1_Company">
@@ -262,21 +253,7 @@
 	</GroundCompany>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- DARK TROOPER PHASE II: Light Vehicle -->
-
+	<!-- DARK TROOPER PHASE II: Light Vehicle -->
 	<GroundVehicle Name="Dark_Trooper_PhaseII">
 		<LOD_Bias>3</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P2</Text_ID>
@@ -432,33 +409,31 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 			<!--	<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>   -->
 				<SFXEvent_Target_Ability> Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
 			<Redirect_Blaster_Ability Name="DT2_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
+
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.20</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
 				<Max_Projectile_Redirection_Angle_In_Degrees> 180.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Destroyer_Droid, T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</GroundVehicle>
 
 	<GroundCompany Name="DarkTrooper_P2_Company">
@@ -523,46 +498,34 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
 			<Redirect_Blaster_Ability Name="DT2_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
+
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.20</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
 				<Max_Projectile_Redirection_Angle_In_Degrees> 180.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Destroyer_Droid, T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</GroundCompany>
 
 
-
-
-
-
-
-
-
-
-<!-- DARK TROOPER PHASE III: Anti-Structure, Heavy Armor -->
-
-
+	<!-- DARK TROOPER PHASE III: Anti-Structure, Heavy Armor -->
 	<GroundVehicle Name="Dark_Trooper_PhaseIII">
 		<LOD_Bias>2</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P3</Text_ID>
@@ -651,19 +614,13 @@
 
 		<!-- For deployed Missile Launch -->
 		<HardPoints>
-				HP_DarkTrooper_P3_00,
-				HP_DarkTrooper_P3_01,
-				HP_DarkTrooper_P3_02,
-				HP_DarkTrooper_P3_03,
-				HP_DarkTrooper_P3_04,
-				HP_DarkTrooper_P3_05
+			HP_DarkTrooper_P3_00,
+			HP_DarkTrooper_P3_01,
+			HP_DarkTrooper_P3_02,
+			HP_DarkTrooper_P3_03,
+			HP_DarkTrooper_P3_04,
+			HP_DarkTrooper_P3_05
 		</HardPoints>
-
-		<!-- Damage States
-		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
-		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-		-->
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -681,7 +638,7 @@
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Dark_Trooper_3 </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Dark_Trooper_3 </SFXEvent_Assist_Attack>
-		<SFXEvent_Unit_Lost> </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Lost />
 		<SFXEvent_Tactical_Build_Started> Unit_Produce_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
@@ -752,12 +709,11 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<!--	<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>   -->
 					<SFXEvent_Target_Ability> Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -775,12 +731,8 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</GroundVehicle>
-
-
 
 	<GroundCompany Name="DarkTrooper_P3_Company">
 		<LOD_Bias>2</LOD_Bias>
@@ -854,7 +806,6 @@
 				<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_3 </SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -872,17 +823,13 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-
 		</Abilities>
-
 	</GroundCompany>
 
 
-<!-- *****														***** -->
-<!-- ***** The ARC HAMMER - REQUIRED TO BUILD ALL DARK TROOPERS ***** -->
-<!-- *****														***** -->
-
-
+	<!-- *****														***** -->
+	<!-- ***** The ARC HAMMER - REQUIRED TO BUILD ALL DARK TROOPERS ***** -->
+	<!-- *****														***** -->
 	<UniqueUnit Name="Arc_Hammer">
 		<Text_ID>TEXT_UNIT_ARC_HAMMER</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_ARC_HAMMER_02 </Encyclopedia_Text>
@@ -1055,10 +1002,8 @@
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Shield_Arc_Hammer</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
-		</Unit_Ability>
-
+			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</UniqueUnit>
 
 	<UniqueUnit Name="Arc_Hammer_Death_Clone">
@@ -1077,15 +1022,4 @@
 		<Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</UniqueUnit>
-
-
-
-
-
-
-
-
-
-
-
 </Dark_Trooper_Data>

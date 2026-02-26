@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <BWing_Files>
-
-
-
-<!-- **** BASE SHIP INFORMATION **** -->
-
-
+	<!-- **** BASE SHIP INFORMATION **** -->
 	<SpaceUnit Name="B-Wing">
 		<LOD_Bias>10</LOD_Bias>
 
@@ -49,7 +44,7 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		<Armor_Type> Armor_Bomber </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
@@ -132,32 +127,23 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
 
- 		<!-- Unit abilities description -->
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-			<Type>SPOILER_LOCK</Type>
-
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		            1.75</Mod_Multiplier>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.75</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</SpaceUnit>
 
 
-
-
-
-<!-- **** SQUADRON INFORMATION **** -->
-
-
-
-
+	<!-- **** SQUADRON INFORMATION **** -->
 	<Squadron Name="B-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
 		<Text_ID>TEXT_B_WING_SQUADRON</Text_ID>
@@ -207,22 +193,21 @@
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
 
 		<Create_Team_Type> </Create_Team_Type>
-     	<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Max_Squad_Size> 6 </Max_Squad_Size>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 900</Score_Cost_Credits>
 
- 		<!-- Unit abilities description -->
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-			<Type>SPOILER_LOCK</Type>
-
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		            1.75</Mod_Multiplier>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 		 1.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -234,21 +219,11 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 	</Squadron>
 
 	<Squadron Name="BWing_Squadron_Tech_Tree">
 		<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
+
 		<Tech_Level>6</Tech_Level>
 	</Squadron>
-
-
-
-
-
-
-
-
-
-
 </BWing_Files>

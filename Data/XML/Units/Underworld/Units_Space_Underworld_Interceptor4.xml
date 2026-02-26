@@ -1,21 +1,14 @@
 ﻿<?xml version="1.0"?>
-
-
 <Interceptor_IV_Frigate>
-
-
-
-
 	<SpaceUnit Name="Interceptor4_Frigate">
 		<Text_ID>TEXT_UNIT_INTERCEPTOR4_FRIGATE</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate  </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> B-wing TIE_Defender MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text> TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE</Encyclopedia_Text>
+		<Icon_Name>i_button_uv_interceptor4.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> B-wing TIE_Defender MC30_Frigate </Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>UV_InterceptorIV.alo</Space_Model_Name>
-		<Icon_Name>i_button_uv_interceptor4.tga</Icon_Name>
-
 		<Select_Box_Scale>720</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -30,7 +23,7 @@
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.9</Max_Speed>
 		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -42,7 +35,7 @@
 		<OverrideDeceleration> .04 </OverrideDeceleration>
 
 		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
 		<Max_Thrust>2.0</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -75,8 +68,12 @@
 		<AI_Combat_Power>1400</AI_Combat_Power>
 		<Size_Value>8</Size_Value>
 
-		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Behavior>
+			DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED
+		</Behavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA
+		</SpaceBehavior>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
@@ -116,13 +113,13 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Interceptor_IV </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
@@ -133,7 +130,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -151,29 +148,26 @@
 
 		<Death_Clone>Damage_Normal, Interceptor4_Frigate_Death_Clone</Death_Clone>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
 		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
-                <Recharge_Seconds>45</Recharge_Seconds>
-                <Expiration_Seconds>7</Expiration_Seconds>
+				<Recharge_Seconds>45</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
-                <GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-
+				<GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</SpaceUnit>
 
 	<SpaceUnit Name="Interceptor4_Frigate_Death_Clone">
@@ -192,61 +186,4 @@
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Interceptor_IV_Frigate>
