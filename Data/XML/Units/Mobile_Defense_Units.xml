@@ -185,7 +185,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -304,7 +303,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>800</Build_Cost_Credits>
@@ -392,7 +390,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>850</Build_Cost_Credits>

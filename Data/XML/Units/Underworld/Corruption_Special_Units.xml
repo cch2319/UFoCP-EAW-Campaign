@@ -56,7 +56,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -126,7 +125,6 @@
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>200</Build_Cost_Credits>
@@ -240,7 +238,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -314,7 +311,6 @@
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>260</Build_Cost_Credits>
@@ -423,7 +419,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>8</Damage>
@@ -495,7 +490,6 @@
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>72</Damage>
-		<Autoresolve_Health>30</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>250</Build_Cost_Credits>
@@ -609,7 +603,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -682,7 +675,6 @@
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>150</Build_Cost_Credits>
@@ -796,7 +788,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -866,7 +857,6 @@
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>175</Build_Cost_Credits>
@@ -979,7 +969,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -1050,7 +1039,6 @@
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>225</Build_Cost_Credits>
@@ -1165,7 +1153,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -1237,7 +1224,6 @@
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>200</Build_Cost_Credits>
@@ -1349,7 +1335,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -1421,7 +1406,6 @@
 		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>150</Build_Cost_Credits>
@@ -1626,7 +1610,6 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<Autoresolve_Health>300</Autoresolve_Health>
 		<Damage>35</Damage>
 		<Affiliation>Underworld</Affiliation>
 
@@ -1693,7 +1676,6 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>50</Damage>
 
 		<Affiliation>Underworld</Affiliation>
@@ -1740,10 +1722,10 @@
 
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, -25.0</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Expiration_Seconds>10</Expiration_Seconds>
 

@@ -36,7 +36,6 @@
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Affiliation>Underworld</Affiliation>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -151,7 +150,6 @@
 		</LandBehavior>
 
 		<Affiliation>Underworld</Affiliation>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -244,7 +242,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>45</Damage>
-		<Autoresolve_Health>135</Autoresolve_Health>
 
 		<Affiliation>Underworld</Affiliation>
 

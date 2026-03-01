@@ -11,7 +11,7 @@
 		<Icon_Name>i_button_UI_IG88.tga</Icon_Name>
 		<Scale_Factor>1.8</Scale_Factor>
 
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN,ION_STUN_EFFECT, STUNNABLE </LandBehavior>
 
 		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
@@ -51,13 +51,11 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 
 		<Always_Spawn_In_Orbit>NO</Always_Spawn_In_Orbit>
 
-		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -431,7 +429,6 @@
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>3</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

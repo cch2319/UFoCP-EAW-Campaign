@@ -49,7 +49,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>25</Size_Value>
 		<Damage>5</Damage>
-		<Sensor_Range>40</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>60</Tactical_Health> <!-- hitpoints halved to make the unit more paper-like -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -217,7 +216,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>15</Tactical_Health> <!-- reduced from 30 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -388,7 +386,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>40</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -573,7 +570,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -784,7 +780,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>48</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1161,7 +1156,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>8</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>70</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1348,7 +1342,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1661,7 +1654,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -1796,7 +1788,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>20</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>

@@ -29,7 +29,6 @@
 		<Is_Supercrusher>Yes</Is_Supercrusher>
 		<Property_Flags>IsSupercrusher</Property_Flags>
 
-		<Autoresolve_Health>450</Autoresolve_Health>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Mass>1.0</Mass>
@@ -351,7 +350,6 @@
 
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<Ranking_In_Category>7</Ranking_In_Category>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 
@@ -1186,7 +1184,6 @@
 
 		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>8</Damage>
-		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>190</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1364,7 +1361,6 @@
 
 		<Armor_Type> Armor_MPTL </Armor_Type>
 		<Damage>21</Damage>
-		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1542,8 +1538,8 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Text_ID>TEXT_UNIT_REBEL_MPTL_SPOTTER</Text_ID>
-		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against />
+		<Encyclopedia_Vulnerable_To />
 		<Encyclopedia_Text>TEXT_TOOLTIP_SPOTTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 
@@ -1582,7 +1578,6 @@
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>4</Damage>
-		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>20</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1646,7 +1641,7 @@
 				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
 				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
 				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -2326,7 +2321,6 @@
 		<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Size_Value>60</Size_Value>
 		<Damage>10</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Shield_Points>100</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
 		<Shield_Refresh_Rate>8</Shield_Refresh_Rate>
@@ -2602,7 +2596,6 @@
 		<Armor_Type> Armor_Mauler </Armor_Type>
 		<Size_Value>60</Size_Value>
 		<Damage>5</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -2766,7 +2759,6 @@
 		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
 		<Land_Model_Name>rv_ywing.alo</Land_Model_Name>
 		<Mass>0.985</Mass>
-		<Autoresolve_Health>40.0</Autoresolve_Health>
 
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
@@ -2843,7 +2835,6 @@
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
 		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
-		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Max_Thrust>0.1</Max_Thrust>
@@ -2920,8 +2911,8 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Text_ID>TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID</Text_ID>
-		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against />
+		<Encyclopedia_Vulnerable_To />
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>w_bespin_collector_DROID.ALO</Land_Model_Name>
@@ -2956,7 +2947,6 @@
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>10</Size_Value>
 		<Damage>4</Damage>
-		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>20</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>

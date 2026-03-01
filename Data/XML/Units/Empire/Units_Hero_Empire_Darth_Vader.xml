@@ -56,11 +56,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -94,7 +92,7 @@
 
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
@@ -349,11 +347,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -387,7 +383,7 @@
 
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
@@ -627,7 +623,6 @@
 		<Affiliation>Empire</Affiliation>
 		<Shield_Points>150</Shield_Points>
 		<Tactical_Health>600</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>700</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -731,13 +726,13 @@
 		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Tactical_Health>300</Tactical_Health>
-		<Fire_Inaccuracy_Distance>Fighter,	 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber,	 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette,	 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate,	 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital,	 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super,	 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</UniqueUnit>
 
 
@@ -748,13 +743,12 @@
 		<Affiliation>Empire</Affiliation>
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Darth_Vader</Company_Units>
@@ -808,7 +802,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Affiliation>Empire</Affiliation>
 		<Damage>100</Damage>
-		<Combat_Power_Value>0</Combat_Power_Value>
 
 		<Tech_Level>5</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -928,7 +921,6 @@
 
 
 		<Formation_Priority>1</Formation_Priority>
-		<Autoresolve_Health>1600</Autoresolve_Health>
 		<Damage>50</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<AI_Combat_Power>3000</AI_Combat_Power>

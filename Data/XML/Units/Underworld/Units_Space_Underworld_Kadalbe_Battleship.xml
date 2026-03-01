@@ -52,7 +52,6 @@
 
 		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Tactical_Health>7500</Tactical_Health>
 		<Shield_Points>2200</Shield_Points>
 		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>

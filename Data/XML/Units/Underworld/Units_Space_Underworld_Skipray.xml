@@ -47,7 +47,6 @@
 		<Is_Bomber>yes</Is_Bomber>
 		<Damage>5</Damage>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
 
 		<SpaceBehavior>
 			ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA
@@ -162,7 +161,6 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>Nos</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
 
 		<Affiliation>Underworld</Affiliation>

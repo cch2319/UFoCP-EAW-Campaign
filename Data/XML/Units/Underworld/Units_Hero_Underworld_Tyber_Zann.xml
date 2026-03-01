@@ -50,7 +50,6 @@
 		<Size_Value>10</Size_Value>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>600</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -348,7 +347,6 @@
 
 		<Tactical_Health>600</Tactical_Health>
 
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -431,7 +429,6 @@
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -481,7 +478,6 @@
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -527,7 +523,7 @@
 		<Variant_Of_Existing_Type>Underworld_Infantry_Droid_Shuttle</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
-		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Text />
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
@@ -592,7 +588,6 @@
 
 		<Tech_Level>99</Tech_Level>
 		<No_Colorization_Color />
-		<Autoresolve_Health>10000</Autoresolve_Health>
 		<Tactical_Health>9000</Tactical_Health>
 		<Shield_Points>2400</Shield_Points>
 		<Shield_Refresh_Rate>55</Shield_Refresh_Rate>

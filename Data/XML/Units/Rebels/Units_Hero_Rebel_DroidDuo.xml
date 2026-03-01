@@ -44,7 +44,6 @@
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Tactical_Health>300</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Damage>3</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -53,10 +52,7 @@
 		<SurfaceFX_Name>R2D2_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet />
 		<Size_Value>75</Size_Value>
-		<Autoresolve_Health>300</Autoresolve_Health>
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
@@ -216,7 +212,6 @@
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Tactical_Health>300</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Damage>3</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -225,10 +220,7 @@
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet />
 		<Size_Value>75</Size_Value>
-		<Autoresolve_Health>300</Autoresolve_Health>
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
@@ -326,7 +318,6 @@
 		<Affiliation>Rebel</Affiliation>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>2</Damage>
 		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
 		<Energy_Capacity>400</Energy_Capacity>
@@ -335,7 +326,6 @@
 		<Is_Bomber>no</Is_Bomber>		<!-- AM1994: TODO: NOT ON Gallofree_Transport.  May be unnecessary. -->
 		<Political_Control>0</Political_Control>		<!-- AM1994: TODO: NOT ON Gallofree_Transport.  May be unnecessary. -->
 		<Squadron_Capacity>0</Squadron_Capacity>		<!-- AM1994: TODO: NOT ON Gallofree_Transport.  May be unnecessary. -->
-		<Number_per_Squadron>1</Number_per_Squadron>		<!-- AM1994: TODO: NOT ON Gallofree_Transport.  May be unnecessary. -->
 		<Size_Value>120</Size_Value>
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
@@ -413,13 +403,12 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 
 		<!-- IMPORTANT FOR THE TEAM -->
 		<Behavior> DUMMY_GROUND_COMPANY </Behavior>
@@ -439,7 +428,7 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Available_In_Skirmish>no</Available_In_Skirmish>
 		<Can_Be_Only_One>true</Can_Be_Only_One>
-		<Lua_Script></Lua_Script>
+		<Lua_Script />
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -490,7 +479,7 @@
 		<Show_Name>No</Show_Name>
 
 		<Behavior> TEAM, UNIT_AI </Behavior>
-		<LandBehavior> SELECTABLE,  REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, ABILITY_COUNTDOWN, GARRISON_UNIT </LandBehavior>
+		<LandBehavior> SELECTABLE, REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, ABILITY_COUNTDOWN, GARRISON_UNIT </LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -527,7 +516,7 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range> 5.0 </Activation_Min_Range>
 				<Activation_Max_Range> 30.0 </Activation_Max_Range>
-				<Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Categories />
 
 				<Applicable_Unit_Types>
 					E_Ground_Turbolaser_Tower,
@@ -554,7 +543,7 @@
 				<!--	  		<Damage_Amount> 0.0 </Damage_Amount> -->
 				<!--	  		<Damage_Application_Time_In_Secs> 2.3893 </Damage_Application_Time_In_Secs> -->
 				<Lightning_Effect_Name> Hack_Electicity_Zaps </Lightning_Effect_Name>
-				<Lightning_Source_Bone_Name></Lightning_Source_Bone_Name>
+				<Lightning_Source_Bone_Name />
 				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
 				<Lightning_Max_Targets> 1 </Lightning_Max_Targets>
 				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
@@ -575,7 +564,7 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range> 5.0 </Activation_Min_Range>
 				<Activation_Max_Range> 30.0 </Activation_Max_Range>
-				<Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Categories />
 
 				<!-- NOTE: we'll specify Empire units here since we want them be repaired when they are hacked -->
 				<!-- NOTE: allso add captured clones of empire vehicles (vehicle thief ability) -->
@@ -618,14 +607,14 @@
 				<!--				<Damage_Amount> 0.0 </Damage_Amount> -->
 				<!--				<Damage_Application_Time_In_Secs> 2.3893 </Damage_Application_Time_In_Secs> -->
 				<Lightning_Effect_Name> Repair_Electicity_Zaps </Lightning_Effect_Name>
-				<Lightning_Source_Bone_Name></Lightning_Source_Bone_Name>
+				<Lightning_Source_Bone_Name />
 				<Lightning_Target_Bone_Name> B_Turret </Lightning_Target_Bone_Name>
 				<Lightning_Max_Targets> 1 </Lightning_Max_Targets>
 				<Lightning_Targets_Radius> 0.0 </Lightning_Targets_Radius>
 				<SFXEvent_Activate> Unit_Force_Lightning </SFXEvent_Activate>				<!-- STUB PLACEHOLDER for Frank -->
 				<SFXEvent_Target_Affected />
 				<Target_Particle_Effect> Force_Lightning_Smoke </Target_Particle_Effect>				<!-- STUB PLACEHOLDER for Gary -->
-				<Target_Particle_Bone_Name></Target_Particle_Bone_Name>
+				<Target_Particle_Bone_Name />
 				<Target_Light_Effect_Type> Linear_Pulse </Target_Light_Effect_Type>
 				<Target_Light_Effect_Color> 0.3, 0.3, 0.8 </Target_Light_Effect_Color>
 				<Target_Light_Effect_Color2 />

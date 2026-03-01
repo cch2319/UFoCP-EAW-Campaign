@@ -73,7 +73,6 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<Autoresolve_Health>1600</Autoresolve_Health>
 		<Damage>50</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<AI_Combat_Power>3000</AI_Combat_Power>
@@ -175,7 +174,6 @@
 
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 
 		<Behavior>

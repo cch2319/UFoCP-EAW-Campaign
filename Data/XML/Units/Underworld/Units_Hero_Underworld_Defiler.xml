@@ -45,7 +45,6 @@
 		<Affiliation>Underworld</Affiliation>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Tactical_Health>300</Tactical_Health>
-		<Autoresolve_Health>30</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
@@ -112,7 +111,7 @@
 
 		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
 		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Infection, 		Infantry_Melt_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
@@ -205,7 +204,6 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>5</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -312,7 +310,6 @@
 		<Affiliation>Underworld</Affiliation>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Tactical_Health>300</Tactical_Health>
-		<Autoresolve_Health>30</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
@@ -469,7 +466,6 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Affiliation>Underworld</Affiliation>
-		<Combat_Power_Value>5</Combat_Power_Value>
 		<Tech_Level>99</Tech_Level>
 		<Required_Planets />
 

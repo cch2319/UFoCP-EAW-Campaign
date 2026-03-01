@@ -53,7 +53,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>55</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -199,7 +198,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>75</Damage>
-		<Autoresolve_Health>135</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>450</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
@@ -225,7 +223,6 @@
 		</Company_Units>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 		<Scale_Factor>5.0</Scale_Factor>
-		<GUI_Offset>0 0 5</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>

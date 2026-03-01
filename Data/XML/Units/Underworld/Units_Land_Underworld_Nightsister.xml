@@ -49,7 +49,6 @@
 		<Armor_Type> Armor_ATAT </Armor_Type>
 		<Damage>90</Damage>
 		<Tactical_Health>900</Tactical_Health>
-		<Autoresolve_Health>900</Autoresolve_Health>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -246,7 +245,6 @@
 
 		<Damage>500</Damage><!--jdg was 90-->
 		<Tactical_Health>1200</Tactical_Health>
-		<Autoresolve_Health>1200</Autoresolve_Health>
 
 		<Projectile_Types>Proj_UM06_Nightsister_Rancor_Hit</Projectile_Types>
 	</GroundVehicle>
@@ -305,7 +303,6 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -335,8 +332,8 @@
 		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Night_Sister</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Night_Sister</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Assist_Move />
+		<SFXEvent_Assist_Attack />
 
 		<!--<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>-->
 		<Death_SFXEvent_Start_Die />
@@ -421,7 +418,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
-		<Autoresolve_Health>450</Autoresolve_Health>
 		<LOD_Bias>1</LOD_Bias>
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 
@@ -480,7 +476,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
-		<Autoresolve_Health>450</Autoresolve_Health>
 
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>0</Build_Cost_Credits>

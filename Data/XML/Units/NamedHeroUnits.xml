@@ -52,10 +52,8 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
-		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -234,10 +232,8 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
-		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Armor_Type> Armor_Hero </Armor_Type>
@@ -326,11 +322,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>MonCalimari</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>70</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 
@@ -452,13 +445,10 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
 		<Political_Faction>Empire</Political_Faction>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>100</Damage>
-		<Autoresolve_Health>800</Autoresolve_Health>
 		<Tactical_Health>500</Tactical_Health>
 
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
@@ -723,11 +713,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Anaxes</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
-		<Autoresolve_Health>450</Autoresolve_Health>
 		<Lua_Script>Veers</Lua_Script>
 
 		<Has_Land_Evaluator>False</Has_Land_Evaluator> <!-- land evaluator is on his at-at -->
@@ -811,11 +798,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Lua_Script>Tarkin</Lua_Script>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -879,8 +863,6 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>4</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>NalHutta</Spawn_Planet>
 		<Size_Value>10</Size_Value>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -907,7 +889,6 @@
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>50</Damage>
-		<Autoresolve_Health>400</Autoresolve_Health>
 		<Tactical_Health>400</Tactical_Health>
 
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
@@ -1098,12 +1079,10 @@
 		<Scale_Factor>1.75</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>2</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>25</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -1147,7 +1126,6 @@
 		<Is_Squashable> No </Is_Squashable>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		<Spawn_Planet>Tatooine</Spawn_Planet>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1293,13 +1271,10 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Size_Value>75</Size_Value>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Damage>50</Damage>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Tactical_Health>400</Tactical_Health>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -1463,11 +1438,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Alderaan_Expansion</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>100</Damage>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<CategoryMask> NonCombatHero </CategoryMask>
@@ -1572,10 +1544,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>100</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1788,11 +1758,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Anaxes</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Unique_Space_Unit>Accuser_Star_Destroyer</Unique_Space_Unit>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -1895,7 +1862,6 @@
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>50</Damage>
-		<Autoresolve_Health>400</Autoresolve_Health>
 		<Tactical_Health>300</Tactical_Health>
 
 		<Projectile_Types>Proj_Infiltrator_Blaster</Projectile_Types>
@@ -2043,11 +2009,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Tatooine</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>60</Damage>
-		<Autoresolve_Health>250</Autoresolve_Health>
 
 		<SFXEvent_Select>Unit_Select_Luke</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Luke</SFXEvent_Move>
@@ -2089,11 +2052,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Corellia</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>60</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<Icon_Name>i_button_general_dodonna.tga</Icon_Name>

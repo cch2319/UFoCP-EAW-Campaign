@@ -63,7 +63,6 @@
 
 		<Armor_Type> Armor_ATAT </Armor_Type>
 		<Tactical_Health>800</Tactical_Health>
-		<Autoresolve_Health>800</Autoresolve_Health>
 		<Shield_Points>900</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -243,7 +242,6 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>500</Combat_Power_Value>
 		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>

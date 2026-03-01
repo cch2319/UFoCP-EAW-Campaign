@@ -11,7 +11,6 @@
 		<Scale_Factor>0.70</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
-		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>700</Shield_Points>
 		<Tactical_Health>3600</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
@@ -54,8 +53,6 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>10</Squadron_Capacity>
-		<Transport_Capacity>8</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2200</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2200</AI_Combat_Power>
@@ -84,7 +81,6 @@
 		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
 		<GUI_Model_Name>RV_NebulonB.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -186,7 +182,6 @@
 	<SpaceUnit Name="Nebulon_Death_Clone">
 		<Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
 		<Space_Model_Name>RV_nebulonb_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>RV_nebulonb_D_death_00.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>0.76</Scale_Factor>
@@ -212,7 +207,6 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>0.7</Scale_Factor>
-		<Moniker>Alliance_Assault_Frigate.txt</Moniker>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
@@ -235,7 +229,6 @@
 		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
-		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>900</Shield_Points>
 		<Tactical_Health>3000</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
@@ -258,8 +251,6 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>12</Squadron_Capacity>
-		<Transport_Capacity>12</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
@@ -288,7 +279,6 @@
 		<Icon_Name>i_button_alliance_assault_frigate.tga</Icon_Name>
 		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -390,7 +380,6 @@
 	<SpaceUnit Name="Assault_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID>
 		<Space_Model_Name>RV_AssaultFrigate_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>RV_Assaultfrigate.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>0.7</Scale_Factor>
@@ -437,7 +426,6 @@
 		<Armor_Type> Armor_Victory_Class </Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
-		<Autoresolve_Health>3400</Autoresolve_Health>
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>3400</Tactical_Health>  <!-- was 2600 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
@@ -457,8 +445,6 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>15</Squadron_Capacity>
-		<Transport_Capacity>12</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3800</AI_Combat_Power>
@@ -485,7 +471,6 @@
 		<Icon_Name>i_button_victory_class.tga</Icon_Name>
 		<GUI_Model_Name>EV_VictoryStarDestroyer.alo</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -582,7 +567,6 @@
 	<SpaceUnit Name="Victory_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
 		<Space_Model_Name>EV_VictoryStarDestroyer_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_VictoryStarDestroyer.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Scale_Factor>0.85</Scale_Factor>
@@ -645,7 +629,6 @@
 		<Armor_Type> Armor_Acclamator </Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>30</Damage>
-		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Shield_Points>600</Shield_Points>
 		<Tactical_Health>2000</Tactical_Health>
 		<Shield_Refresh_Rate>62</Shield_Refresh_Rate> <!-- was 50 -->
@@ -665,8 +648,6 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>10</Squadron_Capacity>
-		<Transport_Capacity>8</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
@@ -700,7 +681,6 @@
 		<Icon_Name>i_button_acclimator_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>EV_Acclamator.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -797,7 +777,6 @@
 	<SpaceUnit Name="Acclamator_Death_Clone">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
 		<Space_Model_Name>EV_Acclamator_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_Acclamator.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Scale_Factor>0.85</Scale_Factor>
@@ -852,7 +831,6 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>700</Tactical_Health>
@@ -863,11 +841,8 @@
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
-		<Is_Interdictor>Yes</Is_Interdictor>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>5</Squadron_Capacity>
-		<Transport_Capacity>4</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
@@ -897,7 +872,6 @@
 		<Icon_Name>i_button_interdictor_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>EV_Interdictor.alo</GUI_Model_Name>
 		<GUI_Distance>900</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1001,7 +975,6 @@
 	<SpaceUnit Name="Interdictor_Death_Clone">
 		<Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
 		<Space_Model_Name>EV_Interdictor_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_Interdictor.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Scale_Factor>1</Scale_Factor>
@@ -1029,7 +1002,6 @@
 		<Mass>0.999</Mass>
 		<Scale_Factor>0.4</Scale_Factor>
 		<Damage>30</Damage>
-		<Autoresolve_Health>3200</Autoresolve_Health>
 		<Shield_Points>700</Shield_Points>
 		<Tactical_Health>3200</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
@@ -1063,8 +1035,6 @@
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Squadron_Capacity>10</Squadron_Capacity>
-		<Transport_Capacity>8</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>1400</AI_Combat_Power>
 		<Size_Value>8</Size_Value>
 		<Override_Bounty_SP>1800</Override_Bounty_SP>
@@ -1174,7 +1144,6 @@
 	<SpaceUnit Name="Pirate_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_PIRATE_FRIGATE</Text_ID>
 		<Space_Model_Name>NV_Pirate_frigate_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>NV_Pirate_frigate.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>.5</Scale_Factor>
@@ -1245,7 +1214,6 @@
 		<Mass>0.999</Mass>
 		<Scale_Factor>0.25</Scale_Factor>
 		<Damage>30</Damage>
-		<Autoresolve_Health>2600</Autoresolve_Health>
 		<Shield_Points>400</Shield_Points>
 		<Tactical_Health>600</Tactical_Health>
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate> <!-- This is the key number to tune for the mission-->
@@ -1278,8 +1246,6 @@
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Squadron_Capacity>10</Squadron_Capacity>
-		<Transport_Capacity>8</Transport_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>100000</AI_Combat_Power> <!-- The AI should be deterred from attacking this-->
 		<Size_Value>8</Size_Value>
 
@@ -1297,9 +1263,7 @@
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-		<HardPoints>
-
-		</HardPoints>
+		<HardPoints />
 
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>

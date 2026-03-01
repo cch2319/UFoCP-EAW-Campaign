@@ -12,8 +12,7 @@
 		<Icon_Name>i_button_ei_darktrooper_one.tga</Icon_Name>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-        <Ranking_In_Category>7</Ranking_In_Category>
-		<Autoresolve_Health>200</Autoresolve_Health>
+		<Ranking_In_Category>7</Ranking_In_Category>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 
@@ -78,7 +77,7 @@
 		<Death_Persistence_Duration> 2 </Death_Persistence_Duration>
 		<Death_Explosions_End>Small_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<SFXEvent_Select>Unit_Select_Dark_Trooper_1</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Dark_Trooper_1</SFXEvent_Move>
@@ -88,10 +87,10 @@
 		<SFXEvent_Fire>Unit_Dark_Trooper_Blade_Swing</SFXEvent_Fire>
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Dark_Trooper_1 </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Dark_Trooper_1 </SFXEvent_Assist_Attack>
-		<SFXEvent_Unit_Lost> </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Lost />
 		<SFXEvent_Tactical_Build_Started> Unit_Produce_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
@@ -136,7 +135,7 @@
 				<Type>SPRINT</Type>
 				<Expiration_Seconds> 8.0 </Expiration_Seconds>
 				<Recharge_Seconds> 35.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 	1.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Dark_Trooper_1</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -174,7 +173,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
 
 		<Build_Cost_Credits>500</Build_Cost_Credits>
@@ -224,7 +222,7 @@
 				<Type>SPRINT</Type>
 				<Expiration_Seconds> 12.0 </Expiration_Seconds>
 				<Recharge_Seconds> 35.0 </Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Dark_Trooper_1</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -257,7 +255,7 @@
 	<GroundVehicle Name="Dark_Trooper_PhaseII">
 		<LOD_Bias>3</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P2</Text_ID>
-		<Encyclopedia_Good_Against> MPTL Destroyer_Droid  </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> MPTL Destroyer_Droid </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
@@ -267,8 +265,7 @@
 		<Land_Model_Anim_Override_Name>EI_DARKTROOPER_TWO.ALO</Land_Model_Anim_Override_Name>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-        <Ranking_In_Category>7</Ranking_In_Category>
-		<Autoresolve_Health>200</Autoresolve_Health>
+		<Ranking_In_Category>7</Ranking_In_Category>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.7</Scale_Factor>
 
@@ -333,7 +330,7 @@
 		<Targeting_Fire_Inaccuracy> Structure, 3.0 </Targeting_Fire_Inaccuracy>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.05</Death_Fade_Time>
 
@@ -346,10 +343,10 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Dark_Trooper_2 </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Dark_Trooper_2 </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Unit_Lost> </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Lost />
 		<SFXEvent_Tactical_Build_Started> Unit_Produce_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
 		<MovementClass>Infantry</MovementClass>
@@ -410,7 +407,7 @@
 				<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
-			<!--	<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>   -->
+				<!--	<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>   -->
 				<SFXEvent_Target_Ability> Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
@@ -439,7 +436,7 @@
 	<GroundCompany Name="DarkTrooper_P2_Company">
 		<LOD_Bias>3</LOD_Bias>
 		<Text_ID>TEXT_TOOLTIP_DARKTROOPER_P2_COMPANY</Text_ID>
-		<Encyclopedia_Good_Against> MPTL Destroyer_Droid  </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> MPTL Destroyer_Droid </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Plex_Soldier Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
@@ -448,7 +445,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
 
 		<Build_Cost_Credits>750</Build_Cost_Credits>
@@ -530,15 +526,14 @@
 		<LOD_Bias>2</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P3</Text_ID>
 		<Encyclopedia_Good_Against> T4B_Tank MZ8_Pulse_Cannon_Tank </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Land_Model_Name>EI_DARKTROOP_THREE.ALO</Land_Model_Name>
 		<Icon_Name>i_button_ei_darktrooper_three.tga</Icon_Name>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-        <Ranking_In_Category>7</Ranking_In_Category>
-		<Autoresolve_Health>200</Autoresolve_Health>
+		<Ranking_In_Category>7</Ranking_In_Category>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 
@@ -628,7 +623,7 @@
 		<Death_Explosions_End>Small_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<SFXEvent_Select>Unit_Select_Dark_Trooper_3</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Dark_Trooper_3</SFXEvent_Move>
@@ -641,7 +636,7 @@
 		<SFXEvent_Unit_Lost />
 		<SFXEvent_Tactical_Build_Started> Unit_Produce_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Troops_Arc_Hammer </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> Vehicle | AntiVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Infantry</MovementClass>
@@ -694,7 +689,7 @@
 		<FormationSpacing> 1 </FormationSpacing>
 		<FormationRaggedness> 2.5 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
-        <Must_Face_Target_To_Attack_When_Deployed>No</Must_Face_Target_To_Attack_When_Deployed>
+		<Must_Face_Target_To_Attack_When_Deployed>No</Must_Face_Target_To_Attack_When_Deployed>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -711,7 +706,7 @@
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<!--	<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_2 </SFXEvent_Target_Ability>   -->
-					<SFXEvent_Target_Ability> Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability> Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -738,7 +733,7 @@
 		<LOD_Bias>2</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P3</Text_ID>
 		<Encyclopedia_Good_Against> T4B_Tank MZ8_Pulse_Cannon_Tank </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ei_darktrooper_three.tga</Icon_Name>
@@ -746,7 +741,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
 
 		<Build_Cost_Credits>900</Build_Cost_Credits>
@@ -802,7 +796,7 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability> Unit_Rocket_Jump_Dark_Trooper_3 </SFXEvent_Target_Ability>
 				<Effective_Radius> -1.0 </Effective_Radius>
 			</Unit_Ability>
@@ -883,7 +877,6 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 
-		<Autoresolve_Health>6500</Autoresolve_Health>
 		<Tactical_Health>3800</Tactical_Health>
 		<Shield_Points>1000</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
@@ -951,7 +944,7 @@
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Arc_Hammer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>

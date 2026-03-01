@@ -47,7 +47,6 @@
 		<Required_Planets>
 			MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story
 		</Required_Planets>
-		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Tactical_Health>7000</Tactical_Health>
 		<Shield_Points>1800</Shield_Points>
 		<Shield_Refresh_Rate>48</Shield_Refresh_Rate>

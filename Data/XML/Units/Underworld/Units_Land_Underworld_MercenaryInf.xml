@@ -47,7 +47,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>10</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>35</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -241,7 +240,6 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>45</Damage>
-		<Autoresolve_Health>135</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>320</Build_Cost_Credits>
 		<Build_Time_Seconds>8</Build_Time_Seconds>

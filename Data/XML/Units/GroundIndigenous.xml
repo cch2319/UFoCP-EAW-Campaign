@@ -48,7 +48,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -175,7 +175,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -396,7 +396,7 @@
 		<Affiliation>Neutral</Affiliation>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -536,7 +536,7 @@
 		<Affiliation>Neutral</Affiliation>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -749,7 +749,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -961,7 +961,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -1102,7 +1102,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -1235,7 +1235,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -1355,7 +1355,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -1464,7 +1464,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>8</Damage>
@@ -1578,7 +1578,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -1714,7 +1714,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -1879,7 +1879,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2023,7 +2023,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
@@ -2138,7 +2138,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hutts</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2241,7 +2241,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2373,7 +2373,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>5</Damage>
@@ -2501,7 +2501,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2634,7 +2634,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2766,7 +2766,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>3</Damage>
@@ -2919,7 +2919,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>6</Damage>
@@ -3049,7 +3049,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>6</Damage>
@@ -3179,7 +3179,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>6</Damage>
@@ -3304,7 +3304,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -3367,7 +3366,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>25</Damage>
@@ -3483,7 +3482,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<Affiliation>Sarlacc</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Hero </Armor_Type>
@@ -3595,7 +3594,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Hostile</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
-		<IsBuildable>No</IsBuildable>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Default </Armor_Type>
@@ -4224,7 +4223,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4295,7 +4293,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 
 		<Victory_Relevant>no</Victory_Relevant>
@@ -4358,7 +4355,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4423,7 +4419,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4492,7 +4487,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4587,7 +4581,6 @@
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Size_Value>150</Size_Value>
 		<Damage>1</Damage>
-		<Sensor_Range>80</Sensor_Range>
 		<Tactical_Health>50</Tactical_Health>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>

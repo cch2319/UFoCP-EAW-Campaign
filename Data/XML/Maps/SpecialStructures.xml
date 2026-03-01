@@ -8,7 +8,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Icon_Name>i_button_ion_cannon.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ION_CANNON_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ION_CANNON_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
@@ -99,7 +99,7 @@
 		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Ion_Cannon_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
@@ -137,7 +137,6 @@
 		<Size_Value>90</Size_Value>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>4</Tech_Level>
-		<Is_Interdictor>Yes</Is_Interdictor>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -178,11 +177,11 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Death_Clone>Damage_Normal, E_Gravity_Well_Station_Death_Clone</Death_Clone>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -190,18 +189,18 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 
-        <Unit_Abilities_Data SubObjectList="Yes">
-            <!-- Primary ability -->
-            <Unit_Ability>
-                <Type>INTERDICT</Type>
-                <Disable_Movement>Yes</Disable_Movement>
-                <Active_By_Default>Yes</Active_By_Default>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+				<Active_By_Default>Yes</Active_By_Default>
 
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-                <SFXEvent_GUI_Unit_Ability_Deactivated />
-            </Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
 
-        </Unit_Abilities_Data>
+		</Unit_Abilities_Data>
 
 	</SpecialStructure>
 
@@ -272,9 +271,9 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_JAMMING_STATION_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_JAMMING_STATION_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -344,9 +343,9 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_JAMMING_STATION_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_JAMMING_STATION_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -426,7 +425,7 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Radar_Icon_Name />
 		<Radar_Range_Icon_Name>i_radar_shield.tga</Radar_Range_Icon_Name> <!-- icon for when the shield's up -->
 
@@ -438,7 +437,7 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Custom_Soft_Footprint_Radius> 40 </Custom_Soft_Footprint_Radius>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -534,7 +533,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Radar_Icon_Name />
 		<Radar_Range_Icon_Name>i_radar_shield.tga.tga</Radar_Range_Icon_Name> <!-- icon for when the shield's up -->
 
@@ -545,7 +544,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -603,7 +602,6 @@
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -620,7 +618,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
@@ -649,7 +647,7 @@
 			</System_Spy_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LRS_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LRS_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -663,8 +661,8 @@
 
 	<SpecialStructure Name="Orbital_Sensor_Pod_00">
 		<Text_ID>TEXT_ORBITAL_SENSOR</Text_ID>
-        <Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00  </Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
@@ -685,7 +683,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Score_Cost_Credits> 200 </Score_Cost_Credits>
@@ -725,7 +723,7 @@
 		<SpaceBehavior>REVEAL</SpaceBehavior>
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HINT</Behavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Tactical_Health>30</Tactical_Health>
@@ -771,7 +769,6 @@
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -789,7 +786,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -819,7 +816,7 @@
 			</System_Spy_Ability>
 		</Abilities>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LRS_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LRS_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -867,7 +864,6 @@
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
 		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
 		<GUI_Distance>850</GUI_Distance>
-		<GUI_Offset>0 0 20</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -891,7 +887,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -905,7 +901,7 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CANTINA_00 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00  </MP_Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 6000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -967,7 +963,6 @@
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
 		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
 		<GUI_Distance>850</GUI_Distance>
-		<GUI_Offset>0 0 20</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -991,7 +986,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1005,7 +1000,7 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CANTINA_00 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00  </MP_Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 6000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -1067,7 +1062,6 @@
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
 		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
 		<GUI_Distance>850</GUI_Distance>
-		<GUI_Offset>0 0 20</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1091,7 +1085,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1105,7 +1099,7 @@
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CANTINA_00 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00  </MP_Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_CANTINA_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 6000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -1188,7 +1182,7 @@
 
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1198,7 +1192,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HUTT_PALACE_00 TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HUTT_PALACE_00 TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 6000 </Score_Cost_Credits>
 
@@ -1271,7 +1265,7 @@
 
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1319,7 +1313,7 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -1337,8 +1331,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1397,15 +1391,15 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Enhanced_Base_Shield_Upgrade_NoPre,
+			EL_Enhanced_Base_Shield_Upgrade_NoPre,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				EL_Enhanced_Base_Shield_Upgrade,
+			EL_Enhanced_Base_Shield_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -1471,7 +1465,7 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Radar_Range_Icon_Name>i_radar_shield.tga</Radar_Range_Icon_Name>
 
 		<Select_Box_Scale>180</Select_Box_Scale>
@@ -1497,8 +1491,8 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
-  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
- 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1555,15 +1549,15 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
-				RL_Enhanced_Base_Shield_Upgrade_NoPre,
+			RL_Enhanced_Base_Shield_Upgrade_NoPre,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				RL_Enhanced_Base_Shield_Upgrade,
+			RL_Enhanced_Base_Shield_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -1607,7 +1601,7 @@
 		<Base_Shield_Radius>370</Base_Shield_Radius>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-    	<Affiliation>Underworld</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 	</SpecialStructure>
 
 
@@ -1629,7 +1623,7 @@
 		<Base_Shield_Radius>370</Base_Shield_Radius>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-    	<Affiliation>Pirates</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 	</SpecialStructure>
 
 
@@ -1661,7 +1655,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -1765,7 +1759,7 @@
 		<Obstacle_Y_Offset>-110.0</Obstacle_Y_Offset>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -1809,7 +1803,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAV_GEN_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAV_GEN_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 22000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -1896,7 +1890,7 @@
 		</Destruction_Survivors>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<!--
 		<Obstacle_Width>140.0</Obstacle_Width>
@@ -1920,7 +1914,7 @@
 		<SFXEvent_Select>Structure_Hyper_Select_SFX</SFXEvent_Select>
 
 
-      <Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1932,7 +1926,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 30000 </Score_Cost_Credits>
 		<Abilities SubObjectList="Yes">
@@ -2002,7 +1996,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -2020,7 +2014,6 @@
 		<Icon_Name>i_button_infiltrator_training_facility.tga</Icon_Name>
 		<GUI_Model_Name>RB_BARRACKS.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
-		<GUI_Offset>0 0 20</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2078,7 +2071,7 @@
 	<SpecialStructure Name="Ground_Magnepulse_Cannon">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_MAGNEPULSE_CANNON</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MAGNEPULSE_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MAGNEPULSE_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 
 		<GUI_Row> 0 </GUI_Row>
@@ -2142,7 +2135,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
@@ -2213,7 +2206,7 @@
 				<!-- Oksana: Make sure it matches this tag: <Projectile_Fire_Recharge_Seconds> or it will ASSERT-->
 				<Recharge_Seconds>30</Recharge_Seconds>
 
-	         <Area_Effect_Decal_Distance> 200.0 </Area_Effect_Decal_Distance>
+				<Area_Effect_Decal_Distance> 200.0 </Area_Effect_Decal_Distance>
 				<!--AJA - This broke the rendering code when I tried to enable it. <Effective_Radius>1500.0</Effective_Radius>-->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -2261,7 +2254,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.125  0.125</Radar_Icon_Size>
+		<Radar_Icon_Size>0.125 0.125</Radar_Icon_Size>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
@@ -2294,8 +2287,8 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				EL_Increased_Production_L1_Upgrade,
-				EL_Increased_Production_L2_Upgrade,
+			EL_Increased_Production_L1_Upgrade,
+			EL_Increased_Production_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<CategoryMask> Structure </CategoryMask>
@@ -2337,8 +2330,8 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MINING_00  </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01  </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MINING_00 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<!-- The ground structures have this data which looks like it's space only because the
@@ -2395,7 +2388,7 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
-		<Radar_Icon_Size>0.125  0.125</Radar_Icon_Size>
+		<Radar_Icon_Size>0.125 0.125</Radar_Icon_Size>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -2404,8 +2397,8 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				RL_Increased_Production_L1_Upgrade,
-				RL_Increased_Production_L2_Upgrade,
+			RL_Increased_Production_L1_Upgrade,
+			RL_Increased_Production_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
@@ -2474,8 +2467,8 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MINING_00  </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01  </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_MINING_00 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 	</SpecialStructure>
@@ -2485,7 +2478,7 @@
 	<!-- Template for Turbolaser Towers as they exist in land tactical battles. -->
 	<SpecialStructure Name="Template_Ground_Turbolaser_Tower">
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 
 		<GUI_Row> 0 </GUI_Row>
@@ -2589,12 +2582,12 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
-        <!-- Turn the turbolaser off when base power goes out -->
+		<!-- Turn the turbolaser off when base power goes out -->
 		<Requires_Base_Power>True</Requires_Base_Power>
 
 		<CategoryMask> Structure | AntiVehicle</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
@@ -2684,7 +2677,7 @@
 	<!-- Template for the Turbolaser Defenses galactic base enhancement.  -->
 	<SpecialStructure Name="Template_Galactic_Turbolaser_Tower_Defenses">
 		<Text_ID>TEXT_TURBOLASER_DEFENSE_UPGRADE</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 
 		<GUI_Row> 0 </GUI_Row>
@@ -2768,7 +2761,6 @@
 
 
 
-
 	<!-- New Customized Base Buildings -->
 
 	<SpecialStructure Name="E_Ground_Barracks">
@@ -2800,7 +2792,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -2870,21 +2862,21 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Increased_Mobility_Upgrade,
-				EL_Stamina_Boost_Upgrade,
-				EL_Weatherproof_Upgrade,
+			EL_Increased_Mobility_Upgrade,
+			EL_Stamina_Boost_Upgrade,
+			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Imperial_Stormtrooper_Squad,
-				Imperial_Light_Scout_Squad,
-				Field_Com_Empire_Team,
-				DarkTrooper_P1_Company,
-				DarkTrooper_P2_Company,
-				DarkTrooper_P3_Company,
-				EL_Increased_Mobility_Upgrade,
-				EL_Weatherproof_Upgrade,
+			Imperial_Stormtrooper_Squad,
+			Imperial_Light_Scout_Squad,
+			Field_Com_Empire_Team,
+			DarkTrooper_P1_Company,
+			DarkTrooper_P2_Company,
+			DarkTrooper_P3_Company,
+			EL_Increased_Mobility_Upgrade,
+			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<!--<Tactical_Buildable_Objects_Multiplayer>
@@ -2975,7 +2967,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -3047,21 +3039,21 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_More_Garrisons_L1_Upgrade,
-				RL_Weatherproof_Upgrade,
+			RL_Combat_Armor_L1_Upgrade,
+			RL_Combat_Armor_L2_Upgrade,
+			RL_More_Garrisons_L1_Upgrade,
+			RL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_Infantry_Squad,
-				Rebel_Tank_Buster_Squad,
-				Field_Com_Rebel_Team,
-				Rebel_Infiltrator_Team,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+			Rebel_Infantry_Squad,
+			Rebel_Tank_Buster_Squad,
+			Field_Com_Rebel_Team,
+			Rebel_Infiltrator_Team,
+			RL_Combat_Armor_L1_Upgrade,
+			RL_Combat_Armor_L2_Upgrade,
+			RL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 
@@ -3152,7 +3144,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.25</Scale_Factor>
@@ -3221,22 +3213,22 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Light_Reflective_Armor_L1_Upgrade,
-				EL_Light_Reflective_Armor_L2_Upgrade,
-				EL_Enhanced_Reactors_L1_Upgrade,
-				EL_Enhanced_Reactors_L2_Upgrade,
-				EL_Weatherproof_Upgrade,
+			EL_Light_Reflective_Armor_L1_Upgrade,
+			EL_Light_Reflective_Armor_L2_Upgrade,
+			EL_Enhanced_Reactors_L1_Upgrade,
+			EL_Enhanced_Reactors_L2_Upgrade,
+			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Imperial_Anti_Infantry_Brigade,
-				Imperial_Heavy_Scout_Squad,
-				Imperial_Anti_Aircraft_Company,
-				Empire_MDU_Company,
-				EL_Light_Reflective_Armor_L1_Upgrade,
-				EL_Light_Reflective_Armor_L2_Upgrade,
-				EL_Enhanced_Reactors_L1_Upgrade,
-				EL_Enhanced_Reactors_L2_Upgrade,
+			Imperial_Anti_Infantry_Brigade,
+			Imperial_Heavy_Scout_Squad,
+			Imperial_Anti_Aircraft_Company,
+			Empire_MDU_Company,
+			EL_Light_Reflective_Armor_L1_Upgrade,
+			EL_Light_Reflective_Armor_L2_Upgrade,
+			EL_Enhanced_Reactors_L1_Upgrade,
+			EL_Enhanced_Reactors_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<!--<Tactical_Buildable_Objects_Multiplayer>
@@ -3325,7 +3317,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.25</Scale_Factor>
@@ -3410,22 +3402,22 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
-				RL_Light_Armor_L1_Upgrade,
-				RL_Light_Armor_L2_Upgrade,
-				RL_Enhanced_Repulsors_L1_Upgrade,
-				RL_Enhanced_Repulsors_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+			RL_Light_Armor_L1_Upgrade,
+			RL_Light_Armor_L2_Upgrade,
+			RL_Enhanced_Repulsors_L1_Upgrade,
+			RL_Enhanced_Repulsors_L2_Upgrade,
+			RL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
-	    <Tactical_Buildable_Objects_Multiplayer>
+		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_Light_Tank_Brigade,
-				Rebel_Speeder_Wing,
-				Rebel_MDU_Company,
-				RL_Light_Armor_L1_Upgrade,
-				RL_Light_Armor_L2_Upgrade,
-				RL_Enhanced_Repulsors_L1_Upgrade,
-				RL_Enhanced_Repulsors_L2_Upgrade,
+			Rebel_Light_Tank_Brigade,
+			Rebel_Speeder_Wing,
+			Rebel_MDU_Company,
+			RL_Light_Armor_L1_Upgrade,
+			RL_Light_Armor_L2_Upgrade,
+			RL_Enhanced_Repulsors_L1_Upgrade,
+			RL_Enhanced_Repulsors_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 
@@ -3495,7 +3487,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.50</Scale_Factor>
@@ -3565,24 +3557,24 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Heavy_Reflective_Armor_L1_Upgrade,
-				EL_Heavy_Reflective_Armor_L2_Upgrade,
-				EL_Improved_ATAT_Reactors_L1_Upgrade,
-				EL_Improved_ATAT_Reactors_L2_Upgrade,
-				EL_Weatherproof_Upgrade,
+			EL_Heavy_Reflective_Armor_L1_Upgrade,
+			EL_Heavy_Reflective_Armor_L2_Upgrade,
+			EL_Improved_ATAT_Reactors_L1_Upgrade,
+			EL_Improved_ATAT_Reactors_L2_Upgrade,
+			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Imperial_Armor_Group,
-				Imperial_Artillery_Corp,
-				Imperial_Heavy_Assault_Company,
-				Lancet_Air_Wing,
-				HAV_Juggernaut_Company,
-				EL_Heavy_Reflective_Armor_L1_Upgrade,
-				EL_Heavy_Reflective_Armor_L2_Upgrade,
-				EL_Improved_ATAT_Reactors_L1_Upgrade,
-				EL_Improved_ATAT_Reactors_L2_Upgrade,
+			Imperial_Armor_Group,
+			Imperial_Artillery_Corp,
+			Imperial_Heavy_Assault_Company,
+			Lancet_Air_Wing,
+			HAV_Juggernaut_Company,
+			EL_Heavy_Reflective_Armor_L1_Upgrade,
+			EL_Heavy_Reflective_Armor_L2_Upgrade,
+			EL_Improved_ATAT_Reactors_L1_Upgrade,
+			EL_Improved_ATAT_Reactors_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<!--<Tactical_Buildable_Objects_Multiplayer>
@@ -3599,7 +3591,7 @@
 				EL_Improved_ATAT_Reactors_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
-      <AI_Combat_Power>800</AI_Combat_Power>
+		<AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, -1</Reserve_Spawned_Units_Tech_0>
 
@@ -3673,7 +3665,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.50</Scale_Factor>
@@ -3743,7 +3735,7 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
-      <AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>600</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>MPTL, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>MPTL, -1</Reserve_Spawned_Units_Tech_0>
 
@@ -3757,26 +3749,26 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
-				RL_Heavy_Armor_L1_Upgrade,
-				RL_Heavy_Armor_L2_Upgrade,
-				RL_Improved_Treads_L1_Upgrade,
-				RL_Improved_Treads_L2_Upgrade,
-				RL_Improved_T4B_Damage_L1_Upgrade,
-				RL_Improved_T4B_Damage_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+			RL_Heavy_Armor_L1_Upgrade,
+			RL_Heavy_Armor_L2_Upgrade,
+			RL_Improved_Treads_L1_Upgrade,
+			RL_Improved_Treads_L2_Upgrade,
+			RL_Improved_T4B_Damage_L1_Upgrade,
+			RL_Improved_T4B_Damage_L2_Upgrade,
+			RL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Rebel_Heavy_Tank_Brigade,
-				Rebel_Artillery_Brigade,
-				Gallofree_HTT_Company,
-				RL_Heavy_Armor_L1_Upgrade,
-				RL_Heavy_Armor_L2_Upgrade,
-				RL_Improved_Treads_L1_Upgrade,
-				RL_Improved_Treads_L2_Upgrade,
-				RL_Improved_T4B_Damage_L1_Upgrade,
-				RL_Improved_T4B_Damage_L2_Upgrade,
+			Rebel_Heavy_Tank_Brigade,
+			Rebel_Artillery_Brigade,
+			Gallofree_HTT_Company,
+			RL_Heavy_Armor_L1_Upgrade,
+			RL_Heavy_Armor_L2_Upgrade,
+			RL_Improved_Treads_L1_Upgrade,
+			RL_Improved_Treads_L2_Upgrade,
+			RL_Improved_T4B_Damage_L1_Upgrade,
+			RL_Improved_T4B_Damage_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<!--<Tactical_Buildable_Objects_Multiplayer>
@@ -3857,7 +3849,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.0</Scale_Factor>
@@ -3924,7 +3916,7 @@
 		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
-      <AI_Combat_Power>800</AI_Combat_Power>
+		<AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_AT_Walker, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, -1</Reserve_Spawned_Units_Tech_0>
 
@@ -3976,7 +3968,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -4045,7 +4037,7 @@
 		<Starting_Spawned_Units_Tech_0>Field_Com_Empire_Team, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Field_Com_Empire_Team, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -4093,7 +4085,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -4163,7 +4155,7 @@
 		<Starting_Spawned_Units_Tech_0>Field_Com_Rebel_Team, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Field_Com_Rebel_Team, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00, TEXT_ENCYCLOPEDIA_ACADEMY_01  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ACADEMY_00, TEXT_ENCYCLOPEDIA_ACADEMY_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
@@ -4214,7 +4206,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -4282,27 +4274,27 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_RESEARCH_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_RESEARCH_00 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESEARCH_00, MP_TEXT_ENCYCLOPEDIA_RESEARCH_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 12000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
-	    <Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Reinforced_Structures_Upgrade,
-				EL_Enhanced_Turret_Firepower_L1_Upgrade,
-				EL_Enhanced_Turret_Firepower_L2_Upgrade,
-				EL_Weatherproof_Upgrade,
+			EL_Reinforced_Structures_Upgrade,
+			EL_Enhanced_Turret_Firepower_L1_Upgrade,
+			EL_Enhanced_Turret_Firepower_L2_Upgrade,
+			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
-	    <Tactical_Buildable_Objects_Multiplayer>
+		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				EL_Bombing_Run_Use_Upgrade,
-				EL_Reinforced_Structures_Upgrade,
-				EL_Enhanced_Turret_Firepower_L1_Upgrade,
-				EL_Enhanced_Turret_Firepower_L2_Upgrade,
-				EL_Planetary_Bombard_Use_Upgrade,
+			EL_Bombing_Run_Use_Upgrade,
+			EL_Reinforced_Structures_Upgrade,
+			EL_Enhanced_Turret_Firepower_L1_Upgrade,
+			EL_Enhanced_Turret_Firepower_L2_Upgrade,
+			EL_Planetary_Bombard_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Abilities SubObjectList="Yes">
@@ -4368,7 +4360,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>140</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -4432,7 +4424,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_RESEARCH_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_RESEARCH_00 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_RESEARCH_00, MP_TEXT_ENCYCLOPEDIA_RESEARCH_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 12000 </Score_Cost_Credits>
@@ -4442,11 +4434,11 @@
 		cannot currently be built from galactic mode for the Rebels. -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				RL_Bombing_Run_Use_Upgrade,
-				RL_Reinforced_Structures_Upgrade,
-				RL_Enhanced_Turret_Firepower_L1_Upgrade,
-				RL_Enhanced_Turret_Firepower_L2_Upgrade,
-				RL_Planetary_Bombard_Use_Upgrade,
+			RL_Bombing_Run_Use_Upgrade,
+			RL_Reinforced_Structures_Upgrade,
+			RL_Enhanced_Turret_Firepower_L1_Upgrade,
+			RL_Enhanced_Turret_Firepower_L2_Upgrade,
+			RL_Planetary_Bombard_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Abilities SubObjectList="Yes">
@@ -4525,7 +4517,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.2 0.1</Radar_Icon_Size>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -4536,7 +4528,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -4623,7 +4614,7 @@
 		<SFXEvent_Unit_Lost> EHD_Power_Generator_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
 
-		 <SFXEvent_Engine_Cinematic_Focus_Loop> Structure_Power_Generator_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Structure_Power_Generator_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </MP_Encyclopedia_Text>
@@ -4676,7 +4667,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.2 0.1</Radar_Icon_Size>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -4687,7 +4678,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -4826,7 +4816,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
-      <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -4836,7 +4826,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -4868,7 +4858,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -4897,17 +4886,17 @@
 		<SFXEvent_Unit_Lost> EHD_Comm_Array_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Select> Structure_Comm_Array_Select_SFX </SFXEvent_Select>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
-		 <Abilities SubObjectList="Yes">
- 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
- 				<Activation_Style>Skirmish_Automatic</Activation_Style>
- 				<Affects_All_Allies>True</Affects_All_Allies>
- 			</Enable_Radar_Ability>
+		<Abilities SubObjectList="Yes">
+			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Affects_All_Allies>True</Affects_All_Allies>
+			</Enable_Radar_Ability>
 			<Battlefield_Modifier_Ability Name="E_Comm_Array_Slower_Reinforcements_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Reinforcement_Time_Multiplier>2.0</Reinforcement_Time_Multiplier>
@@ -4946,7 +4935,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
- 		</Abilities>
+		</Abilities>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Communications_Array_R">
@@ -4977,7 +4966,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -5009,7 +4998,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -5038,17 +5026,17 @@
 		<SFXEvent_Unit_Lost> RHD_Comm_Array_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Select> Structure_Comm_Array_Select_SFX </SFXEvent_Select>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
- 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
- 				<Activation_Style>Skirmish_Automatic</Activation_Style>
- 				<Affects_All_Allies>True</Affects_All_Allies>
- 			</Enable_Radar_Ability>
+			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Affects_All_Allies>True</Affects_All_Allies>
+			</Enable_Radar_Ability>
 			<Battlefield_Modifier_Ability Name="R_Comm_Array_Slower_Reinforcements_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Reinforcement_Time_Multiplier>2.0</Reinforcement_Time_Multiplier>
@@ -5092,8 +5080,6 @@
 
 
 
-
-
 	<SpecialStructure Name="Imperial_Prison_Facility">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_PRISON_FACILITY</Text_ID>
@@ -5110,7 +5096,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Icon_Name>i_button_nb_prison.tga</Icon_Name>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
@@ -5129,7 +5115,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -5182,7 +5167,7 @@
 	<SpecialStructure Name="Imperial_Prison_Dathomir_Singing_Mountain">
 		<Text_ID>TEXT_STRUCTURE_SINGING_MOUNTAIN_PRISON</Text_ID>
 		<Variant_Of_Existing_Type>Imperial_Prison_Facility</Variant_Of_Existing_Type>
-		<Destruction_Survivors>  </Destruction_Survivors>
+		<Destruction_Survivors />
 		<Tactical_Health>1000</Tactical_Health>
 		<Death_Clone_Is_Obstacle> false </Death_Clone_Is_Obstacle>
 	</SpecialStructure>
@@ -5190,7 +5175,7 @@
 	<SpecialStructure Name="Imperial_Prison_Dathomir_Frenzied_River">
 		<Text_ID>TEXT_STRUCTURE_FRENZIED_RIVER_PRISON</Text_ID>
 		<Variant_Of_Existing_Type>Imperial_Prison_Facility</Variant_Of_Existing_Type>
-		<Destruction_Survivors>  </Destruction_Survivors>
+		<Destruction_Survivors />
 		<Tactical_Health>1000</Tactical_Health>
 		<Death_Clone_Is_Obstacle> false </Death_Clone_Is_Obstacle>
 	</SpecialStructure>
@@ -5198,7 +5183,7 @@
 	<SpecialStructure Name="Imperial_Prison_Dathomir_Misty_Falls">
 		<Text_ID>TEXT_STRUCTURE_MISTY_FALLS_PRISON</Text_ID>
 		<Variant_Of_Existing_Type>Imperial_Prison_Facility</Variant_Of_Existing_Type>
-		<Destruction_Survivors>  </Destruction_Survivors>
+		<Destruction_Survivors />
 		<Tactical_Health>1000</Tactical_Health>
 		<Death_Clone_Is_Obstacle> false </Death_Clone_Is_Obstacle>
 	</SpecialStructure>
@@ -5206,7 +5191,7 @@
 
 	<SpecialStructure Name="Imperial_Prison_Kashyyyk">
 		<Variant_Of_Existing_Type>Imperial_Prison_Facility</Variant_Of_Existing_Type>
-<!--		<Destruction_Survivors> Kashyyyk_Wookie_War_Party, 1.0 </Destruction_Survivors> Spawned by script for mission EM05-->
+		<!--		<Destruction_Survivors> Kashyyyk_Wookie_War_Party, 1.0 </Destruction_Survivors> Spawned by script for mission EM05-->
 		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
 		<Tactical_Health>9000</Tactical_Health>
 	</SpecialStructure>
@@ -5234,7 +5219,7 @@
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -5249,13 +5234,12 @@
 		<Scale_Factor>.66</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
-		<Autoresolve_Health>1000</Autoresolve_Health>
 
 		<Destruction_Survivors>
 			Pirate_Survivors_Small, 1.0
 			Pirate_Survivors_Medium, 1.0
 			Pirate_Survivors_Large, 1.0
-		 </Destruction_Survivors>
+		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -5339,7 +5323,7 @@
 		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -5360,16 +5344,16 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-				Han_Solo_Team_Land_MP,
-				Obi_Wan_Team,
-				Droids_Team,
-				Katarn_Team,
-				Luke_Skywalker_Jedi_Team,
-				Yoda_Team,
-				Garm_Bel_Iblis_Team,
-				RC_Level_Two_Tech_Upgrade,
-				RC_Level_Three_Tech_Upgrade,
-			</Tactical_Buildable_Objects_Multiplayer>
+			Han_Solo_Team_Land_MP,
+			Obi_Wan_Team,
+			Droids_Team,
+			Katarn_Team,
+			Luke_Skywalker_Jedi_Team,
+			Yoda_Team,
+			Garm_Bel_Iblis_Team,
+			RC_Level_Two_Tech_Upgrade,
+			RC_Level_Three_Tech_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Select_Box_Scale>300</Select_Box_Scale>
 
@@ -5384,7 +5368,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>2800</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -5414,7 +5397,7 @@
 		<SFXEvent_Select>Structure_Command_Center_Select_SFX</SFXEvent_Select>
 
 
-		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL  </Encyclopedia_Text>
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL_00, MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
@@ -5462,7 +5445,7 @@
 		</Abilities>
 
 
-    </SpecialStructure>
+	</SpecialStructure>
 
 	<SpecialStructure Name="Imperial_Command_Center">
 		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
@@ -5494,7 +5477,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -5516,13 +5499,13 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Boba_Fett_Team_Land_MP,
-				Darth_Team_Land_MP,
-				General_Veers_Team,
-				Emperor_Palpatine_Team,
-				Mara_Jade_Team,
-				EC_Level_Two_Tech_Upgrade,
-				EC_Level_Three_Tech_Upgrade,
+			Boba_Fett_Team_Land_MP,
+			Darth_Team_Land_MP,
+			General_Veers_Team,
+			Emperor_Palpatine_Team,
+			Mara_Jade_Team,
+			EC_Level_Two_Tech_Upgrade,
+			EC_Level_Three_Tech_Upgrade,
 
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -5537,7 +5520,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>2800</Tactical_Health>
-		<Autoresolve_Health>1600</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -5567,7 +5549,7 @@
 		<SFXEvent_Select>Structure_Command_Center_Select_SFX</SFXEvent_Select>
 
 
-		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_01 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
@@ -5613,11 +5595,11 @@
 			</Redirect_Blaster_Ability>
 
 		</Abilities>
-    </SpecialStructure>
+	</SpecialStructure>
 
 
 
-    <SpecialStructure Name="Civilian_Command_Center">
+	<SpecialStructure Name="Civilian_Command_Center">
 		<Variant_Of_Existing_Type>Imperial_Command_Center</Variant_Of_Existing_Type>
 		<Tactical_Health>100</Tactical_Health>
 		<Affiliation>Neutral</Affiliation>
@@ -5685,7 +5667,6 @@
 		<Icon_Name>i_button_ion_cannon.tga</Icon_Name>
 		<GUI_Model_Name>RB_IONCANNON.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Angles>63.44 0 0</GUI_Angles>
 		<GUI_Velocity>45</GUI_Velocity>
 		<GUI_X_Rot>90</GUI_X_Rot>
@@ -5776,7 +5757,7 @@
 	-->
 
 
-<!--  TEST of destroyable asteroids getting progressivly smaller -->
+	<!--  TEST of destroyable asteroids getting progressivly smaller -->
 	<SpecialStructure Name="Destroyable_Asteroid_Small">
 		<Text_ID>TEXT_DESTROYABLE_ASTEROID</Text_ID>
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
@@ -5979,7 +5960,6 @@
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -5989,7 +5969,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
@@ -6022,7 +6002,6 @@
 
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
-		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
 
@@ -6076,7 +6055,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
@@ -6109,7 +6088,6 @@
 
 		<Shield_Points>800</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
-		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
 
@@ -6163,7 +6141,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
@@ -6181,7 +6159,7 @@
 		<Shield_Points>200</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Pirate_Defense_Satellite_Laser">
@@ -6200,12 +6178,11 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
-		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
 
@@ -6259,7 +6236,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
 
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>

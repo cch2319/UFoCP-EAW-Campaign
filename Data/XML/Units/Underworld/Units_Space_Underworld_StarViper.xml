@@ -30,7 +30,6 @@
 		<Affiliation>Underworld</Affiliation>
 		<Shield_Points>40</Shield_Points>
 		<Tactical_Health>60</Tactical_Health>
-		<Autoresolve_Health>160</Autoresolve_Health>
 		<Damage>12</Damage>
 		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -44,7 +43,6 @@
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>5</Number_per_Squadron>
 		<Size_Value>5</Size_Value>
 
 		<SpaceBehavior>
@@ -222,7 +220,6 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -302,7 +299,6 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -358,7 +354,7 @@
 				<Type>BUZZ_DROIDS</Type>
 				<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated />
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 		</Unit_Abilities_Data>

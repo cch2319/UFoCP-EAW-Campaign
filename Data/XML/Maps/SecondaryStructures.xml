@@ -3,7 +3,7 @@
 	<SecondaryStructure Name="Secondary_Prison_E">
 		<Text_ID>TEXT_GROUND_SECONDARY_EMPIRE_PRISON</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SECONDARY_PRISON  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SECONDARY_PRISON </Encyclopedia_Text>
 		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_PRISON_DESTROY </Secondary_Objective>
 		<Land_Model_Name>NB_Prison.ALO</Land_Model_Name>
 		<Icon_Name>i_button_nb_prison.tga</Icon_Name>
@@ -20,7 +20,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -37,7 +37,6 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
@@ -98,7 +97,7 @@
 		<Icon_Name>i_button_r_officer_academy.tga</Icon_Name>
 		<Text_ID>TEXT_GROUND_SECONDARY_REBEL_TRAINING</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SECONDARY_TRAINING  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SECONDARY_TRAINING </Encyclopedia_Text>
 		<Secondary_Objective> TEXT_TACTICAL_SECONDARY_TRAINING_DESTROY </Secondary_Objective>
 		<Land_Model_Name>RB_Barracks_small.alo</Land_Model_Name>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -112,7 +111,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -125,7 +124,6 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
@@ -210,7 +208,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -226,7 +224,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
-		<Destruction_Survivors>  </Destruction_Survivors>
+		<Destruction_Survivors />
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -269,7 +267,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -281,7 +279,6 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -342,10 +339,10 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -417,10 +414,10 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -488,7 +485,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Scale_Factor>0.5</Scale_Factor>
 
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
 		<Tactical_Health>700</Tactical_Health>
 		<Behavior> CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
@@ -524,7 +521,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -532,7 +529,7 @@
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00 </Encyclopedia_Text>
 		<Score_Cost_Credits> 3500 </Score_Cost_Credits>
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
@@ -557,7 +554,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -669,50 +666,50 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				EL_Stamina_Boost_Upgrade,
-				EL_Increased_Mobility_Upgrade,
-				EL_Enhanced_Reactors_L1_Upgrade,
-				EL_Enhanced_Reactors_L2_Upgrade,
-				EL_Heavy_Reflective_Armor_L1_Upgrade,
-				EL_Heavy_Reflective_Armor_L2_Upgrade,
-				EL_Weatherproof_Upgrade,
+			EL_Stamina_Boost_Upgrade,
+			EL_Increased_Mobility_Upgrade,
+			EL_Enhanced_Reactors_L1_Upgrade,
+			EL_Enhanced_Reactors_L2_Upgrade,
+			EL_Heavy_Reflective_Armor_L1_Upgrade,
+			EL_Heavy_Reflective_Armor_L2_Upgrade,
+			EL_Weatherproof_Upgrade,
 			Rebel,
-				RL_Combat_Armor_L1_Upgrade,
-				RL_Combat_Armor_L2_Upgrade,
-				RL_Enhanced_Repulsors_L1_Upgrade,
-				RL_Enhanced_Repulsors_L2_Upgrade,
-				RL_Improved_Treads_L1_Upgrade,
-				RL_Improved_Treads_L2_Upgrade,
-				RL_Weatherproof_Upgrade,
+			RL_Combat_Armor_L1_Upgrade,
+			RL_Combat_Armor_L2_Upgrade,
+			RL_Enhanced_Repulsors_L1_Upgrade,
+			RL_Enhanced_Repulsors_L2_Upgrade,
+			RL_Improved_Treads_L1_Upgrade,
+			RL_Improved_Treads_L2_Upgrade,
+			RL_Weatherproof_Upgrade,
 			Underworld,
-				UL_Black_Market_Shielding_L1_Upgrade,
-				UL_MDU_Armor_Plating_L1_Upgrade,
-				UL_Smuggled_Droid_Systems_L1_Upgrade,
-				UL_Weapon_Boost_L1_Upgrade,
-				UL_Ability_Recharge_L1_Upgrade
+			UL_Black_Market_Shielding_L1_Upgrade,
+			UL_MDU_Armor_Plating_L1_Upgrade,
+			UL_Smuggled_Droid_Systems_L1_Upgrade,
+			UL_Weapon_Boost_L1_Upgrade,
+			UL_Ability_Recharge_L1_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				E_Magnetically_Sealed_Structure_Upgrade,
-				E_Secure_Area_Upgrade,
+			E_Magnetically_Sealed_Structure_Upgrade,
+			E_Secure_Area_Upgrade,
 			Rebel,
-				R_Magnetically_Sealed_Structure_Upgrade,
-				R_Secure_Area_Upgrade,
+			R_Magnetically_Sealed_Structure_Upgrade,
+			R_Secure_Area_Upgrade,
 			Underworld,
-				U_Magnetically_Sealed_Structure_Upgrade,
-				U_Secure_Area_Upgrade,
+			U_Magnetically_Sealed_Structure_Upgrade,
+			U_Secure_Area_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
@@ -723,7 +720,6 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -754,9 +750,9 @@
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 	</SecondaryStructure>
 
-		<SecondaryStructure Name="N_Gravity_Well_Station">
+	<SecondaryStructure Name="N_Gravity_Well_Station">
 		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Behavior>CAPTURE_POINT, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -772,7 +768,6 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
 		<Tech_Level>0</Tech_Level>
-		<Is_Interdictor>Yes</Is_Interdictor>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -814,7 +809,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -840,7 +835,7 @@
 
 	<SecondaryStructure Name="N_Remote_Sensor_Pod">
 		<Text_ID>TEXT_REMOTE_SENSOR_POD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_REMOTE_SENSOR_POD  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_REMOTE_SENSOR_POD </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Behavior>CAPTURE_POINT, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -870,7 +865,7 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
@@ -918,7 +913,6 @@
 
 		<Is_Dummy>No</Is_Dummy>
 		<Affiliation>Hutts</Affiliation>
-		<IsBuildable>No</IsBuildable>
 		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Size_Value>10</Size_Value>
 		<Tech_Level>9</Tech_Level>
@@ -944,7 +938,6 @@
 
 		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>
 
-		<Autoresolve_Health>750</Autoresolve_Health>
 		<Tactical_Health>1600</Tactical_Health>
 		<Shield_Points>300</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
@@ -984,8 +977,8 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
 		<Radar_Icon_Name>i_radar_station1_p.tga</Radar_Icon_Name>
 		<Score_Cost_Credits> 1500</Score_Cost_Credits>
 	</StarBase>
@@ -1024,27 +1017,27 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Empire_Pirate_IPV,
-				Empire_Pirate_Frigate,
-				Empire_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Empire_Squadron,
+			Empire_Pirate_IPV,
+			Empire_Pirate_Frigate,
+			Empire_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Empire_Squadron,
 			Rebel,
-				Rebel_Pirate_IPV,
-				Rebel_Pirate_Frigate,
-				Rebel_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Rebel_Squadron,
+			Rebel_Pirate_IPV,
+			Rebel_Pirate_Frigate,
+			Rebel_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Rebel_Squadron,
 			Underworld,
-				Underworld_Pirate_IPV,
-				Jedi_Cruiser_U,
-				Underworld_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Underworld_Squadron,
+			Underworld_Pirate_IPV,
+			Jedi_Cruiser_U,
+			Underworld_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Underworld_Squadron,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Tech_Level>0</Tech_Level>
 
 		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Select> Structure_Light_Factory_Select_SFX </SFXEvent_Select>
-		<SFXEvent_Unit_Under_Attack> </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Under_Attack />
 
 		<HardPoints>
 			HP_Pirate_Base_Fighter_Bay_00_DUMMY,
@@ -1088,7 +1081,7 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Variant_Of_Existing_Type>Orbital_Construction_Pod</Variant_Of_Existing_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Armor_Type>  Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Behavior>CAPTURE_POINT, DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
@@ -1108,41 +1101,41 @@
 		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-				Empire_Pirate_IPV,
-				Empire_Pirate_Frigate,
-				Empire_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Empire_Squadron,
+			Empire_Pirate_IPV,
+			Empire_Pirate_Frigate,
+			Empire_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Empire_Squadron,
 			Rebel,
-				Rebel_Pirate_IPV,
-				Rebel_Pirate_Frigate,
-				Rebel_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Rebel_Squadron,
+			Rebel_Pirate_IPV,
+			Rebel_Pirate_Frigate,
+			Rebel_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Rebel_Squadron,
 			Underworld,
-				Underworld_Pirate_IPV,
-				Jedi_Cruiser_U,
-				Underworld_Pirate_Fighter_Squadron,
-				Z95_Headhunter_Underworld_Squadron,
+			Underworld_Pirate_IPV,
+			Jedi_Cruiser_U,
+			Underworld_Pirate_Fighter_Squadron,
+			Z95_Headhunter_Underworld_Squadron,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 
 		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
 		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
 
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
-        <Ownership_Sticks>Yes</Ownership_Sticks>
+		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Scale_Factor> 1.75 </Scale_Factor>
 		<Tactical_Health> 600 </Tactical_Health>
 		<Base_Level_Available> 0 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
 		<Space_FOW_Reveal_Range>850.0</Space_FOW_Reveal_Range>
 		<CategoryMask> Structure </CategoryMask>
-        <Is_Community_Property>Yes</Is_Community_Property>
+		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>

@@ -30,7 +30,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>2</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
@@ -49,7 +48,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Death_Clone>Damage_Normal, Imperial_Landing_Craft_Death_Clone</Death_Clone>
@@ -183,7 +181,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>2</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
@@ -202,7 +199,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Obstacle_Width>80.0</Obstacle_Width>
@@ -329,7 +325,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>2</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
@@ -350,7 +345,6 @@
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Obstacle_Width>140.0</Obstacle_Width>
@@ -471,7 +465,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>150</Autoresolve_Health>
 		<Damage>5</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -496,7 +489,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Obstacle_Width>60.0</Obstacle_Width>
@@ -664,7 +656,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>250</Autoresolve_Health>
 		<Damage>5</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -686,7 +677,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 
 		<Obstacle_Width>60.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>

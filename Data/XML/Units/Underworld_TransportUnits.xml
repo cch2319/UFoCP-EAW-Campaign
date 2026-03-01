@@ -35,7 +35,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>2</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
@@ -54,7 +53,6 @@
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, WEAPON, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -161,7 +159,7 @@
 
 	<UniqueUnit Name="Underworld_Vehicle_Transport_Landing_Saleucami_CIN">
 		<Variant_Of_Existing_Type>Underworld_Vehicle_Transport_Landing</Variant_Of_Existing_Type>
-		<LandBehavior></LandBehavior>
+		<LandBehavior />
 	</UniqueUnit>
 
 	<UniqueUnit Name="Underworld_Vehicle_Transport_Landing_CIN">
@@ -169,7 +167,6 @@
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Land_Model_Name>UV_VehTransport_Landing.alo</Land_Model_Name>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, FLYING_LOCOMOTOR</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Hover_Offset>400</Hover_Offset>
 		<Max_Speed>2</Max_Speed>
@@ -182,8 +179,8 @@
 		<Fires_Forward>no</Fires_Forward>
 		<Max_Lift>0</Max_Lift>
 
-		<SFXEvent_Guard></SFXEvent_Guard>
-		<SFXEvent_Deploy></SFXEvent_Deploy>
+		<SFXEvent_Guard />
+		<SFXEvent_Deploy />
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Ambient_Moving> Unit_Falcon_Fly_By </SFXEvent_Ambient_Moving>
@@ -242,7 +239,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>250</Autoresolve_Health>
 		<Damage>5</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -262,7 +258,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 
 		<Obstacle_Width>60.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>
@@ -393,7 +388,6 @@
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
-		<Autoresolve_Health>250</Autoresolve_Health>
 		<Damage>5</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -413,7 +407,6 @@
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 
 		<Obstacle_Width>60.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>

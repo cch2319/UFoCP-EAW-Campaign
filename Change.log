@@ -89,6 +89,9 @@ HOUSEKEEPING:
 •• b_play_pause_t: <Disabled_Darken>
 •• b_fast_forward_t: <Disabled_Darken>
 
+• Multiple XML settings have been removed from various unit, structure and other misc. files.  While the engine may or may not process these, they do not affect the game at all and are effectively unused.  Leaving these in "clutter" the files they're in, and contribute to the character limit XML files have.
+•• Autoresolve_Health, Transport_Capacity, Moniker, GUI_Offset, Combat_Power_Value, Lighting_Effect_Name, IsBuildable, Number_per_Squadron, Is_Interdictor, Spawn_Planet, Sensor_Range, TacticalBehavior, xxxSpace_Model_Name, Tactical_Sell_Credits, Tactical_Model_Name.
+
 
 MISC:
 • The internal hardware check for Intel GPUs has been disabled.  Shaders would typically be disabled for Intel's newest line of GPUs, because the game would think they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
@@ -356,8 +359,8 @@ Structure Fixes:
 
 
 Texture Fixes:
-• Land map previews have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  Space previews size was boosted, and are now sharper.  All previews also were completely redone due to incomplete or inconsistent material, or low-quality material.  Changes include: (BUG #253)
-•• Many previews (both original and patched) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, processed/wavy water, no rendered clouds).
+• Land map previews have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  Space preview sizes were boosted, and are now sharper.  All previews were also completely redone due to incomplete or inconsistent material, or low-quality material.  Changes include: (BUG #253)
+•• Many previews (both original and patched) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, no rendered clouds).  Water also had a unique processed look to it, which I am unable to replicate currently.
 •• Consortium campaign previews not including scripted units or structures on the map.
 •• MP Space Bespin displayed an unused map.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.

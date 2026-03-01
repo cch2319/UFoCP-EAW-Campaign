@@ -58,12 +58,12 @@
 		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
-    <!-- AI  Empire Shipyard Props (Rebel Mission 1) -->
+	<!-- AI  Empire Shipyard Props (Rebel Mission 1) -->
 	<SpaceStructure Name="Drydock_Tie_Bomber">
 		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
 		<Space_Model_Name>EV_TIEBOMBER.ALO</Space_Model_Name>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Behavior>SELECTABLE,UNIT_AI, IDLE, SPACE_OBSTACLE, HIDE_WHEN_FOGGED,REVEAL</Behavior>
@@ -83,19 +83,20 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>	</SpaceStructure>
+		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
+	</SpaceStructure>
 
-    <SpaceStructure Name="Drydock_Tie_Fighter">
+	<SpaceStructure Name="Drydock_Tie_Fighter">
 		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
 		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
 		<Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, HIDE_WHEN_FOGGED,REVEAL</Behavior>
@@ -115,20 +116,21 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>	</SpaceStructure>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+	</SpaceStructure>
 
 	<SpaceStructure Name="Drydock_Star_Destroyer_Construction">
 		<GUI_Bounds_Scale>0.1</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Behavior>SELECTABLE, UNIT_AI, HIDE_WHEN_FOGGED,REVEAL</Behavior>
 		<SpaceBehavior>IDLE, SPACE_OBSTACLE</SpaceBehavior>
@@ -148,32 +150,33 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Death_Clone>Damage_Normal, Drydock_Star_Destroyer_Construction_Death_Clone</Death_Clone>
 
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Icon_Name>i_button_imperator.tga</Icon_Name>	</SpaceStructure>
+		<Icon_Name>i_button_imperator.tga</Icon_Name>
+	</SpaceStructure>
 
-			<SpaceStructure Name="Drydock_Star_Destroyer_Construction_Death_Clone">
-				<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
-				<Space_Model_Name>W_Star_Destroyer_Construction_D.alo</Space_Model_Name>
-				<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-				<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-				<CategoryMask> Capital </CategoryMask>
-			</SpaceStructure>
+	<SpaceStructure Name="Drydock_Star_Destroyer_Construction_Death_Clone">
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+		<Space_Model_Name>W_Star_Destroyer_Construction_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<CategoryMask> Capital </CategoryMask>
+	</SpaceStructure>
 
 
 
-    <SpaceStructure Name="Drydock_Tyderium_Shuttle">
+	<SpaceStructure Name="Drydock_Tyderium_Shuttle">
 		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
 		<Space_Model_Name>EV_LAMBDASHUTTLE_SPACE.ALO</Space_Model_Name>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Behavior>SELECTABLE, UNIT_AI, IDLE, SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
@@ -198,13 +201,13 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Icon_Name>i_button_Lamba_Shuttle.tga</Icon_Name>
 	</SpaceStructure>
 
 
-    <SpaceStructure Name="Orbital_Resource_Container">
+	<SpaceStructure Name="Orbital_Resource_Container">
 		<GUI_Bounds_Scale>.25</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Text_ID>TEXT_STRUCTURE_ORBITAL_RESOURCE_CONTAINER</Text_ID>
@@ -230,14 +233,14 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles>
 
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceStructure>
 
@@ -282,12 +285,12 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles><!-- jdg test -->
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
 		<Space_Obstacle_Radius> 130 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
@@ -300,12 +303,12 @@
 		<Death_Clone>Damage_Normal, Empire_Dock_Destroyable_Death_Clone</Death_Clone>
 	</SpaceStructure>
 
-			<SpaceStructure Name="Empire_Dock_Destroyable_Death_Clone">
-				<Text_ID>TEXT_STRUCTURE_ORBITAL_DRYDOCK</Text_ID>
-				<Space_Model_Name>EB_dock_break.alo</Space_Model_Name>
-				<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-				<CategoryMask> Structure </CategoryMask>
-			</SpaceStructure>
+	<SpaceStructure Name="Empire_Dock_Destroyable_Death_Clone">
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_DRYDOCK</Text_ID>
+		<Space_Model_Name>EB_dock_break.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<CategoryMask> Structure </CategoryMask>
+	</SpaceStructure>
 
 
 
@@ -333,8 +336,9 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>	</SpaceStructure>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	</SpaceStructure>
 
 	<SpaceStructure Name="Cargo_Debris_02">
 		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
@@ -381,20 +385,20 @@
 		<Death_Explosions>Credits_Gained_Particles</Death_Explosions>
 		<Death_SFXEvent_Start_Die>SFX_Crate_Pickup</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="CINE_Spice">
 		<Text_ID />
 		<Land_Model_Name>w_spice_crate.alo</Land_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Scale_Factor>1.25</Scale_Factor>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Storm_Trooper_Guard">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Tactical_Health>35</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UM05_Dumb_Guard">
 		<Variant_Of_Existing_Type>SCOUT_TROOPER_NO_BIKE</Variant_Of_Existing_Type>
@@ -413,14 +417,14 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
-        <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
 
-        <SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Riot_Infantry_Loop </SFXEvent_Engine_Moving_Loop>
 	</Props_Story>
 
@@ -432,11 +436,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
+		<SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_C">
@@ -447,11 +451,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
+		<SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_D">
@@ -462,11 +466,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
+		<SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_E">
@@ -477,20 +481,20 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
+		<SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Human_Company">
-				<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
-				<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-				<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Human_Company">
+		<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Wookiee">
 		<Variant_Of_Existing_Type>Wookie_Warrior</Variant_Of_Existing_Type>
@@ -499,12 +503,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Wookie_Company">
-				<Variant_Of_Existing_Type>Kashyyyk_Wookie_War_Party</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Wookie_Company">
+		<Variant_Of_Existing_Type>Kashyyyk_Wookie_War_Party</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee, UMP_Prisoner_Wookiee</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Gungan">
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
@@ -512,12 +516,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Gungan_Company">
-				<Variant_Of_Existing_Type>Naboo_Gungan_Warrior_Troop</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Gungan_Company">
+		<Variant_Of_Existing_Type>Naboo_Gungan_Warrior_Troop</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan, UMP_Prisoner_Gungan</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Ewok">
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
@@ -525,12 +529,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Ewok_Company">
-				<Variant_Of_Existing_Type>Endor_Ewok_Hunting_Party</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Ewok_Company">
+		<Variant_Of_Existing_Type>Endor_Ewok_Hunting_Party</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok, UMP_Prisoner_Ewok</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 
 	<Props_Story Name="UMP_Prisoner_Sullustan">
@@ -539,12 +543,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Sullustan_Company">
-				<Variant_Of_Existing_Type>Sullustan_Civ_Company</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Sullustan_Company">
+		<Variant_Of_Existing_Type>Sullustan_Civ_Company</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan, UMP_Prisoner_Sullustan</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Calamari">
 		<Variant_Of_Existing_Type>Mon_Calamari_Civilian</Variant_Of_Existing_Type>
@@ -552,12 +556,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Calamari_Company">
-				<Variant_Of_Existing_Type>Mon_Calamari_Civ_Company</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Calamari_Company">
+		<Variant_Of_Existing_Type>Mon_Calamari_Civ_Company</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari, UMP_Prisoner_Calamari</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Bothan">
 		<Variant_Of_Existing_Type>Bothan_Civilian</Variant_Of_Existing_Type>
@@ -565,12 +569,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Bothan_Company">
-				<Variant_Of_Existing_Type>Bothan_Civ_Company</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Bothan_Company">
+		<Variant_Of_Existing_Type>Bothan_Civ_Company</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan, UMP_Prisoner_Bothan</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Chilly">
 		<Variant_Of_Existing_Type>Snow_Civilian_A</Variant_Of_Existing_Type>
@@ -579,13 +583,13 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Chilly_Company">
-				<Variant_Of_Existing_Type>Snow_Civilian_Team_Underworld</Variant_Of_Existing_Type>
-				<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-				<Company_Units>UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
+	<Props_Story Name="UMP_Prisoner_Chilly_Company">
+		<Variant_Of_Existing_Type>Snow_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Company_Units>UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Pirate">
 		<Variant_Of_Existing_Type>Pirate_Soldier</Variant_Of_Existing_Type>
@@ -595,14 +599,12 @@
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
-			<Props_Story Name="UMP_Prisoner_Pirate_Company">
-				<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
-				<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
-				<Max_Squad_Size> 5 </Max_Squad_Size>
-				<Affiliation>Neutral</Affiliation>
-			</Props_Story>
-
-
+	<Props_Story Name="UMP_Prisoner_Pirate_Company">
+		<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+		<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
+		<Max_Squad_Size> 5 </Max_Squad_Size>
+		<Affiliation>Neutral</Affiliation>
+	</Props_Story>
 
 
 
@@ -615,7 +617,7 @@
 		<Radar_Range_Icon_Name>i_radar_landing.tga</Radar_Range_Icon_Name>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Radar_Icon_Name>mini_map_reinforcement.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Affiliation>Empire</Affiliation>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
@@ -660,7 +662,7 @@
 		<Lua_Script>UMP_Mission_Script</Lua_Script>
 	</Props_Story>
 
-    <Props_Story Name="UM02_Magnetically_Sealed_Doorway">
+	<Props_Story Name="UM02_Magnetically_Sealed_Doorway">
 		<Lua_Script>UM02_MagnetDoors</Lua_Script>
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -675,7 +677,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
 		<Armor_Type> Armor_ATST </Armor_Type>
-        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>10000</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
 		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate>
@@ -693,7 +695,7 @@
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Abilities SubObjectList="Yes">
@@ -727,7 +729,7 @@
 		</Abilities>
 	</Props_Story>
 
-    <Props_Story Name="UM02_KILLABLE_DOOR">
+	<Props_Story Name="UM02_KILLABLE_DOOR">
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>1</Select_Box_Scale>
 		<Text_ID>TEXT_DOOR</Text_ID>
@@ -741,7 +743,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
 		<Armor_Type> Armor_ATST </Armor_Type>
-        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -759,7 +761,7 @@
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</Props_Story>
 
@@ -790,7 +792,7 @@
 		<Death_Explosions>VEHICLE_THIEF_TRANSITION_PARTICLES</Death_Explosions>
 		<Death_SFXEvent_Start_Die>SFX_Asteroid_Detonation</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UM02_MissionScript_Temp">
 		<Text_ID> GENERIC_MARKER </Text_ID>
@@ -913,7 +915,6 @@
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<GUI_Model_Name>NV_LDS.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -929,7 +930,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00 </Encyclopedia_Text>
@@ -973,15 +974,15 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Structure_Research_Select_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Structure_Research_Select_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>RESCUE_EFFECT</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Is_Valid_Target>false</Is_Valid_Target>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UM01_TYBER_INTERCEPTOR">
 		<Variant_Of_Existing_Type>Interceptor4_Frigate</Variant_Of_Existing_Type>
@@ -1001,7 +1002,7 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Tyber_Zann </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tyber_Zann </SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Moving_Door">
 		<Text_ID>TEXT_DOOR</Text_ID>
@@ -1017,7 +1018,7 @@
 		<Land_Damage_Thresholds>1.0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0</Land_Damage_Alternates>
 		<Land_Damage_SFX>null</Land_Damage_SFX>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Moving_Door_Threshold">
 		<Variant_Of_Existing_Type>Empire_Wall</Variant_Of_Existing_Type>
@@ -1031,7 +1032,7 @@
 		<Land_Damage_Thresholds>1.0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0</Land_Damage_Alternates>
 		<Land_Damage_SFX>null</Land_Damage_SFX>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_Interface_Node">
 		<Text_ID>TEXT_DOORNODE</Text_ID>
@@ -1048,7 +1049,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_NODE">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -1067,7 +1068,7 @@
 		<Tactical_Health>10</Tactical_Health>
 		<Affiliation>Pirates</Affiliation>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UM05_Cuddles_The_Rancor">
 		<Variant_Of_Existing_Type>CUDDLES_THE_RANCOR</Variant_Of_Existing_Type>
@@ -1075,7 +1076,7 @@
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>32</Max_Rate_Of_Turn>
 		<LandBehavior>GARRISON_UNIT,AFFECTED_BY_SHIELD,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,SQUASH,UNIT_AI</LandBehavior>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UM05_Red_Guard">
 		<Variant_Of_Existing_Type>Imperial_Elite_Guard</Variant_Of_Existing_Type>
@@ -1086,16 +1087,15 @@
 		<Idle_Chase_Range>1500</Idle_Chase_Range>
 		<Guard_Chase_Range>1500</Guard_Chase_Range>
 		<Attack_Move_Response_Range>1500</Attack_Move_Response_Range>
-    </Props_Story>
+	</Props_Story>
 
-    <Props_Story Name="UM05_Red_Guard_Company">
+	<Props_Story Name="UM05_Red_Guard_Company">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
-		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
@@ -1111,7 +1111,7 @@
 		<Score_Cost_Credits>40</Score_Cost_Credits>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_EWOK">
+	<Props_Story Name="UM05_PROP_EWOK">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NI_EWOK_C.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
@@ -1119,7 +1119,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_EWOK2">
+	<Props_Story Name="UM05_PROP_EWOK2">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NI_EWOK_B.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
@@ -1127,7 +1127,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_ACADEMY">
+	<Props_Story Name="UM05_PROP_ACADEMY">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EB_OfficerAcademy.alo</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
@@ -1135,7 +1135,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_BARGE">
+	<Props_Story Name="UM05_PROP_BARGE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_AT-Barge.ALO</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
@@ -1143,7 +1143,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_SHUTTLE">
+	<Props_Story Name="UM05_PROP_SHUTTLE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_LAMBDASHUTTLE_SPACE.ALO</Land_Model_Name>
 		<Scale_Factor>.25</Scale_Factor>
@@ -1151,7 +1151,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_BOMBER">
+	<Props_Story Name="UM05_PROP_BOMBER">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_TIEBOMBER.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
@@ -1183,7 +1183,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_TIE">
+	<Props_Story Name="UM05_PROP_TIE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>ev_TieFighter.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
@@ -1191,7 +1191,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_ATAT">
+	<Props_Story Name="UM05_PROP_ATAT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
@@ -1199,7 +1199,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-    <Props_Story Name="UM05_PROP_SPMAT">
+	<Props_Story Name="UM05_PROP_SPMAT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_SPMAT.ALO</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
@@ -1753,9 +1753,9 @@
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>1500</Tactical_Health>
 		<Affiliation>Empire</Affiliation>
-    </Props_Story>
+	</Props_Story>
 
-    <Props_Story Name="UM05_FALSE_WALL">
+	<Props_Story Name="UM05_FALSE_WALL">
 		<GUI_Bounds_Scale>2</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
@@ -1780,13 +1780,13 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>EARTHQUAKE_DUST_PARTICLES</Death_Explosions>
 		<!-- <Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles> -->
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</Props_Story>
 
@@ -1843,7 +1843,7 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.75</Scale_Factor>
@@ -1852,13 +1852,10 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
 		<Political_Faction>Empire</Political_Faction>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>100</Damage>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Tactical_Health>500</Tactical_Health>
 
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
@@ -1994,7 +1991,7 @@
 		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="UMP_PRISON_BARS">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -2012,7 +2009,7 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
-<!-- jdg : um06 props..., Governor's_Quarters, Guard_Tower -->
+	<!-- jdg : um06 props..., Governor's_Quarters, Guard_Tower -->
 	<Props_Story Name="UM06_Governors_Quarters">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_GOVERNORS_QUARTERS</Text_ID>
@@ -2029,7 +2026,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Icon_Name>i_button_eb_governorsquarters.tga</Icon_Name>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
@@ -2048,7 +2045,6 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -2136,7 +2132,6 @@
 	<Props_Story Name="UM06_OFFICERS_QUARTERS">
 		<Variant_Of_Existing_Type>E_Ground_Officer_Academy</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
-		<IsBuildable>No</IsBuildable>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
 	</Props_Story>
 
@@ -2206,7 +2201,7 @@
 		<Tech_Level>9</Tech_Level>
 	</Props_Story>
 
-<!-- jdg : um07 props..., cloud car flyover -->
+	<!-- jdg : um07 props..., cloud car flyover -->
 	<Props_Story Name="UM07_Cloud_City_Flyover">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<LandBehavior>REVEAL</LandBehavior>
@@ -2260,7 +2255,7 @@
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
 
 		<Behavior>UNIT_AI, DUMMY_TOOLTIP</Behavior>
-    </Props_Story>
+	</Props_Story>
 
 
 
@@ -2382,11 +2377,9 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
 	</Props_Story>
-
 
 
 
@@ -2403,8 +2396,8 @@
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
 
-        <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
 
 		<Icon_Name>i_button_EV_ExecutorStarDestroyer.tga</Icon_Name>
 
@@ -2446,7 +2439,6 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Damage>70</Damage>
-		<Autoresolve_Health>18000</Autoresolve_Health>
 		<Shield_Points>7000</Shield_Points>
 
 		<Tactical_Health>9000</Tactical_Health>
@@ -2532,14 +2524,14 @@
 		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Health_Critical_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
@@ -2575,7 +2567,7 @@
 		<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
+		<Radar_Icon_Size>0.4 0.4</Radar_Icon_Size>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -2591,7 +2583,7 @@
 			</Unit_Ability>
 
 			<Unit_Ability>
-                <Type>DEPLOY_SQUAD</Type>
+				<Type>DEPLOY_SQUAD</Type>
 				<Recharge_Seconds>5</Recharge_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Deploy_Squad_Vader_Executor </SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -2653,7 +2645,6 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Autoresolve_Health>2750</Autoresolve_Health>
 		<Damage>75</Damage>
 		<Shield_Points>9000</Shield_Points>
 		<Tactical_Health>7000</Tactical_Health>
@@ -2677,45 +2668,25 @@
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Enhanced_Reactors_L2_Upgrade,
-				ES_Enhanced_Reactors_L3_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
-				ES_Reinforced_Armor_L2_Upgrade,
-				ES_Reinforced_Armor_L3_Upgrade,
-				ES_Improved_Weapons_L1_Upgrade,
-				ES_Improved_Weapons_L2_Upgrade,
-				ES_Improved_Weapons_L3_Upgrade,
-				ES_Improved_Defenses_L1_Upgrade,
-				ES_Improved_Defenses_L2_Upgrade,
-				ES_Improved_Defenses_L3_Upgrade,
+			ES_Enhanced_Reactors_L1_Upgrade,
+			ES_Enhanced_Reactors_L2_Upgrade,
+			ES_Enhanced_Reactors_L3_Upgrade,
+			ES_Reinforced_Armor_L1_Upgrade,
+			ES_Reinforced_Armor_L2_Upgrade,
+			ES_Reinforced_Armor_L3_Upgrade,
+			ES_Improved_Weapons_L1_Upgrade,
+			ES_Improved_Weapons_L2_Upgrade,
+			ES_Improved_Weapons_L3_Upgrade,
+			ES_Improved_Defenses_L1_Upgrade,
+			ES_Improved_Defenses_L2_Upgrade,
+			ES_Improved_Defenses_L3_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy <!-- Comm array and supply dock should be replaced by dummy hard points -->
+		<HardPoints> HP_Empire_Station_One_00, HP_Empire_Station_One_01, HP_Empire_Station_One_02, HP_Empire_Station_One_Fighter_Bay, HP_Empire_Station_One_Comm_Array_Dummy, HP_Empire_Station_Two_00, HP_Empire_Station_Two_01, HP_Empire_Station_Two_02, HP_Empire_Station_Three_00, HP_Empire_Station_Three_01, HP_Empire_Station_Three_02, HP_Empire_Station_Four_00, HP_Empire_Station_Four_01, HP_Empire_Station_Four_02, HP_Empire_Station_Four_03, HP_Empire_Station_Five_00, HP_Empire_Station_Five_01, HP_Empire_Station_Five_02, HP_Empire_Station_Five_03, HP_Empire_Station_One_Supply_Dock_Dummy <!-- Comm array and supply dock should be replaced by dummy hard points -->
 		</HardPoints>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -2737,12 +2708,12 @@
 
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
@@ -2757,11 +2728,11 @@
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station5_e.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.3</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.3</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
+		<Radar_Icon_Size>0.16 0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
@@ -2787,7 +2758,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Tech_Level>6</Tech_Level> <!-- Modded by Chris R. for MP -->
 
-        <Ranking_In_Category>7</Ranking_In_Category>
+		<Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.75</Max_Speed>
 		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -2800,7 +2771,7 @@
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
-        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -2813,7 +2784,6 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Shield_Points>400</Shield_Points>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Tactical_Health>600</Tactical_Health>
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
@@ -2824,10 +2794,8 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Surface_Bombardment_Capable>No</Surface_Bombardment_Capable>
-		<Is_Interdictor>No</Is_Interdictor>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
 		<AI_Combat_Power>800</AI_Combat_Power>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -2860,7 +2828,7 @@
 		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -2920,12 +2888,12 @@
 		<Is_Decoration>No</Is_Decoration>
 		<LandBehavior>ABILITY_COUNTDOWN, IDLE, UNIT_AI, DAMAGE_TRACKING, DYNAMIC_TRANSFORM </LandBehavior>
 
-        <Dynamic_Transform_Delay_Seconds>0.1</Dynamic_Transform_Delay_Seconds>
-        <Dynamic_Transform_Start_Scale>1.75</Dynamic_Transform_Start_Scale>
-        <Dynamic_Transform_End_Scale>1.75</Dynamic_Transform_End_Scale>
-        <Dynamic_Transform_Seconds>120</Dynamic_Transform_Seconds>
-        <Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, .90</Dynamic_Transform_Start_Color>
-        <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, .9</Dynamic_Transform_End_Color>
+		<Dynamic_Transform_Delay_Seconds>0.1</Dynamic_Transform_Delay_Seconds>
+		<Dynamic_Transform_Start_Scale>1.75</Dynamic_Transform_Start_Scale>
+		<Dynamic_Transform_End_Scale>1.75</Dynamic_Transform_End_Scale>
+		<Dynamic_Transform_Seconds>120</Dynamic_Transform_Seconds>
+		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, .90</Dynamic_Transform_Start_Color>
+		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, .9</Dynamic_Transform_End_Color>
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_MOUSEDROID">
@@ -2944,7 +2912,7 @@
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
 		<OverrideDeceleration> .2 </OverrideDeceleration>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>5</Tactical_Health>
 		<Behavior> SELECTABLE </Behavior>
@@ -2975,7 +2943,7 @@
 		<Overall_Width>5.0</Overall_Width>		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 	</Props_Story>
 
-<!--  Corruption Objective Props -->
+	<!--  Corruption Objective Props -->
 
 	<Props_Story Name="Govenor_Koong_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
@@ -3127,7 +3095,6 @@
 		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
 		<Tactical_Health>450</Tactical_Health>
 		<Tech_Level>9</Tech_Level>
-		<IsBuildable>No</IsBuildable>
 		<Shield_Points>0</Shield_Points>
 		<Affiliation>Rebel, Empire, Hutts</Affiliation>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -3224,7 +3191,7 @@
 		<CategoryMask> Vehicle </CategoryMask>
 		<LandBehavior>WALK_LOCOMOTOR, IDLE, SELECTABLE, TARGETING,HIDE_WHEN_FOGGED,INDIGENOUS_UNIT</LandBehavior>
 
-		 <!--<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<!--<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die> Unit_Generic_Building_Death_SFX </Death_SFXEvent_Start_Die>-->
 		<!--<Death_Clone>Damage_Normal, AlzocIII_Prize_Shaak_Death_Clone</Death_Clone>-->
 		<Death_Fade_Time>0.25</Death_Fade_Time>
@@ -3257,7 +3224,8 @@
 		<Encyclopedia_Text>TEXT_STRUCTURE_STYGIUM_CRYSTAL_CONTAINER</Encyclopedia_Text>
 		<Tactical_Health>75</Tactical_Health>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation_Underworld_Immune</Death_Projectiles>
-		<Affiliation>Empire, Rebel, Underworld</Affiliation>	</SpaceStructure>
+		<Affiliation>Empire, Rebel, Underworld</Affiliation>
+	</SpaceStructure>
 
 
 
@@ -3321,7 +3289,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -3336,7 +3304,6 @@
 
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		<Autoresolve_Health>500</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
@@ -3488,7 +3455,7 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Tyber_Zann </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tyber_Zann </SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-    </Props_Story>
+	</Props_Story>
 
 	<Props_Story Name="PROP_CORUSCANT_SKYDOME">
 		<Text_ID>TEXT_NONE</Text_ID>

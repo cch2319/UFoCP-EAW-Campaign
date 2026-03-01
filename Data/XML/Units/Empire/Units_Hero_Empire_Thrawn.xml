@@ -26,11 +26,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
 		<!-- <Lua_Script>Tarkin</Lua_Script> -->
 
 		<Unique_Space_Unit>Admonitor_Star_Destroyer</Unique_Space_Unit>
@@ -58,27 +55,27 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>7</Expiration_Seconds>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Thrawn</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>TRACTOR_BEAM</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-            </Unit_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -162,7 +159,6 @@
 		<Damage>60</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -187,27 +183,27 @@
 		<Population_Value>1</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>7</Expiration_Seconds>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Thrawn</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>TRACTOR_BEAM</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-            </Unit_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
 
@@ -233,10 +229,10 @@
 
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
 		<Tech_Level>99</Tech_Level>
-        <Ranking_In_Category>3</Ranking_In_Category>
+		<Ranking_In_Category>3</Ranking_In_Category>
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
-        <Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Population_Value>4</Population_Value>
 		<Death_Clone>Damage_Normal, Admonitor_Star_Destroyer_Death_Clone</Death_Clone>
@@ -267,9 +263,9 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Thrawn </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Defeat_Thrawn</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Thrawn </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Thrawn </SFXEvent_Attack_Hardpoint>
@@ -281,8 +277,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Thrawn </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Thrawn </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Thrawn </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Thrawn </SFXEvent_Hardpoint_Destroyed>
@@ -311,27 +307,27 @@
 
 		<!-- Hero abilities for Admiral Thrawn added to ship -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,			2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>7</Expiration_Seconds>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Thrawn</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>TRACTOR_BEAM</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-            </Unit_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">

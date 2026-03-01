@@ -14,7 +14,7 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN </LandBehavior>
 
 		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
@@ -51,7 +51,6 @@
 		<Shield_Points>0</Shield_Points>
 		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
 		<Tactical_Health>700</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -233,7 +232,7 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN </LandBehavior>
 
 		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
@@ -270,7 +269,6 @@
 		<Shield_Points>0</Shield_Points>
 		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
 		<Tactical_Health>700</Tactical_Health>
-		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -338,10 +336,6 @@
 
 
 
-
-
-
-
 	<!-- Hero Company Data -->
 
 
@@ -357,7 +351,6 @@
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -387,7 +380,7 @@
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
-		<Unit_Abilities_Data SubObjectList="Yes"></Unit_Abilities_Data>
+		<Unit_Abilities_Data SubObjectList="Yes" />
 
 		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
@@ -396,7 +389,6 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 	</HeroCompany>
-
 
 
 
@@ -440,14 +432,12 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
-		<IsBuildable>No</IsBuildable>
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>90</Damage>
 		<Tactical_Health>900</Tactical_Health>
-		<Autoresolve_Health>900</Autoresolve_Health>
 
 		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -636,15 +626,6 @@
 		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
 		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
 	</HeroUnit>
-
-
-
-
-
-
-
-
-
 
 
 

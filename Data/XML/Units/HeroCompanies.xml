@@ -13,7 +13,6 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
@@ -21,7 +20,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_E</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Generic_Smuggler_E</Company_Units>
@@ -47,7 +46,6 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
@@ -55,7 +53,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_R</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Generic_Smuggler_R</Company_Units>
@@ -81,7 +79,6 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>99</Tech_Level>
@@ -89,7 +86,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_R</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Generic_Smuggler_R_Tutorial</Company_Units>
@@ -113,13 +110,12 @@
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Generic_Probe_Droid</Company_Units>
@@ -149,13 +145,12 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Hutt_Palace_E</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Generic_Bounty_Hunter_E</Company_Units>
@@ -183,7 +178,6 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
@@ -191,7 +185,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Hutt_Palace_R</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Generic_Bounty_Hunter_R</Company_Units>
@@ -221,7 +215,6 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
@@ -229,7 +222,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Generic_Fleet_Commander_Rebel</Company_Units>
@@ -265,13 +258,12 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Generic_Fleet_Commander_Empire</Company_Units>
@@ -308,7 +300,6 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
@@ -316,7 +307,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy, R_Ground_Barracks</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units> Squad_Generic_Field_Commander_Rebel, Squad_R_Field_Commander_Guard, Squad_R_Field_Commander_Guard, Squad_R_Field_Commander_Guard, Squad_R_Field_Commander_Guard</Company_Units>
@@ -357,13 +348,12 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units> Squad_Generic_Field_Commander_Empire, Squad_E_Field_Commander_Guard, Squad_E_Field_Commander_Guard, Squad_E_Field_Commander_Guard, Squad_E_Field_Commander_Guard</Company_Units>
@@ -405,13 +395,12 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>4</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Slave_I</Company_Transport_Unit>
 		<Company_Units>Boba_Fett</Company_Units>
@@ -439,7 +428,7 @@
 			<Unit_Ability>
 				<Type>JET_PACK</Type>
 				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
 				<!-- <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance> -->
@@ -501,13 +490,12 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>4</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Captain_Piet</Company_Units>
@@ -549,13 +537,12 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>2</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
 		<Company_Units>General_Veers</Company_Units>
@@ -615,13 +602,12 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Grand_Moff_Tarkin</Company_Units>
@@ -642,19 +628,18 @@
 	<HeroCompany Name="Mara_Jade_Team">
 		<Text_ID>TEXT_HERO_MARA_JADE_TEAM</Text_ID>
 		<Icon_Name>i_button_mara_jade.tga</Icon_Name>
-		<Icon_Name></Icon_Name>
+		<Icon_Name />
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>4</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Mara_Jade</Company_Units>
@@ -694,13 +679,12 @@
 		<Damage>100</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Emperor_Palpatine</Company_Units>
@@ -727,7 +711,7 @@
 			<Unit_Ability>
 				<Type>AREA_EFFECT_CONVERT</Type>
 				<Recharge_Seconds>70.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Emperor_Instant_Dark_Side_Corrupt_Blast </Spawned_Object_Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -760,13 +744,12 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>3</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>Commander_Akbar</Company_Units>
@@ -816,13 +799,12 @@
 		<Damage>50</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Millennium_Falcon</Company_Transport_Unit>
 		<Company_Units>Han_Solo, Chewbacca</Company_Units>
@@ -848,7 +830,7 @@
 			<Unit_Ability>
 				<Type>AREA_EFFECT_STUN</Type>
 				<Recharge_Seconds>20.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Han_Solo_Stun_Blast </Spawned_Object_Type>
 			</Unit_Ability>
 			<Unit_Ability>
@@ -910,13 +892,12 @@
 		<Affiliation>Rebel</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>3</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Moldy_Crow</Company_Transport_Unit>
 		<Company_Units>Kyle_Katarn</Company_Units>
@@ -957,13 +938,12 @@
 		<Affiliation>Rebel</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Luke_XWing</Company_Transport_Unit>
 		<Company_Units>Luke_Skywalker</Company_Units>
@@ -1005,13 +985,12 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Mon_Mothma</Company_Units>
@@ -1039,13 +1018,12 @@
 		<Affiliation>Rebel</Affiliation>
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
 		<Company_Units>Obi_Wan_Kenobi</Company_Units>
@@ -1086,7 +1064,7 @@
 			<Unit_Ability>
 				<Type>TARGETED_INVULNERABILITY</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name />
 				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Invulnerability_Blast </Spawned_Object_Type>
 				<Effective_Radius>400</Effective_Radius>
 				<Friendly_Ability> true </Friendly_Ability>
@@ -1104,13 +1082,12 @@
 		<Text_ID>TEXT_UNIT_REBEL_REFUGEE</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
-		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>Rebel_Refugee</Company_Units>
