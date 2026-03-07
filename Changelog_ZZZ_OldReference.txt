@@ -1,30 +1,4 @@
 =========================================================================================
-v1.16.682
-=========================================================================================
-
-
-==================
-Maps/Planets (Space)
-==================
-
--Nal Hutta – Fixed perimeter defense turret satellites only appearing if the Black Sun Pirates owned the planet.
-
-
-=========================================================================================
-
-
-
-=========================================================================================
-v1.15
-=========================================================================================
-
-
-
-=========================================================================================
-
-
-
-=========================================================================================
 v1.14
 =========================================================================================
 
@@ -86,15 +60,7 @@ General
 -Fixed upgrade "Light Reflective Armor" not having the correct reflection percentages mentioned in the tooltip.
 -Fixed upgrade "Improved AT-AT Reactors" (lv.2) not having the correct percentage bonuses mentioned in the tooltip.
 -Fixed upgrade "Weapon Boost (Level 2)" not being mentioning the Canderous Tank in the skirmish upgrade's tooltip.  Along with the MZ-8 tank, the Candie also gets its damage upgrade by 50%.
--Fixed upgrade "Modified Cloaking Generator" (lv.1 and 2) upgrades.  Upgrade originally did nothing, as the ability type was "Ground_Automatic" instead of "Space_Automatic."
--Fixed upgrade "Modified Cloaking Generator" (lv.2) upgrade.  Upgrade originally did nothing, as the ability type was "Ground_Automatic" instead of "Space_Automatic."
 -Removed duplicate <Category_Mask> on the "Enhanced Base Shield" Empire upgrade.
-
-
-==================
-A.I.
-==================
--(LUA) PGEvents – Fixed up some missing behaviors.  Changing some permissions so the AI can suggest using the "take cover" ability on land, and for AT-ATs AI to suggest using their "deploy troopers" ability (when they need to, of course).  This has led to a direct increase in the AI using these abilities when not so before.
 
 
 ==================
@@ -504,49 +470,6 @@ Units (Space)
 -A-wing – Fixed A-wing attack sounds; A-wings now comment when attacking hanger bays.
 
 -Moldy Crow (Kyle Katarn) – Fixed "Is_Escort" indicator being "np" instead of "no."
-
-
-=========================================================================================
-
-
-
-=========================================================================================
-v1.1
-=========================================================================================
-There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
-
-
-==================
-Maps/Planets (Space)
-==================
--Alzoc III (Alzoc 3) – Adjusted space station position so it points towards the attackers (for Empire/Consortium stations).
-**These few maps edited are tests for community feedback.
-
--Atzerri – Adjusted space station position.
-
--Endor – Adjusted space station position.
-
--Kamino – Adjusted space station position.
-
--Kuat – Adjusted space station position.
-
--Mandalore – Adjusted space station position.
-
--Muunilinst – Adjusted space station position.
-
--Utapau – Adjusted space station position.
-
--Vergesso Asteroids – Adjusted space station position.
-
-
-=========================================================================================
-
-
-
-=========================================================================================
-v1.0 - Petroglyph'd (Initial Upload)
-=========================================================================================
-
 
 
 =========================================================================================
