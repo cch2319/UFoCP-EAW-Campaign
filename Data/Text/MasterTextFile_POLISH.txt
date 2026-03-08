@@ -18849,7 +18849,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,Ta planeta została skorump
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Ta planeta została skorumpowana poprzez piractwo.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Zapewnia premię w formie dodatkowych kredytów za każdą zniszczoną jednostkę wroga.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Zakupienie jednego nalotu wykonywanego przez bombowce typu Y.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy Rebelii.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy Rebelii.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy PLEX.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Wzmocnione osłony zatrzymują wszystkie ataki wroga.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Zwiększenie prędkości czołgów T2-B i śmigaczy o 15%.

@@ -18849,7 +18849,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,La planète a été corromp
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,La planète a été corrompue grâce à la Piraterie.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Une somme d'argent est versée pour chaque unité ennemie détruite.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Acheter un bombardement par Y-wing. 
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Réduit de 25% les dommages essuyés par les Soldats Rebelles.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Réduit de 50% les dommages essuyés par les Soldats Rebelles.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Réduit de 25% les dommages essuyés par les Soldats Plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Empêche tous les tirs ennemis de percer une brèche dans vos boucliers terrestres.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Les Chars T2-B et les Speeders gagnent 15% de vitesse supplémentaire.

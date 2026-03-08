@@ -18849,7 +18849,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,Dieser Planet wurde durch E
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Dieser Planet wurde durch Piraterie korrumpiert.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Ergibt einen finanziellen Bonus für jede vernichtete Einheit des Gegners.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Finanziert ein einzelnes Bombardement durch Y-Wings.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Verringert den Schaden, den Rebellensoldaten erleiden, um 25%.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Verringert den Schaden, den Rebellensoldaten erleiden, um 50%.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Verringert den Schaden, den Plex-Soldaten erleiden, um 25%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Verhindert, dass gegnerischer Beschuss Eure Stützpunktschilde durchschlägt.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Gleiter und Panzer T2-B bewegen sich um 15% schneller.

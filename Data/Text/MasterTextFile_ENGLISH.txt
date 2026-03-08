@@ -18849,7 +18849,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,This planet has been corrup
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,This planet has been corrupted using Piracy.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Provides a salvage cash bonus for every enemy unit destroyed.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Purchase a single Y-wing bombing run.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Reduces the damage taken by Rebellion Trooper units by 25%.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Reduces the damage taken by Rebellion Trooper units by 50%.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Reduces the damage taken by Plex Soldier units by 25%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Prevents all enemy weapon fire from penetrating your base's shields.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,T2-B Tanks and Speeders gain a 15% movement speed increase.

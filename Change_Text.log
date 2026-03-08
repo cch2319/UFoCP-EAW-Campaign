@@ -526,6 +526,15 @@ International:
 	-- ENG: Victory Cruiser --> Victory-class Cruiser
 	-- GER: N/A
 
+• TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1: (BUG #488)
+	-- ENG: Reduces the damage taken by Rebellion Trooper units by 25%. --> Reduces the damage taken by Rebellion Trooper units by 50%.
+	-- GER: Verringert den Schaden, den Rebellensoldaten erleiden, um 25%. --> Verringert den Schaden, den Rebellensoldaten erleiden, um 50%.
+	-- FRA: Réduit de 25% les dommages essuyés par les Soldats Rebelles. --> Réduit de 50% les dommages essuyés par les Soldats Rebelles.
+	-- ITA: Riduce del 25% i danni subiti dai soldati ribelli. --> Riduce del 50% i danni subiti dai soldati ribelli.
+	-- POL: Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy Rebelii. --> Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy Rebelii.
+	-- RUS: Урон, наносимый пехоте повстанцев, уменьшается на 25% --> Урон, наносимый пехоте повстанцев, уменьшается на 50%
+	-- SPA: Reduce un 25% el daño sufrido por las unidades de soldados de la Rebelión. --> Reduce un 50% el daño sufrido por las unidades de soldados de la Rebelión.
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
