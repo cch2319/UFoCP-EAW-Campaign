@@ -544,6 +544,14 @@ International:
 	-- RUS: Урон, наносимый ракетной пехоте, уменьшается на 25% --> Урон, наносимый ракетной пехоте, уменьшается на 50%
 	-- SPA: Reduce un 25% el daño sufrido por las unidades de soldados plex. --> Reduce un 50% el daño sufrido por las unidades de soldados plex.
 
+• TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1: (BUG #490)
+	-- ENG: Reduces the damage taken by T2-B Tanks and Speeders by 25%. --> Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 25%.
+	-- GER: Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 25%. --> Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 25%.
+
+• TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2: (BUG #490)
+	-- ENG: Reduces the damage taken by T2-B Tanks and Speeders by 25%. --> Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 50%.
+	-- GER: Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 25%. --> Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 50%.
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.

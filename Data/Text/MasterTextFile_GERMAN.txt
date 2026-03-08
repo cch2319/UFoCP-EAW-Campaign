@@ -18865,8 +18865,8 @@ TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L2,Panzer T4-B und MPTL-Artillerie beweg
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L1,Erhöht das Einkommen durch Minen um 20%.
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L2,Erhöht das Einkommen durch Minen um 40%.
 TEXT_UPGRADE_TOOLTIP_RL_INFILTRATOR_RESEARCH,Ermöglicht es Euch, Verstärkung durch Infiltratoren aus benachbarten Systemen anzufordern.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 25%.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 50%.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 25%.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 50%.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1,Fügt zusätzliche Plex-Soldaten und Panzer T2-B zu Euren freien Garnisonseinheiten hinzu.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1-TEMP,Fügt zusätzliche Plex-Soldaten und Panzer T4-B zu Euren freien Garnisonseinheiten hinzu.
 TEXT_UPGRADE_TOOLTIP_RL_MPTL_RESEARCH,Ermöglicht es Euch, Verstärkung durch MPTL-Artillerie aus benachbarten Systemen anzufordern.

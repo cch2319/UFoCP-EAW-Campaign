@@ -18865,8 +18865,8 @@ TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L2,T4-B Tanks and MPTL Artillery gain a 
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L1,Increases the income produced from the Mining Facility by 20%.
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L2,Increases the income produced from the Mining Facility by 40%.
 TEXT_UPGRADE_TOOLTIP_RL_INFILTRATOR_RESEARCH,Grants the ability to request Infiltrator reinforcements from neighboring systems.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Reduces the damage taken by T2-B Tanks and Speeders by 25%.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Reduces the damage taken by T2-B Tanks and Speeders by 50%.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 25%.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 50%.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1,Adds additional Plex Soldiers and T2-B Tanks to your set of free garrison units.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1-TEMP,Adds additional Plex Soldiers and T4-B Tanks to your set of free garrison units.
 TEXT_UPGRADE_TOOLTIP_RL_MPTL_RESEARCH,Grants the ability to request MPTL Artillery reinforcements from neighboring systems.
