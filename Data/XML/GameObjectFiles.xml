@@ -18,7 +18,7 @@
 
 	<File>Maps\SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
-	<File>SpaceUnitsFighters.xml</File>
+	<File>Units\SpaceUnitsFighters.xml</File>
 	<File>Units\SpaceUnitsCorvettes.xml</File>
 	<File>Units\SpaceUnitsFrigates.xml</File>
 	<File>Units\SpaceUnitsSupers.xml</File>
