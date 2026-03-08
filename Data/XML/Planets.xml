@@ -910,7 +910,7 @@
 			<Reduce_Production_Price_Ability Name="Bestine_Acclamator_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Acclamator_Assault_Ship </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Acclamator_Assault_Ship, Acclamator_Underworld </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -1308,7 +1308,15 @@
 			<Reduce_Production_Price_Ability Name="Carida_Infantry_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad </Applicable_Unit_Types>
+				<Applicable_Unit_Types>
+					Rebel_Infantry_Squad,
+					Rebel_Tank_Buster_Squad,
+					Rebel_Infiltrator_Team,
+					Imperial_Stormtrooper_Squad,
+					Imperial_Light_Scout_Squad,
+					Underworld_Merc_Squad,
+					Underworld_Disruptor_Merc_Squad
+				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -1411,7 +1419,7 @@
 			<Reduce_Production_Price_Ability Name="Corellia_Corellian_Corvette_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Corellian_Corvette </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Corellian_Corvette, Corellian_Corvette_Underworld </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -1506,7 +1514,15 @@
 			<Reduce_Production_Price_Ability Name="Corulag_Infantry_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad </Applicable_Unit_Types>
+				<Applicable_Unit_Types>
+					Rebel_Infantry_Squad,
+					Rebel_Tank_Buster_Squad,
+					Rebel_Infiltrator_Team,
+					Imperial_Stormtrooper_Squad,
+					Imperial_Light_Scout_Squad,
+					Underworld_Merc_Squad,
+					Underworld_Disruptor_Merc_Squad
+				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -1679,7 +1695,7 @@
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
 		<!-- unlock witches of Dathomir for underworld -->
-		<Abilities SubObjectList="Yes"> </Abilities>
+		<Abilities SubObjectList="Yes" />
 
 		<Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
 		<Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
@@ -2284,7 +2300,7 @@
 			<Reduce_Production_Price_Ability Name="Fresia_AWing_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> A_Wing_Squadron </Applicable_Unit_Types>
+				<Applicable_Unit_Types> A_Wing_Squadron, Underworld_A_Wing_Squadron </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -3682,7 +3698,7 @@
 		<Corruption_1_Tactical_Map_Name> _Space_Planet_Mandalore_Piracy_Prologue.ted </Corruption_1_Tactical_Map_Name>
 		<Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Mandalore_Piracy_Prologue.xml </Corruption_1_Tactical_Script_Name>
 		<Corruption_1_Mission_Commencing_Speech_Event>MANDALORE_STORY_PIR_LOAD_COR34_02</Corruption_1_Mission_Commencing_Speech_Event>
-		<Corruption_1_Success_Speech_Event> </Corruption_1_Success_Speech_Event>
+		<Corruption_1_Success_Speech_Event />
 		<Corruption_1_Success_Bink_Hologram_Name> Tyber_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Failure_Speech_Event>MANDALORE_PIR_LOSS_COR34_07</Corruption_1_Failure_Speech_Event>
 		<Corruption_1_Failure_Bink_Hologram_Name>Tyber_Loop</Corruption_1_Failure_Bink_Hologram_Name>
@@ -4403,7 +4419,7 @@
 		<Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
 		<Corruption_1_Required_Mission_Type> Corruption_Piracy </Corruption_1_Required_Mission_Type>
 		<Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-		<Corruption_1_Success_Speech_Event> </Corruption_1_Success_Speech_Event>
+		<Corruption_1_Success_Speech_Event />
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_BLACKMARKET</Corruption_1_Mission_Briefing>
 
@@ -5065,7 +5081,7 @@
 			<Reduce_Production_Price_Ability Name="Sullust_Tartan_Patrol_Cruiser_Production_Boost">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Tartan_Patrol_Cruiser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Tartan_Patrol_Cruiser, Tartan_Underworld </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> Yes </Galaxy_Wide>
@@ -5594,8 +5610,12 @@
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
 		<Abilities SubObjectList="Yes">
-			<Galaxy_Wide_Upgrade_Ability Name="Vergesso_Upgrade_Bonus">
+			<Galaxy_Wide_Upgrade_Ability Name="R_Vergesso_Upgrade_Bonus">
 				<Space_Upgrade_Type>RS_Improved_Weapons_L1_Upgrade</Space_Upgrade_Type>
+				<Land_Upgrade_Type />
+			</Galaxy_Wide_Upgrade_Ability>
+			<Galaxy_Wide_Upgrade_Ability Name="U_Vergesso_Upgrade_Bonus">
+				<Space_Upgrade_Type>US_Improved_Weapons_L1_Upgrade</Space_Upgrade_Type>
 				<Land_Upgrade_Type />
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
@@ -5750,8 +5770,12 @@
 		<Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
 
 		<Abilities SubObjectList="Yes">
-			<Galaxy_Wide_Upgrade_Ability Name="Yavin_Upgrade_Bonus">
+			<Galaxy_Wide_Upgrade_Ability Name="R_Yavin_Upgrade_Bonus">
 				<Space_Upgrade_Type> RS_Enhanced_Shielding_L1_Upgrade </Space_Upgrade_Type>
+				<Land_Upgrade_Type />
+			</Galaxy_Wide_Upgrade_Ability>
+			<Galaxy_Wide_Upgrade_Ability Name="U_Yavin_Upgrade_Bonus">
+				<Space_Upgrade_Type> US_Enhanced_Shielding_L1_Upgrade </Space_Upgrade_Type>
 				<Land_Upgrade_Type />
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>

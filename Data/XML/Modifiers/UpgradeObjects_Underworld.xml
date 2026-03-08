@@ -18,7 +18,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_structure_shielding1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1 </Text_ID>
 
@@ -58,7 +58,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_structure_shielding2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2 </Text_ID>
 
@@ -98,7 +98,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L1 </Text_ID>
 
@@ -138,7 +138,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L2 </Text_ID>
 
@@ -175,7 +175,7 @@
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_BOUNTY  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_BOUNTY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_BOUNTY</Text_ID>
 
@@ -218,7 +218,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_destroyer_droid1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1 </Text_ID>
 
@@ -259,7 +259,7 @@
 		<Icon_Name>i_multi_destroyer_droid2.tga</Icon_Name>
 
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2 </Text_ID>
 
@@ -298,7 +298,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_weapon_boost1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1 </Text_ID>
 
@@ -322,7 +322,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-		<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade">
+	<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
@@ -377,7 +377,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_rancor_stimulant1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1 </Text_ID>
 
@@ -418,7 +418,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_rancor_stimulant2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2 </Text_ID>
 
@@ -460,7 +460,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_bombing_run.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BOMBING_RUN_USE</Text_ID>
 
@@ -494,7 +494,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_extort_money.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_U_EXTORT_CASH_L1</Text_ID>
 
@@ -545,7 +545,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_extort_money2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_U_EXTORT_CASH_L2</Text_ID>
 
@@ -596,7 +596,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_recharge_special1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1 </Text_ID>
 
@@ -638,7 +638,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_recharge_special2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2 </Text_ID>
 
@@ -684,7 +684,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L1</Text_ID>
 
@@ -709,7 +709,7 @@
 	</UpgradeObject>
 
 	<!-- Reinforced Durasteel: Space Station take 25% less damage. -->
-<UpgradeObject Name="US_Reinforced_Structure_L2_Upgrade">
+	<UpgradeObject Name="US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
@@ -724,7 +724,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L2</Text_ID>
 
@@ -764,7 +764,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L3</Text_ID>
 
@@ -804,7 +804,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L1 </Text_ID>
 
@@ -845,7 +845,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L2 </Text_ID>
 
@@ -886,7 +886,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L3 </Text_ID>
 
@@ -1116,7 +1116,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_cloaking_gen1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L1 </Text_ID>
 
@@ -1151,7 +1151,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_cloaking_gen2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L2 </Text_ID>
 
@@ -1304,7 +1304,7 @@
 		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1316,7 +1316,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_u_tech_upgrade_2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
 
@@ -1346,7 +1346,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_u_tech_upgrade_3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
 
@@ -1376,7 +1376,7 @@
 		<Icon_Name>i_multi_station_turret.tga</Icon_Name>
 		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_SPECIAL_WEAPON_USE</Text_ID>
 
@@ -1385,7 +1385,7 @@
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Special_Weapon_Ready>UHD_Fire_When_Ready</SFXEvent_Special_Weapon_Ready>
 
-	  	<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes">
 			<Battlefield_Modifier_Ability Name="US_Plasma_Cannon_Use_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
@@ -1417,7 +1417,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
@@ -1451,7 +1451,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
@@ -1485,7 +1485,7 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_UL_ORBITAL_BOMBARD_TOOLTIP  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_UL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
@@ -1673,7 +1673,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
 
@@ -1709,7 +1709,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
 
@@ -1745,7 +1745,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
 
@@ -1778,13 +1778,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_INTIMIDATION</Text_ID>
 
@@ -1803,13 +1803,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_PIRACY</Text_ID>
 
@@ -1828,13 +1828,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_KIDNAPPING</Text_ID>
 
@@ -1853,13 +1853,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_RACKETEERING</Text_ID>
 
@@ -1895,13 +1895,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_CORRUPT_MILITIA  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_CORRUPT_MILITIA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_CORRUPT_MILITIA</Text_ID>
 
@@ -1920,13 +1920,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BRIBERY  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BRIBERY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BRIBERY</Text_ID>
 
@@ -1945,13 +1945,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BLACK_MARKET  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BLACK_MARKET </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BLACK_MARKET</Text_ID>
 
@@ -1970,13 +1970,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BONDED_CITIZENS  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BONDED_CITIZENS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BONDED_CITIZENS</Text_ID>
 
@@ -1986,7 +1986,6 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-
 
 
 
@@ -2002,7 +2001,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_BESPIN_KRAYT_DAMAGE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_BESPIN_KRAYT_DAMAGE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_BESPIN_KRAYT_DAMAGE </Text_ID>
 
@@ -2058,7 +2057,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_MC30_DAMAGE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_MC30_DAMAGE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_SALEUCAMI_MC30_DAMAGE </Text_ID>
 
@@ -2089,7 +2088,7 @@
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_INTERCEPTOR4_DAMAGE  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_INTERCEPTOR4_DAMAGE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_SALEUCAMI_INTERCEPTOR4_DAMAGE </Text_ID>
 
@@ -2142,13 +2141,13 @@
 		<Previous_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-      <Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Bounty.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_PLANET_NALHUTTA_ENCYC_02  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_NALHUTTA_ENCYC_02 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_NALHUTTA_INFO_ADV_00</Text_ID>
 
@@ -2186,7 +2185,7 @@
 		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_UTAPAU_ENCYC  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_UTAPAU_ENCYC </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_UTAPAU_INFO_ADV</Text_ID>
 
@@ -2228,7 +2227,7 @@
 		<Icon_Name>i_multi_improved_atat_reactors2.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_BYSS_ENCYC_02  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BYSS_ENCYC_02 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_BYSS_INFO_ADV_01</Text_ID>
 
@@ -2269,7 +2268,7 @@
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_BESPIN_INFO_ADV_00</Text_ID>
 
@@ -2294,11 +2293,87 @@
 
 	</UpgradeObject>
 
+	<!-- Improved Weapons (Level 1): Fighters deal 25% more damage. -->
+	<!-- Needed form Vergesso Asteroids to give a buff to Underworld A-wings -->
+	<UpgradeObject Name="US_Improved_Weapons_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
 
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L1 </Text_ID>
 
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="US_Improved_Weapons_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Z-95_Headhunter_Underworld, A-Wing_Underworld</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
 
+	<!-- Enhanced Shielding (Level 1): Fighters gain a 25% bonus to shield strength. -->
+	<!-- Needed form Vergesso Asteroids to give a buff to Underworld A-wings -->
+	<UpgradeObject Name="US_Enhanced_Shielding_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
 
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L1 </Text_ID>
 
+		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="US_Enhanced_Shielding_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Z-95_Headhunter_Underworld, A-Wing_Underworld</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
 
 	<!-- ******************************************************************************************* -->
 	<!-- ******				UPGRADE OBJECTS FOR SOLO PLAY UNDERWORLD GROUND STRUCTURES		  ****** -->
@@ -2313,7 +2388,7 @@
 
 	<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1 </Text_ID>
 		<Icon_Name>i_multi_structure_shielding1.tga</Icon_Name>
@@ -2354,7 +2429,7 @@
 
 	<!-- Black Market Shielding (Level 2): Structures gain a 50% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2 </Text_ID>
 		<Icon_Name>i_multi_structure_shielding2.tga</Icon_Name>
@@ -2394,7 +2469,7 @@
 
 	<!-- Rancor Stimulant (Level 1): Rancors gain a 25% movement speed increase. -->
 	<UpgradeObject Name="UL_Rancor_Stimulant_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1 </Text_ID>
 		<Icon_Name>i_multi_rancor_stimulant1.tga</Icon_Name>
@@ -2434,7 +2509,7 @@
 
 	<!-- Rancor Stimulant (Level 2): Rancors gain a 25% movement speed increase. -->
 	<UpgradeObject Name="UL_Rancor_Stimulant_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2 </Text_ID>
 		<Icon_Name>i_multi_rancor_stimulant2.tga</Icon_Name>
@@ -2475,14 +2550,13 @@
 
 
 
-
 	<!-- ################ -->
 	<!-- ### BARRACKS ### -->
 	<!-- ################ -->
 
 	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1 </Text_ID>
 		<Icon_Name>i_multi_recharge_special1.tga</Icon_Name>
@@ -2524,7 +2598,7 @@
 
 	<!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2 </Text_ID>
 		<Icon_Name>i_multi_recharge_special2.tga</Icon_Name>
@@ -2565,9 +2639,6 @@
 
 
 
-
-
-
 	<!-- ################### -->
 	<!-- ### DROID WORKS ### -->
 	<!-- ################### -->
@@ -2575,7 +2646,7 @@
 
 	<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L1 </Text_ID>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
@@ -2617,7 +2688,7 @@
 
 	<!-- MDU Armor (Level 2): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L2 </Text_ID>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
@@ -2659,7 +2730,7 @@
 
 	<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1 </Text_ID>
 		<Icon_Name>i_multi_destroyer_droid1.tga</Icon_Name>
@@ -2702,7 +2773,7 @@
 
 	<!-- Smuggled Droid Systems (Level 2): Destroyer Droids gain a 25% bonus to shield strength and 20% damage increase -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2 </Text_ID>
 		<Icon_Name>i_multi_destroyer_droid2.tga</Icon_Name>
@@ -2743,16 +2814,11 @@
 
 
 
-
-
-
-
-
 	<!-- ############### -->
 	<!-- ### FACTORY ### -->
 	<!-- ############### -->
 	<UpgradeObject Name="UL_Weapon_Boost_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1 </Text_ID>
 		<Icon_Name>i_multi_weapon_boost1.tga</Icon_Name>
@@ -2793,7 +2859,7 @@
 
 
 	<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L2 </Text_ID>
 		<Icon_Name>i_multi_weapon_boost2.tga</Icon_Name>
