@@ -141,7 +141,6 @@
 
 			<Super_Laser_Ability Name="Eclipse_Super_Laser_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ECLIPSE_SL_DESCRIPTION</Alternate_Description_Text>
 				<Applicable_Unit_Categories> Capital | Corvette | Frigate | Structure </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
                 <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
@@ -150,7 +149,7 @@
 	            <Activation_Max_Range>20000</Activation_Max_Range>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>400</Damage_Per_Frame>			
+				<Damage_Per_Frame>400</Damage_Per_Frame>
 				<Fire_Frame>106</Fire_Frame>
 				<Beam_Texture_Name>tractor_beam01.tga</Beam_Texture_Name>
 				<Num_Anim_Frames>5</Num_Anim_Frames>
@@ -163,7 +162,6 @@
 	</UniqueUnit>
 	
 	<UniqueUnit Name="Eclipse_Super_Star_Destroyer_Death_Clone">
-		<Text_ID>NONE</Text_ID>
 		<Space_Model_Name>UV_Eclipse_UC_DC.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor>1.5</Scale_Factor>

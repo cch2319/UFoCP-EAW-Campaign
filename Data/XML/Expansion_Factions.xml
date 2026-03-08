@@ -3,6 +3,7 @@
 	<Faction Name="Underworld">
 		<Is_Debug_Switchable_To>Yes</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>No</Create_Player_In_Multiplayer_Games>
+
 		<Text_ID>TEXT_FACTION_UNDERWORLD</Text_ID>
 		<Text_Nickname_ID>TEXT_FACTION_UNDERWORLD_NICKNAME</Text_Nickname_ID>
 		<Icon_Name>i_icon_pirate.tga</Icon_Name>
@@ -355,18 +356,12 @@
 		<!-- SPREAD_OUT -->
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>SPREAD_OUT,</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>SPREAD_OUT,</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		<!-- ABILITY_LURE -->
+		<!-- LURE -->
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>LURE, GUI_Toggle_Lure_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>LURE, GUI_Toggle_Lure_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		<!-- ABILITY_ROCKET_ATTACK -->
+		<!-- ROCKET_ATTACK -->
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		<!-- HARASS -->
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>HARASS, GUI_Toggle_Harass_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>HARASS, GUI_Toggle_Harass_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		<!-- Scout -->
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>AVOID_DANGER, GUI_Toggle_Scout_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>AVOID_DANGER, GUI_Toggle_Scout_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
 		<!-- Deploy -->
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>DEPLOY, GUI_Toggle_Deploy_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>DEPLOY, GUI_Toggle_Deploy_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
@@ -419,18 +414,13 @@
 		<!-- SPREAD_OUT -->
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>SPREAD_OUT,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>SPREAD_OUT,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		<!-- ABILITY_LURE -->
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_LURE,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_LURE,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		<!-- ABILITY_ROCKET_ATTACK -->
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_ROCKET_ATTACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_ROCKET_ATTACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		<!-- HARASS -->
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>HARASS,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>HARASS,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		<!-- Scout -->
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>AVOID_DANGER,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>AVOID_DANGER,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
+		<!-- LURE -->
+		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>LURE,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
+		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>LURE,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
+		<!-- ROCKET_ATTACK -->
+		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ROCKET_ATTACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
+		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ROCKET_ATTACK,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
+
 		<!-- Deploy -->
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>DEPLOY,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>DEPLOY,</SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>

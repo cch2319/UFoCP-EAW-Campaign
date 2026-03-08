@@ -1272,12 +1272,16 @@
 		<Variant_Of_Existing_Type>Z-95_Headhunter_Rebel</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> Y-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> X-Wing, Starviper_Fighter </Encyclopedia_Vulnerable_To>
+
+		<Affiliation>Empire</Affiliation>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Z-95_Headhunter_Underworld">
 		<Variant_Of_Existing_Type>Z-95_Headhunter_Rebel</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> Y-wing, TIE_Bomber </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter, X-Wing </Encyclopedia_Vulnerable_To>
+
+		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
 
 

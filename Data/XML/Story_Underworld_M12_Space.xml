@@ -229,7 +229,7 @@
 					<Prereq>UM12_DIALOG_SuperStarDestroyer_Has_Arrived_Remove_Movie</Prereq>
 				</Event>
 				
-				xxx
+
 				
 <!-- Eclipse weapons come back online -->	
 	<Event Name="UM12_SUPERLASER_COMES_BACK_ONLINE_AI_NOTIFICATION">

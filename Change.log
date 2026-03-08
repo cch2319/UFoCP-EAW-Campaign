@@ -81,7 +81,16 @@ HOUSEKEEPING:
 • Removed "U000_MAL0503_ENG" from the pool of VO from the Consortium's M.A.L., because this audio file was not included in-game and causes an error. (No forward facing changes.)
 • Space Dantooine's space station position marker was internally defined as Rebel-owned, instead of Neutral. (No forward facing changes.)
 • Space Dathomir internally was defined as a Desert map, and not as a Space map. (No forward facing changes.)
-• Three AI template files (BasicGenerticTemplates, BasicEmpireTemplates, NativeLifeTemplates) had syntax errors.  It is unknown if these have forward-facing changes, as EaW's engine is interestingly very error-resistant; regardless, they have been fixed.
+• Three AI template files (BasicGenerticTemplates, BasicEmpireTemplates, NativeLifeTemplates) had syntax errors.  It is unknown if these have forward facing changes, as EaW's engine is interestingly very error-resistant; regardless, they have been fixed.
+• Rebel, Empire and Consortium faction definitions included (unused) SFX entries for unused abilities "HARASS" and "AVOID_DANGER" ("Scout").  Since these do not exist and cannot be used, the applicable entries have been removed.
+• Rebel, Empire and Consortium faction definitions include (unused) SFX entries for abilities "LURE" and "ROCKET_ATTACK;" however, they were incorrectly defined as "ABILITY_ROCKET_ATTACK" and "ABILITY_LURE," and could not be used.  Since this does not have forward facing changes, this is considered a housekeeping fix/modder's resource.
+• The AI script for building units in Space Skirmish had the Executor defined as a buildable unit, despite it not being available. (No forward facing changes.)
+• The Moldy Crow's definition had some misspelled tags (for example, "np" instead of "no"). (No forward facing changes.)
+• The Y-wing's squadron definition had some misspelled tags (for example, "np" instead of "no"). (No forward facing changes.)
+• The Z-95 Headhunter's faction-specific definitions for Empire and Consortium were missing faction affiliation tags, and were set to Rebel.  This would normally be a real bug, however, the squadrons for these units had their affiliations correct, so this is mostly a housekeeping fix.
+• The Eclipse Super Star Destroyer had a description setting mistakenly placed inside the wrong ability definition, and causing an error in FoC's logging. (No forward facing changes.)
+• The TIE crawler had two unused/removed settings mistakenly placed inside the self-destruct ability definition, causing an error in FoC's logging. (No forward facing changes.)
+• The event scripting for Consortium campaign mission #9 "The Emperor's New Weapon" had broken syntax near the bottom of the script.  It is unknown if this has any forward facing changes, as EaW's engine is interestingly very error-resistant; regardless, they have been fixed.
 
 • The game's interface definitions (CommandBarComponents.xml) have had multiple broken settings fixed.  These settings either didn't exist or was misspelled, but appeared to work regardless (likely because the defaults were already correct).  So, because there's no functionality changes, this is noted as housekeeping:
 •• i_main_commandbar: <Mega_Texture_Name>
