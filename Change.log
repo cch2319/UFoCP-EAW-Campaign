@@ -378,6 +378,7 @@ Texture Fixes:
 •• Multiplayer map previews originally displayed possible/example base positions for the Rebels or Empire; this was regressed in patch 1.121.826596 (bases were removed).  Base positions have been restored, and as an enhancement, applicable 3-way map previews now display all 3 faction bases on the map as possible layouts, where FoC on release only displayed Empire and Rebel bases.
 • Ysalamiri Trees on Myrkr and on Consortium MDUs did not have a bump map, despite the model trying to find one.  We don't know who is expecting HD bumpmaps on Ysalamiri Trees, but there now is one. (BUG #486)
 • The "river rocks"/shore stone texture on Nal Hutta, Anaxes Intimidation, Dantooine Intimidation, Korriban and Dathomir's environment textures did not have an associated bump map. (BUG #486)
+• The first level of destruction for the Empire "Base Wall" texture did not have an appropriate bump map that reflected the destruction on the wall itself.  As a bonus enhancement, it has also had its texture size increased (128px -> 256px). (BUG #495)
 
 
 Unit Fixes:
