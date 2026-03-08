@@ -359,12 +359,12 @@ Structure Fixes:
 
 
 Texture Fixes:
-• Land map previews have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  Space preview sizes were boosted, and are now sharper.  All previews were also completely redone due to incomplete or inconsistent material, or low-quality material.  Changes include: (BUG #253)
+• Multiple map previews have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  Space preview sizes were boosted, and are now sharper.  All previews were also completely redone due to incomplete or inconsistent material, or low-quality imagery.  Changes include: (BUG #253)
 •• Many previews (both original and patched) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, no rendered clouds).  Water also had a unique processed look to it, which I am unable to replicate currently.
 •• Consortium campaign previews not including scripted units or structures on the map.
 •• MP Space Bespin displayed an unused map.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.
-•• Multiplayer map previews originally displayed possible base positions for the Rebels or Empire; this was regressed in patch 1.121.826596 (bases were removed).  Base positions have been restored, and as an enhancement, applicable 3-way map previews now display all 3 faction bases on the map as possible layouts, where FoC on release only displayed Empire and Rebel bases.
+•• Multiplayer map previews originally displayed possible/example base positions for the Rebels or Empire; this was regressed in patch 1.121.826596 (bases were removed).  Base positions have been restored, and as an enhancement, applicable 3-way map previews now display all 3 faction bases on the map as possible layouts, where FoC on release only displayed Empire and Rebel bases.
 
 
 Unit Fixes:
