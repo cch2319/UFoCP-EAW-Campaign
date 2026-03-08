@@ -47,11 +47,12 @@ function Definitions()
 
 	Category = "Advance_Tech_Empire"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce =
 	{
-		"TechForce",
-		"DS_Primary_Hyperdrive | DS_Shield_Gen | DS_Superlaser_Core | DS_Durasteel | Darth_Team_Executor | Death_Star_II = 1"
-	}
+		{
+			"TechForce",
+			"DS_Primary_Hyperdrive | DS_Shield_Gen | DS_Superlaser_Core | DS_Durasteel | Darth_Team_Executor | Death_Star_II = 1"
+		}
 	}
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
@@ -76,6 +77,6 @@ function TechForce_Thread()
 end
 
 function TechForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end

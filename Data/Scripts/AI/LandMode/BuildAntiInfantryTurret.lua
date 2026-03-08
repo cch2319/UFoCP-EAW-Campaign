@@ -44,24 +44,23 @@ require("pgevents")
 -- Build a single turret.
 
 function Definitions()
-
 	Category = "Build_AntiInfantry_Turret"
-	TaskForce = {
+	TaskForce =
 	{
-		"MainForce"
-		,"TaskForceRequired"
-		,"UC_Empire_Buildable_Anti_Infantry_Turret | UC_Rebel_Buildable_Anti_Infantry_Turret | UC_Underworld_Buildable_Torpedo_Turret | UC_Pirate_Buildable_Anti_Infantry_Turret | UC_Hutt_Rapid_Fire_Laser_Turret = 1"
+		{
+			"MainForce",
+			"TaskForceRequired",
+			"UC_Empire_Buildable_Anti_Infantry_Turret | UC_Rebel_Buildable_Anti_Infantry_Turret | UC_Underworld_Buildable_Torpedo_Turret | UC_Pirate_Buildable_Anti_Infantry_Turret | UC_Hutt_Rapid_Fire_Laser_Turret = 1"
+		}
 	}
-	}
-
 end
 
 function MainForce_Thread()
 	DebugMessage("%s -- Building a turret.", tostring(Script))
 
 	-- Make sure we've ended up with a build location that's reasonably close to our original target
-	pad_table = MainForce.Get_Reserved_Build_Pads()
-	for i,pad in pad_table do
+	local pad_table = MainForce.Get_Reserved_Build_Pads()
+	for i, pad in pad_table do
 		if pad.Get_Distance(AITarget) > 120 then
 			ScriptExit()
 		end

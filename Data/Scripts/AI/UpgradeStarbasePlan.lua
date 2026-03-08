@@ -49,11 +49,12 @@ function Definitions()
 
 	Category = "Upgrade_Starbase | Build_Initial_Starbase_Only"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce =
 	{
-		"BaseForce"
-		,"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Underworld_Star_Base_1 | Underworld_Star_Base_2 | Underworld_Star_Base_3 | Underworld_Star_Base_4 | Underworld_Star_Base_5 = 1"
-	}
+		{
+			"BaseForce",
+			"Rebel_Star_Base_1 | Rebel_Star_Base_2 | Rebel_Star_Base_3 | Rebel_Star_Base_4 | Rebel_Star_Base_5 | Empire_Star_Base_1 | Empire_Star_Base_2 | Empire_Star_Base_3 | Empire_Star_Base_4 | Empire_Star_Base_5 | Underworld_Star_Base_1 | Underworld_Star_Base_2 | Underworld_Star_Base_3 | Underworld_Star_Base_4 | Underworld_Star_Base_5 = 1"
+		}
 	}
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
@@ -71,6 +72,6 @@ function BaseForce_Thread()
 end
 
 function BaseForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end

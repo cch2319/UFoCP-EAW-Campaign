@@ -46,12 +46,13 @@ function Definitions()
 
 	IgnoreTarget = true;
 	Category = "Weaken_Planet"
-	TaskForce = {
+	TaskForce =
 	{
-		"SmugglerForce",
-		"DenyHeroAttach",
-		"Smuggler_Team_E | Smuggler_Team_R = 1"
-	}
+		{
+			"SmugglerForce",
+			"DenyHeroAttach",
+			"Smuggler_Team_E | Smuggler_Team_R = 1"
+		}
 	}
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))

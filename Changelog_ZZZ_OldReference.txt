@@ -4,16 +4,6 @@ v1.14
 
 
 ==================
-A.I.
-==================
--(TPL) BasicEmpireTemplates – Fixing parsing errors.
-
--(TPL) BasicGenericTemplates – Fixing parsing errors.
-
--(TPL) NativeLifeTemplates – Fixing parsing errors.
-
-
-==================
 Maps/Planets (Galactic)
 ==================
 -Bestine – Fixed planetary buff not reducing the price of Underworld Acclamator Assault Ships by 20%.

@@ -51,32 +51,33 @@ function Definitions()
 	PerFailureContrastAdjust = 0.5
 
 	Category = "Conquer_Opponent"
-	TaskForce = {
+	TaskForce =
 	{
-		"MainForce"
-		,"MinimumTotalSize = 10"
-		,"MinimumTotalForce = 8000"
-		, "Infantry | Vehicle | Air | Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
+		{
+			"MainForce",
+			"MinimumTotalSize = 10",
+			"MinimumTotalForce = 8000",
+			"Infantry | Vehicle | Air | Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
+		}
 	}
+
+	RequiredCategories =
+	{
+		"Infantry",
+		"Corvette | Frigate | Capital | Super"
 	}
-	RequiredCategories =	{
-								"Infantry",
-								"Corvette | Frigate | Capital | Super"
-							}
-
-
-	DebugMessage("%s -- Done Definitions", tostring(Script))
 
 	LandSecured = false
+
+	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
 function MainForce_Thread()
-
-	difficulty = "Easy"
+	local difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
-	sleep_duration = DifficultyBasedMinPause(difficulty)
+	local sleep_duration = DifficultyBasedMinPause(difficulty)
 
 	--Let's not even do this on easy: the AI force can just be too overwhelming
 	if difficulty == "Easy" or difficulty == "Normal" then
@@ -142,6 +143,6 @@ end
 function MainForce_No_Units_Remaining()
 	if not LandSecured then
 		MainForce.Set_Plan_Result(false)
-		--Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
+		-- Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
 	end
 end

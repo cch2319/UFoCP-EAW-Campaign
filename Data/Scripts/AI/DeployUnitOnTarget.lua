@@ -47,14 +47,14 @@ function Definitions()
 
 	Category = "Remove_Smuggler"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce =
 	{
-		"BountyForce",
-		"DenyHeroAttach",
-		"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
+		{
+			"BountyForce",
+			"DenyHeroAttach",
+			"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
+		}
 	}
-	}
-
 end
 
 function BountyForce_Thread()

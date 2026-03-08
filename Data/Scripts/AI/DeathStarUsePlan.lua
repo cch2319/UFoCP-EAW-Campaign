@@ -44,15 +44,15 @@ require("pgevents")
 -- Death Star Usage
 
 function Definitions()
-
 	Category = "Death_Star_Use"
 	MinContrastScale = 0.75
 	MaxContrastScale = 1.75
-	TaskForce = {
+	TaskForce =
 	{
-		"DeathStarForce"
-		,"Frigate | Capital | Corvette | Bomber | Fighter | Super = 100%"
-	}
+		{
+			"DeathStarForce",
+			"Frigate | Capital | Corvette | Bomber | Fighter | Super = 100%"
+		}
 	}
 
 	RequiredCategories = { "Super" }
@@ -62,11 +62,11 @@ function DeathStarForce_Thread()
 	AssembleForce(DeathStarForce)
 	BlockOnCommand(DeathStarForce.Move_To(Target))
 
-	difficulty = "Easy"
+	local difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
-	sleep_duration = DifficultyBasedMinPause(difficulty)
+	local sleep_duration = DifficultyBasedMinPause(difficulty)
 
 	if DeathStarForce.Get_Force_Count() == 0 then
 		Sleep(sleep_duration)
@@ -86,6 +86,7 @@ function DeathStarForce_Thread()
 	if (not GalacticAttackAllowed(difficulty, 2)) then
 		Sleep(sleep_duration)
 	end
+
 	ScriptExit()
 end
 

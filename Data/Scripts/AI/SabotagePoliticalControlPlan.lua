@@ -55,11 +55,12 @@ function Definitions()
 	IgnoreTarget = true
 	--Category = "Weaken_Planet"
 	Category = "AlwaysOff"
-	TaskForce = {
+	TaskForce =
 	{
-		"BountyForce"
-		--,"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
-	}
+		{
+			"BountyForce"
+			--"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
+		}
 	}
 
 	--DebugMessage("%s -- Done Definitions", tostring(Script))

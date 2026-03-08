@@ -46,16 +46,18 @@ function Definitions()
 	Category = "Generate_Magic_Space_Defense_Hard"
 	IgnoreTarget = true
 
-	TaskForce = {
+	TaskForce =
 	{
-		"ReserveForce"
-		,"DenyHeroAttach"
-		,"Fighter | Bomber = 10"
-		,"Corvette | Frigate | Capital = 6"
-		,"-TIE_Interceptor_Squadron"
-		,"-TIE_Interceptor"
+		{
+			"ReserveForce",
+			"DenyHeroAttach",
+			"Fighter | Bomber = 10",
+			"Corvette | Frigate | Capital = 6",
+			"-TIE_Interceptor_Squadron",
+			"-TIE_Interceptor"
+		}
 	}
-	}
+
 	AllowFreeStoreUnits = false
 	MagicPlan = true
 	MagicPlanStealing = false
@@ -66,13 +68,15 @@ function ReserveForce_Thread()
 	BlockOnCommand(ReserveForce.Produce_Force(Target))
 	ReserveForce.Set_Plan_Result(true)
 	Sleep(20)
-	--Use the Normal version of Needs_Magic_Space_Defense (just in case the units we spawned don't pull us past the
-	--Hard threshold)
-	wait_start_time = GetCurrentTime()
-	wait_duration = Determine_Magic_Wait_Duration()
+
+	-- Use the Normal version of Needs_Magic_Space_Defense (just in case the units we spawned don't pull us past the
+	-- Hard threshold)
+	local wait_start_time = GetCurrentTime()
+	local wait_duration = Determine_Magic_Wait_Duration()
 	while (GetCurrentTime() - wait_start_time < wait_duration) and
-			(EvaluatePerception("Needs_Magic_Space_Defense", PlayerObject, Target) == 0.0) do
+		(EvaluatePerception("Needs_Magic_Space_Defense", PlayerObject, Target) == 0.0) do
 		Sleep(1)
 	end
+
 	ScriptExit()
 end

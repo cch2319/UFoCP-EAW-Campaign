@@ -53,22 +53,23 @@ function Definitions()
 	MaxContrastScale = 1.75
 
 	Category = "Conquer_Opponent"
-	TaskForce = {
-	-- First Task Force
+	TaskForce =
 	{
-		"SpaceForce"
-		,"MinimumTotalSize = 4"
-		,"MinimumTotalForce = 2500"
-		,"Frigate | Capital | Corvette | Bomber | Fighter = 100%"
-	},
-	{
-		"GroundForce"
-		,"MinimumTotalSize = 4"
-		,"MinimumTotalForce = 750"
-		,"Vehicle | Infantry | Air = 100%"
+		-- First Task Force
+		{
+			"SpaceForce",
+			"MinimumTotalSize = 4",
+			"MinimumTotalForce = 2500",
+			"Frigate | Capital | Corvette | Bomber | Fighter = 100%"
+		},
+		{
+			"GroundForce",
+			"MinimumTotalSize = 4",
+			"MinimumTotalForce = 750",
+			"Vehicle | Infantry | Air = 100%"
+		}
 	}
-	}
-	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Super" }		--Must have at least one ground unit, also make sure space force is reasonable
+	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Super" } -- Must have at least one ground unit, also make sure space force is reasonable
 
 	PerFailureContrastAdjust = 0.5
 
@@ -171,11 +172,11 @@ function GroundForce_Thread()
 end
 
 function Exit_Plan_With_Possible_Sleep()
-	difficulty = "Easy"
+	local difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
-	sleep_duration = DifficultyBasedMinPause(difficulty)
+	local sleep_duration = DifficultyBasedMinPause(difficulty)
 
 	if SpaceForce then
 		SpaceForce.Release_Forces(1.0)
@@ -185,6 +186,7 @@ function Exit_Plan_With_Possible_Sleep()
 	if WasConflict and (not GalacticAttackAllowed(difficulty, 2)) then
 		Sleep(sleep_duration)
 	end
+
 	ScriptExit()
 end
 

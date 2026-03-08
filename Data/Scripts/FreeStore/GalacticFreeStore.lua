@@ -74,8 +74,8 @@ function main()
 end
 
 function MoveUnit(object)
-	dest_target = nil
-	object_type = object.Get_Type()
+	local dest_target = nil
+	local object_type = object.Get_Type()
 	if object_type.Is_Hero() then
 		dest_target = Find_Custom_Target(object)
 	end
@@ -142,7 +142,7 @@ end
 function On_Unit_Added(object)
 	DebugMessage("%s -- Object: %s added to freestore", tostring(Script), tostring(object))
 
-	obj_type = object.Get_Type()
+	local obj_type = object.Get_Type()
 	if obj_type.Is_Hero() then
 		DebugMessage("%s -- Hero Object: %s added to freestore", tostring(Script), obj_type.Get_Name())
 	end
@@ -154,11 +154,11 @@ end
 
 function FreeStoreService()
 	if PlayerObject.Get_Faction_Name() == "REBEL" then
-		leader_object = Find_First_Object("MON_MOTHMA")
+		Leader_Object = Find_First_Object("MON_MOTHMA")
 	elseif PlayerObject.Get_Faction_Name() == "EMPIRE" then
-		leader_object = Find_First_Object("EMPEROR_PALPATINE")
+		Leader_Object = Find_First_Object("EMPEROR_PALPATINE")
 	elseif PlayerObject.Get_Faction_Name() == "UNDERWORLD" then
-		leader_object = Find_First_Object("THE_PEACEBRINGER") -- AM1994 12/15/2024 - Due to an engine limitation regarding transports, technically Tyber only exists as THE_PEACEBRINGER in GC.
+		Leader_Object = Find_First_Object("THE_PEACEBRINGER") -- AM1994 12/15/2024 - Due to an engine limitation regarding transports, technically Tyber only exists as THE_PEACEBRINGER in GC.
 	end
 
 	MovedUnitsThisService = 0
@@ -169,13 +169,13 @@ function FreeStoreService()
 	SpaceAvailablePercent = 0
 	GroundAvailablePercent = 0
 
-	object_count = FreeStore.Get_Object_Count()
+	local object_count = FreeStore.Get_Object_Count()
 
 	if object_count ~= 0 then
 		-- get the count of space force in the freestore
-		scnt = FreeStore.Get_Object_Count(true)
+		local scnt = FreeStore.Get_Object_Count(true)
 		-- get the count of ground force in the freestore
-		gcnt = FreeStore.Get_Object_Count(false)
+		local gcnt = FreeStore.Get_Object_Count(false)
 
 		SpaceAvailablePercent = scnt / object_count
 		GroundAvailablePercent = gcnt / object_count
@@ -189,21 +189,23 @@ function FreeStoreService()
 end
 
 function Find_Ground_Unit_Target(object)
-	my_planet = object.Get_Planet_Location()
+	local my_planet = object.Get_Planet_Location()
+	local leader_planet = nil
 
 	if FreeStore.Is_Unit_Safe(object) == false then
 		my_planet = nil
 	end
 
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
+	if Leader_Object then
+		leader_planet = Leader_Object.Get_Planet_Location()
 	end
 
-	max_force_target = 1000 * (PlayerObject.Get_Tech_Level() + 1)
-	force_target = EvaluatePerception("Friendly_Global_Land_Unit_Raw_Total", PlayerObject)
+	local max_force_target = 1000 * (PlayerObject.Get_Tech_Level() + 1)
+	local force_target = EvaluatePerception("Friendly_Global_Land_Unit_Raw_Total", PlayerObject)
 	if not force_target then
 		return nil
 	end
+
 	force_target = force_target / 4.0
 	if force_target > max_force_target then
 		force_target = max_force_target
@@ -219,7 +221,7 @@ function Find_Ground_Unit_Target(object)
 		end
 	end
 
-	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly",
+	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly",
 		"Friendly_Only", 0.1, object)
 	if priority_planet then
 		priority_planet = priority_planet.Get_Game_Object()
@@ -239,7 +241,7 @@ function Find_Ground_Unit_Target(object)
 		return nil
 	end
 
-	poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Ground_Defense_Score", "Friendly",
+	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Ground_Defense_Score", "Friendly",
 		"Friendly_Only", 1.0, object)
 	if poorly_defended_planet then
 		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()
@@ -250,7 +252,7 @@ function Find_Ground_Unit_Target(object)
 	end
 
 	if not my_planet then
-		fallback_planet = FindTarget.Reachable_Target(PlayerObject, "One", "Friendly", "Friendly_Only", 0.1, object)
+		local fallback_planet = FindTarget.Reachable_Target(PlayerObject, "One", "Friendly", "Friendly_Only", 0.1, object)
 		if fallback_planet then
 			return fallback_planet.Get_Game_Object()
 		end
@@ -260,21 +262,23 @@ function Find_Ground_Unit_Target(object)
 end
 
 function Find_Space_Unit_Target(object)
-	my_planet = object.Get_Planet_Location()
+	local my_planet = object.Get_Planet_Location()
+	local leader_planet = nil
 
 	if not my_planet then
 		return nil
 	end
 
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
+	if Leader_Object then
+		leader_planet = Leader_Object.Get_Planet_Location()
 	end
 
-	max_force_target = 3000 * (PlayerObject.Get_Tech_Level() + 1)
-	force_target = EvaluatePerception("Friendly_Global_Space_Unit_Raw_Total", PlayerObject)
+	local max_force_target = 3000 * (PlayerObject.Get_Tech_Level() + 1)
+	local force_target = EvaluatePerception("Friendly_Global_Space_Unit_Raw_Total", PlayerObject)
 	if not force_target then
 		return nil
 	end
+
 	force_target = force_target / 4.0
 	if force_target > max_force_target then
 		force_target = max_force_target
@@ -292,7 +296,7 @@ function Find_Space_Unit_Target(object)
 		end
 	end
 
-	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly",
+	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly",
 		"Friendly_Only", 0.1, object)
 	if priority_planet then
 		priority_planet = priority_planet.Get_Game_Object()
@@ -314,7 +318,7 @@ function Find_Space_Unit_Target(object)
 		return nil
 	end
 
-	poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Space_Defense_Score", "Friendly",
+	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Space_Defense_Score", "Friendly",
 		"Friendly_Only", 1.0, object)
 	if poorly_defended_planet then
 		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()

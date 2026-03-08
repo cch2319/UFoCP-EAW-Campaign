@@ -42,10 +42,10 @@
 require("pgevents")
 
 function Definitions()
-
 	Category = "Remove_Corruption"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce =
+	{
 		{
 			"MainForce",
 			"DenyHeroAttach",

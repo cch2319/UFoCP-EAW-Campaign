@@ -81,6 +81,7 @@ HOUSEKEEPING:
 • Removed "U000_MAL0503_ENG" from the pool of VO from the Consortium's M.A.L., because this audio file was not included in-game and causes an error. (No forward facing changes.)
 • Space Dantooine's space station position marker was internally defined as Rebel-owned, instead of Neutral. (No forward facing changes.)
 • Space Dathomir internally was defined as a Desert map, and not as a Space map. (No forward facing changes.)
+• Three AI template files (BasicGenerticTemplates, BasicEmpireTemplates, NativeLifeTemplates) had syntax errors.  It is unknown if these have forward-facing changes, as EaW's engine is interestingly very error-resistant; regardless, they have been fixed.
 
 • The game's interface definitions (CommandBarComponents.xml) have had multiple broken settings fixed.  These settings either didn't exist or was misspelled, but appeared to work regardless (likely because the defaults were already correct).  So, because there's no functionality changes, this is noted as housekeeping:
 •• i_main_commandbar: <Mega_Texture_Name>

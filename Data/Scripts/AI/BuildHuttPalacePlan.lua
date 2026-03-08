@@ -49,11 +49,12 @@ function Definitions()
 
 	Category = "Build_Hutt_Palace"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce =
 	{
-		"StructureForce",
-		"Ground_Hutt_Palace_E | Ground_Hutt_Palace_R = 1"
-	}
+		{
+			"StructureForce",
+			"Ground_Hutt_Palace_E | Ground_Hutt_Palace_R = 1"
+		}
 	}
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
@@ -64,7 +65,7 @@ function StructureForce_Thread()
 
 	Sleep(1)
 
---	StructureForce.Set_As_Goal_System_Removable(false)
+	--	StructureForce.Set_As_Goal_System_Removable(false)
 	AssembleForce(StructureForce)
 
 	StructureForce.Set_Plan_Result(true)
@@ -73,6 +74,6 @@ function StructureForce_Thread()
 end
 
 function StructureForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end

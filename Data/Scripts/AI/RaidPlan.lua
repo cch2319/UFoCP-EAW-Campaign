@@ -42,23 +42,22 @@
 require("pgevents")
 
 function Definitions()
-
 	Category = "Raid"
 
-	TaskForce = {
+	TaskForce =
 	{
-		"RaidForce"
-		,"DenyHeroAttach"
-		,"Infantry | Vehicle | Air = 2"
-		,"LandHero = 0,1"
-	}
+		{
+			"RaidForce",
+			"DenyHeroAttach",
+			"Infantry | Vehicle | Air = 2",
+			"LandHero = 0,1"
+		}
 	}
 
 	LandSecured = false
 end
 
 function RaidForce_Thread()
-
 	AssembleForce(RaidForce)
 
 	if not RaidForce.Is_Raid_Capable() then
@@ -77,11 +76,11 @@ function RaidForce_Thread()
 	RaidForce.Set_As_Goal_System_Removable(false)
 	RaidForce.Test_Target_Contrast(false)
 
-	difficulty = "Easy"
+	local difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
-	sleep_duration = DifficultyBasedMinPause(difficulty)
+	local sleep_duration = DifficultyBasedMinPause(difficulty)
 
 	if RaidForce.Get_Force_Count() == 0 then
 		Sleep(sleep_duration)

@@ -49,8 +49,9 @@ function Definitions()
 	TaskForce =
 	{
 		{
-			"MainForce"
-			, "TaskForceRequired"
+			"MainForce",
+			"TaskForceRequired",
+			"Death_Star | Death_Star_II = 1"
 		}
 	}
 
@@ -58,15 +59,12 @@ function Definitions()
 end
 
 function MainForce_Thread()
-
 	BlockOnCommand(MainForce.Produce_Force())
 
-	ds = Find_First_Object("Death_Star")
-	if not TestValid(ds) then
-		ds = Find_First_Object("Death_Star_II")
-	end
-
+	local ds = MainForce.Get_Unit_Table()[1]
 	while not TestValid(ds) do
+		DebugMessage("%s -- unexpected state; Death Star 1 or 2 unavailable", tostring(Script))
+
 		-- Death star isn't present, hang this plan indefinately
 		Sleep(100)
 	end
@@ -75,9 +73,7 @@ function MainForce_Thread()
 		Sleep(1)
 	until ds.Is_Tactical_Superweapon_Ready() and (Evaluate_In_Galactic_Context("Want_To_Fire_DS", PlayerObject) ~= 0)
 
-    ds.Fire_Tactical_Superweapon()
-
+	ds.Fire_Tactical_Superweapon()
 	Sleep(30)
-
 	ScriptExit()
 end

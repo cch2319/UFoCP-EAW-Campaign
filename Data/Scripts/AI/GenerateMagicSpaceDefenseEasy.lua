@@ -41,20 +41,20 @@
 
 require("pgevents")
 
-
 function Definitions()
 	Category = "Generate_Magic_Space_Defense_Easy"
 	IgnoreTarget = true
 
-	TaskForce = {
+	TaskForce =
 	{
-		"ReserveForce"
-		,"DenyHeroAttach"
-		,"Fighter | Bomber = 4"
-		,"Corvette | Frigate = 2"
-		,"-TIE_Interceptor_Squadron"
-		,"-TIE_Interceptor"
-	}
+		{
+			"ReserveForce",
+			"DenyHeroAttach",
+			"Fighter | Bomber = 4",
+			"Corvette | Frigate = 2",
+			"-TIE_Interceptor_Squadron",
+			"-TIE_Interceptor"
+		}
 	}
 	AllowFreeStoreUnits = false
 	MagicPlan = true
@@ -66,9 +66,9 @@ function ReserveForce_Thread()
 	BlockOnCommand(ReserveForce.Produce_Force(Target))
 	ReserveForce.Set_Plan_Result(true)
 
-	--Sleep forever on easy so that we can't repeat the spawn
-	wait_start_time = GetCurrentTime()
-	wait_duration = Determine_Magic_Wait_Duration()
+	-- Sleep forever on easy so that we can't repeat the spawn
+	local wait_start_time = GetCurrentTime()
+	local wait_duration = Determine_Magic_Wait_Duration()
 	while (GetCurrentTime() - wait_start_time < wait_duration) do
 		Sleep(1)
 	end
