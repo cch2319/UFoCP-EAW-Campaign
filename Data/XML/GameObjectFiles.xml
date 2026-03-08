@@ -68,8 +68,8 @@
 	<File>Units\Empire\Units_Hero_Empire_Darth_Vader.xml</File>
 	<File>Units\Empire\Units_Land_Empire_DarkTroopers.xml</File>
 
-	<File>Units\Empire\Units_Space_Empire_TIE_Defender.xml</File>
-	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
+	<File>Units\Empire\Units_Space_Empire_TIE_defender.xml</File>
+	<File>Units\Empire\Units_Space_Empire_TIE_interceptor.xml</File>
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units\Empire\Units_Space_Empire_Executor.xml</File>
 
@@ -106,7 +106,7 @@
 
 
 	<!-- Expansion Units: Neutral -->
-	<File>Units_Space_Neutral_Eclipse.xml</File>
+	<File>Units\Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
 	<File>GroundBuildablesHutts.xml</File>
 
