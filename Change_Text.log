@@ -535,13 +535,32 @@ International:
 	-- RUS: Урон, наносимый пехоте повстанцев, уменьшается на 25% --> Урон, наносимый пехоте повстанцев, уменьшается на 50%
 	-- SPA: Reduce un 25% el daño sufrido por las unidades de soldados de la Rebelión. --> Reduce un 50% el daño sufrido por las unidades de soldados de la Rebelión.
 
+• TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2: (BUG #489)
+	-- ENG: Reduces the damage taken by Plex Soldier units by 25%. --> Reduces the damage taken by Rebellion Trooper and Plex Soldier units by 50%.
+	-- GER: Verringert den Schaden, den Plex-Soldaten erleiden, um 25%. --> Verringert den Schaden, den Rebellensoldaten und Plex-Soldaten erleiden, um 50%.
+	-- FRA: Réduit de 25% les dommages essuyés par les Soldats Plex. --> Réduit de 50% les dommages essuyés par les Soldats Plex.
+	-- ITA: Riduce del 25% i danni subiti dai soldati PLEX. --> Riduce del 50% i danni subiti dai soldati plex.
+	-- POL: Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy PLEX. --> Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy plex.
+	-- RUS: Урон, наносимый ракетной пехоте, уменьшается на 25% --> Урон, наносимый ракетной пехоте, уменьшается на 50%
+	-- SPA: Reduce un 25% el daño sufrido por las unidades de soldados plex. --> Reduce un 50% el daño sufrido por las unidades de soldados plex.
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+	-- FRA: ...renvoie 25% des tirs laser.  --> ...renvoie 30% des tirs laser.
+	-- ITA: ...deflette il 25% dei colpi di laser nemici. --> ...deflette il 30% dei colpi di laser nemici.
+	-- POL: ...odbija 25% ostrzału z laserów. --> ...odbija 30% ostrzału z laserów.
+	-- RUS: ...отражает 25% лазерных лучей противника. --> ...отражает 30% лазерных лучей противника.
+	-- SPA: ...desvía el 25% del fuego láser recibido. --> ...desvía el 30% del fuego láser recibido.
 
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ... armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. --> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+	-- FRA: ...renvoie 25% des tirs laser.  --> ...renvoie 30% des tirs laser.
+	-- ITA: ...deflette il 25% dei colpi di laser nemici. --> ...deflette il 30% dei colpi di laser nemici.
+	-- POL: ...odbija 25% ostrzału z laserów. --> ...odbija 30% ostrzału z laserów.
+	-- RUS: ...отражает 25% лазерных лучей противника. --> ...отражает 30% лазерных лучей противника.
+	-- SPA: ...desvía el 25% del fuego láser recibido. --> ...desvía el 30% del fuego láser recibido.
 
 • TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
 	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. --> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.

@@ -18850,7 +18850,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,La planète a été corrompue g
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Une somme d'argent est versée pour chaque unité ennemie détruite.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Acheter un bombardement par Y-wing. 
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Réduit de 50% les dommages essuyés par les Soldats Rebelles.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Réduit de 25% les dommages essuyés par les Soldats Plex.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Réduit de 50% les dommages essuyés par les Soldats Plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Empêche tous les tirs ennemis de percer une brèche dans vos boucliers terrestres.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Les Chars T2-B et les Speeders gagnent 15% de vitesse supplémentaire.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Les Chars T2-B et les Speeders gagnent 30% de vitesse supplémentaire.
@@ -18925,8 +18925,8 @@ TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Augmente de 25% la vitesse des Ve
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Augmente de 25% les dommages causés par la Frégate Vengeance.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Augmente de 25% les dommages causés par la Frégate Vengeance et le Destroyer Agressor.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,Le blindage du Chasseur StarViper renvoie 25% des tirs laser.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Le blindage du Chasseur StarViper et de la Corvette Crusader renvoie 25% des tirs laser.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Le blindage du Chasseur StarViper, de la Corvette Crusader et du Cuirassé Kedalbe renvoie 25% des tirs laser.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Le blindage du Chasseur StarViper et de la Corvette Crusader renvoie 30% des tirs laser.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Le blindage du Chasseur StarViper, de la Corvette Crusader et du Cuirassé Kedalbe renvoie 30% des tirs laser.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Augmente de 25% la durée du champ de dissimulation de la Frégate Vengeance.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Augmente de 50% la durée du champ de dissimulation de la Frégate Vengeance et du Merciless.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Réduit de 15% les dommages subis par les Stations spatiales du Consortium.

@@ -18850,7 +18850,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Questo pianeta è stato corrott
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Fornisce dei crediti bonus per ogni unità nemica distrutta.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Acquista un singolo bombardamento di Y-Wing.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Riduce del 50% i danni subiti dai soldati ribelli.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Riduce del 25% i danni subiti dai soldati PLEX.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Riduce del 50% i danni subiti dai soldati plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Impedisce al fuoco nemico di penetrare gli scudi della base.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Aumenta del 15% la velocità di movimento dei carri armati T2-B e degli speeder.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Aumenta del 30% la velocità di movimento dei carri armati T2-B e degli speeder.
@@ -18925,8 +18925,8 @@ TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Aumenta del 25% la velocità di m
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Aumenta del 25% i danni inflitti dalle fregate Vengeance.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Aumenta del 25% i danni inflitti dalle fregate Vengeance e dagli incrociatori Krayt.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,La corazza dei caccia Starviper deflette il 25% dei colpi di laser nemici.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,La corazza dei caccia Starviper e delle navi Crusader deflette il 25% dei colpi di laser nemici.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,La corazza dei caccia Starviper, delle navi Crusader e degli incrociatori Kedalbe deflette il 25% dei colpi di laser nemici.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,La corazza dei caccia Starviper e delle navi Crusader deflette il 30% dei colpi di laser nemici.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,La corazza dei caccia Starviper, delle navi Crusader e degli incrociatori Kedalbe deflette il 30% dei colpi di laser nemici.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Aumenta del 25% la durata dell'invisibilità delle fregate Vengeance.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Aumenta del 50% la durata dell'invisibilità delle fregate Vengeance e della Peacebringer.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Riduce del 15% i danni subiti dalle stazioni spaziali della Malavita.

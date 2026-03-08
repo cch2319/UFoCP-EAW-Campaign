@@ -18850,7 +18850,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Ta planeta została skorumpowan
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Zapewnia premię w formie dodatkowych kredytów za każdą zniszczoną jednostkę wroga.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Zakupienie jednego nalotu wykonywanego przez bombowce typu Y.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy Rebelii.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy PLEX.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Wzmocnione osłony zatrzymują wszystkie ataki wroga.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Zwiększenie prędkości czołgów T2-B i śmigaczy o 15%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Zwiększenie prędkości czołgów T2-B i śmigaczy o 30%.
@@ -18925,8 +18925,8 @@ TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Zwiększa szybkość kanonierek S
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Zwiększa skuteczność ataku fregat typu Zemsta o 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Zwiększa skuteczność ataku fregat typu Zemsta oraz niszczycieli klasy Krayt o 25%.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,Pancerz myśliwców Gwiezdna Żmija odbija 25% ostrzału z laserów.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Pancerz myśliwców Gwiezdna Żmija oraz korwet Krzyżowiec odbija 25% ostrzału z laserów.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Pancerz myśliwców Gwiezdna Żmija, korwet Krzyżowiec oraz pancerników klasy Kadalbe odbija 25% ostrzału z laserów.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Pancerz myśliwców Gwiezdna Żmija oraz korwet Krzyżowiec odbija 30% ostrzału z laserów.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Pancerz myśliwców Gwiezdna Żmija, korwet Krzyżowiec oraz pancerników klasy Kadalbe odbija 30% ostrzału z laserów.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Wydłuża czas działania pola maskującego fregat klasy Zemsta o 25%.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Wydłuża czas działania pola maskującego fregat klasy Zemsta oraz Zwiastuna Pokoju o 50%.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Zmniejsza uszkodzenia odnoszone przez stację kosmiczną Podziemia o 15%.

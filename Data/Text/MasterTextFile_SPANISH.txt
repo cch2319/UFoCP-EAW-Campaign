@@ -18850,7 +18850,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Este planeta ha sido corrompido
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Proporciona una enorme cantidad de dinero de bonificación por cada unidad enemiga destruida.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Comprar un bombardeo de ala Y.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Reduce un 50% el daño sufrido por las unidades de soldados de la Rebelión.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Reduce un 25% el daño sufrido por las unidades de soldados plex.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Reduce un 50% el daño sufrido por las unidades de soldados plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Impide que los disparos enemigos atraviesen los escudos de tu base.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Los tanques T2-B y los deslizadores obtienen un aumento del 15% en la velocidad de movimiento.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Los tanques T2-B y los deslizadores obtienen un aumento del 30% en la velocidad de movimiento.
@@ -18926,7 +18926,7 @@ TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Aumenta el daño causado por las fr
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Aumenta el daño causado por las fragatas de clase Venganza y los destructores Krayt en un 25%.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,El blindaje de los cazas Starviper desvía el 25% del fuego láser recibido.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,El blindaje de los cazas Starviper y las corbetas Cruzado desvía el 25% del fuego láser recibido.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,El blindaje de los cazas Starviper, las corbetas Cruzado y las naves de guerra Keldalbe desvía el 25% del fuego láser recibido.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,El blindaje de los cazas Starviper, las corbetas Cruzado y las naves de guerra Keldalbe desvía el 30% del fuego láser recibido.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Aumenta la duración del campo de camuflaje de las fragatas de clase Venganza en un 25%.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Aumenta la duración del campo de camuflaje de las fragatas de clase Venganza y el Pacificador en un 25%.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Reduce el daño a las estaciones espaciales del Consorcio Zann 15%.
