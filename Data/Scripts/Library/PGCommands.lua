@@ -82,10 +82,11 @@ require("PGBaseDefinitions")
 
 function WaitForever()
 	DebugMessage("%s -- Waiting forever...", tostring(Script))
+
 	while true do
 		PumpEvents()
 	end
---	BlockOnCommand(BlockForever())
+
 	DebugMessage("%s -- Something interrupted the wait!.", tostring(Script))
 end
 
@@ -104,13 +105,13 @@ function Register_Timer(func, timeout, param)
 		TimerTable[func] = {}
 	end
 
-	table.insert(TimerTable[func], {timeout = timeout, start_time = GetCurrentTime(), param = param})
+	table.insert(TimerTable[func], { timeout = timeout, start_time = GetCurrentTime(), param = param })
 end
 
 function Process_Timers()
-	for func,tabtab in pairs(TimerTable) do
-		found_entry = false
-		for idx,tab in pairs(tabtab) do
+	for func, tabtab in pairs(TimerTable) do
+		local found_entry = false
+		for idx, tab in pairs(tabtab) do
 			found_entry = true
 			if tab.timeout + tab.start_time < GetCurrentTime() then
 				tabtab[idx] = nil
@@ -119,6 +120,7 @@ function Process_Timers()
 				return
 			end
 		end
+
 		if found_entry == false then
 			TimerTable[func] = nil
 			Process_Timers()
@@ -135,7 +137,6 @@ function Cancel_Timer(func)
 		DebugMessage("%s -- cancelling nonexistant function, got:%s; aborting.", tostring(Script), type(func))
 	end
 end
-
 
 -- Setup a callback for the death or deletion of a given object.
 function Register_Death_Event(obj, func)
@@ -176,9 +177,8 @@ function Register_Attacked_Event(obj, func)
 	end
 
 	-- Storing the callback and if the object currently has a "deadly enemy"
-	AttackedTable[obj] = {func, false}
+	AttackedTable[obj] = { func, false }
 end
-
 
 -- Executes the callback with (true, object) if first going under attack.
 -- Executes the callback with (false) if no longer under attack.
@@ -187,9 +187,8 @@ function Process_Attacked_Events()
 		if not TestValid(obj) then
 			AttackedTable[obj] = nil
 		else
-			most_deadly_enemy = FindDeadlyEnemy(obj)
+			local most_deadly_enemy = FindDeadlyEnemy(obj)
 			if most_deadly_enemy then
-
 				-- If we have a deadly enemy and this just became true, run the callback.
 				if not table[2] then
 					table[2] = true
@@ -198,8 +197,8 @@ function Process_Attacked_Events()
 					return
 				end
 
-			-- Update that we don't have a deadly enemy any longer.
-			--else
+				-- Update that we don't have a deadly enemy any longer.
+				--else
 			elseif table[2] then
 				DebugMessage("obj:%s now has no deadly enemy", tostring(obj))
 				table[2] = false
@@ -217,11 +216,8 @@ function Cancel_Attacked_Event(obj)
 	end
 end
 
-
-
 -- Set up proximity triggers on arbitrary objects and have them serviced.
 function Register_Prox(obj, func, range, player_filter)
-
 	-- prevent this from doing anything in galactic mode
 	if Get_Game_Mode() == "Galactic" then
 		DebugMessage("%s -- Warning, proximity register disallowed in galactic mode; aborting.", tostring(Script))
@@ -271,16 +267,17 @@ function Pump_Service()
 	end
 end
 
-
 -- Try an ability if the AI difficulty will allow a chance
 function Try_Ability(thing, ability_name, target)
+	local owner = PlayerObject
 
-	owner = PlayerObject
 	if not Is_A_Taskforce(thing) then
 		owner = thing.Get_Owner()
 	end
+
 	if owner == nil then
 		DebugMessage("%s -- no owner for thing:%s", tostring(Script), tostring(thing))
+		return false
 	end
 
 	-- At a given difficulty, there is a chance that the ability use will be allowed.
@@ -291,34 +288,30 @@ function Try_Ability(thing, ability_name, target)
 	return Use_Ability_If_Able(thing, ability_name, target)
 end
 
-
 -- Activates the ability for a unit or a taskforce's units if able.
 -- Optionally uses ability on a target.
 -- Returns true if the ability was attempted
 function Use_Ability_If_Able(thing, ability_name, target)
-
 	-- Taskforces aren't able to check for the ability availablity or readiness, but check this for units
 	if Is_A_Taskforce(thing) or (thing.Has_Ability(ability_name) and thing.Is_Ability_Ready(ability_name) and (not thing.Is_Ability_Active(ability_name))) then
-
 		if target == nil then
 			thing.Activate_Ability(ability_name, true)
 		elseif TestValid(target) then
 			thing.Activate_Ability(ability_name, target)
 		end
+
 		return true
 	end
+
 	return false
 end
-
 
 function Is_A_Taskforce(thing)
 	return thing and thing.Get_Unit_Table
 end
 
-
 -- This will consider diverting the passed object in order to use an area of effect ability centered on the unit.
 function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy_units, min_threat_to_use_ability)
-
 	-- At a given difficulty, there is a chance that the divert for ability use will be allowed.
 	if (not aoe_pos) and (not Chance(GetCurrentMinute(), GetChanceAllowed(object.Get_Owner().Get_Difficulty()))) then
 		return
@@ -326,12 +319,10 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 
 	-- See if the ability is ready and there are enough enemies around to consider using it.
 	if object.Is_Ability_Ready(ability_name) then
-
 		DebugMessage("%s -- %s is ready and trigger number met", tostring(Script), ability_name)
 
 		-- If we haven't found a good use for the ability
 		if aoe_pos == nil then
-
 			-- Find a good place to use the ability and divert or throw the result away.
 			aoe_pos, aoe_victim_threat = Find_Best_Local_Threat_Center(recent_enemy_units, area_of_effect)
 			if aoe_pos == nil then
@@ -342,14 +333,14 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 
 			DebugMessage("%s -- Found ability pos with threat %d", tostring(Script), aoe_victim_threat)
 			if (aoe_victim_threat > min_threat_to_use_ability) then
-
 				-- Check distance to prevent the unit from spinning in circles on repeated diversions
 				if object.Get_Distance(aoe_pos) > 15 then
 					DebugMessage("%s -- Met minimum threat; diverting.", tostring(Script))
 					Use_Ability_If_Able(object, "SPRINT")
 					object.Divert(aoe_pos)
 				else
-					DebugMessage("%s -- Met minimum threat; Already very close to ideal target so no divert necessary.", tostring(Script))
+					DebugMessage("%s -- Met minimum threat; Already very close to ideal target so no divert necessary.",
+						tostring(Script))
 				end
 			else
 				DebugMessage("%s -- Resetting pos and threat.", tostring(Script))
@@ -357,22 +348,18 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 				aoe_victim_threat = nil
 			end
 
-		-- We have found a good use for the ability
+			-- We have found a good use for the ability
 		else
-
 			-- Are we done chasing down the position to use the ability?
 			if object.Is_On_Diversion() then
-
-				DebugMessage("%s -- In process of diverting to chase threat %d (no new orders issued)", tostring(Script), aoe_victim_threat)
-
+				DebugMessage("%s -- In process of diverting to chase threat %d (no new orders issued)", tostring(Script),
+					aoe_victim_threat)
 			else
-
 				-- We're done diverting.  Perform a sanity check to make sure at least one enemy is now in range.
 				--if OneOrMoreInRange(object, recent_enemy_units, area_of_effect) then
 				-- We're done diverting so check to see if we're at least in range of the best location (even if not centered on it)
 				aoe_pos, aoe_victim_threat = Find_Best_Local_Threat_Center(recent_enemy_units, area_of_effect)
 				if aoe_pos and (object.Get_Distance(aoe_pos) < area_of_effect) then
-
 					-- Use the ability
 					DebugMessage("%s -- Attempting %s.", tostring(Script), ability_name)
 					Use_Ability_If_Able(object, ability_name)
@@ -395,14 +382,15 @@ function OneOrMoreInRange(origin_unit, target_unit_list, range)
 			return true
 		end
 	end
+
 	return false
 end
 
 function PruneFriendlyObjects(obj_table)
-	non_friendly_obj_table = {}
+	local non_friendly_obj_table = {}
 	for i, obj in pairs(obj_table) do
 		if not (obj.Get_Owner() == PlayerObject) then
-			 table.insert(non_friendly_obj_table, obj)
+			table.insert(non_friendly_obj_table, obj)
 		end
 	end
 
@@ -410,7 +398,6 @@ function PruneFriendlyObjects(obj_table)
 end
 
 function Try_Garrison(tf, unit, offensive_only, range)
-
 	lib_nearest_garrison = Find_Nearest(unit, "GarrisonCanFire", unit.Get_Owner(), true)
 
 	if TestValid(lib_nearest_garrison) and unit.Can_Garrison(lib_nearest_garrison) then
@@ -442,6 +429,7 @@ function Try_Garrison(tf, unit, offensive_only, range)
 					unit.Lock_Current_Orders()
 					tf.Release_Unit(unit)
 				end
+
 				return true
 			end
 		end
@@ -454,7 +442,7 @@ function Try_Deploy_Garrison(object, target, health_threshold)
 	lib_any_deployed = false
 	lib_garrison_table = object.Get_Garrisoned_Units()
 	if table.getn(lib_garrison_table) > 0 then
-		for i,garrison in pairs(lib_garrison_table) do
+		for i, garrison in pairs(lib_garrison_table) do
 			if garrison.Get_Hull() > health_threshold then
 				if (not TestValid(target)) or garrison.Is_Good_Against(target) then
 					garrison.Leave_Garrison()
@@ -463,46 +451,44 @@ function Try_Deploy_Garrison(object, target, health_threshold)
 			end
 		end
 	end
+
 	return lib_any_deployed
 end
 
 function Get_Special_Healer_Property_Flag(unit)
-
 	if not TestValid(unit) then
 		return nil
 	end
 
-	if not special_healer_table then
-		special_healer_table = {}
-		special_healer_table["BOBA_FETT"] = "HealsInfantry"
-		special_healer_table["EMPEROR_PALPATINE"] = "HealsInfantry"
-		special_healer_table["HAN_SOLO"] = "HealsInfantry"
-		special_healer_table["CHEWBACCA"] = "HealsInfantry"
-		special_healer_table["MARA_JADE"] = "HealsInfantry"
-		special_healer_table["OBI_WAN_KENOBI"] = "HealsInfantry"
-		special_healer_table["DARTH_VADER"] = "HealsInfantry"
-		special_healer_table["DARTH_VADER_EXPANSION"] = "HealsInfantry"
-		special_healer_table["KYLE_KATARN"] = "HealsInfantry"
-		special_healer_table["TACTICAL_R2_3PO_TEAM"] = "HealsVehicles"
-		special_healer_table["GARGANTUAN_BATTLE_PLATFORM"] = "HealsVehicles"
-		special_healer_table["VEERS_AT_AT_WALKER"] = "HealsVehicles"
-		special_healer_table["LUKE_SKYWALKER_JEDI"] = "HealsInfantry"
-		special_healer_table["YODA"] = "HealsInfantry"
-		special_healer_table["BOSSK"] = "HealsInfantry"
-		special_healer_table["IG-88"] = "HealsVehicles"
-		special_healer_table["SILRI"] = "HealsInfantry"
-		special_healer_table["TYBER_ZANN"] = "HealsInfantry"
-		special_healer_table["URAI_FEN"] = "HealsInfantry"
-		special_healer_table["MPTL_SPOTTER"] = "HealsVehicles"
-		special_healer_table["SCOUT_TROOPER"] = "HealsVehicles"
+	if not Special_Healer_Table then
+		Special_Healer_Table = {}
+		Special_Healer_Table["BOBA_FETT"] = "HealsInfantry"
+		Special_Healer_Table["EMPEROR_PALPATINE"] = "HealsInfantry"
+		Special_Healer_Table["HAN_SOLO"] = "HealsInfantry"
+		Special_Healer_Table["CHEWBACCA"] = "HealsInfantry"
+		Special_Healer_Table["MARA_JADE"] = "HealsInfantry"
+		Special_Healer_Table["OBI_WAN_KENOBI"] = "HealsInfantry"
+		Special_Healer_Table["DARTH_VADER"] = "HealsInfantry"
+		Special_Healer_Table["DARTH_VADER_EXPANSION"] = "HealsInfantry"
+		Special_Healer_Table["KYLE_KATARN"] = "HealsInfantry"
+		Special_Healer_Table["TACTICAL_R2_3PO_TEAM"] = "HealsVehicles"
+		Special_Healer_Table["GARGANTUAN_BATTLE_PLATFORM"] = "HealsVehicles"
+		Special_Healer_Table["VEERS_AT_AT_WALKER"] = "HealsVehicles"
+		Special_Healer_Table["LUKE_SKYWALKER_JEDI"] = "HealsInfantry"
+		Special_Healer_Table["YODA"] = "HealsInfantry"
+		Special_Healer_Table["BOSSK"] = "HealsInfantry"
+		Special_Healer_Table["IG-88"] = "HealsVehicles"
+		Special_Healer_Table["SILRI"] = "HealsInfantry"
+		Special_Healer_Table["TYBER_ZANN"] = "HealsInfantry"
+		Special_Healer_Table["URAI_FEN"] = "HealsInfantry"
+		Special_Healer_Table["MPTL_SPOTTER"] = "HealsVehicles"
+		Special_Healer_Table["SCOUT_TROOPER"] = "HealsVehicles"
 	end
 
-	return special_healer_table[unit.Get_Type().Get_Name()]
-
+	return Special_Healer_Table[unit.Get_Type().Get_Name()]
 end
 
 function Set_Land_AI_Targeting_Priorities(tf)
-
 	--First set up generic priorities
 	tf.Set_Targeting_Priorities("Infantry_Attack_Move", "Infantry")
 	tf.Set_Targeting_Priorities("Infantry_Attack_Move", "LandHero")
@@ -522,7 +508,6 @@ function Set_Land_AI_Targeting_Priorities(tf)
 end
 
 function Try_Weapon_Switch(object, target)
-
 	lib_switcher_type = object.Get_Type()
 
 	if not lib_t4b_type then
@@ -539,16 +524,16 @@ function Try_Weapon_Switch(object, target)
 	elseif lib_switcher_type == lib_destroyer_droid_type then
 		object.Activate_Ability("ROCKET_ATTACK", target.Get_Shield() > 0.0)
 	elseif lib_switcher_type == lib_mal_type then
-		object.Activate_Ability("SWAP_WEAPONS", (target.Is_Category("Infantry") or target.Is_Category("Vehicle")) and GameRandom.Get_Float() > 0.8)
+		object.Activate_Ability("SWAP_WEAPONS",
+			(target.Is_Category("Infantry") or target.Is_Category("Vehicle")) and GameRandom.Get_Float() > 0.8)
 	elseif object.Should_Switch_Weapons(target) then
 		object.Activate_Ability("SWAP_WEAPONS", not object.Is_Ability_Active("SWAP_WEAPONS"))
 	end
-
 end
 
 function Determine_Magic_Wait_Duration()
-
 	lib_magic_wait_time = 2400 - GetCurrentTime()
+
 	if lib_magic_wait_time < 60 then
 		lib_magic_wait_time = 60
 	end

@@ -87,7 +87,6 @@ end
 -- @since 3/15/2005 3:55:03 PM -- BMH
 --
 function main()
-
 	DebugMessage("GameScoring -- In main.")
 
 	if GameService then
@@ -100,7 +99,6 @@ function main()
 	ScriptExit()
 end
 
-
 --
 -- Reset the Tactical mode game stats.
 --
@@ -109,8 +107,8 @@ end
 function Reset_Tactical_Stats()
 	GameScoringMessage("GameScoring -- Resetting tactical stats.")
 	-- [frag|death][playerid][object_type][build_count, credits_spent, combat_power]
-	TacticalKillStatsTable = {[frag_index] = {}, [death_index] = {}}
-	TacticalTeamKillStatsTable = {[frag_index] = {}, [death_index] = {}}
+	TacticalKillStatsTable = { [frag_index] = {}, [death_index] = {} }
+	TacticalTeamKillStatsTable = { [frag_index] = {}, [death_index] = {} }
 
 	-- [playerid][planetname][object_type][build_count, credits_spent, combat_power]
 	TacticalBuildStatsTable = {}
@@ -119,12 +117,10 @@ function Reset_Tactical_Stats()
 	ResetTacticalRegistry()
 end
 
-
 function GameScoringMessage(...)
 	_ScriptMessage(string.format(unpack(arg)))
 	_OuputDebug(string.format(unpack(arg)) .. "\n")
 end
-
 
 --
 -- Reset all the stats and player lists.
@@ -136,7 +132,7 @@ function Reset_Stats()
 
 	Reset_Tactical_Stats()
 	-- [frag|death][playerid][object_type][build_count, credits_spent, combat_power]
-	GalacticKillStatsTable = {[frag_index] = {}, [death_index] = {}}
+	GalacticKillStatsTable = { [frag_index] = {}, [death_index] = {} }
 
 	-- [playerid][planetname][object_type][build_count, credits_spent, combat_power]
 	GalacticBuildStatsTable = {}
@@ -151,12 +147,10 @@ function Reset_Stats()
 	PlayerQuitTable = {}
 end
 
-
 function ResetTacticalRegistry()
 	DebugMessage("Resetting Allow_AI_Controlled_Fog_Reveal to 1 (allowed)")
 	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)
 end
-
 
 --
 -- Update our GameStats table with build stats
@@ -167,7 +161,6 @@ end
 -- @since 3/18/2005 3:48:32 PM -- BMH
 --
 function Update_Build_Stats_Table(stat_table, planet, object_type, owner, build_cost)
-
 	Update_Player_Table(owner)
 
 	if planet then
@@ -182,7 +175,8 @@ function Update_Build_Stats_Table(stat_table, planet, object_type, owner, build_
 	score_value = object_type.Get_Score_Cost_Credits()
 	owner_id = owner.Get_ID()
 
-	GameScoringMessage("GameScoring -- %s produced %s at %s.", PlayerTable[owner_id].Get_Name(), object_type.Get_Name(), planet_name)
+	GameScoringMessage("GameScoring -- %s produced %s at %s.", PlayerTable[owner_id].Get_Name(), object_type.Get_Name(),
+		planet_name)
 
 	player_entry = stat_table[owner_id]
 	if player_entry == nil then player_entry = {} end
@@ -192,7 +186,7 @@ function Update_Build_Stats_Table(stat_table, planet, object_type, owner, build_
 
 	type_entry = planet_entry[object_type]
 	if type_entry == nil then
-		type_entry = {build_count = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value}
+		type_entry = { build_count = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value }
 	else
 		type_entry.build_count = type_entry.build_count + 1
 		type_entry.combat_power = type_entry.combat_power + combat_power
@@ -203,9 +197,7 @@ function Update_Build_Stats_Table(stat_table, planet, object_type, owner, build_
 	planet_entry[object_type] = type_entry
 	player_entry[planet_type] = planet_entry
 	stat_table[owner_id] = player_entry
-
 end
-
 
 --
 -- Print out the current build statistics for all the players.
@@ -214,7 +206,6 @@ end
 -- @since 3/21/2005 10:34:07 AM -- BMH
 --
 function Print_Build_Stats_Table(stat_table)
-
 	GameScoringMessage("GameScoring -- Build Stats dump.")
 
 	totals_table = {}
@@ -233,7 +224,8 @@ function Print_Build_Stats_Table(stat_table)
 				GameScoringMessage("\t\t%20s:", planet_type.Get_Name())
 			end
 			for object_type, type_entry in pairs(planet_entry) do
-				GameScoringMessage("\t\t%40s: %d : %d : $%d : %d", object_type.Get_Name(), type_entry.build_count, type_entry.combat_power, type_entry.build_cost, type_entry.score_value)
+				GameScoringMessage("\t\t%40s: %d : %d : $%d : %d", object_type.Get_Name(), type_entry.build_count,
+					type_entry.combat_power, type_entry.build_cost, type_entry.score_value)
 				build_count = build_count + type_entry.build_count
 				cost_count = cost_count + type_entry.build_cost
 				power_count = power_count + type_entry.combat_power
@@ -242,22 +234,22 @@ function Print_Build_Stats_Table(stat_table)
 		end
 
 		GameScoringMessage("\tTotal Builds: %d : %d : $%d : %d", build_count, power_count, cost_count, score_count)
-		totals_table[owner_id] = {build_count = build_count, cost_count = cost_count, power_count = power_count, score_count = score_count}
+		totals_table[owner_id] = { build_count = build_count, cost_count = cost_count, power_count = power_count, score_count =
+		score_count }
 	end
 
---    for k,player in pairs(PlayerTable) do
---       dt = death_table[k]
---       tt = totals_table[k]
---       if tt == nil or tt.build_count == 0 then
---          GameScoringMessage("\tPlayer %s, Military Efficiency: 0.0", player.Get_Name())
---       elseif dt == nil or dt.kills == 0 then
---          GameScoringMessage("\tPlayer %s, Military Efficiency: %d", player.Get_Name(), tt.build_count)
---       else
---          GameScoringMessage("\tPlayer %s, Military Efficiency: %f", player.Get_Name(), (tt.build_count - dt.kills) / tt.build_count)
---       end
---    end
+	--    for k,player in pairs(PlayerTable) do
+	--       dt = death_table[k]
+	--       tt = totals_table[k]
+	--       if tt == nil or tt.build_count == 0 then
+	--          GameScoringMessage("\tPlayer %s, Military Efficiency: 0.0", player.Get_Name())
+	--       elseif dt == nil or dt.kills == 0 then
+	--          GameScoringMessage("\tPlayer %s, Military Efficiency: %d", player.Get_Name(), tt.build_count)
+	--       else
+	--          GameScoringMessage("\tPlayer %s, Military Efficiency: %f", player.Get_Name(), (tt.build_count - dt.kills) / tt.build_count)
+	--       end
+	--    end
 end
-
 
 --
 -- Print out the current statistics for all the players.
@@ -266,18 +258,16 @@ end
 -- @since 3/15/2005 5:55:55 PM -- BMH
 --
 function Print_Stat_Table(stat_table)
-
 	frag_table = {}
 
 	GameScoringMessage("Frags:")
-	for k,v in pairs(stat_table[frag_index]) do
-
+	for k, v in pairs(stat_table[frag_index]) do
 		tkills = 0
 		tpower = 0
 		tscore = 0
 
 		GameScoringMessage("\tPlayer %s:", PlayerTable[k].Get_Name())
-		for kk,vv in pairs(v) do
+		for kk, vv in pairs(v) do
 			GameScoringMessage("\t%40s: %d : %d : %d", kk.Get_Name(), vv.kills, vv.combat_power, vv.score_value)
 			tkills = tkills + vv.kills
 			tpower = tpower + vv.combat_power
@@ -285,20 +275,19 @@ function Print_Stat_Table(stat_table)
 		end
 
 		GameScoringMessage("\tTotal Frags: %d : %d : %d", tkills, tpower, tscore)
-		frag_table[k] = {kills = tkills, combat_power = tpower, score_value = tscore}
+		frag_table[k] = { kills = tkills, combat_power = tpower, score_value = tscore }
 	end
 
 	death_table = {}
 
 	GameScoringMessage("Deaths:")
-	for k,v in pairs(stat_table[death_index]) do
-
+	for k, v in pairs(stat_table[death_index]) do
 		tkills = 0
 		tpower = 0
 		tscore = 0
 
 		GameScoringMessage("\tPlayer %s:", PlayerTable[k].Get_Name())
-		for kk,vv in pairs(v) do
+		for kk, vv in pairs(v) do
 			GameScoringMessage("\t%40s: %d : %d : %d", kk.Get_Name(), vv.kills, vv.combat_power, vv.score_value)
 			tkills = tkills + vv.kills
 			tpower = tpower + vv.combat_power
@@ -306,10 +295,10 @@ function Print_Stat_Table(stat_table)
 		end
 
 		GameScoringMessage("\tTotal Deaths: %d : %d : %d", tkills, tpower, tscore)
-		death_table[k] = {kills = tkills, combat_power = tpower, score_value = tscore}
+		death_table[k] = { kills = tkills, combat_power = tpower, score_value = tscore }
 	end
 
-	for k,player in pairs(PlayerTable) do
+	for k, player in pairs(PlayerTable) do
 		ft = frag_table[k]
 		dt = death_table[k]
 		if ft == nil or ft.combat_power == 0 then
@@ -317,11 +306,11 @@ function Print_Stat_Table(stat_table)
 		elseif dt == nil or dt.combat_power == 0 then
 			GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: %d", player.Get_Name(), ft.combat_power)
 		else
-			GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: %f", player.Get_Name(), ft.combat_power / dt.combat_power)
+			GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: %f", player.Get_Name(),
+				ft.combat_power / dt.combat_power)
 		end
 	end
 end
-
 
 --
 -- Script service function.  Just prints out the current stats.
@@ -329,7 +318,6 @@ end
 -- @since 3/15/2005 3:56:43 PM -- BMH
 --
 function GameService()
-
 	GameScoringMessage("GameScoring -- Tactical Stats dump.")
 	Print_Stat_Table(TacticalKillStatsTable)
 	GameScoringMessage("GameScoring -- Galactic Stats dump.")
@@ -348,7 +336,6 @@ end
 -- @since 3/15/2005 3:56:43 PM -- BMH
 --
 function Update_Player_Table(player)
-
 	if player == nil then return end
 
 	ent = PlayerTable[player.Get_ID()]
@@ -357,7 +344,6 @@ function Update_Player_Table(player)
 	end
 	ent = nil
 end
-
 
 --
 -- Update our GameStats table with victim, killer info.
@@ -368,7 +354,6 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 --
 function Update_Kill_Stats_Table(stat_table, object, killer)
-
 	if TestValid(object) == false or TestValid(killer) == false then
 		return
 	end
@@ -394,7 +379,7 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 
 	pe = entry[object_type]
 	if pe == nil then
-		pe = {kills = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value}
+		pe = { kills = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value }
 	else
 		pe.kills = pe.kills + 1
 		pe.combat_power = pe.combat_power + combat_power
@@ -415,7 +400,7 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 
 	pe = entry[object_type]
 	if pe == nil then
-		pe = {kills = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value}
+		pe = { kills = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value }
 	else
 		pe.kills = pe.kills + 1
 		pe.combat_power = pe.combat_power + combat_power
@@ -426,9 +411,7 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 	entry[object_type] = pe
 	death_entry[owner_id] = entry
 	stat_table[death_index] = death_entry
-
 end
-
 
 ----------------------------------------
 --
@@ -464,7 +447,6 @@ function Game_Mode_Starting_Event(mode_name, map_name)
 	LastWasCampaignGame = CampaignGame
 end
 
-
 --
 -- This event is triggered on a game mode end.
 --
@@ -480,7 +462,6 @@ function Game_Mode_Ending_Event(mode_name)
 	end
 end
 
-
 --
 -- This event is triggered when a player quits the game.
 --
@@ -488,14 +469,12 @@ end
 -- @since 8/25/2005 10:00:54 AM -- BMH
 --
 function Player_Quit_Event(player)
-
 	Update_Player_Table(player)
 
 	if player == nil then return end
 
 	PlayerQuitTable[player.Get_ID()] = true
 end
-
 
 --
 -- This event is triggered when a unit is destroyed in a tactical game mode.
@@ -507,7 +486,6 @@ end
 function Tactical_Unit_Destroyed_Event(object, killer)
 	Update_Kill_Stats_Table(TacticalKillStatsTable, object, killer)
 end
-
 
 --
 -- This event is triggered when a unit is destroyed in the galactic game mode.
@@ -521,7 +499,6 @@ function Galactic_Unit_Destroyed_Event(object, killer)
 	Update_Kill_Stats_Table(TacticalTeamKillStatsTable, object, killer)
 end
 
-
 --
 -- This event is triggered when production has begun on an item at a given planet
 --
@@ -530,10 +507,8 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 --
 function Galactic_Production_Begin_Event(planet, object_type)
-
---Track credits spent
+	--Track credits spent
 end
-
 
 --
 -- This event is triggered when production has been prematurely canceled
@@ -544,10 +519,8 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 --
 function Galactic_Production_Canceled_Event(planet, object_type)
-
---Track credits spent
+	--Track credits spent
 end
-
 
 --
 -- This event is triggered when production has finished in a tactical mode
@@ -558,9 +531,9 @@ end
 -- @since 8/22/2005 6:11:07 PM -- BMH
 --
 function Tactical_Production_End_Event(object_type, player, location)
-	Update_Build_Stats_Table(TacticalBuildStatsTable, location, object_type, player, object_type.Get_Tactical_Build_Cost())
+	Update_Build_Stats_Table(TacticalBuildStatsTable, location, object_type, player,
+		object_type.Get_Tactical_Build_Cost())
 end
-
 
 --
 -- This event is triggered when production has finished on an item at a given planet
@@ -570,17 +543,16 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 --
 function Galactic_Production_End_Event(planet, object)
-
 	if object.Get_Type == nil then
 		-- object must be a GameObjectTypeWrapper not a GameObjectWrapper if it doesn't
 		-- have a Get_Type function.
 		Update_Build_Stats_Table(GalacticBuildStatsTable, planet, object, planet.Get_Owner(), object.Get_Build_Cost())
 	else
 		-- object points to the GameObjectWrapper that was just created.
-		Update_Build_Stats_Table(GalacticBuildStatsTable, planet, object.Get_Game_Scoring_Type(), planet.Get_Owner(), object.Get_Game_Scoring_Type().Get_Build_Cost())
+		Update_Build_Stats_Table(GalacticBuildStatsTable, planet, object.Get_Game_Scoring_Type(), planet.Get_Owner(),
+			object.Get_Game_Scoring_Type().Get_Build_Cost())
 	end
 end
-
 
 function fake_get_owner()
 	return fake_object_player
@@ -603,8 +575,8 @@ end
 -- @since 3/15/2005 4:10:19 PM -- BMH
 --
 function Galactic_Starbase_Level_Change(planet, old_type, new_type)
-
-	GameScoringMessage("GameScoring -- %s Starbase changed from %s to %s.", planet.Get_Type().Get_Name(), tostring(old_type), tostring(new_type))
+	GameScoringMessage("GameScoring -- %s Starbase changed from %s to %s.", planet.Get_Type().Get_Name(),
+		tostring(old_type), tostring(new_type))
 
 	if old_type == nil then return end
 	if new_type ~= nil then return end
@@ -619,7 +591,6 @@ function Galactic_Starbase_Level_Change(planet, old_type, new_type)
 	Galactic_Unit_Destroyed_Event(fake_object, planet.Get_Final_Blow_Player())
 end
 
-
 --
 -- This event is called when a planet changes faction in galactic mode
 --
@@ -629,7 +600,6 @@ end
 -- @since 6/20/2005 8:37:53 PM -- BMH
 --
 function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
-
 	-- Update the player table.
 	Update_Player_Table(newplayer)
 	Update_Player_Table(oldplayer)
@@ -641,13 +611,13 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 	GameScoringMessage("GameScoring -- %s changed control from %s to %s.", planet_type.Get_Name(),
 		oldplayer.Get_Name(), newplayer.Get_Name())
 
-   -- Update the sacked count for the new owner.
+	-- Update the sacked count for the new owner.
 	entry = GalacticConquestTable[newid]
 	if entry == nil then entry = {} end
 
 	pe = entry[planet_type]
 	if pe == nil then
-		pe = {sacked_count = 1, lost_count = 0}
+		pe = { sacked_count = 1, lost_count = 0 }
 	else
 		pe.sacked_count = pe.sacked_count + 1
 	end
@@ -655,13 +625,13 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 	entry[planet_type] = pe
 	GalacticConquestTable[newid] = entry
 
-   -- Update the lost count for the old owner.
+	-- Update the lost count for the old owner.
 	entry = GalacticConquestTable[oldid]
 	if entry == nil then entry = {} end
 
 	pe = entry[planet_type]
 	if pe == nil then
-		pe = {sacked_count = 0, lost_count = 1}
+		pe = { sacked_count = 0, lost_count = 1 }
 	else
 		pe.lost_count = pe.lost_count + 1
 	end
@@ -672,7 +642,6 @@ function Galactic_Planet_Faction_Change(planet, newplayer, oldplayer)
 	planet_type = nil
 end
 
-
 --
 -- This event is called when a hero is neutralized by another hero in galactic mode
 --
@@ -681,7 +650,6 @@ end
 -- @since 3/21/2005 1:43:44 PM -- BMH
 --
 function Galactic_Neutralized_Event(hero_type, killer)
-
 	Update_Player_Table(killer.Get_Owner())
 
 	killer_id = killer.Get_Owner().Get_ID()
@@ -691,16 +659,14 @@ function Galactic_Neutralized_Event(hero_type, killer)
 
 	pe = entry[hero_type]
 	if pe == nil then
-		pe = {neutralized = 1}
+		pe = { neutralized = 1 }
 	else
 		pe.neutralized = pe.neutralized + 1
 	end
 
 	entry[hero_type] = pe
 	GalacticNeutralizedTable[killer_id] = entry
-
 end
-
 
 --
 -- This function returns the number of frags a given player has for a given object type.
@@ -710,7 +676,6 @@ end
 -- @since 3/21/2005 1:23:21 PM -- BMH
 --
 function Get_Frag_Count_For_Type(object_type, player)
-
 	owner_id = player.Get_ID()
 
 	frag_entry = GalacticKillStatsTable[frag_index]
@@ -725,7 +690,6 @@ function Get_Frag_Count_For_Type(object_type, player)
 	return pe.kills
 end
 
-
 --
 -- This function returns the number of neutralizes a given player has for a given object type.
 --
@@ -734,7 +698,6 @@ end
 -- @since 3/21/2005 1:23:21 PM -- BMH
 --
 function Get_Neutralized_Count_For_Type(object_type, player)
-
 	owner_id = player.Get_ID()
 
 	entry = GalacticNeutralizedTable[owner_id]
@@ -746,9 +709,7 @@ function Get_Neutralized_Count_For_Type(object_type, player)
 	return pe.neutralized
 end
 
-
 function Get_Military_Efficiency(player, kill_stats, build_stats)
-
 	pid = player.Get_ID()
 
 	kill_eff = 0;
@@ -758,7 +719,7 @@ function Get_Military_Efficiency(player, kill_stats, build_stats)
 	tpower = 0
 	tscore = 0
 	if kill_table then
-		for kk,vv in pairs(kill_table) do
+		for kk, vv in pairs(kill_table) do
 			tkills = tkills + vv.kills
 			tpower = tpower + vv.combat_power
 			tscore = tscore + vv.score_value
@@ -771,7 +732,7 @@ function Get_Military_Efficiency(player, kill_stats, build_stats)
 	tdpower = 0
 	tdscore = 0
 	if death_table then
-		for kk,vv in pairs(death_table) do
+		for kk, vv in pairs(death_table) do
 			tdeaths = tdeaths + vv.kills
 			tdpower = tdpower + vv.combat_power
 			tdscore = tdscore + vv.score_value
@@ -820,7 +781,6 @@ function Get_Military_Efficiency(player, kill_stats, build_stats)
 end
 
 function Get_Conquest_Efficiency(player)
-
 	pid = player.Get_ID()
 
 	-- [playerid][planet_type][sacked_count, lost_count]
@@ -832,7 +792,7 @@ function Get_Conquest_Efficiency(player)
 
 	sacked = 0
 	lost = 0
-	for planet_type,pe in pairs(entry) do
+	for planet_type, pe in pairs(entry) do
 		sacked = sacked + pe.sacked_count
 		lost = lost + pe.lost_count
 	end
@@ -887,36 +847,34 @@ function Calc_Score_For_Efficiency(eff_val)
 end
 
 function Define_Title_Faction_Table()
-
 	-- rebel at 2, empire at 3
 	Title_Faction_Table = {
 
 		{ 120000, "TEXT_REBEL_TITLE19", "TEXT_EMPIRE_TITLE19" },
 		{ 110000, "TEXT_REBEL_TITLE18", "TEXT_EMPIRE_TITLE18" },
-        { 100000, "TEXT_REBEL_TITLE17", "TEXT_EMPIRE_TITLE17" },
-        { 95000, "TEXT_REBEL_TITLE16", "TEXT_EMPIRE_TITLE16" },
-        { 90000, "TEXT_REBEL_TITLE15", "TEXT_EMPIRE_TITLE15" },
-        { 85000, "TEXT_REBEL_TITLE14", "TEXT_EMPIRE_TITLE14" },
-        { 80000, "TEXT_REBEL_TITLE13", "TEXT_EMPIRE_TITLE13" },
-        { 75000, "TEXT_REBEL_TITLE12", "TEXT_EMPIRE_TITLE12" },
-        { 70000, "TEXT_REBEL_TITLE11", "TEXT_EMPIRE_TITLE11" },
-        { 60000, "TEXT_REBEL_TITLE10", "TEXT_EMPIRE_TITLE10" },
-        { 55000, "TEXT_REBEL_TITLE9", "TEXT_EMPIRE_TITLE9" },
-        { 50000, "TEXT_REBEL_TITLE8", "TEXT_EMPIRE_TITLE8" },
-        { 45000, "TEXT_REBEL_TITLE7", "TEXT_EMPIRE_TITLE7" },
-        { 40000, "TEXT_REBEL_TITLE6", "TEXT_EMPIRE_TITLE6" },
-        { 25000, "TEXT_REBEL_TITLE5", "TEXT_EMPIRE_TITLE5" },
-        { 20000, "TEXT_REBEL_TITLE4", "TEXT_EMPIRE_TITLE4" },
-        { 15000, "TEXT_REBEL_TITLE3", "TEXT_EMPIRE_TITLE3" },
-        { 10000, "TEXT_REBEL_TITLE2", "TEXT_EMPIRE_TITLE2" },
-        { 5000, "TEXT_REBEL_TITLE1", "TEXT_EMPIRE_TITLE1" },
-        { 0, "TEXT_REBEL_TITLE0", "TEXT_EMPIRE_TITLE0" },
+		{ 100000, "TEXT_REBEL_TITLE17", "TEXT_EMPIRE_TITLE17" },
+		{ 95000,  "TEXT_REBEL_TITLE16", "TEXT_EMPIRE_TITLE16" },
+		{ 90000,  "TEXT_REBEL_TITLE15", "TEXT_EMPIRE_TITLE15" },
+		{ 85000,  "TEXT_REBEL_TITLE14", "TEXT_EMPIRE_TITLE14" },
+		{ 80000,  "TEXT_REBEL_TITLE13", "TEXT_EMPIRE_TITLE13" },
+		{ 75000,  "TEXT_REBEL_TITLE12", "TEXT_EMPIRE_TITLE12" },
+		{ 70000,  "TEXT_REBEL_TITLE11", "TEXT_EMPIRE_TITLE11" },
+		{ 60000,  "TEXT_REBEL_TITLE10", "TEXT_EMPIRE_TITLE10" },
+		{ 55000,  "TEXT_REBEL_TITLE9",  "TEXT_EMPIRE_TITLE9" },
+		{ 50000,  "TEXT_REBEL_TITLE8",  "TEXT_EMPIRE_TITLE8" },
+		{ 45000,  "TEXT_REBEL_TITLE7",  "TEXT_EMPIRE_TITLE7" },
+		{ 40000,  "TEXT_REBEL_TITLE6",  "TEXT_EMPIRE_TITLE6" },
+		{ 25000,  "TEXT_REBEL_TITLE5",  "TEXT_EMPIRE_TITLE5" },
+		{ 20000,  "TEXT_REBEL_TITLE4",  "TEXT_EMPIRE_TITLE4" },
+		{ 15000,  "TEXT_REBEL_TITLE3",  "TEXT_EMPIRE_TITLE3" },
+		{ 10000,  "TEXT_REBEL_TITLE2",  "TEXT_EMPIRE_TITLE2" },
+		{ 5000,   "TEXT_REBEL_TITLE1",  "TEXT_EMPIRE_TITLE1" },
+		{ 0,      "TEXT_REBEL_TITLE0",  "TEXT_EMPIRE_TITLE0" },
 
 	}
 end
 
 function Debug_Print_Score_Vals()
-
 	for pid, player in pairs(PlayerTable) do
 		mill_eff, kill_eff = Get_Military_Efficiency(player, TacticalKillStatsTable, TacticalBuildStatsTable)
 
@@ -946,7 +904,6 @@ function Debug_Print_Score_Vals()
 		GameScoringMessage("Galactic %s:%s, Mill_Eff:%f, Kill_Eff:%f, Conq_eff:%f, Score:%f", player.Get_Name(),
 			player.Get_Faction_Name(), mill_eff, kill_eff, conq_eff, score)
 	end
-
 end
 
 --
@@ -957,7 +914,6 @@ end
 -- @since 6/18/2005 4:13:13 PM -- BMH
 --
 function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
-
 	if for_tactical then
 		mill_eff, kill_eff = Get_Military_Efficiency(player, TacticalKillStatsTable, TacticalBuildStatsTable)
 	else
@@ -985,7 +941,7 @@ function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
 			score = 0
 		end
 
-		for ival,pe in ipairs(Title_Faction_Table) do
+		for ival, pe in ipairs(Title_Faction_Table) do
 			last = pe[tid]
 			if score > pe[1] then
 				break
@@ -995,7 +951,6 @@ function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
 	else
 		DebugMessage("Unknown control id %s:%s for Get_Game_Stat_For_Control_ID", type(control_id), tostring(control_id));
 	end
-
 end
 
 --
@@ -1022,7 +977,6 @@ function Update_GameSpy_Game_Stats()
 	end
 
 	GameSpy_Game_Stats.gametime = tonumber(string.format("%d", GetCurrentTime.Frame() - GameStartTime))
-
 end
 
 --
@@ -1057,7 +1011,7 @@ function Update_GameSpy_Kill_Stats(stat_table, build_stats, player)
 		tid = 2
 	end
 
-	for ival,pe in ipairs(Title_Faction_Table) do
+	for ival, pe in ipairs(Title_Faction_Table) do
 		last = pe[tid]
 		if score > pe[1] then
 			break
@@ -1082,8 +1036,9 @@ function Update_GameSpy_Kill_Stats(stat_table, build_stats, player)
 	GameSpy_Player_Stats.team_index = player.Get_Team()
 
 	GameScoringMessage("%s GameSpy Stats, Score:%d, Mill_Eff:%d, Kill_Eff:%d, Conq_Eff:%d, Title:%s",
-			PlayerTable[pid].Get_Name(), GameSpy_Player_Stats.score, GameSpy_Player_Stats.mill_eff, GameSpy_Player_Stats.kill_eff,
-			GameSpy_Player_Stats.conq_eff, GameSpy_Player_Stats.title)
+		PlayerTable[pid].Get_Name(), GameSpy_Player_Stats.score, GameSpy_Player_Stats.mill_eff,
+		GameSpy_Player_Stats.kill_eff,
+		GameSpy_Player_Stats.conq_eff, GameSpy_Player_Stats.title)
 end
 
 --
@@ -1102,7 +1057,6 @@ function Update_GameSpy_Player_Stats(player)
 		GameScoringMessage("GameSpy dumping TacticalKillStatsTable")
 		Update_GameSpy_Kill_Stats(TacticalKillStatsTable, TacticalBuildStatsTable, player)
 	end
-
 end
 
 function Get_Current_Winner_By_Score()

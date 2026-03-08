@@ -43,18 +43,15 @@ require("PGStateMachine")
 
 
 function Definitions()
-
-   -- Object isn't valid at this point so don't do any operations that
-   -- would require it.  State_Init is the first chance you have to do
-   -- operations on Object
+	-- Object isn't valid at this point so don't do any operations that
+	-- would require it.  State_Init is the first chance you have to do
+	-- operations on Object
 
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	Define_State("State_Init", State_Init);
 end
 
-
 function State_Init(message)
-
 	if message == OnEnter then
 		warp1 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w1")
 		warp2 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w2")
@@ -72,27 +69,28 @@ function State_Init(message)
 		Create_Thread("AdeptFour_AI")
 	elseif message == OnUpdate then
 		-- Do nothing
-
 	elseif message == OnExit then
 		-- Do nothing
 	end
-
 end
 
 function Unit_Prox(self_obj, trigger_obj)
-	DebugMessage("-- %s -- %s",tostring(Object.Get_Type()),tostring(Object.Get_Owner()))
+	DebugMessage("-- %s -- %s", tostring(Object.Get_Type()), tostring(Object.Get_Owner()))
+
 	if not trigger_obj then
 		DebugMessage("Warning: prox received a nil trigger_obj .")
 		return
 	end
+
 	closerange = true
 end
 
 function AdeptFour_AI()
 	warptimer = 0
+
 	while TestValid(Object) do
 		noteleports = false
-		cage = Find_Nearest(Object,"Underworld_Ysalamiri_Cage")
+		cage = Find_Nearest(Object, "Underworld_Ysalamiri_Cage")
 		if TestValid(cage) then
 			dist = Object.Get_Distance(cage)
 			if dist < 200 then
@@ -109,10 +107,10 @@ function AdeptFour_AI()
 		end
 		warptimer = warptimer + 1
 		if not noteleports then
-			if warptimer/5 > Object.Get_Hull() then
-				rand_index = GameRandom(1,6)
+			if warptimer / 5 > Object.Get_Hull() then
+				rand_index = GameRandom(1, 6)
 				Object.Suspend_Locomotor(true)
-				Object.Play_Animation("Idle",true,0)
+				Object.Play_Animation("Idle", true, 0)
 				Object.Attach_Particle_Effect("BOTHAN_STUN_GAS")
 				Sleep(1)
 				if rand_index == 1 then

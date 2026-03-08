@@ -45,26 +45,26 @@ YieldCount = 0
 
 function ScriptExit()
 	_ScriptExit() -- set a flag in 'C' to terminate the whole script on next yield
-	
+
 	if GetThreadID() >= 0 then
 		coroutine.yield(false) -- return false to exit this thread
 	end
 end
 
 function Sleep(time)
-
 	DebugMessage("Sleeping...  SleepTime: %.3f, CurTime: %.3f\n", time, GetCurrentTime())
+
 	ThreadValue.Set("StartTime", GetCurrentTime())
 	while GetCurrentTime() - ThreadValue("StartTime") < time do
 		PumpEvents()
 	end
+
 	DebugMessage("Done with Sleep.  Continuing, CurTime: %.3f\n", GetCurrentTime())
 end
 
 -- Service the block until optional max duration has expired or alternate break function returns true
 -- Pass -1 max_duration to use optional alternate break function with no time limit
 function BlockOnCommand(block, max_duration, alternate_break_func)
-
 	PumpEvents()
 
 	if not block then
@@ -72,9 +72,9 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 	end
 
 	break_block = false
-	
+
 	ThreadValue.Set("BlockStart", GetCurrentTime())
-	
+
 	repeat
 		if break_block == true then
 			break_block = false
@@ -82,9 +82,9 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 		end
 
 		PumpEvents()
-	
-		if ((max_duration ~= nil) and (max_duration ~= -1) 
-			and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
+
+		if ((max_duration ~= nil) and (max_duration ~= -1)
+				and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
 			DebugMessage("%s -- Had a time limit and it expired", tostring(Script))
 			return nil
 		end
@@ -93,8 +93,7 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 			DebugMessage("%s-- had a break func and it returned true", tostring(Script))
 			return nil
 		end
-
-	until (block.IsFinished() == true) 
+	until (block.IsFinished() == true)
 
 	PumpEvents()
 
@@ -116,7 +115,6 @@ function TestCommand(block)
 end
 
 function PumpEvents()
-
 	if Object and type(Object) == "userdata" then
 		Object.Service_Wrapper()
 	end
@@ -130,26 +128,26 @@ function PumpEvents()
 	end
 
 	ThreadValue.Set("InPumpEvents", true)
-	
+
 	DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 	YieldCount = YieldCount + 1
 	coroutine.yield(true) -- yield here and return to 'C'
 	DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
-	
+
 	CurrentEvent = GetEvent()
 	while CurrentEvent do
 		ScriptMessage("%s -- Pumping Event: %s.", tostring(Script), tostring(CurrentEvent))
 		EventParams = GetEvent.Params()
 		if EventParams then
 			CurrentEvent(unpack(EventParams))
-		else 
+		else
 			CurrentEvent()
 		end
-		
+
 		if Script.Debug_Should_Issue_Event_Alert() and DebugEventAlert then
 			DebugEventAlert(CurrentEvent, EventParams)
 		end
-		
+
 		CurrentEvent = GetEvent()
 	end
 	ThreadValue.Set("InPumpEvents", false)
@@ -182,25 +180,24 @@ function Dirty_Floor(val)
 	return string.format("%d", val) -- works on implicit string to int conversion
 end
 
--- Machine independent modulus function 
-function Simple_Mod(a,b)
+-- Machine independent modulus function
+function Simple_Mod(a, b)
 	--return a-b*math.floor(a/b)
-	return a-b*Dirty_Floor(a/b)
+	return a - b * Dirty_Floor(a / b)
 end
-
 
 -- Returns if something happened, given a % chance
 function Chance(seed, percent)
 	roll = Simple_Mod((seed + 1), 100)
 	is_allowed = roll < percent
-	DebugMessage("%s -- seed:%d percent:%d roll:%d is_allowed:%s", tostring(Script), seed, percent, roll, tostring(is_allowed))
+	DebugMessage("%s -- seed:%d percent:%d roll:%d is_allowed:%s", tostring(Script), seed, percent, roll,
+		tostring(is_allowed))
 	return is_allowed
 end
 
-
 function GetCurrentMinute()
 	--return math.floor(GetCurrentTime()/60)
-	return Dirty_Floor(GetCurrentTime()/60)
+	return Dirty_Floor(GetCurrentTime() / 60)
 end
 
 -- Every X seconds, the AI will have a new opportunity to see if it's allowed to use an ability
@@ -209,50 +206,49 @@ function GetAbilityChanceSeed()
 end
 
 function GetChanceAllowed(difficulty)
-	chance = 60
 	if difficulty == "Easy" then
-		chance = 20
+		return 20
 	elseif difficulty == "Hard" then
-		chance = 100
+		return 100
 	end
-	return chance
+
+	return 60
 end
 
-
 function PlayerSpecificName(player_object, var_name)
---	ret_value = tostring(player_object.Get_ID()) .. "_" .. var_name
---	DebugMessage("%s -- creating player specific string %s.", tostring(Script), ret_value)
---	return ret_value
-        return (tostring("PLAYER" .. player_object.Get_ID()) .. "_" .. var_name)
+	--	ret_value = tostring(player_object.Get_ID()) .. "_" .. var_name
+	--	DebugMessage("%s -- creating player specific string %s.", tostring(Script), ret_value)
+	--	return ret_value
+	return (tostring("PLAYER" .. player_object.Get_ID()) .. "_" .. var_name)
 end
 
 function Flush_G()
 	DebugMessage("%s -- In Flush_G, flushing globals...", tostring(Script))
 	entries_for_deletion = {}
-	
+
 	--Define the set of tables that we had better keep around
-	very_important_tables = {
-								_LOADED,
-								coroutine,
-								string,
-								LuaWrapperMetaTable,
-								_G,
-								security,
-								table,
-								entries_for_deletion
-							}
-	
+	very_important_tables =
+	{
+		_LOADED,
+		coroutine,
+		string,
+		LuaWrapperMetaTable,
+		_G,
+		security,
+		table,
+		entries_for_deletion
+	}
+
 	--Silly thing is nil (we think) if we try to add it earlier
 	table.insert(very_important_tables, very_important_tables)
 
 	--Iterate all globals
-	for i,g_entry in pairs(_G) do
-	
+	for i, g_entry in pairs(_G) do
 		if type(g_entry) == "table" then
 			--Tables are inherently unsafe: who knows what might be in there?
 			--If they're not in the list of things we must keep then they go.
-			
-			for j,important_entry in pairs(very_important_tables) do
+
+			for j, important_entry in pairs(very_important_tables) do
 				if important_entry == g_entry then
 					keep_table = true
 				end
@@ -261,22 +257,19 @@ function Flush_G()
 				DebugMessage("%s -- UNIMPORTANT TABLE FOUND!  DELETING: %s", tostring(Script), tostring(i))
 				table.insert(entries_for_deletion, i)
 			end
-			
+
 			keep_table = nil
-			
 		elseif type(g_entry) == "userdata" then
 			--Some User Data (e.g. our code functions) should be kept, but some is very, very dangerous.
 			--Query the object to see whether it's safe to persist.
-	
+
 			if not g_entry.Is_Pool_Safe() then
 				table.insert(entries_for_deletion, i)
 			end
-	
 		end
-		
 	end
-	
-	for i,bad_entry in pairs(entries_for_deletion) do
+
+	for i, bad_entry in pairs(entries_for_deletion) do
 		_G[bad_entry] = nil
 	end
 
@@ -290,4 +283,3 @@ function Flush_G()
 
 	DebugMessage("%s -- Done flushing globals!  Leaving Flush_G...", tostring(Script))
 end
-
