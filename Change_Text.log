@@ -544,6 +544,14 @@ International:
 	-- RUS: Урон, наносимый ракетной пехоте, уменьшается на 25% --> Урон, наносимый ракетной пехоте, уменьшается на 50%
 	-- SPA: Reduce un 25% el daño sufrido por las unidades de soldados plex. --> Reduce un 50% el daño sufrido por las unidades de soldados plex.
 
+• TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1: (BUG #491)
+	-- ENG: T2-B Tanks and Speeders gain a 15% movement speed increase. --> T2-B Tanks, Speeders and Pod Walkers gain a 15% movement speed increase.
+	-- GER: Gleiter und Panzer T2-B bewegen sich um 15% schneller. --> Gleiter, Panzer T2-B und Leichter Kampfläufer bewegen sich um 15% schneller.
+
+• TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2: (BUG #491)
+	-- ENG: T2-B Tanks and Speeders gain a 30% movement speed increase. --> T2-B Tanks, Speeders and Pod Walkers gain a 30% movement speed increase.
+	-- GER: Gleiter und Panzer T2-B bewegen sich um 30% schneller. --> Gleiter, Panzer T2-B und Leichter Kampfläufer bewegen sich um 30% schneller.
+
 • TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1: (BUG #490)
 	-- ENG: Reduces the damage taken by T2-B Tanks and Speeders by 25%. --> Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 25%.
 	-- GER: Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 25%. --> Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 25%.
@@ -551,6 +559,10 @@ International:
 • TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2: (BUG #490)
 	-- ENG: Reduces the damage taken by T2-B Tanks and Speeders by 25%. --> Reduces the damage taken by T2-B Tanks, Speeders and Pod Walkers by 50%.
 	-- GER: Verringert den Schaden, den Gleiter und Panzer T2-B erleiden, um 25%. --> Verringert den Schaden, den Gleiter, Leichter Kampfläufer und Panzer T2-B erleiden, um 50%.
+
+• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
+	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. --> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
+	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. --> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
 
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. --> ...armor deflects 30% of incoming laser fire.
@@ -569,7 +581,3 @@ International:
 	-- POL: ...odbija 25% ostrzału z laserów. --> ...odbija 30% ostrzału z laserów.
 	-- RUS: ...отражает 25% лазерных лучей противника. --> ...отражает 30% лазерных лучей противника.
 	-- SPA: ...desvía el 25% del fuego láser recibido. --> ...desvía el 30% del fuego láser recibido.
-
-• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
-	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. --> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
-	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. --> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.

@@ -18852,8 +18852,8 @@ TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Finanziert ein einzelnes Bombardement du
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Verringert den Schaden, den Rebellensoldaten erleiden, um 50%.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Verringert den Schaden, den Rebellensoldaten und Plex-Soldaten erleiden, um 50%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Verhindert, dass gegnerischer Beschuss Eure Stützpunktschilde durchschlägt.
-TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Gleiter und Panzer T2-B bewegen sich um 15% schneller.
-TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Gleiter und Panzer T2-B bewegen sich um 30% schneller.
+TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Gleiter, Panzer T2-B und Leichter Kampfläufer bewegen sich um 15% schneller.
+TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Gleiter, Panzer T2-B und Leichter Kampfläufer bewegen sich um 30% schneller.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L1,Erhöht den Schaden, den Infanterie-Abwehrtürme anrichten, um 25%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L2,Erhöht den Schaden, den Infanterie-, Fahrzeug- und Flugabwehrtürme anrichten, um 25%.
 TEXT_UPGRADE_TOOLTIP_RL_HEAVY_ARMOR_L1,Verringert den Schaden, den Panzer T4-B und MPTL-Artillerie erleiden, um 25%.
