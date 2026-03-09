@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Aumenta del 25% i danni inf
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,I carri armati a repulsione 2-M, l'artiglieria SPMA-T e gli AT-AT hanno il 15% di possibilità di deviare i colpi di blaster nemici.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,I carri armati a repulsione 2-M, l'artiglieria SPMA-T e gli AT-AT hanno il 30% di possibilità di deviare i colpi di blaster nemici.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,Aumenta del 25% la velocità di movimento degli AT-AT.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Aumenta del 25% la velocità di movimento degli AT-AT e del 10% i danni inflitti.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Aumenta del 25% la velocità di movimento degli AT-AT e del 25% i danni inflitti.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Aumenta del 30% la velocità di movimento delle truppe d'assalto.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Aumenta del 20% la quantità di crediti fornita dalle miniere.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Aumenta del 40% la quantità di crediti fornita dalle miniere.

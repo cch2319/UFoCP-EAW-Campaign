@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Augmente de 25% les dommage
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,Les Chars à répulsion 2-M, l'Artillerie TAS-AP et les Walkers TB-TT ont 15% de chances supplémentaires de dévier les tirs de blaster ennemis.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,Les Chars à répulsion 2-M, l'Artillerie TAS-AP et les Walkers TB-TT ont 30% de chances supplémentaires de dévier les tirs de blaster ennemis.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,Les Walkers TB-TT gagnent 15% de vitesse supplémentaire.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Les Walkers TB-TT gagnent 15% de vitesse supplémentaire et infligent 10% de dommages en plus.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Les Walkers TB-TT gagnent 15% de vitesse supplémentaire et infligent 25% de dommages en plus.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Les Stormtroopers gagnent 30% de vitesse quand ils se déplacent.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Augmente de 20% les revenus du Complexe minier.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Augmente de 40% les revenus du Complexe minier.

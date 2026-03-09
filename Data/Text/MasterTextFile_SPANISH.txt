@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Aumenta un 25% el daño cau
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,Los tanques repulsores 2-M, la artillería SPMA-T, y los andadores AT-AT tienen un 15% de posibilidades de desviar los disparos de bláster enemigos.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,Los tanques repulsores 2-M, la artillería SPMA-T, y los andadores AT-AT tienen un 30% de posibilidades de desviar los disparos de bláster enemigos.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,Los andadores AT-AT obtienen un aumento del 25% en la velocidad de movimiento.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Los andadores AT-AT obtienen un aumento del 25% en la velocidad de movimiento y causan un 10% más de daño.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Los andadores AT-AT obtienen un aumento del 25% en la velocidad de movimiento y causan un 25% más de daño.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Las unidades de soldados de asalto obtienen un aumento del 30% en la velocidad de movimiento.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Aumenta un 20% los ingresos producidos por la explotación minera.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Aumenta un 40% los ingresos producidos por la explotación minera.

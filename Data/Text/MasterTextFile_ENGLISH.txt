@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Increases the damage dealt 
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,2-M Repulsor Tanks, SPMA-T Artillery, and AT-AT Walkers have a 15% chance to deflect incoming blaster fire.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,2-M Repulsor Tanks, SPMA-T Artillery, and AT-AT Walkers have a 30% chance to deflect incoming blaster fire.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,AT-AT Walkers gain a 25% movement speed increase.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,AT-AT Walkers gain a 25% movement speed increase and deal 10% more damage.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,AT-AT Walkers gain a 25% movement speed increase and deal 25% more damage.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Stormtrooper units gain a 30% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Increases the income produced from the Mining Facility by 20%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Increases the income produced from the Mining Facility by 40%.

@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Erhöht den Schaden, den In
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,Repulsor-Panzer 2M, SPMA-T-Artillerie und AT-ATs haben eine Chance von 15%, Blasterbeschuss abzulenken.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,Repulsor-Panzer 2M, SPMA-T-Artillerie und AT-ATs haben eine Chance von 30%, Blasterbeschuss abzulenken.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,AT-AT bewegen sich um 25% schneller.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,AT-AT bewegen sich um 25% schneller und richten 10% mehr Schaden an.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,AT-AT bewegen sich um 25% schneller und richten 25% mehr Schaden an.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Sturmtruppen bewegen sich um 30% schneller.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Erhöht das Einkommen durch Minen um 20%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Erhöht das Einkommen durch Minen um 40%.

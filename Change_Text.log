@@ -526,6 +526,15 @@ International:
 	-- ENG: Victory Cruiser --> Victory-class Cruiser
 	-- GER: N/A
 
+• TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2: (BUG #493)
+	-- ENG: AT-AT Walkers gain a 25% movement speed increase and deal 10% more damage. --> AT-AT Walkers gain a 25% movement speed increase and deal 25% more damage.
+	-- GER: AT-AT bewegen sich um 25% schneller und richten 10% mehr Schaden an. --> AT-AT bewegen sich um 25% schneller und richten 25% mehr Schaden an.
+	-- FRA: Les Walkers TB-TT gagnent 15% de vitesse supplémentaire et infligent 10% de dommages en plus. --> Les Walkers TB-TT gagnent 15% de vitesse supplémentaire et infligent 25% de dommages en plus.
+	-- ITA: Aumenta del 25% la velocità di movimento degli AT-AT e del 10% i danni inflitti. --> Aumenta del 25% la velocità di movimento degli AT-AT e del 25% i danni inflitti.
+	-- POL: Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 10%. --> Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 25%.
+	-- RUS: Скорость шагоходов АТ-АТ увеличивается на 25%, они наносят на 10% больше урона. --> Скорость шагоходов АТ-АТ увеличивается на 25%, они наносят на 25% больше урона.
+	-- SPA: Los andadores AT-AT obtienen un aumento del 25% en la velocidad de movimiento y causan un 10% más de daño. --> Los andadores AT-AT obtienen un aumento del 25% en la velocidad de movimiento y causan un 25% más de daño.
+
 • TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1: (BUG #488)
 	-- ENG: Reduces the damage taken by Rebellion Trooper units by 25%. --> Reduces the damage taken by Rebellion Trooper units by 50%.
 	-- GER: Verringert den Schaden, den Rebellensoldaten erleiden, um 25%. --> Verringert den Schaden, den Rebellensoldaten erleiden, um 50%.

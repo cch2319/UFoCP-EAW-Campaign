@@ -18790,7 +18790,7 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Zwiększenie mocy rażenia 
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,Istnieje 15% prawdopodobieństwo, że strzał z blastera oddany w czołgów repulsorowych 2-M, jednostek SPMA-T i AT-AA zostanie odbity.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,Istnieje 30% prawdopodobieństwo, że strzał z blastera oddany w czołgów repulsorowych 2-M, jednostek SPMA-T i AT-AA zostanie odbity.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,Zwiększenie prędkości jednostek AT-AA o 25%.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 10%.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 25%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Szybkość poruszania się szturmowców wzrasta o 30%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Zwiększenie wydajności produkcji w kopalniach o 20%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Zwiększenie wydajności produkcji w kopalniach o 40%.
