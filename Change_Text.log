@@ -13,7 +13,7 @@
 | |__| || | | || (_) || |  | |  | || (__ | || (_| || | | |     | (_| || |_ | (__ | | | |             | |   |  __/ >  < | |_ 
  \____/ |_| |_| \___/ |_|  |_|  |_| \___||_| \__,_||_| |_|      \__,_| \__| \___||_| |_|             |_|    \___|/_/\_\ \__|
 
-~ By the UFoCP Team. ~
+~ By the UFCP Team. ~
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -28,7 +28,7 @@ in the subsequent hotfix's changelog; changes made by the Unofficial Patch will 
 in tandem and mentioned in the next update.
 
 When fixed, bugs introduced by the Unofficial Patch are included in the next hotfix under
-the "UFoCP" header and retroactively edited in the changelog.
+the "UFCP" header and retroactively edited in the changelog.
 
 Dates, grammar, and times are always in American format.
 (i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52.")
@@ -48,14 +48,16 @@ v2.0.0.#### (##-##-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
-• UFoCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak).
+• UFCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Changes that only involve numeric values (f.e. changing "10%" to "25%") are ported in full.  Japanese isn't supported, because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak) unless these translation teams are willing to push changes to the UFCP GitHub.
+
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	- A related change, the Noghri description changed for consistency (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
 		- ENG: ...They are fierce warriors and assassins. --> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
 		- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. --> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
-	- In related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
+	- In a related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
 		- ENG: An indigenous unit enslaved to the will of the Zann Consortium --> This indigenous unit is enslaved to the will of the Zann Consortium.
 		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. --> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
+
 • Imperial technology tooltips now include what heroes the player recruits by upgrading their technology (TEXT_ENCYCLOPEDIA_TECH_UPGRADE_XX_RECRUITMENT). (BUG #369)
 • Fix Grand Admiral Thrawn having an unfinished/subpar unit description (TEXT_TOOLTIP_SD_ADMONITOR_02). (BUG #225)
 • Fix Captain Piett having an unfinished/subpar unit description (TEXT_TOOLTIP_PIETT_02). (BUG #227)
