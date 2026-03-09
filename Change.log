@@ -423,6 +423,7 @@ Unit Fixes:
 • Multiple units would struggle to hit the 2-M Repulsor Tank in multiple scenarios because the unit's vertical targeting adjustment setting was overshot by 3 units, and would shoot over the tank's base instead. (BUG #468)
 • Aggressor-class Destroyers' plasma megaweapon used the Star Destroyer's turbolaser damage multipliers, instead of its predefined projectile damage multipliers. (BUG #501)
 • Fix Consortium TIE defenders being able to be built 5 seconds quicker, and for 150 credits cheaper, compared to the Empire's version of the TIE defender. (BUG #505)
+• Consortium Slaves did not have their unit entries properly linked to their "teams;" in addition, Wookie Slaves weren't using their custom slave teams at all. (BUG #506)
 
 
 Upgrade Fixes:
