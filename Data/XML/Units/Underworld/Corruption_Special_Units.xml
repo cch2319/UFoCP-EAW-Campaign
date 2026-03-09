@@ -1679,8 +1679,8 @@
 		<Damage>50</Damage>
 
 		<Affiliation>Underworld</Affiliation>
-		<Build_Cost_Credits>500</Build_Cost_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
