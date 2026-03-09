@@ -4213,7 +4213,7 @@
 		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
-		<Fire_Category_Restrictions> </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions />
 
 	</HardPoint>
 
@@ -4247,7 +4247,7 @@
 		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
-		<Fire_Category_Restrictions> </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions />
 
 	</HardPoint>
 
@@ -5349,7 +5349,7 @@
 
 		<Death_Breakoff_Prop> Hardpoint_Breakoff_Pirate_Frigate_BL </Death_Breakoff_Prop>
 
-		<Damage_Type> Damage_Acclamator </Damage_Type>
+		<Damage_Type> Damage_Acclamator_TL </Damage_Type>
 		<Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
@@ -5391,7 +5391,7 @@
 
 		<Death_Breakoff_Prop> Hardpoint_Breakoff_Pirate_Frigate_BR </Death_Breakoff_Prop>
 
-		<Damage_Type> Damage_Acclamator </Damage_Type>
+		<Damage_Type> Damage_Acclamator_TL </Damage_Type>
 		<Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
