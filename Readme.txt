@@ -18,6 +18,29 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Thank you for downloading the Unofficial Forces of Corruption Patch!
+
+The 2.0.0 rework-release is the final result of countless weeks worth of redoing XML,
+text, Lua, and texture work.  It may have been unnecessary, but to make working on UFCP
+easier in the future, the intention of 2.0.0 was to clean up the original underlying work
+so it was less messy.  In addition, the new GitHub has every issue tracked under a bug report,
+which can be easily confirmed from the changelog! (Unlike v1.0+.)
+
+New this update is a bunch of model work and other contributions/suggestions from some
+wonderful members of the modding and Empire at War Community Discord, who can be seen in
+the credits section below.
+
+This update was unfortunately so long in the making due to various bouts of burnout.
+Specifically, the map preview rework.  However, UFCP 2.0.0 should be nearly as feature-
+complete as 1.0.0 (although without half-finished reworks like the Corruption Victims overhaul)
+and ready to be played from the get-go.
+
+Known issues are still recorded on the GitHub, hopefully to be solved for the upcoming patches.
+If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
+
+I hope you enjoy UFCP!
+~AlyMar1994
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CREDITS:

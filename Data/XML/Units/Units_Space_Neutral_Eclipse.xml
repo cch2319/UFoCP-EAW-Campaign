@@ -62,7 +62,6 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Damage>70</Damage>
-		<Autoresolve_Health>18000</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>50000</Tactical_Health><!-- jdg was 10000 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
