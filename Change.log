@@ -231,6 +231,7 @@ Audio Fixes:
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
 • A-wings were missing their assigned VO for traveling into into asteroid fields and nebulas.  In addition, they were also missing VO for attacking hangar bays. (BUG #499)
 • Empire V-wings would use Rebel Announcer VO when built and completed or canceled, instead of Empire VO. (BUG #500)
+• THe IPV-1 was using incorrect VO when using Power to Weapons, was missing its VO for entering asteroid fields, and was missing its VO for attacking hangar bays. (BUG #502)
 
 
 Balance Modifications:
