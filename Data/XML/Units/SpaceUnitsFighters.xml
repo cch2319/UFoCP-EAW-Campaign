@@ -50,8 +50,10 @@
 		<Number_per_Squadron>5</Number_per_Squadron>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Size_Value>4</Size_Value>  <!-- 8 -->
-		<SpaceBehavior>ABILITY_COUNTDOWN, LURE, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Size_Value>4</Size_Value> <!-- 8 -->
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, LURE, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
+		</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>7</Damage>
@@ -78,9 +80,15 @@
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_A_Wing</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_A_Wing</SFXEvent_Move>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_A_Wing</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_A_Wing</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_A_Wing</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_A_Wing</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_A_Wing</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_A_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_A_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_A_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_A_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_A_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_A_Wing </SFXEvent_Attack_Hardpoint>
@@ -89,11 +97,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_A_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_A_Wing </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_A_Wing</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_A_Wing </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_A_Wing </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_A_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_A_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Ambient_Moving> Unit_A_Wing_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
@@ -114,6 +119,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -121,7 +127,7 @@
 				<Type>LURE</Type>
 
 				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
-				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+					Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
 				<Effective_Radius>350</Effective_Radius>
 
 				<Target_Types>
@@ -158,9 +164,8 @@
 				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
 				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
 
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.7f</Mod_Multiplier><!-- Invulnerable -->
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.7f</Mod_Multiplier> <!-- Invulnerable -->
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>

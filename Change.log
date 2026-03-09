@@ -229,6 +229,7 @@ Audio Fixes:
 • Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
+• A-wings were missing their assigned VO for traveling into into asteroid fields and nebulas.  In addition, they were also missing VO for attacking hangar bays. (BUG #499)
 
 
 Balance Modifications:
