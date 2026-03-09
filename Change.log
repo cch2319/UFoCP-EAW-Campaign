@@ -212,6 +212,7 @@ Audio Fixes:
 • Interceptor IV Frigates were missing VO regarding attacking hangar bays and entering asteroid fields, because the respective SFX weren't referenced in the unit's entry. (BUG #401)
 • Skipray Blastboats were missing VO regarding entering asteroid fields and dogfighting lines when their enemies' health is low or critical, because the respective SFX wasn't referenced in the unit's entry. (BUG #267)
 • StarViper Squadrons were missing VO regarding entering asteroid fields and dogfighting lines when joining in a dogfight or group movement, because the respective SFX wasn't referenced in the unit's entry. (BUG #268)
+• Rogue Squadron would use generic X-wing VO when entering asteroid fields or nebulas. (BUG #498)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misreferenced as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and constructed instead of using Consortium VO. (BUG #50)
