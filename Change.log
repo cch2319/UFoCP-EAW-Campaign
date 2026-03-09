@@ -231,7 +231,7 @@ Audio Fixes:
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
 • A-wings were missing their assigned VO for traveling into into asteroid fields and nebulas.  In addition, they were also missing VO for attacking hangar bays. (BUG #499)
 • Empire V-wings would use Rebel Announcer VO when built and completed or canceled, instead of Empire VO. (BUG #500)
-• THe IPV-1 was using incorrect VO when using Power to Weapons, was missing its VO for entering asteroid fields, and was missing its VO for attacking hangar bays. (BUG #502)
+• The IPV-1 was using incorrect VO when using Power to Weapons, was missing its VO for entering asteroid fields, and was missing its VO for attacking hangar bays. (BUG #502)
 
 
 Balance Modifications:
@@ -293,6 +293,7 @@ Interface Fixes:
 • Conditions for campaign "Origin of Corruption" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000), and all factions are supposed to start at Tech Level 1 (Rebels started at Tech Level 2). (BUG #450)
 • Field and Fleet Commanders for both the Empire and Rebellion would not show their "bust" icons on the hero bar when summoned in battle, because the functionality of the "Show_Hero_Head" setting for minor/generic heroes was changed. (BUG #135)
 • While possibly deprecated, the Death Star II was defined to use the Hutts faction symbol instead of its own fleet icon override.  This was because, when indexed, the DS's symbol was #4, but became #6 with the release of FoC, and wasn't corrected. (BUG #461)
+• The Eclipse's minimap icon was too small compared to how big it actually is on the battlefield. (BUG #503)
 
 
 Map/Planet Fixes:

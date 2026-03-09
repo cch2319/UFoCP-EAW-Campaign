@@ -1,17 +1,14 @@
 <?xml version="1.0"?>
 <Eclipse_Files>
-
-
-	<!--	
+	<!--
 			The Eclipse is the goal of the story campaign.
 			Woe be to any who seek to add this to the galactic
 			conquest game, for there shall be unbalance!
 	-->
-	
 	<UniqueUnit Name="Eclipse_Super_Star_Destroyer">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_SSD_ECLIPSE</Text_ID>
-		
+
 		<Encyclopedia_Good_Against> Calamari_Cruiser Rebel_Star_Base_5 </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_ECLIPSE </Encyclopedia_Text>
@@ -45,15 +42,15 @@
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> SuperCapital </Space_Layer>
 
-        <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
 
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>2</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+
 		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -67,7 +64,7 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>18000</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>50000</Tactical_Health><!-- jdg was 10000  -->
+		<Tactical_Health>50000</Tactical_Health><!-- jdg was 10000 -->
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -80,18 +77,18 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<Tactical_Bribe_Cost>9999</Tactical_Bribe_Cost>
 
 		<Behavior> DUMMY_STARSHIP, SELECTABLE </Behavior>
 		<Not_Really_Selectable>True</Not_Really_Selectable>
-		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, REVEAL, TARGETING, DUMMY_TOOLTIP, DAMAGE_TRACKING  </SpaceBehavior>
-		
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, REVEAL, TARGETING, DUMMY_TOOLTIP, DAMAGE_TRACKING </SpaceBehavior>
+
 		<Is_Valid_Target>Yes</Is_Valid_Target><!-- jdg was no  -->
 		<Target_Bones> Target_00, Target_01, Target_02, Target_03, Target_04 </Target_Bones>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		
+
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 
@@ -107,7 +104,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -118,35 +115,33 @@
 		<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
+		<Radar_Icon_Size>0.8, 0.8</Radar_Icon_Size>
 		<Score_Cost_Credits> 100000</Score_Cost_Credits>
 		<Radar_Register_As_Foreground_Object>Yes</Radar_Register_As_Foreground_Object>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
 			<Unit_Ability>
 				<Type>SUPER_LASER</Type>
+
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name> Eclipse_Super_Laser_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Recharge_Seconds>10</Recharge_Seconds><!-- jdg was 5  -->
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<SFXEvent_Target_Ability> Unit_Attack_Tyber_Zann</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop> 
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ECLIPSE_SL_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<Super_Laser_Ability Name="Eclipse_Super_Laser_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories> Capital | Corvette | Frigate | Structure </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-                <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
-                <Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
+				<Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name>MuzzleA_00</Owner_Particle_Bone_Name>
 				<Activation_Min_Range>0</Activation_Min_Range>
-	            <Activation_Max_Range>20000</Activation_Max_Range>
+				<Activation_Max_Range>20000</Activation_Max_Range>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 				<Damage_Per_Frame>400</Damage_Per_Frame>
@@ -156,18 +151,14 @@
 				<Line_Width>45</Line_Width>
 				<Line_Color>0 237 119 255</Line_Color>
 			</Super_Laser_Ability>
-
 		</Abilities>
-		
 	</UniqueUnit>
-	
+
 	<UniqueUnit Name="Eclipse_Super_Star_Destroyer_Death_Clone">
 		<Space_Model_Name>UV_Eclipse_UC_DC.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
-		
-		
 		<Max_Speed> 0.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
 		<Max_Thrust> 0.05 </Max_Thrust>
@@ -180,24 +171,14 @@
 	</UniqueUnit>
 
 
-
-
-
-
-
-
-	
-
-<!-- PROP VERSION -->
-
-
+	<!-- PROP VERSION -->
 	<SpaceProp Name="Eclipse_Prop">
 		<Text_ID />
 		<Space_Model_Name>UV_eclipse.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
 		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Behavior>IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -205,15 +186,9 @@
 		<In_Background> Yes </In_Background>
 
 		<Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
-
-
-	
-	
-	
-	
 </Eclipse_Files>
