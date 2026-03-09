@@ -3925,7 +3925,7 @@
 		<Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent />
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>EB_Station_05_HP05_CM.alo</Model_To_Attach>
 		<Attachment_Bone>HP05_CM_BONE</Attachment_Bone>
