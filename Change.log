@@ -232,6 +232,7 @@ Audio Fixes:
 • A-wings were missing their assigned VO for traveling into into asteroid fields and nebulas.  In addition, they were also missing VO for attacking hangar bays. (BUG #499)
 • Empire V-wings would use Rebel Announcer VO when built and completed or canceled, instead of Empire VO. (BUG #500)
 • The IPV-1 was using incorrect VO when using Power to Weapons, was missing its VO for entering asteroid fields, and was missing its VO for attacking hangar bays. (BUG #502)
+• The Accuser - Captain Piett was missing many lines of VO.  By default, he would use generic Star Destroyer VO instead of his VO for respawning, using his tractor beam, and the incorrect Imperial Announcer VO when being bought in Space Skirmish.  In addition, 2 undefined respawn voice lines have been restored, and 3 extra guard voice lines when told to guard a location or unit. (BUG #504)
 
 
 Balance Modifications:
