@@ -46,7 +46,8 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 UFCP:
 ======
-• 
+HOUSEKEEPING:
+• The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader). (No forward-facing changes.)
 
 
 
