@@ -745,10 +745,11 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_EXECUTOR </Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Rebel_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_EV_ExecutorStarDestroyer.tga</Icon_Name>
-
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 
 		<Space_Model_Name>EV_ExecutorStarDestroyer.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Mass>0.999</Mass>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Ranking_In_Category>5</Ranking_In_Category>
@@ -757,8 +758,6 @@
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.0</Scale_Factor>
-		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
@@ -922,7 +921,7 @@
 		<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.4 0.4</Radar_Icon_Size>
+		<Radar_Icon_Size>0.4, 0.4</Radar_Icon_Size>
 
 		<Space_Override_Population_Value>3</Space_Override_Population_Value>
 

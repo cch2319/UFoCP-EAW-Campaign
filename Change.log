@@ -46,8 +46,17 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 UFCP:
 ======
+CHANGELOG:
+• v2.0.0.1039's changelog did not notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
+
+
 HOUSEKEEPING:
 • The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader). (No forward-facing changes.)
+======
+
+
+Interface Fixes:
+• The Executor used its ship icon instead of its related hero icon (Darth Vader), unlike other space heroes. (BUG #507)
 
 
 
@@ -57,6 +66,7 @@ v2.0.1.1040 (03-13-2026) [FoC v1.121.859328]
 UFCP:
 ======
 • Fix the Death Star II being smaller than intended due to a syntax error during one of the syntax cleanup changes.
+======
 
 
 
