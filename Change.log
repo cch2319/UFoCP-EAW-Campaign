@@ -39,6 +39,14 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+v2.0.1.1040 (03-13-2026) [FoC v1.121.859328]
+============================================
+
+UFCP:
+======
+• Fix the Death Star II being smaller than intended due to a syntax error during one of the syntax cleanup changes.
+
+
 
 v2.0.0.1039 (03-11-2026) [FoC v1.121.859328]
 ============================================
