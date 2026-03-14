@@ -129,7 +129,7 @@
 
 		<Tech_Level>5</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>3.0</Scale_Factor>
 
 		<Galactic_Fleet_Override_Icon_Index> 7 </Galactic_Fleet_Override_Icon_Index> <!-- Override for seeing DS icon as fleet icon in Galactic mode -->
 		<Radar_Icon_Name>i_radar_death_star_2.tga</Radar_Icon_Name>
