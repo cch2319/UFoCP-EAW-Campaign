@@ -68,6 +68,7 @@ Structure Fixes:
 
 Unit Fixes:
 • IG-2000's model would instantaneously become 80% smaller when destroyed in space battle. (BUG #483)
+• The Houndstooth was using the standard TIE fighter laserfire SFX instead of its personal laserfire sound. (BUG #476)
 
 
 

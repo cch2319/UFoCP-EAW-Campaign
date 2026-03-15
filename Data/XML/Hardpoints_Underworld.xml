@@ -246,7 +246,7 @@
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.20</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.00</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Houndstooth_Fire</Fire_SFXEvent>
 
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air</Fire_Category_Restrictions>
 
@@ -275,7 +275,7 @@
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.20</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.00</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Houndstooth_Fire</Fire_SFXEvent>
 
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air</Fire_Category_Restrictions>
 
