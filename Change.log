@@ -51,7 +51,9 @@ CHANGELOG:
 
 
 HOUSEKEEPING:
-• The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader). (No forward-facing changes.)
+• The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
+• Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
+• The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 ======
 
 
