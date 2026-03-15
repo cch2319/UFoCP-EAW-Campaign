@@ -3780,7 +3780,7 @@
 
 	<GroundBuildable Name="UC_Empire_Mineral_Processor">
 		<Text_ID> TEXT_STRUCTURE_NEUTRAL_RESOURCE_PAD </Text_ID>
-		<Behavior>TACTICAL_UNDER_CONSTRUCTION, SELECTABLE</Behavior>
+		<Behavior>TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, HIDE_WHEN_FOGGED</LandBehavior>
 		<Obstacle_Proxy_Type> Skirmish_Mineral_Processor_Pad </Obstacle_Proxy_Type>
 		<Tactical_Buildable_Constructed> Empire_Mineral_Processor </Tactical_Buildable_Constructed>
