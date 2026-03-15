@@ -23,7 +23,7 @@
 	<File>SFXEventsUnitsRebelHeroes.xml</File>
 	<File>SFX\SFXEventsUnitsEmpireHeroes.xml</File>
 
-	<File>SFXEventsDeaths.xml</File>
+	<File>SFX\SFXEventsDeaths.xml</File>
 	<File>SFXEventsWeapons.xml</File>
 	<File>SFX\SFXEventsEngines.xml</File>
 	<File>SFXEventsFootsteps.xml</File>
