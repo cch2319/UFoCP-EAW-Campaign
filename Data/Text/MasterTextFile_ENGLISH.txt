@@ -17963,7 +17963,7 @@ TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_NAME,Weather/Ability Filter
 TEXT_TOOLTIP_ACCLAMATOR,Medium frigate armed with 2 turbolaser batteries, 2 laser cannon batteries, a proton torpedo launcher, and a concussion missile launcher. Also carries 3 TIE fighter squadrons and 1 TIE bomber squadrons. A ship that fills many roles, which is both its strength and weakness.
 TEXT_TOOLTIP_AI_TURRET,Anti-Infantry turret capable of defeating enemy infantry assaults.
 TEXT_TOOLTIP_AKBAR,Rebellion admiral able to command ships of the fleet for maximum combat effectiveness and reduces ship production costs. Travels in Home One. A formidable capital ship.
-TEXT_TOOLTIP_ANNIHILATOR,The Annihilator
+TEXT_TOOLTIP_ANNIHILATOR,The Annihilator - Admiral Gaarn
 TEXT_TOOLTIP_ANTILLES,The ship of Captain Raymus Antilles, a veteran of the Clone Wars who serves under Senators Bail and Leia Organa. His ship is a heavily modified Corellian Corvette.
 TEXT_TOOLTIP_ARC_HAMMER,A mobile factory ship, commanded by General Rom Mohc.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.

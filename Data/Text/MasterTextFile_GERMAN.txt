@@ -17963,7 +17963,7 @@ TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_NAME,Wetter/Fähigkeiten-Filter
 TEXT_TOOLTIP_ACCLAMATOR,Fregatte mittlerer Größe, ausgerüstet mit 2 Turbolaser- und 2 Laserkanonen-Batterien, einem Protonentorpedowerfer und einem Erschütterungsraketenwerfer. Ist außerdem mit 3 TIE-Fighter- und 1 TIE-Bomber-Geschwadern ausgestattet. Ein Schiff, das viele Rollen übernimmt, was sowohl seine Stärke als auch seine Schwäche sein kann.
 TEXT_TOOLTIP_AI_TURRET,Infanterie-Abwehrturm, der die meisten gegnerischen Infanterieangriffe abwehren kann.
 TEXT_TOOLTIP_AKBAR,Admiral der Rebellenflotte, unter dessen Kommando Schiffe mit maximaler Effektivität kämpfen und der die Produktionskosten für Schiffe senkt. Reist in Home Eins, einem gewaltigen Schlachtschiff.
-TEXT_TOOLTIP_ANNIHILATOR,Die Annihilator
+TEXT_TOOLTIP_ANNIHILATOR,Die Annihilator - Admiral Gaarn
 TEXT_TOOLTIP_ANTILLES,Diese stark modifizierte corellianische Korvette ist das Schiff von Captain Raymus Antilles, einem Veteranen der Klon-Kriege, der unter Senator Bail und Senatorin Leia Organa gedient hat.
 TEXT_TOOLTIP_ARC_HAMMER,Die Arc Hammer ist ein mobiles Fabrikschiff unter dem Kommando von General Rom Mohc. Sie ermöglicht die Produktion von Dunklen Truppen auf dem Planeten, den sie umkreist.
 TEXT_TOOLTIP_ARC_HAMMER_02,Die Arc Hammer, die General Rom Mohc für seine Waffenforschung zur Verfügung gestellt wurde, ist die Hauptproduktionsstätte für das Dunkle-Truppen-Projekt.  Dieses leicht bewaffnete Fabrikschiff verfügt über 2 Turbolaser-Batterien, 2 Laserkanonen-Batterien, 1 Raketenwerfer, 8 TIE-Interceptor-Geschwadern, 4 TIE-Phantom-Geschwadern und ist mit einem Raketen-Störfeld ausgestattet. Sie ermöglicht die Produktion von Dunklen Truppen auf dem Planeten, den sie umkreist.

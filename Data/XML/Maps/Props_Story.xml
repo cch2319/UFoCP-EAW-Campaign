@@ -2400,6 +2400,7 @@
 		<Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
 
 		<Icon_Name>i_button_EV_ExecutorStarDestroyer.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>EV_ExecutorStarDestroyer.ALO</Space_Model_Name>

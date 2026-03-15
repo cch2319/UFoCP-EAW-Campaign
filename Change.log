@@ -57,6 +57,7 @@ HOUSEKEEPING:
 
 Interface Fixes:
 • The Executor used its ship icon instead of its related hero icon (Darth Vader), unlike other space heroes. (BUG #507)
+• The Annihilator in Consortium campaign #9: The Emperor's New Weapon wasn't on the hero bar, despite being treated as a pseudo-Empire hero. (BUG #508)
 
 
 
