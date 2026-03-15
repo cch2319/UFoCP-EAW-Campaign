@@ -47,7 +47,9 @@ body:
       label: UFoCP Version
       description: What version of the Unofficial Patch are you running?  (If you are at all.)
       options:
-        - 2.0.0.XXXX
+        - Indev
+        - 2.0.1.1040
+        - 2.0.0.1039
         - 1.16.682
         - Other (Older)
         - N/A (W/O Patch)
