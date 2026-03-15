@@ -66,6 +66,10 @@ Structure Fixes:
 • The Empire Mineral Extractor in Land Skirmish would not be visible to the Empire if it was obscured by the fog of war while under construction. (BUG #484)
 
 
+Unit Fixes:
+• IG-2000's model would instantaneously become 80% smaller when destroyed in space battle. (BUG #483)
+
+
 
 v2.0.1.1040 (03-13-2026) [FoC v1.121.859328]
 ============================================
