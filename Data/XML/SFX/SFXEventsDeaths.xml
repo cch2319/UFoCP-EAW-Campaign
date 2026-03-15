@@ -442,7 +442,7 @@
 
 	<SFXEvent Name="Unit_Hardpoint_Ion_Death">
 		<Use_Preset>Preset_EXPC</Use_Preset>
-		<Samples>EXP_HP_SHIELDS_2.wav</Samples>
+		<Samples>EXP_HP_ION_1.wav</Samples>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Missile_Death">
@@ -452,7 +452,7 @@
 
 	<SFXEvent Name="Unit_Hardpoint_Shields_Death">
 		<Use_Preset>Preset_EXPC</Use_Preset>
-		<Samples>EXP_HP_SHIELDS_1.wav</Samples>
+		<Samples>EXP_HP_SHIELDS_1.wav EXP_HP_SHIELDS_2.wav</Samples>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Engines_Death">
