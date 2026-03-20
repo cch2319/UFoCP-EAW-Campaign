@@ -177,7 +177,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</UniqueUnit>
 
-		<!-- Slave I is used by Boba Fett (Empire Major Hero) during space battles -->
+	<!-- Slave I is used by Boba Fett (Empire Major Hero) during space battles -->
 	<UniqueUnit Name="Slave_I">
 		<Text_ID>TEXT_UNIT_SLAVE_I</Text_ID>
 		<Encyclopedia_Good_Against>X-wing Y-Wing Starviper_Fighter</Encyclopedia_Good_Against>
@@ -316,21 +316,6 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Lua_Script>Slave_I</Lua_Script>
-	</UniqueUnit>
-
-	<!-- AM1994: Used to prevent Object-Contest bug. -->
-	<UniqueUnit Name="Slave_I_MP">
-		<Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
-
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-
-		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
-		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Slave_I_Death_Clone">
@@ -1283,20 +1268,6 @@
 		<Space_Override_Population_Value>1</Space_Override_Population_Value>
 
 	</UniqueUnit>
-
-	<!-- AM1994: Used to prevent Object-Contest bug. -->
-	<UniqueUnit Name="Millennium_Falcon_MP">
-		<Variant_Of_Existing_Type>Millennium_Falcon</Variant_Of_Existing_Type>
-
-		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
-		<Is_Stealth_Company>No</Is_Stealth_Company>
-	</UniqueUnit>
-
 
 	<UniqueUnit Name="Millennium_Falcon_Landing">
 		<AI_Combat_Power>0</AI_Combat_Power>

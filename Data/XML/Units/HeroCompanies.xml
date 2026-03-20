@@ -464,11 +464,11 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
-	<!-- AM1994: Disabling for Object-Contest bug: prefer IG2000_MP -->
-	<!--	<HeroCompany Name="Boba_Fett_Team_Space_MP">
+	<HeroCompany Name="Boba_Fett_Team_Space_MP">
 		<Variant_Of_Existing_Type>Boba_Fett_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette A-Wing </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_SLAVE_I</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SLAVE_ONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 
@@ -480,7 +480,6 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
-	-->
 
 	<HeroCompany Name="Piet_Team">
 		<Text_ID>TEXT_HERO_PIET_TEAM</Text_ID>
@@ -866,11 +865,11 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
-	<!-- AM1994: Disable to fix Object-Contest bug. Prefer Millennium_Falcon_MP -->
-	<!--	<HeroCompany Name="Han_Solo_Team_Space_MP">
+	<HeroCompany Name="Han_Solo_Team_Space_MP">
 		<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_UNIT_MILLENNIUM_FALCON</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MILLENNIUM_FALCON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 
@@ -882,7 +881,6 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
-	-->
 
 	<HeroCompany Name="Katarn_Team">
 		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
