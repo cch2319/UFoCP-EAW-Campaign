@@ -21,7 +21,7 @@
 		<Credits_Accumulation_Factor>0.95</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>10.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>True</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
@@ -33,7 +33,7 @@
 		<Skirmish_Land_Bomber>Skipray_Bombing_Run</Skirmish_Land_Bomber>
 		<Space_Tactical_Unit_Cap>25</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
 		<Benefits_From_Corruption>Yes</Benefits_From_Corruption>
@@ -87,7 +87,7 @@
 		<Land_Retreat_Units_Damaged_Mod_Factor>2.0</Land_Retreat_Units_Damaged_Mod_Factor>
 		<Land_Retreat_Countdown_Color_RGBA>255, 255, 255, 255</Land_Retreat_Countdown_Color_RGBA>
 		<Land_Retreat_Countdown_Text_ID>TEXT_RETREAT_LAND_UNDERWORLD_COUNTDOWN</Land_Retreat_Countdown_Text_ID>
-		<Land_Retreat_Begin_SFXEvent>UHD_Retreat_Started_land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Begin_SFXEvent>UHD_Retreat_Started_land</Land_Retreat_Begin_SFXEvent>
 		<Land_Retreat_Enemy_Begin_SFXEvent>Unit_Enemy_Retreat_Underworld_Soldier</Land_Retreat_Enemy_Begin_SFXEvent>
 		<Land_Retreat_Cancel_SFXEvent>UHD_Retreat_Cancelled</Land_Retreat_Cancel_SFXEvent>
 		<Land_Retreat_Not_Allowed_SFXEvent>UHD_Retreat_Not_Allowed</Land_Retreat_Not_Allowed_SFXEvent>
@@ -109,8 +109,8 @@
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name>Bombardment_Underworld</Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size>200.00</Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Krayt_Class_Destroyer, The_Peacebringer </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Krayt_Bombardment_Ion, Proj_Krayt_Bombardment_Damage </Bombardment_Projectile>
+		<Bombardment_Required_Orbital_Ships>Krayt_Class_Destroyer, The_Peacebringer</Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile>Proj_Krayt_Bombardment_Ion, Proj_Krayt_Bombardment_Damage</Bombardment_Projectile>
 		<Bombardment_Particle>Bombard_Particle_Effect</Bombardment_Particle>
 		<Bombardment_Number_Of_Salvos>2</Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo>1</Bombardment_Shots_Per_Salvo>
@@ -135,10 +135,10 @@
 			StarViper_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Buy_Credits>50000</Land_Skirmish_Unit_Buy_Credits>
-		<Land_Skirmish_AI_Default_Forces> Underworld_Merc_Squad, Underworld_Merc_Squad </Land_Skirmish_AI_Default_Forces>
-		<Land_Skirmish_Unit_Cap_By_Player_Count> 0, 10, 1, 10, 8, 5, </Land_Skirmish_Unit_Cap_By_Player_Count>
+		<Land_Skirmish_AI_Default_Forces>Underworld_Merc_Squad, Underworld_Merc_Squad</Land_Skirmish_AI_Default_Forces>
+		<Land_Skirmish_Unit_Cap_By_Player_Count>0, 10, 1, 10, 8, 5,</Land_Skirmish_Unit_Cap_By_Player_Count>
 
-		<Debug_Ground_Structures> U_Ground_Barracks </Debug_Ground_Structures>
+		<Debug_Ground_Structures>U_Ground_Barracks</Debug_Ground_Structures>
 
 		<Superweapon_Win_Movie />
 		<Generic_Win_Movie />
@@ -496,7 +496,7 @@
 
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point, UHD_Landing_Zone_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point, UHD_Landing_Zone_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Build_Pad, UHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
+		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Build_Pad, UHD_Build_Pad_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Build_Pad, UHD_Build_Pad_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Secondary_Mining_Facility, UHD_Lost_Mining</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Secondary_Mining_Facility, UHD_Capture_Mining</SFXEvent_Tactical_Gain_Friendly_Control>
@@ -532,14 +532,14 @@
 		<SFXEvent_Tactical_Object_Sold>Structure_Buildable_Sold</SFXEvent_Tactical_Object_Sold> <!-- An object is sold in the world -->
 
 		<!-- Weather begin/end audio cues: Rain, Snow, Sandstorm, Ash -->
-		<SFXEvent_Weather_Begin>RAIN, Unit_Rain_Underworld_Soldier </SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_Begin>SNOW, Unit_Snowstorm_Underworld_Soldier </SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_Begin>SANDSTORM, Unit_Sandstorm_Underworld_Soldier </SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_Begin>ASH, Unit_Ashfall_Underworld_Soldier </SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_End>RAIN, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SNOW, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SANDSTORM, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>ASH, </SFXEvent_Weather_End>
+		<SFXEvent_Weather_Begin>RAIN, Unit_Rain_Underworld_Soldier</SFXEvent_Weather_Begin>
+		<SFXEvent_Weather_Begin>SNOW, Unit_Snowstorm_Underworld_Soldier</SFXEvent_Weather_Begin>
+		<SFXEvent_Weather_Begin>SANDSTORM, Unit_Sandstorm_Underworld_Soldier</SFXEvent_Weather_Begin>
+		<SFXEvent_Weather_Begin>ASH, Unit_Ashfall_Underworld_Soldier</SFXEvent_Weather_Begin>
+		<SFXEvent_Weather_End>RAIN,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SNOW,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SANDSTORM,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>ASH,</SFXEvent_Weather_End>
 
 		<!-- Bombing runs becoming available cues -->
 		<SFXEvent_Bombing_Run_Available>UHD_Bombing_Run_Available</SFXEvent_Bombing_Run_Available>
@@ -569,7 +569,7 @@
 
 		<!-- Sandbox tactical battle introduction SpeechEvents -->
 		<SpeechEvent_Tactical_Intro_Land_Attacker>GUS_INTRO_LAND_ATTACK_U_00</SpeechEvent_Tactical_Intro_Land_Attacker> <!-- Default case for land battle as attacker -->
-		<SpeechEvent_Tactical_Intro_Land_Defender>GUS_INTRO_LAND_DEFEND_U_00 </SpeechEvent_Tactical_Intro_Land_Defender> <!-- Default case for land battle as defender -->
+		<SpeechEvent_Tactical_Intro_Land_Defender>GUS_INTRO_LAND_DEFEND_U_00</SpeechEvent_Tactical_Intro_Land_Defender> <!-- Default case for land battle as defender -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker>GUS_INTRO_SPACE_ATTACK_U_00</SpeechEvent_Tactical_Intro_Space_Attacker> <!-- Default case for space battle as attacker -->
 		<SpeechEvent_Tactical_Intro_Space_Defender>GUS_INTRO_SPACE_DEFEND_U_00</SpeechEvent_Tactical_Intro_Space_Defender> <!-- Default case for space battle as defender -->
 
@@ -695,7 +695,7 @@
 			Sarlacc,
 			Hutts
 		</Enemies>
-		<Can_Control_Planets>true</Can_Control_Planets>
+		<Can_Control_Planets>True</Can_Control_Planets>
 		<Garrison_Reinforcement_Delay_Seconds>20.00</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>R_Multiplayer_Beacon</Multiplayer_Beacon_Type>
 		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
@@ -746,7 +746,7 @@
 		<Selection_Blob_RGBA>255, 128, 0, 255</Selection_Blob_RGBA>
 
 		<Debug_Ground_Structures>Hutt_Command_Center_Palace</Debug_Ground_Structures>
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 
 		<Allies />
 		<Enemies>
@@ -758,6 +758,6 @@
 		</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
 
-		<Can_Control_Planets>true</Can_Control_Planets>
+		<Can_Control_Planets>True</Can_Control_Planets>
 	</Faction>
 </Factions>

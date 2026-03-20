@@ -1842,7 +1842,7 @@
 		<Fire_Pulse_Delay_Seconds>0.20</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2200.00</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Underworld_Plasma_Fire</Fire_SFXEvent>
-		<Projectile_Appearance_Delay_Frames> 30 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Appearance_Delay_Frames>30</Projectile_Appearance_Delay_Frames>
 
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -2332,8 +2332,7 @@
 	</HardPoint>
 
 
-	<!-- Crusader Hard Points -->
-
+	<!-- CRUSADER HARD POINTS -->
 	<HardPoint Name="HP_Crusader_Gunship_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -3050,7 +3049,6 @@
 		<Engine_Particles>HP_E_01_MAINENGINES</Engine_Particles>
 	</HardPoint>
 
-
 	<HardPoint Name="HP_Dekard_Blast_00">
 		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -3668,7 +3666,7 @@
 
 		<Model_To_Attach>UB_01_Station_HP01_SHG.alo</Model_To_Attach>
 		<Attachment_Bone>HP01_SHG_BONE</Attachment_Bone>
-		<Collision_Mesh> HP01_SHG_COLL </Collision_Mesh>
+		<Collision_Mesh>HP01_SHG_COLL</Collision_Mesh>
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_U_Station_Shield_Gen</Death_Breakoff_Prop>
 
@@ -4056,18 +4054,18 @@
 		<!-- The player does so by treating the starbase like a special weapon. -->
 		<!-- The hardpoint will fire its projectile pulse once, then wait for another target
 		assignment. -->
-		<Requires_Manual_Target_Assignment> Yes </Requires_Manual_Target_Assignment>
-		<Manual_Hardpoint_Firing_Cooldown_Secs> 120 </Manual_Hardpoint_Firing_Cooldown_Secs>	<!--
+		<Requires_Manual_Target_Assignment>Yes</Requires_Manual_Target_Assignment>
+		<Manual_Hardpoint_Firing_Cooldown_Secs>120</Manual_Hardpoint_Firing_Cooldown_Secs>	<!--
 		Each player must wait this long before being able to fire the weapon again. -->
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 0.50 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 360.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 30.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>0.50</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Underworld_Station_Main_Cannon</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.00</Fire_Min_Recharge_Seconds>
@@ -4076,7 +4074,7 @@
 		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>20000.00</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Underworld_Plasma_Fire</Fire_SFXEvent>
-		<Projectile_Appearance_Delay_Frames> 15 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Appearance_Delay_Frames>15</Projectile_Appearance_Delay_Frames>
 
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
@@ -4426,7 +4424,7 @@
 
 		<Model_To_Attach>HP_leftshieldgen_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_leftshieldgen_00_BONE</Attachment_Bone>
-		<Collision_Mesh> HP_leftshieldgen_00_COLL </Collision_Mesh>
+		<Collision_Mesh>HP_leftshieldgen_00_COLL</Collision_Mesh>
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_Gargantuan_Left_Shield</Death_Breakoff_Prop>
 
@@ -4448,7 +4446,7 @@
 
 		<Model_To_Attach>HP_rightshieldgen_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_rightshieldgen_00_BONE</Attachment_Bone>
-		<Collision_Mesh> HP_rightshieldgen_00_COLL </Collision_Mesh>
+		<Collision_Mesh>HP_rightshieldgen_00_COLL</Collision_Mesh>
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_Gargantuan_Right_Shield</Death_Breakoff_Prop>
 
@@ -4464,7 +4462,7 @@
 		<Health>150.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_front_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_front_00_BONE</Attachment_Bone>
@@ -4481,14 +4479,14 @@
 		<Fire_Cone_Height>5.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 120.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Front </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Front </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>120.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Front</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Front</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Laser_Cannon_Garm</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.00</Fire_Min_Recharge_Seconds>
@@ -4513,7 +4511,7 @@
 		<Health>150.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_back_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_back_00_BONE</Attachment_Bone>
@@ -4530,14 +4528,14 @@
 		<Fire_Cone_Height>5.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 120.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Back </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Back </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>120.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Back</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Back</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Laser_Cannon_Garm</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.00</Fire_Min_Recharge_Seconds>
@@ -4562,7 +4560,7 @@
 		<Health>75.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_FRONT_L_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_FRONT_L_00_BONE</Attachment_Bone>
@@ -4579,14 +4577,14 @@
 		<Fire_Cone_Height>450.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 80.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Front_L </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Front_L </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>80.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Front_L</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Front_L</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red_T2B</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.00</Fire_Min_Recharge_Seconds>
@@ -4611,7 +4609,7 @@
 		<Health>75.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_FRONT_R_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_FRONT_R_00_BONE</Attachment_Bone>
@@ -4628,14 +4626,14 @@
 		<Fire_Cone_Height>45.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 80.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Front_R </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Front_R </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>80.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Front_R</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Front_R</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red_T2B</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.00</Fire_Min_Recharge_Seconds>
@@ -4660,7 +4658,7 @@
 		<Health>75.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_BACK_L_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_BACK_L_00_BONE</Attachment_Bone>
@@ -4677,14 +4675,14 @@
 		<Fire_Cone_Height>45.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 80.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Back_L </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Back_L </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>80.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Back_L</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Back_L</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red_T2B</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.00</Fire_Min_Recharge_Seconds>
@@ -4709,7 +4707,7 @@
 		<Health>75.00</Health>
 
 		<Death_Explosion_Particles>Small_Explosion_Land</Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach>HP_turret_BACK_R_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_turret_BACK_R_00_BONE</Attachment_Bone>
@@ -4726,14 +4724,14 @@
 		<Fire_Cone_Height>45.00</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.00, 0.00, 0.00 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.00, 0.00, 0.00 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 5.00 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 80.00 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.00 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> B_Turret_Back_R </Turret_Bone_Name>
-		<Barrel_Bone_Name> B_Barrel_Back_R </Barrel_Bone_Name>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.00, 0.00, 0.00</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.00, 0.00, 0.00</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.00</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>80.00</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.00</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret_Back_R</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel_Back_R</Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red_T2B</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.00</Fire_Min_Recharge_Seconds>
@@ -4845,8 +4843,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 	</HardPoint>
 
 	<HardPoint Name="HP_Thrawn_SD_Weapon_FR">
@@ -4888,8 +4886,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 	</HardPoint>
 
 	<HardPoint Name="HP_Thrawn_SD_Weapon_BL">
@@ -4931,8 +4929,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 
 	</HardPoint>
 
@@ -4975,8 +4973,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 10.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 
 	</HardPoint>
 
@@ -5016,8 +5014,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 15.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 
 	</HardPoint>
 
@@ -5057,8 +5055,8 @@
 		<Fire_Inaccuracy_Distance>Capital, 15.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
 
-		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .50 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
-		<Fire_When_In_Power_To_Weapons_Mode> Yes </Fire_When_In_Power_To_Weapons_Mode>
+		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>.50</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		<Fire_When_In_Power_To_Weapons_Mode>Yes</Fire_When_In_Power_To_Weapons_Mode>
 
 	</HardPoint>
 

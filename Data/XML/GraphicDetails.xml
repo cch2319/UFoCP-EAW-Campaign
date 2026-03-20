@@ -130,16 +130,16 @@
 			<HeatDistortions>No</HeatDistortions>
 			<Bloom>No</Bloom>
 		</GraphicDetailLevel>
-
-
 	</GraphicDetailLevelEnumeration>
 
 
 	<!-- Specify hardware-graphic settings relationship here, highest to lowest, specific VendorID before generic -->
-	<!-- <GraphicDetailSettingName>:
+	<!--
+		<GraphicDetailSettingName>:
 									Specify reference to detail setting lowest to highest IN ORDER!
 									This corresponds to GraphicDetail slider in the game. Therefore, the
-									number of these settings has to agree with the number of ticks on the slider. -->
+									number of these settings has to agree with the number of ticks on the slider.
+	-->
 
 	<!-- <DefaultGraphicDetailLevel>: Specifies which setting to choose by default from the list above -->
 
@@ -178,7 +178,7 @@
 
 				<VendorIDHEX>0x8086</VendorIDHEX>
 		</HardwareConfiguration>
--->
+		-->
 
 		<!--                                                                                                       -->
 		<!--                                                                                                       -->

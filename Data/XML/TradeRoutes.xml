@@ -18,6 +18,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Rimma Trade Route -->
 	<TradeRoute Name="Thyferra_Fondor">
 		<Point_A>Thyferra</Point_A>
@@ -59,6 +60,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Perlemian Trade Route (partial) -->
 	<TradeRoute Name="Anaxes_Coruscant">
 		<Point_A>Anaxes</Point_A>
@@ -96,6 +98,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Used for Medium Map -->
 	<TradeRoute Name="Thyferra_Abregado_Rae">
 		<Point_A>Thyferra</Point_A>
@@ -120,6 +123,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
+
 
 	<!-- Used for Movie Planets Campaign -->
 	<TradeRoute Name="Coruscant_Bespin">
@@ -154,6 +158,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Used for Small Campaign Map -->
 	<TradeRoute Name="Abregado_Rae_Coruscant">
 		<Point_A>Abregado_Rae</Point_A>
@@ -162,6 +167,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
+
 
 	<!-- Used for Medium 2 Campaign -->
 	<TradeRoute Name="Coruscant_Byss">
@@ -515,7 +521,6 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
-
 	<TradeRoute Name="Coruscant_Alderaan">
 		<Point_A>Coruscant</Point_A>
 		<Point_B>Alderaan</Point_B>
@@ -531,7 +536,6 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-
 
 	<TradeRoute Name="Endor_Bestine">
 		<Point_A>Endor</Point_A>
@@ -668,7 +672,6 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
 	</TradeRoute>
-
 
 	<TradeRoute Name="Bestine_Atzerri">
 		<Point_A>Bestine</Point_A>
@@ -918,6 +921,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Needed for Rebel Campaign -->
 	<TradeRoute Name="Bothawui_Atzerri">
 		<Point_A>Bothawui</Point_A>
@@ -927,6 +931,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- Added for Empire Campaign -->
 	<TradeRoute Name="Coruscant_Eriadu">
 		<Point_A>Coruscant</Point_A>
@@ -935,6 +940,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
+
 
 	<!-- Added for single player sandbox missions -->
 	<TradeRoute Name="AlzocIII_Dantooine">
@@ -1958,6 +1964,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+
 	<!-- dme these are being added for the new underworld campaigns -->
 	<TradeRoute Name="Hoth_Mustafar">
 		<Point_A>Hoth</Point_A>
@@ -2705,7 +2712,6 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
-
 	<TradeRoute Name="Vergesso_Mandalore_Story">
 		<Point_A>VergessoAsteroids</Point_A>
 		<Point_B>Mandalore_Story</Point_B>
@@ -2721,7 +2727,6 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-
 
 	<TradeRoute Name="Tatooine_NalHutta_Story">
 		<Point_A>Tatooine</Point_A>

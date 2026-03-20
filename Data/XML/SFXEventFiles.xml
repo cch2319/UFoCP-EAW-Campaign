@@ -4,12 +4,11 @@
 	<File>SFXEventPresets.xml</File>
 
 	<!-- Non-Preset Events come after presets -->
-	<File>SFXEventsGUI.xml</File>
-	<File>SFXEventsHUD.xml</File>
 	<File>SFXEvents.xml</File>
 	<File>SFXEventsUnits.xml</File>
+	<File>SFXEventsGUI.xml</File>
+	<File>SFXEventsHUD.xml</File>
 	<File>SFXEventsCinematics.xml</File>
-
 	<File>SFXEventsAmbient.xml</File>
 	<File>SFXEventsBuildings.xml</File>
 
@@ -19,7 +18,6 @@
 	<File>SFXEventsUnitsFrigates.xml</File>
 	<File>SFXEventsUnitsTransports.xml</File>
 	<File>SFXEventsUnitsGround.xml</File>
-
 	<File>SFXEventsUnitsRebelHeroes.xml</File>
 	<File>SFX\SFXEventsUnitsEmpireHeroes.xml</File>
 

@@ -3,7 +3,7 @@
 	<Hero_Clash Name="Vader_ObiWan">
 		<Clash_Type>Melee_Duel</Clash_Type>
 		<Involved_Hero_Types>Darth_Vader, Obi_Wan_Kenobi</Involved_Hero_Types>
-		<Clash_Range>100.0</Clash_Range>
+		<Clash_Range>100.00</Clash_Range>
 		<Play_Conversation_Events>No</Play_Conversation_Events>
 
 		<First_Hero_Type>Darth_Vader</First_Hero_Type>
@@ -11,10 +11,10 @@
 		<Combat_Distance>17.65</Combat_Distance>
 
 		<!-- Damage Inflicted Per Exchange = LoserMaxHealth * DamagePercentage + DamageAmount -->
-		<Damage_Amount>0.0</Damage_Amount>
+		<Damage_Amount>0.00</Damage_Amount>
 		<Damage_Percentage>0.15</Damage_Percentage>
-		<First_Hero_Damage_Multiplier>2.5</First_Hero_Damage_Multiplier>
-		<Second_Hero_Damage_Multiplier>1.0</Second_Hero_Damage_Multiplier>
+		<First_Hero_Damage_Multiplier>2.50</First_Hero_Damage_Multiplier>
+		<Second_Hero_Damage_Multiplier>1.00</Second_Hero_Damage_Multiplier>
 
 		<!-- NOTE: These "Win" chances refer to the chance to win an EXCHANGE, not the whole hero clash! -->
 		<!-- Any leftover amount (1.0 - First_Hero_Win_Chance - Second_Hero_Win_Chance) will be the DRAW case. -->
@@ -37,7 +37,7 @@
 	<Hero_Clash Name="VaderExpansion_ObiWan">
 		<Clash_Type>Melee_Duel</Clash_Type>
 		<Involved_Hero_Types>Darth_Vader_Expansion, Obi_Wan_Kenobi</Involved_Hero_Types>
-		<Clash_Range>100.0</Clash_Range>
+		<Clash_Range>100.00</Clash_Range>
 		<Play_Conversation_Events>No</Play_Conversation_Events>
 
 		<First_Hero_Type>Darth_Vader_Expansion</First_Hero_Type>
@@ -45,10 +45,10 @@
 		<Combat_Distance>17.65</Combat_Distance>
 
 		<!-- Damage Inflicted Per Exchange = LoserMaxHealth * DamagePercentage + DamageAmount -->
-		<Damage_Amount>0.0</Damage_Amount>
+		<Damage_Amount>0.00</Damage_Amount>
 		<Damage_Percentage>0.15</Damage_Percentage>
-		<First_Hero_Damage_Multiplier>2.5</First_Hero_Damage_Multiplier>
-		<Second_Hero_Damage_Multiplier>1.0</Second_Hero_Damage_Multiplier>
+		<First_Hero_Damage_Multiplier>2.50</First_Hero_Damage_Multiplier>
+		<Second_Hero_Damage_Multiplier>1.00</Second_Hero_Damage_Multiplier>
 
 		<!-- NOTE: These "Win" chances refer to the chance to win an EXCHANGE, not the whole hero clash! -->
 		<!-- Any leftover amount (1.0 - First_Hero_Win_Chance - Second_Hero_Win_Chance) will be the DRAW case. -->
@@ -68,10 +68,11 @@
 		<Second_Hero_Win_Speech>Hero_Clash_Obiwan_Vader__Obiwan_Win</Second_Hero_Win_Speech>
 	</Hero_Clash>
 
-
-	<!-- AM1994 07/17/2024 - Due to engine changes that broke these clashes, -->
-	<!-- I'm hard disabling it just so it isn't processed and causing any    -->
-	<!-- issues as apart of commit 9d648dd (#27). -->
+	<!--
+		AM1994 07/17/2024 - Due to engine changes that broke these clashes,
+		I'm hard disabling it just so it isn't processed and causing any
+		issues as apart of commit 9d648dd (#27).
+	-->
 	<!--
 	<Hero_Clash Name="ObiWan_BobaFett">
 		<Clash_Type>Action_Driven</Clash_Type>
@@ -401,5 +402,5 @@
 
 		</Clash_Actions>
 	</Hero_Clash>
--->
+	-->
 </Hero_Clashes>

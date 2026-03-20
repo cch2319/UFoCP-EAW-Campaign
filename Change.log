@@ -48,9 +48,12 @@ UFCP:
 ======
 FORWARDED FIXES (COMMIT 824b819):
 • Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into UniqueUnits.xml: Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air.
-• Forwarded part of the official fix from Petroglyph patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml: two new model entries were proposed by Beta Testers for scripted Pirate Frigates used in both the Empire and Rebel campaigns.  This was supposed to fix issues where their models would become larger when destroyed, however, the frigate in Empire campaign mission #2 "The Pirate Menace" cannot be destroyed, so the new death clone has not been forwarded.  Only the fix for for Rebel campaign mission #6 "Highest Bidder" has been added.
-•• However, this new death clone was still broken, as it was 10% smaller than the size of the actual frigate.  This has been fixed without a GitHub bug report.
+• Forwarded part of the official fix from Petroglyph patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml: two new model entries were proposed by Beta Testers for scripted Pirate Frigates used in both the Empire and Rebel campaigns.  This was supposed to fix issues where their models would become larger when destroyed, however, the frigate in Empire campaign mission #2 "The Pirate Menace" cannot be destroyed, so the new death clone has not been forwarded.  Only the fix for for Rebel campaign mission #6 "Highest Bidder" has been added.  However, this new death clone was still broken, as it was 10% smaller than the size of the actual frigate.  This has been fixed without a GitHub bug report.
 • Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly.
+
+
+REMOVED FIXES:
+• Fixes for bugs #147, #148, 149, #150, #151, #152 and #153 (where space units that had land heroes attached would permanently contest objects they were next to) were removed, as this was fixed in official patch 1.121.859328 on October 2024.
 
 
 HOUSEKEEPING:
@@ -462,12 +465,12 @@ Unit Fixes:
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
 • Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table misreferenced Darth Vader's unit. (BUG #68)
 • Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit's death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
-• Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
+• ~~Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
 • Bossk's space weapons weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #360)
-• IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)
+• ~~IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
 • IG-88's space weapons weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #361)
-• Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
-• Han Solo & Chewbacca would permanently contest objects when spawned in their space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
+• ~~Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
+• ~~Han Solo & Chewbacca would permanently contest objects when spawned in their space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
 • Consortium, Rebel, and Empire unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an expensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 • Cuddles' (Silri's familiar) attack "Cuddles_Rancor_Eat_Infantry" wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)

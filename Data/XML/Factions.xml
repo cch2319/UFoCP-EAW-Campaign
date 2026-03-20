@@ -20,7 +20,7 @@
 		<Credits_Accumulation_Factor>0.95</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>10.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>True</Is_Playable>
 		<Primary_Enemy>Empire</Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
@@ -32,7 +32,7 @@
 		<Skirmish_Land_Bomber>Y-Wing_Bombing_Run</Skirmish_Land_Bomber>
 		<Space_Tactical_Unit_Cap>25</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
 		<Benefits_From_Corruption>No</Benefits_From_Corruption>
@@ -85,7 +85,7 @@
 		<Land_Retreat_Countdown_Color_RGBA>255, 255, 255, 255</Land_Retreat_Countdown_Color_RGBA>
 		<Land_Retreat_Countdown_Text_ID>TEXT_RETREAT_LAND_REBEL_COUNTDOWN</Land_Retreat_Countdown_Text_ID>
 
-		<Land_Retreat_Begin_SFXEvent>RHD_Retreat_Started_land </Land_Retreat_Begin_SFXEvent>
+		<Land_Retreat_Begin_SFXEvent>RHD_Retreat_Started_land</Land_Retreat_Begin_SFXEvent>
 		<Land_Retreat_Enemy_Begin_SFXEvent>Unit_Enemy_Retreat_Rebel_Soldier</Land_Retreat_Enemy_Begin_SFXEvent>
 		<Land_Retreat_Cancel_SFXEvent>RHD_Retreat_Cancelled</Land_Retreat_Cancel_SFXEvent>
 		<Land_Retreat_Not_Allowed_SFXEvent>RHD_Retreat_Not_Allowed</Land_Retreat_Not_Allowed_SFXEvent>
@@ -530,7 +530,7 @@
 
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point, RHD_Landing_Zone_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point, RHD_Landing_Zone_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Build_Pad, RHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
+		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Build_Pad, RHD_Build_Pad_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Build_Pad, RHD_Build_Pad_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Secondary_Mining_Facility, RHD_Lost_Mining</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Secondary_Mining_Facility, RHD_Capture_Mining</SFXEvent_Tactical_Gain_Friendly_Control>
@@ -570,10 +570,10 @@
 		<SFXEvent_Weather_Begin>SNOW, Unit_Snowstorm_Rebel_Soldier</SFXEvent_Weather_Begin>
 		<SFXEvent_Weather_Begin>SANDSTORM, Unit_Sandstorm_Rebel_Soldier</SFXEvent_Weather_Begin>
 		<SFXEvent_Weather_Begin>ASH, Unit_Ashfall_Rebel_Soldier</SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_End>RAIN, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SNOW, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SANDSTORM, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>ASH, </SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>RAIN,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SNOW,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SANDSTORM,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>ASH,</SFXEvent_Weather_End>
 
 		<!-- Bombing runs becoming available cues -->
 		<SFXEvent_Bombing_Run_Available>RHD_Bombing_Run_Available</SFXEvent_Bombing_Run_Available>
@@ -732,7 +732,7 @@
 			Hutts
 		</Enemies>
 
-		<Can_Control_Planets>true</Can_Control_Planets>
+		<Can_Control_Planets>True</Can_Control_Planets>
 
 		<Garrison_Reinforcement_Delay_Seconds>20.00</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>R_Multiplayer_Beacon</Multiplayer_Beacon_Type>
@@ -792,7 +792,7 @@
 		<Credits_Accumulation_Factor>0.85</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>7.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>True</Is_Playable>
 		<Primary_Enemy>Rebel</Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
@@ -814,7 +814,7 @@
 		<Corruption_Tactical_Build_Pad_Price_Multipliers>1.00, 1.00</Corruption_Tactical_Build_Pad_Price_Multipliers>
 		<Easily_Bribed>Yes</Easily_Bribed>
 
-		<Scatters_From_Crushers>false</Scatters_From_Crushers>
+		<Scatters_From_Crushers>False</Scatters_From_Crushers>
 
 		<Infantry_Icon_Name>i_button_storm_trooper.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_button_atst.tga</Vehicle_Icon_Name>
@@ -1277,7 +1277,7 @@
 
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point, EHD_Landing_Zone_Lost</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point, EHD_Landing_Zone_Captured</SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Enemy_Control>Skirmish_Build_Pad, EHD_Build_Pad_Lost </SFXEvent_Tactical_Lose_Enemy_Control>
+		<SFXEvent_Tactical_Lose_Enemy_Control>Skirmish_Build_Pad, EHD_Build_Pad_Lost</SFXEvent_Tactical_Lose_Enemy_Control>
 		<SFXEvent_Tactical_Gain_Enemy_Control>Skirmish_Build_Pad, EHD_Build_Pad_Captured</SFXEvent_Tactical_Gain_Enemy_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Secondary_Mining_Facility, EHD_Lost_Mining</SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Secondary_Mining_Facility, EHD_Capture_Mining</SFXEvent_Tactical_Gain_Friendly_Control>
@@ -1316,10 +1316,10 @@
 		<SFXEvent_Weather_Begin>SNOW, Unit_Snowstorm_Storm_Trooper</SFXEvent_Weather_Begin>
 		<SFXEvent_Weather_Begin>SANDSTORM, Unit_Sandstorm_Storm_Trooper</SFXEvent_Weather_Begin>
 		<SFXEvent_Weather_Begin>ASH, Unit_Ashfall_Storm_Trooper</SFXEvent_Weather_Begin>
-		<SFXEvent_Weather_End>RAIN, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SNOW, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>SANDSTORM, </SFXEvent_Weather_End>
-		<SFXEvent_Weather_End>ASH, </SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>RAIN,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SNOW,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>SANDSTORM,</SFXEvent_Weather_End>
+		<SFXEvent_Weather_End>ASH,</SFXEvent_Weather_End>
 
 		<!-- Bombing runs becoming available cues -->
 		<SFXEvent_Bombing_Run_Available>EHD_Bombing_Run_Available</SFXEvent_Bombing_Run_Available>
@@ -1465,7 +1465,7 @@
 			Hutts
 		</Enemies>
 
-		<Can_Control_Planets>true</Can_Control_Planets>
+		<Can_Control_Planets>True</Can_Control_Planets>
 
 		<Garrison_Reinforcement_Delay_Seconds>20.00</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>E_Multiplayer_Beacon</Multiplayer_Beacon_Type>
@@ -1534,7 +1534,7 @@
 		<Selection_Blob_RGBA>0, 255, 0, 255</Selection_Blob_RGBA>
 
 		<Debug_Ground_Structures>Pirate_Command_Center</Debug_Ground_Structures>
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 
 		<Allies />
 		<Enemies>
@@ -1547,7 +1547,7 @@
 		</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
 
-		<Can_Control_Planets>true</Can_Control_Planets>
+		<Can_Control_Planets>True</Can_Control_Planets>
 	</Faction>
 
 	<Faction Name="Neutral">
@@ -1570,7 +1570,7 @@
 		<Credits_Accumulation_Factor>1.00</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>13.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>False</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>Yes</Is_Neutral>
@@ -1582,7 +1582,7 @@
 		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
 		<Selection_Blob_RGBA>0, 255, 0, 255</Selection_Blob_RGBA>
 
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 		<Allies />
 		<Enemies />
 	</Faction>
@@ -1591,7 +1591,7 @@
 		<Is_Debug_Switchable_To>No</Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games>Yes</Create_Player_In_Multiplayer_Games>
 
-		<Scatters_From_Crushers>true</Scatters_From_Crushers>
+		<Scatters_From_Crushers>True</Scatters_From_Crushers>
 		<Text_ID>TEXT_FACTION_HOSTILE</Text_ID>
 		<Icon_Name>i_icon_pirate.tga</Icon_Name>
 		<Alternate_Icon_Name>pirate_icon.tga</Alternate_Icon_Name>
@@ -1608,7 +1608,7 @@
 		<Credits_Accumulation_Factor>1.00</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>13.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>False</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
@@ -1650,7 +1650,7 @@
 		<Credits_Accumulation_Factor>1.00</Credits_Accumulation_Factor>
 		<Planet_Icon_Scale>10.00</Planet_Icon_Scale>
 		<Planet_Icon_Offset>13.00, 10.00, -1.10</Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>False</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral>No</Is_Neutral>
