@@ -73,6 +73,13 @@ Text:
 
 
 Texturing:
+- .lany
+-- UV_CrusaderClassCorvette.dds - Inspiration for new team coloring
+-- NV_IPV1.dds - Inspiration for new team coloring
+
+- Galyana
+-- NV_IPV1.dds - Inspiration for new team coloring
+
 - evilbobthebob
 -- 16x Anisotropic Filtering shaders (https://discord.com/channels/401148449241956353/413428854510845953/483771208178073601)
 -- Method to generate map previews
@@ -84,6 +91,9 @@ Misc:
 
 - Empire at War Modder's Hub
 -- General/technical support, etc., etc.
+
+- Secrets of a Fallen Empire
+-- General support, extra bugfixes, etc., etc.
 
 - Kad (_lgr_)
 -- .MEG Cooker from Yuuzhan Vong at War
