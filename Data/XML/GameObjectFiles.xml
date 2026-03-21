@@ -133,7 +133,7 @@
 	<File>Units_Land_Underworld_F9TZ_Transport.xml</File>
 	<File>Units_Land_Underworld_MAL.xml</File>
 	<File>Units_Land_Underworld_PulseTank.xml</File>
-	<File>Units_Land_Underworld_Canderous_Tank.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_Canderous_Tank.xml</File>
 	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
 	<File>Units\Underworld\Units_Land_Underworld_Nightsister.xml</File>
 
