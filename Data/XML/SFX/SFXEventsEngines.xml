@@ -13,7 +13,7 @@
 	<SFXEvent Name="Empire_Campaign_Intro_Star_Destroyer_Engine_Loop">
 		<Use_Preset>Preset_EGLC</Use_Preset>
 		<Samples>EGL_Star_Destroyer_2.wav</Samples>
-		<Loop_Fade_In_Seconds> 5.0 </Loop_Fade_In_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
+		<Loop_Fade_In_Seconds>5.0</Loop_Fade_In_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
 	</SFXEvent>
 
 
@@ -154,8 +154,6 @@
 
 
 
-
-
 	<SFXEvent Name="Unit_Corvette_Idle_Engine_Loop">
 		<Use_Preset>Preset_EGL_Idle</Use_Preset>
 		<Samples>EGL_Corvette_1.wav</Samples>
@@ -170,7 +168,6 @@
 		<Use_Preset>Preset_EGL_CIN</Use_Preset>
 		<Samples>EGL_Corvette_1.wav</Samples>
 	</SFXEvent>
-
 
 
 
@@ -217,7 +214,6 @@
 		<Min_Pitch>90</Min_Pitch>
 		<Max_Pitch>90</Max_Pitch>
 	</SFXEvent>
-
 
 
 
@@ -360,10 +356,6 @@
 
 
 
-
-
-
-
 	<SFXEvent Name="Unit_Tracked_Moving_Engine_Loop">
 		<Use_Preset>Preset_EGL_Land</Use_Preset>
 		<Samples>EGL_Tracked_1.wav</Samples>
@@ -448,7 +440,6 @@
 
 
 
-
 	<SFXEvent Name="Unit_SnowSpeeder_Engine_Loop">
 		<Use_Preset>Preset_EGL_Land</Use_Preset>
 		<Samples>EGL_SnowSpeeder_1.wav</Samples>
@@ -489,8 +480,8 @@
 	<SFXEvent Name="Unit_Jet_Pack_Engine_Loop">
 		<Use_Preset>Preset_EGL_Land</Use_Preset>
 		<Samples>EGL_JetPack_Loop_1.wav</Samples>
-		<Loop_Fade_In_Seconds> 5.0 </Loop_Fade_In_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
-		<Loop_Fade_Out_Seconds> 0.2 </Loop_Fade_Out_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
+		<Loop_Fade_In_Seconds>5.0</Loop_Fade_In_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
+		<Loop_Fade_Out_Seconds>0.2</Loop_Fade_Out_Seconds>		<!-- Give the take-off sound enough time to be prominent -->
 	</SFXEvent>
 
 
@@ -511,12 +502,6 @@
 		<Min_Volume>50</Min_Volume>
 		<Max_Volume>50</Max_Volume>
 	</SFXEvent>
-
-
-
-
-
-
 
 
 
@@ -564,7 +549,6 @@
 		<Min_Pitch>70</Min_Pitch>
 		<Max_Pitch>70</Max_Pitch>
 	</SFXEvent>
-
 
 
 
@@ -627,7 +611,6 @@
 
 
 
-
 	<SFXEvent Name="Unit_Y_Wing_Fly_By">
 		<Use_Preset>Preset_EGB</Use_Preset>
 		<Samples>EGL_Y_Wing_By_1.wav</Samples>
@@ -670,13 +653,6 @@
 
 
 
-
-
-
-
-
-
-
 	<SFXEvent Name="Unit_Slave1_Fly_By">
 		<Use_Preset>Preset_EGB</Use_Preset>
 		<Samples>EGL_Slave_1_By_Long_1.wav EGL_Slave_1_By_Long_2.wav</Samples>
@@ -686,13 +662,6 @@
 		<Use_Preset>Preset_EGB</Use_Preset>
 		<Samples>EGL_Falcon_By_1.wav EGL_Falcon_By_2.wav</Samples>
 	</SFXEvent>
-
-
-
-
-
-
-
 
 
 
@@ -721,11 +690,6 @@
 		<Use_Preset>Preset_EGB</Use_Preset>
 		<Samples>EGL_Moldy_Crow_By.wav</Samples>
 	</SFXEvent>
-
-
-
-
-
 
 
 
@@ -765,8 +729,6 @@
 		<Use_Preset>Preset_EXP</Use_Preset>
 		<Samples>EGL_Barge_Takeoff.wav</Samples>
 	</SFXEvent>
-
-
 
 
 
@@ -815,12 +777,6 @@
 
 
 
-
-
-
-
-
-
 	<SFXEvent Name="Unit_Ship_Hyperspace_Enter">
 		<Use_Preset>Preset_EXPC</Use_Preset>
 		<Samples>Hyperspace_Enter_1.wav Hyperspace_Enter_2.wav</Samples>
@@ -852,10 +808,6 @@
 		<Max_Instances>3</Max_Instances>
 		<Priority>1</Priority>
 	</SFXEvent>
-
-
-
-
 
 
 
@@ -939,10 +891,6 @@
 
 
 
-
-
-
-
 	<SFXEvent Name="Structure_Sensor_Array_Loop">
 		<Use_Preset>Preset_BDL</Use_Preset>
 		<Samples>EGL_Sensor_Array.wav</Samples>
@@ -957,8 +905,6 @@
 		<Use_Preset>Preset_BDL</Use_Preset>
 		<Samples>EGL_Star_Forge.wav</Samples>
 	</SFXEvent>
-
-
 
 
 
@@ -982,8 +928,6 @@
 		<Use_Preset>Preset_EXP</Use_Preset>
 		<Samples>Buildable_Structure_Sold_1.wav</Samples>
 	</SFXEvent>
-
-
 
 
 
@@ -1011,23 +955,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<SFXEvent Name="Lava_Stream_Loop">
 		<Use_Preset>Preset_BDL</Use_Preset>
 		<Samples>Lava_Stream.wav</Samples>
@@ -1036,15 +963,15 @@
 
 	<!-- MBL TEST EVENT -->
 	<SFXEvent Name="Debug_Audio_Test_Loop">
-		<Samples> EGL_Sensor_Array.wav </Samples>
-		<Priority> 1 </Priority>
-		<Max_Instances> 3 </Max_Instances>
-		<Play_Count> -1 </Play_Count>
-		<Min_Volume> 100 </Min_Volume>
-		<Max_Volume> 100 </Max_Volume>
-		<Min_Pitch> 100 </Min_Pitch>
-		<Max_Pitch> 100 </Max_Pitch>
-		<Volume_Saturation_Distance> 200.0 </Volume_Saturation_Distance>
+		<Samples>EGL_Sensor_Array.wav</Samples>
+		<Priority>1</Priority>
+		<Max_Instances>3</Max_Instances>
+		<Play_Count>-1</Play_Count>
+		<Min_Volume>100</Min_Volume>
+		<Max_Volume>100</Max_Volume>
+		<Min_Pitch>100</Min_Pitch>
+		<Max_Pitch>100</Max_Pitch>
+		<Volume_Saturation_Distance>200.0</Volume_Saturation_Distance>
 	</SFXEvent>
 	<!-- END MBL TEST EVENT -->
 </SFXEvents>

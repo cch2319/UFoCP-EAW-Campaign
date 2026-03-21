@@ -6,7 +6,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>MDP_00.alo</Land_Model_Name>
-		<Tactical_Build_Attachment_Bone_Name> ATTACH_POINT_00 </Tactical_Build_Attachment_Bone_Name>
+		<Tactical_Build_Attachment_Bone_Name>ATTACH_POINT_00</Tactical_Build_Attachment_Bone_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 
@@ -19,33 +19,33 @@
 
 		<Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.3</Max_Speed>
-		<Movement_Animation_Speed> 2.3 </Movement_Animation_Speed>
+		<Movement_Animation_Speed>2.3</Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<OverrideAcceleration> .2 </OverrideAcceleration>
-		<OverrideDeceleration> .2 </OverrideDeceleration>
-		<FormationSpacing> 1.5 </FormationSpacing>
-		<FormationOrder> 4 </FormationOrder>
-		<FormationGrouping> Standard </FormationGrouping>
-		<FormationRaggedness> 0.5 </FormationRaggedness>
-		<MaxJiggleDistance> 0 </MaxJiggleDistance>
-		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<UseSecondaryFacing> true </UseSecondaryFacing>
-		<SecondaryTurnInPlaceROTCoefficient> .5 </SecondaryTurnInPlaceROTCoefficient>
-		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
-		<MinSecondaryTurnROTCoefficient> .01 </MinSecondaryTurnROTCoefficient>
-		<MaxSecondaryTurnROTCoefficient> .7 </MaxSecondaryTurnROTCoefficient>
-		<SecondaryTurnLookaheadDistance> 0 </SecondaryTurnLookaheadDistance>
-		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+		<OverrideAcceleration>.2</OverrideAcceleration>
+		<OverrideDeceleration>.2</OverrideDeceleration>
+		<FormationSpacing>1.5</FormationSpacing>
+		<FormationOrder>4</FormationOrder>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationRaggedness>0.5</FormationRaggedness>
+		<MaxJiggleDistance>0</MaxJiggleDistance>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
+		<UseSecondaryFacing>True</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>0</SecondaryTurnLookaheadDistance>
+		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-		<Armor_Type> Armor_T2B </Armor_Type>
+		<Armor_Type>Armor_T2B</Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
 		<Shield_Points>150</Shield_Points>
@@ -54,7 +54,7 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Behavior> SELECTABLE </Behavior>
+		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>
 			AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE,POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX,
 			TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, GARRISON_UNIT
@@ -62,11 +62,11 @@
 		<DeployedBehavior>TACTICAL_BUILD_OBJECTS</DeployedBehavior>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-		<Tactically_Built_Child_Object_Persists> No </Tactically_Built_Child_Object_Persists>
+		<Tactically_Built_Child_Object_Persists>No</Tactically_Built_Child_Object_Persists>
 
-		<Garrison_Category> Vehicle </Garrison_Category>
+		<Garrison_Category>Vehicle</Garrison_Category>
 		<Garrison_Value>2</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -87,23 +87,23 @@
 		<SFXEvent_Attack>Unit_Attack_MDU</SFXEvent_Attack>
 		<SFXEvent_Guard />
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Engine_Idle_Loop> Unit_MDU_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_MDU_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Unit_Lost> RHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Engine_Idle_Loop>Unit_MDU_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_MDU_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask>Vehicle</CategoryMask>
 		<MovementClass>Hover</MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>Yes</Victory_Relevant>
-		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Overall_Length>45.0</Overall_Length>
 		<Overall_Width>20.0</Overall_Width>
@@ -116,13 +116,13 @@
 		<Weather_Category>Hover</Weather_Category>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Score_Cost_Credits>100</Score_Cost_Credits>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<!-- AJA 04/27/2006 - Even though these are not captureable objects, the TACTICAL_BUILD_OBJECTS behavior will
 		prevent you from build on this object if there are any enemies within this distance. This field has a default
 		value of 200.0, so don't remove this otherwise you won't be able to build on an MDU if there are enemies within
 		200 units (pretty big distance). -->
-		<Capture_Point_Radius> 10.0 </Capture_Point_Radius>
+		<Capture_Point_Radius>10.0</Capture_Point_Radius>
 
 		<Deploys>Yes</Deploys>
 		<Deployment_Anim_Rate>2.0</Deployment_Anim_Rate>
@@ -143,11 +143,11 @@
 
 
 	<Mobile_Defense_Unit Name="Underworld_Mobile_Defense_Unit">
-		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Abstract_Mobile_Defense_Unit</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_UNDERWORLD</Encyclopedia_Text>
 		<Land_Model_Name>UV_MDU.alo</Land_Model_Name>
-		<Tactical_Build_Attachment_Bone_Name> ATTACH_POINT_00 </Tactical_Build_Attachment_Bone_Name>
+		<Tactical_Build_Attachment_Bone_Name>ATTACH_POINT_00</Tactical_Build_Attachment_Bone_Name>
 		<Icon_Name>i_button_uv_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
@@ -169,10 +169,10 @@
 			UC_Underworld_Rocket_Pod
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 	</Mobile_Defense_Unit>
 
 	<!-- Underworld MDU Company -->
@@ -182,14 +182,14 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_uv_mdu.tga</Icon_Name>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
 
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -200,11 +200,11 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
 		<Company_Units>Underworld_Mobile_Defense_Unit, Underworld_Mobile_Defense_Unit</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
@@ -215,10 +215,10 @@
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_MDU</SFXEvent_Build_Complete>
-		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 		<SFXEvent_Fleet_Move />
 
 		<!--<MULTIPLAYER
@@ -233,14 +233,13 @@
 		SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<!--Variant
-	created for Prologue that only has UC_Underworld_Rocket_Pod buildable -->
+	<!--Variant created for Prologue that only has UC_Underworld_Rocket_Pod buildable -->
 	<Mobile_Defense_Unit Name="Underworld_Mobile_Defense_Unit_Prologue">
-		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Abstract_Mobile_Defense_Unit</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_UNDERWORLD</Encyclopedia_Text>
 		<Land_Model_Name>UV_MDU.alo</Land_Model_Name>
-		<Tactical_Build_Attachment_Bone_Name> ATTACH_POINT_00 </Tactical_Build_Attachment_Bone_Name>
+		<Tactical_Build_Attachment_Bone_Name>ATTACH_POINT_00</Tactical_Build_Attachment_Bone_Name>
 		<Icon_Name>i_button_uv_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
@@ -253,19 +252,19 @@
 			UC_Underworld_Rocket_Pod
 		</Tactical_Buildable_Objects_Campaign>
 
-		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>UHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>UHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>UHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 	</Mobile_Defense_Unit>
 
 
 	<Mobile_Defense_Unit Name="Empire_Mobile_Defense_Unit">
-		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Abstract_Mobile_Defense_Unit</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_EMPIRE</Encyclopedia_Text>
 		<Land_Model_Name>EV_MDU.alo</Land_Model_Name>
-		<Tactical_Build_Attachment_Bone_Name> ATTACH_POINT_00 </Tactical_Build_Attachment_Bone_Name>
+		<Tactical_Build_Attachment_Bone_Name>ATTACH_POINT_00</Tactical_Build_Attachment_Bone_Name>
 		<Icon_Name>i_button_ev_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
@@ -287,10 +286,10 @@
 			UC_Empire_Offensive_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>EHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>EHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>EHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>EHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 	</Mobile_Defense_Unit>
 
 	<!-- Empire MDU Company -->
@@ -300,14 +299,14 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ev_mdu.tga</Icon_Name>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
 
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>800</Build_Cost_Credits>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -318,11 +317,11 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Empire_Mobile_Defense_Unit, Empire_Mobile_Defense_Unit</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
@@ -333,10 +332,10 @@
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_MDU</SFXEvent_Build_Complete>
-		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>EHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started>EHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>EHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>EHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 		<SFXEvent_Fleet_Move />
 
 		<!--<MULTIPLAYER
@@ -353,11 +352,11 @@
 
 
 	<Mobile_Defense_Unit Name="Rebel_Mobile_Defense_Unit">
-		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Abstract_Mobile_Defense_Unit</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_REBEL</Encyclopedia_Text>
 		<Land_Model_Name>RV_MDU.alo</Land_Model_Name>
-		<Tactical_Build_Attachment_Bone_Name> ATTACH_POINT_00 </Tactical_Build_Attachment_Bone_Name>
+		<Tactical_Build_Attachment_Bone_Name>ATTACH_POINT_00</Tactical_Build_Attachment_Bone_Name>
 		<Icon_Name>i_button_rv_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
@@ -387,14 +386,14 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_rv_mdu.tga</Icon_Name>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>20</Damage>
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>850</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -405,11 +404,11 @@
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
+		<Is_Escort>Yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>Rebel_Mobile_Defense_Unit, Rebel_Mobile_Defense_Unit</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Max_Squad_Size>1</Max_Squad_Size>
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		<Maintenance_Cost>0.05</Maintenance_Cost>

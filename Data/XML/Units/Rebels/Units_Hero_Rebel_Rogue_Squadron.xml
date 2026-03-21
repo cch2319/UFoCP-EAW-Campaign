@@ -10,15 +10,15 @@
 		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_WEDGE_01_XWING</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Death_Star </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 
 		<Space_Model_Name>RV_rogue_squad.alo</Space_Model_Name>
 		<Scale_Factor>0.9</Scale_Factor>
 
-		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+		<Armor_Type>Armor_Hero_Transport</Armor_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 		<Tactical_Health>200</Tactical_Health>
@@ -48,18 +48,18 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Wedge_Rogue</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Wedge_Rogue</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Wedge_Rogue</SFXEvent_Guard>
-		<SFXEvent_Assist_Move>Unit_Assist_Move_Wedge_Rogue </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Wedge_Rogue</SFXEvent_Assist_Attack>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Wedge_Rogue </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Wedge_Rogue </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Wedge_Rogue </SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Wedge_Rogue </SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Wedge_Rogue</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Wedge_Rogue</SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Wedge_Rogue</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Wedge_Rogue</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge_Rogue</SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge_Rogue</SFXEvent_Enemy_Health_Critical_Warning>
 
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
-		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Moving>Unit_X_Wing_Fly_By</SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_X_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Create_Team>Yes</Create_Team>
 
@@ -121,8 +121,8 @@
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Zev </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Zev </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Zev</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Zev</SFXEvent_Enemy_Health_Low_Warning>
 		<SFXEvent_Enemy_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
@@ -137,9 +137,9 @@
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Derek_Klivian </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Derek_Klivian </SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Derek_Klivian </SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Derek_Klivian</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Derek_Klivian</SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Derek_Klivian</SFXEvent_Enemy_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
@@ -152,9 +152,9 @@
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Kasan </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Kasan </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Kasan </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Kasan</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Kasan</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Kasan</SFXEvent_Enemy_Health_Low_Warning>
 		<SFXEvent_Enemy_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
@@ -195,20 +195,19 @@
 
 
 	<!-- ROGUE SQUADRON SPACE - SQUADRON INFO -->
-
 	<Squadron Name="Rogue_Squadron_Space">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Death_Star </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
+		<Is_Bomber>No</Is_Bomber>
 		<Damage>50</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -221,12 +220,12 @@
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Wedge</SFXEvent_Hero_Respawned>
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units> Wedge_XWing_Rogue, Rogue_2_XWing </Squadron_Units>
-		<Squadron_Units> Rogue_4_XWing, Rogue_7_XWing </Squadron_Units>
-		<Squadron_Units> Rogue_10_XWing, Rogue_11_XWing </Squadron_Units>
+		<Squadron_Units>Wedge_XWing_Rogue, Rogue_2_XWing</Squadron_Units>
+		<Squadron_Units>Rogue_4_XWing, Rogue_7_XWing</Squadron_Units>
+		<Squadron_Units>Rogue_10_XWing, Rogue_11_XWing</Squadron_Units>
 
-		<Create_Team_Type> Rogue_Squadron_Space_Container </Create_Team_Type>
-		<Max_Squad_Size> 6 </Max_Squad_Size>
+		<Create_Team_Type>Rogue_Squadron_Space_Container</Create_Team_Type>
+		<Max_Squad_Size>6</Max_Squad_Size>
 
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
@@ -242,10 +241,10 @@
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Property_Flags> SmallShip </Property_Flags>
+		<Property_Flags>SmallShip</Property_Flags>
 		<Population_Value>1</Population_Value>
 		<Is_Homogeneous>Yes</Is_Homogeneous>
-		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+		<Score_Cost_Credits>15000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
@@ -290,31 +289,29 @@
 
 
 	<!-- ROGUE SQUADRON SPACE - CONTAINER INFO -->
-
-
 	<Container Name="Rogue_Squadron_Space_Container">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Death_Star </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
 		<Show_Name>No</Show_Name>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
+		<Is_Bomber>No</Is_Bomber>
 		<Damage>50</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>5</Tech_Level>
-		<Hyperspace>yes</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
 
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>

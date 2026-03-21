@@ -3,8 +3,8 @@
 	<HeroUnit Name="Urai_Fen">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_URAI_FEN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARRIOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_WARRIOR</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>UI_URAI_FEN.ALO</Land_Model_Name>
 		<Icon_Name>i_button_urai_fen.tga</Icon_Name>
@@ -13,40 +13,50 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior>
-			SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL,
-			HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN
+			SELECTABLE,
+			SURFACE_FX,
+			WALK_LOCOMOTOR,
+			IDLE,
+			TARGETING,
+			WEAPON,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			DAMAGE_TRACKING,
+			UNIT_AI,
+			GARRISON_UNIT,
+			ABILITY_COUNTDOWN
 		</LandBehavior>
 
-		<Uses_Multiple_Locomotors> Yes </Uses_Multiple_Locomotors>
+		<Uses_Multiple_Locomotors>Yes</Uses_Multiple_Locomotors>
 		<Hover_Offset>16.0</Hover_Offset>
 
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CanCellStack>yes</CanCellStack>
+		<CanCellStack>Yes</CanCellStack>
 		<Mass>1.0</Mass>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Max_Speed> 1 </Max_Speed>
-		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
-		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
-		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
-		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
-		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing>
-		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
-		<Min_Speed> .1 </Min_Speed>
-		<OverrideAcceleration> .1 </OverrideAcceleration>
-		<OverrideDeceleration> .1 </OverrideDeceleration>
-		<Max_Lift> .6 </Max_Lift>
+		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
+		<Max_Speed>1</Max_Speed>
+		<Alternate_Max_Speed>2.5</Alternate_Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Alternate_Max_Rate_Of_Turn>6.0</Alternate_Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius>6.5</Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent>5.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>5.0</Custom_Hard_YExtent>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Infantry</UnitCollisionClass>
+		<FormationSpacing>.5</FormationSpacing>
+		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
+		<Min_Speed>.1</Min_Speed>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
+		<Max_Lift>.6</Max_Lift>
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>10</Size_Value>
@@ -54,14 +64,14 @@
 		<Tactical_Health>300</Tactical_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Armor_Type> Armor_Hero </Armor_Type>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Armor_Type>Armor_Hero</Armor_Type>
 
 		<Projectile_Types>Proj_Urai_Cortosis_Blades</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.3</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Appearance_Delay_Frames>20</Projectile_Appearance_Delay_Frames>
 
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -76,20 +86,20 @@
 		<SFXEvent_Fire />
 		<SFXEvent_Group_Move>Unit_Group_Move_Urai_Fen</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Urai_Fen</SFXEvent_Group_Attack>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Urai_Fen</Death_SFXEvent_Start_Die>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Urai_Fen </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Urai_Fen </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Defeat_Urai_Fen</Death_SFXEvent_Start_Die>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Urai_Fen</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Urai_Fen</SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> LandHero | SpaceHero </CategoryMask>
-		<Ranking_In_Category> 2 </Ranking_In_Category>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category>2</Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
 		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -112,13 +122,13 @@
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Score_Cost_Credits>10000</Score_Cost_Credits>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
 		<Lua_Script>ObjectScript_Urai</Lua_Script>
-		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
+		<Destroy_When_Used_As_Corruption_Prereq>No</Destroy_When_Used_As_Corruption_Prereq>
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<!-- Non-Hero unit abilities description -->
@@ -126,9 +136,9 @@
 			<Unit_Ability>
 				<Type>STUN</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Urai_Stun </GUI_Activated_Ability_Name>
-				<Effective_Radius> 500.0 </Effective_Radius>
-				<Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
+				<GUI_Activated_Ability_Name>Urai_Stun</GUI_Activated_Ability_Name>
+				<Effective_Radius>500.0</Effective_Radius>
+				<Spawned_Object_Type>Stun_Ability_Particles</Spawned_Object_Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stun_Urai_Fen</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -151,7 +161,7 @@
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.50</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>135.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>
@@ -166,8 +176,8 @@
 			<Force_Healing_Ability Name="Urai_Self_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
-				<Heal_Amount> 0.0 </Heal_Amount>
-				<Heal_Percent> 0.03 </Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Percent>0.03</Heal_Percent>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
@@ -205,7 +215,7 @@
 			</Black_Market_Ability>
 
 			<Stun_Ability Name="Urai_Stun">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating
 				Stun -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -215,7 +225,7 @@
 				<!-- How long does it take for the shockwave to spread from the hero to the max
 				range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
-				<Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect>
+				<Stunned_Effect>Stunned_Particle_Effect</Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>
@@ -232,7 +242,7 @@
 			</Stun_Ability>
 
 			<Stealth_Ability Name="Stealth_Urai">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Stealth_Color>255, 64, 64, 120</Stealth_Color>
 				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
 			</Stealth_Ability>
@@ -240,17 +250,17 @@
 	</HeroUnit>
 
 	<HeroUnit Name="Urai_Fen_Prologue">
-		<Variant_Of_Existing_Type> Urai_Fen </Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Urai_Fen</Variant_Of_Existing_Type>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STUN</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Urai_Stun </GUI_Activated_Ability_Name>
-				<Effective_Radius> 500.0 </Effective_Radius>
-				<Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Stun_Urai_Fen </SFXEvent_Target_Ability>
+				<GUI_Activated_Ability_Name>Urai_Stun</GUI_Activated_Ability_Name>
+				<Effective_Radius>500.0</Effective_Radius>
+				<Spawned_Object_Type>Stun_Ability_Particles</Spawned_Object_Type>
+				<SFXEvent_Target_Ability>Unit_Stun_Urai_Fen</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -272,7 +282,7 @@
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.50</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>135.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>
@@ -287,8 +297,8 @@
 			<Force_Healing_Ability Name="Urai_Self_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
-				<Heal_Amount> 0.0 </Heal_Amount>
-				<Heal_Percent> 0.03 </Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Percent>0.03</Heal_Percent>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
@@ -326,7 +336,7 @@
 			</Black_Market_Ability>
 
 			<Stun_Ability Name="Urai_Stun">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating
 				Stun -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -336,7 +346,7 @@
 				<!-- How long does it take for the shockwave to spread from the hero to the max
 				range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
-				<Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect>
+				<Stunned_Effect>Stunned_Particle_Effect</Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -351,7 +361,7 @@
 			</Stun_Ability>
 
 			<Stealth_Ability Name="Stealth_Urai">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Stealth_Color>255, 64, 64, 120</Stealth_Color>
 				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
 			</Stealth_Ability>
@@ -362,8 +372,8 @@
 	<!-- Hero Company Data -->
 	<HeroCompany Name="Urai_Fen_Team">
 		<Text_ID>TEXT_HERO_URAI_FEN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARRIOR </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_WARRIOR</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_urai_fen.tga</Icon_Name>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -382,8 +392,8 @@
 		<Company_Units>Urai_Fen</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Stealth_Company>Yes</Is_Stealth_Company>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Available_In_Skirmish>Yes</Available_In_Skirmish>
+		<Can_Be_Only_One>True</Can_Be_Only_One>
 
 		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
@@ -391,9 +401,9 @@
 		<SFXEvent_Hero_Respawned>Unit_Select_Urai_Fen</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Urai_Fen</SFXEvent_Fleet_Move>
 
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<CategoryMask> LandHero | SpaceHero </CategoryMask>
-		<Ranking_In_Category> 2 </Ranking_In_Category>
+		<Score_Cost_Credits>10000</Score_Cost_Credits>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Ranking_In_Category>2</Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>

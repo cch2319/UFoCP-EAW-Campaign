@@ -3,31 +3,31 @@
 	<SpecialStructure Name="U_Ground_Palace">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_PALACE_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_PALACE_UNDERWORLD_BUILDS </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01</MP_Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_PALACE_UNDERWORLD_BUILDS</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<Select_Box_Scale>180</Select_Box_Scale>
 
 		<Land_Model_Name>UB_PALACE.ALO</Land_Model_Name>
 		<Icon_Name>i_button_ub_palace.tga</Icon_Name>
-		<Space_Layer> Corvette </Space_Layer>
+		<Space_Layer>Corvette</Space_Layer>
 		<Scale_Factor>1.0</Scale_Factor>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE,SHIELDED,POWERED,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type>  </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type></Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Terrain_Texture_Modifier_Square>True</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -40,17 +40,17 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
 		<HardPoints>
 			HP_PALACE_POWER_GEN,
 			HP_PALACE_COMM_ARRAY
 		</HardPoints>
 
-		<Should_Be_Destroyed_When_All_Hardpoints_Destroyed> No </Should_Be_Destroyed_When_All_Hardpoints_Destroyed>
+		<Should_Be_Destroyed_When_All_Hardpoints_Destroyed>No</Should_Be_Destroyed_When_All_Hardpoints_Destroyed>
 
 
 		<Destruction_Survivors>
@@ -77,14 +77,14 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 
 		<Tactical_Health>2400</Tactical_Health>
 		<Shield_Points>1000</Shield_Points>
 		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -94,17 +94,17 @@
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Unit_Under_Attack> UHD_Palace_Under_Attack </SFXEvent_Unit_Under_Attack>
-		<SFXEvent_Unit_Lost> UHD_Palace_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Under_Attack>UHD_Palace_Under_Attack</SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost>UHD_Palace_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Command_Center_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -132,7 +132,7 @@
 				UL_Planetary_Bombard_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<HQ_Win_Condition_Relevant>yes</HQ_Win_Condition_Relevant>
+		<HQ_Win_Condition_Relevant>Yes</HQ_Win_Condition_Relevant>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
 
@@ -196,12 +196,12 @@
 			</Base_Power_Ability>
 
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
-				<Initially_Enabled> No </Initially_Enabled>
+				<Initially_Enabled>No</Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.30</Block_Chance>
 				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
@@ -214,28 +214,28 @@
 	<SpecialStructure Name="U_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BARRACKS_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<Land_Model_Name>UB_Barracks.alo</Land_Model_Name>
 		<Icon_Name>i_button_ub_barracks.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type>  </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type></Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Terrain_Texture_Modifier_Square>True</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -250,10 +250,10 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
@@ -272,7 +272,7 @@
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>18</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Required_Timeline>0</Required_Timeline>
@@ -286,7 +286,7 @@
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -296,18 +296,18 @@
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Unit_Under_Attack> UHD_Merc_Barracks_Under_Attack </SFXEvent_Unit_Under_Attack>
-		<SFXEvent_Unit_Lost> UHD_Merc_Barracks_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Under_Attack>UHD_Merc_Barracks_Under_Attack</SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost>UHD_Merc_Barracks_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Barracks_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> Corvette </Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>Corvette</Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -362,12 +362,12 @@
 			</Force_Healing_Ability>
 
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
-				<Initially_Enabled> No </Initially_Enabled>
+				<Initially_Enabled>No</Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.30</Block_Chance>
 				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
@@ -380,28 +380,28 @@
 	<SpecialStructure Name="U_Ground_Droid_Works">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_DROID_WORKS</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01</MP_Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<Land_Model_Name>UB_DROIDWORKS.ALO</Land_Model_Name>
 		<Icon_Name>i_button_ub_droidworks.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type>  </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type></Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Terrain_Texture_Modifier_Square>True</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -415,10 +415,10 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
@@ -437,7 +437,7 @@
 		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Build_Time_Seconds>22</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Required_Timeline>0</Required_Timeline>
@@ -451,7 +451,7 @@
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -461,18 +461,18 @@
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Unit_Under_Attack> UHD_Droidworks_Under_Attack </SFXEvent_Unit_Under_Attack>
-		<SFXEvent_Unit_Lost> UHD_Droidworks_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Under_Attack>UHD_Droidworks_Under_Attack</SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost>UHD_Droidworks_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Light_Factory_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> Corvette </Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>Corvette</Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -523,12 +523,12 @@
 			</Force_Healing_Ability>
 
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
-				<Initially_Enabled> No </Initially_Enabled>
+				<Initially_Enabled>No</Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.30</Block_Chance>
 				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
@@ -541,10 +541,10 @@
 	<SpecialStructure Name="U_Ground_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_FACTORY_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
 
 		<Land_Model_Name>UB_HeavyFactory.alo</Land_Model_Name>
 		<Icon_Name>i_button_ub_heavyfactory.tga</Icon_Name>
@@ -554,20 +554,20 @@
 		<Scale_Factor>1.3</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Obstacle_Proxy_Type>  </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type></Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Terrain_Texture_Modifier_Square>True</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -577,10 +577,10 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
@@ -599,7 +599,7 @@
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Build_Max_Instances_Per_Planet> -1 </Build_Max_Instances_Per_Planet>
+		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Required_Timeline>0</Required_Timeline>
@@ -613,7 +613,7 @@
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -623,18 +623,18 @@
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Unit_Under_Attack> UHD_Factory_Under_Attack </SFXEvent_Unit_Under_Attack>
-		<SFXEvent_Unit_Lost> UHD_Factory_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Unit_Under_Attack>UHD_Factory_Under_Attack</SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost>UHD_Factory_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Heavy_Factory_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> Corvette </Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>Corvette</Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -686,12 +686,12 @@
 			</Force_Healing_Ability>
 
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
-				<Initially_Enabled> No </Initially_Enabled>
+				<Initially_Enabled>No</Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Redirect_Chance>0.0</Redirect_Chance>
 				<Block_Chance>0.30</Block_Chance>
 				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
-				<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories>Hero | Infantry | Vehicle | Structure</Applicable_Unit_Categories>
@@ -706,31 +706,31 @@
 	<SpecialStructure Name="Garrison_Bunker_Template">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </MP_Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
 		<Icon_Name>i_button_nb_bunker.tga</Icon_Name>
 
-        <Space_Layer> Land </Space_Layer>
-        <UnitCollisionClass> Vehicle </UnitCollisionClass>
-        <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
+        <Space_Layer>Land</Space_Layer>
+        <UnitCollisionClass>Vehicle</UnitCollisionClass>
+        <Custom_Hard_XExtent>26.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>26.0</Custom_Hard_YExtent>
 
 
 		<Select_Box_Scale>110</Select_Box_Scale>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
 
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior> REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
+		<LandBehavior>REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
 
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -745,10 +745,10 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Bunker </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Bunker</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
@@ -770,13 +770,13 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
         <Num_Garrison_Slots>5</Num_Garrison_Slots>
         <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
         <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
@@ -785,7 +785,7 @@
 
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
         <AI_Combat_Power>100</AI_Combat_Power>
-		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
+		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire</Property_Flags>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Garrison_Bunker_Empire">
@@ -821,7 +821,7 @@
 		<Capture_Point_Transition_Time_Seconds>3</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>220</Capture_Point_Radius>
 		<Affiliation>Rebel, Empire, Underworld, Pirates, Neutral,Hutts</Affiliation>
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</SpecialStructure>

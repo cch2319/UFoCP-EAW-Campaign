@@ -7,7 +7,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Space_Model_Name>UB_01_STATION.ALO</Space_Model_Name>
 		<Galactic_Model_Name>i_ub_01_station.alo</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
@@ -25,13 +25,13 @@
 		<Next_Level_Base>Underworld_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Station </Armor_Type>
+		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -85,37 +85,37 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_All_Weapons_Destroyed />
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Unit_Under_Attack> UHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> StaticObject </Space_Layer>
+		<Custom_Soft_Footprint_Radius>300</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-650.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
 		<Radar_Icon_Name>i_radar_station1_u.tga</Radar_Icon_Name>
-		<Score_Cost_Credits> 1500</Score_Cost_Credits>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Score_Cost_Credits>1500</Score_Cost_Credits>
+		<Victory_Relevant>Yes</Victory_Relevant>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Rebel</Retreat_Self_Destruct_Explosion>
 
@@ -128,9 +128,9 @@
 		<Space_Model_Name>UB_01_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
-		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
-		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+		<CategoryMask>Capital</CategoryMask>
+		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
 
@@ -141,7 +141,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_02_STATION.ALO</Space_Model_Name>
 		<Galactic_Model_Name>i_ub_02_station.alo</Galactic_Model_Name>
@@ -159,9 +159,9 @@
 		<Next_Level_Base>Underworld_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Damage>45</Damage>
 		<Shield_Points>750</Shield_Points>
@@ -171,10 +171,10 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Station </Armor_Type>
+		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -223,36 +223,36 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Unit_Under_Attack> UHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> StaticObject </Space_Layer>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius>450</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station1_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
-		<Score_Cost_Credits> 3000</Score_Cost_Credits>
+		<Score_Cost_Credits>3000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Rebel</Retreat_Self_Destruct_Explosion>
 		<Death_Clone>Damage_Normal, Underworld_Star_Base_2_Death_Clone</Death_Clone>
@@ -264,9 +264,9 @@
 		<Space_Model_Name>UB_02_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
-		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
-		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+		<CategoryMask>Capital</CategoryMask>
+		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
 
@@ -277,7 +277,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_03_STATION.ALO</Space_Model_Name>
 		<Galactic_Model_Name>i_ub_03_station.alo</Galactic_Model_Name>
@@ -295,9 +295,9 @@
 		<Next_Level_Base>Underworld_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Damage>55</Damage>
 		<Shield_Points>2000</Shield_Points>
@@ -309,10 +309,10 @@
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Station </Armor_Type>
+		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -370,36 +370,36 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Unit_Under_Attack> UHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> StaticObject </Space_Layer>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius>450</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station1_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
-		<Score_Cost_Credits> 6000</Score_Cost_Credits>
+		<Score_Cost_Credits>6000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Rebel</Retreat_Self_Destruct_Explosion>
 
@@ -412,9 +412,9 @@
 		<Space_Model_Name>UB_03_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
-		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
-		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+		<CategoryMask>Capital</CategoryMask>
+		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
 
@@ -425,7 +425,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_04_STATION.ALO</Space_Model_Name>
 		<Galactic_Model_Name>i_ub_04_station.alo</Galactic_Model_Name>
@@ -443,9 +443,9 @@
 		<Next_Level_Base>Underworld_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Damage>65</Damage>
 		<Shield_Points>4500</Shield_Points>
@@ -457,10 +457,10 @@
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Station </Armor_Type>
+		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -529,39 +529,39 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
 
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Unit_Under_Attack> UHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius>550</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station4_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
-		<Space_Layer> StaticObject </Space_Layer>
+		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Score_Cost_Credits> 12000</Score_Cost_Credits>
+		<Score_Cost_Credits>12000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Rebel</Retreat_Self_Destruct_Explosion>
 
@@ -574,9 +574,9 @@
 		<Space_Model_Name>UB_04_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
-		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
-		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+		<CategoryMask>Capital</CategoryMask>
+		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
 
@@ -587,7 +587,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
 
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_05_STATION.ALO</Space_Model_Name>
 		<Galactic_Model_Name>i_ub_05_station.alo</Galactic_Model_Name>
@@ -605,9 +605,9 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Damage>75</Damage>
 		<Shield_Points>9000</Shield_Points>
@@ -619,10 +619,10 @@
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Station </Armor_Type>
+		<Armor_Type>Armor_Station</Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -697,37 +697,37 @@
 		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
 		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Space_Station</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Rebel_Space_Station</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Unit_Under_Attack> UHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Under_Attack>UHD_Space_Station_Under_Attack</SFXEvent_Unit_Under_Attack>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-		<Space_Layer> StaticObject </Space_Layer>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius>550</Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Space_Layer>StaticObject</Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station5_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12 0.12</Radar_Icon_Size>
-		<Score_Cost_Credits> 24000</Score_Cost_Credits>
+		<Score_Cost_Credits>24000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Rebel</Retreat_Self_Destruct_Explosion>
 
@@ -740,9 +740,9 @@
 		<Space_Model_Name>UB_05_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
-		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
-		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+		<CategoryMask>Capital</CategoryMask>
+		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
 
@@ -768,7 +768,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 			StarViper_Squadron,
@@ -778,7 +778,7 @@
 			US_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
@@ -820,7 +820,7 @@
 			</Enable_Radar_Ability>
 		</Abilities>
 
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
@@ -846,10 +846,10 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 			StarViper_Squadron,
@@ -904,7 +904,7 @@
 			</Enable_Radar_Ability>
 		</Abilities>
 
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
@@ -934,10 +934,10 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 			StarViper_Squadron,
@@ -1001,7 +1001,7 @@
 			</Enable_Radar_Ability>
 		</Abilities>
 
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
@@ -1034,10 +1034,10 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 			StarViper_Squadron,
@@ -1105,7 +1105,7 @@
 			</Enable_Radar_Ability>
 		</Abilities>
 
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
@@ -1142,10 +1142,10 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 			StarViper_Squadron,
@@ -1218,7 +1218,7 @@
 			</Enable_Radar_Ability>
 		</Abilities>
 
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>

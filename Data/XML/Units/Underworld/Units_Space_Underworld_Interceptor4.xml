@@ -3,16 +3,16 @@
 	<SpaceUnit Name="Interceptor4_Frigate">
 		<Text_ID>TEXT_UNIT_INTERCEPTOR4_FRIGATE</Text_ID>
 		<Icon_Name>i_button_uv_interceptor4.tga</Icon_Name>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE</Encyclopedia_Text>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> B-wing TIE_Defender MC30_Frigate </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE</Encyclopedia_Text>
+		<Encyclopedia_Good_Against>Tartan_Patrol_Cruiser Corellian_Corvette Nebulon_B_Frigate</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>B-wing TIE_Defender MC30_Frigate</Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>UV_InterceptorIV.alo</Space_Model_Name>
 		<Select_Box_Scale>720</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Mass>0.999</Mass>
 		<Scale_Factor>0.35</Scale_Factor>
 		<Damage>30</Damage>
@@ -25,15 +25,15 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.9</Max_Speed>
 		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration> .04 </OverrideAcceleration>
-		<OverrideDeceleration> .04 </OverrideDeceleration>
+		<OverrideAcceleration>.04</OverrideAcceleration>
+		<OverrideDeceleration>.04</OverrideDeceleration>
 
-		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
+		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
 		<Max_Thrust>2.0</Max_Thrust>
@@ -59,17 +59,28 @@
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>No</Is_Bomber>
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<AI_Combat_Power>1400</AI_Combat_Power>
 		<Size_Value>8</Size_Value>
 
 		<Behavior>
-			DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED
+			DUMMY_STARSHIP,
+			SELECTABLE,
+			POWERED,
+			SHIELDED
 		</Behavior>
 		<SpaceBehavior>
-			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA
+			ABILITY_COUNTDOWN,
+			SIMPLE_SPACE_LOCOMOTOR,
+			TARGETING,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			UNIT_AI,
+			DAMAGE_TRACKING,
+			ION_STUN_EFFECT,
+			NEBULA
 		</SpaceBehavior>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -78,7 +89,7 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
@@ -97,40 +108,40 @@
 		<SFXEvent_Attack>Unit_Attack_Interceptor_IV</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Interceptor_IV</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_Interceptor_IV</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Interceptor_IV </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Interceptor_IV </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Interceptor_IV</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Interceptor_IV</SFXEvent_Move_Into_Asteroid_Field>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Interceptor_IV </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Interceptor_IV</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Interceptor_IV</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Interceptor_IV</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Interceptor_IV</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Interceptor_IV</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 
 		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Nebulon_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Nebulon_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
@@ -140,19 +151,19 @@
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-		<Score_Cost_Credits> 2200</Score_Cost_Credits>
+		<Score_Cost_Credits>2200</Score_Cost_Credits>
 		<Population_Value>3</Population_Value>
 
 		<Death_Clone>Damage_Normal, Interceptor4_Frigate_Death_Clone</Death_Clone>
 
-		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
-		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
-		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -181,6 +192,6 @@
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</SpaceUnit>
 </Interceptor_IV_Frigate>

@@ -8,8 +8,8 @@
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Reveal_For_Attacker>true</Reveal_For_Attacker>
-		<Is_Discardable>false</Is_Discardable>
+		<Reveal_For_Attacker>True</Reveal_For_Attacker>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -21,8 +21,8 @@
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Reveal_For_Attacker>true</Reveal_For_Attacker>
-		<Is_Discardable>false</Is_Discardable>
+		<Reveal_For_Attacker>True</Reveal_For_Attacker>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -33,9 +33,9 @@
 		<Space_Model_Name>w_flag_marker_Blue.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Defender Setup Phase Reveal">
@@ -46,8 +46,8 @@
 		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Reveal_For_Defender>true</Reveal_For_Defender>
-		<Is_Discardable>false</Is_Discardable>
+		<Reveal_For_Defender>True</Reveal_For_Defender>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -59,9 +59,9 @@
 		<Land_Model_Name>EB_MegaAdvancedWeapons.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Out Base Special Structure Position">
@@ -72,76 +72,76 @@
 		<Land_Model_Name>EB_GRAVCONTROLGEN.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Base Shield Structure Position">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
-		<Marker_For_Specific_Object_Type> E_Ground_Base_Shield, R_Ground_Base_Shield </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>E_Ground_Base_Shield, R_Ground_Base_Shield</Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Pirate Shield Structure Position">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
-		<Marker_For_Specific_Object_Type> P_Ground_Base_Shield_Small </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>P_Ground_Base_Shield_Small</Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
 		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Pirates</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Power Generator Structure Position">
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
-		<Marker_For_Specific_Object_Type> Power_Generator_E, Power_Generator_R, Power_Generator_P </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Power_Generator_E, Power_Generator_R, Power_Generator_P</Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Turbolaser Structure Position">
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
-		<Marker_For_Specific_Object_Type> E_Ground_Turbolaser_Tower, R_Ground_Turbolaser_Tower </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>E_Ground_Turbolaser_Tower, R_Ground_Turbolaser_Tower</Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Pirate Command Center Position">
 		<Text_ID>TEXT_STRUCTURE_PIRATE_BASE</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
-		<Marker_For_Specific_Object_Type> Pirate_Command_Center </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type>Pirate_Command_Center</Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
 		<Land_Model_Name>nb_piratebase_01.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Pirates</Affiliation>
 	</Marker>
 
@@ -152,7 +152,7 @@
 		<Space_Model_Name>NV_LRS.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -163,7 +163,7 @@
 		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -174,7 +174,7 @@
 		<Space_Model_Name>w_flag_marker_Blue.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -189,11 +189,11 @@
 	</Marker>
 
 	<Marker Name="Land Defender Retreat Marker">
-		<Text_ID> TEXT_LAND_DEFENDER_RETREAT_MARKER </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_YELLOW.ALO </Land_Model_Name>
-		<Behavior> MARKER, HINT </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Text_ID>TEXT_LAND_DEFENDER_RETREAT_MARKER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_YELLOW.ALO</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -204,7 +204,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -216,7 +216,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -227,7 +227,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -238,7 +238,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -249,7 +249,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -260,7 +260,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -271,7 +271,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -282,7 +282,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -293,7 +293,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -304,7 +304,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -315,7 +315,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -326,7 +326,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -337,7 +337,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -348,7 +348,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -359,7 +359,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -370,7 +370,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -381,7 +381,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -392,7 +392,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -406,11 +406,11 @@
 		<Behavior>MARKER</Behavior>
 		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -422,13 +422,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -439,13 +439,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -456,13 +456,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -473,13 +473,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -490,13 +490,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -507,13 +507,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -524,13 +524,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -541,13 +541,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -558,13 +558,13 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -575,236 +575,236 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<LandBehavior> REVEAL</LandBehavior>
+		<LandBehavior>REVEAL</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 		<Is_Valid_Target>No</Is_Valid_Target>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 
 	<Marker Name="Player_0_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_1_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_2_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_3_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_4_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_5_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_6_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_7_Position_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_0_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_1_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_2_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_3_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_4_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_5_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_6_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Player_7_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="IN_GAME_BOMBING_RUN_MARKER">
-		<Text_ID> TEXT_BOMBERING_RUN_TARGET </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_BOMBERING_RUN_TARGET</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<CategoryMask> Structure </CategoryMask>	<!-- Some kind of category is required to be
+		<Behavior>MARKER</Behavior>
+		<CategoryMask>Structure</CategoryMask>	<!-- Some kind of category is required to be
 		targeted for land bombing runs -->
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Death_Star_Position">
-		<Text_ID> TEXT_DEATH_STAR_POSITION </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> </Land_Model_Name>
+		<Text_ID>TEXT_DEATH_STAR_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name />
 		<Space_Model_Name>w_planet_deathstar.alo</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Scale_Factor>2.0</Scale_Factor>
 		<In_Background>Yes</In_Background>
 	</Marker>
 
 	<Marker Name="Cash_Point_Small">
-		<Text_ID> TEXT_CASH_POINT </Text_ID>
+		<Text_ID>TEXT_CASH_POINT</Text_ID>
 		<Land_Model_Name>W_Pedistal.alo</Land_Model_Name>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> CASH_POINT </Behavior>
+		<Behavior>CASH_POINT</Behavior>
 		<Cash_Point_Credits_Per_Second>100</Cash_Point_Credits_Per_Second>
 		<Cash_Point_Radius>30</Cash_Point_Radius>
-		<Influences_Cash_Point>no</Influences_Cash_Point>
+		<Influences_Cash_Point>No</Influences_Cash_Point>
 		<Cash_Point_Transition_Time_Seconds>5.0</Cash_Point_Transition_Time_Seconds>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 	</Marker>
 
 	<Marker Name="Cash_Point_Medium">
-		<Text_ID> TEXT_CASH_POINT </Text_ID>
+		<Text_ID>TEXT_CASH_POINT</Text_ID>
 		<Land_Model_Name>W_Pedistal.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> CASH_POINT </Behavior>
+		<Behavior>CASH_POINT</Behavior>
 		<Cash_Point_Credits_Per_Second>200</Cash_Point_Credits_Per_Second>
 		<Cash_Point_Radius>40</Cash_Point_Radius>
-		<Influences_Cash_Point>no</Influences_Cash_Point>
+		<Influences_Cash_Point>No</Influences_Cash_Point>
 		<Cash_Point_Transition_Time_Seconds>5.0</Cash_Point_Transition_Time_Seconds>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 	</Marker>
 
 	<Marker Name="Cash_Point_Large">
-		<Text_ID> TEXT_CASH_POINT </Text_ID>
+		<Text_ID>TEXT_CASH_POINT</Text_ID>
 		<Land_Model_Name>W_Pedistal.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> CASH_POINT </Behavior>
+		<Behavior>CASH_POINT</Behavior>
 		<Cash_Point_Credits_Per_Second>300</Cash_Point_Credits_Per_Second>
 		<Cash_Point_Radius>50</Cash_Point_Radius>
-		<Influences_Cash_Point>no</Influences_Cash_Point>
+		<Influences_Cash_Point>No</Influences_Cash_Point>
 		<Cash_Point_Transition_Time_Seconds>5.0</Cash_Point_Transition_Time_Seconds>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -813,35 +813,35 @@
 
 
 	<Marker Name="Debug_Audio_Emitter_Marker">
-		<Text_ID> TEXT_DEBUG_AUDIO_EMITTER_MARKER </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> w_flag_marker_Blue.alo </Land_Model_Name>
-		<Space_Model_Name> </Space_Model_Name>
-		<Behavior> </Behavior> <!-- For test case, dont set MARKER behavior -->
-		<SFXEvent_Debug_Test_Loop> Debug_Audio_Test_Loop </SFXEvent_Debug_Test_Loop>
+		<Text_ID>TEXT_DEBUG_AUDIO_EMITTER_MARKER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
+		<Space_Model_Name />
+		<Behavior /> <!-- For test case, dont set MARKER behavior -->
+		<SFXEvent_Debug_Test_Loop>Debug_Audio_Test_Loop</SFXEvent_Debug_Test_Loop>
 	</Marker>
 
 	<!-- Mike and Frank - 12.19.2005 -->
 	<Marker Name="Audio_Waterfall_Emitter_Marker">
-		<Text_ID> TEXT_AUDIO_WATERFALL_EMITTER_MARKER </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> w_flag_marker_Blue.alo </Land_Model_Name>
-		<Space_Model_Name> </Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<SFXEvent_Ambient_Loop> Ambient_Waterfall_Loop </SFXEvent_Ambient_Loop>
+		<Text_ID>TEXT_AUDIO_WATERFALL_EMITTER_MARKER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
+		<Space_Model_Name />
+		<Behavior>MARKER</Behavior>
+		<SFXEvent_Ambient_Loop>Ambient_Waterfall_Loop</SFXEvent_Ambient_Loop>
 	</Marker>
 
 
 	<Marker Name="Reinforcement_Point">
-		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
+		<Text_ID>TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME</Text_ID>
 		<Icon_Name>i_icon_reinforce.tga</Icon_Name>
 		<Tooltip_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Tooltip_Text>
-		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Pedistal_Faction.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> CAPTURE_POINT, REVEAL, REINFORCEMENT_POINT, DUMMY_TOOLTIP </Behavior>
+		<Behavior>CAPTURE_POINT, REVEAL, REINFORCEMENT_POINT, DUMMY_TOOLTIP</Behavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -871,12 +871,12 @@
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Control_Point_Domination_Condition_Relevant>Yes</Control_Point_Domination_Condition_Relevant>
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Property_Flags>IsRushTarget</Property_Flags>
 		<Immune_To_Damage>True</Immune_To_Damage>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 
@@ -918,14 +918,14 @@
 
 
 	<Marker Name="Reinforcement_Point_Rebel">
-		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
+		<Text_ID>TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME</Text_ID>
 		<Icon_Name>i_icon_reinforce.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Pedistal_Rebel.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP </Behavior>
+		<Behavior>REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP</Behavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -953,11 +953,11 @@
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Affiliation>Rebel</Affiliation>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Rebel_Plus4_Cap">
@@ -966,14 +966,14 @@
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Empire">
-		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
+		<Text_ID>TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME</Text_ID>
 		<Icon_Name>i_icon_reinforce.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Pedistal_Imperial.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP </Behavior>
+		<Behavior>REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP</Behavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -1001,11 +1001,11 @@
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Affiliation>Empire</Affiliation>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Empire_Plus4_Cap">
@@ -1015,14 +1015,14 @@
 
 
 	<Marker Name="Reinforcement_Point_Underworld">
-		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
+		<Text_ID>TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME</Text_ID>
 		<Icon_Name>i_icon_reinforce.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_pedistal_underworld.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP </Behavior>
+		<Behavior>REVEAL, REINFORCEMENT_POINT, HIDE_WHEN_FOGGED, DUMMY_TOOLTIP</Behavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -1050,11 +1050,11 @@
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Affiliation>Underworld</Affiliation>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
-		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Underworld_Plus4_Cap">
@@ -1064,13 +1064,13 @@
 
 
 	<Marker Name="Captureable_Turret">
-		<Text_ID> TEXT_GROUND_TURBOLASER_TOWER </Text_ID>
+		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Space_Model_Name />
-		<Behavior> CAPTURE_POINT, REVEAL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<Behavior>CAPTURE_POINT, REVEAL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>LAND_OBSTACLE,TURRET,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,TERRAIN_TEXTURE_MODIFICATION,
-			STUNNABLE </LandBehavior>
+			STUNNABLE</LandBehavior>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Is_Decoration>No</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -1086,7 +1086,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
+		<Terrain_Texture_Modifier_Square>True</Terrain_Texture_Modifier_Square>
 		<Select_Box_Scale>35</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Is_Community_Property>No</Is_Community_Property>
@@ -1102,8 +1102,8 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Armor_Type>Armor_Turret</Armor_Type>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1133,33 +1133,33 @@
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
 		<!-- Ground infantry priority 1, ground vehicles priority 1, air vehicles N/A (9999) -->
-		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 9999 </Turret_Targets_Anything_Else>     <!-- 9999 = won't target -->
+		<Turret_Targets_Ground_Infantry>2</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles>1</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>9999</Turret_Targets_Anything_Else> <!-- 9999 = won't target -->
 
-		<Targeting_Fire_Inaccuracy> Infantry, 15.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 15.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Infantry, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>LandHero, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 1.0</Targeting_Fire_Inaccuracy>
 
 		<Tactical_Health>700</Tactical_Health>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Special_Weapon_Ready>EHD_Turbo_Tower_Available</SFXEvent_Special_Weapon_Ready>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Affiliation>Rebel, Empire, Neutral, Pirates, Underworld</Affiliation>
 	</Marker>
 
@@ -1241,71 +1241,71 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="DEMO_CONTROLLER">
-		<Text_ID> </Text_ID>
+		<Text_ID />
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Lua_Script>Demo_Attract_Controller</Lua_Script>
 	</Marker>
 
 	<Marker Name="DEMO_CONTROLLER_LAND">
-		<Text_ID> </Text_ID>
+		<Text_ID />
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Lua_Script>Demo_Land_Controller</Lua_Script>
 	</Marker>
 
 	<Marker Name="DEMO_CONTROLLER_LAND_E">
-		<Text_ID> </Text_ID>
+		<Text_ID />
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Lua_Script>Demo_Land_Controller_E</Lua_Script>
 	</Marker>
 
 	<Marker Name="DEMO_CONTROLLER_LAND_R">
-		<Text_ID> </Text_ID>
+		<Text_ID />
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Lua_Script>Demo_Land_Controller_R</Lua_Script>
 	</Marker>
 
 	<Marker Name="FELUCIA_DEMO_CONTROLLER">
-		<Text_ID> </Text_ID>
+		<Text_ID />
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER, HINT</Behavior>
 		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<!--<Lua_Script>Demo_Felucia_Controller</Lua_Script>-->
 	</Marker>
@@ -1317,7 +1317,7 @@
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1327,7 +1327,7 @@
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1337,38 +1337,38 @@
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 
 	<Marker Name="Team_00_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Team_01_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
 	<Marker Name="Team_02_Spawn_Point_Marker">
-		<Text_ID> TEXT_SKIRMISH_PLAYER_SPAWN_POINT </Text_ID>
-		<Is_Marker> Yes </Is_Marker>
-		<Land_Model_Name> W_FLAG_MARKER_RED.ALO </Land_Model_Name>
+		<Text_ID>TEXT_SKIRMISH_PLAYER_SPAWN_POINT</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Space_Model_Name>W_FLAG_MARKER_RED.ALO</Space_Model_Name>
-		<Behavior> MARKER </Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1380,7 +1380,7 @@
 		<Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1391,7 +1391,7 @@
 		<Space_Model_Name>w_flag_marker_Red.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Red.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1402,7 +1402,7 @@
 		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1413,7 +1413,7 @@
 		<Space_Model_Name>w_flag_marker_Blue.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Blue.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1424,7 +1424,7 @@
 		<Space_Model_Name>w_flag_marker_Yellow.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Yellow.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
@@ -1435,7 +1435,7 @@
 		<Space_Model_Name>w_flag_marker_Purple.alo</Space_Model_Name>
 		<Land_Model_Name>w_flag_marker_Purple.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>
+		<Is_Discardable>False</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 </Markers>

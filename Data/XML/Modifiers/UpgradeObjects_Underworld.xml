@@ -6,21 +6,21 @@
 	<UpgradeObject Name="UL_Black_Market_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Black_Market_Shielding_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Black_Market_Shielding_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_structure_shielding1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -29,7 +29,7 @@
 			<Combat_Bonus_Ability Name="UL_Black_Market_Shielding_L1_Upgrade">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works </Applicable_Unit_Types>
+				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -46,21 +46,21 @@
 	<UpgradeObject Name="UL_Black_Market_Shielding_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Black_Market_Shielding_L1_Upgrade, UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Black_Market_Shielding_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_structure_shielding2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -69,7 +69,7 @@
 			<Combat_Bonus_Ability Name="UL_Black_Market_Shielding_L2_Upgrade">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works </Applicable_Unit_Types>
+				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -86,21 +86,21 @@
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_MDU_Armor_Plating_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_MDU_Armor_Plating_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_MDU_ARMOR_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -126,21 +126,21 @@
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_MDU_Armor_Plating_L1_Upgrade, UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_MDU_Armor_Plating_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_MDU_ARMOR_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -166,8 +166,8 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_icon_Bounty.tga</Icon_Name>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -175,8 +175,8 @@
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_BOUNTY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_BOUNTY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_BOUNTY</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -185,18 +185,18 @@
 
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 
 		<Abilities SubObjectList="Yes">
 			<Bounty_On_Faction_Ability Name="Underworld_Planetary_Corruption_Bounty">
-				<Bounty_Percentage_Amount> 1.2 </Bounty_Percentage_Amount>
-				<Stacking_Category> 1 </Stacking_Category>
+				<Bounty_Percentage_Amount>1.2</Bounty_Percentage_Amount>
+				<Stacking_Category>1</Stacking_Category>
 				<!-- The Underworld player will gain credits for destroying objects owned by these factions: -->
-				<Target_Faction_Names> Empire, Rebel, Hutts, Pirates, Underworld </Target_Faction_Names>
-				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+				<Target_Faction_Names>Empire, Rebel, Hutts, Pirates, Underworld</Target_Faction_Names>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</UpgradeObject>
@@ -206,21 +206,21 @@
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Smuggled_Droid_Systems_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Smuggled_Droid_Systems_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_destroyer_droid1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -246,22 +246,22 @@
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1100 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>850</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Smuggled_Droid_Systems_L1_Upgrade, UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Smuggled_Droid_Systems_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_destroyer_droid2.tga</Icon_Name>
 
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -286,21 +286,21 @@
 	<UpgradeObject Name="UL_Weapon_Boost_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 900 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>650</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Weapon_Boost_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Weapon_Boost_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_weapon_boost1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -325,21 +325,21 @@
 	<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>950</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Weapon_Boost_L1_Upgrade, UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Weapon_Boost_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_weapon_boost2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -365,21 +365,21 @@
 	<UpgradeObject Name="UL_Rancor_Stimulant_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>UL_Rancor_Stimulant_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_rancor_stimulant1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -406,21 +406,21 @@
 	<UpgradeObject Name="UL_Rancor_Stimulant_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Rancor_Stimulant_L1_Upgrade, UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Rancor_Stimulant_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_rancor_stimulant2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -448,20 +448,20 @@
 	<UpgradeObject Name="UL_Bombing_Run_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 38 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_bombing_run.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_UL_BOMBING_RUN_USE</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -482,20 +482,20 @@
 	<UpgradeObject Name="UL_Extort_Cash_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Extort_Cash_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Extort_Cash_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_extort_money.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ECONOMY</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_U_EXTORT_CASH_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -533,20 +533,20 @@
 	<UpgradeObject Name="UL_Extort_Cash_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>130</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Extort_Cash_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type> UL_Extort_Cash_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Previous_Upgrade_Level_Type>UL_Extort_Cash_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_extort_money2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ECONOMY</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_U_EXTORT_CASH_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -584,21 +584,21 @@
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 900 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>UL_Ability_Recharge_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_recharge_special1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -626,21 +626,21 @@
 	<UpgradeObject Name="UL_Ability_Recharge_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Ability_Recharge_L1_Upgrade, UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Ability_Recharge_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_recharge_special2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -672,20 +672,20 @@
 	<UpgradeObject Name="US_Reinforced_Structure_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> US_Reinforced_Structure_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>US_Reinforced_Structure_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -712,20 +712,20 @@
 	<UpgradeObject Name="US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Reinforced_Structure_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type>US_Reinforced_Structure_L1_Upgrade </Previous_Upgrade_Level_Type>
-		<Next_Upgrade_Level_Type> US_Reinforced_Structure_L3_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Previous_Upgrade_Level_Type>US_Reinforced_Structure_L1_Upgrade</Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type>US_Reinforced_Structure_L3_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -752,20 +752,20 @@
 	<UpgradeObject Name="US_Reinforced_Structure_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 3200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Reinforced_Structure_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type>US_Reinforced_Structure_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Previous_Upgrade_Level_Type>US_Reinforced_Structure_L2_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_REINFORCED_STRUCTURE_L3</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -792,21 +792,21 @@
 	<UpgradeObject Name="US_BlackMarket_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>US_BlackMarket_Reactors_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -833,21 +833,21 @@
 	<UpgradeObject Name="US_BlackMarket_Reactors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1600 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_BlackMarket_Reactors_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_BlackMarket_Reactors_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>US_BlackMarket_Reactors_L3_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -874,21 +874,21 @@
 	<UpgradeObject Name="US_BlackMarket_Reactors_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 33 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_BlackMarket_Reactors_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_BlackMarket_Reactors_L2_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_black_market_eng3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L3 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_BLACKMARKET_ENGINES_L3</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -915,20 +915,20 @@
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1100 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> US_Magnetically_Sealed_Armor_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>US_Magnetically_Sealed_Armor_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_magnetically_sealed_armor1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -937,10 +937,10 @@
 
 		<Abilities SubObjectList="Yes">
 			<Enable_Ability Name="US_Magnetically_Sealed_Armor_L1_Bonus_Enabler">
-				<Ability_Name> US_Magnetically_Sealed_Armor_Bonus_L1 </Ability_Name>
+				<Ability_Name>US_Magnetically_Sealed_Armor_Bonus_L1</Ability_Name>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Starviper_Fighter </Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Applicable_Unit_Types>Starviper_Fighter</Applicable_Unit_Types>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
@@ -950,20 +950,20 @@
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>640</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Magnetically_Sealed_Armor_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Magnetically_Sealed_Armor_L1_Upgrade</Previous_Upgrade_Level_Type>
-		<Next_Upgrade_Level_Type> US_Magnetically_Sealed_Armor_L3_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>US_Magnetically_Sealed_Armor_L3_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_magnetically_sealed_armor2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -972,10 +972,10 @@
 
 		<Abilities SubObjectList="Yes">
 			<Enable_Ability Name="US_Magnetically_Sealed_Armor_L2_Bonus_Enabler">
-				<Ability_Name> US_Magnetically_Sealed_Armor_Bonus_L2 </Ability_Name>
+				<Ability_Name>US_Magnetically_Sealed_Armor_Bonus_L2</Ability_Name>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Starviper_Fighter, Crusader_Gunship </Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Applicable_Unit_Types>Starviper_Fighter, Crusader_Gunship</Applicable_Unit_Types>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
@@ -986,20 +986,20 @@
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 3400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Magnetically_Sealed_Armor_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Magnetically_Sealed_Armor_L2_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_magnetically_sealed_armor3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_MAGNETIC_ARMOR_L3</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1008,10 +1008,10 @@
 
 		<Abilities SubObjectList="Yes">
 			<Enable_Ability Name="US_Magnetically_Sealed_Armor_L3_Bonus_Enabler">
-				<Ability_Name> US_Magnetically_Sealed_Armor_Bonus_L3 </Ability_Name>
+				<Ability_Name>US_Magnetically_Sealed_Armor_Bonus_L3</Ability_Name>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Starviper_Fighter, Crusader_Gunship, Kedalbe_Battleship </Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Applicable_Unit_Types>Starviper_Fighter, Crusader_Gunship, Kedalbe_Battleship</Applicable_Unit_Types>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
@@ -1022,21 +1022,21 @@
 	<UpgradeObject Name="US_Carbonite_Coolant_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>US_Carbonite_Coolant_Systems_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_carbonite_firing1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_CARBONITE_COOLANT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_CARBONITE_COOLANT_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1063,21 +1063,21 @@
 	<UpgradeObject Name="US_Carbonite_Coolant_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Carbonite_Coolant_Systems_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Carbonite_Coolant_Systems_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_carbonite_firing2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_CARBONITE_COOLANT_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_CARBONITE_COOLANT_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1104,21 +1104,21 @@
 	<UpgradeObject Name="US_Cloaking_Generator_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>US_Cloaking_Generator_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_cloaking_gen1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1139,21 +1139,21 @@
 	<UpgradeObject Name="US_Cloaking_Generator_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>760</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Cloaking_Generator_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Cloaking_Generator_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_cloaking_gen2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_MODIFIED_CLOAKING_GENERATOR_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1174,21 +1174,21 @@
 	<UpgradeObject Name="US_Targeting_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>280</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>US_Targeting_Systems_L2_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_targeting_system1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1216,21 +1216,21 @@
 	<UpgradeObject Name="US_Targeting_Systems_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Targeting_Systems_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Targeting_Systems_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type>US_Targeting_Systems_L3_Upgrade</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_targeting_system2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1240,7 +1240,7 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L2_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate </Applicable_Unit_Types>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate</Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -1258,21 +1258,21 @@
 	<UpgradeObject Name="US_Targeting_Systems_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 3500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Targeting_Systems_L2_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>US_Targeting_Systems_L2_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_targeting_system3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1282,7 +1282,7 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L3_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Kedalbe_Battleship </Applicable_Unit_Types>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Kedalbe_Battleship</Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -1301,23 +1301,23 @@
 	<UpgradeObject Name="UC_Level_Two_Tech_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
-		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>UC_Level_Three_Tech_Upgrade</Next_Upgrade_Level_Type>
 		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_u_tech_upgrade_2.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1331,23 +1331,23 @@
 	<UpgradeObject Name="UC_Level_Three_Tech_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 4400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>4400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 70 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> UC_Level_Two_Tech_Upgrade </Tactical_Build_Prerequisites>
-		<Tactical_Build_Increments_Tech_Level> Yes </Tactical_Build_Increments_Tech_Level>
-		<Tactical_Destruction_Decrements_Tech_Level> Yes </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UC_Level_Two_Tech_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
 		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_u_tech_upgrade_3.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1363,21 +1363,21 @@
 	<UpgradeObject Name="US_Plasma_Cannon_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_station_turret.tga</Icon_Name>
-		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
+		<Is_Skirmish_Tactical_Super_Weapon>True</Is_Skirmish_Tactical_Super_Weapon>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_US_SPECIAL_WEAPON_USE</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1405,20 +1405,20 @@
 	<UpgradeObject Name="RL_Planetary_Bombard_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 6000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 125 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>125</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1439,20 +1439,20 @@
 	<UpgradeObject Name="EL_Planetary_Bombard_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 7500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 123 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>123</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_EL_ORBITAL_BOMBARD_TOOLTIP</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1473,20 +1473,20 @@
 	<UpgradeObject Name="UL_Planetary_Bombard_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_PLANETARY_BOMBARD</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 8200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>8200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 118 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>118</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_orbital_bombardment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_UL_ORBITAL_BOMBARD_TOOLTIP </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_UL_ORBITAL_BOMBARD_TOOLTIP</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ORBITAL_BOMBARD_USE</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1513,20 +1513,20 @@
 	<UpgradeObject Name="U_Magnetically_Sealed_Structure_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforce_structure.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_UNDERWORLD </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_UNDERWORLD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_MERC_MAGNETIC_STRUCTURE</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1537,7 +1537,7 @@
 				<Ability_Name>U_Magnetically_Sealed_Structure</Ability_Name>
 				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Droid_Works, U_Ground_Vehicle_Factory</Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
@@ -1546,7 +1546,7 @@
 	<UpgradeObject Name="R_Magnetically_Sealed_Structure_Upgrade">
 		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_REBEL </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_REBEL</Encyclopedia_Text>
 
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1557,7 +1557,7 @@
 				<Ability_Name>R_Magnetically_Sealed_Structure</Ability_Name>
 				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>R_Ground_Barracks, R_Ground_Light_Vehicle_Factory, R_Ground_Heavy_Vehicle_Factory, Power_Generator_R, R_Ground_Research_Facility, Communications_Array_R, Rebel_Command_Center</Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 	</UpgradeObject>
@@ -1565,7 +1565,7 @@
 	<UpgradeObject Name="E_Magnetically_Sealed_Structure_Upgrade">
 		<Variant_Of_Existing_Type>U_Magnetically_Sealed_Structure_Upgrade</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_EMPIRE </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_STRUCTURE TEXT_UPGRADE_TOOLTIP_MERC_MAGNETIC_EMPIRE</Encyclopedia_Text>
 
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1576,7 +1576,7 @@
 				<Ability_Name>E_Magnetically_Sealed_Structure</Ability_Name>
 				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>E_Ground_Barracks, E_Ground_Light_Vehicle_Factory, E_Ground_Heavy_Vehicle_Factory, E_Ground_Research_Facility, Power_Generator_E, Communications_Array_E, Imperial_Command_Center</Applicable_Unit_Types>
-				<Affects_All_Allies> Yes </Affects_All_Allies>
+				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
 	</UpgradeObject>
@@ -1584,20 +1584,20 @@
 	<UpgradeObject Name="U_Secure_Area_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_tactical_secure.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_MERC_SECURE_AREA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_MERC_SECURE_AREA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_MERC_SECURE_AREA</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1661,21 +1661,21 @@
 	<UpgradeObject Name="UL_Enhanced_Deployment_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1697,21 +1697,21 @@
 	<UpgradeObject Name="RL_Enhanced_Deployment_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1</Text_ID>
 
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1733,21 +1733,21 @@
 	<UpgradeObject Name="EL_Enhanced_Deployment_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2300 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_deployment.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_ENHANCED_DEPLOYMENT_L1</Text_ID>
 
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1776,16 +1776,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_INTIMIDATION</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1801,16 +1801,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_PIRACY</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1826,16 +1826,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_KIDNAPPING</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1851,16 +1851,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_RACKETEERING</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1878,11 +1878,11 @@
 		<Affiliation>Underworld</Affiliation>
 		<Abilities SubObjectList="Yes">
 			<Bounty_On_Faction_Ability Name="Underworld_Racketeering_Salvage_Effect">
-				<Bounty_Percentage_Amount> 1.0 </Bounty_Percentage_Amount>
-				<Stacking_Category> 1 </Stacking_Category>
+				<Bounty_Percentage_Amount>1.0</Bounty_Percentage_Amount>
+				<Stacking_Category>1</Stacking_Category>
 				<!-- The Underworld player will gain credits for destroying objects owned by these factions: -->
-				<Target_Faction_Names> Empire, Rebel, Hutts, Pirates </Target_Faction_Names>
-				<Apply_To_All_Allies> No </Apply_To_All_Allies>
+				<Target_Faction_Names>Empire, Rebel, Hutts, Pirates</Target_Faction_Names>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
 			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</UpgradeObject>
@@ -1893,16 +1893,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_CORRUPT_MILITIA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_CORRUPT_MILITIA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_CORRUPT_MILITIA</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1918,16 +1918,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BRIBERY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BRIBERY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BRIBERY</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1943,16 +1943,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BLACK_MARKET </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BLACK_MARKET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BLACK_MARKET</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1968,16 +1968,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld, Rebel, Empire</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Corruption.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BONDED_CITIZENS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_BONDED_CITIZENS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_PLANETARY_CORRUPTION_BONDED_CITIZENS</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -1997,13 +1997,13 @@
 		<Affiliation>Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_BESPIN_KRAYT_DAMAGE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_BESPIN_KRAYT_DAMAGE </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_BESPIN_KRAYT_DAMAGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_BESPIN_KRAYT_DAMAGE</Text_ID>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Bespin_Krayt_Damage_Bonus">
@@ -2029,12 +2029,12 @@
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_weather_affinity.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_FELUCIA_WEATHER_PROOF</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_FELUCIA_WEATHER_PROOF</Text_ID>
 
 		<Abilities SubObjectList="Yes">
@@ -2053,19 +2053,19 @@
 		<Affiliation>Rebel</Affiliation>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_MC30_DAMAGE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_SALEUCAMI_MC30_DAMAGE </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_SALEUCAMI_MC30_DAMAGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_SALEUCAMI_MC30_DAMAGE</Text_ID>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="R_Saleucami_Frigate_Damage_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> MC30_Frigate </Applicable_Unit_Types>
+				<Applicable_Unit_Types>MC30_Frigate</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2084,19 +2084,19 @@
 		<Affiliation>Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_SALEUCAMI_INTERCEPTOR4_DAMAGE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_SALEUCAMI_INTERCEPTOR4_DAMAGE </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_SALEUCAMI_INTERCEPTOR4_DAMAGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_SALEUCAMI_INTERCEPTOR4_DAMAGE</Text_ID>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="U_Saleucami_Frigate_Damage_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Interceptor4_Frigate </Applicable_Unit_Types>
+				<Applicable_Unit_Types>Interceptor4_Frigate</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2115,12 +2115,12 @@
 		<Affiliation>Rebel, Empire, Underworld</Affiliation>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 
 		<Icon_Name>i_multi_light_reflective_armor1.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_HONOGHR_SECURE_AREA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_HONOGHR_SECURE_AREA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_HONOGHR_SECURE_AREA</Text_ID>
 
 		<Abilities SubObjectList="Yes">
@@ -2139,16 +2139,16 @@
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire, Rebel</Affiliation>
 		<Previous_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Show_In_Sidebar_Tray> False </Show_In_Sidebar_Tray>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_Tray>False</Show_In_Sidebar_Tray>
 		<Icon_Name>i_icon_Bounty.tga</Icon_Name>
 
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
 		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
 
-		<Encyclopedia_Text> TEXT_PLANET_NALHUTTA_ENCYC_02 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PLANET_NALHUTTA_ENCYC_02</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_NALHUTTA_INFO_ADV_00</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2159,10 +2159,10 @@
 
 		<Abilities SubObjectList="Yes">
 			<Bounty_On_Faction_Ability Name="NalHutta_Bounty">
-				<Bounty_Percentage_Amount> 0.15 </Bounty_Percentage_Amount>
-				<Stacking_Category> 1 </Stacking_Category>
-				<Target_Faction_Names> Underworld </Target_Faction_Names>
-				<Apply_To_All_Allies> No </Apply_To_All_Allies>
+				<Bounty_Percentage_Amount>0.15</Bounty_Percentage_Amount>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Faction_Names>Underworld</Target_Faction_Names>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
 			</Bounty_On_Faction_Ability>
 		</Abilities>
 	</UpgradeObject>
@@ -2172,21 +2172,21 @@
 	<UpgradeObject Name="Utapau_Kedalbe_Shield_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_UTAPAU_ENCYC </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PLANET_UTAPAU_ENCYC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_UTAPAU_INFO_ADV</Text_ID>
 
 
@@ -2197,7 +2197,7 @@
 			<Combat_Bonus_Ability Name="UL_Utapau_Kedalbe_Shielding_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Kedalbe_Battleship </Applicable_Unit_Types>
+				<Applicable_Unit_Types>Kedalbe_Battleship</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2214,21 +2214,21 @@
 	<UpgradeObject Name="Byss_ATAT_Enhanced_Damage_Bonus">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>440</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> EL_Improved_ATAT_Reactors_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EL_Improved_ATAT_Reactors_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_atat_reactors2.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_BYSS_ENCYC_02 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PLANET_BYSS_ENCYC_02</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_BYSS_INFO_ADV_01</Text_ID>
 
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2255,21 +2255,21 @@
 	<UpgradeObject Name="Bespin_Krayt_Damage_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
 		<CategoryMask>Upgrade</CategoryMask>
 
-		<Encyclopedia_Text> TEXT_PLANET_BESPIN_ENCYC_00 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_PLANET_BESPIN_ENCYC_00</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS</Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PLANET_BESPIN_INFO_ADV_00</Text_ID>
 
 
@@ -2280,7 +2280,7 @@
 			<Combat_Bonus_Ability Name="UL_Bespin_Krayt_Damage_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Krayt_Class_Destroyer </Applicable_Unit_Types>
+				<Applicable_Unit_Types>Krayt_Class_Destroyer</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2298,21 +2298,21 @@
 	<UpgradeObject Name="US_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -2339,21 +2339,21 @@
 	<UpgradeObject Name="US_Enhanced_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
 
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L1</Text_ID>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -2388,22 +2388,22 @@
 
 	<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1</Text_ID>
 		<Icon_Name>i_multi_structure_shielding1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 22 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_BM_Shielding_L2_Upgrade_NO_PREREQ </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_BM_Shielding_L2_Upgrade_NO_PREREQ</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2414,7 +2414,7 @@
 			<Combat_Bonus_Ability Name="UL_BM_Shielding_L1_Upgrade_NO_PREREQ_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works </Applicable_Unit_Types>
+				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2429,22 +2429,22 @@
 
 	<!-- Black Market Shielding (Level 2): Structures gain a 50% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L2</Text_ID>
 		<Icon_Name>i_multi_structure_shielding2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_BM_Shielding_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_BM_Shielding_L1_Upgrade_NO_PREREQ</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2455,7 +2455,7 @@
 			<Combat_Bonus_Ability Name="UL_BM_Shielding_L2_Upgrade_NO_PREREQ_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works </Applicable_Unit_Types>
+				<Applicable_Unit_Types>U_Ground_Palace, U_Ground_Barracks, U_Ground_Vehicle_Factory, U_Ground_Droid_Works</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -2469,23 +2469,23 @@
 
 	<!-- Rancor Stimulant (Level 1): Rancors gain a 25% movement speed increase. -->
 	<UpgradeObject Name="UL_Rancor_Stimulant_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L1</Text_ID>
 		<Icon_Name>i_multi_rancor_stimulant1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>UL_Rancor_Stimulant_L2_Upgrade_NO_PREREQ</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2509,23 +2509,23 @@
 
 	<!-- Rancor Stimulant (Level 2): Rancors gain a 25% movement speed increase. -->
 	<UpgradeObject Name="UL_Rancor_Stimulant_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RANCOR_STIMULANT_L2</Text_ID>
 		<Icon_Name>i_multi_rancor_stimulant2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Rancor_Stimulant_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Rancor_Stimulant_L1_Upgrade_NO_PREREQ</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2556,23 +2556,23 @@
 
 	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L1</Text_ID>
 		<Icon_Name>i_multi_recharge_special1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
 		<Next_Upgrade_Level_Type>UL_Ability_Recharge_L2_Upgrade_NO_PREREQ</Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2598,23 +2598,23 @@
 
 	<!-- Recharge Ability (Level 2): Infantry and Hero special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_RECHARGE_ABILITY_L2</Text_ID>
 		<Icon_Name>i_multi_recharge_special2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Ability_Recharge_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Ability_Recharge_L1_Upgrade_NO_PREREQ</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2646,23 +2646,23 @@
 
 	<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_MDU_ARMOR_L1</Text_ID>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_MDU_Armor_Plating_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_MDU_Armor_Plating_L2_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2688,23 +2688,23 @@
 
 	<!-- MDU Armor (Level 2): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID> TEXT_UPGRADE_UL_MDU_ARMOR_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_MDU_ARMOR_L2</Text_ID>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_MDU_Armor_Plating_L1_Upgrade</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2730,23 +2730,23 @@
 
 	<!-- Smuggled Droid Systems (Level 1): Destroyer Droids gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L1</Text_ID>
 		<Icon_Name>i_multi_destroyer_droid1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2773,23 +2773,23 @@
 
 	<!-- Smuggled Droid Systems (Level 2): Destroyer Droids gain a 25% bonus to shield strength and 20% damage increase -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_SMUGGLED_DROID_SYSTEMS_L2</Text_ID>
 		<Icon_Name>i_multi_destroyer_droid2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>850</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2818,23 +2818,23 @@
 	<!-- ### FACTORY ### -->
 	<!-- ############### -->
 	<UpgradeObject Name="UL_Weapon_Boost_L1_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L1</Text_ID>
 		<Icon_Name>i_multi_weapon_boost1.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>650</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> UL_Weapon_Boost_L2_Upgrade_NO_PREREQ </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Next_Upgrade_Level_Type>UL_Weapon_Boost_L2_Upgrade_NO_PREREQ</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
@@ -2859,23 +2859,23 @@
 
 
 	<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade_NO_PREREQ">
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L2 </Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_OFFENSE</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_UL_WEAPON_BOOST_L2</Text_ID>
 		<Icon_Name>i_multi_weapon_boost2.tga</Icon_Name>
 
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer />
 		<Tactical_Build_Cost_Campaign>950</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UL_Weapon_Boost_L1_Upgrade_NO_PREREQ</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type>UL_Weapon_Boost_L1_Upgrade_NO_PREREQ</Previous_Upgrade_Level_Type>
 		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>

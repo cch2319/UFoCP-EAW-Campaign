@@ -3,16 +3,16 @@
 	<SpaceUnit Name="Skipray_Blastboat">
 		<Text_ID>TEXT_UNIT_SKIPRAY</Text_ID>
 		<Icon_Name>i_button_skipray.tga</Icon_Name>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
-		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>UV_SKIPRAY.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -38,13 +38,13 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type>Armor_Bomber</Armor_Type>
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 
 		<Formation_Priority>2</Formation_Priority>
 		<Size_Value>8</Size_Value>
-		<Is_Escort>no</Is_Escort>
-		<Is_Bomber>yes</Is_Bomber>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
 		<Damage>5</Damage>
 		<Squadron_Capacity>0</Squadron_Capacity>
 
@@ -66,45 +66,45 @@
 
 		<Land_Bomber_Type>Skipray_Bombing_Run</Land_Bomber_Type>
 
-		<SFXEvent_Fire> Unit_Star_Viper_Fire </SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Star_Viper_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Skipray</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Skipray</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Skipray</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Skipray</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Skipray</SFXEvent_Guard>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Skipray </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Skipray </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Skipray </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Skipray </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Skipray </SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Skipray </SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Skipray</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Skipray</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Skipray</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Skipray</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Skipray</SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Skipray</SFXEvent_Enemy_Health_Critical_Warning>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Skipray </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Skipray </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Skipray</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Y_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-		<CategoryMask> Bomber | AntiCapital</CategoryMask>
-		<Property_Flags> SmallShip </Property_Flags>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<CategoryMask>Bomber | AntiCapital</CategoryMask>
+		<Property_Flags>SmallShip</Property_Flags>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Air_Vehicle_Turret_Target>Yes</Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
-		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
-		<MovementClass> Space </MovementClass>
+		<Custom_Footprint_Radius>15.0</Custom_Footprint_Radius>
+		<MovementClass>Space</MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
@@ -119,7 +119,7 @@
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
@@ -127,19 +127,19 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Skipray_Sensor_Jamming</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius>
-				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Jam_Sensors_On_Skipray</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Jam_Sensors_Off_Skipray</SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>
@@ -151,16 +151,16 @@
 	<Squadron Name="Skipray_Squadron">
 		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
 		<Icon_Name>i_button_skipray.tga</Icon_Name>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
-		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>Nos</Is_Escort>
-		<Is_Bomber>yes</Is_Bomber>
+		<Is_Bomber>Yes</Is_Bomber>
 		<Damage>15</Damage>
 
 		<Affiliation>Underworld</Affiliation>
@@ -193,25 +193,25 @@
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Property_Flags> SmallShip </Property_Flags>
+		<Property_Flags>SmallShip</Property_Flags>
 		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<Score_Cost_Credits>700</Score_Cost_Credits>
 
-		<Max_Squad_Size> 3 </Max_Squad_Size>
+		<Max_Squad_Size>3</Max_Squad_Size>
 
-		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN> -->
+		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player> -->
-		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player> -->
-		<!-- <MULTIPLAYER SKIRMISH VALUES END> -->
+		<!-- <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!-- <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!-- <MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Skipray_Sensor_Jamming</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius>
@@ -221,7 +221,7 @@
 
 		<Abilities SubObjectList="Yes">
 			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Sensor_Jamming_Ability>

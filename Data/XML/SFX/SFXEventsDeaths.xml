@@ -243,7 +243,7 @@
 
 	<SFXEvent Name="Unit_Rebel_Soldier_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
-		<Samples>REB_Death_1.wav REB_Death_2.wav REB_Death_3.wav REB_Death_4.wav REB_Death_5.wav REB_Death_6.wav REB_Death_7.wav REB_Death_8.wav REB_Death_9.wav REB_Death_10.wav REB_Death_21.wav REB_Death_22.wav REB_Death_23.wav REB_Death_24.wav REB_Death_25.wav </Samples>
+		<Samples>REB_Death_1.wav REB_Death_2.wav REB_Death_3.wav REB_Death_4.wav REB_Death_5.wav REB_Death_6.wav REB_Death_7.wav REB_Death_8.wav REB_Death_9.wav REB_Death_10.wav REB_Death_21.wav REB_Death_22.wav REB_Death_23.wav REB_Death_24.wav REB_Death_25.wav</Samples>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Rebel_Soldier_2_Death">
@@ -270,7 +270,7 @@
 
 	<SFXEvent Name="Unit_Infantry_Squish">
 		<Use_Preset>Preset_GUNS</Use_Preset>
-		<Samples>BF_Squish_1.wav BF_Squish_2.wav BF_Squish_3.wav BF_Squish_4.wav BF_Squish_5.wav BF_Squish_6.wav BF_Squish_7.wav BF_Squish_8.wav BF_Squish_9.wav BF_Squish_10.wav BF_Squish_11.wav BF_Squish_12.wav </Samples>
+		<Samples>BF_Squish_1.wav BF_Squish_2.wav BF_Squish_3.wav BF_Squish_4.wav BF_Squish_5.wav BF_Squish_6.wav BF_Squish_7.wav BF_Squish_8.wav BF_Squish_9.wav BF_Squish_10.wav BF_Squish_11.wav BF_Squish_12.wav</Samples>
 	</SFXEvent>
 
 
@@ -278,7 +278,7 @@
 	<SFXEvent Name="Unit_Ewok_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
 		<Samples>EWK_Death_1.wav EWK_Death_2.wav EWK_Death_3.wav EWK_Death_4.wav EWK_Death_5.wav EWK_Death_6.wav EWK_Death_7.wav EWK_Death_8.wav EWK_Death_9.wav EWK_Death_10.wav EWK_Death_11.wav</Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Ewok_Burning">
@@ -293,8 +293,8 @@
 
 	<SFXEvent Name="Unit_Jawa_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
-		<Samples>JAW_Death_1.wav JAW_Death_2.wav JAW_Death_3.wav JAW_Death_4.wav JAW_Death_5.wav JAW_Death_6.wav JAW_Death_7.wav JAW_Death_8.wav JAW_Death_9.wav JAW_Death_10.wav </Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Samples>JAW_Death_1.wav JAW_Death_2.wav JAW_Death_3.wav JAW_Death_4.wav JAW_Death_5.wav JAW_Death_6.wav JAW_Death_7.wav JAW_Death_8.wav JAW_Death_9.wav JAW_Death_10.wav</Samples>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Wookie_Death">
@@ -305,19 +305,19 @@
 	<SFXEvent Name="Unit_Tusken_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
 		<Samples>Tusken_die_1.wav Tusken_die_2.wav Tusken_die_3.wav Tusken_die_4.wav Tusken_die_5.wav Tusken_die_6.wav</Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Geonosian_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
 		<Samples>Geo_Death_1.wav Geo_Death_2.wav Geo_Death_3.wav Geo_Death_4.wav</Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hutt_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
 		<Samples>Hutt_Death_1.wav Hutt_Death_2.wav Hutt_Death_3.wav Hutt_Death_4.wav</Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 
@@ -325,7 +325,7 @@
 	<SFXEvent Name="Unit_Taun_Taun_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
 		<Samples>Taun_Taun_Die_1.wav Taun_Taun_Die_2.wav Taun_Taun_Die_3.wav Taun_Taun_Die_4.wav Taun_Taun_Die_5.wav Taun_Taun_Die_6.wav</Samples>
-		<Play_Sequentially> Yes </Play_Sequentially>
+		<Play_Sequentially>Yes</Play_Sequentially>
 	</SFXEvent>
 
 

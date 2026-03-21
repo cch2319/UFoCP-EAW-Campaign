@@ -12,15 +12,15 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Max_Speed>3.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
-		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
+		<Use_Special_Submit_Rules>true</Use_Special_Submit_Rules>
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -29,7 +29,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>5</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Damage>2</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
@@ -46,7 +46,7 @@
 		<Size_Value>120</Size_Value>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -70,19 +70,19 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Structure, Air, Transport</Fire_Category_Restrictions>
 
 		<Exit_Door_Angle_Degrees>180.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>10.0</Hover_Offset>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>120.0, 90.0</Blob_Shadow_Scale>
@@ -97,15 +97,15 @@
 		<SFXEvent_Attack>Unit_Attack_Sentinel_Lander</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Shuttle_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Shuttle_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Shuttle_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask>Transport</CategoryMask>
 		<Landing_Transport_Variant>Imperial_Landing_Craft_Landing</Landing_Transport_Variant>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Population_Value>3</Population_Value>
@@ -123,7 +123,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask> Fighter </CategoryMask>
+		<CategoryMask>Fighter</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Imperial_Landing_Craft_Landing">
@@ -164,11 +164,11 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.4</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -180,7 +180,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Damage>2</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
@@ -197,7 +197,7 @@
 		<Death_Clone>Damage_Normal, Imperial_ATAT_Barge_Death_Clone</Death_Clone>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -219,19 +219,19 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Structure, Air, Transport</Fire_Category_Restrictions>
 
 		<Exit_Door_Angle_Degrees>0.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>60.0</Hover_Offset>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
@@ -246,16 +246,16 @@
 		<SFXEvent_Attack>Unit_Attack_ATAT_Barge</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_ATAT_Barge_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_ATAT_Barge_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_ATAT_Barge_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_ATAT_Barge_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_ATAT_Barge_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_ATAT_Barge_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 
 		<CategoryMask>Transport</CategoryMask>
 		<Landing_Transport_Variant>Imperial_ATAT_Barge_Landing</Landing_Transport_Variant>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -275,7 +275,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask> Fighter </CategoryMask>
+		<CategoryMask>Fighter</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Imperial_ATAT_Barge_Landing">
@@ -289,7 +289,7 @@
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		<Use_Transported_Object_Bounds_For_Landing_Z> false </Use_Transported_Object_Bounds_For_Landing_Z>
+		<Use_Transported_Object_Bounds_For_Landing_Z>false</Use_Transported_Object_Bounds_For_Landing_Z>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
 
@@ -306,16 +306,16 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
-		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
+		<Use_Special_Submit_Rules>true</Use_Special_Submit_Rules>
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -324,7 +324,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Damage>2</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>350</Tactical_Health>
@@ -343,7 +343,7 @@
 		<Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
 
 		<Behavior>TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -364,7 +364,7 @@
 
 		<Exit_Door_Angle_Degrees>90.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>0.0</Exit_Door_Distance>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
@@ -378,9 +378,9 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Gallofree_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Gallofree_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Shuttle_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -388,7 +388,7 @@
 		<Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -408,12 +408,12 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask> Fighter </CategoryMask>
+		<CategoryMask>Fighter</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Non_Combat_Gallofree">
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
-		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
+		<Can_Participate_In_Space_Battle>No</Can_Participate_In_Space_Battle>
 	</TransportUnit>
 
 	<TransportUnit Name="Gallofree_Transport_Landing">
@@ -431,7 +431,7 @@
 		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
 		<Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
-		<Space_Layer> Land </Space_Layer>
+		<Space_Layer>Land</Space_Layer>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</TransportUnit>
 
@@ -447,15 +447,15 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
+		<Use_Special_Submit_Rules>true</Use_Special_Submit_Rules>
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -464,7 +464,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Damage>5</Damage>
 		<Shield_Points>20</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -487,7 +487,7 @@
 		<Death_Clone>Damage_Normal, Shuttle_Tyderium_Death_Clone</Death_Clone>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -509,19 +509,19 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Structure, Air, Transport</Fire_Category_Restrictions>
 
 		<Exit_Door_Angle_Degrees>180.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>00.0</Exit_Door_Distance>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>10.0</Hover_Offset>
 
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -537,16 +537,16 @@
 		<SFXEvent_Attack>Unit_Attack_Lamda_Shuttle</SFXEvent_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Shuttle_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Shuttle_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Shuttle_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Shuttle_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Shuttle_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask>Transport</CategoryMask>
 
 		<Landing_Transport_Variant>Shuttle_Tyderium_Landing</Landing_Transport_Variant>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Population_Value>3</Population_Value>
@@ -565,7 +565,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask> Fighter </CategoryMask>
+		<CategoryMask>Fighter</CategoryMask>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</UniqueUnit>
@@ -582,8 +582,8 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<!-- For appropriate collision when this object is on the ground with wings folded -->
-		<Custom_Hard_XExtent> 40.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 27.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent>40.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>27.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
 
@@ -600,8 +600,8 @@
 		<Hover_Offset>0.0</Hover_Offset>
 
 		<!-- For appropriate collision when this object is on the ground with wings folded -->
-		<Custom_Hard_XExtent> 40.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 27.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent>40.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>27.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
 
@@ -610,7 +610,7 @@
 		<Max_Speed>1.8</Max_Speed>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
 		<Tactical_Health>1000</Tactical_Health>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT</SpaceBehavior>
 		<Mouse_Collide_Override_Sphere_Radius>30</Mouse_Collide_Override_Sphere_Radius>
 	</TransportUnit>
 
@@ -618,7 +618,7 @@
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<Max_Speed>2.5</Max_Speed>
 		<Tactical_Health>1000</Tactical_Health>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT</SpaceBehavior>
 		<Tech_Level>99</Tech_Level>
 	</TransportUnit>
 
@@ -637,16 +637,16 @@
 
 		<Ranged_Target_Z_Adjust>-5.0</Ranged_Target_Z_Adjust>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0</Min_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Corvette</Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
+		<Use_Special_Submit_Rules>true</Use_Special_Submit_Rules>
 
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
@@ -655,7 +655,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>Transport</Ship_Class>
 		<Formation_Priority>6</Formation_Priority>
-		<Is_Escort>no</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Damage>5</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -675,7 +675,7 @@
 		<Death_Clone>Damage_Normal, Alliance_Shuttle_Death_Clone</Death_Clone>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
 		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 
 		<Obstacle_Width>60.0</Obstacle_Width>
@@ -699,19 +699,19 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
-		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Structure, Air, Transport</Fire_Category_Restrictions>
 
 		<Exit_Door_Angle_Degrees>180.0</Exit_Door_Angle_Degrees>
 		<Exit_Door_Distance>00.0</Exit_Door_Distance>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>50.0</Hover_Offset>
 
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -727,9 +727,9 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alliance_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Alliance_Shuttle</SFXEvent_Attack>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Gallofree_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Gallofree_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Gallofree_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Gallofree_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -738,7 +738,7 @@
 		<Landing_Transport_Variant>Alliance_Shuttle_Landing</Landing_Transport_Variant>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -759,7 +759,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask> Fighter </CategoryMask>
+		<CategoryMask>Fighter</CategoryMask>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</UniqueUnit>
@@ -780,7 +780,7 @@
 
 	<TransportUnit Name="RM09_Alliance_Shuttle">
 		<Variant_Of_Existing_Type>Alliance_Shuttle</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type>Armor_Transport</Armor_Type>
 		<Tactical_Health>20000</Tactical_Health>
 		<Shield_Points>1750</Shield_Points>
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>

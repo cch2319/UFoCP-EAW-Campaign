@@ -14,8 +14,8 @@
 	<HeroUnit Name="Grand_Admiral_Thrawn">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_THRAWN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_THRAWN </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_THRAWN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_thrawn.tga</Icon_Name>
 
 		<Mass>1.0</Mass>
@@ -28,31 +28,31 @@
 		<Required_Planets />
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
-		<!-- <Lua_Script>Tarkin</Lua_Script> -->
+		<!-- <Lua_Script>Tarkin</Lua_Script>-->
 
 		<Unique_Space_Unit>Admonitor_Star_Destroyer</Unique_Space_Unit>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<Has_Space_Evaluator>False</Has_Space_Evaluator> <!-- Evaluator is on The Admonitor, inverse of this tag needs to be added there too. -->
+		<Has_Space_Evaluator>False</Has_Space_Evaluator><!-- Evaluator is on The Admonitor, inverse of this tag needs to be added there too. -->
 
-		<CategoryMask> SpaceHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<CategoryMask>SpaceHero</CategoryMask>
+		<Ranking_In_Category>3</Ranking_In_Category>
 
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Thrawn</SFXEvent_Move>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Thrawn </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Thrawn </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Thrawn</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Thrawn</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Thrawn</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Thrawn</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Thrawn</SFXEvent_Barrage>
 		<SFXEvent_Guard>Unit_Guard_Thrawn</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Thrawn </SFXEvent_Health_Low_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Thrawn </Death_SFXEvent_Start_Die>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Thrawn</SFXEvent_Health_Low_Warning>
+		<Death_SFXEvent_Start_Die>Unit_Defeat_Thrawn</Death_SFXEvent_Start_Die>
 
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Score_Cost_Credits>10000</Score_Cost_Credits>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -74,7 +74,7 @@
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -140,8 +140,8 @@
 
 			<Remove_Corruption_Ability Name="Thrawn_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
-				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
@@ -152,7 +152,7 @@
 	<HeroCompany Name="Grand_Admiral_Thrawn_Team">
 		<Text_ID>TEXT_HERO_THRAWN_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_THRAWN</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER</Encyclopedia_Unit_Class>
 
 		<Icon_Name>i_button_thrawn.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -177,9 +177,9 @@
 		<SFXEvent_Hero_Respawned>Unit_Select_Thrawn</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Thrawn</SFXEvent_Fleet_Move>
 
-		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<CategoryMask> SpaceHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Score_Cost_Credits>10000</Score_Cost_Credits>
+		<CategoryMask>SpaceHero</CategoryMask>
+		<Ranking_In_Category>3</Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -202,7 +202,7 @@
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
@@ -213,10 +213,10 @@
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_SD_ADMONITOR</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_SD_ADMONITOR_02 </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> Kedalbe_Battleship Calamari_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> B-Wing MC30_Frigate Skipray_Blastboat </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SD_ADMONITOR_02</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>Kedalbe_Battleship Calamari_Cruiser</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>B-Wing MC30_Frigate Skipray_Blastboat</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_thrawn.tga</Icon_Name>
 
 		<Space_Model_Name>EV_StarDestoyer_Thrawn.alo</Space_Model_Name>
@@ -227,17 +227,17 @@
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		<Prevents_Story_Campaign_Autoresolve>Yes</Prevents_Story_Campaign_Autoresolve>
 		<Tech_Level>99</Tech_Level>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+		<Score_Cost_Credits>50000</Score_Cost_Credits>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
-		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<CategoryMask>Capital | SpaceHero | AntiFrigate</CategoryMask>
 		<Population_Value>4</Population_Value>
 		<Death_Clone>Damage_Normal, Admonitor_Star_Destroyer_Death_Clone</Death_Clone>
 
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 
 		<HardPoints>
 			HP_Thrawn_SD_Weapon_FL,
@@ -254,42 +254,42 @@
 
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Thrawn</SFXEvent_Move>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Thrawn </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Thrawn </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Thrawn</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Thrawn</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Thrawn</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Thrawn</SFXEvent_Attack>
 		<SFXEvent_Barrage>Unit_Barrage_Thrawn</SFXEvent_Barrage>
 		<SFXEvent_Guard>Unit_Guard_Thrawn</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Thrawn </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Thrawn</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Defeat_Thrawn</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Thrawn </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Thrawn</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Thrawn</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Thrawn </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Thrawn</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Thrawn</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Star_Destroyer_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Star_Destroyer_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
@@ -326,7 +326,7 @@
 				<GUI_Activated_Ability_Name>Admonitor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
 				<Recharge_Seconds>25</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Thrawn</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -346,14 +346,14 @@
 			</Combat_Bonus_Ability>
 
 			<Tractor_Beam_Attack_Ability Name="Admonitor_Tractor_Beam_Attack_Ability">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Millennium_Falcon, Houndstooth, IG2000</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
 				<Activation_Min_Range>0</Activation_Min_Range>
 				<Activation_Max_Range>800</Activation_Max_Range>
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<!-- Modifiers. If 0 - No modifier is applied, 1 - "100% increase or decrease" -->
 				<Target_Speed_Decrease_Percent>0.9</Target_Speed_Decrease_Percent>
 				<Stacking_Category>2</Stacking_Category>
 			</Tractor_Beam_Attack_Ability>
@@ -381,8 +381,8 @@
 
 			<Remove_Corruption_Ability Name="Thrawn_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
-				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
@@ -421,6 +421,6 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</UniqueUnit>
 </Grand_Admiral_Thrawn_Data>

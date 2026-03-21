@@ -5,51 +5,51 @@
 		<Text_ID>TEXT_HERO_UNIT_SABOTEUR</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SABOTEUR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> Stormtrooper Rebel_Anti_Vehicle_Turret Rebel_Mobile_Defense_Unit </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Dark_Trooper_PhaseII Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Stormtrooper Rebel_Anti_Vehicle_Turret Rebel_Mobile_Defense_Unit</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Dark_Trooper_PhaseII Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_button_saboteur.tga</Icon_Name>
 		<Show_Hero_Head>Yes</Show_Hero_Head>
 
 		<Land_Model_Name>UI_Saboteur.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Mass>1.0</Mass>
 		<Size_Value>75</Size_Value>
 
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
+		<Crouch_Animation_Speed>.537</Crouch_Animation_Speed>
 		<Max_Speed>0.8</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
-		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 0.3 </FormationSpacing>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
-		<FormationOrder> 2 </FormationOrder>
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Custom_Soft_Footprint_Radius>3.5</Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent>2.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>2.0</Custom_Hard_YExtent>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Infantry</UnitCollisionClass>
+		<FormationSpacing>0.3</FormationSpacing>
+		<OverrideAcceleration>.05</OverrideAcceleration>
+		<OverrideDeceleration>.05</OverrideDeceleration>
+		<FormationOrder>2</FormationOrder>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN, TARGETING, GARRISON_UNIT</LandBehavior>
 
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CanCellStack>yes</CanCellStack>
+		<CanCellStack>Yes</CanCellStack>
 		<Mass>1.0</Mass>
 
 		<Affiliation>Underworld</Affiliation>
-		<Armor_Type> Armor_Hero </Armor_Type>
+		<Armor_Type>Armor_Hero</Armor_Type>
 		<Tactical_Health>300</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Damage>4</Damage>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
@@ -59,10 +59,10 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Infantry, 3.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Select>Unit_Select_Sabateur</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sabateur</SFXEvent_Move>
@@ -75,9 +75,9 @@
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> LandHero </CategoryMask>
-		<Ranking_In_Category> 21 </Ranking_In_Category>
-		<MovementClass> Infantry </MovementClass>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category>21</Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -86,15 +86,15 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
-		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> No </Is_Squashable>
+		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
+		<Is_Squashable>No</Is_Squashable>
 		<Create_Team>No</Create_Team>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		<Execute_Script_On_Type>true</Execute_Script_On_Type>
+		<Execute_Script_On_Type>True</Execute_Script_On_Type>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<AI_Combat_Power>50</AI_Combat_Power>
@@ -121,7 +121,7 @@
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>18.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Thermal_Sabateur</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -143,7 +143,7 @@
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>Yes</Causes_Despawn>
 				<Can_Destroy_Special_Structure>True</Can_Destroy_Special_Structure>
-				<Sabotage_Cost_Increase_Factor> 2.0 </Sabotage_Cost_Increase_Factor>
+				<Sabotage_Cost_Increase_Factor>2.0</Sabotage_Cost_Increase_Factor>
 			</Galactic_Sabotage_Ability>
 
 			<!--Old-style corruption
@@ -151,10 +151,10 @@
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>Yes</Causes_Despawn>
-				<Required_Corruption_Level> 0 </Required_Corruption_Level>
-				<Transition_Time_In_Secs> 15.0 </Transition_Time_In_Secs>
-				<Gameplay_Effect_Ability_Names>  </Gameplay_Effect_Ability_Names>
-				<SFXEvent_Activate> Unit_Corrupt_Sabateur</SFXEvent_Activate>
+				<Required_Corruption_Level>0</Required_Corruption_Level>
+				<Transition_Time_In_Secs>15.0</Transition_Time_In_Secs>
+				<Gameplay_Effect_Ability_Names></Gameplay_Effect_Ability_Names>
+				<SFXEvent_Activate>Unit_Corrupt_Sabateur</SFXEvent_Activate>
 			</Corrupt_Planet_Ability>
 			-->
 
@@ -175,7 +175,7 @@
 			</System_Spy_Ability>
 
 			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -191,8 +191,8 @@
 		<Text_ID>TEXT_HERO_UNIT_SABOTEUR</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SABOTEUR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> Stormtrooper Rebel_Anti_Vehicle_Turret Rebel_Mobile_Defense_Unit </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Dark_Trooper_PhaseII Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Stormtrooper Rebel_Anti_Vehicle_Turret Rebel_Mobile_Defense_Unit</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Dark_Trooper_PhaseII Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret</Encyclopedia_Vulnerable_To>
 		<Icon_Name>I_button_ui_saboteur.tga</Icon_Name>
 		<Show_Hero_Head>Yes</Show_Hero_Head>
 
@@ -202,7 +202,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -214,8 +214,8 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
-		<Company_Units> Underworld_Saboteur </Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units>Underworld_Saboteur</Company_Units>
+		<Max_Squad_Size>1</Max_Squad_Size>
 
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<SFXEvent_Build_Complete>Unit_Complete_Sabateur</SFXEvent_Build_Complete>
@@ -224,7 +224,7 @@
 
 		<Population_Value>1</Population_Value>
 		<CategoryMask>LandHero</CategoryMask>
-		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
 
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
@@ -243,7 +243,7 @@
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>18.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Thermal_Sabateur</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -254,7 +254,7 @@
 
 		<Abilities SubObjectList="Yes">
 			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -277,44 +277,44 @@
 
 		<Land_Model_Name>UI_Saboteur.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Mass>1.0</Mass>
 		<Size_Value>75</Size_Value>
 
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
+		<Crouch_Animation_Speed>.537</Crouch_Animation_Speed>
 		<Max_Speed>0.8</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
-		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 0.3 </FormationSpacing>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
-		<FormationOrder> 2 </FormationOrder>
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Custom_Soft_Footprint_Radius>3.5</Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent>2.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>2.0</Custom_Hard_YExtent>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Infantry</UnitCollisionClass>
+		<FormationSpacing>0.3</FormationSpacing>
+		<OverrideAcceleration>.05</OverrideAcceleration>
+		<OverrideDeceleration>.05</OverrideDeceleration>
+		<FormationOrder>2</FormationOrder>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN, TARGETING, GARRISON_UNIT</LandBehavior>
 
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Category>Infantry</Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CanCellStack>yes</CanCellStack>
+		<CanCellStack>Yes</CanCellStack>
 		<Mass>1.0</Mass>
 
 		<Affiliation>Underworld</Affiliation>
-		<Armor_Type> Armor_Hero </Armor_Type>
+		<Armor_Type>Armor_Hero</Armor_Type>
 		<Tactical_Health>300</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Damage>4</Damage>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
@@ -324,10 +324,10 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Infantry, 3.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Select>Unit_Select_Sabateur</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sabateur</SFXEvent_Move>
@@ -340,9 +340,9 @@
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> LandHero </CategoryMask>
-		<Ranking_In_Category> 21 </Ranking_In_Category>
-		<MovementClass> Infantry </MovementClass>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category>21</Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -351,15 +351,15 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
-		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		<Is_Squashable> Yes </Is_Squashable>
+		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
+		<Is_Squashable>Yes</Is_Squashable>
 		<Create_Team>No</Create_Team>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		<Execute_Script_On_Type>true</Execute_Script_On_Type>
+		<Execute_Script_On_Type>True</Execute_Script_On_Type>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<AI_Combat_Power>50</AI_Combat_Power>
@@ -387,7 +387,7 @@
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>2.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Thermal_Sabateur</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -411,7 +411,7 @@
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>Yes</Causes_Despawn>
 				<Can_Destroy_Special_Structure>True</Can_Destroy_Special_Structure>
-				<Sabotage_Cost_Increase_Factor> 2.0 </Sabotage_Cost_Increase_Factor>
+				<Sabotage_Cost_Increase_Factor>2.0</Sabotage_Cost_Increase_Factor>
 			</Galactic_Sabotage_Ability>
 
 			<!--Old-style corruption
@@ -419,10 +419,10 @@
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>Yes</Causes_Despawn>
-				<Required_Corruption_Level> 0 </Required_Corruption_Level>
-				<Transition_Time_In_Secs> 15.0 </Transition_Time_In_Secs>
-				<Gameplay_Effect_Ability_Names>  </Gameplay_Effect_Ability_Names>
-				<SFXEvent_Activate> Unit_Corrupt_Sabateur</SFXEvent_Activate>
+				<Required_Corruption_Level>0</Required_Corruption_Level>
+				<Transition_Time_In_Secs>15.0</Transition_Time_In_Secs>
+				<Gameplay_Effect_Ability_Names></Gameplay_Effect_Ability_Names>
+				<SFXEvent_Activate>Unit_Corrupt_Sabateur</SFXEvent_Activate>
 			</Corrupt_Planet_Ability>
 			-->
 			<!-- New-style corruption -->
@@ -442,7 +442,7 @@
 			</System_Spy_Ability>
 
 			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>250.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -472,8 +472,8 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
-		<Company_Units> Underworld_Saboteur_Exec_Demo </Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Units>Underworld_Saboteur_Exec_Demo</Company_Units>
+		<Max_Squad_Size>1</Max_Squad_Size>
 
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<SFXEvent_Build_Complete>Unit_Complete_Sabateur</SFXEvent_Build_Complete>
@@ -482,7 +482,7 @@
 
 		<Population_Value>1</Population_Value>
 		<CategoryMask>LandHero</CategoryMask>
-		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
 
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
@@ -502,7 +502,7 @@
 				<Type>PLACE_REMOTE_BOMB</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Thermal_Sabateur</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -515,7 +515,7 @@
 		<Abilities SubObjectList="Yes">
 
 			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
-				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Style>User_Input</Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>75.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>

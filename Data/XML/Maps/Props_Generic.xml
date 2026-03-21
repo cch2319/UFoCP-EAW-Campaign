@@ -81,7 +81,7 @@
 		<Obstacle_Y_Offset>-10.0</Obstacle_Y_Offset>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Planetary_Infantry_AutoHeal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -138,9 +138,9 @@
 		<Obstacle_Y_Offset>-10.0</Obstacle_Y_Offset>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_encyclopedia_weather_fire.tga</Icon_Name>
 
 		<Abilities SubObjectList="Yes">
@@ -564,10 +564,10 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> High Obstacle </UnitCollisionClass>
-		<Custom_Hard_XExtent> 25.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>High Obstacle</UnitCollisionClass>
+		<Custom_Hard_XExtent>25.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>25.0</Custom_Hard_YExtent>
 
 	</Props_Generic>
 
@@ -639,7 +639,7 @@
 		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
 		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Generic>
 
@@ -653,11 +653,11 @@
 
 	<SpaceProp Name="Prop_Land_Movement_Compass">
 		<Text_ID />
-		<Land_Model_Name> I_FACING_ARROW.ALO </Land_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor> .33f </Scale_Factor>
-		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+		<Land_Model_Name>I_FACING_ARROW.ALO</Land_Model_Name>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Scale_Factor>.33f</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 	</SpaceProp>
 
 	<Props_Generic Name="Prop_Crashed_Shuttle">
@@ -693,17 +693,17 @@
 		<Affiliation>Neutral</Affiliation>
 		<LandBehavior>UNIT_AI</LandBehavior>
 		<CategoryMask>Wall</CategoryMask>
-		<Space_Layer> Land </Space_Layer>
-		<Avoidance_Disabled> true </Avoidance_Disabled>
-		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 60.0 </Custom_Hard_YExtent>
-		<Snap_Movement_Orders_To_Center> true </Snap_Movement_Orders_To_Center>
+		<Space_Layer>Land</Space_Layer>
+		<Avoidance_Disabled>True</Avoidance_Disabled>
+		<Custom_Hard_XExtent>60.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>60.0</Custom_Hard_YExtent>
+		<Snap_Movement_Orders_To_Center>True</Snap_Movement_Orders_To_Center>
 	</Props_Generic>
 
 
 	<Props_Generic Name="Land_Speeder">
 		<Text_ID>TEXT_INDIG_LAND_SPEEDER</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LIGHT_VEHICLE </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_LIGHT_VEHICLE</Encyclopedia_Text>
 		<Land_Model_Name>NV_Sandspeeder.alo</Land_Model_Name>
 		<Icon_Name />
 		<Mass>1.0</Mass>
@@ -711,22 +711,22 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Deploys>No</Deploys>
 		<Affiliation>Neutral</Affiliation>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Political_Control>0</Political_Control>
 
 		<Max_Speed>2.3</Max_Speed>
-		<Movement_Animation_Speed> 2.3 </Movement_Animation_Speed>
+		<Movement_Animation_Speed>2.3</Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>7.0</Max_Rate_Of_Turn>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<OverrideAcceleration> .2 </OverrideAcceleration>
-		<OverrideDeceleration> .2 </OverrideDeceleration>
-		<FormationSpacing> .75 </FormationSpacing>
-		<FormationOrder> 4 </FormationOrder>
-		<FormationGrouping> Standard </FormationGrouping>
-		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+		<OverrideAcceleration>.2</OverrideAcceleration>
+		<OverrideDeceleration>.2</OverrideDeceleration>
+		<FormationSpacing>.75</FormationSpacing>
+		<FormationOrder>4</FormationOrder>
+		<FormationGrouping>Standard</FormationGrouping>
+		<MinimumPushReturnDistance>100</MinimumPushReturnDistance>
 
-		<Armor_Type> Armor_Vehicle_LT </Armor_Type>
+		<Armor_Type>Armor_Vehicle_LT</Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>1</Damage>
 		<Tactical_Health>20</Tactical_Health>
@@ -742,7 +742,7 @@
 			DAMAGE_TRACKING
 		</LandBehavior>
 
-		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a
 		repulsorlift-driven unit -->
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
@@ -758,18 +758,18 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Skiff_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Skiff_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Skiff_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Skiff_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
 
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask>Vehicle</CategoryMask>
 		<MovementClass>Hover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Ground_Vehicle_Turret_Target> No </Ground_Vehicle_Turret_Target>
+		<Ground_Vehicle_Turret_Target>No</Ground_Vehicle_Turret_Target>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Overall_Length>45.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
@@ -779,8 +779,8 @@
 
 		<Weather_Category>Hover</Weather_Category>
 
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE </Encyclopedia_Text>
-		<Score_Cost_Credits> 20 </Score_Cost_Credits>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Text>
+		<Score_Cost_Credits>20</Score_Cost_Credits>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Rancor_Prison">
@@ -796,9 +796,9 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Space_Obstacle_Radius>800</Space_Obstacle_Radius>
 	</Props_Generic>
 
@@ -806,9 +806,9 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_ACCLAMATOR_wreck_a01.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Space_Obstacle_Radius>800</Space_Obstacle_Radius>
 	</Props_Generic>
 
@@ -816,9 +816,9 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Space_Obstacle_Radius>250</Space_Obstacle_Radius>
 	</Props_Generic>
 
@@ -828,7 +828,7 @@
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_BM">
@@ -837,7 +837,7 @@
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_FL">
@@ -845,7 +845,7 @@
 		<Land_Model_Name>NV_JEDICRUISER_HP_F-L.ALO</Land_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_FR">
@@ -854,7 +854,7 @@
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Krayt_Cine_Unit">
@@ -864,8 +864,8 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Cinematic_Object_Only> Yes </Cinematic_Object_Only>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
+		<Cinematic_Object_Only>Yes</Cinematic_Object_Only>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Interceptor_Cine_Unit">
@@ -874,7 +874,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unit">
@@ -883,18 +883,18 @@
 		<Scale_Factor>200.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Kessel_Planet_Cine_Unit">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<!-- Jeff S: if this is being used outside of the mission 1 cine please let me know and I'll revert this change -->
-		<!-- <Land_Model_Name>W_planet_kessel_cine.alo</Land_Model_Name> -->
+		<!-- <Land_Model_Name>W_planet_kessel_cine.alo</Land_Model_Name>-->
 		<Land_Model_Name>w_kessel_ships.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 
@@ -904,7 +904,7 @@
 		<Scale_Factor>0.10</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_LRS_Wreck">
@@ -912,9 +912,9 @@
 		<Behavior>SPACE_OBSTACLE</Behavior>
 		<Land_Model_Name>NV_LRS.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Space_Layer>Frigate | Corvette</Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_GirderWall_Small">
@@ -923,7 +923,7 @@
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_GirderWall_Big">
@@ -932,7 +932,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_01">
@@ -941,7 +941,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_02">
@@ -950,7 +950,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_03">
@@ -959,7 +959,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_05">
@@ -968,7 +968,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_11">
@@ -977,7 +977,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_12">
@@ -986,7 +986,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_13">
@@ -995,7 +995,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_15">
@@ -1004,7 +1004,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_00">
@@ -1013,7 +1013,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_01">
@@ -1022,7 +1022,7 @@
 		<Scale_Factor>4.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_02">
@@ -1031,7 +1031,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_03">
@@ -1040,7 +1040,7 @@
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_04">
@@ -1049,7 +1049,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_05">
@@ -1058,7 +1058,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_06">
@@ -1067,7 +1067,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_07">
@@ -1076,7 +1076,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_08">
@@ -1085,7 +1085,7 @@
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_09">
@@ -1094,7 +1094,7 @@
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Generic_Generator00">
@@ -1103,7 +1103,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 
@@ -1111,7 +1111,7 @@
 		<GUI_Bounds_Scale>.35</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Text_ID>TEXT_PROP_EXPLODING_CONTAINER</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>w_explosive_crate.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
@@ -1130,9 +1130,9 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
-		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1144,7 +1144,7 @@
 
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 	</Props_Generic>
 
@@ -1152,7 +1152,7 @@
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
@@ -1169,9 +1169,9 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
-		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1181,7 +1181,7 @@
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05 0.05</Radar_Icon_Size>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 	</Props_Generic>
 
@@ -1191,7 +1191,7 @@
 		<Scale_Factor>5.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1m">
@@ -1200,7 +1200,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2m">
@@ -1209,7 +1209,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3m">
@@ -1218,7 +1218,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1s">
@@ -1227,7 +1227,7 @@
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2s">
@@ -1236,7 +1236,7 @@
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3s">
@@ -1245,7 +1245,7 @@
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1b">
@@ -1254,7 +1254,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2b">
@@ -1263,7 +1263,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3b">
@@ -1272,7 +1272,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Alpha_Girders">
@@ -1281,7 +1281,7 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Artifact_Pedestal">
@@ -1296,22 +1296,22 @@
 	<Props_Generic Name="Dathomir_Backdrop_NightCloak">
 		<Text_ID />
 		<Space_Model_Name>w_orbital_nightcloak.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>8</Scale_Factor>
-		<Behavior> IDLE </Behavior>
+		<Behavior>IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
-		<In_Background> Yes </In_Background>
+		<In_Background>Yes</In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
-		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 
 		<!-- When destroyed by tactical super weapon - Death Star -->
-		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
 	</Props_Generic>
 </Props_Generic>
