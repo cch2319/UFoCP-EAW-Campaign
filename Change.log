@@ -79,6 +79,8 @@ Structure Fixes:
 
 
 Texture Fixes:
+• The Crusader Corvette effectively didn't have team coloring in Space Skirmish, which made it difficult to differentiate who's Crusader was who's.  It had a near-transparent "colored" sheen effect, and the window of the cockpit was colored.  The ship has received a new texture that improves the team coloring. (BUG #479)
+• The IPV-1 didn't have team coloring in Space Skirmish, which made it difficult to differentiate who's IPV was who's.  The ship has received a new texture and edited model that adds new team coloring. (BUG #480)
 • The Z-95 Headhunter didn't have team coloring in Space Skirmish: its base texture only had red/yellow stripes and markings, which made it difficult to differentiate who's Headhunter was who's.  The ship has received a new texture that fixes the paint and adds new team coloring to the wings. (BUG #481)
 
 
