@@ -78,6 +78,10 @@ Structure Fixes:
 • The Empire Mineral Extractor in Land Skirmish would not be visible to the Empire if it was obscured by the fog of war while under construction. (BUG #484)
 
 
+Texture Fixes:
+• The Z-95 Headhunter didn't have team coloring in Space Skirmish: its base texture only had red/yellow stripes and markings, which made it difficult to differentiate who's Headhunter was who's.  The ship has received a new texture that fixes the paint and adds new team coloring to the wings. (BUG #481)
+
+
 Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
 • The Houndstooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
