@@ -5257,7 +5257,7 @@
 
 	<SFXEvent Name="EHD_Death_Star_Activate">
 		<Use_Preset>Preset_HUD</Use_Preset>
-		<Samples>C000_DST0102_ENG.wav</Samples>
+		<Samples>I000_EHD4727_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_EHD_DEATH_STAR_ACTIVATE</Text_ID>
 		<Overlap_Test>Unit_EHD</Overlap_Test>

@@ -66,6 +66,7 @@ MISC:
 
 Audio Fixes:
 • Fixed ion cannon hardpoints using the shield generator destruction SFX; in turn, fixed the shield generator destruction SFX not using its second explosion variation. (BUG #477)
+• Fixed the Death Star and the Death Star II not using the "Commence primary ignition!" voice line when pulling the lever to destroy a planet.  The event to play the VO was correct, however, the voice line's file name was changed during development and the event was never fixed. (BUG #509)
 
 
 Interface Fixes:

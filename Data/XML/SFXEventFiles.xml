@@ -7,7 +7,7 @@
 	<File>SFXEvents.xml</File>
 	<File>SFXEventsUnits.xml</File>
 	<File>SFXEventsGUI.xml</File>
-	<File>SFXEventsHUD.xml</File>
+	<File>SFX\SFXEventsHUD.xml</File>
 	<File>SFXEventsCinematics.xml</File>
 	<File>SFXEventsAmbient.xml</File>
 	<File>SFXEventsBuildings.xml</File>
