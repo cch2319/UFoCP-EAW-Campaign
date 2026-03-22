@@ -76,6 +76,10 @@ Interface Fixes:
 • The Annihilator in Consortium campaign #9: The Emperor's New Weapon wasn't on the hero bar, despite being treated as a pseudo-Empire hero. (BUG #508)
 
 
+Model Fixes:
+• The Canderous Assault Tank was clipping into the ground when spawned, notably having its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished, and therefore doesn't act like other repulsorlift vehicles.  It is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
+
+
 Structure Fixes:
 • The Empire Mineral Extractor in Land Skirmish would not be visible to the Empire if it was obscured by the fog of war while under construction. (BUG #484)
 

@@ -49,6 +49,9 @@ Modeling:
 - .lany
 -- P_Corrupt_Planet2.alo - More performant corruption particle
 
+- galyana
+-- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data.
+
 - irampagingrhin0
 -- NV_JediCruiser.alo - Fixed Venator shield/bumpmap mesh
 

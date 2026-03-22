@@ -10,12 +10,16 @@
 
 		<Land_Model_Name>UV_CanderousAssaultTank.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.17</Scale_Factor>
-		<Select_Box_Scale>540</Select_Box_Scale>
+		<Scale_Factor>0.85</Scale_Factor>
+		<Select_Box_Scale>110</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Affiliation>Underworld</Affiliation>
 
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Attack_Animation_Is_Overlay>Yes</Attack_Animation_Is_Overlay>
 		<Max_Speed>1.25</Max_Speed>
 		<Movement_Animation_Speed>1.0</Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
@@ -124,8 +128,8 @@
 		<MinSecondaryTurnROTCoefficient>.4</MinSecondaryTurnROTCoefficient>
 		<MaxSecondaryTurnROTCoefficient>.9</MaxSecondaryTurnROTCoefficient>
 		<SecondaryTurnLookaheadDistance>60</SecondaryTurnLookaheadDistance>
-		<Custom_Hard_XExtent>55.0</Custom_Hard_XExtent>
-		<Custom_Hard_YExtent>35.0</Custom_Hard_YExtent>
+		<Custom_Hard_XExtent>30.0</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
