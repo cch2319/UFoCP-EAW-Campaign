@@ -1,13 +1,13 @@
-# UFCP/UFoCP
+# UFCP
 ## Unofficial Forces of Corruption Patch
-- Version: v2.0.0.####
+- Version: v2.1.0.####
 - License: The UnLicense (with a special request, please see LICENSE)
 ---
-The Unofficial Forces of Corruption Patch is a one-does-all community patch for Petroglyph Games' 2006 RTS "STAR WARS: Empire at War – Forces of Corruption."  UFCP's is to correct as many errors as possible to whatever limit is available within Petroglyph's Alamo engine in one convenient package.
+The Unofficial Forces of Corruption Patch is a one-does-all community patch for Petroglyph Games' "STAR WARS: Empire at War – Forces of Corruption."  UFCP's objective is to correct as many errors/bugs/glitches as possible in one convenient package, to whatever limit is available, within Petroglyph's Alamo engine.
 
-You must legally own the [Steam](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) updated version of the STAR WARS: Empire at War - Gold Pack to work on UFCP.  Retail or GOG may work, though they are unsupported[1].
+You must legally own the [Steam/updated version](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) of the STAR WARS: Empire at War - Gold Pack to work on UFCP.  Retail or GOG may work, though they are unsupported[1].
 
-* [1]: "Unsupported," as in: this project is Windows restricted.  The outdated Mac version of the game is unsupported, along with Linux emulation.  This patch may work with those versions, but there will be no guarantee of support should anything go wrong.  The current Windows Steam release is semi-frequently updated, and supported with new bugfixes and features from Petroglyph.
+* [1]: "Unsupported," as in: this project is restricted to Windows.  The outdated Mac version of the game is unsupported, along with Linux emulation via Proton or Wine.  This patch may work with those versions, but there will be no guarantee of support should anything go wrong.  The current Windows Steam release is semi-frequently updated, and supported with new bugfixes and modding features from Petroglyph.
 
 ## Prerequisities
 ### Editors
@@ -36,7 +36,7 @@ Forces of Corruption and Petroglyph's second game Universe at War uses ALO/ALA 2
 
 When installing the map editor, an Autodesk 3DS Max 8 and 9 version of Petroglyph's official plugin are provided within the game's files.  3DS Max 8 and 9 cannot be aquired legally anymore.  The app itself is also buggy on modern computers, making 3DS Max an unrecommended model editor.
 
-[Gaukler](https://github.com/Gaukler) created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings, and has currently been maintained by [evilbobthebob](https://github.com/andrewfullard).  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require Mike Lankamp (Mike.nl)'s animation converter.
+[Gaukler](https://github.com/Gaukler) created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings, and has currently been maintained by [evilbobthebob](https://github.com/andrewfullard).  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require Mike.nl's animation converter.
 - [ALAMO Plugin](https://github.com/andrewfullard/Blender-ALAMO-Plugin)
 - [Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
 - [ALOViewer](https://github.com/gryttr/alo-viewer)

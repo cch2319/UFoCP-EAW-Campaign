@@ -1,14 +1,14 @@
 {
 	"name": "Unofficial Forces of Corruption Patch (UFCP)",
 	"summary": "A comprehensive bug-fixing mod for Forces of Corruption.",
-	"icon": "",
-	"version": "2.0.0.1039",
+	"icon": "icon.ico",
+	"version": "2.1.0.XXXX",
 	"steamdata":
 	{
 		"publishedfileid": "1548018187",
 		"contentfolder": "1548018187",
-		"previewfile": "1548018187/.png",
-		"visibility": 2,
+		"previewfile": "1548018187/thumbnail.png",
+		"visibility": 0,
 		"title": "Unofficial Forces of Corruption Patch (UFoCP)",
 		"description": "",
 		"metadata": "",
