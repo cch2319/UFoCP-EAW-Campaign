@@ -47,10 +47,10 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 UFCP:
 ======
 FORWARDED FIXES (COMMIT 824b819, 1a0ff01):
-• Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into UniqueUnits.xml: Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air.
-• Forwarded part of the official fix from Petroglyph patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml: two new model entries were proposed by Beta Testers for scripted Pirate Frigates used in both the Empire and Rebel campaigns.  This was supposed to fix issues where their models would become larger when destroyed, however, the frigate in Empire campaign mission #2 "The Pirate Menace" cannot be destroyed, so the new death clone has not been forwarded.  Only the fix for for Rebel campaign mission #6 "Highest Bidder" has been added.  However, this new death clone was still broken, as it was 10% smaller than the size of the actual frigate.  The regular Pirate Frigate would also become 10% larger when destroyed.  This has been fixed without a GitHub bug report.
-• Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly.
-• Forwarded the official fix from Petroglyph patch 1.121.859328 (10/2024): fixes for bugs #147, #148, 149, #150, #151, #152 and #153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed.  In addition, the special "_MP" versions of the space units used for Skirmish have been removed as well.
+• Forwarded Petroglyph's official fix from patch 1.121.826595 (11/20/23) into UniqueUnits.xml - Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air.
+• Forwarded part of Petroglyph's official fix from patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml - two new entries were added to fix the Pirate Leader and Pirate Captain's Pirate Frigate becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Pirate Captain in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Pirate Leader becoming bigger in "Highest Bidder" was broken, as he would still be 10% bigger when destroyed.  The regular Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report.
+• Forwarded Petroglyph's official fix from patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly.
+• Forwarded Petroglyph's official fix from patch 1.121.859328 (10/22/24): fixes for bugs #147, #148, 149, #150, #151, #152 and #153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed.  In addition, the special "_MP" versions of the space units used for Skirmish have been removed as well.
 
 
 HOUSEKEEPING:
@@ -93,7 +93,7 @@ Texture Fixes:
 
 Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
-• The Houndstooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
+• The Hound's Tooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
 • Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the icon to signify the "heal range," and the icon has been removed. (BUG #381)
 
 
