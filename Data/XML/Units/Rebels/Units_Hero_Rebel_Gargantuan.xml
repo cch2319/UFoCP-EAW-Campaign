@@ -23,8 +23,9 @@
 		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 
-		<Behavior>SELECTABLE</Behavior>
+		<Behavior />
 		<LandBehavior>
+			SELECTABLE,
 			ABILITY_COUNTDOWN,
 			WALK_LOCOMOTOR,
 			IDLE,

@@ -46,7 +46,7 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 UFCP:
 ======
-FORWARDED FIXES (COMMIT 824b819):
+FORWARDED FIXES (COMMIT 824b819, 1a0ff01):
 • Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into UniqueUnits.xml: Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air.
 • Forwarded part of the official fix from Petroglyph patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml: two new model entries were proposed by Beta Testers for scripted Pirate Frigates used in both the Empire and Rebel campaigns.  This was supposed to fix issues where their models would become larger when destroyed, however, the frigate in Empire campaign mission #2 "The Pirate Menace" cannot be destroyed, so the new death clone has not been forwarded.  Only the fix for for Rebel campaign mission #6 "Highest Bidder" has been added.  However, this new death clone was still broken, as it was 10% smaller than the size of the actual frigate.  The regular Pirate Frigate would also become 10% larger when destroyed.  This has been fixed without a GitHub bug report.
 • Forwarded the official fix from Petroglyph patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly.
@@ -57,7 +57,7 @@ HOUSEKEEPING:
 • The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
 • Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
-• A duplicate of Admiral Ackbar's icon, "i_button_general_akbar," has been deleted from the game's master texture atlas. (No forward-facing changes.)
+• A duplicate of Admiral Ackbar's icon, "i_button_general_akbar.tga," has been deleted from the game's master texture atlas. (No forward-facing changes.)
 
 
 MISC:
