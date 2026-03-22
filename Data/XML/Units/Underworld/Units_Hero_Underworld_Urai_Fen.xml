@@ -180,7 +180,7 @@
 				<Heal_Percent>0.03</Heal_Percent>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<Heal_Range_Blob_Material />
 
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Urai_Fen</Applicable_Unit_Types>
@@ -216,14 +216,12 @@
 
 			<Stun_Ability Name="Urai_Stun">
 				<Activation_Style>User_Input</Activation_Style>
-				<!-- We need to be within this distance of the clicked target to consider activating
-				Stun -->
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>75.0</Activation_Max_Range>
 				<Stun_Time_In_Secs>10.0</Stun_Time_In_Secs>
 				<Stun_Range>110.0</Stun_Range>
-				<!-- How long does it take for the shockwave to spread from the hero to the max
-				range? -->
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
 				<Stunned_Effect>Stunned_Particle_Effect</Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
@@ -301,7 +299,7 @@
 				<Heal_Percent>0.03</Heal_Percent>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<Heal_Range_Blob_Material />
 
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Urai_Fen_Prologue</Applicable_Unit_Types>
@@ -337,14 +335,12 @@
 
 			<Stun_Ability Name="Urai_Stun">
 				<Activation_Style>User_Input</Activation_Style>
-				<!-- We need to be within this distance of the clicked target to consider activating
-				Stun -->
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>75.0</Activation_Max_Range>
 				<Stun_Time_In_Secs>10.0</Stun_Time_In_Secs>
 				<Stun_Range>75.0</Stun_Range>
-				<!-- How long does it take for the shockwave to spread from the hero to the max
-				range? -->
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
 				<Stunned_Effect>Stunned_Particle_Effect</Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->

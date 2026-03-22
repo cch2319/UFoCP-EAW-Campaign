@@ -93,6 +93,7 @@ Texture Fixes:
 Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
 • The Houndstooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
+• Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the icon to signify the "heal range," and the icon has been removed. (BUG #381)
 
 
 
