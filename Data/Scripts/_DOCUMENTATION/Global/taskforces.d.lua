@@ -24,3 +24,18 @@ EscortForce = nil
 
 ---@type TaskForce
 EmptyForce = nil
+
+---@type TaskForce
+StructureForce = nil
+
+---@type TaskForce
+DeathStarForce = nil
+
+---@type TaskForce
+BountyForce = nil
+
+---@type TaskForce
+SmugglerForce = nil
+
+---@type TaskForce
+TechForce = nil
