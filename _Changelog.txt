@@ -76,6 +76,10 @@ Interface Fixes:
 • The Annihilator in Consortium campaign #9: The Emperor's New Weapon wasn't on the hero bar, despite being treated as a pseudo-Empire hero. (BUG #508)
 
 
+Map Fixes:
+• Land Taris Intimidation had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris Intimidation has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #511)
+
+
 Model Fixes:
 • The Canderous Assault Tank was clipping into the ground when spawned, notably having its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished, and therefore doesn't act like other repulsorlift vehicles.  It is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
 • The Vengeance Frigate had a turbolaser that would not cloak with the rest of the Frigate when using the ability, and stay visible.  Not only was the model's definition attaching the model to the wrong bone, the model itself was flipped the wrong direction.  Both files have been corrected. (BUG #169) (Thanks, galyana!)
