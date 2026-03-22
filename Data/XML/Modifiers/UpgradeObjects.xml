@@ -137,7 +137,6 @@
 
 
 	<!-- ================== EMPIRE UNIT RESEARCH UPGRADES =================== -->
-
 	<UpgradeObject Name="EL_Scout_Trooper_Research_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
@@ -272,7 +271,6 @@
 
 
 	<!-- ================== REBEL LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
-
 	<!-- Combat Armor (Level 1): Rebel Troopers take 50% less damage -->
 	<UpgradeObject Name="RL_Combat_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -1087,7 +1085,6 @@
 
 
 	<!-- ================== EMPIRE LAND MULTIPLAYER GENERAL UPGRADE OBJECTS =================== -->
-
 	<!-- Increased Mobility: Stormtroopers move 30% faster. -->
 	<UpgradeObject Name="EL_Increased_Mobility_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -1797,7 +1794,6 @@
 	</UpgradeObject>
 
 	<!-- ================== REBEL SPACE SKIRMISH GENERAL UPGRADE OBJECTS =================== -->
-
 	<!-- Enhanced Shielding (Level 1): Fighters gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="RS_Enhanced_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -2493,7 +2489,6 @@
 
 
 	<!-- ================== EMPIRE SPACE SKIRMISH GENERAL UPGRADE OBJECTS =================== -->
-
 	<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="ES_Enhanced_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3252,7 +3247,6 @@
 
 
 	<!-- ================== SPACE SKIRMISH STARBASE UPGRADE OBJECTS =================== -->
-
 	<UpgradeObject Name="RS_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>

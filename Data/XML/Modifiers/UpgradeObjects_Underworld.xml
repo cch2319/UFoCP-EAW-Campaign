@@ -2375,17 +2375,13 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
+
 	<!-- ******************************************************************************************* -->
 	<!-- ******				UPGRADE OBJECTS FOR SOLO PLAY UNDERWORLD GROUND STRUCTURES		  ****** -->
 	<!-- ******************************************************************************************* -->
-
-
-
 	<!-- ############## -->
 	<!-- ### PALACE ### -->
 	<!-- ############## -->
-
-
 	<!-- Black Market Shielding (Level 1): Structures gain a 25% bonus to shield strength. -->
 	<UpgradeObject Name="UL_BM_Shielding_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1</Encyclopedia_Text>
@@ -2553,7 +2549,6 @@
 	<!-- ################ -->
 	<!-- ### BARRACKS ### -->
 	<!-- ################ -->
-
 	<!-- Recharge Ability (Level 1): Infantry special abilities recharge 15% faster. -->
 	<UpgradeObject Name="UL_Ability_Recharge_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1</Encyclopedia_Text>
@@ -2642,8 +2637,6 @@
 	<!-- ################### -->
 	<!-- ### DROID WORKS ### -->
 	<!-- ################### -->
-
-
 	<!-- MDU Armor (Level 1): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1</Encyclopedia_Text>
@@ -2684,7 +2677,6 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</UpgradeObject>
-
 
 	<!-- MDU Armor (Level 2): Mobile Defense Units take 25% less damage. -->
 	<UpgradeObject Name="UL_MDU_Armor_Plating_L2_Upgrade_NO_PREREQ">
@@ -2768,8 +2760,6 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</UpgradeObject>
-
-
 
 	<!-- Smuggled Droid Systems (Level 2): Destroyer Droids gain a 25% bonus to shield strength and 20% damage increase -->
 	<UpgradeObject Name="UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ">
@@ -2856,7 +2846,6 @@
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</UpgradeObject>
-
 
 	<UpgradeObject Name="UL_Weapon_Boost_L2_Upgrade_NO_PREREQ">
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2</Encyclopedia_Text>
