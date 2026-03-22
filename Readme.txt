@@ -51,6 +51,7 @@ Modeling:
 
 - galyana
 -- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data.
+-- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh.
 
 - irampagingrhin0
 -- NV_JediCruiser.alo - Fixed Venator shield/bumpmap mesh

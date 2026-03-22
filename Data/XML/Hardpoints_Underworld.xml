@@ -2284,7 +2284,7 @@
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Model_To_Attach>UV_Vengeance_HP_LFT_TB.alo</Model_To_Attach>
+		<Model_To_Attach>UV_Vengeance_HP_RGT_TB.alo</Model_To_Attach>
 		<Attachment_Bone>HP_RGT_TB_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_RGT_TB_COLL</Collision_Mesh>
 		<Damage_Decal>HP_RGT_TB_BLAST</Damage_Decal>
