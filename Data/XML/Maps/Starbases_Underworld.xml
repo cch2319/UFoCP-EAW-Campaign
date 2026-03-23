@@ -1109,6 +1109,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 	</StarBase>
+
 	<StarBase Name="Skirmish_Underworld_Star_Base_5">
 		<Variant_Of_Existing_Type>Underworld_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
