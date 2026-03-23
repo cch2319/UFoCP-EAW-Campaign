@@ -646,7 +646,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prop_Millenium_Falcon">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RV_MFalcon_Land.ALO</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<!-- <Is_Sprite>No</Is_Sprite>-->
@@ -782,7 +782,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM02_Droid_Crate">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -1052,7 +1052,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_NODE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prison_Terminal.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1112,7 +1112,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_EWOK">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NI_EWOK_C.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1120,7 +1120,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_EWOK2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NI_EWOK_B.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1128,7 +1128,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_ACADEMY">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EB_OfficerAcademy.alo</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1136,7 +1136,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_BARGE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_AT-Barge.ALO</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1144,7 +1144,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SHUTTLE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_LAMBDASHUTTLE_SPACE.ALO</Land_Model_Name>
 		<Scale_Factor>.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1152,7 +1152,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_BOMBER">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_TIEBOMBER.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1160,7 +1160,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_BRIDGE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>Cin_bridge.alo</Land_Model_Name>
 		<Scale_Factor>.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1168,7 +1168,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DSTAR">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
 		<Scale_Factor>0.08</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1176,7 +1176,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DSTAR2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
 		<Scale_Factor>0.08</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1184,7 +1184,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_TIE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>ev_TieFighter.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1192,7 +1192,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_ATAT">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1200,7 +1200,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SPMAT">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_SPMAT.ALO</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1208,7 +1208,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_ATST">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1216,7 +1216,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_ATAA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_AT-AA.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1224,7 +1224,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_M1">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_2MTANK.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1232,7 +1232,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_CRAWLER">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Tiecrawler.alo</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1240,7 +1240,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SABER">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RI_saber_spin.ALO</Land_Model_Name>
 		<Scale_Factor>2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1248,7 +1248,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTHEAD">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1256,7 +1256,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTRIBS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1264,7 +1264,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTTAIL">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1272,7 +1272,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTHEAD_SM">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1280,7 +1280,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTRIBS_SM">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1288,7 +1288,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTTAIL_SM">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1296,7 +1296,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_RANCOR">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_Rancor.alo</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1304,7 +1304,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_BLOCKA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_UrbanBlock_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1312,7 +1312,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_A">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1320,7 +1320,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_B">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_planet_desert-urban_high.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1328,7 +1328,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_C">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_planet_swamp00.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1336,7 +1336,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_Z95">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Land_Model_Name>RV_Z-95.ALO</Land_Model_Name>
 		<Scale_Factor>2.75</Scale_Factor>
@@ -1345,7 +1345,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDTENTS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NB_Sandpeople_Tent.alo</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1353,7 +1353,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDGUY">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NI_SandPeople_B.alo</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1361,7 +1361,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDJAWA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NI_JAWA.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1369,7 +1369,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_A">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NB_DCH.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1377,7 +1377,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_B">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1385,7 +1385,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_C">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1393,7 +1393,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDCIV">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NI_Gmale_Desert_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1401,7 +1401,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SWAMPTREE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Tree_Gnarl_00_HI.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1409,7 +1409,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SWAMPDIANOGA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_Dianoga.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1417,7 +1417,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWMTNS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_IceMntRnge01.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1425,7 +1425,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDBANTHA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>wc_bantha.alo</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1433,7 +1433,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWTAUN">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_TAUNTAUN.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1441,7 +1441,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWWAMPA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_Wampa.alo</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1449,7 +1449,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWCAVE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_WampaCave.alo</Land_Model_Name>
 		<Scale_Factor>.4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1457,7 +1457,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELBEETLE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_GROUNDBEETLE.ALO</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1465,7 +1465,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_felucia_plant_06.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1473,7 +1473,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTB">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_felucia_plant_01.alo</Land_Model_Name>
 		<Scale_Factor>.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1481,7 +1481,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTC">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_felucia_plant_00_tall.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1489,7 +1489,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABTREES">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Tree_Dec_Canopy_A.ALO</Land_Model_Name>
 		<Scale_Factor>.3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1497,7 +1497,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABMTNS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TempMntRnge00.ALO</Land_Model_Name>
 		<Scale_Factor>.4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1505,7 +1505,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABBIRD">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Bird_light.ALO</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1513,7 +1513,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABSHAAK">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_SHAAKS.ALO</Land_Model_Name>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1521,7 +1521,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABSTATUE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
 		<Scale_Factor>.3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1529,7 +1529,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABBLDGA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TheedBuild_B.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1537,7 +1537,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABBLDGB">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TheedBuild_C.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1545,7 +1545,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDCAVE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NB_Rancor_cave.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1553,7 +1553,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOLE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_Sarlacc.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1561,7 +1561,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDRAT">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>AI_womprat.alo</Land_Model_Name>
 		<Scale_Factor>.95</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1569,7 +1569,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SITHDOORA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_SithTomb.ALO</Land_Model_Name>
 		<Scale_Factor>3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1578,7 +1578,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SITHDOORB">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_SithTomb.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1587,7 +1587,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SITHSTATUE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_SithStatue.ALO</Land_Model_Name>
 		<Scale_Factor>1.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1595,7 +1595,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_WOOKTREE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1603,7 +1603,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_WOOKIE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RI_Wookiee01.alo</Land_Model_Name>
 		<Scale_Factor>.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1611,7 +1611,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_BLACK_COVER">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_black_box.alo</Land_Model_Name>
 		<Scale_Factor>25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1619,7 +1619,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_BLACK_COVER_GIANT">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_black_box.alo</Land_Model_Name>
 		<Scale_Factor>150</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1627,7 +1627,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_SITH_WALLA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TheedWall_A.alo</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1635,7 +1635,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_SITH_WALLB">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TheedWall_B.alo</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1643,7 +1643,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_SITH_WALLC">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_TheedWall_C.alo</Land_Model_Name>
 		<Scale_Factor>4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1651,7 +1651,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_SITH_TORCH">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1659,7 +1659,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_SITH_ALTAR">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
 		<Scale_Factor>2.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1667,7 +1667,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_DOOR_FRAME">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1675,7 +1675,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_DOOR_FRAME_2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>3.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1683,7 +1683,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DTP_I">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_PROP_DarkTrooper_one.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1691,7 +1691,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DTP_II">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_PROP_Darktrooper_two.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1699,7 +1699,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DTP_III">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_PROP_darkTroop_three.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1707,7 +1707,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_CONSOLE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1722,7 +1722,7 @@
 
 	<Props_Story Name="UMP_BOUNTY_HUNTER">
 		<!-- this is a dead bounty hunter cine prop -->
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_bountyhunter.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1730,7 +1730,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_ALARM_LIGHT">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_alarm_light.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -1994,7 +1994,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_PRISON_BARS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_prison_bars.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2002,7 +2002,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM05_GRATE">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_prison_bars.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2094,7 +2094,7 @@
 	</Props_Story>
 
 	<Props_Story Name="Prop_Guard_Tower">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Icon_Name>i_button_eb_guardtower.tga</Icon_Name>
 		<Land_Model_Name>EB_GuardTower.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
@@ -2106,7 +2106,7 @@
 	</Props_Story>
 
 	<Props_Story Name="Prop_Silri_Prison">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Icon_Name>i_button_cage.tga</Icon_Name>
 		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
@@ -2116,14 +2116,14 @@
 	</Props_Story>
 
 	<Props_Story Name="Prop_Rancor_Cave">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NB_Rancor_cave.alo</Land_Model_Name>
 		<Icon_Name>i_button_NB_Rancor_cave.tga</Icon_Name>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
 
 	<Props_Story Name="Prop_Dathomir_Bridge">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_DathBridge.alo</Land_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Scale_Factor>2</Scale_Factor>
@@ -2272,7 +2272,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_DEADGUYS">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_DeadMen_A.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2280,7 +2280,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_DEADATST1">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_DeadAT-ST_A.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2288,7 +2288,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_DEADATST2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_DeadAT-ST_B.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2296,7 +2296,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UM02_CONVEYOR">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Behavior>IDLE</Behavior>
 		<Land_Model_Name>w_droidconvey_a.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
@@ -2305,7 +2305,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_DEADTROOPER">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_PropDeadST.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2685,14 +2685,14 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_TYBERBED">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_jail_bed.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_TYBERBED_CUSTOM">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_jail_bed_tyber.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2700,7 +2700,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_TYBERSITTING">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>ui_tyber_in_jail.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2708,7 +2708,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_HOLOURAI">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_urai_hologram.alo</Land_Model_Name>
 		<Scale_Factor>.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2716,7 +2716,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_HOLOJABBA">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_jaba.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -2731,7 +2731,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_CINE_MOUSEDROID">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Mousedroid_solo.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -3326,7 +3326,7 @@
 	</Props_Story>
 
 	<Props_Story Name="PROP_CORUSCANT_SKYDOME">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_sky_smog00.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -3334,7 +3334,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_Small_Ramp">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_UrbanHalfWall_Side.ALO</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>.3</Scale_Factor>
@@ -3344,7 +3344,7 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_Small_Gear">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_PwrBox.ALO</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>.4</Scale_Factor>
