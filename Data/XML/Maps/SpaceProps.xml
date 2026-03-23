@@ -873,12 +873,10 @@
 
 
 	<!-- TACTICAL PLANET DESTRUCTION REMAINS -->
-
 	<SpaceProp Name="Destroyed_Planet_Remains_Part_1">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_huge.alo</Space_Model_Name>
-		<Is_Decoration>Yes</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a
-		decoration -->
+		<Is_Decoration>Yes</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
 		<Is_Discardable>No</Is_Discardable>
 		<Scale>2.0</Scale>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -897,8 +895,7 @@
 	<SpaceProp Name="Destroyed_Planet_Remains_Part_2">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_huge_particle.alo</Space_Model_Name>
-		<Is_Decoration>Yes</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a
-		decoration -->
+		<Is_Decoration>Yes</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
 		<Is_Discardable>No</Is_Discardable>
 		<Scale>1.0</Scale>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -913,16 +910,15 @@
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</SpaceProp>
-
 	<!-- END TACTICAL PLANET DESTRUCTION REMAINS -->
 
 
 
 	<SpaceProp Name="Orbital_NightCloak_Dathomir">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>EB_construction_pod.alo</Space_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
@@ -940,9 +936,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 
-		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<!--
+			Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
+			<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+			<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		-->
 
 		<Is_Impassable_Asteroid>True</Is_Impassable_Asteroid>
@@ -1399,16 +1396,16 @@
 	<SpaceProp Name="Space_Movement_Compass">
 		<Text_ID />
 		<Space_Model_Name>I_FACING_ARROW.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Space_Girder_Wall">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1417,7 +1414,7 @@
 	</SpaceProp>
 
 	<SpaceProp Name="Black_hole">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_black_hole.alo</Space_Model_Name>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
@@ -1429,114 +1426,114 @@
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Empire_Dock_Small">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Empire_Dock_Medium">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Empire_Dock_Large">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Small00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>2.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Small01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Small02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Medium00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>2.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Medium01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Medium02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>3.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Large00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>2.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Large01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>3.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Large02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>4.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Huge00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 	</SpaceProp>
 
 	<SpaceProp Name="Collide_Asteroid_Huge00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>w_asteroid03.alo</Space_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
@@ -1548,7 +1545,7 @@
 	</SpaceProp>
 
 	<SpaceProp Name="Empire_Dock">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
@@ -1588,6 +1585,7 @@
 
 	<SpaceProp Name="Space_Junk_Large_NO_Collision">
 		<Variant_Of_Existing_Type>Space_Junk_Large</Variant_Of_Existing_Type>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>IDLE</Behavior>
 		<Space_Obstacle_Radius>0</Space_Obstacle_Radius>
 		<Is_Asteroid_Field>No</Is_Asteroid_Field>
@@ -1674,7 +1672,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Star_Dest_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_HP00_L-F.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1696,7 +1694,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Star_Dest_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1718,7 +1716,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Star_Dest_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1740,7 +1738,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Star_Dest_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1762,7 +1760,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Star_Dest_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_HP00_M-C.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1786,7 +1784,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1808,7 +1806,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1830,7 +1828,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1852,7 +1850,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1874,7 +1872,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_ML">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_M-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1896,7 +1894,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_MR">
 		<Text_ID />
 		<Space_Model_Name>RV_MonCalCruiser_HP00_M-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1920,7 +1918,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Nebulon_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>RV_nebulonb_HP00_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1942,7 +1940,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Nebulon_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>RV_nebulonb_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1964,7 +1962,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Nebulon_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>RV_nebulonb_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1986,7 +1984,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Nebulon_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>RV_nebulonb_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2010,7 +2008,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_AAFrigate_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>RV_AssaultFrigate_HP00_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2032,7 +2030,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_AAFrigate_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>RV_AssaultFrigate_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2054,7 +2052,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_AAFrigate_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>RV_AssaultFrigate_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2076,7 +2074,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_AAFrigate_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>RV_AssaultFrigate_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2100,7 +2098,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Victory_Weapon_CF">
 		<Text_ID />
 		<Space_Model_Name>EV_VictoryStarDestroyer_HP00_C-F.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2122,7 +2120,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Victory_Weapon_MR">
 		<Text_ID />
 		<Space_Model_Name>EV_VictoryStarDestroyer_HP00_M-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2144,7 +2142,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Victory_Weapon_ML">
 		<Text_ID />
 		<Space_Model_Name>EV_VictoryStarDestroyer_HP00_M-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2166,7 +2164,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Victory_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>EV_VictoryStarDestroyer_HP00_C-B.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2190,7 +2188,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>EV_Interdictor_HP00_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2212,7 +2210,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>EV_Interdictor_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2234,7 +2232,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>EV_Interdictor_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2256,7 +2254,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>EV_Interdictor_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2281,7 +2279,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>EV_Acclamator_HP00_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2303,7 +2301,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>EV_Acclamator_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2324,7 +2322,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_FC">
 		<Text_ID />
 		<Space_Model_Name>EV_Acclamator_HP00_F-C.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2345,7 +2343,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>EV_Acclamator_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2366,7 +2364,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>EV_Acclamator_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2389,7 +2387,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_One_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_01_HP01_SHG.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2410,7 +2408,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_One_TBL">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_01_HP01_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2431,7 +2429,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_One_CA">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_01_HP01_CA.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2454,7 +2452,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Two_Weapon_LC">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_02_HP02_LC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2475,7 +2473,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Two_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_02_HP02_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2498,7 +2496,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Three_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_03_HP03_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2519,7 +2517,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Three_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_03_HP03_PRT.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2542,7 +2540,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Four_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_04_HP04_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2563,7 +2561,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Four_Weapon_LC">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_04_HP04_LC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2584,7 +2582,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Four_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_04_HP04_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2605,7 +2603,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Four_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_04_HP04_SHG.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2628,7 +2626,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_CCM">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_05_HP05_CCM.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2649,7 +2647,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_05_HP05_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2670,7 +2668,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_05_HP05_PRT.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2691,7 +2689,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_05_HP05_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2712,7 +2710,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_TBL2">
 		<Text_ID />
 		<Space_Model_Name>RB_Station_05_HP05_TBL2.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2735,7 +2733,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_One_Weapon_CM">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_01_HP01_CM.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2756,7 +2754,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_One_Weapon_LC">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_01_HP01_LC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2777,7 +2775,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_One_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_01_HP01_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2798,7 +2796,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_One_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_01_HP01_SHG.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2819,7 +2817,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_One_CA">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_01_HP01_CA.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2842,7 +2840,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Two_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_02_HP02_PRT.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2863,7 +2861,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Two_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_02_HP02_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2884,7 +2882,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Two_Weapon_LC">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_02_HP02_LC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2907,7 +2905,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Three_Weapon_CM">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_03_HP03_CM.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2928,7 +2926,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Three_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_03_HP03_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2949,7 +2947,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Three_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_03_HP03_PRT.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2972,7 +2970,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Four_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_04_HP04_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -2993,7 +2991,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Four_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_04_HP04_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3016,7 +3014,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_CM">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_05_HP05_CM.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3037,7 +3035,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_05_HP05_IC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3058,7 +3056,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_05_HP05_PRT.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3079,7 +3077,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_TBL">
 		<Text_ID />
 		<Space_Model_Name>EB_Station_05_HP05_TBL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3102,7 +3100,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>RV_HomeOne_HP_SHG.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3123,7 +3121,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_TBL_BL">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_TBL_BL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3144,7 +3142,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_TBL_BR">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_TBL_BR.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3165,7 +3163,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_TBL_FL">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_TBL_FL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3186,7 +3184,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_TBL_FR">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_TBL_FR.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3207,7 +3205,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_IC_BL">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_IC_BL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3228,7 +3226,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_IC_BR">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_IC_BR.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3249,7 +3247,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_IC_FL">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_IC_FL.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3270,7 +3268,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_IC_FR">
 		<Text_ID />
 		<Space_Model_Name>RV_homeone_hp_IC_FR.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3293,7 +3291,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Jedi_Cruiser_ShieldGen">
 		<Text_ID />
 		<Space_Model_Name>NV_Jedicruiser_HP_B-M.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3314,7 +3312,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Jedi_Cruiser_FR">
 		<Text_ID />
 		<Space_Model_Name>NV_JediCruiser_hp_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -3335,7 +3333,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Jedi_Cruiser_FL">
 		<Text_ID />
 		<Space_Model_Name>NV_JediCruiser_hp_F-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3358,7 +3356,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Pirate_Frigate_BL">
 		<Text_ID />
 		<Space_Model_Name>NV_pirate_frigate_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3380,7 +3378,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Pirate_Frigate_BR">
 		<Text_ID />
 		<Space_Model_Name>NV_pirate_frigate_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3402,7 +3400,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Pirate_Frigate_F">
 		<Text_ID />
 		<Space_Model_Name>NV_pirate_frigate_HP00_F.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3427,7 +3425,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Hanger">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_hb.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3449,7 +3447,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Hvy_Turret_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ht1.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3471,7 +3469,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Hvy_Turret_01">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ht2.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3493,7 +3491,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Light_Laser_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ll1.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3515,7 +3513,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Light_Laser_01">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ll2.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3537,7 +3535,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Shield_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_shg.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3559,7 +3557,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl1.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3581,7 +3579,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_01">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl2.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3603,7 +3601,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_02">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl3.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -3625,7 +3623,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_03">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl4.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>

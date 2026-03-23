@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Props_Generic>
 	<Props_Generic Name="Prop_AllShaders">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_AllShaders.ALO</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -11,7 +11,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_AllShadersNoText">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_AllShaders_NoText.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -21,7 +21,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_ElectricBox_00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_ElecBox.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -32,7 +32,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_ConcretePad_00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_ConcretePad.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -40,7 +40,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Generator00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_Generator.ALO</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -49,7 +49,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_PwrBox00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_PwrBox.ALO</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -58,7 +58,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Snowspeeder_dmg">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RV_Snowspeeder_dmg.ALO</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -68,7 +68,7 @@
 
 	<!-- Used on Thyferra and Manaan to auto-heal all defending units in tactical combat -->
 	<Props_Generic Name="Prop_DefenderInfantryAutoHeal">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_ElecBox.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -124,7 +124,7 @@
 
 	<!-- Used on Shola for damaging infantry due to caustic atmosphere -->
 	<Props_Generic Name="Prop_InfantryAutoDamage">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Lava_Heat_Particle1.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -189,7 +189,7 @@
 
 
 	<Props_Generic Name="Prop_RebelHeroEnhancement">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_ElecBox.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -220,7 +220,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_EmpireHeroEnhancement">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Prop_ElecBox.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -251,7 +251,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates01.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -260,7 +260,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates02.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -269,7 +269,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate03">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates03.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -278,7 +278,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate04">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -287,7 +287,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate04_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -295,7 +295,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate05">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -304,7 +304,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate05_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -312,7 +312,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate06">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -321,7 +321,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate06_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -329,7 +329,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate07">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -338,7 +338,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate07_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -346,7 +346,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate08">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -355,7 +355,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate08_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -363,7 +363,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate09">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates09.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -372,7 +372,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate10">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates10.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -381,7 +381,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate11">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates11.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -390,7 +390,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate12">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates12.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -399,7 +399,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate13">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates13.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -408,7 +408,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate14">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates14.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -417,7 +417,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate15">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates15.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -426,7 +426,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate16">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -435,7 +435,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate17">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates17.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -444,7 +444,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate18_Parts">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates18.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -453,7 +453,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate19_Parts">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates19.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -462,7 +462,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate20">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates20.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -471,7 +471,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate21">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates21.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -480,7 +480,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate22_Parts">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates22.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -489,7 +489,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate23_Wooden">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates23.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -498,7 +498,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate24_Parts">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates24.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -507,7 +507,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate25_Parts">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates25.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -516,7 +516,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate26">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates26.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -525,7 +525,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate27_Wooden">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates27.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -534,7 +534,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate28">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates28.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -543,7 +543,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Crate29_Wooden">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -552,14 +552,14 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Gungan_Head_Statue">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Gungan_Head_Statue_Obstacle">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
@@ -572,7 +572,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Pipe_1">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -581,7 +581,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Pipe_2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -590,7 +590,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Pipe_3">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -599,7 +599,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Droid_Steam">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_droid_steam.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -608,7 +608,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Cell_1">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_cell_1.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -617,7 +617,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Cell_2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_cell_2.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -626,7 +626,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Fuel_Cell_3">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_cell_3.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -635,7 +635,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Massassi_Temple">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
 		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -644,7 +644,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Massassi_ObservationTower">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.75</Scale_Factor>
@@ -654,14 +654,14 @@
 	<SpaceProp Name="Prop_Land_Movement_Compass">
 		<Text_ID />
 		<Land_Model_Name>I_FACING_ARROW.ALO</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>.33f</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 	</SpaceProp>
 
 	<Props_Generic Name="Prop_Crashed_Shuttle">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_crashed_tyderium.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -670,7 +670,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Fish">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fish.alo</Land_Model_Name>
 		<LandBehavior>IDLE</LandBehavior>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -784,16 +784,16 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Rancor_Prison">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Icon_Name>i_button_cage.tga</Icon_Name>
 		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Acclamator_Wreck">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<Space_Layer>Frigate | Corvette</Space_Layer>
@@ -803,73 +803,74 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Acclamator_Wreck_1">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_ACCLAMATOR_wreck_a01.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Space_Layer>Frigate | Corvette</Space_Layer>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Space_Obstacle_Radius>800</Space_Obstacle_Radius>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Acclamator_Wreck_2">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Space_Layer>Frigate | Corvette</Space_Layer>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Space_Obstacle_Radius>250</Space_Obstacle_Radius>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_Wreck">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_BM">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NV_JEDICRUISER_HP_B-M.ALO</Land_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_FL">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NV_JEDICRUISER_HP_F-L.ALO</Land_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Venator_HP_FR">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NV_JEDICRUISER_HP_F-R.ALO</Land_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Krayt_Cine_Unit">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
+
+		<Text_ID />
 		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
-		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Cinematic_Object_Only>Yes</Cinematic_Object_Only>
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Interceptor_Cine_Unit">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -878,7 +879,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unit">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_planet_Endor_High.ALO</Land_Model_Name>
 		<Scale_Factor>200.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -887,7 +888,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Kessel_Planet_Cine_Unit">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<!-- Jeff S: if this is being used outside of the mission 1 cine please let me know and I'll revert this change -->
 		<!-- <Land_Model_Name>W_planet_kessel_cine.alo</Land_Model_Name>-->
 		<Land_Model_Name>w_kessel_ships.alo</Land_Model_Name>
@@ -899,7 +900,7 @@
 
 
 	<Props_Generic Name="Prop_Stars_Skydome">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_stars_cine_noflare.alo</Land_Model_Name>
 		<Scale_Factor>0.10</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -908,7 +909,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_LRS_Wreck">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Behavior>SPACE_OBSTACLE</Behavior>
 		<Land_Model_Name>NV_LRS.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -918,7 +919,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_GirderWall_Small">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -927,7 +928,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_GirderWall_Big">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -936,7 +937,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-L.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -945,7 +946,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-R.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -954,7 +955,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_03">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-C.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -963,7 +964,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_05">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_B-R.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -972,7 +973,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_11">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-L.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -981,7 +982,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_12">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-R.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -990,7 +991,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_13">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_F-C.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -999,7 +1000,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Acc_15">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>EV_Acclamator_HP00_B-R.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1008,7 +1009,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>Nb_apbase_hp_shg.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1017,7 +1018,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_01">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>Nb_apbase_hp_shg.alo</Land_Model_Name>
 		<Scale_Factor>4.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1026,7 +1027,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_02">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_05_HP05_PRT.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1035,7 +1036,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_03">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_01_HP01_SHG.alo</Land_Model_Name>
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1044,7 +1045,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_04">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>NV_Jedicruiser_HP_B-M.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1053,7 +1054,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_05">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_05_HP05_PRT.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1062,7 +1063,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_06">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_04_HP04_IC.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1071,7 +1072,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_07">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_04_HP04_TBL.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1080,7 +1081,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_08">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
 		<Scale_Factor>0.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1089,7 +1090,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Debris_Gen_09">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
 		<Scale_Factor>6.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1098,7 +1099,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Generic_Generator00">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>w_generic_generator.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1151,7 +1152,7 @@
 	<Props_Generic Name="Exploding_Doorway">
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -1186,7 +1187,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Droid_Factory_Hole">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>test_wall.alo</Land_Model_Name>
 		<Scale_Factor>5.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1195,7 +1196,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1m">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1204,7 +1205,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2m">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1213,7 +1214,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3m">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1222,7 +1223,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1s">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1231,7 +1232,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2s">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1240,7 +1241,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3s">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1249,7 +1250,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_1b">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1258,7 +1259,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_2b">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1267,7 +1268,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="PropOnly_Pipe_3b">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1276,7 +1277,7 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Alpha_Girders">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1285,18 +1286,18 @@
 	</Props_Generic>
 
 	<Props_Generic Name="Prop_Artifact_Pedestal">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Text_ID />
 		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 	</Props_Generic>
 
 	<Props_Generic Name="Dathomir_Backdrop_NightCloak">
 		<Text_ID />
 		<Space_Model_Name>w_orbital_nightcloak.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>

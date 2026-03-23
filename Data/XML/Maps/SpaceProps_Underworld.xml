@@ -41,12 +41,10 @@
 	<!-- NOTE: These all require the DEBRIS behavior                                         -->
 	<!-- =================================================================================== -->
 
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Turbo_00">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_trb00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -62,13 +60,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Turbo_01">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_trb01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -84,13 +81,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Turbo_02">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_trb02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -106,13 +102,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Turbo_03">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_trb03.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -128,13 +123,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Ion_00">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_ion00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -150,13 +144,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Ion_01">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_ion01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -172,13 +165,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_L_Ion_02">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_L_ion02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -194,13 +186,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Turbo_00">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_trb00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -216,13 +207,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Turbo_01">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_trb01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -238,13 +228,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Turbo_02">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_trb02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -260,13 +249,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Turbo_03">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_trb03.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -282,13 +270,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Ion_00">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_ion00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -304,13 +291,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Ion_01">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_ion01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -326,13 +312,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Executor_R_Ion_02">
 		<Text_ID />
 		<Space_Model_Name>EV_ExecutorStarDestroyer_hp_R_ion02.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -348,18 +333,15 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 
 
 	<!-- Break off parts for Krayt-Class Destroyer -->
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Right_Turbo">
 		<Text_ID />
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -375,18 +357,18 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Right_Turbo_Peacebringer">
 		<Variant_Of_Existing_Type>Hardpoint_Breakoff_Krayt_Right_Turbo</Variant_Of_Existing_Type>
+
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00_Tyber.alo</Space_Model_Name>
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Left_Turbo">
 		<Text_ID />
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_LC_L_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -402,18 +384,18 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Left_Turbo_Peacebringer">
 		<Variant_Of_Existing_Type>Hardpoint_Breakoff_Krayt_Left_Turbo</Variant_Of_Existing_Type>
+
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_LC_L_00_Tyber.alo</Space_Model_Name>
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -429,13 +411,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Megaweapon_Ion">
 		<Text_ID />
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -451,13 +432,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Krayt_Megaweapon_Damage">
 		<Text_ID />
 		<Space_Model_Name>UV_KraytClassDestroyer_HP_SW_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -473,16 +453,14 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
+
 	<!-- Breakoff Props for Vengeance-class Frigate -->
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Vengeance_MDC_Left">
 		<Text_ID />
 		<Space_Model_Name>UV_Vengeance_HP_LFT_MDC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -498,13 +476,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Vengeance_MDC_Right">
 		<Text_ID />
 		<Space_Model_Name>UV_Vengeance_HP_RGT_MDC.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -520,13 +497,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Vengeance_Turbo_Left">
 		<Text_ID />
 		<Space_Model_Name>UV_Vengeance_HP_LFT_TB.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -542,13 +518,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Vengeance_Turbo_Right">
 		<Text_ID />
 		<Space_Model_Name>UV_Vengeance_HP_RGT_TB.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -564,17 +539,14 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 
 	<!-- Interceptor IV Break Off Pieces -->
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_InterceptorIV_BL">
 		<Text_ID />
 		<Space_Model_Name>UV_InterceptorIV_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -596,7 +568,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_InterceptorIV_BR">
 		<Text_ID />
 		<Space_Model_Name>UV_InterceptorIV_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -618,7 +590,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_InterceptorIV_F">
 		<Text_ID />
 		<Space_Model_Name>UV_InterceptorIV_HP00_F.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Is_Discardable>No</Is_Discardable>
@@ -640,12 +612,10 @@
 
 
 	<!-- KEDALBE BATTLESHIP BREAKOFF PIECES -->
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_L_Turbo_00">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -661,13 +631,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_L_Turbo_01">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -683,13 +652,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_R_Turbo_00">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_TB_RGT_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -705,13 +673,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_R_Turbo_01">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_TB_RGT_01.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -727,13 +694,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_L_Ion_00">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_ION_LFT_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -749,13 +715,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_R_Ion_00">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_ION_RGT_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -771,14 +736,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
-
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_MassDriver_Front">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -794,13 +757,12 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Kedalbe_Shield_Leech">
 		<Text_ID />
 		<Space_Model_Name>UV_KedalbeBattleship_HP_SHL_00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -816,15 +778,14 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
-	<!-- ARC HAMMER BREAKOFF PIECES -->
 
+	<!-- ARC HAMMER BREAKOFF PIECES -->
 	<SpaceProp Name="Hardpoint_Breakoff_Arc_Hammer_Laser_Left">
 		<Text_ID />
 		<Space_Model_Name>EV_ARCHAMMER_HP_LC_L_00.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -845,7 +806,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Arc_Hammer_Laser_Right">
 		<Text_ID />
 		<Space_Model_Name>EV_ARCHAMMER_HP_LC_R_00.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -865,12 +826,10 @@
 
 
 	<!-- Underworld Space Station Level 1 Breakoff Pieces -->
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Comm_Array">
 		<Text_ID />
 		<Space_Model_Name>UB_01_Station_HP01_COM.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -891,7 +850,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>UB_01_Station_HP01_SHG.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -912,7 +871,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L3_Torp">
 		<Text_ID />
 		<Space_Model_Name>UB_03_STATION_HP03_PT.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -933,7 +892,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L3_Main_Gun">
 		<Text_ID />
 		<Space_Model_Name>UB_03_STATION_HP03_GUN.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -954,7 +913,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L4_Plasma">
 		<Text_ID />
 		<Space_Model_Name>UB_04_STATION_HP04_PC.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -975,7 +934,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L5_IC">
 		<Text_ID />
 		<Space_Model_Name>UB_05_STATION_HP05_IC.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -996,7 +955,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L5_Torp">
 		<Text_ID />
 		<Space_Model_Name>UB_05_STATION_HP05_PT.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1017,7 +976,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_U_Station_L5_Turbolaser">
 		<Text_ID />
 		<Space_Model_Name>UB_05_STATION_HP05_TBL.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1040,7 +999,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Left_Shield">
 		<Text_ID />
 		<Land_Model_Name>HP_leftshieldgen_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1061,7 +1020,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Right_Shield">
 		<Text_ID />
 		<Land_Model_Name>HP_rightshieldgen_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1082,7 +1041,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Main_Gun_Back">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_back_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1103,7 +1062,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Main_Gun_Front">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_front_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1124,7 +1083,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Small_Gun_Front_Left">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_FRONT_L_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1145,7 +1104,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Small_Gun_Front_Right">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_FRONT_R_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1166,7 +1125,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Small_Gun_Back_Left">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_BACK_L_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1187,7 +1146,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_Gargantuan_Small_Gun_Back_Right">
 		<Text_ID />
 		<Land_Model_Name>HP_turret_BACK_R_00.alo</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1207,11 +1166,10 @@
 
 
 	<!-- PALACE BREAK OFF PIECES (once again, not space...) -->
-
 	<SpaceProp Name="Hardpoint_Breakoff_UW_Palace_Comm_Array">
 		<Text_ID />
 		<Land_Model_Name>UB_PALACE_HP_COMM.ALO</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1232,7 +1190,7 @@
 	<SpaceProp Name="Hardpoint_Breakoff_UW_Palace_Power_Gen">
 		<Text_ID />
 		<Land_Model_Name>UB_PALACE_HP_GEN.ALO</Land_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1253,13 +1211,10 @@
 
 
 	<!-- Star Destroyer Admonitor Break-off Pieces -->
-
-
-
 	<SpaceProp Name="Hardpoint_Breakoff_Thrawn_SD_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_Thrawn_HP00_L-F.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1275,13 +1230,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Thrawn_SD_Weapon_FR">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_Thrawn_HP00_F-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1297,13 +1251,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Thrawn_SD_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_Thrawn_HP00_B-L.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1319,13 +1272,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Thrawn_SD_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_Thrawn_HP00_B-R.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1341,13 +1293,12 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Thrawn_SD_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
+		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1363,9 +1314,5 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
 	</SpaceProp>
-
-
-
 </SpaceProps_UW>
