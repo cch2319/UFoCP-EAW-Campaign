@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<SpaceUnitsSupers>
+<Death_Star_Data>
 	<SpaceUnit Name="Death_Star">
 		<Text_ID>TEXT_UNIT_DEATH_STAR</Text_ID>
 		<GUI_Row>1</GUI_Row>
@@ -198,4 +198,4 @@
 			</Super_Laser_Ability>
 		</Abilities>
 	</SpaceUnit>
-</SpaceUnitsSupers>
+</Death_Star_Data>

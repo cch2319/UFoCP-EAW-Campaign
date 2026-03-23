@@ -21,7 +21,7 @@
 	<File>Units\SpaceUnitsFighters.xml</File>
 	<File>Units\SpaceUnitsCorvettes.xml</File>
 	<File>Units\SpaceUnitsFrigates.xml</File>
-	<File>Units\SpaceUnitsSupers.xml</File>
+	<File>Units\Empire\Units_Hero_Empire_Death_Star.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
 	<File>SpaceBuildablesSkirmish.xml</File>

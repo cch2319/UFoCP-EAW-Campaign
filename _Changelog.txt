@@ -55,6 +55,7 @@ FORWARDED FIXES:
 
 HOUSEKEEPING:
 • The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
+• The Death Star's original file has been renamed (from SpaceUnitsSupers.xml to Units_Hero_Empire_Death_Star.xml) and placed inside of the Empire units folder, as the Death Stars were the only units in SpaceUnitsSupers.xml. (No forward-facing changes.)
 • Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • A duplicate of Admiral Ackbar's icon, "i_button_general_akbar.tga," has been deleted from the game's master texture atlas. (No forward-facing changes.)
