@@ -1,0 +1,15 @@
+<Autoresolve_Health> --> Wordsarecool/Hyrum_Solo have disagreements: when removed, this seems to make tactical autoresolve losses way more destructive.
+<Transport_Capacity>
+<Moniker>
+<GUI_Offset>
+<Combat_Power_Value>
+<Lighting_Effect_Name>
+<IsBuildable>
+<Number_per_Squadron>
+<Is_Interdictor>
+<Spawn_Planet>
+<Sensor_Range>
+<TacticalBehavior>
+<xxxSpace_Model_Name>
+<Tactical_Sell_Credits>
+<Tactical_Model_Name>
