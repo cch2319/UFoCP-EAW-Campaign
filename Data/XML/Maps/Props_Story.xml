@@ -2389,11 +2389,29 @@
 		<Text_ID>TEXT_TOOLTIP_ANNIHILATOR</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ANNIHILATOR</Encyclopedia_Text>
 		<Icon_Name>i_button_ev_executorstardestroyer.tga</Icon_Name>
-
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Space_Model_Name>EV_ExecutorStarDestroyer.ALO</Space_Model_Name>
 		<Layer_Z_Adjust>-600.00</Layer_Z_Adjust>
+
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Behavior>
+			DUMMY_STARSHIP
+		</Behavior>
+		<SpaceBehavior>
+			SELECTABLE,
+			ABILITY_COUNTDOWN,
+			SIMPLE_SPACE_LOCOMOTOR,
+			POWERED,
+			REVEAL,
+			TARGETING,
+			UNIT_AI,
+			ASTEROID_FIELD_DAMAGE,
+			SPAWN_SQUADRON,
+			DAMAGE_TRACKING,
+			ION_STUN_EFFECT,
+			NEBULA
+		</SpaceBehavior>
 
 		<AI_Combat_Power>5900</AI_Combat_Power>
 
