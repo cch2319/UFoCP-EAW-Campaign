@@ -112,7 +112,8 @@ Texture Fixes:
 Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
 • The Hound's Tooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
-• Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the icon to signify the "heal range," and the icon has been removed. (BUG #381)
+• Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #381)
+• Obi-Wan Kenobi had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #522)
 • To prevent an internal error/assertion, the Keldabe-class Prototype used while corrupting Mandalore had its "SHIELDED" behavior removed (it was set to not have any shield points anyway).  In addition, its shield regeneration rate has also been set to 0 (for obvious reasons), and its "Special Weapon" hardpoint has been removed, as that is unique Consortium Black Market technology that the Prototype shouldn't have (the AI also couldn't use it because neither the Rebels or Empire can purchase that ability). (BUG #514)
 • To prevent an internal error/assertion, the Eclipse had its "SHIELDED" behavior removed (it was set to not have any shield points or shield regeneration anyway). (BUG #516)
 • To prevent an internal error/assertion, the Death Star II now has a max-distance target setting applied to its super laser weapon. (BUG #517)

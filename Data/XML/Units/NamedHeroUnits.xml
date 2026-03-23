@@ -1756,7 +1756,7 @@
 				<Heal_Percent>0.07</Heal_Percent>
 				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<Heal_Range_Blob_Material />
 
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Obi_Wan_Kenobi</Applicable_Unit_Types>
