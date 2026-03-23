@@ -2909,12 +2909,46 @@
 
 	<Props_Story Name="Keldalbe_Prototype">
 		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
-		<Tactical_Health>450</Tactical_Health>
+
 		<Tech_Level>9</Tech_Level>
+		<Tactical_Health>450</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
-		<Affiliation>Rebel, Empire, Hutts</Affiliation>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+
+		<Affiliation>Rebel, Empire, Hutts, Pirates</Affiliation>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Score_Cost_Credits>0</Score_Cost_Credits>
+
+		<Behavior>
+			DUMMY_STARSHIP
+		</Behavior>
+		<SpaceBehavior>
+			SELECTABLE,
+			ABILITY_COUNTDOWN,
+			SIMPLE_SPACE_LOCOMOTOR,
+			POWERED,
+			TARGETING,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			UNIT_AI,
+			DAMAGE_TRACKING,
+			ION_STUN_EFFECT,
+			NEBULA
+		</SpaceBehavior>
+
+		<HardPoints>
+			HP_KEDALBE_LEFT_TURBO_00,
+			HP_KEDALBE_LEFT_TURBO_01,
+			HP_KEDALBE_RIGHT_TURBO_00,
+			HP_KEDALBE_RIGHT_TURBO_01,
+			HP_KEDALBE_LEFT_ION_00,
+			HP_KEDALBE_RIGHT_ION_00,
+			HP_KEDALBE_MASS_DRIVER_FRONT,
+			HP_KEDALBE_MASS_DRIVER_BACK,
+			HP_KEDALBE_SHIELD_LEECH_DUMMY,
+			HP_KEDALBE_ENGINES_00,
+			HP_KEDALBE_ENGINES_01
+		</HardPoints>
 	</Props_Story>
 
 	<Props_Story Name="UM05_CINE_HOLOCRON">

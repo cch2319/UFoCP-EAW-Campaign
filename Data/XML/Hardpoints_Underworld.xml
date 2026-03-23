@@ -3017,6 +3017,18 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 
+	<HardPoint Name="HP_KEDALBE_SHIELD_LEECH_DUMMY">
+		<Type>HARD_POINT_DUMMY_ART</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Model_To_Attach>UV_KedalbeBattleship_HP_SHL_00.alo</Model_To_Attach>
+		<Attachment_Bone>HP_SHL_00_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_SHL_00_BONE</Collision_Mesh>
+		<Damage_Decal>HP_SHL_00_BLAST</Damage_Decal>
+		<Damage_Particles>HP_SHL_00_EMITDAMAGE</Damage_Particles>
+	</HardPoint>
+
 	<HardPoint Name="HP_KEDALBE_ENGINES_00">
 		<Type>HARD_POINT_ENGINE</Type>
 		<Is_Targetable>Yes</Is_Targetable>

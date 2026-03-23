@@ -58,6 +58,7 @@ HOUSEKEEPING:
 • Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • A duplicate of Admiral Ackbar's icon, "i_button_general_akbar.tga," has been deleted from the game's master texture atlas. (No forward-facing changes.)
+• Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now functional and available should any modder want to do so. (No forward-facing changes.)
 
 
 MISC:
@@ -101,6 +102,7 @@ Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
 • The Hound's Tooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
 • Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the icon to signify the "heal range," and the icon has been removed. (BUG #381)
+• To prevent an internal error/assertion, the Keldabe-class Prototype used while corrupting Mandalore had its "SHIELDED" behavior removed (it was set to not have any shield points anyway), as this was causing errors.  In addition, its shield refresh rate has also been set to 0 (for obvious reasons), and its "Special Weapon" hardpoint has been removed, as that is unique Consortium Black Market technology that the Prototype wouldn't have. (BUG #514)
 
 
 
