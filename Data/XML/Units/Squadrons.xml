@@ -586,9 +586,9 @@
 				<Type>FOW_REVEAL_PING</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<Spawned_Object_Type>Proj_Special_Space_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
-				<Effective_Radius>0.0</Effective_Radius><!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Effective_Radius>0.0</Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
 				<Area_Effect_Decal_Distance>600.0</Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name /><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
@@ -1035,8 +1035,8 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		<Damage>20</Damage>
-		<Affiliation>Pirates, Empire, Rebel</Affiliation><!-- Modded by Chris R. for MP-->
-		<Tech_Level>6</Tech_Level><!-- Modded by Chris R. for MP-->
+		<Affiliation>Pirates, Empire, Rebel</Affiliation> <!-- Modded by Chris R. for MP-->
+		<Tech_Level>6</Tech_Level> <!-- Modded by Chris R. for MP-->
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>100</Override_Bounty_SP>
 		<Override_Bounty_MP>100</Override_Bounty_MP>
@@ -1068,7 +1068,7 @@
 		<Population_Value>1</Population_Value>
 	</Squadron>
 
-	<Squadron Name="Empire_Pirate_Fighter_Squadron"><!--Multiplayer Only-->
+	<Squadron Name="Empire_Pirate_Fighter_Squadron"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Fighter_Squadron</Variant_Of_Existing_Type>
 
 		<Affiliation>Empire</Affiliation>
@@ -1087,7 +1087,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</Squadron>
 
-	<Squadron Name="Rebel_Pirate_Fighter_Squadron"><!--Multiplayer Only-->
+	<Squadron Name="Rebel_Pirate_Fighter_Squadron"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Fighter_Squadron</Variant_Of_Existing_Type>
 
 		<Affiliation>Rebel</Affiliation>
@@ -1106,7 +1106,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</Squadron>
 
-	<Squadron Name="Underworld_Pirate_Fighter_Squadron"><!--Multiplayer Only-->
+	<Squadron Name="Underworld_Pirate_Fighter_Squadron"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Fighter_Squadron</Variant_Of_Existing_Type>
 
 		<Affiliation>Underworld</Affiliation>
