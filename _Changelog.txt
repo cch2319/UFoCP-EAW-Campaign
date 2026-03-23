@@ -59,7 +59,8 @@ HOUSEKEEPING:
 • Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas. (No forward-facing changes.)
-• Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now functional and available should any modder want to do so. (No forward-facing changes.)
+• Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
+• Honoghr had duplicate corruption unit prerequisites - the first prerequisite has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
 
 
 MISC:
@@ -67,6 +68,7 @@ MISC:
 • v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
 • v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
 ======
+
 
 Multiplayer:
 • While desyncs are primarily a Petroglyph issue, this update comes with various MP stability improvements.  Thanks to Secrets of a Fallen Empire, multiple assertion errors (internal errors that may desync the game) have been fixed (see below), and multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable in the future. (BUG #519)

@@ -2503,7 +2503,6 @@
 
 		<Corruption_2_Type>Corruption_Racketeering</Corruption_2_Type>
 		<Corruption_2_Credit_Cost>300</Corruption_2_Credit_Cost>
-		<Corruption_2_Required_Unit_Type>MAL_Rocket_Vehicle</Corruption_2_Required_Unit_Type>
 		<Corruption_2_Required_Unit_Count>1</Corruption_2_Required_Unit_Count>
 		<Corruption_2_Required_Mission_Type>Corruption_Intimidation</Corruption_2_Required_Mission_Type>
 		<Corruption_2_Required_Mission_Count>2</Corruption_2_Required_Mission_Count>
