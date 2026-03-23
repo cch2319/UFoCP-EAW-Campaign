@@ -108,7 +108,7 @@
 
 
 	<!-- Expansion General Files -->
-	<File>SpaceProps_Underworld.xml</File>
+	<File>Maps\SpaceProps_Underworld.xml</File>
 	<File>Units\Underworld_TransportUnits.xml</File>
 	<File>Props_Felucia.xml</File>
 	<File>GroundBuildablesUnderworld.xml</File>
