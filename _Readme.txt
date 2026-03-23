@@ -20,23 +20,9 @@
 
 Thank you for downloading the Unofficial Forces of Corruption Patch!
 
-The 2.0.0 rework-release is the final result of countless weeks worth of redoing XML,
-text, Lua, and texture work.  It may have been unnecessary, but to make working on UFCP
-easier in the future, the intention of 2.0.0 was to clean up the original underlying work
-and backend so it was less messy.  In addition, the new GitHub has every issue tracked under
-a bug report, which can be easily confirmed from the changelog! (Unlike v1.0+.  This also
-took a majority of the development time.)
 
-New this update is a bunch of model work and other contributions/suggestions from some
-wonderful members of the modding and Empire at War Community Discord, who can be seen in
-the credits section below.
 
-This update was unfortunately so long in the making due to various bouts of burnout.
-Specifically, the map preview rework.  However, UFCP 2.0.0 should be nearly as feature-
-complete as 1.0.0 (although without half-finished reworks like the Corruption Victims overhaul)
-and ready to be played from the get-go.
-
-Known issues are still recorded on the GitHub, hopefully to be solved for the upcoming patches.
+Known issues are recorded on the GitHub, hopefully to be solved for the upcoming patches.
 If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
 
 I hope you enjoy UFCP!
@@ -50,17 +36,18 @@ Modeling:
 -- P_Corrupt_Planet2.alo - More performant corruption particle
 
 - galyana
--- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data.
--- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh.
--- UB_Barracks.alo - Fixed Consortium Barracks spawn bone.
+-- UB_Barracks.alo - Fixed Consortium Barracks spawn bone
+-- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data
+-- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh
+-- W_Bush_Swmp00.alo - New swamp bush model
 
 - irampagingrhin0
 -- NV_JediCruiser.alo - Fixed Venator shield/bumpmap mesh
 
 - theshyshallot
+-- UB_XX_Station.alo - Fixed Consortium space station models having irregular collision
 -- RB/UB_TLTower.alo - Fixed red muzzle flashes for Consortium & Rebel turbolaser tower models
 -- NV_SwampSpeeder_U.alo - Fixed Consortium swamp speeder models not using Consortium infantry
--- UB_XX_Station.alo - Fixed Consortium space station models having irregular collision
 -- UV_CanderousAssaultTank.alo - Fixed Canderous Assault Tank shadow mesh/collision boxes
 
 
@@ -74,7 +61,7 @@ Text:
 -- Creating the .DAT Assembler; arch_fallen for creating a UI for it (https://github.com/Vardamir117/datassembler / https://discord.com/channels/401148449241956353/413428854510845953/738243575976034337)
 
 - mike.nl (Mike Lankamp)
--- .DAT String Editor (https://modtools.petrolution.net/tools/StringEditor)
+-- DAT String Editor (https://modtools.petrolution.net/tools/StringEditor)
 
 
 Texturing:
