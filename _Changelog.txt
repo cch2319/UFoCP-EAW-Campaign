@@ -87,7 +87,8 @@ Interface Fixes:
 
 
 Map Fixes:
-• Land Taris Intimidation had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris Intimidation has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #511)
+• Land Taris Intimidation had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris Intimidation has received a revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #511)
+• Land Yavin's center reinforcement point was owned by the Black Sun Pirates instead of being neutral, making it unused.  In addition, Yavin has received a revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #523)
 • Consortium campaign mission #8 "Following the Artifact" was supposed to have a display of the Death Star behind the Death Star II, along Silri's path to the Artifact.  Unfortunately, the prop misreferenced the Death Star's model, and was invisible. (BUG #520)
 
 
