@@ -87,6 +87,7 @@ Model Fixes:
 
 Structure Fixes:
 • The Empire Mineral Extractor in Land Skirmish would not be visible to the Empire if it was obscured by the fog of war while under construction. (BUG #484)
+• To prevent an internal error/assertion, the Space Skirmish Hutt Asteroid Base has had its internal "base level" changed from 6 to 1. (BUG #512)
 
 
 Texture Fixes:
