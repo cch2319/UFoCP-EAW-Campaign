@@ -511,8 +511,7 @@
 	<SpaceProp Name="Nar_Shaddaa_Backdrop">
 		<Text_ID />
 		<Space_Model_Name>w_planet_urban00.alo</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a
-		decoration -->
+		<Is_Decoration>No</Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>0.25</Idle_Anim_00_Rate_Mod>
