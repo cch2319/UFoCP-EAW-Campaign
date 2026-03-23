@@ -2876,8 +2876,33 @@
 		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Planet_Restricted_Unit_Categories />
-
-		<Planet_Restricted_Unit_Types>Imperial_Armor_Group, Imperial_Light_Scout_Squad, Lancet_Air_Wing, Empire_MDU_Company, M1_Repulsor_Tank, Scout_Trooper, Lancet_Air_Artillery, Empire_Mobile_Defense_Unit, Rebel_Light_Tank_Brigade, Rebel_Speeder_Wing, Gallofree_HTT_Company, Rebel_MDU_Company, T2B_Tank, Snowspeeder, Gallofree_HTT_Transport, Rebel_Mobile_Defense_Unit, F9TZ_Cloaking_Transport_Company, MAL_Rocket_Vehicle_Company, Canderous_Assault_Tank_Company, Underworld_MDU_Company, F9TZ_Cloaking_Transport, MAL_Rocket_Vehicle, Canderous_Assault_Tank, Underworld_Mobile_Defense_Unit, Skiff,</Planet_Restricted_Unit_Types>
+		<Planet_Restricted_Unit_Types>
+			Imperial_Armor_Group,
+			Imperial_Light_Scout_Squad,
+			Lancet_Air_Wing,
+			Empire_MDU_Company,
+			M1_Repulsor_Tank,
+			Scout_Trooper,
+			Lancet_Air_Artillery,
+			Empire_Mobile_Defense_Unit,
+			Rebel_Light_Tank_Brigade,
+			Rebel_Speeder_Wing,
+			Gallofree_HTT_Company,
+			Rebel_MDU_Company,
+			T2B_Tank,
+			Snowspeeder,
+			Gallofree_HTT_Transport,
+			Rebel_Mobile_Defense_Unit,
+			F9TZ_Cloaking_Transport_Company,
+			MAL_Rocket_Vehicle_Company,
+			Canderous_Assault_Tank_Company,
+			Underworld_MDU_Company,
+			F9TZ_Cloaking_Transport,
+			MAL_Rocket_Vehicle,
+			Canderous_Assault_Tank,
+			Underworld_Mobile_Defense_Unit,
+			Skiff
+		</Planet_Restricted_Unit_Types>
 
 		<Describe_Population>TEXT_PLANET_JABIIM_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_JABIIM_INFO_WL</Describe_Wildlife>
