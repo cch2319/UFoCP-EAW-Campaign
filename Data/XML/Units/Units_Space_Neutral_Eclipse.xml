@@ -33,7 +33,7 @@
 
 		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Armor_Type>Armor_Star_Destroyer</Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<!-- <Shield_Armor_Type>Shield_Capital</Shield_Armor_Type> -->
 
 		<Max_Speed>0.3</Max_Speed>
 		<Max_Rate_Of_Turn>0.01</Max_Rate_Of_Turn>
@@ -78,13 +78,16 @@
 		<Tactical_Bribe_Cost>9999</Tactical_Bribe_Cost>
 
 		<Behavior>
-			DUMMY_STARSHIP,
-			SELECTABLE
+			DUMMY_STARSHIP
 		</Behavior>
+		<!--
+			AM1994 (03/22/26): For modders: Readd SHIELDED to use shields,
+			was disabled as a part of UFCP #516.
+		-->
 		<SpaceBehavior>
+			SELECTABLE,
 			ABILITY_COUNTDOWN,
 			POWERED,
-			SHIELDED,
 			REVEAL,
 			TARGETING,
 			DUMMY_TOOLTIP,
