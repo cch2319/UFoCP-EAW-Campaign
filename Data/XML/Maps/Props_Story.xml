@@ -1169,8 +1169,8 @@
 
 	<Props_Story Name="UM05_PROP_DSTAR">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>Cin_DeathStar_High.alo</Land_Model_Name>
-		<Scale_Factor>7.5</Scale_Factor>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Story>
@@ -1178,7 +1178,7 @@
 	<Props_Story Name="UM05_PROP_DSTAR2">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
-		<Scale_Factor>.08</Scale_Factor>
+		<Scale_Factor>0.08</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Story>

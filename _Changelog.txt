@@ -67,6 +67,10 @@ MISC:
 • The new bump maps introduced in v2.0.0.1039 had the wrong texture layers exported, and looked wrong in-game.  They have been re-exported with the proper look.
 ======
 
+Multiplayer:
+• While desyncs are primarily a Petroglyph issue, this update comes with various MP stability improvements.  Thanks to Secrets of a Fallen Empire, multiple assertion errors (internal errors that may desync the game) have been fixed (see below), and multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable in the future. (BUG #519)
+•• In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.
+
 
 Audio Fixes:
 • Fixed ion cannon hardpoints using the shield generator destruction SFX; in turn, fixed the shield generator destruction SFX not using its second explosion variation. (BUG #477)
@@ -81,6 +85,7 @@ Interface Fixes:
 
 Map Fixes:
 • Land Taris Intimidation had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris Intimidation has also received a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #511)
+• Consortium campaign mission #8 "Following the Artifact" was supposed to have a display of the Death Star behind the Death Star II, along Silri's path to the Artifact.  Unfortunately, the prop misreferenced the Death Star's model, and was invisible. (BUG #520)
 
 
 Model Fixes:
