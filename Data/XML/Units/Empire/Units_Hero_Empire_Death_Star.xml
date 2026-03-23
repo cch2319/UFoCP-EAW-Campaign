@@ -148,6 +148,7 @@
 
 		<!-- DSII is tactically relevant above and beyond its escort (can fire laser at ships) -->
 		<AI_Combat_Power>3000</AI_Combat_Power>
+		<Targeting_Max_Attack_Distance>20000</Targeting_Max_Attack_Distance> <!-- Galyana (02/08/2020): Laser ability asserts without this -->
 
 		<Behavior>DUMMY_STARSHIP</Behavior>
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>

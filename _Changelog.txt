@@ -105,6 +105,7 @@ Unit Fixes:
 • Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the icon to signify the "heal range," and the icon has been removed. (BUG #381)
 • To prevent an internal error/assertion, the Keldabe-class Prototype used while corrupting Mandalore had its "SHIELDED" behavior removed (it was set to not have any shield points anyway).  In addition, its shield regeneration rate has also been set to 0 (for obvious reasons), and its "Special Weapon" hardpoint has been removed, as that is unique Consortium Black Market technology that the Prototype shouldn't have (the AI also couldn't use it because neither the Rebels or Empire can purchase that ability). (BUG #514)
 • To prevent an internal error/assertion, the Eclipse had its "SHIELDED" behavior removed (it was set to not have any shield points or shield regeneration anyway). (BUG #516)
+• To prevent an internal error/assertion, the Death Star II now has a max-distance target setting applied to its super laser weapon. (BUG #517)
 
 
 
