@@ -46,11 +46,11 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 UFCP:
 ======
-FORWARDED FIXES:
-• Forwarded Petroglyph's official fix from patch 1.121.826595 (11/20/23) into UniqueUnits.xml - Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air. (COMMIT 824b819)
-• Forwarded part of Petroglyph's official fix from patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml - two new entries were added to fix the Pirate Leader and Pirate Captain's Pirate Frigate becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Pirate Captain in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Pirate Leader becoming bigger in "Highest Bidder" was broken, as he would still be 10% bigger when destroyed.  The regular Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
-• Forwarded Petroglyph's official fix from patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly. (COMMIT 824b819)
-• Forwarded Petroglyph's official fix from patch 1.121.859328 (10/22/24): fixes for bugs #147, #148, 149, #150, #151, #152 and #153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed.  In addition, the special "_MP" versions of the space units used for Skirmish have been removed as well. (COMMIT 1a0ff01)
+FORWARDED OFFICIAL FIXES:
+• Forwarded fix from patch 1.121.826595 (11/20/23) into UniqueUnits.xml - Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air. (COMMIT 824b819)
+• Forwarded part of fix from patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml - two new entries were added to fix the Pirate Leader and Pirate Captain's Pirate Frigate becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Pirate Captain in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Pirate Leader becoming bigger in "Highest Bidder" was broken, as he would still be 10% bigger when destroyed.  The regular Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
+• Forwarded fix from patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP originally fixed this before this patch came out, however, due to UFCP being in Development Hell, Petro fixed this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly. (COMMIT 824b819)
+• Forwarded fix from patch 1.121.859328 (10/22/24): fixes for bugs #147, #148, 149, #150, #151, #152 and #153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed.  In addition, the special "_MP" versions of the space units used for Skirmish have been removed as well. (COMMIT 1a0ff01)
 
 
 HOUSEKEEPING:
@@ -58,13 +58,14 @@ HOUSEKEEPING:
 • The Death Star's original file has been renamed (from SpaceUnitsSupers.xml to Units_Hero_Empire_Death_Star.xml) and placed inside of the Empire units folder, as the Death Stars were the only units in SpaceUnitsSupers.xml. (No forward-facing changes.)
 • Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
 • The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
-• A duplicate of Admiral Ackbar's icon, "i_button_general_akbar.tga," has been deleted from the game's master texture atlas. (No forward-facing changes.)
+• A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas. (No forward-facing changes.)
 • Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now functional and available should any modder want to do so. (No forward-facing changes.)
 
 
 MISC:
 • v2.0.0.1039's changelog did not notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
-• The new bump maps introduced in v2.0.0.1039 had the wrong texture layers exported, and looked wrong in-game.  They have been re-exported with the proper look.
+• v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
+• v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
 ======
 
 Multiplayer:

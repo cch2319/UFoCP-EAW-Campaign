@@ -63,6 +63,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -459,6 +461,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -921,6 +925,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
@@ -1762,6 +1768,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -2073,6 +2081,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -2646,6 +2656,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
