@@ -879,7 +879,6 @@
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</Marker>
 
-
 	<Marker Name="Reinforcement_Point_Plus1_Cap">
 		<Variant_Of_Existing_Type>Reinforcement_Point</Variant_Of_Existing_Type>
 		<Land_Model_Name>W_Pedistal_faction_1.alo</Land_Model_Name>
