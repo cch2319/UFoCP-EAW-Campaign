@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <SFXEvent_Files>
 	<!-- Presets must go first -->
-	<File>SFXEventPresets.xml</File>
+	<File>SFX\SFXEventPresets.xml</File>
 
 	<!-- Non-Preset Events come after presets -->
 	<File>SFXEvents.xml</File>
