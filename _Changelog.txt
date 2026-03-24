@@ -61,6 +61,7 @@ HOUSEKEEPING:
 • A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas. (No forward-facing changes.)
 • Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
 • Honoghr had duplicate corruption unit prerequisites - the first prerequisite has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
+• Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the Empire's TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
 
 
 MISC:
