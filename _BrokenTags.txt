@@ -1,17 +1,25 @@
 <Autoresolve_Health> --> Wordsarecool/Hyrum_Solo have disagreements: when removed, this seems to make tactical autoresolve losses way more destructive.
-<Transport_Capacity>
-<Moniker>
-<GUI_Offset>
 <Combat_Power_Value>
-<Lighting_Effect_Name>
+<Death_Leave_Hulk_Behind>
+<GUI_Distance>
+<GUI_Model_Name>
+<GUI_Offset>
+<GUI_Velocity>
 <IsBuildable>
-<Number_per_Squadron>
 <Is_Interdictor>
-<Spawn_Planet>
+<Lighting_Effect_Name>
+<Moniker>
+<Number_per_Squadron>
+<Radar_Icon_Scale_Land>
+<Radar_Icon_Scale_Space>
+<Required_Timeline>
 <Sensor_Range>
+<Spawn_Planet>
 <TacticalBehavior>
-<xxxSpace_Model_Name>
 <Tactical_Sell_Credits>
-<Tactical_Model_Name>
+<Transport_Capacity>
+<xxxSpace_Model_Name>
 
-<CategoryMask> - Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
+<CategoryMask> --> Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
+<Disabled_Darken> --> <Disable_Darken>
+<Tactical_Model_Name> --> <Land_Model_Name> (Props_Forest & Props_Temperate)

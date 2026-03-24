@@ -235,7 +235,7 @@
 
 
 
-	<SFXEvent Name="Unit_Select_Leia">
+	<!-- <SFXEvent Name="Unit_Select_Leia">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_LEI0101_ENG.wav U000_LEI0102_ENG.wav U000_LEI0103_ENG.wav U000_LEI0104_ENG.wav U000_LEI0105_ENG.wav U000_LEI0106_ENG.wav U000_LEI0107_ENG.wav U000_LEI0108_ENG.wav U000_LEI0109_ENG.wav U000_LEI0110_ENG.wav U000_LEI0111_ENG.wav U000_LEI0112_ENG.wav U000_LEI0113_ENG.wav U000_LEI0114_ENG.wav U000_LEI0115_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -319,7 +319,7 @@
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_LEI_INCREASE_PRODUCTION_1, TEXT_SFX_LEI_INCREASE_PRODUCTION_2, TEXT_SFX_LEI_INCREASE_PRODUCTION_3, TEXT_SFX_LEI_INCREASE_PRODUCTION_4</Text_ID>
 		<Overlap_Test>Unit_Leia</Overlap_Test>
-	</SFXEvent>
+	</SFXEvent> -->
 
 
 
