@@ -76,7 +76,7 @@ Multiplayer:
 
 
 Ability Fixes:
-• To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its metadata changed.  It is no longer a missile, and therefore no longer requires a terrain position that causes an assertion.  However, the ability now has a small chance to miss - to counteract this, its speed has been increased (10 -> 12) and it's range has been increased (10 -> 12 units). (BUG #524)
+• To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its metadata changed.  It is no longer a missile, and therefore no longer requires a terrain position that causes an assertion.  However, the ability now has a small chance to miss - to counteract this, the projectile's speed has been increased (10 -> 12). (BUG #524)
 
 
 Audio Fixes:
