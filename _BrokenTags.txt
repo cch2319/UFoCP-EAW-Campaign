@@ -23,3 +23,5 @@
 <CategoryMask> --> Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
 <Disabled_Darken> --> <Disable_Darken>
 <Tactical_Model_Name> --> <Land_Model_Name> (Props_Forest & Props_Temperate)
+<Override_Accel> --> <OverrideAccel>
+<Override_Decel> --> <OverrideDecel>
