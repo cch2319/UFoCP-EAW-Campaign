@@ -199,7 +199,10 @@
 		<Samples>BF_Concrete_Rebel_1.wav</Samples>
 	</SFXEvent>
 
-
+	<SFXEvent Name="Unit_Anim_Infantry_Death_Water">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>BF_Mud_Rebel_1.wav</Samples>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Anim_Trooper_Death_Dirt">
 		<Use_Preset>Preset_FSI</Use_Preset>
@@ -221,6 +224,10 @@
 		<Samples>BF_Concrete_Trooper_1.wav</Samples>
 	</SFXEvent>
 
+	<SFXEvent Name="Unit_Anim_Trooper_Death_Water">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>BF_Mud_Trooper_1.wav</Samples>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Anim_Bantha_Death">
 		<Use_Preset>Preset_DTH</Use_Preset>
