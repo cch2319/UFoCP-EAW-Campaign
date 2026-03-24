@@ -603,6 +603,7 @@
 		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
 		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
 		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
+		<CategoryMask>None</CategoryMask>
 	</HeroUnit>
 
 	<HeroUnit Name="Cuddles_The_Rancor_Death_Clone_01">
@@ -626,5 +627,6 @@
 		<Dynamic_Transform_Seconds>5</Dynamic_Transform_Seconds>
 		<Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_Start_Color>
 		<Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
+		<CategoryMask>None</CategoryMask>
 	</HeroUnit>
 </Silri_Data>

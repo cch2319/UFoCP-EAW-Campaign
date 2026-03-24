@@ -178,7 +178,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 
@@ -359,7 +359,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 	<!-- jdg 8/24/05 making a Tantive_IV entry here (based on Corellian Crusier) -->
@@ -540,6 +540,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 
@@ -717,7 +718,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 
@@ -904,7 +905,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Marauder_Missile_Cruiser">
@@ -1099,7 +1100,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 
@@ -1258,7 +1259,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Empire_Pirate_IPV"> <!--Multiplayer Only-->
@@ -1473,6 +1474,6 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </SpaceCorvettes>

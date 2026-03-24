@@ -973,6 +973,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>super</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Executor_Super_Star_Destroyer_No_Tractor_Beam">

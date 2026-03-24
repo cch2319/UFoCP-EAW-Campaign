@@ -497,17 +497,20 @@
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Stormtrooper_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Stormtrooper_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Dialogue_Stormtrooper">
@@ -707,23 +710,27 @@
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Plex_Soldier_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Plex_Soldier_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Plex_Soldier_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper">
@@ -917,23 +924,27 @@
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper_NonVictroy">
@@ -1098,18 +1109,21 @@
 		<Variant_Of_Existing_Type>Rebel_Pilot</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Pilot_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Rebel_Pilot</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Pilot_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Rebel_Pilot</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 
@@ -1710,12 +1724,14 @@
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Prisoner_Rebel_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Prisoner_Rebel_02">
@@ -1992,20 +2008,19 @@
 
 
 	<!-- GENERIC DEATH CLONES -->
-
-
 	<!-- used for underworld disruptor kills -->
-
 	<GroundInfantry Name="Infantry_Disruptor_Death_Clone_00">
 		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Disruptor_Death_Clone_01">
 		<Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Short_Disruptor_Death_Clone_00">
@@ -2013,6 +2028,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Short_Disruptor_Death_Clone_01">
@@ -2020,6 +2036,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Tall_Disruptor_Death_Clone_00">
@@ -2027,6 +2044,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Tall_Disruptor_Death_Clone_01">
@@ -2034,16 +2052,17 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 
 	<!-- used for underworld radioactive contamination kills -->
-
 	<GroundInfantry Name="Infantry_Melt_Death_Clone_00">
 		<Land_Model_Name>w_infect.alo</Land_Model_Name>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Short_Melt_Death_Clone_00">
@@ -2052,6 +2071,7 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Infantry_Tall_Melt_Death_Clone_00">
@@ -2060,5 +2080,6 @@
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 </GroundInfantry_Units>

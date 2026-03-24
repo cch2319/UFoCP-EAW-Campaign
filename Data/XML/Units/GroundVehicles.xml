@@ -245,6 +245,7 @@
 
 	<GroundVehicle Name="AT_AT_Walker_Cable_Attack_Death_Clone">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type>CA_DIE</Specific_Death_Anim_Type>
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
@@ -258,11 +259,12 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<Presence_Range>200.0</Presence_Range>
-
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_AT_Walker_Death_Clone_00">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
@@ -279,11 +281,12 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<Presence_Range>200.0</Presence_Range>
-
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_AT_Walker_Death_Clone_01">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
@@ -301,11 +304,12 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<Presence_Range>200.0</Presence_Range>
-
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_AT_Walker_Death_Clone_02">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
+
 		<Specific_Death_Anim_Type />
 		<Specific_Death_Anim_Index>2</Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
@@ -323,7 +327,7 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<Presence_Range>200.0</Presence_Range>
-
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 
@@ -615,6 +619,7 @@
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_ST_Walker_Death_Clone_01">
@@ -632,6 +637,7 @@
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="AT_ST_Walker_Death_Clone_02">
@@ -648,6 +654,7 @@
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>2</Specific_Death_Anim_Index>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 
@@ -1101,6 +1108,7 @@
 
 	<GroundVehicle Name="SPMAT_Walker_Death_Clone">
 		<Variant_Of_Existing_Type>SPMAT_Walker</Variant_Of_Existing_Type>
+
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -1112,10 +1120,12 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<IsDeathClone>True</IsDeathClone>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="SPMAT_Walker_Telekinesis_Death_Clone">
 		<Variant_Of_Existing_Type>SPMAT_Walker</Variant_Of_Existing_Type>
+
 		<Death_Clone_Is_Obstacle>No</Death_Clone_Is_Obstacle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
@@ -1129,6 +1139,7 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<IsDeathClone>True</IsDeathClone>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 
@@ -1479,6 +1490,7 @@
 
 	<GroundVehicle Name="MPTL_Death_Clone">
 		<Variant_Of_Existing_Type>MPTL</Variant_Of_Existing_Type>
+
 		<Death_Clone_Is_Obstacle>Yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 
@@ -1490,10 +1502,12 @@
 		<Death_SFXEvent_End_Die>Unit_Tank_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<IsDeathClone>True</IsDeathClone>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="MPTL_Telekinesis_Death_Clone">
 		<Variant_Of_Existing_Type>MPTL</Variant_Of_Existing_Type>
+
 		<Death_Clone_Is_Obstacle>No</Death_Clone_Is_Obstacle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
@@ -1507,6 +1521,7 @@
 		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<IsDeathClone>True</IsDeathClone>
+		<CategoryMask>None</CategoryMask>
 	</GroundVehicle>
 
 	<GroundVehicle Name="MPTL_Captured">

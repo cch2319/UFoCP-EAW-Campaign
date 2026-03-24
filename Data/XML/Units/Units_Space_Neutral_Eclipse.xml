@@ -184,6 +184,7 @@
 		<Ship_Class>capital</Ship_Class>
 		<Glory_Cinematics />
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 

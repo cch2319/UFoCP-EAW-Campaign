@@ -177,6 +177,7 @@
 		<Variant_Of_Existing_Type>Underworld_Merc</Variant_Of_Existing_Type>
 
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Underworld_Merc_Skiff_Pilot">

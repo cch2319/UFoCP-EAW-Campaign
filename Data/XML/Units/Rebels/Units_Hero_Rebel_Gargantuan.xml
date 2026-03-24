@@ -229,6 +229,7 @@
 		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathClone>True</IsDeathClone>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 

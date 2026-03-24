@@ -13,3 +13,5 @@
 <xxxSpace_Model_Name>
 <Tactical_Sell_Credits>
 <Tactical_Model_Name>
+
+<CategoryMask> - Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.

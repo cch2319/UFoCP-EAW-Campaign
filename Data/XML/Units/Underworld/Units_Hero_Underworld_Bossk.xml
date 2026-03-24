@@ -350,6 +350,7 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Houndstooth_Landing">

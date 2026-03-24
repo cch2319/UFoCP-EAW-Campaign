@@ -193,5 +193,6 @@
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </Interceptor_IV_Frigate>

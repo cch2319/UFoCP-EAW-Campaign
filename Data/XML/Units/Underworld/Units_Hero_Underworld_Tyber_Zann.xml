@@ -749,5 +749,6 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Glory_Cinematics />
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 </Tyber_Zann_Data>

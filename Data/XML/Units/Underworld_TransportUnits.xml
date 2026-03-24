@@ -145,7 +145,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Underworld_Vehicle_Transport_Landing">
@@ -354,7 +354,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Underworld_Infantry_Droid_Shuttle_Landing">
@@ -503,7 +503,7 @@
 		<Max_Thrust>0.05</Max_Thrust>
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<CategoryMask>Transport</CategoryMask>
+		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
 	<TransportUnit Name="Underworld_Hero_Shuttle_Landing">

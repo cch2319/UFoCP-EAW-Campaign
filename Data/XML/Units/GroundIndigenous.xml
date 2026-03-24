@@ -118,6 +118,7 @@
 
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Civilian_Independent_AI_Force_Lightning_Death_Clone">
@@ -125,6 +126,7 @@
 
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -251,6 +253,7 @@
 
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_A_Force_Lightning_Death_Clone">
@@ -258,6 +261,7 @@
 
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_A_Fire_Death_Clone">
@@ -271,6 +275,7 @@
 		<Variant_Of_Existing_Type>Ewok_Hunter</Variant_Of_Existing_Type>
 
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_Hunter_B">
@@ -288,6 +293,7 @@
 
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_B_Force_Lightning_Death_Clone">
@@ -295,6 +301,7 @@
 
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_B_Fire_Death_Clone">
@@ -308,6 +315,7 @@
 		<Variant_Of_Existing_Type>Ewok_Hunter_B</Variant_Of_Existing_Type>
 
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_Hunter_C">
@@ -325,6 +333,7 @@
 
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_C_Force_Lightning_Death_Clone">
@@ -332,6 +341,7 @@
 
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Ewok_C_Fire_Death_Clone">
@@ -345,6 +355,7 @@
 		<Variant_Of_Existing_Type>Ewok_Hunter_C</Variant_Of_Existing_Type>
 
 		<Death_SFXEvent_Start_Die>Unit_Ewok_Bomb_Death</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -465,12 +476,14 @@
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Desert_Civ_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Desert_Civ_Rebel">
@@ -604,12 +617,14 @@
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_A_Rebel">
@@ -639,12 +654,14 @@
 		<Variant_Of_Existing_Type>Swamp_Civilian_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_B_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Swamp_Civilian_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_B_Rebel">
@@ -674,12 +691,14 @@
 		<Variant_Of_Existing_Type>Swamp_Civilian_C</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_C_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Swamp_Civilian_C</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Swamp_Civ_C_Rebel">
@@ -818,12 +837,14 @@
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_A_Rebel">
@@ -853,12 +874,14 @@
 		<Variant_Of_Existing_Type>Urban_Civilian_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_B_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Urban_Civilian_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_B_Rebel">
@@ -888,12 +911,14 @@
 		<Variant_Of_Existing_Type>Urban_Civilian_C</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_C_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Urban_Civilian_C</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Urban_Civ_C_Rebel">
@@ -1030,12 +1055,14 @@
 		<Variant_Of_Existing_Type>Snow_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Snow_Civ_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Snow_Civilian_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Snow_Civ_A_Rebel">
@@ -1174,18 +1201,21 @@
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Gungan_Warrior_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Gungan_Warrior_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -1305,12 +1335,14 @@
 		<Variant_Of_Existing_Type>Mon_Calamari_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Mon_Calamari_Civilian_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Mon_Calamari_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -1419,7 +1451,6 @@
 		<Variant_Of_Existing_Type>Wookie_Warrior_Unarmed</Variant_Of_Existing_Type>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR, STUNNABLE, IDLE,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
 	</Indigenous_Unit>
-
 
 	<Indigenous_Unit Name="Wookie_Warrior">
 		<LOD_Bias>5</LOD_Bias>
@@ -1652,18 +1683,21 @@
 		<Variant_Of_Existing_Type>Jawa_Scout</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Jawa_Scout_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Jawa_Scout</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Jawa_Scout_Fire_Death_Clone">
 		<Variant_Of_Existing_Type>Jawa_Scout</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FIRE_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -1789,18 +1823,21 @@
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sand_Person_Sniper_A_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sand_Person_Sniper_A_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_A</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sand_Person_Sniper_B">
@@ -1815,18 +1852,21 @@
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sand_Person_B_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sand_Person_Sniper_B_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Sand_Person_Sniper_B</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -1947,12 +1987,14 @@
 		<Variant_Of_Existing_Type>Bothan_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Bothan_Civ_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Bothan_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Bothan_Civilian_Mission_Force_Lightning_Death_Clone">
@@ -1961,6 +2003,7 @@
 		<Death_Fade_Time>5</Death_Fade_Time>
 		<Death_Persistence_Duration>-1.0</Death_Persistence_Duration>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -2310,18 +2353,21 @@
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Twilek_Female_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Twilek_Female_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -2445,12 +2491,14 @@
 		<Variant_Of_Existing_Type>Geonosian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Geonosian_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Geonosian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -2571,18 +2619,21 @@
 		<Variant_Of_Existing_Type>Sullustan_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sullustan_Civilian_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Sullustan_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Sullustan_Civilian_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Sullustan_Civilian</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 
@@ -2702,18 +2753,21 @@
 		<Variant_Of_Existing_Type>Pyngani_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Pyngani_Warrior_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Pyngani_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Pyngani_Warrior_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Pyngani_Warrior</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Dathomir_Night_Sister">
@@ -2988,18 +3042,21 @@
 		<Variant_Of_Existing_Type>Noghri_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Noghri_Indigenous_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Noghri_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Noghri_Indigenous_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Noghri_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 
@@ -3118,18 +3175,21 @@
 		<Variant_Of_Existing_Type>Mustafarian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Mustafarian_Indigenous_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Mustafarian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Mustafarian_Indigenous_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Mustafarian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 
@@ -3248,24 +3308,25 @@
 		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Mandalorian_Indigenous_Force_Lightning_Death_Clone">
 		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Mandalorian_Indigenous_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
+		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
 
 	<!-- **************  ANIMAL LIFE  ************** -->
-
-
 	<Indigenous_Unit Name="Bantha">
 		<Text_ID>TEXT_INDIGENOUS_BANTHA</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
@@ -3747,7 +3808,7 @@
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
-
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Rancor_Death_Clone_01">
@@ -3763,7 +3824,7 @@
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
-
+		<CategoryMask>None</CategoryMask>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Rancor_Dark_Ally">

@@ -194,7 +194,9 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
+
 
 	<SpaceUnit Name="Alliance_Assault_Frigate">
 		<Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID>
@@ -391,7 +393,9 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
+
 
 	<SpaceUnit Name="Victory_Destroyer_No_Fighters">
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
@@ -577,6 +581,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Victory_Destroyer">
@@ -594,6 +599,7 @@
 
 		<Tactical_Bribe_Cost>2800</Tactical_Bribe_Cost>
 	</SpaceUnit>
+
 
 	<SpaceUnit Name="Acclamator_Assault_Ship">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
@@ -786,7 +792,9 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
+
 
 	<SpaceUnit Name="Interdictor_Cruiser">
 		<Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
@@ -983,7 +991,9 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
+
 
 
 	<SpaceUnit Name="Pirate_Frigate">
@@ -1151,7 +1161,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
-
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Empire_Pirate_Frigate"> <!--Multiplayer Only-->
@@ -1368,5 +1378,6 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </SpaceUnitsFrigates>
