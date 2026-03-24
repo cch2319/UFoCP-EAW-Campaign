@@ -1,5 +1,10 @@
 <Autoresolve_Health> --> Wordsarecool/Hyrum_Solo have disagreements: when removed, this seems to make tactical autoresolve losses way more destructive.
+<AITechLevelProductionTimeWeight>
 <Combat_Power_Value>
+<Countdowns_Font_Name>
+<Countdowns_Font_Size>
+<Credits_Display_Font_Name>
+<Credits_Display_Font_Size>
 <Death_Leave_Hulk_Behind>
 <GUI_Distance>
 <GUI_Model_Name>
@@ -7,6 +12,7 @@
 <GUI_Velocity>
 <IsBuildable>
 <Is_Interdictor>
+<Japanese_Line_Percent>
 <Lighting_Effect_Name>
 <Moniker>
 <Number_per_Squadron>
@@ -14,7 +20,9 @@
 <Radar_Icon_Scale_Space>
 <Required_Timeline>
 <Sensor_Range>
+<Ships_Per_Stack>
 <Spawn_Planet>
+<Star_Wars_Crawl_Start_Fadeout_Frame>
 <TacticalBehavior>
 <Tactical_Sell_Credits>
 <Transport_Capacity>
@@ -22,6 +30,9 @@
 
 <CategoryMask> --> Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
 <Disabled_Darken> --> <Disable_Darken>
+<Good_Victory_Conditions>/<Evil_Victory_Conditions> --> <Human_Victory_Conditions>/<AI_Victory_Conditions>
+<MinHeightAboveTerrain> --> <Min_Height_Above_Terrain>
+<Location_Height_Smooth_Time> --> <Location_Height_Up_Smooth_Time>/<Location_Height_Down_Smooth_Time>
 <Tactical_Model_Name> --> <Land_Model_Name> (Props_Forest & Props_Temperate)
-<Override_Accel> --> <OverrideAccel>
-<Override_Decel> --> <OverrideDecel>
+<Override_Acceleration> --> <OverrideAcceleration>
+<Override_Deceleration> --> <OverrideDeceleration>
