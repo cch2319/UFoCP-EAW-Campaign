@@ -17,7 +17,7 @@
 	<File>SFXEventsUnitsFighters.xml</File>
 	<File>SFXEventsUnitsFrigates.xml</File>
 	<File>SFXEventsUnitsTransports.xml</File>
-	<File>SFXEventsUnitsGround.xml</File>
+	<File>SFX\SFXEventsUnitsGround.xml</File>
 	<File>SFX\SFXEventsUnitsRebelHeroes.xml</File>
 	<File>SFX\SFXEventsUnitsEmpireHeroes.xml</File>
 
