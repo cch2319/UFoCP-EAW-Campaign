@@ -37,6 +37,7 @@ Modeling:
 
 - galyana
 -- UB_Barracks.alo - Fixed Consortium Barracks spawn bone
+-- UB_Droidworks.alo - Fixed Consortium Droidworks spawn bones
 -- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data
 -- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh
 -- W_Bush_Swmp00.alo - New swamp bush model
