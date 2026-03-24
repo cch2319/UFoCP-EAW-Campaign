@@ -347,7 +347,7 @@
 		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
 		<Space_Model_Name>UV_RZ-52BoardingShip_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>0.25</Scale_Factor>
+		<Scale_Factor>1.00</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
@@ -496,7 +496,7 @@
 		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
 		<Space_Model_Name>UV_TyLander_DC.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>0.25</Scale_Factor>
+		<Scale_Factor>0.30</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
