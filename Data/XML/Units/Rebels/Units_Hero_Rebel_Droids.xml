@@ -96,6 +96,31 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
+		<!-- This is not required since R2 and 3PO are a team, and this data is on another container object -->
+		<!-- If we wanted R2 to have the special abilities and he was not part of the team, then we would need there -->
+		<!--
+			Oksana: commenting this breaks the ability. The ability should be _indicated_ on the container object (i.e. only
+			the ability type, with No parameters). The ability should be DEFINED on the unit itself. This would be valid
+			if the ability was a _team ability_ like ION CANNON SHOT
+		-->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TARGETED_HACK</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>R2D2_Hack_Ability</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TARGETED_REPAIR</Type>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>R2D2_Repair_Ability</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
+				<Friendly_Ability>Yes</Friendly_Ability><!-- Targeted ability to friendly units -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="R2D2_Stealth">
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -138,31 +163,6 @@
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Hack_Ability Name="R2D2_Hack_Ability">-->
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Repair_Ability Name="R2D2_Repair_Ability">-->
 		</Abilities>
-
-		<!-- This is not required since R2 and 3PO are a team, and this data is on another container object -->
-		<!-- If we wanted R2 to have the special abilities and he was not part of the team, then we would need there -->
-		<!--
-			Oksana: commenting this breaks the ability. The ability should be _indicated_ on the container object (i.e. only
-			the ability type, with No parameters). The ability should be DEFINED on the unit itself. This would be valid
-			if the ability was a _team ability_ like ION CANNON SHOT
-		-->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>R2D2_Hack_Ability</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TARGETED_REPAIR</Type>
-				<Recharge_Seconds>35.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>R2D2_Repair_Ability</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
-				<Friendly_Ability>Yes</Friendly_Ability><!-- Targeted ability to friendly units -->
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 	</HeroUnit>
 
 	<HeroUnit Name="Droid_C3P0">
@@ -511,6 +511,27 @@
 
 		<CategoryMask>LandHero</CategoryMask>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Do not remove - talk to me first! -Oksana -->
+			<!-- REQUIRED HERE FOR TEAM -->
+			<Unit_Ability>
+				<Type>TARGETED_HACK</Type>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>R2D2_Hack_Ability</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<!-- REQUIRED HERE FOR TEAM -->
+			<Unit_Ability>
+				<Type>TARGETED_REPAIR</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>R2D2_Repair_Ability</GUI_Activated_Ability_Name>
+				<Friendly_Ability>Yes</Friendly_Ability>				<!-- Targeted ability to friendly units -->
+				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
 		<Abilities SubObjectList="Yes">
 			<!-- REQUIRED HERE FOR TEAM -->
 			<Hack_Ability Name="R2D2_Hack_Ability">
@@ -624,26 +645,5 @@
 				<Target_Light_Effect_Pulse_Count>25</Target_Light_Effect_Pulse_Count>
 			</Repair_Ability>
 		</Abilities>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Do not remove - talk to me first! -Oksana -->
-			<!-- REQUIRED HERE FOR TEAM -->
-			<Unit_Ability>
-				<Type>TARGETED_HACK</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>R2D2_Hack_Ability</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-
-			<!-- REQUIRED HERE FOR TEAM -->
-			<Unit_Ability>
-				<Type>TARGETED_REPAIR</Type>
-				<Recharge_Seconds>50.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>R2D2_Repair_Ability</GUI_Activated_Ability_Name>
-				<Friendly_Ability>Yes</Friendly_Ability>				<!-- Targeted ability to friendly units -->
-				<SFXEvent_Target_Ability>Unit_Hack_Turret_C3PO</SFXEvent_Target_Ability>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 	</Container>
 </Droids_Files>

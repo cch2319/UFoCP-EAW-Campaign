@@ -429,7 +429,7 @@
 	<Terrain_Resurface_Tolerance>.03</Terrain_Resurface_Tolerance>
 
 	<Max_Ground_Forces_On_Planet>10</Max_Ground_Forces_On_Planet>
-	<Allow_Reinforcement_Percentage_Normalized>0.00</Allow_Reinforcement_Percentage_Normalized>
+	<Allow_Reinforcement_Percentage_Normalized>0.50</Allow_Reinforcement_Percentage_Normalized>
 	<Default_Hero_Respawn_Time>360.00</Default_Hero_Respawn_Time>
 	<LandFOWColor>130, 130, 130, 0</LandFOWColor>
 	<SpaceFOWColor>255, 255, 255, 255</SpaceFOWColor>
