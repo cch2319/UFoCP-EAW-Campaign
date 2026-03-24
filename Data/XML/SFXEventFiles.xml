@@ -30,5 +30,5 @@
 	<File>SFX\SFXEvents_EXP_UnitsHeroes.xml</File>
 	<File>SFX\SFXEvents_EXP_UnitsSpace.xml</File>
 	<File>SFX\SFXEvents_EXP_HUD.xml</File>
-	<File>SFXEvents_EXP.xml</File>
+	<File>SFX\SFXEvents_EXP.xml</File>
 </SFXEvent_Files>
