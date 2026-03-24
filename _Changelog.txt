@@ -86,6 +86,7 @@ Audio Fixes:
 • Fixed the Death Star and the Death Star II not using the "Commence primary ignition!" voice line when pulling the lever to destroy a planet.  The event to play the VO was correct, however, the voice line's file name was changed during development and the event was never fixed. (BUG #509)
 • To prevent an internal error/assertion, the SFX audio preset "Preset_INSANE" and "Preset_INSANE_LOOP" has been set as a 3D audio preset instead of a 2D audio preset.  This prevents errors on the Death Star I and II, the Executor and Eclipse death sound effect, and planetary bombardment. (BUG #518)
 • SFX for when infantry/stormtroopers died and landed in water wasn't defined, despite audio and references existing in the game files.  This audio has been restored. (BUG #530)
+• The Consortium tutorial's Felucian Ground Beetle didn't play their footstep SFX because the game was looking for the wrong filenames. (BUG #532)
 
 
 Interface Fixes:

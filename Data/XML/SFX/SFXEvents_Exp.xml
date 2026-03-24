@@ -191,7 +191,7 @@
 
 	<SFXEvent Name="SFX_Anim_Beetle_Footsteps">
 		<Use_Preset>Preset_FSI</Use_Preset>
-		<Samples>FS_Beetle_1.wav FS_Beetle_2.wav FS_Beetle_3.wav FS_Beetle_4.wav</Samples>
+		<Samples>FS_Beetle1.wav FS_Beetle2.wav FS_Beetle3.wav FS_Beetle4.wav</Samples>
 	</SFXEvent>
 
 	<SFXEvent Name="SFX_Anim_Beetle_Attack">
