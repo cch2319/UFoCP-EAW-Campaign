@@ -495,8 +495,8 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Rows</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 		<FormationOrder>1</FormationOrder>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

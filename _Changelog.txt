@@ -134,6 +134,7 @@ Unit Fixes:
 • To prevent an internal error/assertion, the Eclipse had its "SHIELDED" behavior removed (it was set to not have any shield points or shield regeneration anyway). (BUG #516)
 • To prevent an internal error/assertion, the Death Star II now has a max-distance target setting applied to its super laser weapon. (BUG #517)
 • The Consortium's unit transports' models (specifically the infantry/droid and hero transports) would shrink in size when they died.  The infantry shuttle would become 75% smaller when destroyed, and the hero shuttle would shrink by 5%, instead of remaining consistently at their sizes when alive. (BUG #533)
+• Over 70+ instances in FoC used broken movement acceleration settings tags for units, specifically infantry, as the "OverrideDeceleration" and "OverrideAcceleration" tags were misspelled as "Override_Deceleration" and "Override_Acceleration".  Now that these values actually work, some balance finetuning may need to be done in the future - feedback is appreciated. (BUG #536)
 
 
 

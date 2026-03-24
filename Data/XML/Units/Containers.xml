@@ -253,8 +253,8 @@
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Rows</ContainerArrangement>
 		<FormationOrder>2</FormationOrder>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -321,8 +321,8 @@
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Rows</ContainerArrangement>
 		<FormationOrder>2</FormationOrder>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -378,8 +378,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -442,8 +442,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -504,8 +504,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -558,8 +558,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -625,8 +625,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -679,8 +679,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -718,8 +718,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -756,8 +756,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -794,8 +794,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -832,8 +832,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -870,8 +870,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -909,8 +909,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -946,8 +946,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -984,8 +984,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1022,8 +1022,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1061,8 +1061,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1099,8 +1099,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1137,8 +1137,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1175,8 +1175,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1213,8 +1213,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1252,8 +1252,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1291,8 +1291,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1330,8 +1330,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1369,8 +1369,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1406,8 +1406,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1442,8 +1442,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.1</Override_Acceleration>
-		<Override_Deceleration>.1</Override_Deceleration>
+		<OverrideAcceleration>.1</OverrideAcceleration>
+		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>

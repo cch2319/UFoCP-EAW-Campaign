@@ -300,8 +300,8 @@
 		<Is_Squashable>True</Is_Squashable>
 		<MovementPredictionInterval>4.0</MovementPredictionInterval>
 		<ContainerArrangement>Dartboard</ContainerArrangement>
-		<Override_Acceleration>.08</Override_Acceleration>
-		<Override_Deceleration>.08</Override_Deceleration>
+		<OverrideAcceleration>.08</OverrideAcceleration>
+		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
