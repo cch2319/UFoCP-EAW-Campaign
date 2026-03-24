@@ -75,6 +75,10 @@ Multiplayer:
 •• In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.
 
 
+Ability Fixes:
+• To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its metadata changed.  It is no longer a missile, and therefore no longer requires a terrain position that causes an assertion.  However, the ability now has a small chance to miss - to counteract this, its speed has been increased (10 -> 12) and it's range has been increased (10 -> 12 units). (BUG #524)
+
+
 Audio Fixes:
 • Fixed ion cannon hardpoints using the shield generator destruction SFX; in turn, fixed the shield generator destruction SFX not using its second explosion variation. (BUG #477)
 • Fixed the Death Star and the Death Star II not using the "Commence primary ignition!" voice line when pulling the lever to destroy a planet.  The event to play the VO was correct, however, the voice line's file name was changed during development and the event was never fixed. (BUG #509)
@@ -95,7 +99,7 @@ Map Fixes:
 Model Fixes:
 • The Canderous Assault Tank was clipping into the ground when spawned, notably having its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished, and therefore doesn't act like other repulsorlift vehicles.  It is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
 • The Vengeance Frigate had a turbolaser that would not cloak with the rest of the Frigate when using the ability, and stay visible.  Not only was the model's definition attaching the model to the wrong bone, the model itself was flipped the wrong direction.  Both files have been corrected. (BUG #169) (Thanks, galyana!)
-• The Props_Swamp_Bush00 prop for swamp environments didn't have a model, despite having a texture and one defined in the entry.  A simple one has been created. (BUG #521)
+• The Props_Swamp_Bush00 prop for swamp environments didn't have a model, despite having a texture and one defined in the entry.  A simple one has been created. (Thanks, galyana!) (BUG #521)
 
 
 Structure Fixes:
