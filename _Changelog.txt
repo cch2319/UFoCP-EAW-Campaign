@@ -79,6 +79,7 @@ MISC:
 Multiplayer:
 • While desyncs are primarily a Petroglyph issue, this update comes with various MP stability improvements!  Thanks to reports from Galyana of "Secrets of a Fallen Empire," multiple assertion errors (internal errors that may desync the game) have been fixed (see below), and multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable. (BUG #519)
 •• In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.  It is not recommended to run these commands with large overhaul mods that would send useless data.
+• Fixed an exploit where heroes (such as Darth Vader and the Executor) could be duplicated if certain conditions were met. (BUG #273)
 
 
 Ability Fixes:

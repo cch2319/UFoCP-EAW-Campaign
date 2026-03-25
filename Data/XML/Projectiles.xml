@@ -1724,7 +1724,7 @@
 		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>15000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage> <!-- AM1994 (03/24/2026): Must be No, b/c ion cannons will duplicate heroes if they retreat while being shot. -->
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle />
