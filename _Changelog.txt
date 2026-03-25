@@ -66,6 +66,7 @@ HOUSEKEEPING:
 • Darth Vader's unit file has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
 • The Annihilator's unit entry has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
 • A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas in favor of the correctly named icon (i_button_admiral_akbar.tga). (No forward-facing changes.)
+• A duplicate of the TIE advanced's icon (i_button_tie_advanced.tga) has been deleted from the game's master texture atlas in favor of the correctly named icon (i_button_ev_tieadvanced.tga). (No forward-facing changes.)
 • Keldalbe_Prototype, the Keldabe used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that did not have the proper unit flags applied on the map.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
 • Honoghr had duplicate corruption unit prerequisites - the first prerequisite (M.A.L.s) has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
 • Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
