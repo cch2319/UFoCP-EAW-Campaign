@@ -46,40 +46,43 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 UFCP:
 ======
+UFCP FIXES:
+• v2.0.0.1039's changelog did not properly notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
+• v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
+• v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
+
+
 FORWARDED OFFICIAL FIXES:
 • Forwarded fix from patch 1.121.826595 (11/20/23) into UniqueUnits.xml - Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air. (COMMIT 824b819)
-• Forwarded part of fix from patch 1.121.826595 (11/20/23) into SpaceUnitsFrigates.xml - two new entries were added to fix the Pirate Frigates becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Frigate in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Frigate becoming bigger in "Highest Bidder" was broken, as he would still be 10% bigger when destroyed.  The regular, non-scripted Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
+• Forwarded part of patch 1.121.826595's (11/20/23) fix into SpaceUnitsFrigates.xml - two new entries were added to fix Pirate Frigates becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Frigate in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Frigate becoming bigger in "Highest Bidder" was bugged, as it would still be 10% bigger when destroyed.  The regular, non-scripted Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
 • Forwarded fix from patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP fixed this before this patch came out; however, due to UFCP being in Development Hell, Petro had a public fix for this this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly. (COMMIT 824b819)
-• Forwarded fix from patch 1.121.859328 (10/22/24): fixes for bugs #147-#153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed.  In addition, the special "_MP" versions of the space units used for Skirmish have been removed as well. (COMMIT 1a0ff01)
+• Forwarded fix from patch 1.121.859328 (10/22/24): fixes for bugs #147-#153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed. (COMMIT 1a0ff01)
 
 
 HOUSEKEEPING:
-• The Executor's file entry has been removed from its dedicated file (Units_Space_Empire_Executor.xml) and placed inside of Darth Vader's unit file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
-• The Death Star's original file has been renamed (from SpaceUnitsSupers.xml to Units_Hero_Empire_Death_Star.xml) and placed inside of the Empire units folder, as the Death Stars were the only units in SpaceUnitsSupers.xml. (No forward-facing changes.)
-• Darth Vader's unit file has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
-• The Annihilator unit entry in Props_Story.xml has recieved a housekeeping pass to simplify working with it and reduce duplicate settings. (No forward-facing changes.)
-• A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas. (No forward-facing changes.)
-• Keldalbe_Prototype, the Keldabe-class Battleship used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that was not properly targeted by the mission's scripting, because it didn't have the proper marker hint in the map itself.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
-• Honoghr had duplicate corruption unit prerequisites - the first prerequisite has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
-• Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the Empire's TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
-• All of Princess Leia's voice lines have been "disabled"/commented out to prevent errors.  These audio files didn't exist in the game anyway. (No forward-facing changes.)
+• The Executor's file (Units_Space_Empire_Executor.xml) was deleted and dereferenced from the game, and the unit entry was placed inside of Darth Vader's file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
+• The Death Star's original file has been renamed (SpaceUnitsSupers -> Units_Hero_Empire_Death_Star) and placed inside of the Empire units folder. (No forward-facing changes.)
+• Darth Vader's unit file has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
+• The Annihilator's unit entry has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
+• A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas in favor of the correctly named icon (i_button_admiral_akbar.tga). (No forward-facing changes.)
+• Keldalbe_Prototype, the Keldabe used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that did not have the proper unit flags applied on the map.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
+• Honoghr had duplicate corruption unit prerequisites - the first prerequisite (M.A.L.s) has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
+• Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
+• All of Princess Leia's voice lines have been disabled to prevent errors.  These audio files didn't exist in the game, anyway. (No forward-facing changes.)
 
 
 MISC:
-• v2.0.0.1039's changelog did not notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
-• v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
-• v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
-• While this is technically Working As Designed, the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  As a result, "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
+• While this is technically Working As Designed(TM), the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
 ======
 
 
 Multiplayer:
-• While desyncs are primarily a Petroglyph issue, this update comes with various MP stability improvements.  Thanks to Secrets of a Fallen Empire, multiple assertion errors (internal errors that may desync the game) have been fixed (see below), and multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable in the future. (BUG #519)
+• While desyncs are primarily a Petroglyph issue, this update comes with various MP stability improvements!  Thanks to reports from Galyana of "Secrets of a Fallen Empire," multiple assertion errors (internal errors that may desync the game) have been fixed (see below), and multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable. (BUG #519)
 •• In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.  It is not recommended to run these commands with large overhaul mods that would send useless data.
 
 
 Ability Fixes:
-• To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its metadata changed.  It is no longer a missile, and therefore no longer requires a terrain position that causes an assertion.  However, the ability now has a small chance to miss - to counteract this, the projectile's speed has been increased (10 -> 12). (BUG #524)
+• To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its settings changed.  It is no longer a missile, and no longer requires a terrain position.  However, the ability now has a small chance to miss - to counteract this, the projectile's speed has been increased (10 -> 12). (BUG #524)
 
 
 AI Fixes:
@@ -89,8 +92,8 @@ AI Fixes:
 Audio Fixes:
 • Fixed ion cannon hardpoints using the shield generator destruction SFX; in turn, fixed the shield generator destruction SFX not using its second explosion variation. (BUG #477)
 • Fixed the Death Star and the Death Star II not using the "Commence primary ignition!" voice line when pulling the lever to destroy a planet.  The event to play the VO was correct, however, the voice line's file name was changed during development and the event was never fixed. (BUG #509)
-• To prevent an internal error/assertion, the SFX audio preset "Preset_INSANE" and "Preset_INSANE_LOOP" has been set as a 3D audio preset instead of a 2D audio preset.  This prevents errors on the Death Star I and II, the Executor and Eclipse death sound effect, and planetary bombardment. (BUG #518)
-• SFX for when infantry/stormtroopers died and landed in water wasn't defined, despite audio and references existing in the game files.  This audio has been restored. (BUG #530)
+• To prevent an internal error/assertion, the SFX audio preset "Preset_INSANE" and "Preset_INSANE_LOOP" has been set as a 3D audio preset instead of a 2D audio preset.  This prevents errors on the Death Star I and II, multiple capital ship death SFX, and planetary bombardment. (BUG #518)
+• Sound for when infantry died and landed in water wasn't defined, despite audio and references existing in the game files.  This audio has been restored. (BUG #530)
 • The Consortium tutorial's Felucian Ground Beetle didn't play their footstep SFX because the game was looking for the wrong filenames. (BUG #532)
 
 
@@ -102,11 +105,11 @@ Interface Fixes:
 Map Fixes:
 • Land Taris Intimidation had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris Intimidation has received a revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #511)
 • Land Yavin's center reinforcement point was owned by the Black Sun Pirates instead of being neutral, making it unused.  In addition, Yavin has received a revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #523)
-• Consortium campaign mission #8 "Following the Artifact" was supposed to have a display of the Death Star behind the Death Star II, along Silri's path to the Artifact.  Unfortunately, the prop misreferenced the Death Star's model, and was invisible. (BUG #520)
+• Consortium campaign mission #8 "Following the Artifact" was supposed to have a display of the Death Star behind the Death Star II (along Silri's path to the Artifact).  Unfortunately, the prop misreferenced the Death Star's model, and was invisible. (BUG #520)
 
 
 Model Fixes:
-• The Canderous Assault Tank was clipping into the ground when spawned, notably having its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished, and therefore doesn't act like other repulsorlift vehicles.  It is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
+• The Canderous Assault Tank did not act like a repulsorlift vehicle, even though it is designed as one, notably inso that it did not float and had its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished; it is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
 • The Vengeance Frigate had a turbolaser that would not cloak with the rest of the Frigate when using the ability, and stay visible.  Not only was the model's definition attaching the model to the wrong bone, the model itself was flipped the wrong direction.  Both files have been corrected. (BUG #169) (Thanks, galyana!)
 • The Props_Swamp_Bush00 prop for swamp environments didn't have a model, despite having a texture and one defined in the entry.  A simple one has been created. (Thanks, galyana!) (BUG #521)
 
@@ -115,8 +118,8 @@ Structure Fixes:
 • The Empire Mineral Extractor in Land Skirmish would not be visible to the Empire if it was obscured by the fog of war while under construction. (BUG #484)
 • To prevent an internal error/assertion, the Space Skirmish Hutt Asteroid Base's "base level" has been changed from 6 to 1. (BUG #512)
 • To prevent an internal error/assertion, the Consortium Barracks now has a "SPAWN_00" bone on its model, as the game was looking to spawn infantry at that bone and errored when it couldn't find it.  Aside from extra MP stability, infantry should now spawn closer to the Barracks' doors, as intended.  In addition, a seam error was corrected in the shadows of one of the Barracks' destruction levels. (BUG #513) (Thanks, galyana!)
-• Ground turrets never used their intended inaccuracy against most units/objects in-game.  Each turret was a "variant" of an "abstract" type that could be expanded upon - unfortunately, despite inaccuracy claiming to be fixed in the 2023 patch, using variants in this manner still broke accuracy.  The Mass Driver turrets (including the Canderous Assault Tank) also was never inaccurate against infantry or vehicles for the same reason, however, it's projectile was mistakenly MISSILE instead of LASER, which meant it ignored its inaccuracy values anyway.  All of these issues have been fixed. (BUG #525)
 • The Consortium's Droidworks factory's spawn bone location was rotated incorrectly, and was placed oddly, leading to oddities with the droidekas when rolling out of the factory.  The original spawn bone is now oriented properly, and a new spawn bone was added so droidekas make use of both doors. (BUG #527) (Thanks, galyana!)
+• Ground turrets never used their intended inaccuracy against most units/objects in-game.  Each turret was a "variant" of an "abstract" type that could be expanded upon - unfortunately, despite claiming to be fixed in the 2023 patch, using variants in this manner still broke accuracy.  The Mass Driver turrets (including the Canderous Assault Tank) were also never inaccurate against infantry or vehicles for the same reason, however, the mass driver projectile was mistakenly MISSILE instead of LASER, which meant it ignored its inaccuracy values anyway.  All of these issues have been fixed. (BUG #525)
 
 
 Texture Fixes:
@@ -128,12 +131,12 @@ Texture Fixes:
 Unit Fixes:
 • IG-2000's model would become 80% smaller when destroyed in space battle. (BUG #483)
 • The Hound's Tooth was using the standard TIE fighter laser fire SFX instead of its personalized laser fire sound. (BUG #476)
-• Urai Fen had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #381)
-• Obi-Wan Kenobi had a second selection ring when selected, aside from his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #522)
-• To prevent an internal error/assertion, the Keldabe-class Prototype used while corrupting Mandalore had its "SHIELDED" behavior removed (it was set to not have any shield points anyway).  In addition, its shield regeneration rate has also been set to 0 (for obvious reasons), and its "Special Weapon" hardpoint has been removed, as that is unique Consortium Black Market technology that the Prototype shouldn't have (the AI also couldn't use it because neither the Rebels or Empire can purchase that ability). (BUG #514)
+• Urai Fen had a second selection ring when selected, inside of his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #381)
+• Obi-Wan Kenobi had a second selection ring when selected, inside of his hero ring.  His self-healing ability generated the ring to signify the "heal range," but because it's a self-healing ability and has no "range" for other units, it has been removed. (BUG #522)
+• To prevent an internal error/assertion, the Keldabe-class Prototype used while corrupting Mandalore had its "SHIELDED" behavior removed (it was set to not have any shield points anyway).  In addition, its shield regeneration rate has also been set to 0 (for obvious reasons), and its "Special Weapon" hardpoint has been removed, as that is unique Consortium Black Market technology that the Prototype shouldn't have (the AI also couldn't use it because neither the Rebels, Empire, Pirates or Hutts can purchase that ability). (BUG #514)
 • To prevent an internal error/assertion, the Eclipse had its "SHIELDED" behavior removed (it was set to not have any shield points or shield regeneration anyway). (BUG #516)
 • To prevent an internal error/assertion, the Death Star II now has a max-distance target setting applied to its super laser weapon. (BUG #517)
-• The Consortium's unit transports' models (specifically the infantry/droid and hero transports) would shrink in size when they died.  The infantry shuttle would become 75% smaller when destroyed, and the hero shuttle would shrink by 5%, instead of remaining consistently at their sizes when alive. (BUG #533)
+• The Consortium's unit transports' models (specifically the infantry/droid and hero transports) would shrink in size when they died.  The infantry shuttle would become 75% smaller when destroyed, and the hero shuttle would shrink by 5%, instead of remaining consistently at their alive sizes. (BUG #533)
 • Over 70+ instances in FoC used broken movement acceleration settings tags for units, specifically infantry, as the "OverrideDeceleration" and "OverrideAcceleration" tags were misspelled as "Override_Deceleration" and "Override_Acceleration".  Now that these values actually work, some balance finetuning may need to be done in the future - feedback is appreciated. (BUG #536)
 
 
