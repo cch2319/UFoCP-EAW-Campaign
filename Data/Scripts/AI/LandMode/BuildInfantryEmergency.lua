@@ -41,30 +41,27 @@
 
 require("pgevents")
 
-
 function Definitions()
-	
 	Category = "Tactical_Multiplayer_Build_Infantry_Emergency"
-	IgnoreTarget = true 
-	TaskForce = {
+	IgnoreTarget = true
+	TaskForce =
 	{
-		"ReserveForce",
-		"Infantry | LandHero = 1",
-		"-Vornskr_Wolf",
-		"-Veers_AT_AT_Walker",
-		"-Gargantuan_Battle_Platform",
-		"-Tactical_R2_3PO_Team"
-	}
+		{
+			"ReserveForce",
+			"Infantry | LandHero = 1",
+			"-Vornskr_Wolf",
+			"-Veers_AT_AT_Walker",
+			"-Gargantuan_Battle_Platform",
+			"-Tactical_R2_3PO_Team"
+		}
 	}
 	AllowFreeStoreUnits = false
-
 end
 
 function ReserveForce_Thread()
-			
 	BlockOnCommand(ReserveForce.Produce_Force())
 	ReserveForce.Set_Plan_Result(true)
 	ReserveForce.Set_As_Goal_System_Removable(false)
-	Sleep(15)		
+	Sleep(15)
 	ScriptExit()
 end
