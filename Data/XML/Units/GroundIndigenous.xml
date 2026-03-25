@@ -3054,8 +3054,8 @@
 
 	<GroundInfantry Name="Noghri_Indigenous_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Noghri_Indigenous</Variant_Of_Existing_Type>
-		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
-		<Specific_Death_Anim_Index />
+		<Specific_Death_Anim_Type>Die</Specific_Death_Anim_Type> <!-- supposed to be Crushed but that anim doesn't exist yet -->
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
 
