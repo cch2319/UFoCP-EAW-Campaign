@@ -323,8 +323,8 @@
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	                -->
 		<!-- ============================================== -->
 
-		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,		Unit_Announce_R_Field_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Empire,		Unit_Announce_E_Field_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Squad_Generic_Field_Commander_Rebel,		Unit_Announce_R_Field_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Squad_Generic_Field_Commander_Empire,		Unit_Announce_E_Field_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 
 		<SFXEvent_Unit_Type_Spotted>Emperor_Palpatine,					Unit_Announce_Emperor_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Boba_Fett,							Unit_Announce_Fett_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -1087,8 +1087,8 @@
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	  		         -->
 		<!-- ============================================= -->
 
-		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,	Unit_Announce_R_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Empire,	Unit_Announce_E_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Squad_Generic_Field_Commander_Rebel,	Unit_Announce_R_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Squad_Generic_Field_Commander_Empire,	Unit_Announce_E_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 
 		<SFXEvent_Unit_Type_Spotted>Emperor_Palpatine,				Unit_Announce_Emperor_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Boba_Fett,						Unit_Announce_Fett_Storm_Trooper</SFXEvent_Unit_Type_Spotted>

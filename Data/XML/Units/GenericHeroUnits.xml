@@ -504,6 +504,7 @@
 		<MaxJiggleDistance>2</MaxJiggleDistance>
 		<Create_Team>Yes</Create_Team>
 		<Select_Box_Scale>0</Select_Box_Scale>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -514,7 +515,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</GenericHeroUnit>
 
 	<GenericHeroUnit Name="Generic_Commander_00">
@@ -788,6 +788,7 @@
 		<MaxJiggleDistance>2</MaxJiggleDistance>
 		<Create_Team>Yes</Create_Team>
 		<Select_Box_Scale>0</Select_Box_Scale>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -798,7 +799,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
 	</GenericHeroUnit>
 
 	<GenericHeroUnit Name="Generic_Fleet_Commander_Rebel">

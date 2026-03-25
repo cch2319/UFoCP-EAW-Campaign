@@ -103,6 +103,7 @@ Audio Fixes:
 • The Consortium tutorial's Felucian Ground Beetle didn't play their footstep SFX because the game was looking for the wrong filenames. (BUG #532)
 • Consortium infantry (specifically Defilers, Grenadiers and Heavy Assault Mercs) did not have footstep sounds, or death landing/impact sounds like other infantry.  The Defilers and Heavy Assault Mercs now use the Stormtrooper falling SFX (as they are heavily armored), while the Grenadiers now use Rebel/generic falling SFX. (BUG #531)
 • Admiral Ackbar was missing a lot of VO.  He now comments on if he loses his shields, engines, ion cannons or lasers, if his health is low or critical, if his power-to-shields ability is disabled, has a special line when he's defeated, has received 2 new guard lines, and his Skirmish recruitment dialogue now has the announcer saying "Requesting assistance" instead of "Constructing unit." (BUG #528)
+• Rebel and Empire Field Commanders would never trigger battlefield callouts when landed or spotted, not only because the reference in each faction's entry was pointing to the wrong unit, but the Field Commander unit entries didn't have the correct setting enabled. (BUG #541)
 
 
 Interface Fixes:
