@@ -141,10 +141,10 @@
 	<File>Units\Mobile_Defense_Units.XML</File>
 
 	<!-- Prop Files -->
-	<File>Props_Temperate.xml</File>
+	<File>Maps\Props_Temperate.xml</File>
 	<File>Props_Swamp.xml</File>
 	<File>Props_Volcanic.xml</File>
-	<File>Props_Forest.xml</File>
+	<File>Maps\Props_Forest.xml</File>
 	<File>Props_Snow.xml</File>
 	<File>Props_Desert.xml</File>
 	<File>Props_Urban.xml</File>
