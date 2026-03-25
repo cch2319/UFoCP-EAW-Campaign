@@ -50,7 +50,7 @@ UFCP FIXES:
 • v2.0.0.1039's changelog did not properly notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
 • v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
 • v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
-• v2.0.0.1039's new Consortium swamp speeder lacked a shadow mesh, which broke shadows on the object. (BUG #537)
+• v2.0.0.1039's new Consortium swamp speeder lacked a shadow mesh, which broke shadows on the object. (BUG #537) (Thanks, galyana!)
 
 
 FORWARDED OFFICIAL FIXES:
@@ -143,6 +143,7 @@ Unit Fixes:
 • The Consortium's unit transports' models (specifically the infantry/droid and hero transports) would shrink in size when they died.  The infantry shuttle would become 75% smaller when destroyed, and the hero shuttle would shrink by 5%, instead of remaining consistently at their alive sizes. (BUG #533)
 • Over 70+ instances in FoC used broken movement acceleration settings tags for units, specifically infantry, as the "OverrideDeceleration" and "OverrideAcceleration" tags were misspelled as "Override_Deceleration" and "Override_Acceleration".  Now that these values actually work, some balance finetuning may need to be done in the future - feedback is appreciated. (BUG #536)
 • Noghri units would freeze and not play an animation when getting crushed by tank-like vehicles or AT-ATs.  They were missing the "crushed" animation, and it has been swapped out for their standard death animation. (BUG #526)
+• The Consortium's Pirate Skiffs in Land Skirmish would use the Black Sun Pirates infantry model instead of the Consortium's Grenadiers. (BUG #538) (Thanks, galyana!)
 
 
 

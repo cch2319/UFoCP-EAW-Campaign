@@ -2715,6 +2715,7 @@
 
 	<GroundVehicle Name="Pirate_Skiff_E">
 		<Variant_Of_Existing_Type>Skiff</Variant_Of_Existing_Type>
+
 		<Encyclopedia_Good_Against>Rebel_Trooper MPTL</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Plex_Soldier T4B_Tank</Encyclopedia_Vulnerable_To>
 		<Affiliation>Empire</Affiliation>
@@ -2724,6 +2725,7 @@
 
 	<GroundVehicle Name="Pirate_Skiff_R">
 		<Variant_Of_Existing_Type>Skiff</Variant_Of_Existing_Type>
+
 		<Encyclopedia_Good_Against>Stormtrooper TIE_Crawler</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>AT_ST_Walker M1_Repulsor_Tank</Encyclopedia_Vulnerable_To>
 		<Affiliation>Rebel</Affiliation>
@@ -2733,9 +2735,10 @@
 
 	<GroundVehicle Name="Pirate_Skiff_U">
 		<Variant_Of_Existing_Type>Skiff</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors>Underworld_Merc_Skiff_Pilot, 1.0</Destruction_Survivors>
-		<Land_Model_Name>NV_Pskiff.ALO</Land_Model_Name>
+		<Land_Model_Name>NV_Pskiff_Underworld.ALO</Land_Model_Name>
 		<Destruction_Survivors />
 	</GroundVehicle>
 

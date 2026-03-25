@@ -38,7 +38,9 @@ Modeling:
 - galyana
 -- UB_Barracks.alo - Fixed Consortium Barracks spawn bone
 -- UB_Droidworks.alo - Fixed Consortium Droidworks spawn bones
--- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data
+-- NV_PSkiff_Underworld - Fixed Consortium Pirate Skiff not using Consortium infantry
+-- NV_SwampSpeeder_U - Fixed shadow mesh (v2.1)
+-- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
 -- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh
 -- W_Bush_Swmp00.alo - New swamp bush model
 
@@ -48,8 +50,8 @@ Modeling:
 - theshyshallot
 -- UB_XX_Station.alo - Fixed Consortium space station models having irregular collision
 -- RB/UB_TLTower.alo - Fixed red muzzle flashes for Consortium & Rebel turbolaser tower models
--- NV_SwampSpeeder_U.alo - Fixed Consortium swamp speeder models not using Consortium infantry
--- UV_CanderousAssaultTank.alo - Fixed Canderous Assault Tank shadow mesh/collision boxes
+-- NV_SwampSpeeder_U.alo - Fixed Consortium swamp speeder models not using Consortium infantry (v2.0)
+-- UV_CanderousAssaultTank.alo - Fixed Canderous Assault Tank shadow mesh/collision boxes (v2.0)
 
 
 Scripting:
