@@ -70,10 +70,6 @@ HOUSEKEEPING:
 • Honoghr had duplicate corruption unit prerequisites - the first prerequisite (M.A.L.s) has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
 • Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
 • All of Princess Leia's voice lines have been disabled to prevent errors.  These audio files didn't exist in the game, anyway. (No forward-facing changes.)
-
-
-MISC:
-• While this is technically Working As Designed(TM), the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
 ======
 
 
@@ -84,6 +80,7 @@ Multiplayer:
 
 Balancing Fixes:
 • The Rebel Land Skirmish AI can no longer buy R2-D2 and C-3PO.  The reasoning can be found on the GitHub, but additionally, this comes in tandem with another bugfix (BUG #540) where the AI would overbuy Vornskrs and Vehicle Heroes because it believed they were in an emergency, needed infantry, and buying R2-D2 was the way to solve that. (BUG #539)
+• While this is technically Working As Designed(TM), the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
 
 
 Ability Fixes:
@@ -104,6 +101,10 @@ Audio Fixes:
 • Consortium infantry (specifically Defilers, Grenadiers and Heavy Assault Mercs) did not have footstep sounds, or death landing/impact sounds like other infantry.  The Defilers and Heavy Assault Mercs now use the Stormtrooper falling SFX (as they are heavily armored), while the Grenadiers now use Rebel/generic falling SFX. (BUG #531)
 • Admiral Ackbar was missing a lot of VO.  He now comments on if he loses his shields, engines, ion cannons or lasers, if his health is low or critical, if his power-to-shields ability is disabled, has a special line when he's defeated, has received 2 new guard lines, and his Skirmish recruitment dialogue now has the announcer saying "Requesting assistance" instead of "Constructing unit." (BUG #528)
 • Rebel and Empire Field Commanders would never trigger battlefield callouts when landed or spotted, not only because the reference in each faction's entry was pointing to the wrong unit, but the Field Commander unit entries didn't have the correct setting enabled. (BUG #541)
+
+
+Gameplay Fixes:
+• The "Unlocked" camera settings (for modders) and Space Tactical Combat camera settings had the following misspelled settings: Location_Height_Smooth_Time, MinHeightAboveTerrain.  They have been corrected to Location_Height_Up_Smooth_Time/Location_Height_Down_Smooth_Time, and Min_Height_Above_Terrain. (BUG #542)
 
 
 Interface Fixes:
