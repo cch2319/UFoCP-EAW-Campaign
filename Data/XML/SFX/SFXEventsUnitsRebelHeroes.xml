@@ -141,10 +141,10 @@
 
 	<SFXEvent Name="Unit_Guard_Ackbar">
 		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_ACK0401_ENG.wav U000_ACK0402_ENG.wav</Samples>
+		<Samples>U000_ACK0401_ENG.wav U000_ACK0402_ENG.wav U000_ACK0802_ENG.wav U000_ACK0803_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
-		<Text_ID>TEXT_SFX_ACK_GUARD_1, TEXT_SFX_ACK_GUARD_2</Text_ID>
+		<Text_ID>TEXT_SFX_ACK_GUARD_1, TEXT_SFX_ACK_GUARD_2, TEXT_SFX_ACK_PLANET_SELECT_2, TEXT_SFX_ACK_PLANET_SELECT_3</Text_ID>
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
@@ -166,16 +166,7 @@
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Health_Low_Ackbar">
-		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_ACK0701_ENG.wav</Samples>
-		<Localize>Yes</Localize>
-		<Play_Sequentially>Yes</Play_Sequentially>
-		<Text_ID>TEXT_SFX_ACK_TRAP_1</Text_ID>
-		<Overlap_Test>Unit_Ackbar</Overlap_Test>
-	</SFXEvent>
-
-	<SFXEvent Name="Unit_Planet_Select_Ackbar">
+	<SFXEvent Name="Unit_Planet_Select_Ackbar"> <!-- AM1994: Repurposed for Unit_Guard_Ackbar -->
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_ACK0801_ENG.wav U000_ACK0802_ENG.wav U000_ACK0803_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -184,7 +175,7 @@
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Attacked_Ackbar">
+	<SFXEvent Name="Unit_Attacked_Ackbar"> <!-- AM1994: Reurposed into Unit_Health_Low_Ackbar -->
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_ACK0901_ENG.wav U000_ACK0901_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -193,12 +184,30 @@
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
+	<SFXEvent Name="Unit_Health_Low_Ackbar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_ACK0901_ENG.wav U000_ACK0902_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_ACK_ATTACKED_1, TEXT_SFX_ACK_ATTACKED_2</Text_ID>
+		<Overlap_Test>Unit_Ackbar</Overlap_Test>
+	</SFXEvent>
+
 	<SFXEvent Name="Unit_Health_Critcal_Ackbar">
 		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_ACK1001_ENG.wav</Samples>
+		<Samples>U000_ACK1002_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_ACK_NEAR_DEATH_2</Text_ID>
+		<Overlap_Test>Unit_Ackbar</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Defeat_Ackbar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_ACK0701_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_ACK_TRAP_1</Text_ID>
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
@@ -208,6 +217,15 @@
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
 		<Text_ID>TEXT_SFX_ACK_DEFEND_1, TEXT_SFX_ACK_DEFEND_2, TEXT_SFX_ACK_DEFEND_3</Text_ID>
+		<Overlap_Test>Unit_Ackbar</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Defend_Off_Ackbar">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>U000_ACK1201_ENG.wav U000_ACK1202_ENG.wav U000_ACK1203_ENG.wav</Samples>
+		<Localize>Yes</Localize>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Text_ID>TEXT_SFX_ACK_DEFEND_OFF_1, TEXT_SFX_ACK_DEFEND_OFF_2, TEXT_SFX_ACK_DEFEND_OFF_3</Text_ID>
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 
@@ -240,10 +258,10 @@
 
 	<SFXEvent Name="Unit_Lost_Shields_Ackbar">
 		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_ACK1403_ENG.wav</Samples>
+		<Samples>U000_ACK1403_ENG.wav, U000_ACK1001_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
-		<Text_ID>TEXT_SFX_ACK_LOST_SHIELDS_1</Text_ID>
+		<Text_ID>TEXT_SFX_ACK_LOST_SHIELDS_1, TEXT_SFX_ACK_NEAR_DEATH_1</Text_ID>
 		<Overlap_Test>Unit_Ackbar</Overlap_Test>
 	</SFXEvent>
 

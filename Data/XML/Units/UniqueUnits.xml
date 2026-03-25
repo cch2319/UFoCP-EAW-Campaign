@@ -645,8 +645,9 @@
 		<Squadron_Capacity>50</Squadron_Capacity>
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Size_Value>360</Size_Value>
-		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+		<Behavior>DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>
+			SELECTABLE,
 			ABILITY_COUNTDOWN,
 			SIMPLE_SPACE_LOCOMOTOR,
 			POWERED,
@@ -686,6 +687,30 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Ackbar</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critcal_Ackbar</SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Lasers_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missiles_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedos_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ions_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Ackbar</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Ackbar</SFXEvent_Hero_Respawned>
+		<SFXEvent_Unit_Lost>Unit_Defeat_Ackbar</SFXEvent_Unit_Lost>
+
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+
+
 		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
 
@@ -693,12 +718,6 @@
 		<SFXEvent_Engine_Idle_Loop>Unit_Calamari_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Calamari_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Ackbar</SFXEvent_Build_Complete>
-
-		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
 
 		<Population_Value>4</Population_Value>
 
@@ -742,7 +761,7 @@
 				<Expiration_Seconds>15</Expiration_Seconds>
 
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Defend_Off_Ackbar</SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
