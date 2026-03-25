@@ -625,7 +625,7 @@
 
 	<Props_Temperate Name="Prop_Temp_Bush00">
 		<Text_ID />
-		<Tactical_Model_Name>W_Bush_Temp00.ALO</Tactical_Model_Name>
+		<Land_Model_Name>W_Bush_Temp00.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>Yes</Is_Decoration>
