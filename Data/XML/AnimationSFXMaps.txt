@@ -1651,3 +1651,52 @@ SOUND	uv_ig2000_landing_takeoff_00	74	Unit_Gallofree_Takeoff
 
 SOUND	nv_moldycrow_landing_land_00	74	Unit_Barge_Landing
 SOUND	nv_moldycrow_landing_takeoff_00	74	Unit_Barge_Takeoff
+
+
+SURFACE	ui_mercenary_move_00	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_mercenary_move_00	1032	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_mercenary_move_01	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_mercenary_move_01	1170	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_mercenary_move_02	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_mercenary_move_02	1164	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_mercenary_walkmove_00	1109	INFANTRY_FOOT_PLANT	B_Foot_L
+SURFACE	ui_mercenary_walkmove_00	1990	INFANTRY_FOOT_PLANT	B_Foot_R
+
+SURFACE	ui_mercenary_walkmove_01	1090	INFANTRY_FOOT_PLANT	B_Foot_L
+SURFACE	ui_mercenary_walkmove_01	2000	INFANTRY_FOOT_PLANT	B_Foot_R
+
+
+SURFACE	ui_mercenary_die_00		1152	GENERIC_IMPACT	B_Head
+SURFACE	ui_mercenary_die_01		888		GENERIC_IMPACT	B_Thigh_R
+
+
+SURFACE	ui_disruptor_move_00	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_disruptor_move_00	1032	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_disruptor_move_01	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_disruptor_move_01	1170	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_disruptor_move_02	0		INFANTRY_FOOT_PLANT	B_Foot_R
+SURFACE	ui_disruptor_move_02	1164	INFANTRY_FOOT_PLANT	B_Foot_L
+
+SURFACE	ui_disruptor_walkmove_00	1074	INFANTRY_FOOT_PLANT	B_Foot_L
+SURFACE	ui_disruptor_walkmove_00	1978	INFANTRY_FOOT_PLANT	B_Foot_R
+
+SURFACE	ui_disruptor_walkmove_01	1074	INFANTRY_FOOT_PLANT	B_Foot_L
+SURFACE	ui_disruptor_walkmove_01	1978	INFANTRY_FOOT_PLANT	B_Foot_R
+
+
+SURFACE	ui_disruptor_die_00		1152	TROOPER_IMPACT	B_Head
+SURFACE	ui_disruptor_die_01		888		TROOPER_IMPACT	B_Thigh_R
+
+
+SURFACE	ui_saboteur_move_00		0		INFANTRY_FOOT_PLANT		B_Foot_R
+SURFACE	ui_saboteur_move_00		1109	INFANTRY_FOOT_PLANT		B_Foot_L
+
+SURFACE	ui_saboteur_die_00		1152	TROOPER_IMPACT	B_Head
+SURFACE	ui_saboteur_die_01		1375	TROOPER_IMPACT	B_Thigh_R
+
+SURFACE	ui_saboteur_land_00		805		TROOPER_IMPACT	B_Neck
