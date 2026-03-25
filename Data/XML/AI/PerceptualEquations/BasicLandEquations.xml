@@ -137,9 +137,10 @@
 			0.001
 			+
 			(2 * Variable_Target.Type.IsType {Parameter_Type = "Ground_Ion_Cannon",
+												Parameter_Type = "Empire_Ground_Shutter_Shield",
+												Parameter_Type = "Rebel_Ground_Shutter_Shield",
 												Parameter_Type = "Ground_Empire_Hypervelocity_Gun",
-												Parameter_Type = "Ground_Magnepulse_Cannon",
-												Parameter_Type = "U_Ground_Gravity_Generator"})
+												Parameter_Type = "Ground_Magnepulse_Cannon"})
 			+
 			(5.0 * Variable_Target.Type.IsType {Parameter_Type = "Empire_Anti_Infantry_Turret",
 												Parameter_Type = "Rebel_Anti_Infantry_Turret",
@@ -158,10 +159,9 @@
 			+
 			(10 * Variable_Target.Type.IsType { Parameter_Type = "E_Ground_Base_Shield",
 												Parameter_Type = "R_Ground_Base_Shield",
-												Parameter_Type = "Empire_Ground_Shutter_Shield",
-												Parameter_Type = "Rebel_Ground_Shutter_Shield",
 												Parameter_Type = "Power_Generator_E",
-												Parameter_Type = "Power_Generator_R"})
+												Parameter_Type = "Power_Generator_R",
+												Parameter_Type = "U_Ground_Gravity_Generator"})
 			+
 			(20 * Variable_Target.Type.IsType { Parameter_Type = "Empire_Mineral_Processor"
 												,Parameter_Type = "Rebel_Mineral_Processor"
@@ -489,9 +489,9 @@
 	<!--
 	-->
 	<Need_AntiInfantry_Turret>
-		Variable_Target.Type.IsType {Parameter_Type = "Skirmish_Build_Pad"
-												,Parameter_Type = "Rebel_Build_Pad"
-												,Parameter_Type = "Empire_Build_Pad"
+		Variable_Target.Type.IsType {Parameter_Type = "SKIRMISH_BUILD_PAD"
+												,Parameter_Type = "REBEL_BUILD_PAD"
+												,Parameter_Type = "EMPIRE_BUILD_PAD"
 												,Parameter_Type = "Underworld_Build_Pad"
 												,Parameter_Type = "Rebel_Build_Pad_Offensive"
 												,Parameter_Type = "Empire_Build_Pad_Offensive"
@@ -510,12 +510,11 @@
 			+
 			(Function_Is_Saving_For_Refineries_Land.Evaluate)
 			*
-			(300 > Variable_Target.DistanceToNearestEnemy {Parameter_Type = "Skirmish_Mineral_Processor_Pad",
-																			Parameter_Type = "N_Ground_Mining_Facility_Build_Pad",
-																			Parameter_Type = "Skirmish_Outpost_Pad",
-																			Parameter_Type = "Empire_Ground_Mining_Facility_Build_Pad",
-																			Parameter_Type = "Rebel_Ground_Mining_Facility_Build_Pad",
-																			Parameter_Type = "Skirmish_Outpost_Pad"})
+			(300 > Variable_Target.DistanceToNearestEnemy {Parameter_Type = "Skirmish_Mineral_Processor_Pad"
+																			,Parameter_Type = "N_Ground_Mining_Facility_Build_Pad"
+																			,Parameter_Type = "Empire_Ground_Mining_Facility_Build_Pad"
+																			,Parameter_Type = "Rebel_Ground_Mining_Facility_Build_Pad"
+																			,Parameter_Type = "Skirmish_Outpost_Pad"})
 		)
 		*
 		(
@@ -619,10 +618,9 @@
 	</Has_Infantry_Hero>
 
 	<Has_Vehicle_Hero>
-		Variable_Self.HasUnit { Parameter_Type = "Veers_AT_AT_Walker",
-								Parameter_Type = "Droid_R2D2",
-								Parameter_Type = "Droid_C3P0",
-								Parameter_Type = "Gargantuan_Battle_Platform",
+		Variable_Self.HasUnit { Parameter_Type = "General_Veers",
+								Parameter_Type = "Tactical_R2_3PO_Team",
+								Parameter_Type = "Garm_Bel_Iblis_Team",
 								Parameter_Type = "IG88_Team" }
 	</Has_Vehicle_Hero>
 

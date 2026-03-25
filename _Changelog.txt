@@ -51,8 +51,6 @@ UFCP FIXES:
 • v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
 • v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
 • v2.0.0.1039's new Consortium swamp speeder lacked a shadow mesh, which broke shadows on the object. (BUG #537) (Thanks, galyana!)
-• v2.0.0.1039's adjustment for land tactical AI had them over-prioritizing the Repulsorlift Jammer.  Instead of multiplicatively increasing the desire to destroy by 10x, it now only does by 2x.  The AI also under-prioritized targeting shutter shield generators for bases in Land Skirmish (2x instead of of 10x, as they are tactically active infrastructure).
-• v2.0.0.1039's fix for the AI not considering if vehicle heroes were present (to build repair facilities) has been modified to include the units themselves, instead of their team.
 
 
 FORWARDED OFFICIAL FIXES:
@@ -92,7 +90,6 @@ Ability Fixes:
 AI Fixes:
 • The planning AI would consider the destroyed/killed version of unit models for plans/unit composition alongside the actual unit, even though they couldn't build or use them. (BUG #534)
 • The Land Skirmish AI should no longer rapidly focus on buying General Veers, R2-D2 & C-3PO, Garm Bel Iblis or Vornskr Wolves when they believe they're in an infantry emergency.  These units were referenced in the AI file, however, it targeted the wrong unit type (the unit itself rather than the team). (BUG #540)
-• The Land Skirmish AI would not properly consider if they should build infantry turrets next to outpost structure pads because it was only coded to look for Mineral Processors and the Mining Facility build pad from EaW. (BUG #546)
 
 
 Audio Fixes:
