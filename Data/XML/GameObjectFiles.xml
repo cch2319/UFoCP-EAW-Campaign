@@ -27,7 +27,7 @@
 	<File>SpaceBuildablesSkirmish.xml</File>
 
 	<File>Units\NamedHeroUnits.xml</File>
-	<File>GenericHeroUnits.xml</File>
+	<File>Units\GenericHeroUnits.xml</File>
 	<File>Units\HeroCompanies.xml</File>
 
 	<File>LandPrimarySkydomes.xml</File>
