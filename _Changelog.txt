@@ -95,7 +95,7 @@ Audio Fixes:
 • To prevent an internal error/assertion, the SFX audio preset "Preset_INSANE" and "Preset_INSANE_LOOP" has been set as a 3D audio preset instead of a 2D audio preset.  This prevents errors on the Death Star I and II, multiple capital ship death SFX, and planetary bombardment. (BUG #518)
 • Sound for when infantry died and landed in water wasn't defined, despite audio and references existing in the game files.  This audio has been restored. (BUG #530)
 • The Consortium tutorial's Felucian Ground Beetle didn't play their footstep SFX because the game was looking for the wrong filenames. (BUG #532)
-• Consortium infantry (specifically Defilers, Grenadiers and Heavy Assault Mercs) did not have footstep sounds, or death landing/impact sounds like other infantry.  The Defilers and Heavy Assault Mercs use the Stormtrooper falling SFX (as they are heavily armored), while the Grenadiers use Rebel/generic falling SFX. (BUG #531)
+• Consortium infantry (specifically Defilers, Grenadiers and Heavy Assault Mercs) did not have footstep sounds, or death landing/impact sounds like other infantry.  The Defilers and Heavy Assault Mercs now use the Stormtrooper falling SFX (as they are heavily armored), while the Grenadiers now use Rebel/generic falling SFX. (BUG #531)
 
 
 Interface Fixes:
