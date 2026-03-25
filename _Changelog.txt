@@ -50,6 +50,7 @@ UFCP FIXES:
 • v2.0.0.1039's changelog did not properly notate that interface BUG #241 was fixed.  Slave I used its ship icon during space battles, instead of Boba Fett's icon like other space heroes; however, the icon was properly assigned during Space Skirmish battles.
 • v2.0.0.1039's new bump map textures looked wrong in-game because the wrong texture layers were accidentally exported.  (They have now been re-exported and don't look out-of-place.)
 • v2.0.0.1039's fixes for bugs #445-#450 properly addressed Galactic Conquests starting with the wrong credit amounts - however, Heart of the Maw remained starting at 12,000 credits (as it was supposed to), but 12,000 couldn't be properly selected on the Advanced Settings tab.  The slider's maximum was 10,000, which would force the starting credit amount to be less than intended.  Now, the universal credit cap in the Advanced Settings tab has been increased to 12,000 (Heart of the Maw should now properly start at 12,000 credits, and players can choose to start with more if they want).
+• v2.0.0.1039's new Consortium swamp speeder lacked a shadow mesh, which broke shadows on the object. (BUG #537)
 
 
 FORWARDED OFFICIAL FIXES:
