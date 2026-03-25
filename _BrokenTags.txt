@@ -27,12 +27,13 @@
 <Tactical_Sell_Credits>
 <Transport_Capacity>
 <xxxSpace_Model_Name>
+<Text_ID>TEXT_NONE</Text_ID>
 
 <CategoryMask> --> Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
 <Disabled_Darken> --> <Disable_Darken>
 <Good_Victory_Conditions>/<Evil_Victory_Conditions> --> <Human_Victory_Conditions>/<AI_Victory_Conditions>
 <MinHeightAboveTerrain> --> <Min_Height_Above_Terrain>
 <Location_Height_Smooth_Time> --> <Location_Height_Up_Smooth_Time>/<Location_Height_Down_Smooth_Time>
-<Tactical_Model_Name> --> <Land_Model_Name> (Props_Forest & Props_Temperate)
+<Tactical_Model_Name> --> <Land_Model_Name>
 <Override_Acceleration> --> <OverrideAcceleration>
 <Override_Deceleration> --> <OverrideDeceleration>
