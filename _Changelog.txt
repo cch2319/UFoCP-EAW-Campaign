@@ -82,6 +82,9 @@ Multiplayer:
 •• In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.  It is not recommended to run these commands with large overhaul mods that would send useless data.
 • Fixed an exploit where heroes (such as Darth Vader and the Executor) could be duplicated if certain conditions were met. (BUG #273)
 
+Balancing Fixes:
+• The Rebel Land Skirmish AI can no longer buy R2-D2 and C-3PO.  The reasoning can be found on the GitHub, but additionally, this comes in tandem with another bugfix (BUG #540) where the AI would overbuy Vornskrs and Vehicle Heroes because it believed they were in an emergency, needed infantry, and buying R2-D2 was the way to solve that. (BUG #539)
+
 
 Ability Fixes:
 • To prevent an internal error/assertion, IG-88's "INFECTION" projectile has had its settings changed.  It is no longer a missile, and no longer requires a terrain position.  However, the ability now has a small chance to miss - to counteract this, the projectile's speed has been increased (10 -> 12). (BUG #524)
@@ -89,6 +92,7 @@ Ability Fixes:
 
 AI Fixes:
 • The planning AI would consider the destroyed/killed version of unit models for plans/unit composition alongside the actual unit, even though they couldn't build or use them. (BUG #534)
+• The Land Skirmish AI should no longer rapidly focus on buying General Veers, R2-D2 & C-3PO, Garm Bel Iblis or Vornskr Wolves when they believe they're in an infantry emergency.  These units were referenced in the AI file, however, it targeted the wrong unit type (the unit itself rather than the team). (BUG #540)
 
 
 Audio Fixes:

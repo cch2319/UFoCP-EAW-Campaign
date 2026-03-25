@@ -49,10 +49,10 @@ function Definitions()
 		{
 			"ReserveForce",
 			"Infantry | LandHero = 1",
-			"-Vornskr_Wolf",
-			"-Veers_AT_AT_Walker",
-			"-Gargantuan_Battle_Platform",
-			"-Tactical_R2_3PO_Team"
+			"-Vornskr_Wolf_Pack",
+			"-General_Veers_Team",
+			"-Garm_Bel_Iblis_Team",
+			"-Droids_Team"
 		}
 	}
 	AllowFreeStoreUnits = false
