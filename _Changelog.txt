@@ -122,6 +122,7 @@ Model Fixes:
 • The Canderous Assault Tank did not act like a repulsorlift vehicle, even though it is designed as one, notably inso that it did not float and had its propulsion jet quarter-way into the ground.  As it turns out, the Tank had an animation file that was never finished; it is now raised by 4 units into the air, and now has 2 custom hovering animations for idling and moving. (BUG #390) (Thanks, galyana!)
 • The Vengeance Frigate had a turbolaser that would not cloak with the rest of the Frigate when using the ability, and stay visible.  Not only was the model's definition attaching the model to the wrong bone, the model itself was flipped the wrong direction.  Both files have been corrected. (BUG #169) (Thanks, galyana!)
 • The Props_Swamp_Bush00 prop for swamp environments didn't have a model, despite having a texture and one defined in the entry.  A simple one has been created. (Thanks, galyana!) (BUG #521)
+• The Prop_Endor_Conifer00 prop for forest environments used an incorrect model assignment tag, Tactical_Model_Name.  It now uses Land_Model_Name. (BUG #544)
 
 
 Structure Fixes:
