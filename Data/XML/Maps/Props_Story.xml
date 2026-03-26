@@ -30,8 +30,6 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>3.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>3.0</Radar_Icon_Scale_Space>
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_01">
@@ -913,9 +911,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
-		<GUI_Model_Name>NV_LDS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -2564,9 +2560,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Visible_On_Radar_When_Fogged>True</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station5_e.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.3</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.3</Radar_Icon_Scale_Space>
-		<Radar_Icon_Size>0.16 0.16</Radar_Icon_Size>
+		<Radar_Icon_Size>0.16, 0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
@@ -2612,7 +2606,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
 		<Affiliation>Pirates, Empire, Rebel</Affiliation> <!-- Modded by Chris R. for MP -->
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />

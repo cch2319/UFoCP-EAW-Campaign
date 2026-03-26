@@ -129,8 +129,8 @@
 		<Air_Vehicle_Turret_Target>No</Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		<Overall_Length>60.0</Overall_Length><!-- Hand tweaked for vehicle pitching up and down on terrain -->
-		<Overall_Width>0.0</Overall_Width><!-- 0.0 means don't roll left and right on terrain -->
+		<Overall_Length>60.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
+		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>600</AI_Combat_Power>
 
@@ -238,7 +238,7 @@
 
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
@@ -386,7 +386,7 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>75</Size_Value>
 
 		<Armor_Type>Armor_ATST</Armor_Type>
@@ -426,7 +426,7 @@
 		<Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 2.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Corvette, 45.0</Targeting_Fire_Inaccuracy><!-- LEAVE THIS FOR BARRAGE ABILITY -->
+		<Targeting_Fire_Inaccuracy>Corvette, 45.0</Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -459,8 +459,8 @@
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- Hand tweaked for vehicle pitching up and down on terrain -->
-		<Overall_Width>0.0</Overall_Width><!-- 0.0 means don't roll left and right on terrain -->
+		<Overall_Length>20.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
+		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>70</AI_Combat_Power>
 
@@ -598,7 +598,7 @@
 
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -772,8 +772,8 @@
 
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
-		<Overall_Width>20.0</Overall_Width><!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
+		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
+		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>50</AI_Combat_Power>
 
@@ -881,7 +881,7 @@
 
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -1014,8 +1014,8 @@
 
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
-		<Overall_Width>20.0</Overall_Width><!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
+		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
+		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
@@ -1100,7 +1100,7 @@
 
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -1293,7 +1293,7 @@
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability>Unit_ATAT_Assault_Speeder</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -1448,8 +1448,8 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
-		<Overall_Width>20.0</Overall_Width><!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
+		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
+		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
@@ -1652,9 +1652,9 @@
 				<Type>FOW_REVEAL_PING</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
-				<Effective_Radius>0.0</Effective_Radius><!-- 0.0 means No distance factor, unlimited to entire map -->
+				<Effective_Radius>0.0</Effective_Radius> <!-- 0.0 means No distance factor, unlimited to entire map -->
 				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name /><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name /> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -1723,7 +1723,7 @@
 		<LandBehavior>AFFECTED_BY_SHIELD, HUNT,WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, SHIELDED, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field> <!-- This is considered a repulsorlift-driven unit -->
 
 		<Garrison_Category>Vehicle</Garrison_Category>
 		<Garrison_Value>2</Garrison_Value>
@@ -1796,8 +1796,8 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>45.0</Overall_Length><!-- For vehicle pitching up and down on terrain -->
-		<Overall_Width>20.0</Overall_Width><!-- For vehicle rolling left and right on terrain value (20 by geometry)-->
+		<Overall_Length>45.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain value (20 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>80</AI_Combat_Power>
 
@@ -1980,8 +1980,8 @@
 		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Tread_Scroll_Rate>0.167</Tread_Scroll_Rate>
-		<Overall_Length>20.0</Overall_Length><!-- For vehicle pitching up and down on terrain (40 by geometry -->
-		<Overall_Width>25.0</Overall_Width><!-- For vehicle rolling left and right on terrain (50 by geometry) -->
+		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain (40 by geometry -->
+		<Overall_Width>25.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (50 by geometry) -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
@@ -2161,8 +2161,8 @@
 		<SFXEvent_Attack>Unit_Attack_Tie_Mauler</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Tie_Mauler</SFXEvent_Guard>
 
-		<Selt_Destruct_SFXEvent_Start_Die>Unit_TIE_Mauler_Self_Destruct</Selt_Destruct_SFXEvent_Start_Die><!-- When self destruct sequence begins -->
-		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die><!-- When self destructs -->
+		<Selt_Destruct_SFXEvent_Start_Die>Unit_TIE_Mauler_Self_Destruct</Selt_Destruct_SFXEvent_Start_Die> <!-- When self destruct sequence begins -->
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die> <!-- When self destructs -->
 
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Tie_Mauler</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Tie_Mauler</SFXEvent_Assist_Attack>
@@ -2176,7 +2176,7 @@
 		<SFXEvent_Tactical_Build_Cancelled>EHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Tread_Scroll_Rate>0.167</Tread_Scroll_Rate><!-- 0.167 -->
+		<Tread_Scroll_Rate>0.167</Tread_Scroll_Rate> <!-- 0.167 -->
 		<Overall_Length>25.0</Overall_Length>	<!-- For vehicle pitching up and down on terrain (35 by geometry) -->
 		<Overall_Width>20.0</Overall_Width>		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
@@ -2273,7 +2273,7 @@
 
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -2416,8 +2416,8 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>40.0</Overall_Length><!-- For vehicle pitching up and down on terrain -->
-		<Overall_Width>25.0</Overall_Width><!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>25.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>125</AI_Combat_Power>
 
@@ -2517,7 +2517,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -2552,7 +2552,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -2678,8 +2678,8 @@
 		<SFXEvent_Engine_Moving_Loop>Unit_Skiff_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Overall_Length>20.0</Overall_Length><!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
-		<Overall_Width>10.0</Overall_Width><!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
+		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
+		<Overall_Width>10.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		<AI_Combat_Power>100</AI_Combat_Power>
 
@@ -2755,7 +2755,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
-				<Recharge_Seconds>10</Recharge_Seconds><!-- time that the user can't eject thief, kicks in right away -->
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>

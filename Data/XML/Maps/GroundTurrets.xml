@@ -75,7 +75,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -185,7 +185,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -295,7 +295,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -405,7 +405,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -518,7 +518,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -632,7 +632,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -745,7 +745,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -860,7 +860,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -972,7 +972,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -1084,7 +1084,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -1197,7 +1197,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -1307,7 +1307,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -1353,7 +1353,7 @@
 		<LandBehavior>EARTHQUAKE_TARGET</LandBehavior>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Tactical_Sell_Credits>1250</Tactical_Sell_Credits>
+		
 		<Tactical_Health>100</Tactical_Health>
 
 		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
@@ -1421,7 +1421,6 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
 
@@ -1544,7 +1543,6 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
 	</GroundStructure>
@@ -1559,7 +1557,7 @@
 		<LandBehavior>EARTHQUAKE_TARGET</LandBehavior>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		<Tactical_Sell_Credits>750</Tactical_Sell_Credits>
+		
 		<Tactical_Health>100</Tactical_Health>
 
 		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
@@ -2013,7 +2011,7 @@
 		<Encyclopedia_Vulnerable_To>Stormtrooper Rebel_Trooper</Encyclopedia_Vulnerable_To>
 
 		<Tactical_Health>250</Tactical_Health>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 
 		<Affiliation>Underworld</Affiliation>
 
@@ -2303,7 +2301,7 @@
 		<Icon_Name>i_button_ev_mdu_grenade mortar.tga</Icon_Name>
 
 		<Tactical_Health>300</Tactical_Health>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 
 		<Affiliation>Empire</Affiliation>
 
@@ -2432,7 +2430,7 @@
 		<Icon_Name>i_button_ev_mdu_grenade mortar.tga</Icon_Name>
 
 		<Tactical_Health>250</Tactical_Health>
-		<Tactical_Sell_Credits>600</Tactical_Sell_Credits>
+		
 
 		<Affiliation>Hutts</Affiliation>
 
@@ -2850,7 +2848,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -2972,7 +2970,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Tactical_Sell_Credits>400</Tactical_Sell_Credits>
+		
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>

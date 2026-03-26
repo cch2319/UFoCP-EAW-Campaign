@@ -1523,7 +1523,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>9</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -5053,7 +5053,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Vehicle_Factory</Required_Special_Structures>

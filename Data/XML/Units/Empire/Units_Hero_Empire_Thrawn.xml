@@ -21,7 +21,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -160,7 +160,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>5</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

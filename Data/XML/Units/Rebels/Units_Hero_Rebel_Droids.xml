@@ -406,7 +406,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -500,8 +500,6 @@
 		<FormationOrder>1</FormationOrder>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>

@@ -31,7 +31,7 @@
 		<Required_Planets />
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
@@ -137,7 +137,7 @@
 		<Size_Value>90</Size_Value>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>4</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -231,7 +231,7 @@
 		<Size_Value>90</Size_Value>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>100</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -304,7 +304,7 @@
 		<Slice_Cost_Credits>750</Slice_Cost_Credits>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>100</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -376,7 +376,7 @@
 		<Size_Value>90</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -483,7 +483,7 @@
 		<Slice_Cost_Credits>1750</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -585,7 +585,7 @@
 		<Size_Value>30</Size_Value>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>3</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -597,12 +597,9 @@
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
-		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -752,7 +749,7 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -764,12 +761,9 @@
 		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
-		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -849,7 +843,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -862,9 +856,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
-		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
-		<GUI_Distance>850</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -948,7 +940,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -961,9 +953,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
-		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
-		<GUI_Distance>850</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1047,7 +1037,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1060,9 +1050,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_cantina.tga</Icon_Name>
-		<GUI_Model_Name>W_CANTINATAT.ALO</GUI_Model_Name>
-		<GUI_Distance>850</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1139,7 +1127,7 @@
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1223,7 +1211,7 @@
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1356,7 +1344,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1513,7 +1501,7 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1645,7 +1633,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1745,7 +1733,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1847,7 +1835,7 @@
 		<Tech_Level>3</Tech_Level>
 		<SpaceAutoResolveHitRate>3</SpaceAutoResolveHitRate>
 		<Damage>50</Damage>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
@@ -1974,7 +1962,7 @@
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
@@ -2012,9 +2000,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Icon_Name>i_button_infiltrator_training_facility.tga</Icon_Name>
-		<GUI_Model_Name>RB_BARRACKS.ALO</GUI_Model_Name>
-		<GUI_Distance>600</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2124,7 +2110,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -2235,7 +2221,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -2365,7 +2351,7 @@
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -2574,7 +2560,7 @@
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets />
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -2706,7 +2692,7 @@
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets />
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -2827,7 +2813,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -3003,7 +2989,7 @@
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -3177,7 +3163,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -3358,7 +3344,7 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -3520,7 +3506,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
@@ -3704,7 +3690,7 @@
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
@@ -3882,7 +3868,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>3</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
@@ -4002,7 +3988,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
@@ -4121,7 +4107,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
@@ -4242,7 +4228,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4395,7 +4381,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4501,7 +4487,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4654,7 +4640,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4838,7 +4824,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4978,7 +4964,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -5335,7 +5321,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -5490,7 +5476,7 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -5634,7 +5620,7 @@
 		<Slice_Cost_Credits>1000</Slice_Cost_Credits>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Destruction_Survivors></Destruction_Survivors>
 		<Armor_Type>Armor_Structure</Armor_Type>
@@ -5665,10 +5651,8 @@
 		<Special_Weapon_Target_Action_Index>1</Special_Weapon_Target_Action_Index>
 		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
 		<Icon_Name>i_button_ion_cannon.tga</Icon_Name>
-		<GUI_Model_Name>RB_IONCANNON.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Angles>63.44 0 0</GUI_Angles>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<GUI_X_Rot>90</GUI_X_Rot>
 		<Space_Victory_Relevant>No</Space_Victory_Relevant>
 		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>
@@ -5708,7 +5692,7 @@
 		<Tech_Level>4</Tech_Level>
 		<SpaceAutoResolveHitRate>3</SpaceAutoResolveHitRate>
 		<Damage>50</Damage>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Shield_Points>200</Shield_Points>
@@ -5958,9 +5942,7 @@
 
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
-		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -6269,7 +6251,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

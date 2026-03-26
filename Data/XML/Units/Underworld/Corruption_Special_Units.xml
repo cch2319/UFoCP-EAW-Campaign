@@ -55,7 +55,7 @@
 		<Is_Squashable>True</Is_Squashable>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -135,7 +135,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -177,8 +177,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -238,7 +236,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>5</Damage>
@@ -322,7 +320,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -364,8 +362,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -420,7 +416,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>8</Damage>
@@ -501,7 +497,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -544,8 +540,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -604,7 +598,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>5</Damage>
@@ -687,7 +681,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -729,8 +723,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -790,7 +782,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -872,7 +864,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -914,8 +906,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -974,7 +964,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -1057,7 +1047,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -1101,8 +1091,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1161,7 +1149,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -1243,7 +1231,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -1285,8 +1273,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1344,7 +1330,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -1426,7 +1412,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
@@ -1468,8 +1454,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1499,7 +1483,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />

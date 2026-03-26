@@ -16,14 +16,6 @@
 		<Pre_Lit>Yes</Pre_Lit>
 		<Layer_Z_Adjust>0.5</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-		<!--
-			"Scale" for containers' icons is the worls-space ACTUAL SIZE of these icons.
-			This is done because containers don't have constant size/radius and
-			change constantly, whereas supposed to be shown on Radar as one constant-sized blip
-		-->
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	</Container>
 
 	<Container Name="Galactic_Squadron">
@@ -35,8 +27,6 @@
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Behavior>FLEET</Behavior>
 	</Container>
@@ -55,8 +45,6 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	</Container>
 
 
@@ -100,8 +88,6 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<CategoryMask>SpaceHero | Fighter | AntiCapital | AntiSuper</CategoryMask>
 		<FormationOrder>2</FormationOrder>
@@ -171,10 +157,6 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter</Encyclopedia_Vulnerable_To>
-
-		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
-		<GUI_Distance>120</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
 
 		<Behavior>
 			TEAM,
@@ -257,8 +239,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -325,8 +305,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -382,8 +360,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -446,8 +422,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -508,8 +482,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -562,8 +534,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -629,8 +599,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
@@ -683,8 +651,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -722,8 +688,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -760,8 +724,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -798,8 +760,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -836,8 +796,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -874,8 +832,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -913,8 +869,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Guard_Chase_Range>300.0</Guard_Chase_Range>
@@ -950,8 +904,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -988,8 +940,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1026,8 +976,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1065,8 +1013,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1103,8 +1049,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1141,8 +1085,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1179,8 +1121,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1217,8 +1157,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1256,8 +1194,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1295,8 +1231,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1334,8 +1268,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1373,8 +1305,6 @@
 		<OverrideDeceleration>.08</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1410,8 +1340,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -1446,8 +1374,6 @@
 		<OverrideDeceleration>.1</OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>

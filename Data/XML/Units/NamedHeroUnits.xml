@@ -635,7 +635,7 @@
 		<Affiliation>Empire</Affiliation>
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
-		<Required_Timeline>2</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -720,7 +720,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Political_Faction>Empire</Political_Faction>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -825,7 +825,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control />
 		<Political_Faction />
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -986,7 +986,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>4</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1056,7 +1056,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>3</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1131,7 +1131,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>4</Required_Timeline>
+		
 		<Size_Value>10</Size_Value>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -1347,7 +1347,7 @@
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>2</Required_Timeline>
+		
 		<Size_Value>10</Size_Value>
 
 		<Armor_Type>Armor_Hero</Armor_Type>
@@ -1503,7 +1503,7 @@
 		<!-- must use a special ability to modify political control in order to stack correctly -->
 		<Political_Control>0</Political_Control>
 		<Political_Faction>Rebel</Political_Faction>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -2005,7 +2005,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>5</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -2048,7 +2048,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

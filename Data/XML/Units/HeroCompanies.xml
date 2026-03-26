@@ -16,7 +16,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_E</Required_Special_Structures>
@@ -49,7 +49,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_R</Required_Special_Structures>
@@ -82,7 +82,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Cantina_R</Required_Special_Structures>
@@ -111,7 +111,7 @@
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -146,7 +146,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Hutt_Palace_E</Required_Special_Structures>
@@ -181,7 +181,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>Ground_Hutt_Palace_R</Required_Special_Structures>
@@ -218,7 +218,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
@@ -259,7 +259,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
@@ -303,7 +303,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy, R_Ground_Barracks</Required_Special_Structures>
@@ -349,7 +349,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Heroes>Yes</Build_Tab_Heroes>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
@@ -396,7 +396,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>4</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -491,7 +491,7 @@
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>4</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -538,7 +538,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>2</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -603,7 +603,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -635,7 +635,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>4</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -680,7 +680,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -745,7 +745,7 @@
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>3</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -800,7 +800,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -892,7 +892,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>3</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -938,7 +938,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>5</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -985,7 +985,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1018,7 +1018,7 @@
 		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits>-->
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>5</Required_Timeline>
+		
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1082,7 +1082,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

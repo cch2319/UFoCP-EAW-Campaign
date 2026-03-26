@@ -47,7 +47,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -176,7 +176,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -406,7 +406,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -548,7 +548,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Neutral</Affiliation>
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -767,7 +767,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -985,7 +985,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Neutral</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -1128,7 +1128,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -1264,7 +1264,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -1386,7 +1386,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -1494,7 +1494,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -1608,7 +1608,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -1747,7 +1747,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -1918,7 +1918,7 @@
 		<Is_Squashable>True</Is_Squashable>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2065,7 +2065,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 
 		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 
 		<Size_Value>10</Size_Value>
@@ -2180,7 +2180,7 @@
 		<Is_Squashable>True</Is_Squashable>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hutts</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2283,7 +2283,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2418,7 +2418,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2548,7 +2548,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2684,7 +2684,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2819,7 +2819,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -2972,7 +2972,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -3105,7 +3105,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Empire</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -3238,7 +3238,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -3355,7 +3355,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -3426,7 +3426,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
@@ -3542,7 +3542,7 @@
 
 		<Scale_Factor>2.0</Scale_Factor>
 		<Affiliation>Sarlacc</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -3654,7 +3654,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Hostile</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
@@ -4274,7 +4274,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4344,7 +4344,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4406,7 +4406,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4470,7 +4470,7 @@
 
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4538,7 +4538,7 @@
 -->
 		<Affiliation>Hostile</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -4632,7 +4632,7 @@
 
 		<Affiliation>Hostile</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

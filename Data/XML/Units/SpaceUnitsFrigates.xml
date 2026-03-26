@@ -42,7 +42,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -67,7 +67,6 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Death_Clone>Damage_Normal, Nebulon_Death_Clone</Death_Clone>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
@@ -79,9 +78,7 @@
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
-		<GUI_Model_Name>RV_NebulonB.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -131,8 +128,6 @@
 
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -241,7 +236,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -264,7 +259,6 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 
 		<Death_Clone>Damage_Normal, Assault_Frigate_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -278,9 +272,7 @@
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_alliance_assault_frigate.tga</Icon_Name>
-		<GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
-		<GUI_Distance>1200</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -330,8 +322,6 @@
 
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -436,7 +426,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -471,9 +461,7 @@
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_victory_class.tga</Icon_Name>
-		<GUI_Model_Name>EV_VictoryStarDestroyer.alo</GUI_Model_Name>
-		<GUI_Distance>1100</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -524,8 +512,6 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -640,7 +626,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -682,9 +668,7 @@
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_acclimator_cruiser.tga</Icon_Name>
-		<GUI_Model_Name>EV_Acclamator.ALO</GUI_Model_Name>
-		<GUI_Distance>1100</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -734,8 +718,6 @@
 
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -830,7 +812,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>4</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -874,9 +856,6 @@
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_interdictor_cruiser.tga</Icon_Name>
-		<GUI_Model_Name>EV_Interdictor.alo</GUI_Model_Name>
-		<GUI_Distance>900</GUI_Distance>
-		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
@@ -1055,7 +1034,6 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
@@ -1110,8 +1088,6 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -1265,7 +1241,6 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints />
@@ -1318,8 +1293,6 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>

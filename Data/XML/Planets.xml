@@ -94,7 +94,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -177,7 +177,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -263,7 +263,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -327,7 +327,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name />
-		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -393,7 +393,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>18</Mouse_Collide_Override_Sphere_Radius>
@@ -477,7 +477,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.05</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>22</Mouse_Collide_Override_Sphere_Radius>
@@ -583,7 +583,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>18</Mouse_Collide_Override_Sphere_Radius>
@@ -673,7 +673,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Gas01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Gas01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.3</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>24.2</Mouse_Collide_Override_Sphere_Radius>
@@ -766,7 +766,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Gas01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Gas01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.3</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>24.2</Mouse_Collide_Override_Sphere_Radius>
@@ -857,7 +857,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -951,7 +951,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_bonadan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -1036,7 +1036,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BOTHAWUI</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1158,7 +1158,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BYSS</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1249,7 +1249,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CARIDA</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1362,7 +1362,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORELLIA</Text_ID>
 		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1457,7 +1457,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORULAG</Text_ID>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1562,7 +1562,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
 		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1643,7 +1643,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -1734,7 +1734,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_DAGOBAH</Text_ID>
 		<Galactic_Model_Name>W_planet_dagobah_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1802,7 +1802,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_DANTOOINE</Text_ID>
 		<Galactic_Model_Name>W_planet_Dantooine01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Dantooine01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1887,7 +1887,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ENDOR</Text_ID>
 		<Galactic_Model_Name>W_planet_endor_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -1964,7 +1964,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ERIADU</Text_ID>
 		<Galactic_Model_Name>W_planet_eriadu_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2058,7 +2058,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -2145,7 +2145,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FONDOR</Text_ID>
 		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2242,7 +2242,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FRESIA</Text_ID>
 		<Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2333,7 +2333,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_GEONOSIS</Text_ID>
 		<Galactic_Model_Name>W_planet_geonosis_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2429,7 +2429,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -2523,7 +2523,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -2612,7 +2612,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_HOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2686,7 +2686,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -2764,7 +2764,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ILUM</Text_ID>
 		<Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2842,7 +2842,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_JABIIM</Text_ID>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2953,7 +2953,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
 		<Galactic_Model_Name>W_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3052,7 +3052,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
 		<Galactic_Model_Name>W_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3139,7 +3139,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KASHYYYK</Text_ID>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3222,7 +3222,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KESSEL</Text_ID>
 		<Galactic_Model_Name>W_planet_Kessel_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Kessel_low.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3305,7 +3305,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KORRIBAN</Text_ID>
 		<Galactic_Model_Name>W_planet_Korriban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Korriban01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3387,7 +3387,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KUAT</Text_ID>
 		<Galactic_Model_Name>W_planet_Kuat_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Kuat_low.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3484,7 +3484,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANAAN</Text_ID>
 		<Galactic_Model_Name>W_planet_Kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Ocean01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3555,7 +3555,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -3656,7 +3656,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -3753,7 +3753,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -3849,7 +3849,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MONCALAMARI</Text_ID>
 		<Galactic_Model_Name>W_planet_Moncalamari01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Moncalamari01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3951,7 +3951,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_mustafar_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_mustafar_low.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -4048,7 +4048,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -4132,7 +4132,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -4201,7 +4201,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
 		<Galactic_Model_Name>W_planet_naboo_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4296,7 +4296,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4399,7 +4399,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4476,7 +4476,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4533,7 +4533,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4626,7 +4626,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_POLUS</Text_ID>
 		<Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4715,7 +4715,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4803,7 +4803,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
 		<Galactic_Model_Name>W_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4894,7 +4894,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -4989,7 +4989,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SHOLA</Text_ID>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5061,7 +5061,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SULLUST</Text_ID>
 		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5158,7 +5158,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TARIS</Text_ID>
 		<Galactic_Model_Name>W_planet_taris01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_taris01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5257,7 +5257,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TATOOINE</Text_ID>
 		<Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5352,7 +5352,7 @@
 		<Scale_Factor>1.8</Scale_Factor>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
@@ -5417,7 +5417,7 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_THYFERRA</Text_ID>
 		<Galactic_Model_Name>W_planet_thyferra01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_thyferra01.alo</GUI_Model_Name>
+
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5504,7 +5504,7 @@
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>W_planet_utapau_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
@@ -5594,7 +5594,6 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_VERGESSO</Text_ID>
 		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5672,7 +5671,6 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_WAYLAND</Text_ID>
 		<Galactic_Model_Name>W_planet_wayland_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5760,7 +5758,6 @@
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_YAVIN</Text_ID>
 		<Galactic_Model_Name>W_planet_yavinIV_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>

@@ -1667,7 +1667,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Rebel</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>

@@ -719,7 +719,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 
@@ -869,8 +869,6 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Size>0.4, 0.4</Radar_Icon_Size>
 
 		<Space_Override_Population_Value>3</Space_Override_Population_Value>
@@ -1025,7 +1023,7 @@
 		<Damage>100</Damage>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -1208,8 +1206,6 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<CategoryMask>SpaceHero | Fighter</CategoryMask>
 		<FormationOrder>2</FormationOrder>

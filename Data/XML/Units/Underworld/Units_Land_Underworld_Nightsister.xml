@@ -318,7 +318,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Size_Value>10</Size_Value>
 		<Armor_Type>Armor_Infantry</Armor_Type>
 		<Damage>3</Damage>
@@ -443,7 +443,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Palace</Required_Special_Structures>
@@ -499,7 +499,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>

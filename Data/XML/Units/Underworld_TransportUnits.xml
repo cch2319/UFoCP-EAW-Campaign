@@ -41,7 +41,7 @@
 		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
 		<Energy_Capacity>400</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -264,7 +264,7 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>50</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -414,7 +414,7 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Energy_Capacity>50</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
-		<Required_Timeline>0</Required_Timeline>
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
