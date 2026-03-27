@@ -225,10 +225,12 @@
 	we've already bought the death star
 	-->
 	<Need_To_Flush_MajorItem_Budget>
+		(Variable_Self.CreditsUnnormalized > 30000) <!-- DS2 cost x1.5 -->
+		+
 		Function_Needs_More_Space_Force_Globally.Evaluate
-		+
+		*
 		Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Count = 1}
-		+
+		*
 		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
 
@@ -506,7 +508,7 @@
 		* (Variable_Target.IsFaction {Parameter_Faction = "REBEL"} == 1.0)
 	-->
 	<Want_To_Fire_DS>
-		Variable_Self.IsFaction { Parameter_Faction = "EMPIRE" }
+		Function_Is_Empire.Evaluate
 		*
 		50.0
 		*
@@ -588,7 +590,7 @@
 		* (1500.0 + (200.0 * Game.Timeline))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
-		* (2500.0 + (500.0  * Game.Timeline))
+		* (2500.0 + (500.0 * Game.Timeline))
 	</Space_Force_Limit_For_Unrestricted_Grab>
 
 	<Ground_Force_Limit_For_Unrestricted_Grab>

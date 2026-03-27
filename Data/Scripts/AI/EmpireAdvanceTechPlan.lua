@@ -54,6 +54,7 @@ function Definitions()
 			"DS_Primary_Hyperdrive | DS_Shield_Gen | DS_Superlaser_Core | DS_Durasteel | Darth_Team_Executor | Death_Star_II = 1"
 		}
 	}
+	AllowFreeStoreUnits = false
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end

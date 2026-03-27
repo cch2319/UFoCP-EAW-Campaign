@@ -111,9 +111,10 @@
 		2.0 * Variable_Self.CanAdvanceTech
 	-->
 	<BasicEmpireMajorItemBudgetAllocation>
-		0.8
+		1.0
 		*
-		(7.0 	- Variable_Self.TechLevel
+		(8.0 	- Variable_Self.TechLevel
+				- Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor"}
 				- Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"}
 				- Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
 		*
@@ -121,7 +122,9 @@
 		*
 		clamp(Function_Has_Enough_Space_Force_Globally.Evaluate + (Game.Timeline > Variable_Self.TechLevel), 0.0, 1.0)
 		+
-		3.0 * (Variable_Self.TechLevel == 5) * (1 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"})
+		5.0 * (Variable_Self.TechLevel == 5) * (1 - Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor"})
+		+
+		5.0 * (Variable_Self.TechLevel == 5) * (1 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"})
 	</BasicEmpireMajorItemBudgetAllocation>
 
 	<!-- Tech Upgrade Purchasing Budgets -->

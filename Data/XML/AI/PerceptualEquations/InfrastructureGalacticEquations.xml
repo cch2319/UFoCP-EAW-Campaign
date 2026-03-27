@@ -294,7 +294,7 @@
 
 
 	<!-- Flat, low desire
-   Boost if we need to upgrade the base
+		Boost if we need to upgrade the base
 	-->
 	<Need_Comm_Array>
 		(1 - Variable_Target.HasStructure {Parameter_Type = "Communications_Array"})
@@ -359,7 +359,7 @@
 		(1.0 - clamp(Variable_Self.PlanetsControlled - 0.33, 0.0, 1.0)) *
 		(Variable_Target.StarbaseLevel == 0.0) *
 		(Variable_Target.MaxStarbaseLevel > 0.0) *
-        (Variable_Target.EnemyForce.HasSpaceForce == 0)
+		(Variable_Target.EnemyForce.HasSpaceForce == 0)
 	</Needs_Initial_Starbase>
 
 	<!-- Does this planet have a groundbase already?  This now builds a barracks.
@@ -555,9 +555,7 @@
 	<!--
 		Are we the Empire
 		AND
-		We're not sure to win anyway
-		AND
-		Do we not yet have the Death Star
+		Do we not yet have Darth Vader and Death Star
 		AND
 		Do we have enough bases to afford keeping a base tied up for a lengthy tech upgrade
 		AND
@@ -577,9 +575,16 @@
 		Game.FriendlyForce.SpaceTotalUnnormalized - Game.EnemyForce.SpaceTotalUnnormalized
 		-->
 	<Empire_Should_Upgrade_Tech>
-		(Variable_Self.IsFaction {Parameter_Faction = "Empire"})
+		Function_Is_Empire.Evaluate
 		*
-		(1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1, Parameter_Only_Consider_Complete = 1.0})
+		(
+			(
+				(1.0 - Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Count = 1, Parameter_Only_Consider_Complete = 1.0})
+				+
+				(1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1, Parameter_Only_Consider_Complete = 1.0})
+			)
+			>= 1.0
+		)
 		*
 		Function_Has_Enough_Bases_For_Tech.Evaluate
 		*
@@ -609,11 +614,11 @@
 				(Variable_Self.TechLevel == 4) *
 				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"}) +
 				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
-				+
-				(Variable_Self.TechLevel == 5) *
-				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"}) +
-				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
 			)
+			+
+			(Variable_Self.TechLevel == 5) *
+			((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"}) +
+			(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
 			+
 			(Variable_Self.TechLevel == 5) *
 			((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star_II"}) +
@@ -630,6 +635,8 @@
 		OR
 		We're able to advance the tech level
 		OR
+		we're tech 5 and we want to buy Darth Vader
+		OR
 		we're tech 5 and we want to buy the death star
 	-->
 	<Empire_Tech_Trigger>
@@ -640,6 +647,8 @@
 				(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"})
 				+
 				Variable_Self.CanAdvanceTech
+				+
+				(Variable_Self.TechLevel == 5) * (1.0 - Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor"})
 				+
 				(Variable_Self.TechLevel == 5) * (1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"})
 			)
@@ -655,7 +664,7 @@
 		OR
 		We really can no longer afford to both pay for this item and maintain other activities
 		OR
-		We already have the Death Star
+		We already have Vader and Death Star
 		-->
 	<Empire_Tech_Untrigger>
 		(5 > Variable_Self.TechLevel) *
@@ -664,37 +673,43 @@
 		+
 		(
 			(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1}) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 1) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 2) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 3) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 4) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 5) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"} >= 0.8)
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"} >= 0.80)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 5) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star_II"} >= 0.80)
 		)
 		+
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Only_Consider_Complete = 1}
+		(
+			(0 + Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Only_Consider_Complete = 1})
+			*
+			(0 + Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Only_Consider_Complete = 1})
+		)
 	</Empire_Tech_Untrigger>
 
 	<Can_Reclaim_Excess_MajorItem_Budget>
+		(Variable_Self.CreditsUnnormalized > 40000) <!-- DS2 Cost x2 -->
+		+
 		(Variable_Self.ActiveGoals {Parameter_Category = AIGoalCategoryType[MajorItem]} > 0)
 	</Can_Reclaim_Excess_MajorItem_Budget>
 
