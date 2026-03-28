@@ -153,7 +153,7 @@
 			<Unit_Ability>
 				<Type>FORCE_TELEKINESIS</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability>Unit_Lift_Vader</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -162,7 +162,8 @@
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
 				<Recharge_Seconds>25.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Push_Vader</SFXEvent_GUI_Unit_Ability_Activated>--> <!-- AM1994 (03/28/26): this ability can't have sound. -->
+				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Effective_Radius>500.0</Effective_Radius>
 				<Spawned_Object_Type>Force_Whirlwind_Particles</Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
@@ -280,9 +281,9 @@
 
 			<Remove_Corruption_Ability Name="Vader_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
 				<Activation_Style>Ground_Activated</Activation_Style>
-				<Corruption_Removal_Time_In_Secs>8</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Time_In_Secs>8</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
@@ -302,7 +303,7 @@
 				<Type>FORCE_TELEKINESIS</Type>
 
 				<Recharge_Seconds>30.00</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability>Unit_Lift_Vader</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -313,7 +314,8 @@
 
 				<Recharge_Seconds>25.00</Recharge_Seconds>
 				<Effective_Radius>500.00</Effective_Radius>
-				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Push_Vader</SFXEvent_GUI_Unit_Ability_Activated>--> <!-- AM1994 (03/28/26): this ability can't have sound. -->
+				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type>Force_Whirlwind_Particles</Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -323,7 +325,7 @@
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
 			<Redirect_Blaster_Ability Name="Vader_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
-				<Redirect_Chance>0.60</Redirect_Chance><!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.60</Redirect_Chance> <!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Block_Chance>0.80</Block_Chance>
 				<Reaction_Arc_In_Degrees>180.00</Reaction_Arc_In_Degrees>
 				<Max_Projectile_Redirection_Angle_In_Degrees>135.0</Max_Projectile_Redirection_Angle_In_Degrees>
@@ -510,8 +512,8 @@
 			<Remove_Corruption_Ability Name="Vader_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
-				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
-				<Corruption_Removal_Time_In_Secs>8</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>8</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
@@ -879,7 +881,7 @@
 			<Unit_Ability>
 				<Type>TRACTOR_BEAM</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
@@ -1052,14 +1054,14 @@
 			<Unit_Ability>
 				<Type>FORCE_TELEKINESIS</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
 				<Recharge_Seconds>25.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Effective_Radius>500.0</Effective_Radius>
 				<Spawned_Object_Type>Force_Whirlwind_Particles</Spawned_Object_Type>
 			</Unit_Ability>
@@ -1101,7 +1103,7 @@
 			<Unit_Ability>
 				<Type>FORCE_TELEKINESIS</Type>
 				<Recharge_Seconds>30.00</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Telekinesis</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
 
 			<!-- Secondary ability -->
@@ -1109,14 +1111,14 @@
 				<Type>FORCE_WHIRLWIND</Type>
 				<Recharge_Seconds>30.00</Recharge_Seconds>
 				<Effective_Radius>500.00</Effective_Radius>
-				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Vader_Force_Whirlwind</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type>Force_Whirlwind_Particles</Spawned_Object_Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
 
 	<HeroCompany Name="Darth_Team_Land_MP">
-		<Variant_Of_Existing_Type>Darth_Team_Executor</Variant_Of_Existing_Type><!-- AM1994: Swap to Darth_Team_Executor so FoC's land Vader takes priority. -->
+		<Variant_Of_Existing_Type>Darth_Team_Executor</Variant_Of_Existing_Type> <!-- AM1994: Swap to Darth_Team_Executor so FoC's land Vader takes priority. -->
 
 		<Tech_Level>99</Tech_Level>
 		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
