@@ -1644,20 +1644,24 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
-		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Select>Unit_Select_Antilles</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Antilles</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Antilles</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Antilles</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Antilles</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Antilles</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Antilles</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Unit_Lost>Unit_Defeat_Antilles</SFXEvent_Unit_Lost>
 
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Antilles</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Antilles</SFXEvent_Hero_Respawned>
+
+		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Engine_Idle_Loop>Unit_Corvette_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Corvette_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -1711,7 +1715,7 @@
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
 
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 		</Unit_Abilities_Data>
