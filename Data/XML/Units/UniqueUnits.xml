@@ -434,9 +434,12 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Veers</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Veers</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Veers</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Veers</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Veers</SFXEvent_Group_Attack>
+
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Veers</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Veers</SFXEvent_Health_Critical_Warning>
-
+		<SFXEvent_Unit_Lost>Unit_Defeat_Veers</SFXEvent_Unit_Lost>
 		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
 
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
