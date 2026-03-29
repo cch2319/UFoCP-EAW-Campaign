@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <SFXEvents>
-	<SFXEvent Name="Unit_Select_Veers">
+	<SFXEvent Name="Unit_Select_Veers"> <!-- AM1994 03/28/26: U000_VER0110_ENG/TEXT_SFX_VER_SELECT_10 unused as Veers isn't a Colonel. -->
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_VER0101_ENG.wav U000_VER0102_ENG.wav U000_VER0103_ENG.wav U000_VER0104_ENG.wav U000_VER0105_ENG.wav U000_VER0106_ENG.wav U000_VER0107_ENG.wav U000_VER0108_ENG.wav U000_VER0109_ENG.wav U000_VER0111_ENG.wav U000_VER0112_ENG.wav U000_VER0113_ENG.wav U000_VER0114_ENG.wav U000_VER0115_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -45,7 +45,7 @@
 		<Overlap_Test>Unit_Veers</Overlap_Test>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Respawn_Veers">
+	<SFXEvent Name="Unit_Respawn_Veers"> <!-- AM1994 03/28/26: U000_VER0504_ENG/TEXT_SFX_VER_RESPAWN_4 unused as Veers isn't a Colonel. -->
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_VER0501_ENG.wav U000_VER0502_ENG.wav U000_VER0503_ENG.wav U000_VER0505_ENG.wav U000_VER0506_ENG.wav</Samples>
 		<Localize>Yes</Localize>
