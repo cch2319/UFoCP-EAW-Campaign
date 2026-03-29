@@ -267,6 +267,7 @@
 		<SFXEvent_Deploy>Unit_Deploy_Boba_Fett</SFXEvent_Deploy>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Boba_Fett</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Boba_Fett</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Unit_Lost>Unit_Defeat_Boba_Fett</SFXEvent_Unit_Lost>
 
 		<SFXEvent_Ambient_Moving>Unit_Slave1_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
