@@ -383,8 +383,8 @@ TEXT_BATTLE_TIME,Battle Time:
 TEXT_BEGINNING_NAT_NEGOTIATION,Opening connection
 TEXT_BESPIN_PIRACY_OBJECTIVE_00,Tyber Zann and the Interdictor Must Survive.
 TEXT_BESPIN_PIRACY_OBJECTIVE_01,Activate the Interdictor at the Designated Location.
-TEXT_BESPIN_PIRACY_OBJECTIVE_02,Destroy the Shuttles Carrying the Tibanna Gas.
-TEXT_BESPIN_PIRACY_OBJECTIVE_03,Destroy the Tibanna Gas Shuttles in the second convoy.
+TEXT_BESPIN_PIRACY_OBJECTIVE_02,Destroy the shuttles carrying the tibanna gas.
+TEXT_BESPIN_PIRACY_OBJECTIVE_03,Destroy the tibanna gas shuttles in the second convoy.
 TEXT_BLACK_MARKET_DIALOG_DESCRIPTION,The black market provides the Zann Consortium with unique abilities. These black market unit enhancements vary in availability based on faction.
 TEXT_BLACK_MARKET_PURCHASED,Purchased
 TEXT_BLACK_MARKET_SLOTS,Pick Tech to purchase
@@ -2764,14 +2764,14 @@ TEXT_PLANET_BALMORRA_INFO_TAC,Cost of light assault tanks is reduced due to Balm
 TEXT_PLANET_BALMORRA_INFO_TER,Plains, Urban sprawls
 TEXT_PLANET_BALMORRA_INFO_WEA,Clear, Rain
 TEXT_PLANET_BALMORRA_INFO_WL,Metal Parasites
-TEXT_PLANET_BESPIN_ENCYC,High credit value: Additional income provided by Tibanna gas mining. Restriction: No land production or garrisons possible.
+TEXT_PLANET_BESPIN_ENCYC,High credit value: Additional income provided by tibanna gas mining. Restriction: No land production or garrisons possible.
 TEXT_PLANET_BESPIN_ENCYC_00,Damage Bonus (Aggressor-class Destroyer): Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled
 TEXT_PLANET_BESPIN_INFO_ADV,High credit value
 TEXT_PLANET_BESPIN_INFO_ADV_00,Damage Bonus (Aggressor-class Destroyer)
 TEXT_PLANET_BESPIN_INFO_HIS,Located in Anoat sector of the Outer Rim Bespin is a large gas giant that has no landmasses, but its upper atmosphere of billowing clouds hosts an envelope of breathable air called the Life Zone where a variety of life forms have evolved.  Local inhabitants have established floating colonies here such as Cloud City, a popular resort and mining town. The Cloud City Wing Guard handles security, police and emergency duties for Cloud City while the Baron Administrator runs the city's day to day and mining operations. Bespin's chief and most profitable export is precious tibanna gas that is used to power blasters and other energy weapons.
-TEXT_PLANET_BESPIN_INFO_HIS_01,Bespin is a large gas giant that has no landmasses, but its upper atmosphere of billowing clouds hosts an envelope of breathable air called the Life Zone where a variety of life forms have evolved.  Local inhabitants have established floating colonies here such as Cloud City, a popular resort and mining town. Bespin's chief and most profitable export is precious Tibanna gas that is used to power blasters and other energy weapons.
+TEXT_PLANET_BESPIN_INFO_HIS_01,Bespin is a large gas giant that has no landmasses, but its upper atmosphere of billowing clouds hosts an envelope of breathable air called the Life Zone where a variety of life forms have evolved.  Local inhabitants have established floating colonies here such as Cloud City, a popular resort and mining town. Bespin's chief and most profitable export is precious tibanna gas that is used to power blasters and other energy weapons.
 TEXT_PLANET_BESPIN_INFO_POP,Human, Ugnaught
-TEXT_PLANET_BESPIN_INFO_TAC,Additional income provided by Tibanna gas mining.
+TEXT_PLANET_BESPIN_INFO_TAC,Additional income provided by tibanna gas mining.
 TEXT_PLANET_BESPIN_INFO_TAC_00,Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled
 TEXT_PLANET_BESPIN_INFO_TER,Gas Giant
 TEXT_PLANET_BESPIN_INFO_WEA,Wind Storms
@@ -14594,14 +14594,14 @@ TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk: (Translated) The entire Perlemian
 TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Defiler: Our organization has targeted the merchant crews coming to the planet for entertainment.  I expect this operation will be very lucrative.
 TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Defiler: Bribery on Atzerri has exceeded our wildest expectations.  The planet is completely corrupt and massive credit deposits are coming our way.
 TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01,Defiler: Our Racketeering efforts were extremely successful on the criminally corrupt world of Atzerri.  Crime bosses almost stood in line to get a piece of our operations there.
-TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann: We'll advance into the system and destroy the next Tibanna gas shipment.  That should make it easier for us to gain credits for our own fleet buildups.
-TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann: The death squadrons guarding the Tibanna gas shipments proved stronger than we expected.  We'll have to go back and gather more forces if we are to corrupt this system.
+TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann: We'll advance into the system and destroy the next tibanna gas shipment.  That should make it easier for us to gain credits for our own fleet buildups.
+TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann: The death squadrons guarding the tibanna gas shipments proved stronger than we expected.  We'll have to go back and gather more forces if we are to corrupt this system.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_02,Tyber Zann: I have no intention of staying here long.  Destroy our enemies ships and prepare for the next battle.
-TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06,Tyber Zann: We've managed to bribe and capture an Imperial Interdictor.  We will be using the Interdictor to pull Tibanna gas convoys out of Hyperspace.  For this plan to work, the Interdictor will need to activate its ability near the Bespin shipping lanes.
-TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07,Tyber Zann: The first convoy should be arriving any time now.  We'll need to destroy the Tibanna shuttles before they escape the range of the Interdictor.
+TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06,Tyber Zann: We've managed to bribe and capture an Imperial Interdictor.  We will be using the Interdictor to pull tibanna gas convoys out of Hyperspace.  For this plan to work, the Interdictor will need to activate its ability near the Bespin shipping lanes.
+TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07,Tyber Zann: The first convoy should be arriving any time now.  We'll need to destroy the tibanna shuttles before they escape the range of the Interdictor.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08,Tibanna Merchant: It's an ambush!  Take evasive action.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09,Tyber Zann: Destroying another convoy should be sufficient to put some fear into Bespin's government.
-TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Tibanna Merchant: Pirates!  All hands defend the Tibanna shuttle!
+TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Tibanna Merchant: Pirates!  All hands defend the tibanna shuttle!
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium.
 TEXT_SPEECH_BESPIN_PIR_VICTORY_COR06_03,Tyber Zann: Tibanna shipments to our enemies will now slow down to a crawl.  We should gain enough credits to begin a rapid build up of Zann Consortium space fleets.
 TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Defiler: Corruption has taken hold of the Cloud City populace.  The few other worthwhile targets there will soon be under our control as well.
@@ -16577,7 +16577,7 @@ TEXT_SPEECH_UW_ACT02_G13_03,Xizor: You address me as an equal, Zann.  I assure y
 TEXT_SPEECH_UW_ACT02_G13_04,Tyber Zann: You're in luck, Xizor.  I do indeed have the very thing you speak of.  You know I've heard the Emperor is a collector of such Sith antiquities, perhaps you could put me in touch with him?
 TEXT_SPEECH_UW_ACT02_G13_05,Xizor: I could be persuaded to put you in contact with the Emperor, or at least one of his representatives.  But you'll need to do something for me first.
 TEXT_SPEECH_UW_ACT02_G13_06,Tyber Zann: Of course, good Prince.  What service could a simple man, such as myself, provide?
-TEXT_SPEECH_UW_ACT02_G13_07,Xizor: There is a job I need done on Bespin.  Specifically, I wish for you to procure a shipment of Tibanna gas.  Succeed, and you get half the gas, plus your Imperial contact.
+TEXT_SPEECH_UW_ACT02_G13_07,Xizor: There is a job I need done on Bespin.  Specifically, I wish for you to procure a shipment of tibanna gas.  Succeed, and you get half the gas, plus your Imperial contact.
 TEXT_SPEECH_UW_ACT02_G13_08,Tyber Zann: A pleasure, Prince Xizor.  And of course, I would not insult you by mentioning what would happen should I be double crossed.  This shouldn't take long.
 TEXT_SPEECH_UW_ACT02_G13_09,Urai Fen: I do not trust Xizor; it must be a trap.
 TEXT_SPEECH_UW_ACT02_G13_10,Tyber Zann: Of course, but Xizor's made the mistake of setting his trap on the planet Bespin.  That world is under the personal control of Darth Vader.
@@ -16589,12 +16589,12 @@ TEXT_SPEECH_UW_ACT02_G13_15,Urai Fen: How do we accomplish that?
 TEXT_SPEECH_UW_ACT02_G13_16,Tyber Zann: I know just the droid who can interface with the Bespin facility's computers.  Are you familiar with a droid bounty hunter known as IG-88?  He has a rather impressive list of accomplishments.  Find him.
 TEXT_SPEECH_UW_ACT02_G13_17,Urai Fen: I will contact him, he owes me a favor.  Consider it done.
 TEXT_SPEECH_UW_ACT02_G13_18,Tyber Zann: Oh, and Urai?  Have the boys see if they can pick up some Imperial ships through the usual channels.  I'm going to need them soon.
-TEXT_SPEECH_UW_ACT02_G13_20,Tyber Zann: It will take both Urai and I to get the Tibanna gas.
-TEXT_SPEECH_UW_ACT02_G14_02,Xizor: It seems I misjudged you, Zann.  Stealing that Tibanna gas from Vader must have been very difficult.
+TEXT_SPEECH_UW_ACT02_G13_20,Tyber Zann: It will take both Urai and I to get the tibanna gas.
+TEXT_SPEECH_UW_ACT02_G14_02,Xizor: It seems I misjudged you, Zann.  Stealing that tibanna gas from Vader must have been very difficult.
 TEXT_SPEECH_UW_ACT02_G14_03,Tyber Zann: You neglected to mention Vader's presence.
 TEXT_SPEECH_UW_ACT02_G14_04,Xizor: Merely a test to see if you were smart enough to do your research - you passed.  Now then, I will be happy to arrange your meeting with the Empire.  I'll send you the rendezvous coordinates and details soon.
-TEXT_SPEECH_UW_ACT02_G15_01,Urai Fen: I see you kept a large portion of the Tibanna gas - you have plans for it?
-TEXT_SPEECH_UW_ACT02_G15_02,Tyber Zann: I've blackmailed some engineers to start production on the ship designs we scavenged from the wreckage of the Death Star.  We'll use the Tibanna gas for the hyperdrives and weapon systems.  The first of the new ships should be ready now.
+TEXT_SPEECH_UW_ACT02_G15_01,Urai Fen: I see you kept a large portion of the tibanna gas - you have plans for it?
+TEXT_SPEECH_UW_ACT02_G15_02,Tyber Zann: I've blackmailed some engineers to start production on the ship designs we scavenged from the wreckage of the Death Star.  We'll use the tibanna gas for the hyperdrives and weapon systems.  The first of the new ships should be ready now.
 TEXT_SPEECH_UW_ACT02_G15_03,Urai Fen: The Vengeance Frigate - an interesting design.  And the other ship?
 TEXT_SPEECH_UW_ACT02_G15_04,Tyber Zann: The other design will be my flagship, but it will take more time to complete.  Once it is we'll find a suitable opponent to test its capabilities.
 TEXT_SPEECH_UW_ACT02_G15_05,Urai Fen: Do we really want to create yet another enemy?
@@ -16666,10 +16666,10 @@ TEXT_SPEECH_UW_ACT02_M07_00,Stormtrooper: Your arrival isn't on my schedule.  Le
 TEXT_SPEECH_UW_ACT02_M07_01,Tyber Zann: You don't need to see my identification.
 TEXT_SPEECH_UW_ACT02_M07_02,Stormtrooper: This one thinks he's a Jedi.  And why don't I need to see your identification?
 TEXT_SPEECH_UW_ACT02_M07_03,Tyber Zann: Because you're dead.
-TEXT_SPEECH_UW_ACT02_M07_04,Tyber Zann: We don't have much time.  I'll plant the evidence against Xizor.  Urai, see to the Tibanna Gas.  IG-88, slice into the Imperial computer banks and get me security access for all of the planets on my hit list.
-TEXT_SPEECH_UW_ACT02_M07_05,Urai Fen: Each Tibanna gas collection facility is surrounded by four refineries.  I will need to escort the gas droids to the refineries, where they will procure the gas.  We will need to return with eight full droids for this mission to be a success.
+TEXT_SPEECH_UW_ACT02_M07_04,Tyber Zann: We don't have much time.  I'll plant the evidence against Xizor.  Urai, see to the tibanna gas.  IG-88, slice into the Imperial computer banks and get me security access for all of the planets on my hit list.
+TEXT_SPEECH_UW_ACT02_M07_05,Urai Fen: Each tibanna gas collection facility is surrounded by four refineries.  I will need to escort the gas droids to the refineries, where they will procure the gas.  We will need to return with eight full droids for this mission to be a success.
 TEXT_SPEECH_UW_ACT02_M07_06,IG-88: I'll find the needed planetary security codes by hacking into Bespin's central server cluster.  It should only take a few nanoseconds.
-TEXT_SPEECH_UW_ACT02_M07_07,Tyber Zann: In order to make this look like a Black Sun operation, I'll need to sneak into the four security outposts and plant information that leaves no doubt that Xizor alone was behind the theft of the Tibanna gas.
+TEXT_SPEECH_UW_ACT02_M07_07,Tyber Zann: In order to make this look like a Black Sun operation, I'll need to sneak into the four security outposts and plant information that leaves no doubt that Xizor alone was behind the theft of the tibanna gas.
 TEXT_SPEECH_UW_ACT02_M07_08,Tyber Zann: One outpost down.
 TEXT_SPEECH_UW_ACT02_M07_09,Tyber Zann: That's two.
 TEXT_SPEECH_UW_ACT02_M07_10,Tyber Zann: One outpost left.
@@ -16686,13 +16686,13 @@ TEXT_SPEECH_UW_ACT02_M07_21,Tyber Zann: You've managed to lose all the droids.  
 TEXT_SPEECH_UW_ACT02_M07_22,Urai Fen: Tyber, we've collected enough gas.  All droids are returning to the shuttle.
 TEXT_SPEECH_UW_ACT02_M07_24,Zann Consortium Soldier: What appears to be Lord Vader's shuttle is on approach for landing at your location.
 TEXT_SPEECH_UW_ACT02_M07_25,Tyber Zann: We're going to have to move quickly on our final task if we want to get out of here intact.
-TEXT_SPEECH_UW_ACT02_M07_26,Field Commander: Sir, a group of smugglers have infiltrated our Tibanna gas refinery.
+TEXT_SPEECH_UW_ACT02_M07_26,Field Commander: Sir, a group of smugglers have infiltrated our tibanna gas refinery.
 TEXT_SPEECH_UW_ACT02_M07_27,Darth Vader: You have, of course, captured and detained them?
 TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: My Lord, we nearly had them, but they seem to have...
 TEXT_SPEECH_UW_ACT02_M07_29,Darth Vader: Not the performance I expect from an Imperial Field Commander.  I will seek them out myself.
 TEXT_SPEECH_UW_ACT02_M07_30,Tyber Zann: Good work.  Let's get back to the shuttle and get out of here.
 TEXT_SPEECH_UW_ACT02_M07_31,Darth Vader: Your Report.
-TEXT_SPEECH_UW_ACT02_M07_32,Stormtrooper: They escaped with a large supply of Tibanna gas -- enough to supply a sizable fleet.
+TEXT_SPEECH_UW_ACT02_M07_32,Stormtrooper: They escaped with a large supply of tibanna gas -- enough to supply a sizable fleet.
 TEXT_SPEECH_UW_ACT02_M07_33,Darth Vader: Have they been identified?
 TEXT_SPEECH_UW_ACT02_M07_34,Stormtrooper: We've found evidence that suggests the Black Sun criminal organization was responsible.  We also have records that indicate some of the local militia took bribes to allow them to land.
 TEXT_SPEECH_UW_ACT02_M07_35,Darth Vader: Execute the local militia and any associates.  Xizor will pay for this transgression.
@@ -17404,7 +17404,7 @@ TEXT_STORY_TUTORIAL_REBEL_DESC_ACT00,Introduction to Galactic Mode
 TEXT_STORY_TUTORIAL_REBEL_DESC_ACT01,Teaches move commands, attack commands, build pad use, reinforcement point use, and defensive strategies for land tactical battles.
 TEXT_STORY_TUTORIAL_REBEL_DESC_ACT02,Teaches fleet movement, galactic economy, galactic production, Rebel technology advancement, smuggler use, and raid fleet use.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_NINE_01,Destroy all the Empire forces.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_01,Fill and return 10 Tibanna gas droids
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_01,Fill and return 10 tibanna gas droids
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_02,Hack the Bespin server cluster with IG-88
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_03,Plant Evidence at 4 Guard outposts with Tyber Zann
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_04,Get Tyber Zann, Urai Fen and IG-88 back to the shuttle.
@@ -19095,7 +19095,7 @@ TEXT_UW_ACT02_G10_15,Defilers can also be used to destroy structures in orbit an
 TEXT_UW_ACT02_G10_16,A planet's security grows more alert the more times you sabotage; the price will go up dramatically if you sabotage the same planet in rapid succession.  The price will eventually lower again over time.
 TEXT_UW_ACT02_G10_17,Clearing the Way
 TEXT_UW_ACT02_G13_19,Task: Form a land force along with Tyber Zann and Urai Fen, and move it to Bespin to begin the mission.
-TEXT_UW_ACT02_G14_01,Bonus: Tyber Zann receives 50,000 credits from selling Tibanna Gas on the black market.
+TEXT_UW_ACT02_G14_01,Bonus: Tyber Zann receives 50,000 credits from selling the tibanna gas on the black market.
 TEXT_UW_ACT02_G15_09,Task: Take Urai to Vergesso and use the stolen Imperial ships to defeat the Rebels.
 TEXT_UW_ACT02_G15_13,Bonus: A new ship, the Vengeance-class Frigate, has been unlocked and is ready for production.
 TEXT_UW_ACT02_G15_14,Defeat all Rebel forces

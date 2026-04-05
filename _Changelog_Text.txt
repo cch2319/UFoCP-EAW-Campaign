@@ -63,6 +63,10 @@ Additions:
 		-- GER: der Todesstern II vernichtet wird.
 
 
+Housekeeping:
+• Various misspelled or capitalized instances of "Tibanna" and/or "Tibanna Gas" have been corrected. (BUG #560)
+
+
 • TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00: (BUG #558)
 	-- ENG: Empire Will Achieve Victory If: --> The Empire Will Achieve Victory If:
 	-- GER: N/A
