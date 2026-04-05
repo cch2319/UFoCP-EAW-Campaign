@@ -65,6 +65,7 @@ Additions:
 
 Housekeeping:
 • Various misspelled or capitalized instances of "Tibanna" and/or "Tibanna Gas" have been corrected. (BUG #560)
+• Multiple instances of "[Character] Must Survive." have been de-capitalized.  Various text strings alternated between the two capitalizations, when the most consistent capitalization was "[Character] must survive."  International languages did not suffer this problem. (BUG #561)
 
 
 • TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00: (BUG #558)

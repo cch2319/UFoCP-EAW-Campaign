@@ -336,7 +336,7 @@ TEXT_ALLOW_RANDOM_EVENTS,Allow Random Events
 TEXT_ALLOW_SUPER_WEAPONS,Allow Super Weapons
 TEXT_ALTERNATE_MOUSE_CONTROLS,Alternate Mouse Controls
 TEXT_ANAXES_INTIMIDATION_OBJECTIVE_00,Find Commander Flankar.
-TEXT_ANAXES_INTIMIDATION_OBJECTIVE_01,Bossk Must Survive.
+TEXT_ANAXES_INTIMIDATION_OBJECTIVE_01,Bossk must survive.
 TEXT_ANTI_ALIASING,Anti-Aliasing
 TEXT_ANY_PING_FILTER_TIME,Any ping time
 TEXT_AR_HERO_LOSS,##0 defeated at ##1
@@ -381,7 +381,7 @@ TEXT_BASE_LAYOUT,Base Layout
 TEXT_BATTLE,Battle!
 TEXT_BATTLE_TIME,Battle Time:
 TEXT_BEGINNING_NAT_NEGOTIATION,Opening connection
-TEXT_BESPIN_PIRACY_OBJECTIVE_00,Tyber Zann and the Interdictor Must Survive.
+TEXT_BESPIN_PIRACY_OBJECTIVE_00,Tyber Zann and the Interdictor must survive.
 TEXT_BESPIN_PIRACY_OBJECTIVE_01,Activate the Interdictor at the Designated Location.
 TEXT_BESPIN_PIRACY_OBJECTIVE_02,Destroy the shuttles carrying the tibanna gas.
 TEXT_BESPIN_PIRACY_OBJECTIVE_03,Destroy the tibanna gas shuttles in the second convoy.
@@ -820,7 +820,7 @@ TEXT_CAPTION_REBEL_PROLOG_2,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_2_B,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_3,[TBL]
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_00,Locate and secure Admiral Dalken Hol.
-TEXT_CARIDA_KIDNAPPING_OBJECTIVE_01,Bossk Must Survive.
+TEXT_CARIDA_KIDNAPPING_OBJECTIVE_01,Bossk must survive.
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_02,Escort Dalken Hol back to the transport.
 TEXT_CASH_POINT,Credit Point
 TEXT_CHANGE_ACCOUNT_INFO,Change Account Information
@@ -2133,7 +2133,7 @@ TEXT_ITALY,Italy
 TEXT_JAPAN,Japan
 TEXT_JOINGING_A_CLAN_GAME_AND_NOT_A_CLAN_MEMBER,You must be a member of at least one clan to join this game
 TEXT_KESSEL_PIRACY_OBJECTIVE_00,Secure Enemy Communication Satellite.
-TEXT_KESSEL_PIRACY_OBJECTIVE_01,IG-88 Must Survive.
+TEXT_KESSEL_PIRACY_OBJECTIVE_01,IG-88 must survive.
 TEXT_KESSEL_PIRACY_OBJECTIVE_02,Destroy All Enemy Defenses.
 TEXT_KEY_ADD,Add
 TEXT_KEY_ALT,Alt
@@ -3508,7 +3508,7 @@ TEXT_SABOTAGE_DESCRIPTION,Click on building to pay bribe and destroy selected bu
 TEXT_SABOTAGE_FAILURE_VIGILANCE,Sabotage attempt failed! Your hero has been detected by local planetary security forces.
 TEXT_SABOTAGE_PREVENTED_VIGILANCE,Sabotage attempt thwarted! Your planet's security forces have apprehended an enemy hero.
 TEXT_SALEUCAMI_INTIMIDATION_OBJECTIVE_00,Find Governor Koong Eeth.
-TEXT_SALEUCAMI_INTIMIDATION_OBJECTIVE_01,Urai Fen Must Survive.
+TEXT_SALEUCAMI_INTIMIDATION_OBJECTIVE_01,Urai Fen must survive.
 TEXT_SANDBOX_EVENT_CONTRIVED_ATTACK,Turning the Tables
 TEXT_SANDBOX_EVENT_FLEET_RAMPAGE,Onslaught
 TEXT_SANDBOX_EVENT_HERO_GATHERING,Strike at the Leadership
@@ -17782,7 +17782,7 @@ TEXT_TEST_OBJECTIVE_HEADER,Mission Objectives
 TEXT_TEXTURE_MIP_LEVEL,Texture Detail
 TEXT_TEXTURE_RESOLUTION_CHANGED,Your texture resolution setting has changed.  Please wait while the textures are resized...
 TEXT_THYFERRA_KIDNAPPING_OBJECTIVE_00,Locate and Secure Ungarr Daris.
-TEXT_THYFERRA_KIDNAPPING_OBJECTIVE_01,Tyber Zann Must Survive.
+TEXT_THYFERRA_KIDNAPPING_OBJECTIVE_01,Tyber Zann must survive.
 TEXT_THYFERRA_KIDNAPPING_OBJECTIVE_02,Escort Ungarr Daris Back to the Transport.
 TEXT_TIE_BOMBER_SQUADRON,TIE bomber Squadron
 TEXT_TIE_DEFENDER_SQUADRON,TIE defender Squadron
