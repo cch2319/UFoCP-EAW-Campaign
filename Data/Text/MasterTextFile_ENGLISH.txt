@@ -745,17 +745,17 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_15_02,20 Days
 TEXT_CAMPAIGN_SINGLE_VICTORY_25_00,Coruscant
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_00,Time Limit:
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_01,Conquer specified planets:
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00,Empire Will Achieve Victory If:
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00,The Empire Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     The Rebellion is removed from the galaxy
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma is killed
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     The Emperor must survive
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     The Death Star must not be destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,Rebellion Will Achieve Victory If:
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,The Rebellion Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,Rebellion Will Achieve Victory If All Objectives Are Met:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     The Empire is removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     Emperor Is killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     Death Star is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     The Emperor is killed
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     The Death Star is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma must survive
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,The Zann Consortium Will Achieve Victory If:

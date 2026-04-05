@@ -48,7 +48,7 @@ v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
-• 4 new Galactic Conquest objectives have been added (mostly for consistency), regarding the Death Star and Death Star II.  In addition to the appropriate bugfix in the main changelog, these objectives are to notate when the DS2 should be destroyed in GC. (BUG #554)
+• 4 new Galactic Conquest objectives have been added regarding the Death Star and Death Star II (mostly for internal consistency), to notate when the DS2 should be destroyed in GC. (BUG #554)
 	-- TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05
 		-- ENG: The Death Star II must not be destroyed
 		-- GER: der Todesstern II nicht zerstört wird.
@@ -61,6 +61,23 @@ Additions:
 	-- TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15
 		-- ENG: The Death Star II is destroyed
 		-- GER: der Todesstern II vernichtet wird.
+
+
+• TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00: (BUG #558)
+	-- ENG: Empire Will Achieve Victory If: --> The Empire Will Achieve Victory If:
+	-- GER: N/A
+
+• TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00: (BUG #557)
+	-- ENG: Rebellion Will Achieve Victory If: --> The Rebellion Will Achieve Victory If:
+	-- GER: N/A
+
+• TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02: (BUG #556)
+	-- ENG: Emperor Is killed --> The Emperor is killed
+	-- GER: N/A
+
+• TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03: (BUG #555)
+	-- ENG: Death Star is destroyed --> The Death Star is destroyed
+	-- GER: N/A
 
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
