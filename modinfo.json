@@ -3,14 +3,43 @@
 	"summary": "A comprehensive bug-fixing mod for Forces of Corruption.",
 	"icon": "icon.ico",
 	"version": "2.1.0.XXXX",
+	"languages":
+	[
+		{
+			"code": "en",
+			"support": 1
+		},
+		{
+			"code": "de",
+			"support": 1
+		},
+		{
+			"code": "es",
+			"support": 1
+		},
+		{
+			"code": "fr",
+			"support": 1
+		},
+		{
+			"code": "it",
+			"support": 1
+		},
+		{
+			"code": "pl",
+			"support": 1
+		},
+		{
+			"code": "ru",
+			"support": 1
+		}
+	],
 	"steamdata":
 	{
 		"publishedfileid": "1548018187",
-		"contentfolder": "1548018187",
-		"previewfile": "1548018187/thumbnail.png",
+		"contentfolder": "UFCP",
 		"visibility": 0,
 		"title": "Unofficial Forces of Corruption Patch (UFoCP)",
-		"description": "",
 		"metadata": "",
 		"tags":
 		[
@@ -20,6 +49,8 @@
 			"Multiplayer",
 			"Single Player",
 			"Space"
-		]
+		],
+		"previewfile": "thumbnail.png",
+		"description": "[img=https://i.imgur.com/v3BZZGR.png][/img]\r\nThe Unofficial Forces of Corruption Patch is a one-does-all community patch for Petroglyph Games' 2006 RTS \"STAR WARS: Empire at War \u2013 Forces of Corruption.\" UFCP's goal is to correct as many errors as possible to whatever limit is available within Petroglyph's Alamo engine in one convenient package.\r\n\r\nYou must legally own the Steam updated version of the STAR WARS: Empire at War - Gold Pack to work on UFCP. Retail or GOG may work, though they are unsupported[1].\r\n\r\n\u2022 [1]: \"Unsupported,\" as in: this project is Windows restricted. The outdated Mac version of the game is unsupported, along with Linux emulation. This patch may work with those versions, but there will be no guarantee of support should anything go wrong. The current Windows Steam release is semi-frequently updated, and supported with new bugfixes and features from Petroglyph.\r\n\r\nFeatures:\r\n[list]\r\n[*]Many gameplay, audio and text fixes.\r\n[*]Changes are made as neutrally as possible, with enhancements or \"iffy\" changes voted for by the community on the EaW Community Discord.\r\n[*]Designed as a modular base for all mods that want it.\r\n[*]A comprehensive set of changelogs can be found in the main directory, with links to the original bug reports.\r\n[*]Open source project that can be contributed to on GitHub.\r\n[*]Designed as a good alternative to the other mini patches, and try to be the closest to the developer's original vision.\r\n[/list]\r\n\r\n[img=https://i.imgur.com/L2WHgFU.png][/img]\r\n\r\n[b][u]MOD NOT LAUNCHING FROM \"MODS\" MENU[/u][/b]\r\nTry one or a combination of these fixes:\r\n1). Set Forces of Corruption's .EXE files (runme2.exe, StarWarsG.exe, swfoc.exe) to launch as an administrator.\r\n2). Run the game in windowed mode.\r\nOtherwise, run the mod directly with the launch option \"STEAMMOD=1548018187.\"\r\n\r\n[img=https://i.imgur.com/pC9S32Z.png][/img]\r\n\r\n-GitHub: https://github.com/AlyMar1994/UFoCP\r\n-Bug Reporting: https://github.com/AlyMar1994/UFoCP/issues\r\n-ModDB: https://www.moddb.com/mods/unofficial-forces-of-corruption-patch\r\n-NexusMods: https://www.nexusmods.com/starwarsempireatwar/mods/1856\r\n\r\n[img=https://i.imgur.com/EsOsfqr.png][/img]\r\n\r\nVERSION: v2.0.1.1040\r\nRELEASE: 03/13/26 (Mar.13/2026)\r\nA comprehensive readme (w/ credits), changelog, and in-game text changelog can be found in the mod's main directory, or on GitHub.\r\n\r\nMake sure to check out the STAR WARS: Empire at War Community server.  This Discord is the premier source for Empire at War discussion!  UFCP is \"partnered\" with the server, in a sense, and all of UFCP's channels have their own category.  Join its Discord with the link! discord.gg/empireatwar\r\n[url=https://discord.gg/empireatwar][img]https://i.imgur.com/Voyrx0D.png[/img][/url]"
 	}
 }
