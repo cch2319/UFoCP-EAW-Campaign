@@ -47,6 +47,21 @@ https://github.com/AlyMar1994/UFoCP/issues/
 v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 ============================================
 
+Additions:
+• 4 new Galactic Conquest objectives have been added (mostly for consistency), regarding the Death Star and Death Star II.  In addition to the appropriate bugfix in the main changelog, these objectives are to notate when the DS2 should be destroyed in GC. (BUG #554)
+	-- TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05
+		-- ENG: The Death Star II must not be destroyed
+		-- GER: der Todesstern II nicht zerstört wird.
+	-- TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05
+		-- ENG: The Death Star II is destroyed
+		-- GER: der Todesstern II vernichtet wird.
+	-- TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14
+		-- ENG: The Death Star is destroyed
+		-- GER: der Todesstern vernichtet wird.
+	-- TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15
+		-- ENG: The Death Star II is destroyed
+		-- GER: der Todesstern II vernichtet wird.
+
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
 	-- GER: Die Annihilator --> Die Annihilator - Admiral Gaarn
@@ -60,12 +75,12 @@ Additions:
 • UFCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Changes that only involve numeric values (f.e. changing "10%" to "25%") are ported in full.  Japanese isn't supported, because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak) unless these translation teams are willing to push changes to the UFCP GitHub.
 
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
-	- A related change, the Noghri description changed for consistency (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
-		- ENG: ...They are fierce warriors and assassins. --> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
-		- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. --> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
-	- In a related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
-		- ENG: An indigenous unit enslaved to the will of the Zann Consortium --> This indigenous unit is enslaved to the will of the Zann Consortium.
-		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. --> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
+	-- A related change, the Noghri description changed for consistency (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
+		-- ENG: ...They are fierce warriors and assassins. --> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
+		-- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. --> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
+	-- In a related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
+		-- ENG: An indigenous unit enslaved to the will of the Zann Consortium --> This indigenous unit is enslaved to the will of the Zann Consortium.
+		-- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. --> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
 
 • Imperial technology tooltips now include what heroes the player recruits by upgrading their technology (TEXT_ENCYCLOPEDIA_TECH_UPGRADE_XX_RECRUITMENT). (BUG #369)
 • Fix Grand Admiral Thrawn having an unfinished/subpar unit description (TEXT_TOOLTIP_SD_ADMONITOR_02). (BUG #225)

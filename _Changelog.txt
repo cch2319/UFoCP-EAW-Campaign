@@ -72,6 +72,8 @@ HOUSEKEEPING:
 • Honoghr had duplicate corruption unit prerequisites - the first prerequisite (M.A.L.s) has been removed as the second one was added to overwrite it anyway. (No forward-facing changes.)
 • Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
 • All of Princess Leia's voice lines have been disabled to prevent errors.  These audio files didn't exist in the game, anyway. (No forward-facing changes.)
+• The Gateways GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
+• The Origins of Corruption GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
 ======
 
 
@@ -94,6 +96,7 @@ AI Fixes:
 • The Land Skirmish AI should no longer rapidly focus on buying General Veers, R2-D2 & C-3PO, Garm Bel Iblis or Vornskr Wolves when they believe they're in an infantry emergency.  These units were referenced in the AI file, however, it targeted the wrong unit type (the unit itself rather than the purchasable option). (BUG #540)
 • Some adjustments have been made to the Empire's budgeting AI to more frequently flush out extreme amounts of saved money regardless if the major items have been purchased.  The AI should also more efficiently buy tech tech upgrades/the Executor/the Death Star. (BUG #174)
 
+
 Audio Fixes:
 • Fixed ion cannon hardpoints using the shield generator destruction SFX; in turn, fixed the shield generator destruction SFX not using its second explosion variation. (BUG #477)
 • Fixed the Death Star and the Death Star II not using the "Commence primary ignition!" voice line when pulling the lever to destroy a planet.  The event to play the VO was correct, however, the voice line's file name was changed during development and the event was never fixed. (BUG #509)
@@ -115,6 +118,7 @@ Gameplay Fixes:
 Interface Fixes:
 • The Executor used its ship icon instead of its related hero icon (Darth Vader), unlike other space heroes. (BUG #507)
 • The Annihilator in Consortium campaign #9: The Emperor's New Weapon wasn't on the hero bar, despite being treated as a pseudo-Empire hero. (BUG #508)
+• The Gateways GC's mission objectives didn't notate for any faction that the GC would conclude upon the destruction of the Death Star II.  This initially wasn't a problem because the mission objective didn't work until BUG #33 was fixed. (BUG #554)
 
 
 Map Fixes:

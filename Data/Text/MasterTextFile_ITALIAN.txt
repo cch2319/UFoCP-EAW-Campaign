@@ -750,12 +750,14 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     la Ribellione viene scacciata dalla 
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma viene ucciso
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     l'Imperatore sopravvive
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     la Morte Nera non viene distrutta
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,La Ribellione otterrà la vittoria se:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,[TBL]
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     l'Impero viene scacciato dalla galassia
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     l'Imperatore viene ucciso
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     la Morte Nera viene distrutta
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma sopravvive
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,La Malavita otterrà la vittoria se:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     I Ribelli e l'Impero vengono eliminati dalla galassia
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma e l'Imperatore vengono uccisi
@@ -773,6 +775,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     Le Fauci, Mon Calamari, Tatooin
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     Yavin IV e Coruscant sono stati conquistati
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     Coruscant e Endor sono stati conquistati
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     Yavin IV e Endor sono stati conquistati
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Piccola Umano Impero - Ribelli IA
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Piccola Umano - Nemico IA *
 TEXT_CAMPAIGN_SMALL_MAP,Mappa piccola da campagna

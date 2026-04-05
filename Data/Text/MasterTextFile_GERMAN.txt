@@ -750,12 +750,14 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     die Rebellion aus der Galaxis entfer
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma getötet wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     der Imperator überlebt.
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     der Todesstern nicht zerstört wird.
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     der Todesstern II nicht zerstört wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,Die Rebellion siegt, wenn:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,[TBL]
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     das Imperium aus der Galaxis entfernt wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     der Imperator getötet wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     der Todesstern vernichtet wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma überlebt.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     der Todesstern II vernichtet wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,Das Zann-Konsortium siegt, wenn:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     die Rebellion und das Imperium aus der Galaxis getilgt werden.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma und der Imperator getötet werden.
@@ -773,6 +775,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     der Schlund, Mon Calamari, Tato
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,   die Planeten Yavin 4 und Coruscant erobert werden.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,   die Planeten Coruscant und Endor erobert werden.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,   die Planeten Yavin 4 und Endor erobert werden.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     der Todesstern vernichtet wird.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     der Todesstern II vernichtet wird.
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Klein, Imperium: Mensch - Rebellen: KI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Klein, Mensch - Feind: KI *
 TEXT_CAMPAIGN_SMALL_MAP,Kleine Kampagnenkarte

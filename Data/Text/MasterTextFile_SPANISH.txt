@@ -750,12 +750,14 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     La Rebelión es eliminada de la gala
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma muere
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     El Emperador sobrevive
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     La Estrella de la Muerte resiste
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,La Rebelión conseguirá la victoria si:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,[TBL]
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     El Imperio es eliminado de la galaxia
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     El Emperador muere
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     La Estrella de la Muerte es destruida
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma sobrevive
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,El Consorcio Zann conseguirá la victoria si:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     La Rebelión y el Imperio son eliminados de la galaxia.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma y el Emperador mueren.
@@ -773,6 +775,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     La Boca, Mon Calamari, Tatooine
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     Los planetas Yavin IV y Coruscant han sido conquistados.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     Los planetas Coruscant y Endor han sido conquistados.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     Los planetas Yavin IV y Endor han sido conquistados.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Pequeña (humano imperial contra IA rebelde)
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Pequeña (humano contra IA enemiga*)
 TEXT_CAMPAIGN_SMALL_MAP,Mapa pequeño de campaña

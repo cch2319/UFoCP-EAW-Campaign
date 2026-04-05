@@ -750,12 +750,14 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     Sojusz zostanie zniszczony
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma zostanie zabita
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     Imperator przeżyje
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     Gwiazda Śmierci nie zostanie zniszczona
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,Sojusz osiągnie zwycięstwo, jeżeli:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,[TBL]
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     Imperium zostanie zniszczone
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     Imperator zostanie zabity
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     Gwiazda Śmierci zostanie zniszczona
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma przeżyje
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,Podziemie zwycięży, jeśli:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01, Rebelia oraz Imperium zostaną usunięte z galaktyki.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02, Mon Mothma oraz Imperator zostaną zabici.
@@ -773,6 +775,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     Otchłań, Mon Calamari, Tatooi
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     Planety Yavin 4 i Coruscant zostały podbite
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     Planety Coruscant i Endor zostały podbite
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     Planety Yavin 4 i Endor zostały podbite
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 mała Imperium człowiek - Rebelia SI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 mała człowiek - wróg SI *
 TEXT_CAMPAIGN_SMALL_MAP,Mała mapa kampanii
