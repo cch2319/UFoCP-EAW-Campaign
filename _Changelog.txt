@@ -73,7 +73,7 @@ HOUSEKEEPING:
 • Removed "U000_TMC0212_ENG.wav" from the pool of movement VO from the TIE mauler, because this audio file was not included in-game and caused an error. (No forward-facing changes.)
 • All of Princess Leia's voice lines have been disabled to prevent errors.  These audio files didn't exist in the game, anyway. (No forward-facing changes.)
 • The Gateways GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
-• The Origins of Corruption GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
+• The Origin of Corruption GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
 ======
 
 
@@ -119,6 +119,7 @@ Interface Fixes:
 • The Executor used its ship icon instead of its related hero icon (Darth Vader), unlike other space heroes. (BUG #507)
 • The Annihilator in Consortium campaign #9: The Emperor's New Weapon wasn't on the hero bar, despite being treated as a pseudo-Empire hero. (BUG #508)
 • The Gateways GC's mission objectives didn't notate for any faction that the GC would conclude upon the destruction of the Death Star II.  This initially wasn't a problem because the mission objective didn't work until BUG #33 was fixed. (BUG #554)
+• The Origin of Corruption GC's mission objectives didn't notate for any faction that the GC would conclude upon the destruction of the Death Star II.  This initially wasn't a problem because the mission objective didn't work until BUG #33 was fixed. (BUG #554)
 
 
 Map Fixes:
