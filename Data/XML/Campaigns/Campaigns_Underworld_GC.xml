@@ -874,9 +874,7 @@
 		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
-
 		<Human_Victory_Conditions>
-			Galactic_Super_Weapon_Destruction,
 			Galactic_All_Planets_Controlled
 		</Human_Victory_Conditions>
 
@@ -4224,7 +4222,6 @@
 		<!-- Win Conditions -->
 
 		<Human_Victory_Conditions>
-			Galactic_Super_Weapon_Destruction,
 			Galactic_All_Planets_Controlled
 		</Human_Victory_Conditions>
 
