@@ -76,6 +76,10 @@ Housekeeping:
 	-- ENG: Bossk: (Translated) The Stygium Crystal capsules... --> Bossk: (Translated) The stygium crystal capsules...
 	-- GER: N/A
 
+• TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05: (BUG #563)
+	-- ENG: We're even starting to get Stygium Crystals as payments for their debts. --> We're even starting to get stygium crystals as payments for their debts.
+	-- GER: N/A
+
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
 	-- GER: Die Annihilator --> Die Annihilator - Admiral Gaarn
