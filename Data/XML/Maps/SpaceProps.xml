@@ -1584,7 +1584,6 @@
 
 	<SpaceProp Name="Space_Junk_Large_NO_Collision">
 		<Variant_Of_Existing_Type>Space_Junk_Large</Variant_Of_Existing_Type>
-		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>IDLE</Behavior>
 		<Space_Obstacle_Radius>0</Space_Obstacle_Radius>
 		<Is_Asteroid_Field>No</Is_Asteroid_Field>
