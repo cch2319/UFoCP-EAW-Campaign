@@ -80,6 +80,10 @@ Housekeeping:
 	-- ENG: We're even starting to get Stygium Crystals as payments for their debts. --> We're even starting to get stygium crystals as payments for their debts.
 	-- GER: N/A
 
+• TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01: (BUG #564)
+	-- ENG: Tyber Zann: Now that I've come all the way down here we clearly have to kill some of those Shaaks, let's say ten heads. --> Tyber Zann: Now that I've come all the way down here, we clearly have to kill some of those shaaks.  Let's say, ten heads.
+	== GER: N/A
+
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
 	-- GER: Die Annihilator --> Die Annihilator - Admiral Gaarn
