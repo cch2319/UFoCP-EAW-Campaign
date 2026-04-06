@@ -77,7 +77,7 @@ Housekeeping:
 	-- GER: N/A
 
 • TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05: (BUG #563)
-	-- ENG: We're even starting to get Stygium Crystals as payments for their debts. --> We're even starting to get stygium crystals as payments for their debts.
+	-- ENG: We're even starting to get Stygium Crystals as payments for their debts. --> We've even started to get stygium crystals as payments for their debts.
 	-- GER: N/A
 
 • TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01: (BUG #564)
