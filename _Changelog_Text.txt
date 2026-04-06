@@ -82,7 +82,11 @@ Housekeeping:
 
 • TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01: (BUG #564)
 	-- ENG: Tyber Zann: Now that I've come all the way down here we clearly have to kill some of those Shaaks, let's say ten heads. --> Tyber Zann: Now that I've come all the way down here, we clearly have to kill some of those shaaks.  Let's say, ten heads.
-	== GER: N/A
+	-- GER: N/A
+
+• TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01: (BUG #565)
+	-- ENG: Defiler: Our Racketeering efforts were extremely successful... --> Defiler: Our racketeering efforts were extremely successful
+	-- GER: N/A
 
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
