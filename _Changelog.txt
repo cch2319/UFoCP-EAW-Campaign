@@ -94,6 +94,7 @@ Ability Fixes:
 AI Fixes:
 • The planning AI would consider the destroyed/killed version of unit models for plans/unit composition alongside the actual unit, even though they couldn't build or use them. (BUG #534)
 • The Land Skirmish AI should no longer rapidly focus on buying General Veers, R2-D2 & C-3PO, Garm Bel Iblis or Vornskr Wolves when they believe they're in an infantry emergency.  These units were referenced in the AI file, however, it targeted the wrong unit type (the unit itself rather than the purchasable option). (BUG #540)
+• The Empire AI would always use the Death Star/Death Star II to destroy every planet it came across regardless if it wanted to or not - the AI would avoid blowing up the planet because it was a cakewalk militarily, but then destroy it anyway in Galactic because the AI plan mandatorily "deployed" it.  Now, if the AI considers the planet a military cakewalk in battle, the Death Star shouldn't destroy it on the galactic scale either. (BUG #438)
 • Some adjustments have been made to the Empire's budgeting AI to more frequently flush out extreme amounts of saved money regardless if the major items have been purchased.  The AI should also more efficiently buy tech tech upgrades/the Executor/the Death Star. (BUG #174)
 
 

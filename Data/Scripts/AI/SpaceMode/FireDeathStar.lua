@@ -50,8 +50,7 @@ function Definitions()
 	{
 		{
 			"MainForce",
-			"TaskForceRequired",
-			"Death_Star | Death_Star_II = 1"
+			"TaskForceRequired"
 		}
 	}
 
@@ -61,11 +60,14 @@ end
 function MainForce_Thread()
 	BlockOnCommand(MainForce.Produce_Force())
 
-	local ds = MainForce.Get_Unit_Table()[1]
+	--local ds = MainForce.Get_Unit_Table()[1]
+	local ds = Find_First_Object("Death_Star")
+	if not TestValid(ds) then
+		ds = Find_First_Object("Death_Star_II")
+	end
+
 	while not TestValid(ds) do
 		DebugMessage("%s -- unexpected state; Death Star 1 or 2 unavailable", tostring(Script))
-
-		-- Death star isn't present, hang this plan indefinately
 		Sleep(100)
 	end
 

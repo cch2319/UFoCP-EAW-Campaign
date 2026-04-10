@@ -42,7 +42,6 @@
 require("pgevents")
 
 -- Death Star Usage
-
 function Definitions()
 	Category = "Death_Star_Use"
 	MinContrastScale = 0.75
@@ -73,11 +72,19 @@ function DeathStarForce_Thread()
 		ScriptExit()
 	end
 
-	-- Landing a hero deploys it, removing it from the game and killing the script.  So,
-	-- we have to indicate success before we land the unit, even though it hasn't deployed.
-	-- If a hero killer gets her before she deploys, the plan should die before setting itself successful.
-	DeathStarForce.Set_Plan_Result(true)
-	BlockOnCommand(LandUnits(DeathStarForce))
+	if EvaluatePerception("Want_To_Fire_DS", PlayerObject, Target) == 0 then
+		DebugMessage("%s -- DEATH STAR: We've arrived at a target, but decided during battle we don't wanna destroy it.  Sleeping until we find our next target...", tostring(Script))
+
+		DeathStarForce.Set_Plan_Result(false)
+		Sleep(sleep_duration)
+		ScriptExit()
+	else
+		-- Landing a hero deploys it, removing it from the game and killing the script.  So,
+		-- we have to indicate success before we land the unit, even though it hasn't deployed.
+		-- If a hero killer gets her before she deploys, the plan should die before setting itself successful.
+		DeathStarForce.Set_Plan_Result(true)
+		BlockOnCommand(LandUnits(DeathStarForce))
+	end
 
 	-- This plan has all but succeeded; make sure AI systems don't remove it
 	DeathStarForce.Set_As_Goal_System_Removable(false)
