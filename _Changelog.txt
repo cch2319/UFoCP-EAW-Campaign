@@ -84,6 +84,7 @@ Multiplayer:
 
 Balancing Fixes:
 • The Rebel Land Skirmish AI can no longer buy R2-D2 and C-3PO.  The reasoning can be found on the GitHub, but additionally, this comes in tandem with another bugfix (BUG #540) where the AI would overbuy Vornskrs and Vehicle Heroes because it believed they were in an emergency, needed infantry, and buying R2-D2 was the way to solve that. (BUG #539)
+• The Empire AI had a heightened chance to blow up planets it may have not wanted to because the AI's perception of the minimum required collective amount of enemy forces on a planet was set too low (1500).  This limit has been set to 2000 so lightly defended planets don't get vaporized (this may require finetuning). (BUG #441)
 • While this is technically Working As Designed(TM), the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
 
 

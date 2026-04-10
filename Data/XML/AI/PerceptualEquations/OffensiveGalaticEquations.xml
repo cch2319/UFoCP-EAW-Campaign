@@ -514,7 +514,7 @@
 		*
 		Function_First_Attack_Allowed.Evaluate
 		*
-		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 1500)
+		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 2000)
 	</Want_To_Fire_DS>
 
 	<First_Attack_Allowed>
@@ -529,7 +529,7 @@
 		* (200.0 + (7.0 * Variable_Self.PlanetsControlledUnnormalized))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
-		* (50.0 + (2.0  * Variable_Self.PlanetsControlledUnnormalized))
+		* (50.0 + (2.0 * Variable_Self.PlanetsControlledUnnormalized))
 	</Initial_Grace_Period>
 
 	<!--
