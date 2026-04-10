@@ -67,7 +67,7 @@ function MainForce_Thread()
 	end
 
 	while not TestValid(ds) do
-		DebugMessage("%s -- unexpected state; Death Star 1 or 2 unavailable", tostring(Script))
+		DebugMessage("%s -- DEATH STAR: We've arrived at a target, but somehow the DS is unavailable.  Sleeping until we find it...", tostring(Script))
 		Sleep(100)
 	end
 
