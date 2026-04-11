@@ -16911,7 +16911,7 @@ TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01f,Collect four more prize shaak hea
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01g,Collect three more prize shaak heads.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01h,Collect two more prize shaak heads.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01i,Collect one more prize shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_02,Use Tyber to deliver the shaak heads to the food Commissioner.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_02,Use Tyber to deliver the shaak heads to the Food Commissioner.
 TEXT_STORY_DEMO_TUTORIAL_000,Incoming Transmission from Grand Moff Tarkin
 TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_00,Subjugating Geonosis
 TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_01,Subjugating Geonosis
