@@ -53,6 +53,7 @@ Additions:
 
 Housekeeping:
 • Various misspelled or capitalized instances of "Tibanna" and/or "Tibanna Gas" have been corrected. (BUG #560)
+• Various instances of "Shaak" have been de-capitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #566)
 • Multiple instances of "[Character] Must Survive." have been de-capitalized.  Various text strings alternated between the two capitalizations, when the most consistent capitalization was "[Character] must survive."  International languages did not suffer this problem. (BUG #561)
 
 
@@ -81,7 +82,7 @@ Housekeeping:
 	-- GER: N/A
 
 • TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01: (BUG #564)
-	-- ENG: Tyber Zann: Now that I've come all the way down here we clearly have to kill some of those Shaaks, let's say ten heads. --> Tyber Zann: Now that I've come all the way down here, we clearly have to kill some of those shaaks.  Let's say, ten heads.
+	-- ENG: Tyber Zann: Now that I've come all the way down here we clearly have to kill some of those shaaks, let's say ten heads. --> Tyber Zann: Now that I've come all the way down here, we clearly have to kill some of those shaaks.  Let's say, ten heads.
 	-- GER: N/A
 
 • TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01: (BUG #565)

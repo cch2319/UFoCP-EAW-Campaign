@@ -16901,17 +16901,17 @@ TEXT_STORY_AETENII_PIR_OBJECTIVE_01b,Destroy three more Stygium Crystal Capsules
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01c,Destroy two more Stygium Crystal Capsules.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01d,Destroy the last Stygium Crystal Capsule.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,Notice: Stygium Crystal Capsule destroyed.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01,Collect ten Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01a,Collect nine more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01b,Collect eight more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01c,Collect seven more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01d,Collect six more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01e,Collect five more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01f,Collect four more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01g,Collect three more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01h,Collect two more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01i,Collect one more Prize Shaak heads.
-TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_02,Use Tyber to deliver the Shaak heads to the food Commissioner.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01,Collect ten prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01a,Collect nine more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01b,Collect eight more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01c,Collect seven more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01d,Collect six more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01e,Collect five more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01f,Collect four more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01g,Collect three more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01h,Collect two more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01i,Collect one more prize shaak heads.
+TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_02,Use Tyber to deliver the shaak heads to the food Commissioner.
 TEXT_STORY_DEMO_TUTORIAL_000,Incoming Transmission from Grand Moff Tarkin
 TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_00,Subjugating Geonosis
 TEXT_STORY_EMPIRE_ACT01_MISSION_FOUR_01,Subjugating Geonosis
