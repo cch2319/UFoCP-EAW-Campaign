@@ -41,8 +41,9 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 
 
-v2.1.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
+v2.1.0.1212 (04-13-2026) [FoC v1.121.859328]
 ============================================
+There are changes to the game's master text directory this update!  Check "_Changelog_Text.txt" for more details.
 
 UFCP:
 ======
@@ -247,7 +248,7 @@ MISC:
 
 
 Ability Fixes:
-• ~~"BARRAGE" prematurely stopped because the ability's invisible targeting marker would die in the attacking unit's splash damage. (BUG #1)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
+• ~~"BARRAGE" prematurely stopped because the ability's invisible targeting marker would die in the attacking unit's splash damage. (BUG #1)~~ REMOVED IN PATCH v2.1.0.1212 (04-13-2026).
 • "BUZZ_DROIDS" would be able to cause heavy damage to frigate-class units like the Nebulon-B, because Buzz Droid targeting was incorrectly set.  It was also possible that Buzz Droids wouldn't be able to damage bomber-class units and that they wouldn't be considered an anti-transport unit. (BUG #475)
 • "REMOVE_CORRUPTION_ABILITY" wasn't usable for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade.  These were not defined correctly in GameConstants, and Ackbar's Remove Corruption ability was added to the wrong unit entirely (Commander_Akbar instead of Home_One).  While Jade and Katarn are not available in GC, all previously mentioned Remove Corruption abilities have been fully restored.  Additionally, AI plans for removing corruption would not use Admiral Ackbar, Darth Vader, and Grand Admiral Thrawn, as their references were missing in the plan. (BUG #35)
 • "TARGETED_HACK" for R2-D2 and C-3PO wasn't able to hack Consortium turbolaser towers, Pirate anti-aircraft turrets, or Hutt anti-aircraft, grenade mortar, or rapid-fire laser turrets.  In addition, "TARGETED_REPAIR" didn't affect any Consortium tanks Chewbacca captured, hacked Consortium turrets, Rebel or hacked Hutt rapid-fire laser turrets, hacked Empire or Hutt grenade mortars, Juggernaut transports, hacked Pirate anti-aircraft, infantry, or vehicle turrets. (BUG #20)
@@ -547,12 +548,12 @@ Unit Fixes:
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
 • Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table misreferenced Darth Vader's unit. (BUG #68)
 • Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit's death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
-• ~~Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
+• ~~Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)~~ REMOVED IN PATCH v2.1.0.1212 (04-13-2026).
 • Bossk's space weapons weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #360)
-• ~~IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
+• ~~IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)~~ REMOVED IN PATCH v2.1.0.1212 (04-13-2026).
 • IG-88's space weapons weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #361)
-• ~~Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
-• ~~Han Solo & Chewbacca would permanently contest objects when spawned in their space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)~~ REMOVED IN PATCH v2.1.0.XXXX (XX-XX-2026).
+• ~~Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)~~ REMOVED IN PATCH v2.1.0.1212 (04-13-2026).
+• ~~Han Solo & Chewbacca would permanently contest objects when spawned in their space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)~~ REMOVED IN PATCH v2.1.0.1212 (04-13-2026).
 • Consortium, Rebel, and Empire unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an expensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 • The Boarding Shuttle from Consortium campaign mission #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 • Cuddles' (Silri's familiar) attack "Cuddles_Rancor_Eat_Infantry" wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)

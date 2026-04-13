@@ -13,19 +13,33 @@
 | |__| || | | || (_) || |  | |  | || (__ | || (_| || | | |     | (_| || |_ | (__ | | | |          | | \ \ |  __/| (_| || (_| || | | | | ||  __/
  \____/ |_| |_| \___/ |_|  |_|  |_| \___||_| \__,_||_| |_|      \__,_| \__| \___||_| |_|          |_|  \_\ \___| \__,_| \__,_||_| |_| |_| \___|
 
-~ By the UFoCP Team. ~
+~ By the UFCP Team. ~
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Thank you for downloading the Unofficial Forces of Corruption Patch!
 
+This update marks many new improvements and bugfixes from Galyana, the lead developer of
+"Secrets of a Fallen Empire" (https://steamcommunity.com/sharedfiles/filedetails/?id=1173542306).
+UFCP and SoaFE had sort of a knowledge-exchange (multiple bugfixes from the Unofficial Patch made
+it into SoaFE) which helped solve various issues each mod was having (SoaFE v3.8.5).
 
+Notably, v2.1.0.1212 has forwarded all applicable fixes from the latest Petroglyph patches
+(fortunately, there weren't many!), multiple MP stability improvements, multiple fixed assertion
+errors (internal errors the engine reports, which may also lead to MP instability), various audio
+bugs (including MANY missing voice overs and world-based SFX), multiple enhancements (improved
+Empire AI Death Star usage, skirmish AI improvements and balancing changes), and new model edits.
+
+In addition, this update includes new balancing changes.  Only three of them: the Empire is now
+less likely to blow up every planet they come across, the Rebel Skirmish AI can no longer buy
+R2 & 3PO (they didn't use their ability anyway and they kept getting them killed over-and-over),
+and fractional infantry regiments *should* no longer cause oddities when reinforcing with them.
 
 Known issues are recorded on the GitHub, hopefully to be solved for the upcoming patches.
 If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
 
-I hope you enjoy UFCP!
+I hope you enjoy UFCP!  Send patches.
 ~AlyMar1994
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
