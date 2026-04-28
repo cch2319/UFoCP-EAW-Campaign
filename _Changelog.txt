@@ -41,6 +41,18 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 
 
+v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
+============================================
+
+UFCP:
+======
+HOUSEKEEPING:
+• In what will probably be an never-ending process, the new GFX introduced into UFCP in both 1.0 an 2.0 (main menu screens, new team coloring textures, etc.) have been touched up again to improve the quality of the graphics work.
+======
+
+
+
+
 v2.1.0.1212 (04-13-2026) [FoC v1.121.859328]
 ============================================
 There are changes to the game's master text directory this update!  Check "_Changelog_Text.txt" for more details.
@@ -176,6 +188,7 @@ UFCP:
 ======
 • Fix the Death Star II being smaller than intended due to a syntax error during one of the syntax cleanup changes.
 ======
+
 
 
 
