@@ -48,6 +48,7 @@ body:
       description: What version of the Unofficial Patch are you running?  (If you are at all.)
       options:
         - Indev
+        - 2.1.0.1212
         - 2.0.1.1040
         - 2.0.0.1039
         - 1.16.682
