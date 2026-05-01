@@ -446,7 +446,7 @@
 	<SpaceProp Name="Moon_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
-		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
@@ -467,7 +467,7 @@
 	<SpaceProp Name="Moon_Small">
 		<Text_ID />
 		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
-		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
