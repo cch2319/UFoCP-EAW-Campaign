@@ -52,8 +52,8 @@
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Wedge_Rogue</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Wedge_Rogue</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Wedge_Rogue</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge_Rogue</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge_Rogue</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge_Rogue</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge_Rogue</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Ambient_Moving>Unit_X_Wing_Fly_By</SFXEvent_Ambient_Moving>
@@ -122,8 +122,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Zev</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Zev</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Zev</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
@@ -138,8 +138,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Derek_Klivian</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Derek_Klivian</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Derek_Klivian</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Derek_Klivian</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Derek_Klivian</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
@@ -154,8 +154,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Kasan</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Kasan</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Kasan</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Kasan</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
@@ -170,8 +170,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
 		<SFXEvent_Health_Critical_Warning />
-		<SFXEvent_Enemy_Health_Low_Warning />
-		<SFXEvent_Enemy_Health_Critical_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
@@ -186,8 +186,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
 		<SFXEvent_Health_Critical_Warning />
-		<SFXEvent_Enemy_Health_Low_Warning />
-		<SFXEvent_Enemy_Health_Critical_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning />
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
 		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>

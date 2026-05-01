@@ -935,8 +935,8 @@
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Luke</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Luke</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Luke</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Luke</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Luke</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Luke</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Luke</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost>Unit_Defeat_Luke</SFXEvent_Unit_Lost>
 
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
@@ -1013,8 +1013,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Red_Leader</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Red_Leader</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Red_Leader</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Red_Leader</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Red_Leader</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Red_Leader</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost>Unit_Defeat_Red_Leader</SFXEvent_Unit_Lost>
 
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
@@ -1070,8 +1070,8 @@
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Wedge</SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Wedge</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Wedge</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Ambient_Moving>Unit_X_Wing_Fly_By</SFXEvent_Ambient_Moving>
@@ -1113,8 +1113,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Biggs</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Biggs</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Biggs</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Biggs</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Biggs</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Biggs</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost>Unit_Defeat_Biggs</SFXEvent_Unit_Lost>
 	</UniqueUnit>
 
@@ -1127,8 +1127,8 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Klivian</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Klivian</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Klivian</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Klivian</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Klivian</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Klivian</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost>Unit_Defeat_Klivian</SFXEvent_Unit_Lost>
 	</UniqueUnit>
 
@@ -1141,7 +1141,7 @@
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Porkins</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Porkins</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Porkins</SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Porkins</SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Unit_Lost>Unit_Defeat_Porkins</SFXEvent_Unit_Lost>
 	</UniqueUnit>
 

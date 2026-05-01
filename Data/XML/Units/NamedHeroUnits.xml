@@ -2020,8 +2020,8 @@
 		<SFXEvent_Guard>Unit_Guard_Luke</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Luke</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Luke</SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Health_Low_Warning>Unit_Enemy_Health_Low_Luke</SFXEvent_Enemy_Health_Low_Warning>
-		<SFXEvent_Enemy_Health_Critical_Warning>Unit_Enemy_Health_Critical_Luke</SFXEvent_Enemy_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Luke</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Luke</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>Unit_Defeat_Luke</Death_SFXEvent_Start_Die>
 
 		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
