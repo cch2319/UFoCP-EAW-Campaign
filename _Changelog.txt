@@ -47,12 +47,12 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 UFCP:
 ======
 HOUSEKEEPING:
-• In what will probably be an never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up again to improve the quality of the graphics work.
+• In what will probably be a never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up (again...) to improve the quality of the graphics work.
 ======
 
 
 Audio Fixes:
-• Various space units (Luke, all of Rogue Squadron, all of Red Squadron and Skipray Blastboats) used an incorrect XML setting for their "enemy health is low/critical" attacking VO and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (his presence is dependent). (BUG #568)
+• Various space units (Luke, Red/Rogue Squadron, Skipray Blastboats) used an incorrect XML setting for their "enemy health is low/critical" attacking VO in space combat, and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (his presence is dependent). (BUG #568)
 
 
 Model Fixes:
