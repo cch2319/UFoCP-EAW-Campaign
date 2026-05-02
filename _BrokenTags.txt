@@ -37,3 +37,5 @@
 <Tactical_Model_Name> --> <Land_Model_Name>
 <Override_Acceleration> --> <OverrideAcceleration>
 <Override_Deceleration> --> <OverrideDeceleration>
+<SFXEvent_Enemy_Health_Low_Warning> --> <SFXEvent_Enemy_Damaged_Health_Low_Warning>
+<SFXEvent_Enemy_Health_Critical_Warning> --> <SFXEvent_Enemy_Damaged_Health_Critical_Warning>
