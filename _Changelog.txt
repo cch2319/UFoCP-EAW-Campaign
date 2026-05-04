@@ -47,7 +47,7 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 UFCP:
 ======
 ENHANCEMENTS:
-• The new menu and loading screens have been expanded to include the alternate logos in Spanish and Italian.  Currently, there are no German, Russian, Polish or French localized game logos, so those use the UK English ones by default. (BUG #451)
+• The new menu and loading screens have been expanded to include all available languages supported by FoC.  Currently, there are no German, Russian, Polish or French localized game logos, so those use the UK English ones by default. (BUG #451)
 
 
 HOUSEKEEPING:
