@@ -41,24 +41,23 @@
 
 require("pgevents")
 
-
-function Definitions()	
+function Definitions()
 	Category = "Generate_Magic_Cash_Drop | Skirmish_Generate_Magic_Cash_Drop_Space | Skirmish_Generate_Magic_Cash_Drop_Land"
 	IgnoreTarget = true
-	
-	TaskForce = {
+	TaskForce =
 	{
-		"ReserveForce"
-		,"DenyHeroAttach"
-		,"TaskForceRequired"
-	}
+		{
+			"ReserveForce",
+			"DenyHeroAttach",
+			"TaskForceRequired"
+		}
 	}
 	AllowFreeStoreUnits = false
 	MagicPlan = true
 	MagicPlanStealing = false
 end
 
-function ReserveForce_Thread()		
+function ReserveForce_Thread()
 	PlayerObject.Give_Money(6000)
 	Sleep(120)
 	ScriptExit()
