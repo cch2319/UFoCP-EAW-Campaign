@@ -59,6 +59,9 @@ MISC:
 ======
 
 
+AI Fixes:
+• The Skirmish AI is supposed generate a "magic cash" boost every 2 minutes only if they have less than 3000 credits and were in such dire straits they couldn't recover from (to prevent snowballing if the AI can't keep up with a human player in the race to secure mines).  The scripting, however, didn't prevent the game from marking this plan completed as soon as they received the money, which meant the AI bypassed the 2 minute wait time and could rapidly spend 6000 credits every few seconds. (BUG #571)
+
 Audio Fixes:
 • Various space units (Luke, Red/Rogue Squadron, Skipray Blastboats) used an incorrect XML setting for their "enemy health is low/critical" attacking VO in space combat, and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (his presence is dependent). (BUG #568)
 

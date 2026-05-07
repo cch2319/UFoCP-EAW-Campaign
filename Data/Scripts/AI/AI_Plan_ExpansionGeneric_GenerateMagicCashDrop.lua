@@ -58,6 +58,7 @@ function Definitions()
 end
 
 function ReserveForce_Thread()
+	ReserveForce.Set_As_Goal_System_Removable(false)
 	PlayerObject.Give_Money(6000)
 	Sleep(120)
 	ScriptExit()
