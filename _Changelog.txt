@@ -52,6 +52,7 @@ ENHANCEMENTS:
 
 HOUSEKEEPING:
 • In what will probably be a never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up (again...) to improve the quality of the graphics work.
+• V-wing fighters had their unit entries moved from UniqueUnits.xml to SpaceUnitsFighters.xml.  In addition, their game object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
 
 
 MISC:
