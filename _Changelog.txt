@@ -76,6 +76,10 @@ Model Fixes:
 • The large and small moon models for space maps (such as Space Kamino) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 
 
+Structure Fixes:
+• The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with every other defense satellite icon (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
+
+
 
 
 v2.1.0.1212 (04-13-2026) [FoC v1.121.859328]

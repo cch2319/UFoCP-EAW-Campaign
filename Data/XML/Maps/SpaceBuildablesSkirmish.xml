@@ -248,7 +248,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>NV_LRS_build.alo</Space_Model_Name>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Icon_Name>i_button_lrs_upgrade.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -696,7 +696,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>NV_LRS.alo</Space_Model_Name>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Icon_Name>i_button_lrs_upgrade.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
