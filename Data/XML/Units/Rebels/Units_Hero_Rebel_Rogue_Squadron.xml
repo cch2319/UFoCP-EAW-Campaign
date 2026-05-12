@@ -67,6 +67,21 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<!-- Secondary ability -->
+			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
@@ -76,24 +91,9 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
-			</Unit_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
 			<Combat_Bonus_Ability Name="Wedge_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>Fighter</Unit_Strength_Category>
@@ -107,15 +107,14 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-
 		</Abilities>
-
 	</UniqueUnit>
 
 
 	<!-- Rogue Two: Zev Senesca -->
 	<UniqueUnit Name="Rogue_2_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+
 		<Text_ID>TEXT_UNIT_ROGUE_02</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
@@ -132,6 +131,7 @@
 	<!-- Rogue Four: Derek Klivian -->
 	<UniqueUnit Name="Rogue_4_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+
 		<Text_ID>TEXT_UNIT_ROGUE_04</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
@@ -148,6 +148,7 @@
 	<!-- Rogue Seven: Kasan Moor -->
 	<UniqueUnit Name="Rogue_7_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+
 		<Text_ID>TEXT_UNIT_ROGUE_07</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
@@ -164,6 +165,7 @@
 	<!-- Rogue Ten: Tarrub Datch -->
 	<UniqueUnit Name="Rogue_10_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+
 		<Text_ID>TEXT_UNIT_ROGUE_10</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
@@ -180,6 +182,7 @@
 	<!-- Rogue Eleven: Tenk Lenso -->
 	<UniqueUnit Name="Rogue_11_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
+
 		<Text_ID>TEXT_UNIT_ROGUE_11</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<SFXEvent_Assist_Move />
@@ -255,10 +258,24 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
@@ -269,21 +286,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
-			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 	</Squadron>
 
 
@@ -310,8 +313,17 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN,
+			REVEAL
+		</SpaceBehavior>
 
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
@@ -347,10 +359,24 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
@@ -358,20 +384,9 @@
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge</SFXEvent_GUI_Unit_Ability_Deactivated>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>8</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
