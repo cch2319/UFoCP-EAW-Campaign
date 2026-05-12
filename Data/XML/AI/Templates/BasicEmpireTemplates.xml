@@ -53,7 +53,8 @@
 		</Turn_On>
 	</Basic_Empire_Default>
 
-	<!-- MAJOR ITEM PURCHASE TEMPLATES
+	<!--
+		MAJOR ITEM PURCHASE TEMPLATES
 		Sometimes we want to purchase major items during a fleeting window of opportunity.  These purchases
 		require a template to ensure spending on occurs as fast as possible (no pause).  The template switch alone
 		causes the entire budget to be redistributed, with a heavy emphasis on the expensive item budget category.

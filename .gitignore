@@ -3,6 +3,12 @@ Data/Audio/Music/UND_Zann_Consortium_Theme.mp3
 Data/Audio/Music/UND_Zann_Consortium_Theme.mp3.bak
 Data/Audio/Music/Imperial_March_Edit.mp3
 _SOURCES/
+*.dll
+EAW Terrain Editor.exe
+_Audio_Drivers.txt
+_warn_message_popup.txt
+_Except.txt
+_GraphicsInit.txt
 
 # VSCode
 .classpath
