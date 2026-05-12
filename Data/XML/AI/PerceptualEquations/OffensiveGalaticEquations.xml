@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <Equations>
-	<!-- See if the target system is connected to a system owned by whatever faction I am. -->
+	<!--
+		See if the target system is connected to a system owned by whatever faction I am.
+	-->
 	<Is_Connected_To_Me>
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
@@ -12,7 +14,8 @@
 		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}
 	</Is_Connected_To_Me>
 
-	<!-- See if the target system is connected to a system owned by the AI faction's enemy -->
+	<!-- See if the target system is connected to a system owned by the AI faction's enemy
+	-->
 	<Is_Connected_To_Enemy>
 		((Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0}) *
@@ -27,8 +30,7 @@
 		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}) > 0.0
 	</Is_Connected_To_Enemy>
 
-	<!--
-		Normalizing time since forces were seen relative to 60 seconds
+	<!-- Normalizing time since forces were seen relative to 60 seconds
 		returning 1.0 means we just got recon, 0.0 means recon is older than 60 seconds (and probably useless)
 
 		OLD NORMALIZED BY TOTAL TIME OF UNIVERSE VERSION:
@@ -52,41 +54,30 @@
 		(1.0 - (Variable_Target.TimeSinceConversion > 60.0)) * (60.0 - Variable_Target.TimeSinceConversion) / 60.0
 	</Recent_Conflict_Ground>
 
-	<!--
-		This perception seeks to detect situations where our non-pirate opponent has neglected to reinforce a system.
-		Use this to respond to the enemy amassing all of their forces in one or few systems.
-	-->
+	<!-- This perception seeks to detect situations where our non-pirate opponent has neglected to reinforce a system.
+			Use this to respond to the enemy amassing all of their forces in one or few systems.
+		-->
 	<Is_Neglected_By_My_Opponent_Space>
-		(
-			(
-				(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
-				+
-				(Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
-			) > 0
-		)
+		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
+		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
 		(1.0 - Variable_Target.EnemyForce.SpaceTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Space>
 
 	<Is_Neglected_By_My_Opponent_Ground>
-		(
-			(
-				(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
-				+
-				(Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
-			) > 0
-		)
+		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
+		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
 		(1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Ground>
 
-	<!--
-		the AI just always wants to be building offensive units if it can afford it.  Just tune
+	<!--  the AI just always wants to be building offensive units if it can afford it.  Just tune
 		this number so that high desirability conquer plans will win and cause production, but low desirability conquer plans
 		will eventually get the forces they need, via build_forces.
 
 		(1.0 - (Function_Need_Tech_Upgrade_Unblocked.Evaluate * Function_Has_Enough_Space_Force_Globally.Evaluate))
-	-->
+
+		-->
 	<Global_Offensive_Need_Space>
 		(1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate)
 		*
@@ -123,8 +114,7 @@
 		(Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
 	</Allow_Blind_Space_Production>
 
-	<!--
-		Determine if we'd like to invade this system.
+	<!-- Determine if we'd like to invade this system.
 
 		Choose unoccupied systems first (weighed by how current our info is)
 		factor in systems that my non-pirate opponent has neglected to defended
@@ -157,15 +147,9 @@
 		-
 		(5.0 + 5.0 * Variable_Self.AnyCurrentThreats) * Function_Opens_New_Front.Evaluate
 		+
-		(
-			10.0 * Variable_Self.IsFaction {Parameter_Faction = "UNDERWORLD"} * (Variable_Target.IsConnectedToCorruption
-			*
-			(
-				Function_Is_Connected_To_Me.Evaluate == 0.0)
-				-
-				Variable_Target.IsCorrupted
-			)
-		)
+		(10.0 * Variable_Self.IsFaction {Parameter_Faction = "UNDERWORLD"} * (Variable_Target.IsConnectedToCorruption *
+																				(Function_Is_Connected_To_Me.Evaluate == 0.0) -
+																				Variable_Target.IsCorrupted))
 	</Is_Good_Invasion_Target>
 
 
@@ -188,10 +172,9 @@
 		Variable_Self.AnyCurrentThreats
 	</Is_AI_And_Should_Be_Ignored>
 
-	<!--
-		Does the system have a human presence
-		AND
-		Is it connected to a system owned by the AI
+	<!--	Does the system have a human presence
+			AND
+			Is it connected to a system owned by the AI
 	-->
 	<!--
 		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
@@ -211,21 +194,21 @@
 		Function_Is_Connected_To_Me.Evaluate
 	</Is_Target_A_Current_Threat>
 
-	<!--
-		This perception will cause directed force buildup, so that plans where we can't meet minimum contrast,
-		given the goal definition, will eventually become feasable.
+	<!-- This perception will cause directed force buildup, so that plans where we can't meet minimum contrast,
+	given the goal definition, will eventually become feasable.
 
-		If this target's total space contrast is more than X% our total (non-base) space contrast
-		OR
-		If this target's total ground contrast is more than X% our total (non-base) ground contrast
+	If this target's total space contrast is more than X% our total (non-base) space contrast
+	OR
+	If this target's total ground contrast is more than X% our total (non-base) ground contrast
 
-		... then we should be building forces that can apply to that target's forces
+	... then we should be building forces that can apply to that target's forces
 	-->
 	<Needs_Targetted_Build_Forces>
 		(Function_Space_Contrast.Evaluate > (Game.FriendlyForce.SpaceTotalUnnormalized / 4.0))
 		+
 		(Function_Ground_Contrast.Evaluate > (Game.FriendlyForce.GroundTotalUnnormalized / 4.0))
-		>= 1.0
+		>=
+		1.0
 	</Needs_Targetted_Build_Forces>
 
 
@@ -236,11 +219,10 @@
 		(Variable_Enemy.SpaceTotalUnnormalized > (Variable_Self.SpaceTotalUnnormalized * 1.0))
 	</Needs_More_Space_Force_Globally>
 
-	<!--
-		Don't trickle to Major Item fund if:
-			we Need better Space Offense forces
-			OR
-			we've already bought the death star
+	<!-- Don't trickle to Major Item fund if:
+	we Need better Space Offense forces
+	OR
+	we've already bought the death star
 	-->
 	<Need_To_Flush_MajorItem_Budget>
 		(Variable_Self.CreditsUnnormalized > 30000) <!-- DS2 cost x1.5 -->
@@ -252,8 +234,7 @@
 		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
 
-	<!--
-		The AI can afford to spend on tech if it has X% space force over the human player
+	<!-- The AI can afford to spend on tech if it has X% space force over the human player
 		8/16/05 - reduced the amount by which AI has to be winning
 	-->
 	<Has_Enough_Space_Force_Globally>
@@ -261,16 +242,16 @@
 	</Has_Enough_Space_Force_Globally>
 
 
-	<!--
-		How valuable is the planet?
-		Bonus for planets we haven't visited recently
-		Bonus for planets that don't have a smuggler already attached
-		Bonus for planets with high political control
-		Can't weaken neutral/pirate planets
-		Don't bother if my income is high (might as well just conquer)
-		*
+	<!-- How valuable is the planet? -->
+	<!-- Bonus for planets we haven't visited recently -->
+	<!-- Bonus for planets that don't have a smuggler already attached -->
+	<!-- Bonus for planets with high political control -->
+	<!-- Can't weaken neutral/pirate planets -->
+	<!-- Don't bother if my income is high (might as well just conquer)
+        *
 		(1.0 - (Variable_Self.GrossIncomeNBPTM > 0.33))
-	-->
+
+    -->
 	<!--
 		AM1994 12/15/2024 - Remove * Variable_Target.IsHumanControlled b/c
 		this check is now invalid for FoC.  There are no AI players on the
@@ -296,8 +277,7 @@
 	<!-- Can't have multiple smugglers on a target -->
 	<!-- Don't steal when I might get caught -->
 	<Suitable_Smuggler_Target>
-		(1.0 - Variable_Target.HasCreditSiphon)
-		*
+		(1.0 - Variable_Target.HasCreditSiphon) *
 		(1.0 - Variable_Target.EnemyForce.AntiStealthEffectiveness)
 	</Suitable_Smuggler_Target>
 
@@ -305,13 +285,12 @@
 		Variable_Target.HasCreditSiphon
 	</Needs_Smuggler_Removed>
 
-	<!--
-		Desire to perform a basic blind space assault
+	<!-- Desire to perform a basic blind space assault
 
-		Make sure there is a space force (otherwise a simple Ground Grab will take care of it)
-		AND SCALE BY
-			base invasion worth PLUS bonus to prevent this from going negative
-			bonus for having no ground force (should be a quick win for Fast Expansion)
+	Make sure there is a space force (otherwise a simple Ground Grab will take care of it)
+	AND SCALE BY
+		base invasion worth PLUS bonus to prevent this from going negative
+		bonus for having no ground force (should be a quick win for Fast Expansion)
 	-->
 	<Is_Good_Space_Sweep_Target>
 		Variable_Target.EnemyForce.HasSpaceForce
@@ -323,15 +302,14 @@
 		)
 	</Is_Good_Space_Sweep_Target>
 
-	<!--
-		Desire to perform a basic ground assult
+	<!-- Desire to perform a basic ground assult
 
-		Make there's no starbase
-		AND
-		no space force
-		AND SCALE BY
-			base invasion worth PLUS bonus to prevent this from going negative
-			bonus for having no ground force (should be a quick win for Fast Expansion)
+	Make there's no starbase
+	AND
+	no space force
+	AND SCALE BY
+		base invasion worth PLUS bonus to prevent this from going negative
+		bonus for having no ground force (should be a quick win for Fast Expansion)
 	-->
 	<Is_Good_Ground_Grab_Target>
 		(Variable_Target.StarbaseLevel == 0.0)
@@ -339,9 +317,9 @@
 		(1.0 - Variable_Target.EnemyForce.HasSpaceForce)
 		*
 		(
-		Function_Is_Good_Invasion_Target.Evaluate + 30.0
-		+
-		5.0 * (Variable_Target.EnemyForce.HasGroundForce == 0.0)
+			Function_Is_Good_Invasion_Target.Evaluate + 30.0
+			+
+			5.0 * (Variable_Target.EnemyForce.HasGroundForce == 0.0)
 		)
 	</Is_Good_Ground_Grab_Target>
 
@@ -351,13 +329,9 @@
 
 
 	<Self_Present>
-		(
-			Variable_Target.TargetPoliticalControl
-			+
-			Variable_Target.FriendlyForce.HasSpaceForce
-			+
-			Variable_Target.FriendlyForce.HasGroundForce
-		)
+		(Variable_Target.TargetPoliticalControl +
+		Variable_Target.FriendlyForce.HasSpaceForce +
+		Variable_Target.FriendlyForce.HasGroundForce)
 	</Self_Present>
 
 	<!--
@@ -377,17 +351,13 @@
 		((Variable_Target.EnemyForce.HasSpaceForce + Variable_Target.EnemyForce.HasGroundForce) > 0.0)
 	</Enemy_Present>
 
-	<!--
-		Do I have enough planets to start thinking about going after my true opponent?
-		Is the planet valuable?
-		Favor weak planets
-		Exclude pirate/neutral planets
-	-->
+	<!-- Do I have enough planets to start thinking about going after my true opponent? -->
+	<!-- Is the planet valuable? -->
+	<!-- Favor weak planets -->
+	<!-- Exclude pirate/neutral planets -->
 	<Is_Good_Harry_Target>
-		1.75
-		*
-		Function_Is_Good_Invasion_Target.Evaluate
-		*
+		1.75 *
+		Function_Is_Good_Invasion_Target.Evaluate *
 		Variable_Target.IsHumanControlled
 	</Is_Good_Harry_Target>
 
@@ -396,10 +366,9 @@
 	</Almost_Won>
 
 
-	<!--
-		Of the two largest blocks of controlled planets that are not connected to each other,
-		does the smaller have at least X% of the number of planets the larger has?  I.e, are a significant chunk of the AI's
-		planets stranded from the main force?
+	<!-- Of the two largest blocks of controlled planets that are not connected to each other,
+	does the smaller have at least X% of the number of planets the larger has?  I.e, are a significant chunk of the AI's
+	planets stranded from the main force?
 	-->
 	<Forces_Are_Significantly_Divided>
 		Variable_Self.WorstIslandFractionOfLargest >= 0.2
@@ -452,8 +421,7 @@
 		(Variable_Self.GroundTotalUnnormalized > (3.0 * Variable_Enemy.GroundTotalUnnormalized))
 	</Am_I_In_Winning_Position>
 
-	<!--
-		Same basic concept as whether I should conquer a planet
+	<!-- Same basic concept as whether I should conquer a planet
 			Factor so that in general normal conquest takes precedence over raid (since it has higher expected success rate)
 			HOWEVER if the planet is close to empty then raid should be the preferred conquest mechanic
 			Must be raid capable faction
@@ -475,12 +443,9 @@
 	<Is_Good_Raid_Target>
 		(0.5 + (1000 >= Variable_Target.EnemyForce.GroundTotalUnnormalized))
 		*
-		Variable_Self.IsFaction {Parameter_Faction = "REBEL"}
-		*
-		Function_Is_Good_Invasion_Target.Evaluate
-		*
-		Variable_Target.IsSurfaceAccessible
-		*
+		Variable_Self.IsFaction {Parameter_Faction = "REBEL"} *
+		Function_Is_Good_Invasion_Target.Evaluate *
+		Variable_Target.IsSurfaceAccessible *
 		Function_First_Attack_Allowed.Evaluate
 	</Is_Good_Raid_Target>
 
