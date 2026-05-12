@@ -24,7 +24,7 @@
 	<File>Units\Empire\Units_Hero_Empire_Death_Star.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
-	<File>SpaceBuildablesSkirmish.xml</File>
+	<File>Maps\SpaceBuildablesSkirmish.xml</File>
 
 	<File>Units\NamedHeroUnits.xml</File>
 	<File>Units\GenericHeroUnits.xml</File>
