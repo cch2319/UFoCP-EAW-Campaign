@@ -82,6 +82,7 @@ Structure Fixes:
 
 Unit Fixes:
 • The Consortium's Venator-class Cruiser didn't have a "Shield Armor Type" configured, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against it). (BUG #573)
+• The Rebels' MC30c didn't have damage multipliers on its rear laser cannon.  Temporarily, it's been given the Corellian Corvette's damage multipliers (as its a laser cannon battery/anti-starfighter). (BUG #575)
 
 
 
