@@ -61,7 +61,7 @@ MISC:
 
 
 Ability Fixes:
-• Fixed Rogue Squadron's "Strike" ability embracing its inner creepypasta, losing its icon and renaming itself to "BAD VALUE" when used while selecting multiple X-wings. (BUG #272)
+• Fixed Rogue Squadron's "Strike" ability embracing its inner creepypasta, losing its icon and renaming itself to "-BAD VALUE-" when used while selecting multiple X-wings. (BUG #272)
 
 
 AI Fixes:
