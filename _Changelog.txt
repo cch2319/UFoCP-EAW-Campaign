@@ -72,6 +72,10 @@ Audio Fixes:
 • Various space units (Luke, Red/Rogue Squadron, Skipray Blastboats) used an incorrect XML setting for their "enemy health is low/critical" attacking VO in space combat, and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (his presence is dependent). (BUG #568)
 
 
+Interface Fixes:
+• Rogue Squadron's tooltip claimed they were strong against the Death Star, a unit they can't encounter.  It has been swapped out for the Death Star II. (BUG #578)
+
+
 Model Fixes:
 • The large and small moon models for space maps (such as Space Kamino) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 
