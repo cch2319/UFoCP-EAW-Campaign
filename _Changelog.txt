@@ -80,6 +80,10 @@ Structure Fixes:
 • The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with every other defense satellite icon (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
 
 
+Unit Fixes:
+• The Consortium's Venator-class Cruiser didn't have a "Shield Armor Type" configured, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against it). (BUG #573)
+
+
 
 
 v2.1.0.1212 (04-13-2026) [FoC v1.121.859328]

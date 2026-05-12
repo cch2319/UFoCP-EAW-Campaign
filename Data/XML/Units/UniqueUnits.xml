@@ -1784,6 +1784,7 @@
 		<Layer_Z_Adjust>-90</Layer_Z_Adjust>
 
 		<Armor_Type>Armor_Nebulon_B</Armor_Type>
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
 		<Max_Thrust>1.6</Max_Thrust>
 		<Select_Box_Scale>400</Select_Box_Scale>
@@ -1809,7 +1810,16 @@
 			SHIELDED
 		</Behavior>
 		<SpaceBehavior>
-			ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, DAMAGE_TRACKING
+			ABILITY_COUNTDOWN,
+			SIMPLE_SPACE_LOCOMOTOR,
+			TARGETING,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			UNIT_AI,
+			ASTEROID_FIELD_DAMAGE,
+			ION_STUN_EFFECT,
+			NEBULA,
+			DAMAGE_TRACKING
 		</SpaceBehavior>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -1819,10 +1829,16 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-		<Death_Clone />
 
 		<HardPoints>
-			HP_Jedi_Cruiser_Shield_Gen, HP_Jedi_Cruiser_Engines, HP_Jedi_Cruiser_FL, HP_Jedi_Cruiser_FR, HP_Jedi_Cruiser_ML, HP_Jedi_Cruiser_MR, HP_Jedi_Cruiser_BL, HP_Jedi_Cruiser_BR
+			HP_Jedi_Cruiser_Shield_Gen,
+			HP_Jedi_Cruiser_Engines,
+			HP_Jedi_Cruiser_FL,
+			HP_Jedi_Cruiser_FR,
+			HP_Jedi_Cruiser_ML,
+			HP_Jedi_Cruiser_MR,
+			HP_Jedi_Cruiser_BL,
+			HP_Jedi_Cruiser_BR
 		</HardPoints>
 
 		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
