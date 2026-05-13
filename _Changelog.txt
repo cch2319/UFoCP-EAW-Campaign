@@ -388,7 +388,7 @@ AI Fixes:
 
 
 Animation Fixes:
-• Only half of the AT-AT Barge's space model would explode upon death, leaving the remainder permanently floating in space. Because the animation ends on the same frame, it wouldn't disable the model in an explosion.  To avoid this engine bug, the animation was extended by 2 frames. (BUG #387)
+• Only half of the AT-AT Barge's space model would explode upon death, leaving the remainder permanently floating in space.  Because the animation ends on the same frame, it wouldn't disable the model in an explosion.  To avoid this engine bug, the animation was extended by 2 frames. (BUG #387)
 • Slave I, The Hound's Tooth, IG-2000, Red 5, and the Moldy Crow didn't have SFX when landing or taking off from reinforcing a planet, because the related entries were missing from the animation SFX mapping. (BUG #454)
 
 
