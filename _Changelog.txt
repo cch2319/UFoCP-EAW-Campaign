@@ -48,6 +48,11 @@ UFCP:
 ======
 ENHANCEMENTS:
 • The new menu and loading screens have been expanded to include all available languages supported by FoC.  Currently, there are no German, Russian, Polish or French localized game logos, so those use the UK English ones by default. (BUG #451)
+• The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering (and other, bigger mods have obviously shown it isn't that big of an impact). (BUG #529)
+•• Land Fade Begin: 1,100 units --> 4,000 units
+•• Land Fade End: 1,300 units --> 5,000 units
+•• Space Fade Begin: 6,000 units --> 25,000 units
+•• Space Fade End: 7,000 units --> 250,000 units
 
 
 HOUSEKEEPING:
