@@ -76,6 +76,10 @@ Interface Fixes:
 • Rogue Squadron's tooltip claimed they were strong against the Death Star, a unit they can't encounter.  It has been swapped out for the Death Star II. (BUG #578)
 
 
+Map/Planet Fixes:
+• MP Space Bespin's lighting was severely outdated/unconfigured - internally, it used almost the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02.TED," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
+
+
 Model Fixes:
 • The large and small moon models for space maps (such as Space Kamino) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 
