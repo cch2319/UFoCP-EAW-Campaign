@@ -14589,7 +14589,7 @@ TEXT_SPEECH_ALZOCIII_INT_TACTICAL_COR03_02,Tyber Zann: I'm taking a few associat
 TEXT_SPEECH_ALZOCIII_INT_VICTORY_COR03_03,Tyber Zann: The Commissioner is now under our control.  We'll start by limiting the miners food supply until they dramatically increase their production.
 TEXT_SPEECH_ANAXES_INT_LOAD_COR04_01,Bossk: (Translated) Move your lazy hides.  I want this mission over quickly.
 TEXT_SPEECH_ANAXES_INT_LOSS_COR04_04,Bossk: (Translated) There were hidden reserves of troops on planet.  We'll have to go in much better prepared if we attack in the near future.
-TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk: (Translated) Fleet commander Flankar from Anaxes has a galaxy-wide reputation as being the best.  Once we have demonstrated our power, he will be more easily controlled by the Consortium.
+TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk: (Translated) Fleet Commander Flankar from Anaxes has a galaxy-wide reputation as being the best.  Once we have demonstrated our power, he will be more easily controlled by the Consortium.
 TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk: (Translated) The entire Perlemian Trade Route is in our control.  We'll now be able to put a stranglehold on half the free trade of the galaxy.
 TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Defiler: Our organization has targeted the merchant crews coming to the planet for entertainment.  I expect this operation will be very lucrative.
 TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Defiler: Bribery on Atzerri has exceeded our wildest expectations.  The planet is completely corrupt and massive credit deposits are coming our way.
