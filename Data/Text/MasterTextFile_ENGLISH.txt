@@ -892,7 +892,7 @@ TEXT_CONNECTED,Connected
 TEXT_CONNECTION_FAILED,Failed to connect
 TEXT_CONNECTION_INTERRUPTED,Connection Interrupted
 TEXT_CONQUEST_EFFICIENCY,Conquest Efficiency:
-TEXT_CONTAINS,Contains :
+TEXT_CONTAINS,Contains:
 TEXT_CONTINUE,Continue
 TEXT_CORELLIA_PIRACY_OBJECTIVE_00,Destroy the space dock assemblies.
 TEXT_CORELLIA_PIRACY_OBJECTIVE_01,Tyber Zann must survive.
@@ -1662,7 +1662,7 @@ TEXT_GENERIC_WIN, faction has won the game.
 TEXT_GERMANY,Germany
 TEXT_GIVE_CREDITS,(Multiplayer) Give Credits
 TEXT_GOAL_LAND_TACTICAL_INDIGENOUS_00,The indigenous population has been corrupted and is under our control.
-TEXT_GOOD_AGAINST,Strong Against :
+TEXT_GOOD_AGAINST,Strong Against:
 TEXT_GOOD_LAND_GARRISON,Rebellion Garrison
 TEXT_GOOD_SPACE_FLEET,Rebellion Fleet
 TEXT_GRAPHICS_SETTINGS_CHANGED_CONFIRMATION,Your graphics options have been changed.  Do you want to keep these settings?
@@ -1959,7 +1959,7 @@ TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_02_STORY,Destroy 3 Noghri Camps.
 TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_03,1 of 3 Noghri Camps destroyed.
 TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_04,2 of 3 Noghri Camps destroyed.
 TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_05,3 of 3 Noghri Camps destroyed.
-TEXT_HOST_IP,Host Address :
+TEXT_HOST_IP,Host Address:
 TEXT_HOST_LEFT_GAME,The game host left the game
 TEXT_HOST_PREFIX,Host
 TEXT_HOSTILE_ALLEGIANCE_CHANGE,%s is now hostile to %s!
@@ -2055,7 +2055,7 @@ TEXT_INTERNET_INCORRECT_NICKNAME,The nickname provided is incorrect.
 TEXT_INTERNET_INCORRECT_NICKNAME_INUSE,The nickname provided is already in use.
 TEXT_INTERNET_INCORRECT_PASSWORD,The password provided is incorrect.
 TEXT_INTERNET_INCORRECT_PASSWORD_FOR_EMAIL,The password does not match the email address.
-TEXT_INTERNET_IP,Internet Address :
+TEXT_INTERNET_IP,Internet Address:
 TEXT_INTERNET_JOIN_GAME_TITLE,Joined Game
 TEXT_INTERNET_JOINED_GROUP_ROOM,You have entered game room:
 TEXT_INTERNET_LAUNCH_BROWSER,Your Internet browser will be launched to take you to the community page. Proceed?
@@ -3478,13 +3478,13 @@ TEXT_REMOVE_CORRUPTION_BEGIN,Corruption removal underway at: %s
 TEXT_REPLAY_TITLE,Replay Recorded Game
 TEXT_REQUEST_REINFORCEMENTS,Requesting Reinforcements
 TEXT_REQUIRED_BUILD_LIMIT,Max
-TEXT_REQUIRED_GROUND_BASE_LEVEL,Required : Ground Base Level
-TEXT_REQUIRED_PLANET,Required :
+TEXT_REQUIRED_GROUND_BASE_LEVEL,Required: Ground Base Level
+TEXT_REQUIRED_PLANET,Required:
 TEXT_REQUIRED_PLANET_RESTRICTION,Cannot be built on this planet
-TEXT_REQUIRED_SLICE,Required : Steal
-TEXT_REQUIRED_SPECIAL_STRUCTURE,Required :
-TEXT_REQUIRED_STAR_BASE_LEVEL,Required : Space Station Level
-TEXT_REQUIRED_TECH_LEVEL,Required : Tech Level
+TEXT_REQUIRED_SLICE,Required: Steal
+TEXT_REQUIRED_SPECIAL_STRUCTURE,Required:
+TEXT_REQUIRED_STAR_BASE_LEVEL,Required: Space Station Level
+TEXT_REQUIRED_TECH_LEVEL,Required: Tech Level
 TEXT_RESOLUTION_CHANGED_CONFIRMATION,Your screen resolution has been changed.  Do you want to keep these settings?
 TEXT_RESULTS_COMPANIES_LOST,Companies Lost:
 TEXT_RESULTS_SHIPS_LOST,Ships Lost:
@@ -18979,8 +18979,8 @@ TEXT_UPGRADES,Upgrades
 TEXT_UPLOAD_PROGRESS,Upload progress:
 TEXT_UPLOADING_MAP_TO_PLAYER,Uploading map to player:
 TEXT_UPNP_DETAILS,UPnP Details
-TEXT_UPNP_DEVICES,UPnP Routers :
-TEXT_UPNP_FRAMEWORK_ENABLED,UPnP Framework :
+TEXT_UPNP_DEVICES,UPnP Routers:
+TEXT_UPNP_FRAMEWORK_ENABLED,UPnP Framework:
 TEXT_US,USA
 TEXT_USE_DEFAULT_PORT,Use Default Port
 TEXT_USE_WINDOWS_FIREWALL,Bypass Windows Firewall
@@ -19193,7 +19193,7 @@ TEXT_VICTORY_ACHIEVED,A victory has been achieved!
 TEXT_VICTORY_BUTTON,Main Menu
 TEXT_VIDEO_OPTIONS,Video
 TEXT_VIDEO_RESOLUTION,Video Resolution
-TEXT_VULNERABLE_TO,Weak Against :
+TEXT_VULNERABLE_TO,Weak Against:
 TEXT_VWING_SQUADRON,V-wing Squadron
 TEXT_WAITING,Waiting....
 TEXT_WAITING_FOR_OPPONENT,Waiting for opponent:
@@ -19239,7 +19239,7 @@ TEXT_WIN_CONDITION_PERCENTAGE_CONTROL,Control Percentage of Planets
 TEXT_WIN_CONDITION_SPACE_ENEMY_STARBASE_DESTROYED,Destroy Enemy Space Station
 TEXT_WIN_CORRUPTION_MISSION,WORLD CORRUPTED, WELL DONE!
 TEXT_WIN_TACTICAL,WE ARE VICTORIOUS!
-TEXT_WINDOWS_FIREWALL_ENABLED,Windows Firewall :
+TEXT_WINDOWS_FIREWALL_ENABLED,Windows Firewall:
 TEXT_WITHDRAW_LOCATION,Withdraw to system:
 TEXT_X_WING_2_SQUADRON,X-wing Mk II Squadron
 TEXT_X_WING_SQUADRON,X-wing Squadron
