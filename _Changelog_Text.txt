@@ -50,6 +50,7 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 
 Housekeeping:
 • A handful of text strings that used colons (:), unlike other strings in FoC, had a space before their usage (f.e., "Windows Firewall :"), which has now been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as this was either intentional [in languages like French, where spaced punctuation is standard] or not applicable.)
+• Various instances of "Emperor" have been de-capitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 
 
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
