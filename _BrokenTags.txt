@@ -28,6 +28,7 @@
 <Transport_Capacity>
 <xxxSpace_Model_Name>
 <Text_ID>TEXT_NONE</Text_ID>
+<Size_Value>
 
 <CategoryMask> --> Death clones that inherit a unit need this set to None.  For consistency, I put it on all clones, but usually just land infantry need it.
 <Disabled_Darken> --> <Disable_Darken>
