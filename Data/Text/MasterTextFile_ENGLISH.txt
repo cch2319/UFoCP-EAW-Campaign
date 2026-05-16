@@ -16719,19 +16719,19 @@ TEXT_SPEECH_UW_ACT03_BOUNCE_CORUSCANT,Tyber Zann: A wanted fugitive from Kessel 
 TEXT_SPEECH_UW_ACT03_BOUNCE_ENDOR,Tyber Zann: The Empire has a massive fleet in orbit.  They must be protecting something.  Stay clear until the time is right.
 TEXT_SPEECH_UW_ACT03_BOUNCE_SULLUST,Tyber Zann: The Rebellion is keeping a large fleet in orbit - they must be planning something.  I won't play my hand just yet.
 TEXT_SPEECH_UW_ACT03_G17_01,Silri: While you sit on your throne looking smug, Bossk has taken the artifact and sold it to the Empire!  And you think a Dark Lord like Vader or the emperor won't know how to use its power!
-TEXT_SPEECH_UW_ACT03_G17_02,Tyber Zann: Are you naïve enough to think I just let things happen that aren't according to my carefully laid plans? You've told me the artifact is useless, I shouldn't be concerned, should I?
+TEXT_SPEECH_UW_ACT03_G17_02,Tyber Zann: Are you naïve enough to think I just let things happen that aren't according to my carefully laid plans?  You've told me the artifact is useless, I shouldn't be concerned, should I?
 TEXT_SPEECH_UW_ACT03_G17_03,Silri: I...
 TEXT_SPEECH_UW_ACT03_G17_04,Tyber Zann: It's almost as if there was something about the artifact that you held back from me.  If I have now lost something to them of real value, through some lack of disclosure on your part, why... I might take such a thing quite badly.
-TEXT_SPEECH_UW_ACT03_G17_05,Silri: Well...there might have been more...
+TEXT_SPEECH_UW_ACT03_G17_05,Silri: Well... there might have been more...
 TEXT_SPEECH_UW_ACT03_G17_06,Tyber Zann: Shocking.  Tell me.
-TEXT_SPEECH_UW_ACT03_G17_07,Silri: I...I can't be sure.  I believe that there may have been another key that was required.  A data lock such as that would be used only to hide something of great importance.  I thought it might be a lost Force technique, known only to the ancient Sith.  But it would only be useful only to me and my kind!
+TEXT_SPEECH_UW_ACT03_G17_07,Silri: I... I can't be sure.  I believe that there may have been another key that was required.  A data lock such as that would be used only to hide something of great importance.  I thought it might be a lost Force technique, known only to the ancient Sith.  But it would only be useful only to me and my kind!
 TEXT_SPEECH_UW_ACT03_G17_08,Tyber Zann: But... you can't be sure.  Correct?
 TEXT_SPEECH_UW_ACT03_G17_09,Silri: I did not have time to find the answers.  I did not think you would give it away so carelessly!
 TEXT_SPEECH_UW_ACT03_G17_10,Tyber Zann: Silri, I want you to listen to me very carefully.  If you ever lie to me again, or hide information from me you and every Dathomiri witch will die the day after you betray me.  And I'll kill everyone of those damned Rancors as well.  Those orders already stand, and will be carried out, whether I'm alive or not.  Do you understand me?
 TEXT_SPEECH_UW_ACT03_G17_11,Silri: I've heard enough...
 TEXT_SPEECH_UW_ACT03_G17_12,Tyber Zann: These are actions that you will set in motion.  Lie to me, betray me, withhold information from me again, and all of these things will come to pass.  Am I as clear as I can possibly be?
 TEXT_SPEECH_UW_ACT03_G17_13,Silri: I understand.
-TEXT_SPEECH_UW_ACT03_G17_14,Tyber Zann: Splendid!  Now then...Urai, you can begin tracking the locator beacon we placed on the artifact.
+TEXT_SPEECH_UW_ACT03_G17_14,Tyber Zann: Splendid!  Now then... Urai, you can begin tracking the locator beacon we placed on the artifact.
 TEXT_SPEECH_UW_ACT03_G17_15,Silri: What!?
 TEXT_SPEECH_UW_ACT03_G17_16,Tyber Zann: Did you really think I didn't know what would happen?  I let Bossk steal it.  I am quite willing to sacrifice a million credits when it will lead me to the emperor's personal archives aboard the Eclipse.
 TEXT_SPEECH_UW_ACT03_G17_17,Silri: Why bother getting into the Eclipse at all?  You're so vastly powerful now, as you humbly stated a moment ago.
@@ -16744,7 +16744,7 @@ TEXT_SPEECH_UW_ACT03_G18_03,Urai Fen: Yes.  Their commander seems... excited.
 TEXT_SPEECH_UW_ACT03_G18_04,What goes here?
 TEXT_SPEECH_UW_ACT03_G18_05,Tyber Zann: Captain?  I trust you have good news?
 TEXT_SPEECH_UW_ACT03_G18_06,Pirate Captain: I know the order was to leave Mandal Hypernautics alone, but some of my men couldn't resist of hitting some of their lesser shipyards outside the system.  I seized the opportunity to extort some more new ships from Mandal.
-TEXT_SPEECH_UW_ACT03_G18_07,Tyber Zann: Really...and how did they respond?
+TEXT_SPEECH_UW_ACT03_G18_07,Tyber Zann: Really... and how did they respond?
 TEXT_SPEECH_UW_ACT03_G18_08,Pirate Captain: They were only too happy to pay a little more.  We have some new toys for you!
 TEXT_SPEECH_UW_ACT03_G18_09,Tyber Zann: Well now, that is a prize - an admirable job Captain.  Except for one thing...
 TEXT_SPEECH_UW_ACT03_G18_10,Pirate Captain: What's that?
@@ -16764,9 +16764,9 @@ TEXT_SPEECH_UW_ACT03_G20_02,Urai Fen: To Coruscant?
 TEXT_SPEECH_UW_ACT03_G20_03,Tyber Zann: That's where we've traced the artifact isn't it?  By all indications it's in the emperor's Imperial Archive.  The Empire is sure to be caught off guard by such a bold raid on the Imperial Archive itself.  That passkey is as good as ours.
 TEXT_SPEECH_UW_ACT03_G20_04,Urai Fen: Coruscant is going to be heavily guarded, even with the emperor and Vader absent.
 TEXT_SPEECH_UW_ACT03_G20_05,Tyber Zann: Thanks to IG-88's help on Bespin, we should be able to land without interference.  Get Silri and prepare to raid the Imperial archive on Coruscant.  We must get in and out before the emperor returns from Endor.
-TEXT_SPEECH_UW_ACT03_G20_06,Urai Fen: Are you sure you want Silri along for this?  I--
-TEXT_SPEECH_UW_ACT03_G20_07,Tyber Zann: She is powerful and useful despite her...volatility.  Be ready, though - if she tries anything, I'll require your services.
-TEXT_SPEECH_UW_ACT03_G20_08,Urai Fen: I am ready. I look forward to it if the opportunity arises.
+TEXT_SPEECH_UW_ACT03_G20_06,Urai Fen: Are you sure you want Silri along for this?  I-
+TEXT_SPEECH_UW_ACT03_G20_07,Tyber Zann: She is powerful and useful despite her... volatility.  Be ready, though - if she tries anything, I'll require your services.
+TEXT_SPEECH_UW_ACT03_G20_08,Urai Fen: I am ready.  I look forward to it if the opportunity arises.
 TEXT_SPEECH_UW_ACT03_G21_01,Silri: I sense a great disturbance in the Force - the balance has shifted away from the dark side.
 TEXT_SPEECH_UW_ACT03_G21_02,Tyber Zann: That all sounds very nice, but what does it mean?
 TEXT_SPEECH_UW_ACT03_G21_03,Silri: The emperor, and Vader - they're dead.  The Rebels must have destroyed them...
