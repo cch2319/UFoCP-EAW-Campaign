@@ -16538,7 +16538,7 @@ TEXT_SPEECH_UW_ACT02_G09_05,Chairman: It would be bad for business - some of the
 TEXT_SPEECH_UW_ACT02_G09_06,Tyber Zann: I could easily slaughter these pirates.  Of course, everything has it's price.  If I clean up your problem, what's in it for me besides the ships I already expect?
 TEXT_SPEECH_UW_ACT02_G09_07,Chairman: I'm sure some kind of compensation could be arranged...perhaps first rights to our newest products?  I might even be able to arrange a discount of some kind.
 TEXT_SPEECH_UW_ACT02_G09_08,Tyber Zann: Then we are in agreement.  I'll destroy the pirates and expect your delivery shortly.  Over and out.
-TEXT_SPEECH_UW_ACT02_G09_09,Urai Fen: I will see that it is done.  Also, the Pirate captain sent over one of the ships. Curious.  Why did he not keep it for himself?
+TEXT_SPEECH_UW_ACT02_G09_09,Urai Fen: I will see that it is done.  Also, the Pirate captain sent over one of the ships.  Curious.  Why did he not keep it for himself?
 TEXT_SPEECH_UW_ACT02_G09_10,Tyber Zann: That should be obvious Urai - fear.  My reputation is spreading deep into the galaxy, and the captain knows well what would happen if he tried to steal from me.
 TEXT_SPEECH_UW_ACT02_G09_11,Urai Fen: I see.  Well at least we won't have to actually pay them now.
 TEXT_SPEECH_UW_ACT02_G09_13,Chairman: You are a man of your word.  Our newest corvette has just finished production - the Crusader-class.  I'd like you to have one as my gift.  Our shipyards and factories are always open for your business.
