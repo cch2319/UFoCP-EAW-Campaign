@@ -16290,7 +16290,7 @@ TEXT_SPEECH_UW_ACT01_G02_08,Tyber Zann: Fascinating Urai.  If we could unlock it
 TEXT_SPEECH_UW_ACT01_G02_09,Urai Fen: Yes Tyber?
 TEXT_SPEECH_UW_ACT01_G02_10,Tyber Zann: Make them hurt.  We must let the galaxy know that Tyber Zann and his associates are back.  Jabba's days are numbered and I want everyone else to know that as well.
 TEXT_SPEECH_UW_ACT01_G02_14,Tyber Zann: It's time I had a look at my prize.  I didn't go through torture at Jabba's hands and years of prison just to let it rot in its hiding place.
-TEXT_SPEECH_UW_ACT01_G03_01,Tyber Zann: While I was in prison, one of my cell mates mentioned that the emperor had a vast collection of treasure that he kept all over the galaxy in hidden vaults.  I... persuaded him to share more information with me.
+TEXT_SPEECH_UW_ACT01_G03_01,Tyber Zann: While I was in prison, one of my cellmates mentioned that the emperor had a vast collection of treasure that he kept all over the galaxy in hidden vaults.  I... persuaded him to share more information with me.
 TEXT_SPEECH_UW_ACT01_G03_02,Urai Fen: Only an ex-Imperial Officer would truly know that.  Did he mention the location of these vaults?
 TEXT_SPEECH_UW_ACT01_G03_03,Tyber Zann: I never found out, unfortunately.  I may have been a bit... overzealous in my questioning.  He may not have known the locations of the vaults, but I'm convinced his story is more than just a rumor.  And now, we have the perfect opportunity to test the story, thanks to the Rebels.
 TEXT_SPEECH_UW_ACT01_G03_04,Urai Fen: The Rebellion?

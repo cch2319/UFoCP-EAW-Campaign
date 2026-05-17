@@ -63,7 +63,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_G03_01: (BUG #631)
-	-- ENG: 
+	-- ENG: ...While I was in prison, one of my cell mates mentioned... --> ...While I was in prison, one of my cellmates mentioned...
 
 • TEXT_SPEECH_UW_ACT01_G03_03: (BUG #632)
 	-- ENG: ...I may have been a bit overzealous in my questioning.  He may not have known the locations of the vaults but I'm convinced this story is more than just a rumor. ... --> ...I may have been a bit... overzealous in my questioning.  He may not have known the locations of the vaults, but I'm convinced his story is more than just a rumor. ...
