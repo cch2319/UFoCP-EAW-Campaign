@@ -16274,7 +16274,7 @@ TEXT_SPEECH_UW_ACT01_G01_07,Tyber Zann: There's an remote Imperial colony on Hon
 TEXT_SPEECH_UW_ACT01_G01_09,Tyber Zann: Word will soon spread that the Consortium is back.  I'm sure Jabba is aware of our movements.  Setting up a racketeering operation on Shola will let him know that we're back in business.
 TEXT_SPEECH_UW_ACT01_G01_16,Tyber Zann: Excellent!  Now that we've muscled in on Jabba's action, we have some credits to work with.  I've identified Mandal Hypernautics' supply shipments as an easy next target.  Hire some pirates to ambush them.
 TEXT_SPEECH_UW_ACT01_G01_17,Urai Fen: Why Mandal Hypernautics?
-TEXT_SPEECH_UW_ACT01_G01_18,Tyber Zann: I can only rely on my strategic intuition so long Urai.  Raiding the supply ships will provide us better equipment than what the Hutts are using.
+TEXT_SPEECH_UW_ACT01_G01_18,Tyber Zann: I can only rely on my strategic intuition so long, Urai.  Raiding the supply ships will provide us better equipment than what the Hutts are using.
 TEXT_SPEECH_UW_ACT01_G01_19,Urai Fen: ...And how will raiding their supply shipments gain you ships?
 TEXT_SPEECH_UW_ACT01_G01_20,Tyber Zann: If the Mandal supply ships are suddenly being raided, they'll need to take appropriate steps to ensure security.
 TEXT_SPEECH_UW_ACT01_G01_21,Tyber Zann: Now that our corruption has influenced a few worlds, we will realize a true criminal network.  Once we link corrupted planets together, we can bribe officials into allowing our ships, safe passage through enemy worlds

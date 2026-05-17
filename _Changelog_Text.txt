@@ -77,8 +77,8 @@ Housekeeping:
 • : (BUG #625)
 	-- ENG: 
 
-• : (BUG #626)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G01_18: (BUG #626)
+	-- ENG: ...I can only rely on my strategic intuition so long Urai. ... --> ...I can only rely on my strategic intuition so long, Urai. ...
 
 • TEXT_SPEECH_UW_ACT01_G01_19: (BUG #627)
 	-- ENG: Urai Fen: And how will raiding their supply shipments gain you ships? --> Urai Fen: ...And how will raiding their supply shipments gain you ships?
