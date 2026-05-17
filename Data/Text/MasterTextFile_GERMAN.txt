@@ -16748,7 +16748,7 @@ TEXT_SPEECH_UW_ACT03_G18_07,Tyber Zann: Wirklich ... und wie haben die reagiert?
 TEXT_SPEECH_UW_ACT03_G18_08,Piraten-Captain: Sie haben liebend gern etwas mehr bezahlt. Wir haben ein paar neue Spielzeuge für Euch!
 TEXT_SPEECH_UW_ACT03_G18_09,Tyber Zann: Das ist mal eine fette Beute - wunderbar gemacht, Captain. Mit Ausnahme einer Kleinigkeit ...
 TEXT_SPEECH_UW_ACT03_G18_10,Piraten-Captain: Und die wäre?
-TEXT_SPEECH_UW_ACT03_G18_11,Tyber Zann: Ich kann nicht zulassen, dass meine Befehle von Untergebenen missachtet werden, sonst degeneriert das Konsortium zu einer Räuberbande. Hoffentlich wird Euer Nachfolger daran denken.
+TEXT_SPEECH_UW_ACT03_G18_11,Tyber Zann: (Blasterschüsse) Ich kann nicht zulassen, dass meine Befehle von Untergebenen missachtet werden, sonst degeneriert das Konsortium zu einer Räuberbande. Hoffentlich wird Euer Nachfolger daran denken.
 TEXT_SPEECH_UW_ACT03_G19_01,Iblis: Ihr seid ein Narr, Zann! Seht Ihr denn nicht, was um Euch herum passiert? Das Imperium baut einen weiteren Todesstern! Kein Planet kann sich sicher fühlen, solange dieser Verrückte an der Macht ist! Trotzdem können wir siegen. Der Imperator und Vader sind an Bord des neuen Todessterns - mit Eurer Hilfe können wir die Kampfstation und das Imperium mit einem Schlag vernichten!
 TEXT_SPEECH_UW_ACT03_G19_02,Tyber Zann: Rebellion, Imperium, das ist mir alles gleich. Ich bin erfolgreich, weil ich mich nicht verzettele. Wenn ein Todesstern zerstört wurde, kann auch der neue zerstört werden, aber darum kümmere ich mich erst, wenn er angeflogen kommt, um mich und meine Leute zu töten.
 TEXT_SPEECH_UW_ACT03_G19_03,Iblis: Ihr könnt doch nicht ...

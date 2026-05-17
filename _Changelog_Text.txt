@@ -56,6 +56,70 @@ Housekeeping:
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
 
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
+	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
+	-- GER: Tyber Zann: Ich kann nicht zulassen... --> Tyber Zann: (Blasterschüsse) Ich kann nicht zulassen...
+
 
 
 

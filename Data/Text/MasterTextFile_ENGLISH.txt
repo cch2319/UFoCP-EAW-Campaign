@@ -16748,7 +16748,7 @@ TEXT_SPEECH_UW_ACT03_G18_07,Tyber Zann: Really... and how did they respond?
 TEXT_SPEECH_UW_ACT03_G18_08,Pirate Captain: They were only too happy to pay a little more.  We have some new toys for you!
 TEXT_SPEECH_UW_ACT03_G18_09,Tyber Zann: Well now, that is a prize - an admirable job Captain.  Except for one thing...
 TEXT_SPEECH_UW_ACT03_G18_10,Pirate Captain: What's that?
-TEXT_SPEECH_UW_ACT03_G18_11,Tyber Zann: I cannot allow underlings to ignore my orders or the Consortium simply degenerates into a pack of bandits.  Lets hope the man who replaces you will remember that.
+TEXT_SPEECH_UW_ACT03_G18_11,Tyber Zann: (Blaster Fire) I cannot allow underlings to ignore my orders, or the Consortium simply degenerates into a pack of bandits.  Lets hope the man who replaces you will remember that.
 TEXT_SPEECH_UW_ACT03_G19_01,Iblis: You are a fool Zann!  Don't you see what's happening around you?  The Empire is building another Death Star!  No planet will be safe with that madman in power!  We can win though.  The emperor and Vader are on board the new Death Star - with your help, we can destroy the battle station and the Empire in one blow!
 TEXT_SPEECH_UW_ACT03_G19_02,Tyber Zann: Rebellion, Empire, I don't care.  I'm successful in what I do because I stay focused.  If one Death Star was destroyed, the new one can be destroyed as well, but I'm not going to bother until it flies to me and tries to kill me and mine.
 TEXT_SPEECH_UW_ACT03_G19_03,Iblis: You don...
