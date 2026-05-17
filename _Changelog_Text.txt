@@ -83,8 +83,8 @@ Housekeeping:
 • : (BUG #658)
 	-- ENG: 
 
-• : (BUG #659)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G11_02: (BUG #659)
+	-- ENG: ...Impossible!  How did you find me? --> ...Impossible!  How did you find me?!
 
 • TEXT_SPEECH_UW_ACT02_G11_04: (BUG #660)
 	-- ENG: ...I see you've risen quickly in the Imperial Ranks. ... --> ...I see you've risen quickly in the Imperial ranks. ...

@@ -16552,7 +16552,7 @@ TEXT_SPEECH_UW_ACT02_G10_06,Tyber Zann: Send for some Defilers.  We'll have them
 TEXT_SPEECH_UW_ACT02_G10_12,Tyber Zann: The way is clear.  Let's go, Urai.
 TEXT_SPEECH_UW_ACT02_G10_17,Tyber Zann: Urai, this mission is for you and I alone -- just like old times.  The Empire is watching this planet too carefully.  We need to move swiftly and undercover.
 TEXT_SPEECH_UW_ACT02_G11_01,Urai Fen: Tyber, you have an incoming transmission on your private channel.
-TEXT_SPEECH_UW_ACT02_G11_02,Tyber Zann: Impossible!  How did you find me?
+TEXT_SPEECH_UW_ACT02_G11_02,Tyber Zann: Impossible!  How did you find me?!
 TEXT_SPEECH_UW_ACT02_G11_03,Thrawn: Of course I was aware you had taken Jabba's comm node on Saleucami; tapping into it to reach you was trivial.
 TEXT_SPEECH_UW_ACT02_G11_04,Tyber Zann: I shouldn't be surprised that you were able to track me down.  I see you've risen quickly in the Imperial ranks.  With the way the Empire treats non-humans, I'm surprised you're not commanding a garbage scow somewhere.
 TEXT_SPEECH_UW_ACT02_G11_05,Thrawn: My capabilities have proven more than enough to inspire the emperor's tolerance.  Ironic that you were once one of the Academy's most promising students.  Now, you're an outcast, and foolish enough to try and pay your way by attacking Imperial holdings.
