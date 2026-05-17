@@ -16718,7 +16718,7 @@ TEXT_SPEECH_UW_ACT02_M09_16,Tyber Zann: I want that Imperial fleet destroyed!  W
 TEXT_SPEECH_UW_ACT03_BOUNCE_CORUSCANT,Tyber Zann: A wanted fugitive from Kessel landing on Imperial Center?  I'm bold, but not stupid.  Perhaps another time...
 TEXT_SPEECH_UW_ACT03_BOUNCE_ENDOR,Tyber Zann: The Empire has a massive fleet in orbit.  They must be protecting something.  Stay clear until the time is right.
 TEXT_SPEECH_UW_ACT03_BOUNCE_SULLUST,Tyber Zann: The Rebellion is keeping a large fleet in orbit - they must be planning something.  I won't play my hand just yet.
-TEXT_SPEECH_UW_ACT03_G17_01,Silri: While you sit on your throne looking smug, Bossk has taken the artifact and sold it to the Empire!  And you think a Dark Lord like Vader or the emperor won't know how to use its power!
+TEXT_SPEECH_UW_ACT03_G17_01,Silri: While you sit on your throne looking smug, Bossk has taken the artifact and sold it to the Empire!  And you think a Dark Lord like Vader or the emperor won't know how to use its power?!
 TEXT_SPEECH_UW_ACT03_G17_02,Tyber Zann: Are you naïve enough to think I just let things happen that aren't according to my carefully laid plans?  You've told me the artifact is useless.  I shouldn't be concerned... should I?
 TEXT_SPEECH_UW_ACT03_G17_03,Silri: I...
 TEXT_SPEECH_UW_ACT03_G17_04,Tyber Zann: It's almost as if there was something about the artifact that you held back from me.  If I have now lost something to them of real value, through some lack of disclosure on your part, why... I might take such a thing quite badly.
