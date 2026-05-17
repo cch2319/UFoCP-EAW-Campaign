@@ -59,8 +59,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #620)
-	-- ENG: 
+• TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05: (BUG #620)
+	-- ENG: ...Centering our racketeering efforts around Bacta production can bring the economic power of the planet under our control --> ...Centering our racketeering efforts around bacta production can bring the economic power of the planet under our control.
 
 • TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08: (BUG #621)
 	-- ENG: Tyber Zann: As long as you or your family don't upset me, they'll be fine. --> Tyber Zann: As long as you and your family don't upset me, they'll be fine.
