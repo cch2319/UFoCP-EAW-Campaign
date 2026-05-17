@@ -62,8 +62,8 @@ Housekeeping:
 • : (BUG #651)
 	-- ENG: 
 
-• : (BUG #652)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G08_05: (BUG #652)
+	-- ENG: ...The Imperial forces are not going to stop me.  But they've certainly slowed my progress.  Our answers lie within the Eclipse but I still see no way to reach it, given its defenses. --> ...The Imperial forces are not going to stop me, but they've certainly slowed my progress.  Our answers lie within the Eclipse, but I still see no way to reach it, given its defenses.
 
 • TEXT_SPEECH_UW_ACT02_G08_11: (BUG #653)
 	-- ENG: ...If another with this knowledge exists - I need you to find them and enlist them to assist us. --> ...If another with this knowledge exists, I need you to find them and enlist them to assist us.
