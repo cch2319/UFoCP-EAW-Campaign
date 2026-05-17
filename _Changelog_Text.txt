@@ -80,8 +80,8 @@ Housekeeping:
 • : (BUG #646)
 	-- ENG: 
 
-• : (BUG #647)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M01_24: (BUG #647)
+	-- ENG: Tyber Zann: I have a ship waiting nearby.  Follow me. --> Tyber Zann: I have a ship waiting nearby, follow me!
 
 • TEXT_SPEECH_UW_ACT01_M01_30: (BUG #648)
 	-- ENG: Prisoner: Tyber has escaped!  Head for the gates! --> Prisoner: Tyber's escaped, head for the gates!

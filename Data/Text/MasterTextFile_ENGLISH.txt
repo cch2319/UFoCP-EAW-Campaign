@@ -16363,7 +16363,7 @@ TEXT_SPEECH_UW_ACT01_M01_20,Tyber Zann: Perhaps some of our comrades can make th
 TEXT_SPEECH_UW_ACT01_M01_21,Tyber Zann: Stay clear of those, if you don't like explosions.
 TEXT_SPEECH_UW_ACT01_M01_22,Tyber Zann: Those look valuable.
 TEXT_SPEECH_UW_ACT01_M01_23,Tyber Zann: I'll take them all, thank you.
-TEXT_SPEECH_UW_ACT01_M01_24,Tyber Zann: I have a ship waiting nearby.  Follow me.
+TEXT_SPEECH_UW_ACT01_M01_24,Tyber Zann: I have a ship waiting nearby, follow me!
 TEXT_SPEECH_UW_ACT01_M01_25,Tyber Zann: This way, all of you!
 TEXT_SPEECH_UW_ACT01_M01_26,Tyber Zann: The only way you'll be free is to follow my lead.
 TEXT_SPEECH_UW_ACT01_M01_27,Prisoner: Let's get out of here!
