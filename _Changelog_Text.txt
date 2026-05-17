@@ -59,20 +59,20 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #630)
+• TEXT_SPEECH_UW_ACT01_G02_08: (BUG #630)
 	-- ENG: 
 
-• : (BUG #631)
+• TEXT_SPEECH_UW_ACT01_G03_01: (BUG #631)
 	-- ENG: 
 
-• : (BUG #632)
+• TEXT_SPEECH_UW_ACT01_G03_03: (BUG #632)
 	-- ENG: 
 
-• : (BUG #633)
+• TEXT_SPEECH_UW_ACT01_G03_05: (BUG #633)
 	-- ENG: 
 
-• : (BUG #634)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G03_06: (BUG #634)
+	-- ENG: Urai Fen: And if the Rebels are still in the vicinity? --> Urai Fen: ...And if the Rebels are still in the vicinity?
 
 • TEXT_SPEECH_UW_ACT01_G03_07: (BUG #635)
 	-- ENG: ...The Rebels will be there, they have an entire base on Yavin IV and have no where else to go.  The Empire will soon send a fleet to retaliate.  We must move quickly to find the data pod. --> ...The Rebels will be there, they have an entire base on Yavin IV and have nowhere else to go.  The Empire will soon send a fleet to retaliate - we must move quickly to find a data pod.
