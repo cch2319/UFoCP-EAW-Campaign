@@ -83,8 +83,8 @@ Housekeeping:
 • : (BUG #627)
 	-- ENG: 
 
-• : (BUG #628)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G01_28: (BUG #628)
+	-- ENG: ...Of course we could set up a another Racketeering operation there, but I believe in order to truly make our make our mark we need intimidation. --> ...Of course, we could set up a another racketeering operation there.  But I believe in order to truly make our make our mark, we need intimidation.
 
 • TEXT_SPEECH_UW_ACT01_G02_02: (BUG #629)
 	-- ENG: ...I'll bet he expected to double his wealth by selling it to the Empire. --> ...I'll bet he expected to double his wealth by selling it to the Empire!  (Laughter)

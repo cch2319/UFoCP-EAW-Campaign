@@ -16278,7 +16278,7 @@ TEXT_SPEECH_UW_ACT01_G01_18,Tyber Zann: I can only rely on my strategic intuitio
 TEXT_SPEECH_UW_ACT01_G01_19,Urai Fen: And how will raiding their supply shipments gain you ships?
 TEXT_SPEECH_UW_ACT01_G01_20,Tyber Zann: If the Mandal supply ships are suddenly being raided, they'll need to take appropriate steps to ensure security.
 TEXT_SPEECH_UW_ACT01_G01_21,Tyber Zann: Now that our corruption has influenced a few worlds, we will realize a true criminal network.  Once we link corrupted planets together, we can bribe officials into allowing our ships, safe passage through enemy worlds
-TEXT_SPEECH_UW_ACT01_G01_28,Tyber Zann: Of course we could set up a another Racketeering operation there, but I believe in order to truly make our make our mark we need intimidation.
+TEXT_SPEECH_UW_ACT01_G01_28,Tyber Zann: Of course, we could set up a another racketeering operation there.  But I believe in order to truly make our make our mark, we need intimidation.
 TEXT_SPEECH_UW_ACT01_G02_01,Urai Fen: Soon after you escaped, I went to recover the artifact from its hiding place.
 TEXT_SPEECH_UW_ACT01_G02_02,Tyber Zann: Jabba must have given up half his criminal empire to buy that ancient puzzle.  I'll bet he expected to double his wealth by selling it to the Empire!  (Laughter)
 TEXT_SPEECH_UW_ACT01_G02_03,Urai Fen: Even at twice his price, the Empire would have paid far too little.
