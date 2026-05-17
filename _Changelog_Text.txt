@@ -69,7 +69,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_G03_05: (BUG #633)
-	-- ENG: 
+	-- ENG: ...Alliance forces have destroyed the Imperial Death Star - over Yavin 4.  Most Imperial battle stations carry data pods that are to be ejected during emergencies.  Perhaps someone thought to follow protocol before the Death Star was destroyed. --> ...Alliance forces have destroyed the Imperial Death Star over Yavin IV.  Most Imperial battle stations carry data pods that are to be ejected during emergencies.  Perhaps, someone thought to follow protocol before the Death Star was destroyed?
 
 • TEXT_SPEECH_UW_ACT01_G03_06: (BUG #634)
 	-- ENG: Urai Fen: And if the Rebels are still in the vicinity? --> Urai Fen: ...And if the Rebels are still in the vicinity?
