@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #644)
 	-- ENG: 
 
-• : (BUG #645)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G06_04: (BUG #645)
+	-- ENG: ...Jabba!  How's the desert planet treating you?  Dried up and died yet?  No?  Well that's to bad. ... --> ...Jabba!  Hah, how's the desert planet treating you?  Dried up and died yet?  No?  Well that's too bad! ...
 
 • TEXT_SPEECH_UW_ACT01_G06_08: (BUG #646)
 	-- ENG: Tyber Zann: The shield generator is our target - take it out. --> Tyber Zann: The shield generator is our target - take it out!
