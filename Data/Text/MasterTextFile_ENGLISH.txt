@@ -16298,7 +16298,7 @@ TEXT_SPEECH_UW_ACT01_G03_05,Tyber Zann: Alliance forces have destroyed the Imper
 TEXT_SPEECH_UW_ACT01_G03_06,Urai Fen: And if the Rebels are still in the vicinity?
 TEXT_SPEECH_UW_ACT01_G03_07,Tyber Zann: The Rebels will be there, they have an entire base on Yavin IV and have no where else to go.  The Empire will soon send a fleet to retaliate.  We must move quickly to find the data pod.
 TEXT_SPEECH_UW_ACT01_G03_11,Urai Fen: There are a few planets between us and Yavin that the Consortium does not control; what is their fate?
-TEXT_SPEECH_UW_ACT01_G03_12,Tyber Zann: Corrupt them, conquer them, be creative Urai.  Just remember that getting to Yavin is our goal.
+TEXT_SPEECH_UW_ACT01_G03_12,Tyber Zann: Corrupt them.  Conquer them.  Be creative, Urai.  Just remember that getting to Yavin is our goal.
 TEXT_SPEECH_UW_ACT01_G04_01,Tyber Zann: Well, would you look at that.  I love it when I'm right.  (Sly Laughter)
 TEXT_SPEECH_UW_ACT01_G04_02,Urai Fen: What have you found?
 TEXT_SPEECH_UW_ACT01_G04_03,Tyber Zann: Based on records of the emperor's transmissions, I believe the vaults are very real.  There are technical plans for new ships, and most importantly, construction schedules for the emperor's new flagship over Kuat.

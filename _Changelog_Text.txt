@@ -80,8 +80,8 @@ Housekeeping:
 • : (BUG #636)
 	-- ENG: 
 
-• : (BUG #637)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G03_12: (BUG #637)
+	-- ENG: ...Corrupt them, conquer them, be creative Urai. ... --> ...Corrupt them.  Conquer them.  Be creative, Urai. ...
 
 • TEXT_SPEECH_UW_ACT01_G04_01: (BUG #638)
 	-- ENG: Tyber Zann: Well would you look at that.  I love it when I'm right. --> Tyber Zann: Well, would you look at that.  I love it when I'm right.  (Sly Laughter)
