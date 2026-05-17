@@ -77,8 +77,8 @@ Housekeeping:
 • : (BUG #656)
 	-- ENG: 
 
-• : (BUG #657)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G10_03: (BUG #657)
+	-- ENG: ...However, the emperor found it before we did and he has blockaded the planet. --> ...However, the emperor found it before we did.  He has blockaded the planet.
 
 • TEXT_SPEECH_UW_ACT02_G10_17: (BUG #658)
 	-- ENG: Urai, this mission is for you and I alone -- just like old times. ... --> Urai, this mission is for you and I alone - just like old times.

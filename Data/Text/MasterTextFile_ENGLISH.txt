@@ -16545,7 +16545,7 @@ TEXT_SPEECH_UW_ACT02_G09_13,Chairman: You are a man of your word.  Our newest co
 TEXT_SPEECH_UW_ACT02_G09_14,Tyber Zann: You may want to call home, Chairman.  Poor little Amelia has just had a terrible experience.  It seems someone has just shot out the eyes of her new birthday pony while she was riding it.  Over and out.
 TEXT_SPEECH_UW_ACT02_G10_01,Urai Fen: I think I have located a potential source of dark side Force users for you.  There is, however, a complication.
 TEXT_SPEECH_UW_ACT02_G10_02,Tyber Zann: Someone stands in our way?
-TEXT_SPEECH_UW_ACT02_G10_03,Urai Fen: The planet Dathomir holds many Force users of great power.  However, the emperor found it before we did and he has blockaded the planet.
+TEXT_SPEECH_UW_ACT02_G10_03,Urai Fen: The planet Dathomir holds many Force users of great power.  However, the emperor found it before we did.  He has blockaded the planet.
 TEXT_SPEECH_UW_ACT02_G10_04,Tyber Zann: I see.  No need to confront the Empire head on there.  We're better off sneaking into the planet with a small force and taking what we want under their noses.
 TEXT_SPEECH_UW_ACT02_G10_05,Urai Fen: It may be possible to land undetected, but the sensors on the planet are very good.  We will soon be detected, unless we disable the Empire's sensor web.
 TEXT_SPEECH_UW_ACT02_G10_06,Tyber Zann: Send for some Defilers.  We'll have them sabotage the sensor system, and then we'll take a shuttle down ourselves.
