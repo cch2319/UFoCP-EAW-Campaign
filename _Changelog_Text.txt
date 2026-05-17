@@ -65,8 +65,8 @@ Housekeeping:
 • : (BUG #621)
 	-- ENG: 
 
-• : (BUG #622)
-	-- ENG: 
+• TEXT_SPEECH_UW_CLD_01: (BUG #622)
+	-- ENG: ...No one denies the Zann Consortium ...no one. --> ...No one denies the Zann Consortium.  No one.
 
 • TEXT_SPEECH_UW_ACT01_G01_01: (BUG #623)
 	-- ENG: ...We need to move quickly.  Is there anything left Urai? --> ...We need to move quickly - is there anything left, Urai?
