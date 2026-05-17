@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #654)
 	-- ENG: 
 
-• : (BUG #656)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G09_09: (BUG #656)
+	-- ENG: ...Also, the Pirate captain sent over one of the ships. ... --> ...Also, the pirate captain sent over one of the ships. ...
 
 • TEXT_SPEECH_UW_ACT02_G10_03: (BUG #657)
 	-- ENG: ...However, the emperor found it before we did and he has blockaded the planet. --> ...However, the emperor found it before we did.  He has blockaded the planet.
