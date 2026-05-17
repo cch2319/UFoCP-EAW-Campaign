@@ -16550,7 +16550,7 @@ TEXT_SPEECH_UW_ACT02_G10_04,Tyber Zann: I see.  No need to confront the Empire h
 TEXT_SPEECH_UW_ACT02_G10_05,Urai Fen: It may be possible to land undetected, but the sensors on the planet are very good.  We will soon be detected, unless we disable the Empire's sensor web.
 TEXT_SPEECH_UW_ACT02_G10_06,Tyber Zann: Send for some Defilers.  We'll have them sabotage the sensor system, and then we'll take a shuttle down ourselves.
 TEXT_SPEECH_UW_ACT02_G10_12,Tyber Zann: The way is clear.  Let's go, Urai.
-TEXT_SPEECH_UW_ACT02_G10_17,Tyber Zann: Urai, this mission is for you and I alone -- just like old times.  The Empire is watching this planet too carefully.  We need to move swiftly and undercover.
+TEXT_SPEECH_UW_ACT02_G10_17,Tyber Zann: Urai, this mission is for you and I alone - just like old times.  The Empire is watching this planet too carefully.  We need to move swiftly and undercover.
 TEXT_SPEECH_UW_ACT02_G11_01,Urai Fen: Tyber, you have an incoming transmission on your private channel.
 TEXT_SPEECH_UW_ACT02_G11_02,Tyber Zann: Impossible!  How did you find me?!
 TEXT_SPEECH_UW_ACT02_G11_03,Thrawn: Of course I was aware you had taken Jabba's comm node on Saleucami; tapping into it to reach you was trivial.

@@ -80,8 +80,8 @@ Housekeeping:
 • : (BUG #657)
 	-- ENG: 
 
-• : (BUG #658)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G10_17: (BUG #658)
+	-- ENG: Urai, this mission is for you and I alone -- just like old times. ... --> Urai, this mission is for you and I alone - just like old times.
 
 • TEXT_SPEECH_UW_ACT02_G11_02: (BUG #659)
 	-- ENG: ...Impossible!  How did you find me? --> ...Impossible!  How did you find me?!
