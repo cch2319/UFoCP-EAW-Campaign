@@ -59,8 +59,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #651)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G08_03: (BUG #651)
+	-- ENG: ...Add another layer of brain washing to their training regiment. ... --> ...Add another layer of brainwashing to their training regiment. ...
 
 • TEXT_SPEECH_UW_ACT02_G08_05: (BUG #652)
 	-- ENG: ...The Imperial forces are not going to stop me.  But they've certainly slowed my progress.  Our answers lie within the Eclipse but I still see no way to reach it, given its defenses. --> ...The Imperial forces are not going to stop me, but they've certainly slowed my progress.  Our answers lie within the Eclipse, but I still see no way to reach it, given its defenses.
