@@ -16265,7 +16265,7 @@ TEXT_SPEECH_UTAPAU_KID_LOAD_COR49_01,Silri: Another conquest for the Zann Consor
 TEXT_SPEECH_UTAPAU_KID_LOSS_COR49_04,Silri: I thought they might give us trouble.  We know of their defenses now and cannot fail a second time.
 TEXT_SPEECH_UTAPAU_KID_TACTICAL_COR49_02,Silri: The guards in the Fey compound are unusually powerful.  We'll focus on one point and fight our way through to grab Garnak Fey.
 TEXT_SPEECH_UTAPAU_KID_VICTORY_COR49_03,Silri: We have the Fey family member in our control, and the planet will do anything to meet our demands.
-TEXT_SPEECH_UW_ACT01_G01_01,Tyber Zann: My stay in prison has not done wonders for the Zann Consortium.  Jabba must have already heard of my escape.  We need to move quickly.  Is there anything left Urai?
+TEXT_SPEECH_UW_ACT01_G01_01,Tyber Zann: My stay in prison has not done wonders for the Zann Consortium.  Jabba must have already heard of my escape.  We need to move quickly - is there anything left, Urai?
 TEXT_SPEECH_UW_ACT01_G01_02,Urai Fen: We have only a few outdated speeders.  Most of our associates deserted us once you were imprisoned.  What are your orders?
 TEXT_SPEECH_UW_ACT01_G01_03,Tyber Zann: We shall do as we've always done, Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets, we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy!
 TEXT_SPEECH_UW_ACT01_G01_04,Urai Fen: Then we will need Defilers.

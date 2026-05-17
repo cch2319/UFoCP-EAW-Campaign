@@ -68,8 +68,8 @@ Housekeeping:
 • : (BUG #622)
 	-- ENG: 
 
-• : (BUG #623)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G01_01: (BUG #623)
+	-- ENG: ...We need to move quickly.  Is there anything left Urai? --> ...We need to move quickly - is there anything left, Urai?
 
 • TEXT_SPEECH_UW_ACT01_G01_03: (BUG #624)
 	-- ENG: ...We shall do as we've always done Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy. --> ...We shall do as we've always done, Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets, we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy!
