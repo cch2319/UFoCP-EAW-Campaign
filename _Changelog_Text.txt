@@ -98,8 +98,8 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G16_05: (BUG #664)
+	-- ENG: ...into Empire-controlled space.  Are you mad? ... --> ...into Empire-controlled space, are you mad?!...
 
 • TEXT_SPEECH_UW_ACT03_G17_01: (BUG #665)
 	-- ENG: ...won't know how to use its power! --> ...won't know how to use its power?!

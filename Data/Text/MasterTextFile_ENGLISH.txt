@@ -16608,7 +16608,7 @@ TEXT_SPEECH_UW_ACT02_G16_01,Urai Fen: Tyber, we've received rendezvous coordinat
 TEXT_SPEECH_UW_ACT02_G16_02,Tyber Zann: Have we now?  That is quite interesting.  Well then, we shouldn't keep our Imperial friends waiting.  Invite Bossk to come along would you?
 TEXT_SPEECH_UW_ACT02_G16_03,Urai Fen: Why Bossk?
 TEXT_SPEECH_UW_ACT02_G16_04,Tyber Zann: I have a job for him, though he doesn't know it yet.
-TEXT_SPEECH_UW_ACT02_G16_05,Silri: You should not take the artifact into Empire-controlled space.  Are you mad?  Whatever your plans, this must be a trap!
+TEXT_SPEECH_UW_ACT02_G16_05,Silri: You should not take the artifact into Empire-controlled space, are you mad?!  Whatever your plans, this must be a trap!
 TEXT_SPEECH_UW_ACT02_G16_06,Tyber Zann: Your concern is touching.  And besides, why would it matter to you?  It's just a worthless old map, isn't it?
 TEXT_SPEECH_UW_ACT02_G16_07,Silri: That artifact is important to my clan, the Nightsisters.  I've told you I wish to study it further.  It would be a terrible mistake to let it fall into Imperial hands.
 TEXT_SPEECH_UW_ACT02_G16_08,Urai Fen: It is not your place to question Tyber, be silent or I will personally introduce you to my blades - a task I will find most satisfying.
