@@ -77,8 +77,8 @@ Housekeeping:
 • : (BUG #645)
 	-- ENG: 
 
-• : (BUG #646)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G06_08: (BUG #646)
+	-- ENG: Tyber Zann: The shield generator is our target - take it out. --> Tyber Zann: The shield generator is our target - take it out!
 
 • TEXT_SPEECH_UW_ACT01_M01_24: (BUG #647)
 	-- ENG: Tyber Zann: I have a ship waiting nearby.  Follow me. --> Tyber Zann: I have a ship waiting nearby, follow me!

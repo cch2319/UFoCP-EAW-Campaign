@@ -16324,7 +16324,7 @@ TEXT_SPEECH_UW_ACT01_G06_04,Tyber Zann: Jabba!  How's the desert planet treating
 TEXT_SPEECH_UW_ACT01_G06_05,Soldier: We traced the signal to Saleucami.  It looks like Jabba maintains a small comm outpost there.
 TEXT_SPEECH_UW_ACT01_G06_06,Tyber Zann: I want control of that comm outpost so we can do a little eavesdropping of our own.  Saleucami needs to be softened up in preparation for our landing.
 TEXT_SPEECH_UW_ACT01_G06_07,Soldier: Right away!
-TEXT_SPEECH_UW_ACT01_G06_08,Tyber Zann: The shield generator is our target - take it out.
+TEXT_SPEECH_UW_ACT01_G06_08,Tyber Zann: The shield generator is our target - take it out!
 TEXT_SPEECH_UW_ACT01_G06_09,Tyber Zann: I want this planet in my pocket - make it happen, Urai!
 TEXT_SPEECH_UW_ACT01_G06_10,Tyber Zann: Well done Urai.  Lets find and destroy Jabba's presence on this planet.
 TEXT_SPEECH_UW_ACT01_G06_14,Defiler: There's been another wave of attacks on our forces.
