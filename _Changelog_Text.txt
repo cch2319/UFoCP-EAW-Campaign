@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #624)
 	-- ENG: 
 
-• : (BUG #625)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G01_07: (BUG #625)
+	-- ENG: ...There's an remote Imperial colony on Honoghr - If we start by subverting the Imperial Officials there it shouldn't attract undue attention. --> ...There's a remote Imperial colony on Honoghr.  If we start by subverting the Imperial officials there, it shouldn't attract undue attention.
 
 • TEXT_SPEECH_UW_ACT01_G01_18: (BUG #626)
 	-- ENG: ...I can only rely on my strategic intuition so long Urai. ... --> ...I can only rely on my strategic intuition so long, Urai. ...

@@ -16270,7 +16270,7 @@ TEXT_SPEECH_UW_ACT01_G01_02,Urai Fen: We have only a few outdated speeders.  Mos
 TEXT_SPEECH_UW_ACT01_G01_03,Tyber Zann: We shall do as we've always done Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy.
 TEXT_SPEECH_UW_ACT01_G01_04,Urai Fen: Then we will need Defilers.
 TEXT_SPEECH_UW_ACT01_G01_06,Defiler: Need something done?
-TEXT_SPEECH_UW_ACT01_G01_07,Tyber Zann: There's an remote Imperial colony on Honoghr - If we start by subverting the Imperial Officials there it shouldn't attract undue attention.
+TEXT_SPEECH_UW_ACT01_G01_07,Tyber Zann: There's a remote Imperial colony on Honoghr.  If we start by subverting the Imperial officials there, it shouldn't attract undue attention.
 TEXT_SPEECH_UW_ACT01_G01_09,Tyber Zann: Word will soon spread that the Consortium is back.  I'm sure Jabba is aware of our movements.  Setting up a racketeering operation on Shola will let him know that we're back in business.
 TEXT_SPEECH_UW_ACT01_G01_16,Tyber Zann: Excellent!  Now that we've muscled in on Jabba's action, we have some credits to work with.  I've identified Mandal Hypernautics' supply shipments as an easy next target.  Hire some pirates to ambush them.
 TEXT_SPEECH_UW_ACT01_G01_17,Urai Fen: Why Mandal Hypernautics?
