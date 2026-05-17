@@ -83,8 +83,8 @@ Housekeeping:
 • : (BUG #637)
 	-- ENG: 
 
-• : (BUG #638)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G04_01: (BUG #638)
+	-- ENG: Tyber Zann: Well would you look at that.  I love it when I'm right. --> Tyber Zann: Well, would you look at that.  I love it when I'm right.  (Sly Laughter)
 
 • TEXT_SPEECH_UW_ACT01_G04_03: (BUG #639)
 	-- ENG: ...Based on records of the emperor's transmission's, I believe the vaults are very real.  There are technical plans for new ships and most importantly, ... --> ...Based on records of the emperor's transmissions, I believe the vaults are very real.  There are technical plans for new ships, and most importantly, ...
