@@ -86,8 +86,8 @@ Housekeeping:
 • : (BUG #648)
 	-- ENG: 
 
-• : (BUG #649)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M01_31: (BUG #649)
+	-- ENG: ...and the Zann Consortium will rule once more. --> ...and the Zann Consortium will rule once more!
 
 • TEXT_SPEECH_UW_ACT01_M01_55: (BUG #650)
 	-- ENG: Urai Fen: Urai here, We are in system, as planned. --> Urai Fen: Urai here.  We are in system, as planned.
