@@ -59,6 +59,36 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #620)
+	-- ENG: 
+
+• : (BUG #621)
+	-- ENG: 
+
+• : (BUG #622)
+	-- ENG: 
+
+• : (BUG #623)
+	-- ENG: 
+
+• : (BUG #624)
+	-- ENG: 
+
+• : (BUG #625)
+	-- ENG: 
+
+• : (BUG #626)
+	-- ENG: 
+
+• : (BUG #627)
+	-- ENG: 
+
+• : (BUG #628)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_G02_02: (BUG #629)
+	-- ENG: ...I'll bet he expected to double his wealth by selling it to the Empire. --> ...I'll bet he expected to double his wealth by selling it to the Empire!  (Laughter)
+
 • TEXT_SPEECH_UW_ACT01_G02_08: (BUG #630)
 	-- ENG: ...Fascinating Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire -- everyone -- to know that the Zann Consortium is back. --> ...Fascinating, Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire - everyone - to know that the Zann Consortium is back.
 
@@ -183,7 +213,6 @@ Housekeeping:
 
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
-	-- GER: Tyber Zann: Ich kann nicht zulassen... --> Tyber Zann: (Blasterschüsse) Ich kann nicht zulassen...
 
 
 
