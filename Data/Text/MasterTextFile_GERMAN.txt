@@ -16394,7 +16394,7 @@ TEXT_SPEECH_UW_ACT01_M01_51,Jabba the Hutt: (Übersetzt) Ihr habt mir etwas sehr
 TEXT_SPEECH_UW_ACT01_M01_52,Tyber Zann: Vergesst das Artefakt, es gehört jetzt mir. Ihr werdet es nie mehr zurückbekommen. Ihr mögt glauben, Ihr hättet das Konsortium ausgerottet, aber meine Macht reicht viel weiter, als Ihr glaubt. Ihr solltet Euch lieber in Acht nehmen, Jabba.
 TEXT_SPEECH_UW_ACT01_M01_53,Jabba the Hutt: (Übersetzt) Ich dachte mir schon, dass Ihr mit leeren Drohungen reagieren würdet. So oder so werde ich das Artefakt finden. Das Kopfgeld, das ich auf Euch ausgesetzt habe, sollte für einen interessanten, wenn nicht gar aufregenden Gefängnisaufenthalt sorgen. Aber seht es von der positiven Seite: Ihr werdet nicht lange sitzen müssen.
 TEXT_SPEECH_UW_ACT01_M01_54,Tyber Zann: Urai, sofort kommen, hört Ihr mich? Urai!
-TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Urai hier, wir sind im System, wie geplant.
+TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Urai hier. Wir sind im System, wie geplant.
 TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: Ich muss unsere Pläne beschleunigen. Jabba hat ein paar seiner Handlanger geschickt, um das zu Ende zu bringen, was er selbst nicht geschafft hat. Bringt das Schiff sofort runter. Ich werde hier die Dinge in Bewegung setzen.
 TEXT_SPEECH_UW_ACT01_M01_57,Urai Fen: Captain Solo wollte eigentlich mehr Zeit, um an der imperialen Verteidigung vorbei zu schlüpfen. Ich glaube, mit zusätzlichen Credits kann ich ihn aber motivieren.
 TEXT_SPEECH_UW_ACT01_M01_58,Tyber Zann: Wir müssen sicherstellen, dass weder Jabba noch das Imperium unseren versteckten Palast auf Ryloth entdeckt haben.

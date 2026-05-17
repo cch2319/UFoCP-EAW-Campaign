@@ -16394,7 +16394,7 @@ TEXT_SPEECH_UW_ACT01_M01_51,Jabba the Hutt: (Translated) You have stolen somethi
 TEXT_SPEECH_UW_ACT01_M01_52,Tyber Zann: The artifact now belongs to me, you can forget about getting it back.  You may think you've wiped out the Consortium but my reach is farther than you think.  You are the one who should be watching your back Jabba.
 TEXT_SPEECH_UW_ACT01_M01_53,Jabba the Hutt: (Translated) I thought you would respond with impotent threats.  One way or another I'll find the artifact.  The bounty I've placed on your head will make for an interesting, if not exciting, stay in prison.  The good news is your sentence will not be a long one.
 TEXT_SPEECH_UW_ACT01_M01_54,Tyber Zann: Urai, come in at once, do you read me?  Urai!
-TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Urai here, We are in system, as planned.
+TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Urai here.  We are in system, as planned.
 TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: I'm accelerating our plans.  Jabba has sent some of his lackeys to finish the job he couldn't.  Get that ship landed, now.  I'll set things in motion here.
 TEXT_SPEECH_UW_ACT01_M01_57,Urai Fen: Captain Solo wanted more time to slip past the Imperial defenses.  I believe I can motivate him with additional credits.
 TEXT_SPEECH_UW_ACT01_M01_58,Tyber Zann: We need to make sure that neither Jabba nor the Empire has discovered the location of our hidden palace on Ryloth.
