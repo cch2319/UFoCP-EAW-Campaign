@@ -16369,7 +16369,7 @@ TEXT_SPEECH_UW_ACT01_M01_26,Tyber Zann: The only way you'll be free is to follow
 TEXT_SPEECH_UW_ACT01_M01_27,Prisoner: Let's get out of here!
 TEXT_SPEECH_UW_ACT01_M01_28,Prisoner: Lead the way!
 TEXT_SPEECH_UW_ACT01_M01_29,Prisoner: Finally.
-TEXT_SPEECH_UW_ACT01_M01_30,Prisoner: Tyber has escaped!  Head for the gates!
+TEXT_SPEECH_UW_ACT01_M01_30,Prisoner: Tyber's escaped, head for the gates!
 TEXT_SPEECH_UW_ACT01_M01_31,Tyber Zann: Come with me men, and the Zann Consortium will rule once more!
 TEXT_SPEECH_UW_ACT01_M01_32,Tyber Zann: Remind me to repay Jabba for his kindness once I... once we get out of here.
 TEXT_SPEECH_UW_ACT01_M01_33,Urai Fen: Wait.  There are some droids up ahead that may cause us problems.  I will go ahead and take them out.

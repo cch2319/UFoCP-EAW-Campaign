@@ -83,8 +83,8 @@ Housekeeping:
 • : (BUG #647)
 	-- ENG: 
 
-• : (BUG #648)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M01_30: (BUG #648)
+	-- ENG: Prisoner: Tyber has escaped!  Head for the gates! --> Prisoner: Tyber's escaped, head for the gates!
 
 • TEXT_SPEECH_UW_ACT01_M01_31: (BUG #649)
 	-- ENG: ...and the Zann Consortium will rule once more. --> ...and the Zann Consortium will rule once more!
