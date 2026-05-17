@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #634)
 	-- ENG: 
 
-• : (BUG #635)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G03_07: (BUG #635)
+	-- ENG: ...The Rebels will be there, they have an entire base on Yavin IV and have no where else to go.  The Empire will soon send a fleet to retaliate.  We must move quickly to find the data pod. --> ...The Rebels will be there, they have an entire base on Yavin IV and have nowhere else to go.  The Empire will soon send a fleet to retaliate - we must move quickly to find a data pod.
 
 • TEXT_SPEECH_UW_ACT01_G03_11: (BUG #636)
 	-- ENG: ...There are a few planets between us and Yavin that the Consortium does not control; ... --> ...There are a few planets between us and Yavin that the Consortium doesn't control; ...

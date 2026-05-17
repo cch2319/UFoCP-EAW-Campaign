@@ -16296,7 +16296,7 @@ TEXT_SPEECH_UW_ACT01_G03_03,Tyber Zann: I never found out, unfortunately.  I may
 TEXT_SPEECH_UW_ACT01_G03_04,Urai Fen: The Rebellion?
 TEXT_SPEECH_UW_ACT01_G03_05,Tyber Zann: Alliance forces have destroyed the Imperial Death Star - over Yavin 4.  Most Imperial battle stations carry data pods that are to be ejected during emergencies.  Perhaps someone thought to follow protocol before the Death Star was destroyed.
 TEXT_SPEECH_UW_ACT01_G03_06,Urai Fen: And if the Rebels are still in the vicinity?
-TEXT_SPEECH_UW_ACT01_G03_07,Tyber Zann: The Rebels will be there, they have an entire base on Yavin IV and have no where else to go.  The Empire will soon send a fleet to retaliate.  We must move quickly to find the data pod.
+TEXT_SPEECH_UW_ACT01_G03_07,Tyber Zann: The Rebels will be there, they have an entire base on Yavin IV and have nowhere else to go.  The Empire will soon send a fleet to retaliate - we must move quickly to find a data pod.
 TEXT_SPEECH_UW_ACT01_G03_11,Urai Fen: There are a few planets between us and Yavin that the Consortium doesn't control; what is their fate?
 TEXT_SPEECH_UW_ACT01_G03_12,Tyber Zann: Corrupt them.  Conquer them.  Be creative, Urai.  Just remember that getting to Yavin is our goal.
 TEXT_SPEECH_UW_ACT01_G04_01,Tyber Zann: Well, would you look at that.  I love it when I'm right.  (Sly Laughter)
