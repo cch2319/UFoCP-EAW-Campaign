@@ -59,47 +59,47 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #650)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #651)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #652)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #653)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #654)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #656)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #657)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #658)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #659)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #660)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #661)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #662)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G16_04: (BUG #663)
+	-- ENG: ...I have a job for him, though he doesn't know it yet. --> ...I have a job for him.  Though, he doesn't know it yet.
 
 • TEXT_SPEECH_UW_ACT02_G16_05: (BUG #664)
-	-- ENG: ...into Empire-controlled space.  Are you mad? ... --> ...into Empire-controlled space, are you mad?!...
+	-- ENG: ...into Empire-controlled space.  Are you mad? ... --> ...into Empire-controlled space, are you mad?! ...
 
 • TEXT_SPEECH_UW_ACT03_G17_01: (BUG #665)
 	-- ENG: ...won't know how to use its power! --> ...won't know how to use its power?!
