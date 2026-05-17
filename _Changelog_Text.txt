@@ -59,6 +59,36 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #630)
+	-- ENG: 
+
+• : (BUG #631)
+	-- ENG: 
+
+• : (BUG #632)
+	-- ENG: 
+
+• : (BUG #633)
+	-- ENG: 
+
+• : (BUG #634)
+	-- ENG: 
+
+• : (BUG #635)
+	-- ENG: 
+
+• : (BUG #636)
+	-- ENG: 
+
+• : (BUG #637)
+	-- ENG: 
+
+• : (BUG #638)
+	-- ENG: 
+
+• : (BUG #639)
+	-- ENG: 
+
 • TEXT_SPEECH_UW_ACT01_G04_07: (BUG #640)
 	-- ENG: ...Yes.  And with the wealth in those vaults, ... --> ...Yes!  And with the wealth in those vaults, ...
 
