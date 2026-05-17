@@ -62,8 +62,8 @@ Housekeeping:
 • : (BUG #620)
 	-- ENG: 
 
-• : (BUG #621)
-	-- ENG: 
+• TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08: (BUG #621)
+	-- ENG: Tyber Zann: As long as you or your family don't upset me, they'll be fine. --> Tyber Zann: As long as you and your family don't upset me, they'll be fine.
 
 • TEXT_SPEECH_UW_CLD_01: (BUG #622)
 	-- ENG: ...No one denies the Zann Consortium ...no one. --> ...No one denies the Zann Consortium.  No one.

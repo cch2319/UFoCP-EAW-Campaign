@@ -15859,7 +15859,7 @@ TEXT_SPEECH_THYFERRA_KID_LOSS_COR48_04,Tyber Zann: I needed to use more experien
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_02,Tyber Zann: Ungarr Daris will have many security forces guarding him.  Kill them and take him.
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_06,Tyber Zann: Ungarr Daris, you're a very important man.  I'll give you a choice.  You can come with me and continue to be an important man, or you can die right here and now.
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_07,Ungarr Daris: I don't want any trouble, just don't hurt my family.
-TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08,Tyber Zann: As long as you or your family don't upset me, they'll be fine.
+TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08,Tyber Zann: As long as you and your family don't upset me, they'll be fine.
 TEXT_SPEECH_THYFERRA_KID_VICTORY_COR48_03,Tyber Zann: With Ungarr in our control, many useful things can happen on the planet and in that sector of space.
 TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05,Defiler: Centering our racketeering efforts around Bacta production can bring the economic power of the planet under our control
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_01,Station Officer: An Imperial peace-keeping envoy deployed to Kashyyyk was assaulted by an unusually organized dissident group.  This warrants our full attention.  I am sending you to investigate a derelict space station being used as a haven by these... Rebels.
