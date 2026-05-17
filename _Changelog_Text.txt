@@ -113,8 +113,8 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_G17_12: (BUG #669)
+	-- ENG: ...These are actions that you will set in motion.  Lie to me, betray me, withhold information from me again, and all of these things will come to pass.  Am I as clear as I can possibly be? --> ...These are actions that you will set in motion: lie to me, betray me.  Withhold information from me again, and all of these things will come to pass!  Am I as clear as I can possibly be?!
 
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
