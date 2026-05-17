@@ -65,8 +65,8 @@ Housekeeping:
 • : (BUG #652)
 	-- ENG: 
 
-• : (BUG #653)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G08_11: (BUG #653)
+	-- ENG: ...If another with this knowledge exists - I need you to find them and enlist them to assist us. --> ...If another with this knowledge exists, I need you to find them and enlist them to assist us.
 
 • TEXT_SPEECH_UW_ACT02_G09_01: (BUG #654)
 	-- ENG: ...Mandal Hypernautics is trying to buy a cease-fire with new ships. --> ...Mandal Hypernautics is trying to buy a ceasefire with new ships.
