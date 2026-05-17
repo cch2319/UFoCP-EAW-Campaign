@@ -107,8 +107,8 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_G17_10: (BUG #667)
+	-- ENG: ...If you ever lie to me again, or hide information from me you and every Dathomiri witch will die the day after you betray me.  And I'll kill everyone of those damned Rancors as well.  Those orders already stand, and will be carried out, whether I'm alive or not.  Do you understand me? --> ...If you ever lie to me again, or hide information from me, you and every Dathomiri witch will die the day after you betray me.  And I'll kill everyone of those damned rancors as well!  Those orders already stand, and will be carried out, whether I'm alive or not.  Do you understand me?
 
 • TEXT_SPEECH_UW_ACT03_G17_11: (BUG #668)
 	-- ENG: Silri: I've heard enough... --> Silri: I've heard enough!

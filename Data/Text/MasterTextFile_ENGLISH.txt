@@ -16727,7 +16727,7 @@ TEXT_SPEECH_UW_ACT03_G17_06,Tyber Zann: Shocking.  Tell me.
 TEXT_SPEECH_UW_ACT03_G17_07,Silri: I... I can't be sure.  I believe that there may have been another key that was required.  A data lock such as that would be used only to hide something of great importance.  I thought it might be a lost Force technique, known only to the ancient Sith.  But it would only be useful only to me and my kind!
 TEXT_SPEECH_UW_ACT03_G17_08,Tyber Zann: But... you can't be sure.  Correct?
 TEXT_SPEECH_UW_ACT03_G17_09,Silri: I did not have time to find the answers.  I did not think you would give it away so carelessly!
-TEXT_SPEECH_UW_ACT03_G17_10,Tyber Zann: Silri, I want you to listen to me very carefully.  If you ever lie to me again, or hide information from me you and every Dathomiri witch will die the day after you betray me.  And I'll kill everyone of those damned Rancors as well.  Those orders already stand, and will be carried out, whether I'm alive or not.  Do you understand me?
+TEXT_SPEECH_UW_ACT03_G17_10,Tyber Zann: Silri, I want you to listen to me very carefully.  If you ever lie to me again, or hide information from me, you and every Dathomiri witch will die the day after you betray me.  And I'll kill everyone of those damned rancors as well!  Those orders already stand, and will be carried out, whether I'm alive or not.  Do you understand me?
 TEXT_SPEECH_UW_ACT03_G17_11,Silri: I've heard enough!
 TEXT_SPEECH_UW_ACT03_G17_12,Tyber Zann: These are actions that you will set in motion: lie to me, betray me.  Withhold information from me again, and all of these things will come to pass!  Am I as clear as I can possibly be?!
 TEXT_SPEECH_UW_ACT03_G17_13,Silri: I understand.
