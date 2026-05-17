@@ -89,8 +89,8 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #660)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #661)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G13_03: (BUG #661)
+	-- ENG: ...I was going to broker the original deal with Jabba and the Empire, before you stole it. ... --> ...I was going to broker the original deal with Jabba, and the Empire.  Before you stole it. ...
 
 • TEXT_SPEECH_UW_ACT02_G13_08: (BUG #662)
 	-- ENG: ...I would not insult you by mentioning what would happen should I be double crossed. ... --> ...I would not insult you by mentioning what would happen should I be double-crossed. ...

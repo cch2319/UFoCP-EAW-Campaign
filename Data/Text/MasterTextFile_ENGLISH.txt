@@ -16573,7 +16573,7 @@ TEXT_SPEECH_UW_ACT02_G12_10,Urai Fen: She looked as though she was ready to kill
 TEXT_SPEECH_UW_ACT02_G12_11,Tyber Zann: Think nothing of it Urai.  Dathomir witches always look as if they're ready to kill.  Keep an eye on her.  This artifact is the only leverage I have over her, and I want her kept on a short leash.
 TEXT_SPEECH_UW_ACT02_G13_01,Urai Fen: Tyber, you have an incoming transmission.
 TEXT_SPEECH_UW_ACT02_G13_02,Tyber Zann: Xizor!  How good to see you again!
-TEXT_SPEECH_UW_ACT02_G13_03,Xizor: You address me as an equal, Zann.  I assure you, we are not.  I contact you only because of that Sith artifact you possess.  I was going to broker the original deal with Jabba and the Empire, before you stole it.  Your interference cost me a great deal.  I assume it is still in your possession?
+TEXT_SPEECH_UW_ACT02_G13_03,Xizor: You address me as an equal, Zann.  I assure you, we are not.  I contact you only because of that Sith artifact you possess.  I was going to broker the original deal with Jabba, and the Empire.  Before you stole it.  Your interference cost me a great deal.  I assume it is still in your possession?
 TEXT_SPEECH_UW_ACT02_G13_04,Tyber Zann: You're in luck, Xizor.  I do indeed have the very thing you speak of.  You know I've heard the emperor is a collector of such Sith antiquities, perhaps you could put me in touch with him?
 TEXT_SPEECH_UW_ACT02_G13_05,Xizor: I could be persuaded to put you in contact with the emperor, or at least one of his representatives.  But you'll need to do something for me first.
 TEXT_SPEECH_UW_ACT02_G13_06,Tyber Zann: Of course, good Prince.  What service could a simple man, such as myself, provide?
