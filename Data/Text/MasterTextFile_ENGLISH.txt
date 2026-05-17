@@ -16301,7 +16301,7 @@ TEXT_SPEECH_UW_ACT01_G03_11,Urai Fen: There are a few planets between us and Yav
 TEXT_SPEECH_UW_ACT01_G03_12,Tyber Zann: Corrupt them, conquer them, be creative Urai.  Just remember that getting to Yavin is our goal.
 TEXT_SPEECH_UW_ACT01_G04_01,Tyber Zann: Well would you look at that.  I love it when I'm right.
 TEXT_SPEECH_UW_ACT01_G04_02,Urai Fen: What have you found?
-TEXT_SPEECH_UW_ACT01_G04_03,Tyber Zann: Based on records of the emperor's transmission's, I believe the vaults are very real.  There are technical plans for new ships and most importantly, construction schedules for the emperor's new flagship over Kuat.
+TEXT_SPEECH_UW_ACT01_G04_03,Tyber Zann: Based on records of the emperor's transmissions, I believe the vaults are very real.  There are technical plans for new ships, and most importantly, construction schedules for the emperor's new flagship over Kuat.
 TEXT_SPEECH_UW_ACT01_G04_04,Urai Fen: It must be the largest in the Imperial fleet.
 TEXT_SPEECH_UW_ACT01_G04_05,Tyber Zann: Indeed it is.  According to this, the emperor has visited the ship under construction on many occasions.  If he was there, then it will have a link to his private files.
 TEXT_SPEECH_UW_ACT01_G04_06,Urai Fen: The vault locations will be there.

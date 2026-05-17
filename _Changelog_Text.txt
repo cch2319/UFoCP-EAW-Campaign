@@ -86,8 +86,8 @@ Housekeeping:
 • : (BUG #638)
 	-- ENG: 
 
-• : (BUG #639)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G04_03: (BUG #639)
+	-- ENG: ...Based on records of the emperor's transmission's, I believe the vaults are very real.  There are technical plans for new ships and most importantly, ... --> ...Based on records of the emperor's transmissions, I believe the vaults are very real.  There are technical plans for new ships, and most importantly, ...
 
 • TEXT_SPEECH_UW_ACT01_G04_07: (BUG #640)
 	-- ENG: ...Yes.  And with the wealth in those vaults, ... --> ...Yes!  And with the wealth in those vaults, ...
