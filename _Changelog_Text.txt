@@ -62,8 +62,8 @@ Housekeeping:
 • : (BUG #640)
 	-- ENG: 
 
-• : (BUG #641)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G05_11: (BUG #641)
+	-- ENG: ...Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  It appears it will be very difficult getting onto that ship.  Wonderful name it has - the Eclipse.  It certainly blocked out my view of the shipyards. --> ...Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  Hmph.  It appears it will be very difficult getting onto that ship.  Wonderful name it has.  "The Eclipse."  It certainly blocked out my view of the shipyards...
 
 • TEXT_SPEECH_UW_ACT01_G05_13: (BUG #642)
 	-- ENG: ...I always do Urai. --> I always do, Urai.

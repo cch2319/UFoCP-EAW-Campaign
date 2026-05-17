@@ -16313,7 +16313,7 @@ TEXT_SPEECH_UW_ACT01_G04_11,Tyber Zann: I've been meaning to pick up some new te
 TEXT_SPEECH_UW_ACT01_G04_12,Defiler: I've located the emperor's new flagship.  It's being constructed in the Kuat shipyards, just as you suspected.  The security forces around the site appear formidable.
 TEXT_SPEECH_UW_ACT01_G04_13,Tyber Zann: No security is infallible.  Nobody rests in this organization until we've found a way in.
 TEXT_SPEECH_UW_ACT01_G05_03,Tyber Zann: Ahh Disruptors, finally.  Disintegrates durasteel, wood, flesh, just about anything really.  Just the thing for removing large troublesome obstacles, like Jabba for instance.
-TEXT_SPEECH_UW_ACT01_G05_11,Tyber Zann: Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  It appears it will be very difficult getting onto that ship.  Wonderful name it has - the Eclipse.  It certainly blocked out my view of the shipyards.
+TEXT_SPEECH_UW_ACT01_G05_11,Tyber Zann: Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  Hmph.  It appears it will be very difficult getting onto that ship.  Wonderful name it has.  "The Eclipse."  It certainly blocked out my view of the shipyards...
 TEXT_SPEECH_UW_ACT01_G05_12,Urai Fen: Can we get in for a closer look?
 TEXT_SPEECH_UW_ACT01_G05_13,Tyber Zann: They have an armada of ships guarding that thing.  I doubt they're providing tours to the public.  Still, there must be a way.  I'll think of something.  I always do, Urai.
 TEXT_SPEECH_UW_ACT01_G05_14,Tyber Zann: Well done.  Now that our Defilers have set up the black market, I can buy what I need.  And perhaps, learn more about the emperor's flagship.
