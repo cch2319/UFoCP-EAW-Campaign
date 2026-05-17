@@ -68,8 +68,8 @@ Housekeeping:
 • : (BUG #642)
 	-- ENG: 
 
-• : (BUG #643)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G05_14: (BUG #643)
+	-- ENG: ...Well done, now that our defilers have set up the black market, I can buy what I need and perhaps learn more about the emperor's flagship. --> ...Well done.  Now that our Defilers have set up the black market, I can buy what I need.  And perhaps, learn more about the emperor's flagship.
 
 • TEXT_SPEECH_UW_ACT01_G06_01: (BUG #644)
 	-- ENG: Soldier: Our Barracks have been destroyed. ... --> Zann Consortium Soldier: Our barracks have been destroyed! ...
