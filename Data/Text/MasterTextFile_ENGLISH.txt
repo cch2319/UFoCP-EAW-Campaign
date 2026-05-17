@@ -16554,7 +16554,7 @@ TEXT_SPEECH_UW_ACT02_G10_17,Tyber Zann: Urai, this mission is for you and I alon
 TEXT_SPEECH_UW_ACT02_G11_01,Urai Fen: Tyber, you have an incoming transmission on your private channel.
 TEXT_SPEECH_UW_ACT02_G11_02,Tyber Zann: Impossible!  How did you find me?
 TEXT_SPEECH_UW_ACT02_G11_03,Thrawn: Of course I was aware you had taken Jabba's comm node on Saleucami; tapping into it to reach you was trivial.
-TEXT_SPEECH_UW_ACT02_G11_04,Tyber Zann: I shouldn't be surprised that you were able to track me down.  I see you've risen quickly in the Imperial Ranks.  With the way the Empire treats non-humans, I'm surprised you're not commanding a garbage scow somewhere.
+TEXT_SPEECH_UW_ACT02_G11_04,Tyber Zann: I shouldn't be surprised that you were able to track me down.  I see you've risen quickly in the Imperial ranks.  With the way the Empire treats non-humans, I'm surprised you're not commanding a garbage scow somewhere.
 TEXT_SPEECH_UW_ACT02_G11_05,Thrawn: My capabilities have proven more than enough to inspire the emperor's tolerance.  Ironic that you were once one of the Academy's most promising students.  Now, you're an outcast, and foolish enough to try and pay your way by attacking Imperial holdings.
 TEXT_SPEECH_UW_ACT02_G11_06,Tyber Zann: I took nothing the Empire wasn't going to lose to the Rebels anyway.  Watch me too closely Thrawn, and you will not like what I have to show you.
 TEXT_SPEECH_UW_ACT02_G11_07,Thrawn: A clumsy threat, Tyber, and an empty one.  You may be king among your little cadre of bandits, but you will soon provoke a response beyond your capacity to comprehend.  Consider this warning a courtesy from an old friend.

@@ -56,38 +56,38 @@ Housekeeping:
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #)
+• : (BUG #)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #650)
+• : (BUG #650)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #651)
+• : (BUG #651)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #652)
+• : (BUG #652)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #653)
+• : (BUG #653)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #654)
+• : (BUG #654)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #656)
+• : (BUG #656)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #657)
+• : (BUG #657)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #658)
+• : (BUG #658)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #659)
+• : (BUG #659)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #660)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G11_04: (BUG #660)
+	-- ENG: ...I see you've risen quickly in the Imperial Ranks. ... --> ...I see you've risen quickly in the Imperial ranks. ...
 
 • TEXT_SPEECH_UW_ACT02_G13_03: (BUG #661)
 	-- ENG: ...I was going to broker the original deal with Jabba and the Empire, before you stole it. ... --> ...I was going to broker the original deal with Jabba, and the Empire.  Before you stole it. ...
