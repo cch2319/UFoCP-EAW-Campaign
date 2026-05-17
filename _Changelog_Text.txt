@@ -71,8 +71,8 @@ Housekeeping:
 • : (BUG #623)
 	-- ENG: 
 
-• : (BUG #624)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G01_03: (BUG #624)
+	-- ENG: ...We shall do as we've always done Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy. --> ...We shall do as we've always done, Urai.  There are always worlds that are ripe for corruption.  Through Imperial and Rebellion planets, we'll spread corruption, and rebuild the Zann Consortium into a crime network that once again will be feared throughout the galaxy!
 
 • TEXT_SPEECH_UW_ACT01_G01_07: (BUG #625)
 	-- ENG: ...There's an remote Imperial colony on Honoghr - If we start by subverting the Imperial Officials there it shouldn't attract undue attention. --> ...There's a remote Imperial colony on Honoghr.  If we start by subverting the Imperial officials there, it shouldn't attract undue attention.
