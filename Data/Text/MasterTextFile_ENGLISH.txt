@@ -16292,7 +16292,7 @@ TEXT_SPEECH_UW_ACT01_G02_10,Tyber Zann: Make them hurt.  We must let the galaxy 
 TEXT_SPEECH_UW_ACT01_G02_14,Tyber Zann: It's time I had a look at my prize.  I didn't go through torture at Jabba's hands and years of prison just to let it rot in its hiding place.
 TEXT_SPEECH_UW_ACT01_G03_01,Tyber Zann: While I was in prison, one of my cell mates mentioned that the emperor had a vast collection of treasure that he kept all over the galaxy in hidden vaults.  I... persuaded him to share more information with me.
 TEXT_SPEECH_UW_ACT01_G03_02,Urai Fen: Only an ex-Imperial Officer would truly know that.  Did he mention the location of these vaults?
-TEXT_SPEECH_UW_ACT01_G03_03,Tyber Zann: I never found out, unfortunately.  I may have been a bit overzealous in my questioning.  He may not have known the locations of the vaults but I'm convinced this story is more than just a rumor.  And now, we have the perfect opportunity to test the story, thanks to the Rebels.
+TEXT_SPEECH_UW_ACT01_G03_03,Tyber Zann: I never found out, unfortunately.  I may have been a bit... overzealous in my questioning.  He may not have known the locations of the vaults, but I'm convinced his story is more than just a rumor.  And now, we have the perfect opportunity to test the story, thanks to the Rebels.
 TEXT_SPEECH_UW_ACT01_G03_04,Urai Fen: The Rebellion?
 TEXT_SPEECH_UW_ACT01_G03_05,Tyber Zann: Alliance forces have destroyed the Imperial Death Star over Yavin IV.  Most Imperial battle stations carry data pods that are to be ejected during emergencies.  Perhaps, someone thought to follow protocol before the Death Star was destroyed?
 TEXT_SPEECH_UW_ACT01_G03_06,Urai Fen: ...And if the Rebels are still in the vicinity?
