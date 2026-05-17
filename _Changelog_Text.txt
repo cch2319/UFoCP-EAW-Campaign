@@ -77,8 +77,8 @@ Housekeeping:
 • : (BUG #635)
 	-- ENG: 
 
-• : (BUG #636)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G03_11: (BUG #636)
+	-- ENG: ...There are a few planets between us and Yavin that the Consortium does not control; ... --> ...There are a few planets between us and Yavin that the Consortium doesn't control; ...
 
 • TEXT_SPEECH_UW_ACT01_G03_12: (BUG #637)
 	-- ENG: ...Corrupt them, conquer them, be creative Urai. ... --> ...Corrupt them.  Conquer them.  Be creative, Urai. ...
