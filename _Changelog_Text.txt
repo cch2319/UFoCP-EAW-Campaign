@@ -60,7 +60,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_G02_08: (BUG #630)
-	-- ENG: 
+	-- ENG: ...Fascinating Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire -- everyone -- to know that the Zann Consortium is back. --> ...Fascinating, Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire - everyone - to know that the Zann Consortium is back.
 
 • TEXT_SPEECH_UW_ACT01_G03_01: (BUG #631)
 	-- ENG: ...While I was in prison, one of my cell mates mentioned... --> ...While I was in prison, one of my cellmates mentioned...

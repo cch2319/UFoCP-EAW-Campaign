@@ -16286,7 +16286,7 @@ TEXT_SPEECH_UW_ACT01_G02_04,Tyber Zann: So you found out what it is?
 TEXT_SPEECH_UW_ACT01_G02_05,Urai Fen: I did gain some information.  The artifact dates as far back as the Sith Wars, making it around four thousand years old.  For such an artifact to be so well hidden for so long... it must contain a secret of great importance.
 TEXT_SPEECH_UW_ACT01_G02_06,Tyber Zann: Do you know its origin?
 TEXT_SPEECH_UW_ACT01_G02_07,Urai Fen: Based on the design, it is likely a Sith artifact.  I believe it may be a data storage device of some kind, but it also seems to serve another unknown purpose.
-TEXT_SPEECH_UW_ACT01_G02_08,Tyber Zann: Fascinating Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire -- everyone -- to know that the Zann Consortium is back.
+TEXT_SPEECH_UW_ACT01_G02_08,Tyber Zann: Fascinating, Urai.  If we could unlock its secrets, we might find something very useful.  I want you to keep investigating, but not at the expense of our rebuilding.  I want Jabba, the Empire - everyone - to know that the Zann Consortium is back.
 TEXT_SPEECH_UW_ACT01_G02_09,Urai Fen: Yes Tyber?
 TEXT_SPEECH_UW_ACT01_G02_10,Tyber Zann: Make them hurt.  We must let the galaxy know that Tyber Zann and his associates are back.  Jabba's days are numbered and I want everyone else to know that as well.
 TEXT_SPEECH_UW_ACT01_G02_14,Tyber Zann: It's time I had a look at my prize.  I didn't go through torture at Jabba's hands and years of prison just to let it rot in its hiding place.
