@@ -59,8 +59,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #640)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_G04_07: (BUG #640)
+	-- ENG: ...Yes.  And with the wealth in those vaults, ... --> ...Yes!  And with the wealth in those vaults, ...
 
 • TEXT_SPEECH_UW_ACT01_G05_11: (BUG #641)
 	-- ENG: ...Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  It appears it will be very difficult getting onto that ship.  Wonderful name it has - the Eclipse.  It certainly blocked out my view of the shipyards. --> ...Remind me to check the black market on Rebel-controlled worlds as well.  They may have discovered weapons unknown to the Empire.  Hmph.  It appears it will be very difficult getting onto that ship.  Wonderful name it has.  "The Eclipse."  It certainly blocked out my view of the shipyards...

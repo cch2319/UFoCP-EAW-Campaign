@@ -16305,7 +16305,7 @@ TEXT_SPEECH_UW_ACT01_G04_03,Tyber Zann: Based on records of the emperor's transm
 TEXT_SPEECH_UW_ACT01_G04_04,Urai Fen: It must be the largest in the Imperial fleet.
 TEXT_SPEECH_UW_ACT01_G04_05,Tyber Zann: Indeed it is.  According to this, the emperor has visited the ship under construction on many occasions.  If he was there, then it will have a link to his private files.
 TEXT_SPEECH_UW_ACT01_G04_06,Urai Fen: The vault locations will be there.
-TEXT_SPEECH_UW_ACT01_G04_07,Tyber Zann: Yes.  And with the wealth in those vaults, I can build a criminal empire that makes the Black Sun look like a swoop gang.
+TEXT_SPEECH_UW_ACT01_G04_07,Tyber Zann: Yes!  And with the wealth in those vaults, I can build a criminal empire that makes the Black Sun look like a swoop gang.
 TEXT_SPEECH_UW_ACT01_G04_08,Urai Fen: We will need to infiltrate the ship, then find a way into the emperor's private files.  It will not be easy.
 TEXT_SPEECH_UW_ACT01_G04_09,Tyber Zann: Details, Urai.  Details.  As long as the ship is there, I'm certain we can find our way on board, and find what we're looking for.  But I'm not mounting a raid on Kuat until I know the ship is where it's supposed to be.  We'll need to verify its presence, somehow.
 TEXT_SPEECH_UW_ACT01_G04_10,Urai Fen: The black market on Kuat might have that information.
