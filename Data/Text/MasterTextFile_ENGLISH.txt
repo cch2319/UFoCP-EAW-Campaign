@@ -16280,7 +16280,7 @@ TEXT_SPEECH_UW_ACT01_G01_20,Tyber Zann: If the Mandal supply ships are suddenly 
 TEXT_SPEECH_UW_ACT01_G01_21,Tyber Zann: Now that our corruption has influenced a few worlds, we will realize a true criminal network.  Once we link corrupted planets together, we can bribe officials into allowing our ships, safe passage through enemy worlds
 TEXT_SPEECH_UW_ACT01_G01_28,Tyber Zann: Of course we could set up a another Racketeering operation there, but I believe in order to truly make our make our mark we need intimidation.
 TEXT_SPEECH_UW_ACT01_G02_01,Urai Fen: Soon after you escaped, I went to recover the artifact from its hiding place.
-TEXT_SPEECH_UW_ACT01_G02_02,Tyber Zann: Jabba must have given up half his criminal empire to buy that ancient puzzle.  I'll bet he expected to double his wealth by selling it to the Empire.
+TEXT_SPEECH_UW_ACT01_G02_02,Tyber Zann: Jabba must have given up half his criminal empire to buy that ancient puzzle.  I'll bet he expected to double his wealth by selling it to the Empire!  (Laughter)
 TEXT_SPEECH_UW_ACT01_G02_03,Urai Fen: Even at twice his price, the Empire would have paid far too little.
 TEXT_SPEECH_UW_ACT01_G02_04,Tyber Zann: So you found out what it is?
 TEXT_SPEECH_UW_ACT01_G02_05,Urai Fen: I did gain some information.  The artifact dates as far back as the Sith Wars, making it around four thousand years old.  For such an artifact to be so well hidden for so long... it must contain a secret of great importance.
