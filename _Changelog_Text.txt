@@ -92,8 +92,8 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #661)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT03_G18_11: (BUG #662)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G13_08: (BUG #662)
+	-- ENG: ...I would not insult you by mentioning what would happen should I be double crossed. ... --> ...I would not insult you by mentioning what would happen should I be double-crossed. ...
 
 • TEXT_SPEECH_UW_ACT02_G16_04: (BUG #663)
 	-- ENG: ...I have a job for him, though he doesn't know it yet. --> ...I have a job for him.  Though, he doesn't know it yet.

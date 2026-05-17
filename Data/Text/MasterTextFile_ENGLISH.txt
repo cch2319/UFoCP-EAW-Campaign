@@ -16578,7 +16578,7 @@ TEXT_SPEECH_UW_ACT02_G13_04,Tyber Zann: You're in luck, Xizor.  I do indeed have
 TEXT_SPEECH_UW_ACT02_G13_05,Xizor: I could be persuaded to put you in contact with the emperor, or at least one of his representatives.  But you'll need to do something for me first.
 TEXT_SPEECH_UW_ACT02_G13_06,Tyber Zann: Of course, good Prince.  What service could a simple man, such as myself, provide?
 TEXT_SPEECH_UW_ACT02_G13_07,Xizor: There is a job I need done on Bespin.  Specifically, I wish for you to procure a shipment of tibanna gas.  Succeed, and you get half the gas, plus your Imperial contact.
-TEXT_SPEECH_UW_ACT02_G13_08,Tyber Zann: A pleasure, Prince Xizor.  And of course, I would not insult you by mentioning what would happen should I be double crossed.  This shouldn't take long.
+TEXT_SPEECH_UW_ACT02_G13_08,Tyber Zann: A pleasure, Prince Xizor.  And of course, I would not insult you by mentioning what would happen should I be double-crossed.  This shouldn't take long.
 TEXT_SPEECH_UW_ACT02_G13_09,Urai Fen: I do not trust Xizor; it must be a trap.
 TEXT_SPEECH_UW_ACT02_G13_10,Tyber Zann: Of course, but Xizor's made the mistake of setting his trap on the planet Bespin.  That world is under the personal control of Darth Vader.
 TEXT_SPEECH_UW_ACT02_G13_11,Urai Fen: And how would that help our cause?
