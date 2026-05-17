@@ -16531,7 +16531,7 @@ TEXT_SPEECH_UW_ACT02_G08_09,Tyber Zann: What do we need to access it?
 TEXT_SPEECH_UW_ACT02_G08_10,Urai Fen: Knowledge of the extinct Sith ways, someone who could manipulate the dark side of the Force.  Someone with that ability would be very rare, difficult to track down, and approach.
 TEXT_SPEECH_UW_ACT02_G08_11,Tyber Zann: Darth Vader may be the only known Sith Lord in existence, and I doubt he'd be cooperative.  If another with this knowledge exists - I need you to find them and enlist them to assist us.
 TEXT_SPEECH_UW_ACT02_G09_01,Urai Fen: It seems that things are going according to plan, Tyber.  Our pirates at Mandalore report that Mandal Hypernautics is trying to buy a cease-fire with new ships.
-TEXT_SPEECH_UW_ACT02_G09_02,Tyber Zann: Excellent!  Tell the pirates to cut a deal - cease hostilities in exchange for new ships, at a reasonable price of course
+TEXT_SPEECH_UW_ACT02_G09_02,Tyber Zann: Excellent!  Tell the pirates to cut a deal: cease hostilities in exchange for new ships - at a reasonable price, of course.
 TEXT_SPEECH_UW_ACT02_G09_03,Chairman: You leave them out of this Zann.  I'm calling to get help.  We've lost three shipments to pirates in our system.  You will get your ships the moment they are scrubbed clean from my skies.  And if you ever touch my family I'll see you dead.
 TEXT_SPEECH_UW_ACT02_G09_04,Tyber Zann: We're business partners.  But you have to understand the cost of doing business with the Zann Consortium.  Why haven't your corporate fleets destroyed these pirates?
 TEXT_SPEECH_UW_ACT02_G09_05,Chairman: It would be bad for business - some of the pirates are our best customers.  Besides.  if we were to reveal the true size of our navy, the emperor would start paying more attention to who our clients are.

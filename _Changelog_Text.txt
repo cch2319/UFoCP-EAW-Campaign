@@ -71,8 +71,8 @@ Housekeeping:
 • : (BUG #653)
 	-- ENG: 
 
-• : (BUG #654)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_G09_02: (BUG #654)
+	-- ENG: ...Tell the pirates to cut a deal - cease hostilities in exchange for new ships, at a reasonable price of course --> ...Tell the pirates to cut a deal: cease hostilities in exchange for new ships - at a reasonable price, of course.
 
 • TEXT_SPEECH_UW_ACT02_G09_09: (BUG #656)
 	-- ENG: ...Also, the Pirate captain sent over one of the ships. ... --> ...Also, the pirate captain sent over one of the ships. ...
