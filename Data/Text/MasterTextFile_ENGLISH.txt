@@ -14597,7 +14597,7 @@ TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01,Defiler: Our racketeering efforts were 
 TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann: We'll advance into the system and destroy the next tibanna gas shipment.  That should make it easier for us to gain credits for our own fleet buildups.
 TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann: The death squadrons guarding the tibanna gas shipments proved stronger than we expected.  We'll have to go back and gather more forces if we are to corrupt this system.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_02,Tyber Zann: I have no intention of staying here long.  Destroy our enemies ships and prepare for the next battle.
-TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06,Tyber Zann: We've managed to bribe and capture an Imperial Interdictor.  We will be using the Interdictor to pull tibanna gas convoys out of Hyperspace.  For this plan to work, the Interdictor will need to activate its ability near the Bespin shipping lanes.
+TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06,Tyber Zann: We've managed to bribe and capture an Imperial Interdictor.  We will be using the Interdictor to pull tibanna gas convoys out of hyperspace.  For this plan to work, the Interdictor will need to activate its ability near the Bespin shipping lanes.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07,Tyber Zann: The first convoy should be arriving any time now.  We'll need to destroy the tibanna shuttles before they escape the range of the Interdictor.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08,Tibanna Merchant: It's an ambush!  Take evasive action.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09,Tyber Zann: Destroying another convoy should be sufficient to put some fear into Bespin's government.

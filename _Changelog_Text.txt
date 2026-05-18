@@ -62,8 +62,8 @@ Housekeeping:
 • : (BUG #582)
 	-- ENG: 
 
-• : (BUG #583)
-	-- ENG: 
+• TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06: (BUG #583)
+	-- ENG: ...We will be using the Interdictor to pull tibanna gas convoys out of Hyperspace. ... --> ...We will be using the Interdictor to pull tibanna gas convoys out of hyperspace. ...
 
 • TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11: (BUG #584)
 	-- ENG: Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium. --> Good work.  Bespin is now under the... "protection" of the Zann Consortium.
