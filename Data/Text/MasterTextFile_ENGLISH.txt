@@ -14602,7 +14602,7 @@ TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07,Tyber Zann: The first convoy should be 
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08,Tibanna Merchant: It's an ambush!  Take evasive action.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09,Tyber Zann: Destroying another convoy should be sufficient to put some fear into Bespin's government.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Tibanna Merchant: Pirates!  All hands defend the tibanna shuttle!
-TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium.
+TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann: Good work.  Bespin is now under the... "protection" of the Zann Consortium.
 TEXT_SPEECH_BESPIN_PIR_VICTORY_COR06_03,Tyber Zann: Tibanna shipments to our enemies will now slow down to a crawl.  We should gain enough credits to begin a rapid build up of Zann Consortium space fleets.
 TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Defiler: Corruption has taken hold of the Cloud City populace.  The few other worthwhile targets there will soon be under our control as well.
 TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!

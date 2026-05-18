@@ -65,8 +65,8 @@ Housekeeping:
 • : (BUG #583)
 	-- ENG: 
 
-• : (BUG #584)
-	-- ENG: 
+• TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11: (BUG #584)
+	-- ENG: Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium. --> Good work.  Bespin is now under the... "protection" of the Zann Consortium.
 
 • TEXT_SPEECH_BESTINE_KID_TACTICAL_COR07_02: (BUG #585)
 	-- ENG: IG-88: The commander Ral Falan is the most powerful man on the planet.  Taking him hostage and acquiring his plans and secrets could have galaxy wide effects. --> IG-88: The commander Ral Falan is the most powerful man on the planet.  Taking him hostage, and acquiring his plans and secrets, could have galaxy-wide effects.
