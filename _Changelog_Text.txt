@@ -83,11 +83,11 @@ Housekeeping:
 • : (BUG #607)
 	-- ENG: 
 
-• : (BUG #608)
-	-- ENG: 
-
 • TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05: (BUG #609)
 	-- ENG: ...the uprising when the funds are cut to their workers. --> ...the uprising when funds are cut to their workers.
+
+• TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04: (BUG #608)
+	-- ENG: 
 
 • TEXT_SPEECH_KORRIBAN_RKT_VICTORY_COR31_01: (BUG #610)
 	-- ENG: ...there is Dark Force energy in this sector of space. --> ...there is dark Force energy in this sector of space.
@@ -101,11 +101,11 @@ Housekeeping:
 • TEXT_SPEECH_NALHUTTA_KID_TACTICAL_COR40_02: (BUG #613)
 	-- ENG: ...Carefully scout all areas for the enemy positions before moving forward. --> ...Carefully scout all areas for enemy positions before moving forward.
 
-• TEXT_SPEECH_POLUS_RKT_VICTORY_COR41_01: (BUG #614)
-	-- ENG: Defiler: Our organization is now planet wide.  The cold doesn't seem to effect how miners spend their credits. --> Defiler: Our organization is now planet-wide.  The cold doesn't seem to affect how miners spend their credits.
-
 • TEXT_SPEECH_POLUS_BND_VICTORY_COR41_02: (BUG #615)
 	-- ENG: ...Special slave troops are in route ... --> ...Special slave troops are en route ...
+
+• TEXT_SPEECH_POLUS_RKT_VICTORY_COR41_01: (BUG #614)
+	-- ENG: Defiler: Our organization is now planet wide.  The cold doesn't seem to effect how miners spend their credits. --> Defiler: Our organization is now planet-wide.  The cold doesn't seem to affect how miners spend their credits.
 
 • TEXT_SPEECH_RYLOTH_CRM_VICTORY_COR42_01: (BUG #616)
 	-- ENG: ...in the so called Bright Lands of the planet. --> ...the so-called "Bright Lands" of the planet.
