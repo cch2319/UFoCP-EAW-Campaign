@@ -77,11 +77,11 @@ Housekeeping:
 • : (BUG #595)
 	-- ENG: 
 
-• : (BUG #596)
-	-- ENG: 
-
 • TEXT_SPEECH_CORULAG_CRM_VICTORY_COR13_05: (BUG #597)
 	-- ENG: ...If we're threatened there'll be a planet wide revolt, ... --> ...If we're threatened, there'll be a planet-wide revolt, ...
+
+• TEXT_SPEECH_CORULAG_PIR_LOAD_COR13_01: (BUG #596)
+	-- ENG: IG-88: Coreguard Security forces are unusually strong we'll need to use overwhelming firepower.  We fight for the glory of the Zann Consortium. --> IG-88: Coreguard Security forces are unusually strong - we'll need to use overwhelming firepower.  We fight for the glory of the Zann Consortium!
 
 • TEXT_SPEECH_DATHOMIR_BRB_VICTORY_COR17_01: (BUG #598)
 	-- ENG: ...powerful Rancor military units in check. --> ...powerful rancor military units in check.
