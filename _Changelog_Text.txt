@@ -59,28 +59,28 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #582)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #583)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #584)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #585)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #586)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #587)
 	-- ENG: 
 
-• : (BUG #)
+• : (BUG #588)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_BOTHAWUI_INT_LOSS_COR09_04: (BUG #589)
 	-- ENG: 
 
 • TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02: (BUG #590)
