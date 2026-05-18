@@ -62,8 +62,8 @@ Housekeeping:
 • : (BUG #590)
 	-- ENG: 
 
-• : (BUG #591)
-	-- ENG: 
+• TEXT_SPEECH_BYSS_KID_VICTORY_COR10_03: (BUG #591)
+	-- ENG: Silri: Now that I've corrupted one of the most powerful worlds in the Galaxy.  Word will soon reach the Emperor. --> Silri: Now that I've corrupted one of the most powerful worlds in the galaxy, word will soon reach the emperor!
 
 • TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06: (BUG #593)
 	-- ENG: Defiler: A Black Market has been established and is providing important information.  Tyber's plans are moving forward. --> Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!

@@ -14623,7 +14623,7 @@ TEXT_SPEECH_BYSS_BLK_VICTORY_COR10_05,Defiler: Now that we've placed a black mar
 TEXT_SPEECH_BYSS_KID_LOAD_COR10_01,Silri: Stay close and I'll shield you from most of the dangers of the Force.  Beware, the enemy presence is strong here.
 TEXT_SPEECH_BYSS_KID_LOSS_COR10_04,Silri: The data we took before will give us an advantage when we return to this world.
 TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02,Silri: Because I'm attuned to the dark side I may be the only one who has any chance of success here.  Follow my lead if you wish to live.
-TEXT_SPEECH_BYSS_KID_VICTORY_COR10_03,Silri: Now that I've corrupted one of the most powerful worlds in the Galaxy.  Word will soon reach the emperor.
+TEXT_SPEECH_BYSS_KID_VICTORY_COR10_03,Silri: Now that I've corrupted one of the most powerful worlds in the galaxy, word will soon reach the emperor!
 TEXT_SPEECH_CAMPAIGN_SINGLE_,[TBL]
 TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_E,Imperial defenses are failing throughout the galaxy; only three planets still belong to the Empire, and they are weak and undefended.  If the Empire is to survive, you must push back the Rebel offensive.  You will be granted 5,000 initial credits for the strengthening of your forces.  Beware of outlying Pirate-controlled worlds who stand in your way.
 TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_R,Only a small group of systems remain under Imperial control, and war has taken its toll on the galaxy.  As a result, both sides must build from the ground up to advance.  Use the 5,000 starting credits to remove the remains of the Empire from the galaxy.  Beware of outlying pirate-controlled systems in the galaxy that hold no ties with either side.
