@@ -14605,7 +14605,7 @@ TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Tibanna Merchant: Pirates!  All hands 
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium.
 TEXT_SPEECH_BESPIN_PIR_VICTORY_COR06_03,Tyber Zann: Tibanna shipments to our enemies will now slow down to a crawl.  We should gain enough credits to begin a rapid build up of Zann Consortium space fleets.
 TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Defiler: Corruption has taken hold of the Cloud City populace.  The few other worthwhile targets there will soon be under our control as well.
-TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Defiler: Bestine's many technological facilities now regularly release their products to our black market; the steady traffic insures that the Consortium is never short on credits or new weapons.
+TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!
 TEXT_SPEECH_BESTINE_KID_LOAD_COR07_01,IG-88: Our plans are set with an 87% chance of success.  Begin the mission.
 TEXT_SPEECH_BESTINE_KID_LOSS_COR07_04,IG-88: I clearly need more forces for this difficult target.  Mass more units and we will strike again.
 TEXT_SPEECH_BESTINE_KID_TACTICAL_COR07_02,IG-88: The commander Ral Falan is the most powerful man on the planet.  Taking him hostage and acquiring his plans and secrets could have galaxy wide effects.
