@@ -15214,7 +15214,7 @@ TEXT_SPEECH_HONOGHR_INT_VICTORY_COR25_04,Urai Fen: Even Vader's assassins proved
 TEXT_SPEECH_HONOGHR_RKT_VICTORY_COR25_06,Defiler: Rigged games of chance and fixed bouts of combat should bring credits to our organization.  Once the galaxy sees the defeat of the Noghri at our hands, fewer will stand in our way.
 TEXT_SPEECH_HONOGHR_STORY_INT_TACTICAL_COR25_03,Urai Fen: Destroying the base camps and killing Commander Malinth will open this planet up for corruption, and lessen Imperial influence.  My blades are sharpened, and ready for battle!
 TEXT_SPEECH_HONOGHR_STORY_INT_TACTICAL_COR25_07,Defiler: There's our target!  Move in!
-TEXT_SPEECH_HOTH_RKT_VICTORY_COR24_01,Defiler: As ordered we have spread our Racketeering efforts over the sparsely inhabited planet.  Zann's plans are accelerating.
+TEXT_SPEECH_HOTH_RKT_VICTORY_COR24_01,Defiler: As ordered, we have spread our racketeering efforts over the sparsely inhabited planet.  Zann's plans are accelerating.
 TEXT_SPEECH_HYPORI_BLK_VICTORY_COR52_01,Defiler: Hypori's black market has become the place to buy all the latest technology, and the Consortium is making a killing with the kickbacks.
 TEXT_SPEECH_ILUM_BRB_VICTORY_COR26_01,Defiler: We have acquired a great deal of Jedi knowledge that is being reviewed.  This information should be useful in allowing the Consortium to push on in this sector.
 TEXT_SPEECH_JABIIM_CRM_VICTORY_COR27_02,Defiler: Now that the militia has been corrupted, enemy fleet movements will be tracked and turned over to our spies.

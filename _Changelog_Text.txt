@@ -62,9 +62,6 @@ Housekeeping:
 • : (BUG #600)
 	-- ENG: 
 
-• : (BUG #601)
-	-- ENG: 
-
 • TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05: (BUG #605)
 	-- ENG: Urai Fen: We tried our best but their forces were just too much. --> Urai Fen: We tried our best, but their forces were just too much.
 
@@ -76,6 +73,9 @@ Housekeeping:
 
 • TEXT_SPEECH_HONOGHR_STORY_INT_TACTICAL_COR25: (BUG #603)
 	-- ENG: ...open this planet up for corruption and lessen Imperial influence.  My blades are sharpened and ready for battle. --> ...open this planet up for corruption, and lessen Imperial influence.  My blades are sharpened, and ready for battle!
+
+• TEXT_SPEECH_HOTH_RKT_VICTORY_COR24_01: (BUG #601)
+	-- ENG: Defiler: As ordered we have spread our Racketeering efforts over the sparsely inhabited planet.  Zann's plans are accelerating. --> Defiler: As ordered, we have spread our racketeering efforts over the sparsely inhabited planet.  Zann's plans are accelerating.
 
 • TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01: (BUG #606)
 	-- ENG: Defiler: Corrupting the military forces of the planet will ... --> Defiler: Corrupting the planet will ...
