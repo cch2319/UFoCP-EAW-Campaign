@@ -80,8 +80,8 @@ Housekeeping:
 • : (BUG #596)
 	-- ENG: 
 
-• : (BUG #597)
-	-- ENG: 
+• TEXT_SPEECH_CORULAG_CRM_VICTORY_COR13_05: (BUG #597)
+	-- ENG: ...If we're threatened there'll be a planet wide revolt, ... --> ...If we're threatened, there'll be a planet-wide revolt, ...
 
 • TEXT_SPEECH_DATHOMIR_BRB_VICTORY_COR17_01: (BUG #598)
 	-- ENG: ...powerful Rancor military units in check. --> ...powerful rancor military units in check.

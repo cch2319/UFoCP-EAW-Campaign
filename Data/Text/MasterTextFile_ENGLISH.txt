@@ -14661,7 +14661,7 @@ TEXT_SPEECH_CORELLIA_PIR_LOAD_COR12_01,Tyber Zann: Our forces have grown powerfu
 TEXT_SPEECH_CORELLIA_PIR_LOSS_COR12_04,Tyber Zann: That was simply a failure of execution.  I will raise more forces and try again as soon as possible.
 TEXT_SPEECH_CORELLIA_PIR_TACTICAL_COR12_02,Tyber Zann: Destroy the satellites and wipe out the forces protecting them.  Advance!
 TEXT_SPEECH_CORELLIA_PIR_VICTORY_COR12_03,Tyber Zann: You've made me proud!  With more troops as experienced and powerful as these we'll take over this galaxy.
-TEXT_SPEECH_CORULAG_CRM_VICTORY_COR13_05,Defiler: Corruption has expanded our influence on this world.  If we're threatened there'll be a planet wide revolt, laying the groundwork for a takeover by our forces.
+TEXT_SPEECH_CORULAG_CRM_VICTORY_COR13_05,Defiler: Corruption has expanded our influence on this world.  If we're threatened, there'll be a planet-wide revolt, laying the groundwork for a takeover by our forces.
 TEXT_SPEECH_CORULAG_PIR_LOAD_COR13_01,IG-88: Coreguard Security forces are unusually strong we'll need to use overwhelming firepower.  We fight for the glory of the Zann Consortium.
 TEXT_SPEECH_CORULAG_PIR_LOSS_COR13_04,IG-88: Their defenses turned us back.  I'll recalculate our attack vectors and try again as soon as I can.
 TEXT_SPEECH_CORULAG_PIR_TACTICAL_COR13_02,IG-88: Their defenses contain unusually large ship types.  Focus all fire to one ship at a time.
