@@ -14592,7 +14592,7 @@ TEXT_SPEECH_ANAXES_INT_LOSS_COR04_04,Bossk: (Translated) There were hidden reser
 TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk: (Translated) Fleet Commander Flankar from Anaxes has a galaxy-wide reputation as being the best.  Once we have demonstrated our power, he will be more easily controlled by the Consortium.
 TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk: (Translated) The entire Perlemian Trade Route is in our control.  We'll now be able to put a stranglehold on half the free trade of the galaxy.
 TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Defiler: Our organization has targeted the merchant crews coming to the planet for entertainment.  I expect this operation will be very lucrative.
-TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Defiler: Bribery on Atzerri has exceeded our wildest expectations.  The planet is completely corrupt and massive credit deposits are coming our way.
+TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Defiler: Bribery on Atzerri has exceeded our wildest expectations.  The planet is completely corrupt, and massive credit deposits are coming our way.
 TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01,Defiler: Our racketeering efforts were extremely successful on the criminally corrupt world of Atzerri.  Crime bosses almost stood in line to get a piece of our operations there.
 TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann: We'll advance into the system and destroy the next tibanna gas shipment.  That should make it easier for us to gain credits for our own fleet buildups.
 TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann: The death squadrons guarding the tibanna gas shipments proved stronger than we expected.  We'll have to go back and gather more forces if we are to corrupt this system.

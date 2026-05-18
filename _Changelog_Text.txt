@@ -59,8 +59,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #582)
-	-- ENG: 
+• TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02: (BUG #582)
+	-- ENG: ...The planet is completely corrupt and massive credit deposits are coming our way. --> ...The planet is completely corrupt, and massive credit deposits are coming our way.
 
 • TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06: (BUG #583)
 	-- ENG: ...We will be using the Interdictor to pull tibanna gas convoys out of Hyperspace. ... --> ...We will be using the Interdictor to pull tibanna gas convoys out of hyperspace. ...
