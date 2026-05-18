@@ -110,8 +110,8 @@ Housekeeping:
 • : (BUG #616)
 	-- ENG: 
 
-• : (BUG #617)
-	-- ENG: 
+• TEXT_SPEECH_SALEUCAMI_RKT_VICTORY_COR43_05: (BUG #617)
+	-- ENG: ...organization has planet wide influence on Saleucami. ... --> ...organization has planet-wide influence on Saleucami. ...
 
 • TEXT_SPEECH_TARIS_INT_LOSS_COR46_04: (BUG #618)
 	-- ENG: ...Who could know the duelist could shoot like that.  I must go again. --> ...Who could know the duelist could shoot like that?!  I must go again!
