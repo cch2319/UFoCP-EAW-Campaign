@@ -87,7 +87,7 @@ Housekeeping:
 	-- ENG: ...the uprising when the funds are cut to their workers. --> ...the uprising when funds are cut to their workers.
 
 • TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04: (BUG #608)
-	-- ENG: 
+	-- ENG: IG-88: My calculations failed, I've even now ... --> IG-88: My calculations failed.  I've even now ...
 
 • TEXT_SPEECH_KORRIBAN_RKT_VICTORY_COR31_01: (BUG #610)
 	-- ENG: ...there is Dark Force energy in this sector of space. --> ...there is dark Force energy in this sector of space.

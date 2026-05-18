@@ -15225,7 +15225,7 @@ TEXT_SPEECH_KASHYYYK_BND_VICTORY_COR29_02,Defiler: The Zann Consortium now has t
 TEXT_SPEECH_KASHYYYK_RKT_VICTORY_COR29_01,Defiler: I have been successful in setting up an organization that can be used as a model for the Consortium all over the galaxy.
 TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Defiler: I've successfully corrupted the Kessel miners.  The enemy will not appreciate the uprising when funds are cut to their workers.
 TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88: I've computed a 98% chance of success, begin the battle!
-TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04,IG-88: My calculations failed, I've even now reevaluated the situation and am ready to try again.
+TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04,IG-88: My calculations failed.  I've even now reevaluated the situation and am ready to try again.
 TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02,IG-88: I am tasked to enter the Kessel system and locate an Imperial Communication Satellite.  Securing it will allow us to direct enemy ship movements toward our docks for confiscation.
 TEXT_SPEECH_KESSEL_PIR_VICTORY_COR30_03,IG-88: We have succeeded beyond my calculations.  We have added a new ship to our fleet.  We are redirecting enemy credits into our own coffers.  Already we have heard reports of transport ships mysteriously disappearing as a result of our taking over control of the communication satellite.
 TEXT_SPEECH_KORRIBAN_RKT_VICTORY_COR31_01,Defiler: While I've been successful in setting up our organization here, we should be wary; there is dark Force energy in this sector of space.
