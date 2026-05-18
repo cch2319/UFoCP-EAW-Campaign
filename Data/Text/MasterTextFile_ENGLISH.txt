@@ -15337,7 +15337,7 @@ TEXT_SPEECH_OBI_HC_05,The dark side cannot succeed for long.
 TEXT_SPEECH_PLANET_CONTROL_ACHIEVED,Planetary control achieved.
 TEXT_SPEECH_PLANET_CONTROL_LOST,System Lost
 TEXT_SPEECH_POLUS_BND_VICTORY_COR41_02,Defiler: Special slave troops are en route to your location.  More will be sent as they are needed to further the plans of the Zann Consortium.
-TEXT_SPEECH_POLUS_RKT_VICTORY_COR41_01,Defiler: Our organization is now planet wide.  The cold doesn't seem to effect how miners spend their credits.
+TEXT_SPEECH_POLUS_RKT_VICTORY_COR41_01,Defiler: Our organization is now planet-wide.  The cold doesn't seem to affect how miners spend their credits.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_03,Antilles: Okay, we have to cause as much destruction as we can.  And be quick about it.  Threepio?
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_04,C-3PO: Yes, sir?
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_05,Antilles: Have Artoo monitor Imperial comm channels and scan for any chatter about our mission.

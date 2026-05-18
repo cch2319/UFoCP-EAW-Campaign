@@ -101,8 +101,8 @@ Housekeeping:
 • : (BUG #613)
 	-- ENG: 
 
-• : (BUG #614)
-	-- ENG: 
+• TEXT_SPEECH_POLUS_RKT_VICTORY_COR41_01: (BUG #614)
+	-- ENG: Defiler: Our organization is now planet wide.  The cold doesn't seem to effect how miners spend their credits. --> Defiler: Our organization is now planet-wide.  The cold doesn't seem to affect how miners spend their credits.
 
 • TEXT_SPEECH_POLUS_BND_VICTORY_COR41_02: (BUG #615)
 	-- ENG: ...Special slave troops are in route ... --> ...Special slave troops are en route ...
