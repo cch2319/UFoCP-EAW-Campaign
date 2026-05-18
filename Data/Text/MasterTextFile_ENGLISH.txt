@@ -14582,7 +14582,7 @@ TEXT_SPEECH_AETENII_PIR_LOSS_COR02_04,Bossk: (Translated) The forces you sent me
 TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02,Bossk: (Translated) The stygium crystal storage containers will be well-guarded.  Destroying five containers and the nearby enemy ships will help to secure our hold on the Aeten II system.
 TEXT_SPEECH_AETENII_PIR_VICTORY_COR02_03,Bossk: (Translated) The stygium crystal capsules and enemy targets have been eliminated.  I expect my fee to be doubled for my success.
 TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05,Defiler: The miners of Aeten II are exhausting their credit accounts in our cantinas.  We've even started to get stygium crystals as payments for their debts.
-TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05,Defiler: We've successfully set up a Black Market on Alzoc III.  Already new ships of surprising power are being made available to Consortium forces.
+TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05,Defiler: We've successfully set up a black market on Alzoc III.  Already, new ships of surprising power are being made available to Consortium forces.
 TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01,Tyber Zann: Now that I've come all the way down here, we clearly have to kill some of those shaaks.  Let's say, ten heads.
 TEXT_SPEECH_ALZOCIII_INT_LOSS_COR03_04,Tyber Zann: The Alzoc III forces put up a surprising fight.  I'm going to have to acquire more battle units before I try taking this planet again.
 TEXT_SPEECH_ALZOCIII_INT_TACTICAL_COR03_02,Tyber Zann: I'm taking a few associates down to the planet to rough up the food Commissioner.  Once we have him under our thumb I'll control the output of the entire planet

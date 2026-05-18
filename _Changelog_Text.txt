@@ -71,8 +71,8 @@ Housekeeping:
 • : (BUG #585)
 	-- ENG: 
 
-• : (BUG #586)
-	-- ENG: 
+• TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05: (BUG #586)
+	-- ENG: Defiler: We've successfully set up a Black Market on Alzoc III.  Already new ships ... --> Defiler: We've successfully set up a black market on Alzoc III.  Already, new ships ...
 
 • TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05: (BUG #587)
 	-- ENG: Defiler: Bestine's many technological facilities now regularly release their products to our black market; the steady traffic insures that the Consortium is never short on credits or new weapons. --> Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!
