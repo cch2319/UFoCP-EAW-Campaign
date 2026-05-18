@@ -65,11 +65,11 @@ Housekeeping:
 • : (BUG #601)
 	-- ENG: 
 
-• : (BUG #602)
-	-- ENG: 
-
 • TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05: (BUG #605)
 	-- ENG: Urai Fen: We tried our best but their forces were just too much. --> Urai Fen: We tried our best, but their forces were just too much.
+
+• TEXT_SPEECH_HONOGHR_INT_TACTICAL_COR25_02: (BUG #602)
+	-- ENG: Urai Fen: What the Noghri assassins of Honoghr lack in numbers they make up for in skill.  If we can destroy three of their base camp structures it will send a strong message. --> Urai Fen: What the Noghri assassins of Honoghr lack in numbers, they make up for in skill.  If we can destroy three of their base camp structures, it will send a strong message!
 
 • TEXT_SPEECH_HONOGHR_INT_VICTORY_COR25_04: (BUG #604)
 	-- ENG: Urai Fen: Even Vader's assassins proved no match for our forces.  This victory ensures that word of the Zann Consortium spreads quickly. --> Urai Fen: Even Vader's assassins proved no match for our forces - this victory ensures that word of the Zann Consortium spreads quickly!

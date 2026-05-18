@@ -15209,7 +15209,7 @@ TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_05,The Death Star is quickly approaching th
 TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06,The Death Star is quickly approaching.  We must use all our available resources to stop this threat once and for all.
 TEXT_SPEECH_HONOGHR_INT_LOAD_COR25_01,Urai Fen: We move as quickly otherwise our forces will be overwhelmed by Noghri assassins.  I have heard boastful rumors of their battle skills, so this should be a good challenge.
 TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05,Urai Fen: We tried our best, but their forces were just too much.
-TEXT_SPEECH_HONOGHR_INT_TACTICAL_COR25_02,Urai Fen: What the Noghri assassins of Honoghr lack in numbers they make up for in skill.  If we can destroy three of their base camp structures it will send a strong message.
+TEXT_SPEECH_HONOGHR_INT_TACTICAL_COR25_02,Urai Fen: What the Noghri assassins of Honoghr lack in numbers, they make up for in skill.  If we can destroy three of their base camp structures, it will send a strong message!
 TEXT_SPEECH_HONOGHR_INT_VICTORY_COR25_04,Urai Fen: Even Vader's assassins proved no match for our forces - this victory ensures that word of the Zann Consortium spreads quickly!
 TEXT_SPEECH_HONOGHR_RKT_VICTORY_COR25_06,Defiler: Rigged games of chance and fixed bouts of combat should bring credits to our organization.  Once the galaxy sees the defeat of the Noghri at our hands, fewer will stand in our way.
 TEXT_SPEECH_HONOGHR_STORY_INT_TACTICAL_COR25_03,Urai Fen: Destroying the base camps and killing Commander Malinth will open this planet up for corruption, and lessen Imperial influence.  My blades are sharpened, and ready for battle!
