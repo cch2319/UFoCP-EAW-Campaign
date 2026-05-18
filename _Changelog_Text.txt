@@ -59,8 +59,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #590)
-	-- ENG: 
+• TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02: (BUG #590)
+	-- ENG: ...Follow my lead if you wish to live. --> ...Follow my lead if you wish to live!
 
 • TEXT_SPEECH_BYSS_KID_VICTORY_COR10_03: (BUG #591)
 	-- ENG: Silri: Now that I've corrupted one of the most powerful worlds in the Galaxy.  Word will soon reach the Emperor. --> Silri: Now that I've corrupted one of the most powerful worlds in the galaxy, word will soon reach the emperor!
