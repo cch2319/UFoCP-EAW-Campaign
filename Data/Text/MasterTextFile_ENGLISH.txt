@@ -15220,7 +15220,7 @@ TEXT_SPEECH_ILUM_BRB_VICTORY_COR26_01,Defiler: We have acquired a great deal of 
 TEXT_SPEECH_JABIIM_CRM_VICTORY_COR27_02,Defiler: Now that the militia has been corrupted, enemy fleet movements will be tracked and turned over to our spies.
 TEXT_SPEECH_JABIIM_RKT_VICTORY_COR27_01,Defiler: I have succeeded in setting up Zann Consortium organizations all over the planet.
 TEXT_SPEECH_KAMINO_BLK_VICTORY_COR28_02,Defiler: It was unusually easy to form a black market group on this world.  New technology data is shipping now.
-TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01,Defiler: Corrupting the military forces of the planet will gain the Consortium powerful military forces to use in the upcoming battle.  Long live Tyber Zann!
+TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01,Defiler: Corrupting the planet will gain the Consortium powerful military forces to use in the upcoming battle.  Long live Tyber Zann!
 TEXT_SPEECH_KASHYYYK_BND_VICTORY_COR29_02,Defiler: The Zann Consortium now has the use of Wookiees as slaves.  They should provide additional brute force.
 TEXT_SPEECH_KASHYYYK_RKT_VICTORY_COR29_01,Defiler: I have been successful in setting up an organization that can be used as a model for the Consortium all over the galaxy.
 TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Defiler: I've successfully corrupted the Kessel miners.  The enemy will not appreciate the uprising when funds are cut to their workers.

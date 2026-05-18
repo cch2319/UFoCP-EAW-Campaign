@@ -77,8 +77,8 @@ Housekeeping:
 • : (BUG #605)
 	-- ENG: 
 
-• : (BUG #606)
-	-- ENG: 
+• TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01: (BUG #606)
+	-- ENG: Defiler: Corrupting the military forces of the planet will ... --> Defiler: Corrupting the planet will ...
 
 • TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05: (BUG #609)
 	-- ENG: ...the uprising when the funds are cut to their workers. --> ...the uprising when funds are cut to their workers.
