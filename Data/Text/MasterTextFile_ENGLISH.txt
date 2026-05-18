@@ -15241,7 +15241,7 @@ TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_11,Tyber Zann: You fight bravely, but not
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_12,Tyber Zann: You are brave but very foolish to challenge the Zann Consortium.
 TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Tyber Zann: Men, expect waves of assault ships as we corrupt the planet.  The battle isn't over until we have destroyed the Keldabe warship.
 TEXT_SPEECH_MANDALORE_PIR_LOSS_COR34_07,Tyber Zann: I'm surrounded by incompetence!  I give you one last time to prove yourselves.  Do not fail me again!
-TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03,Tyber Zann: Facing the Mandalorians will be one of our greatest challenges.  I'll face their clan leader in space above the planet.
+TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03,Tyber Zann: Facing the Mandalorians will be one of our greatest challenges!  I will face their clan leader in space above the planet.
 TEXT_SPEECH_MANDALORE_PIR_VICTORY_COR34_05,Tyber Zann: I've successfully corrupted Mandalore.  Victory over the Mandalorians will strike fear in all those who dare to oppose us.
 TEXT_SPEECH_MANDALORE_RKT_VICTORY_COR34_09,Defiler: We've set up our organization on the world and they're responding unusually well to the activities we use to draw off their credits.
 TEXT_SPEECH_MANDALORE_STORY_PIR_LOAD_COR34_02,Tyber Zann: Men, the Zann Consortium expects your best today.  If everyone does their part we'll not fail.

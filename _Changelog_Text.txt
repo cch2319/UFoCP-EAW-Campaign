@@ -92,8 +92,8 @@ Housekeeping:
 • : (BUG #610)
 	-- ENG: 
 
-• : (BUG #611)
-	-- ENG: 
+• TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03: (BUG #611)
+	-- ENG: ...Facing the Mandalorians will be one of our greatest challenges. ... --> ...Facing the Mandalorians will be one of our greatest challenges! ...
 
 • TEXT_SPEECH_NABOO_INT_LOAD_COR39_01: (BUG #612)
 	-- ENG: Silri: The chairman must be frightened into never saying No to us again. --> Silri: The chairman must be frightened into never saying "no" to us again.
