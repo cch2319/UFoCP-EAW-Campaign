@@ -113,8 +113,8 @@ Housekeeping:
 • : (BUG #617)
 	-- ENG: 
 
-• : (BUG #618)
-	-- ENG: 
+• TEXT_SPEECH_TARIS_INT_LOSS_COR46_04: (BUG #618)
+	-- ENG: ...Who could know the duelist could shoot like that.  I must go again. --> ...Who could know the duelist could shoot like that?!  I must go again!
 
 • TEXT_SPEECH_TATOOINE_BLK_VICTORY_COR47_02: (BUG #619)
 	-- ENG: ...maintaining a Black Market. ... --> ...maintaining a black market. ...

@@ -15848,7 +15848,7 @@ TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_00,Our space stations and ground bases are
 TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_01,You handled that well.
 TEXT_SPEECH_TARIS_BRB_VICTORY_COR46_05,Defiler: Hutts are easy to bribe.  This mission cost us little and gained us a great deal.
 TEXT_SPEECH_TARIS_INT_LOAD_COR46_01,Silri: Twitch is as quick in combat as I am powerful.
-TEXT_SPEECH_TARIS_INT_LOSS_COR46_04,Silri: Who could know the duelist could shoot like that.  I must go again.
+TEXT_SPEECH_TARIS_INT_LOSS_COR46_04,Silri: Who could know the duelist could shoot like that?!  I must go again!
 TEXT_SPEECH_TARIS_INT_TACTICAL_COR46_02,Silri: I expect Twitch to be unusually resourceful.  We will lose many units in this battle, only victory concerns me.
 TEXT_SPEECH_TARIS_INT_VICTORY_COR46_03,Silri: Rumors of the damage we did to Twitch have spread across the world.  The planet is secure.  The Zann Consortium's plans proceed well.
 TEXT_SPEECH_TATOOINE_BLK_VICTORY_COR47_02,Defiler: The Hutts know what they're doing when it comes to maintaining a black market.  The Consortium's plans move quickly in this sector.
