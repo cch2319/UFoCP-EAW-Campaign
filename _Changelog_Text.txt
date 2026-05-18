@@ -104,8 +104,8 @@ Housekeeping:
 • : (BUG #614)
 	-- ENG: 
 
-• : (BUG #615)
-	-- ENG: 
+• TEXT_SPEECH_POLUS_BND_VICTORY_COR41_02: (BUG #615)
+	-- ENG: ...Special slave troops are in route ... --> ...Special slave troops are en route ...
 
 • TEXT_SPEECH_RYLOTH_CRM_VICTORY_COR42_01: (BUG #616)
 	-- ENG: ...in the so called Bright Lands of the planet. --> ...the so-called "Bright Lands" of the planet.
