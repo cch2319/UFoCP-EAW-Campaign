@@ -15327,7 +15327,7 @@ TEXT_SPEECH_NALHUTTA_BRB_VICTORY_COR40_05,Defiler: Bribery has worked very well 
 TEXT_SPEECH_NALHUTTA_CRM_VICTORY_COR40_07,Defiler: The Hutts are trying to please the Consortium enough that we will aid them in their petty squabbles.  As a result, their militia will fight for us if needed.
 TEXT_SPEECH_NALHUTTA_KID_LOAD_COR40_01,Urai Fen: The bogs can be dangerous, strike as quickly as possible, move out.  Glory to the Zann Consortium!
 TEXT_SPEECH_NALHUTTA_KID_LOSS_COR40_04,Urai Fen: There was no way to know the size of the hidden forces we found on Nal Hutta.  We'll regroup and attack again soon.
-TEXT_SPEECH_NALHUTTA_KID_TACTICAL_COR40_02,Urai Fen: Advancing to the space port director's location could be extremely dangerous.  Carefully scout all areas for the enemy positions before moving forward.
+TEXT_SPEECH_NALHUTTA_KID_TACTICAL_COR40_02,Urai Fen: Advancing to the space port director's location could be extremely dangerous.  Carefully scout all areas for enemy positions before moving forward.
 TEXT_SPEECH_NALHUTTA_KID_VICTORY_COR40_03,Urai Fen: With Tanda the Hutt in our control our operations should run more smoothly in this sector.
 TEXT_SPEECH_OBI_HC_01,I thought I sensed a disturbance in the force...
 TEXT_SPEECH_OBI_HC_02,You're only a master of evil.
