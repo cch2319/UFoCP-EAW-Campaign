@@ -15223,7 +15223,7 @@ TEXT_SPEECH_KAMINO_BLK_VICTORY_COR28_02,Defiler: It was unusually easy to form a
 TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01,Defiler: Corrupting the military forces of the planet will gain the Consortium powerful military forces to use in the upcoming battle.  Long live Tyber Zann!
 TEXT_SPEECH_KASHYYYK_BND_VICTORY_COR29_02,Defiler: The Zann Consortium now has the use of Wookiees as slaves.  They should provide additional brute force.
 TEXT_SPEECH_KASHYYYK_RKT_VICTORY_COR29_01,Defiler: I have been successful in setting up an organization that can be used as a model for the Consortium all over the galaxy.
-TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Defiler: I've successfully corrupted the Kessel miners.  The enemy will not appreciate the uprising when the funds are cut to their workers.
+TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Defiler: I've successfully corrupted the Kessel miners.  The enemy will not appreciate the uprising when funds are cut to their workers.
 TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88: I've computed a 98% chance of success, begin the battle!
 TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04,IG-88: My calculations failed, I've even now reevaluated the situation and am ready to try again.
 TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02,IG-88: I am tasked to enter the Kessel system and locate an Imperial Communication Satellite.  Securing it will allow us to direct enemy ship movements toward our docks for confiscation.
