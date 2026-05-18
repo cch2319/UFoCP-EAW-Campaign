@@ -15787,7 +15787,7 @@ TEXT_SPEECH_RHD_DEATH_STAR_9,The Death Star will be in range in 9 minutes
 TEXT_SPEECH_RHD_DEATH_STAR_BEGIN_APPROACH,Death Star approaching
 TEXT_SPEECH_RHD_DEATH_STAR_CLEARED,The Death Star has cleared the planet
 TEXT_SPEECH_RYLOTH_BND_VICTORY_COR42_02,Defiler: Even now, death troops are coming from the slave pits of the world and reinforcing our units on many planets.
-TEXT_SPEECH_RYLOTH_CRM_VICTORY_COR42_01,Defiler: I've successfully corrupted the militias in the so called Bright Lands of the planet.
+TEXT_SPEECH_RYLOTH_CRM_VICTORY_COR42_01,Defiler: I've successfully corrupted the militias in the so-called "Bright Lands" of the planet.
 TEXT_SPEECH_SALEUCAMI_INT_LOAD_COR43_01,Urai Fen: Ignore the outer defenses, rush the governor!
 TEXT_SPEECH_SALEUCAMI_INT_LOSS_COR43_04,Urai Fen: We're done playing with this governor.  We're ready to return and deal him a blow he'll remember for the rest of his pitiful life.
 TEXT_SPEECH_SALEUCAMI_INT_TACTICAL_COR43_02,Urai Fen: Governor Koong Eeth has proven difficult.  We aren't going to kill him, maiming him should accomplish our goal.

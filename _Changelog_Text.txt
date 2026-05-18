@@ -107,8 +107,8 @@ Housekeeping:
 • : (BUG #615)
 	-- ENG: 
 
-• : (BUG #616)
-	-- ENG: 
+• TEXT_SPEECH_RYLOTH_CRM_VICTORY_COR42_01: (BUG #616)
+	-- ENG: ...in the so called Bright Lands of the planet. --> ...the so-called "Bright Lands" of the planet.
 
 • TEXT_SPEECH_SALEUCAMI_RKT_VICTORY_COR43_05: (BUG #617)
 	-- ENG: ...organization has planet wide influence on Saleucami. ... --> ...organization has planet-wide influence on Saleucami. ...
