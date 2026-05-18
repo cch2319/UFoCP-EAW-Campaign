@@ -15118,7 +15118,7 @@ TEXT_SPEECH_FONDOR_PIR_OBJECTIVE_02,Destroy the enemy space station.
 TEXT_SPEECH_FONDOR_PIR_TACTICAL_COR21_02,Bossk: (Translated) The Fondor space stations are extremely powerful.  We must maneuver our forces to destroy one completely.
 TEXT_SPEECH_FONDOR_PIR_VICTORY_COR21_03,Bossk: (Translated) My forces have succeeded where others would have failed.  A bit more of the Empire is lost to their use.
 TEXT_SPEECH_FRESIA_BRB_VICTORY_COR22_01,Defiler: The Incom Corporation has proven cooperative.  The Consortium expands greatly with this acquisition.
-TEXT_SPEECH_FRESIA_CRM_VICTORY_COR22_02,Defiler: We gain another powerful piece of military hardware.  The Consortium grows even stronger!
+TEXT_SPEECH_FRESIA_CRM_VICTORY_COR22_02,Defiler: We've gained another powerful piece of military hardware.  The Consortium grows even stronger!
 TEXT_SPEECH_GENERIC_COR60_01,Bossk: (Translated) There's our target!  Move in!
 TEXT_SPEECH_GENERIC_COR60_02,IG-88: Target located!  Proceed!
 TEXT_SPEECH_GENERIC_COR60_03,Silri: Our prey has been revealed!  Strike now!
