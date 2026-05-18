@@ -14653,7 +14653,7 @@ TEXT_SPEECH_CARIDA_KID_LOSS_COR11_04,Bossk: (Translated) That first attempt did 
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_02,Bossk: (Translated) The admiral will have heavy forces guarding him.  Strike quickly and don't stop to count the dead.
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_07,Bossk: (Translated) Admiral Dalken Hol, come with me and I will spare your life.
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_08,Admiral Dalken Hol: I don't want any trouble, I'll follow you.
-TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: (Translated) News of our Kidnapping Admiral Hol is spreading like wildfire across the galaxy.  Important worlds are jumping all over themselves to join the Consortium.
+TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: (Translated) News of Admiral Hol's kidnapping is spreading like wildfire across the galaxy.  Important worlds are jumping over themselves to join the Consortium!
 TEXT_SPEECH_CHOOSE_LANDING,Choose your landing zone
 TEXT_SPEECH_CHOOSE_REINFORCEMENTS,Choose your reinforcements
 TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05,Defiler: Black market efforts are proving themselves all over the galaxy.  The Zann Consortium is gaining important ships to strengthen our fleets.

@@ -65,11 +65,11 @@ Housekeeping:
 • : (BUG #591)
 	-- ENG: 
 
-• : (BUG #592)
-	-- ENG: 
-
 • TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06: (BUG #593)
 	-- ENG: Defiler: A Black Market has been established and is providing important information.  Tyber's plans are moving forward. --> Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!
+
+• TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03: (BUG #592)
+	-- ENG: Bossk: (Translated) News of our Kidnapping Admiral Hol is spreading like wildfire across the galaxy.  Important worlds are jumping all over themselves to join the Consortium. --> Bossk: (Translated) News of Admiral Hol's kidnapping is spreading like wildfire across the galaxy.  Important worlds are jumping over themselves to join the Consortium!
 
 • TEXT_SPEECH_CORELLIA_PIR_VICTORY_COR12_03: (BUG #594)
 	-- ENG: ...With more troops as experienced and powerful as these we'll take over this galaxy. --> ...With more troops as experienced and powerful as these, we'll take over this galaxy.
