@@ -68,14 +68,14 @@ Housekeeping:
 • : (BUG #602)
 	-- ENG: 
 
-• : (BUG #603)
-	-- ENG: 
-
 • TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05: (BUG #605)
 	-- ENG: Urai Fen: We tried our best but their forces were just too much. --> Urai Fen: We tried our best, but their forces were just too much.
 
 • TEXT_SPEECH_HONOGHR_INT_VICTORY_COR25_04: (BUG #604)
 	-- ENG: Urai Fen: Even Vader's assassins proved no match for our forces.  This victory ensures that word of the Zann Consortium spreads quickly. --> Urai Fen: Even Vader's assassins proved no match for our forces - this victory ensures that word of the Zann Consortium spreads quickly!
+
+• TEXT_SPEECH_HONOGHR_STORY_INT_TACTICAL_COR25: (BUG #603)
+	-- ENG: ...open this planet up for corruption and lessen Imperial influence.  My blades are sharpened and ready for battle. --> ...open this planet up for corruption, and lessen Imperial influence.  My blades are sharpened, and ready for battle!
 
 • TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01: (BUG #606)
 	-- ENG: Defiler: Corrupting the military forces of the planet will ... --> Defiler: Corrupting the planet will ...
