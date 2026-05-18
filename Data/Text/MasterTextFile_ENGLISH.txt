@@ -14610,11 +14610,11 @@ TEXT_SPEECH_BESTINE_KID_LOAD_COR07_01,IG-88: Our plans are set with an 87% chanc
 TEXT_SPEECH_BESTINE_KID_LOSS_COR07_04,IG-88: I clearly need more forces for this difficult target.  Mass more units and we will strike again.
 TEXT_SPEECH_BESTINE_KID_TACTICAL_COR07_02,IG-88: The commander Ral Falan is the most powerful man on the planet.  Taking him hostage and acquiring his plans and secrets could have galaxy wide effects.
 TEXT_SPEECH_BESTINE_KID_VICTORY_COR07_03,IG-88: Torture droids are penetrating the brain of our hostage.  Soon we will know his plans and be able to use that information accordingly.
-TEXT_SPEECH_BONADAN_CRM_VICTORY_COR08_02,Defiler: Special Bonadan military units have joined the us and will revolt against enemy leaders who try and put an end our corruption on the planet.  Power to the Consortium!
+TEXT_SPEECH_BONADAN_CRM_VICTORY_COR08_02,Defiler: Special Bonadan military units have joined us, and will revolt against any enemy leaders who try to put an end to our corruption on the planet.  Power to the Consortium!
 TEXT_SPEECH_BONADAN_RKT_VICTORY_COR08_01,Defiler: We've set up operations at the Southeast Bonadan Spaceport and from there we are quickly spreading our organization throughout the world.
 TEXT_SPEECH_BOTHAWUI_BND_VICTORY_COR09_05,Defiler: Slavers on Bothawui have generously offered the Consortium use of their armed forces.  You may begin sending these death squads on Zann Consortium missions.
 TEXT_SPEECH_BOTHAWUI_INT_LOAD_COR09_01,Tyber Zann: What, you want to live forever?  Get down on the world and destroy things.
-TEXT_SPEECH_BOTHAWUI_INT_LOSS_COR09_04,Tyber Zann: My plans were thwarted on Bothawui, I didn't anticipate such high security.  I'll try again with more forces
+TEXT_SPEECH_BOTHAWUI_INT_LOSS_COR09_04,Tyber Zann: My plans were thwarted on Bothawui.  I didn't anticipate such high security.  I'll try again with more forces.
 TEXT_SPEECH_BOTHAWUI_INT_OBJECTIVE_01,Rough up Senator Se'lab.
 TEXT_SPEECH_BOTHAWUI_INT_OBJECTIVE_02,Destroy Senator Se'lab's Palace to flush the Senator out.
 TEXT_SPEECH_BOTHAWUI_INT_TACTICAL_COR09_02,Tyber Zann: By using intimidation on the good senator, I gain major political influence to further my goals.

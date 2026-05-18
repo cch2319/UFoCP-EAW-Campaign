@@ -77,11 +77,11 @@ Housekeeping:
 • : (BUG #587)
 	-- ENG: 
 
-• : (BUG #588)
-	-- ENG: 
+• TEXT_SPEECH_BONADAN_CRM_VICTORY_COR08_02: (BUG #588)
+	-- ENG: Defiler: Special Bonadan military units have joined the us and will revolt against enemy leaders who try and put an end our corruption on the planet.  Power to the Consortium! --> Defiler: Special Bonadan military units have joined us, and will revolt against any enemy leaders who try to put an end to our corruption on the planet.  Power to the Consortium!
 
 • TEXT_SPEECH_BOTHAWUI_INT_LOSS_COR09_04: (BUG #589)
-	-- ENG: 
+	-- ENG: Tyber Zann: My plans were thwarted on Bothawui, I didn't anticipate such high security.  I'll try again with more forces --> Tyber Zann: My plans were thwarted on Bothawui.  I didn't anticipate such high security.  I'll try again with more forces.
 
 • TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02: (BUG #590)
 	-- ENG: ...Follow my lead if you wish to live. --> ...Follow my lead if you wish to live!
