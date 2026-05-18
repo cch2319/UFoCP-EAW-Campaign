@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #604)
 	-- ENG: 
 
-• : (BUG #605)
-	-- ENG: 
+• TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05: (BUG #605)
+	-- ENG: Urai Fen: We tried our best but their forces were just too much. --> Urai Fen: We tried our best, but their forces were just too much.
 
 • TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01: (BUG #606)
 	-- ENG: Defiler: Corrupting the military forces of the planet will ... --> Defiler: Corrupting the planet will ...
