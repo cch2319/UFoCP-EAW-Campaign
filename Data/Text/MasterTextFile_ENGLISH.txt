@@ -15318,7 +15318,7 @@ TEXT_SPEECH_MUUNILINST_KID_TACTICAL_COR37_02,IG-88: Chairman San Hill is here on
 TEXT_SPEECH_MUUNILINST_KID_VICTORY_COR37_03,IG-88: We hold Chairman Hill at this time.  He's even now giving us codes to the inner systems of the Intergalactic Banking Clan.
 TEXT_SPEECH_MYRKR_RKT_VICTORY_COR38_01,Defiler: Talon Karrde proved most cooperative when we explained things to him.  We've successfully corrupted the planet.
 TEXT_SPEECH_NABOO_BND_VICTORY_COR39_05,Defiler: We're successful and the new troops we gain are proving unusually useful.  Long live the Zann Consortium!
-TEXT_SPEECH_NABOO_INT_LOAD_COR39_01,Silri: The chairman must be frightened into never saying No to us again.
+TEXT_SPEECH_NABOO_INT_LOAD_COR39_01,Silri: The chairman must be frightened into never saying "no" to us again.
 TEXT_SPEECH_NABOO_INT_LOSS_COR39_04,Silri: The chairman's guards were unusually powerful.  I'll try a new battle plan to win the day.
 TEXT_SPEECH_NABOO_INT_TACTICAL_COR39_02,Silri: The Naboo security forces should be easy prey for us.
 TEXT_SPEECH_NABOO_INT_VICTORY_COR39_03,Silri: The chairman has been turned into jibbering idiot.  This world will no longer support the enemies of the Zann Consortium.  If things change we know who to kill.

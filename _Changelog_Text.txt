@@ -95,8 +95,8 @@ Housekeeping:
 • : (BUG #611)
 	-- ENG: 
 
-• : (BUG #612)
-	-- ENG: 
+• TEXT_SPEECH_NABOO_INT_LOAD_COR39_01: (BUG #612)
+	-- ENG: Silri: The chairman must be frightened into never saying No to us again. --> Silri: The chairman must be frightened into never saying "no" to us again.
 
 • TEXT_SPEECH_NALHUTTA_KID_TACTICAL_COR40_02: (BUG #613)
 	-- ENG: ...Carefully scout all areas for the enemy positions before moving forward. --> ...Carefully scout all areas for enemy positions before moving forward.
