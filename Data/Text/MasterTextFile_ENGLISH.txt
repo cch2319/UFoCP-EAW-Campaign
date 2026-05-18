@@ -14674,7 +14674,7 @@ TEXT_SPEECH_DANTOOINE_INT_LOAD_COR16_01,Urai Fen: Only a few deaths should be re
 TEXT_SPEECH_DANTOOINE_INT_LOSS_COR16_04,Urai Fen: These locals proved more resourceful than anticipated.  Let us try their strength again.
 TEXT_SPEECH_DANTOOINE_INT_TACTICAL_COR16_02,Urai Fen: Dantooine hosts a small population of civilians.  Intimidating a few of them will be a good training exercise for the troops.
 TEXT_SPEECH_DANTOOINE_INT_VICTORY_COR16_03,Urai Fen: Information is pouring in from our efforts on the planet.  Excessive force is indeed a powerful motivator.
-TEXT_SPEECH_DATHOMIR_BRB_VICTORY_COR17_01,Defiler: Our efforts are successful on Dathomir.  Corruption should keep their powerful Rancor military units in check.
+TEXT_SPEECH_DATHOMIR_BRB_VICTORY_COR17_01,Defiler: Our efforts are successful on Dathomir.  Corruption should keep their powerful rancor military units in check.
 TEXT_SPEECH_DATHOMIR_CRM_VICTORY_COR17_02,Defiler: The Nightsisters' clans are now allied with Zann.  Dark Force units are secretly deploying from Dathomir to join our forces.
 TEXT_SPEECH_DEATH_STAR_BUILD_1_MINUTE,Death Star complete in 1 minute
 TEXT_SPEECH_DEATH_STAR_BUILD_10_MINUTES,Death Star complete in 10 minutes

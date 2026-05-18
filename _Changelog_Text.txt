@@ -83,8 +83,8 @@ Housekeeping:
 • : (BUG #597)
 	-- ENG: 
 
-• : (BUG #598)
-	-- ENG: 
+• TEXT_SPEECH_DATHOMIR_BRB_VICTORY_COR17_01: (BUG #598)
+	-- ENG: ...powerful Rancor military units in check. --> ...powerful rancor military units in check.
 
 • TEXT_SPEECH_ERIADU_RKT_VICTORY_COR19_01: (BUG #599)
 	-- ENG: ...in order to destroy their ships and then claim them as salvage --> ...in order to destroy their ships, and then claim them as salvage.
