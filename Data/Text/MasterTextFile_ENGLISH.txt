@@ -15058,7 +15058,7 @@ TEXT_SPEECH_EMPIRE_SPACE_WIN_03,It is all as I have foreseen!
 TEXT_SPEECH_EMPIRE_SPACE_WIN_04,(evil cackling laughter)
 TEXT_SPEECH_ENDOR_BND_VICTORY_COR18_01,Defiler: I've successfully set up a series of slave pits to transform the little captured Ewoks into exploding slave units.
 TEXT_SPEECH_ERIADU_BLK_VICTORY_COR19_02,Defiler: The already established Eriadu black market, which we now control, is bringing technology into the Zann Consortium.
-TEXT_SPEECH_ERIADU_RKT_VICTORY_COR19_01,Defiler: Systems have been set up on the orbital habitats.  We'll now attempt to lure enemies to the system in order to destroy their ships and then claim them as salvage
+TEXT_SPEECH_ERIADU_RKT_VICTORY_COR19_01,Defiler: Systems have been set up on the orbital habitats.  We'll now attempt to lure enemies to the system in order to destroy their ships, and then claim them as salvage.
 TEXT_SPEECH_FELUCIA_BRB_VICTORY_COR20_01,Defiler: The Commerce Guild associates are now in the Zann Consortium pockets.  Long live Tyber Zann!
 TEXT_SPEECH_FELUCIA_RKT_VICTORY_COR20_02,Defiler: Racketeering is spreading surprisingly fast on the planet.
 TEXT_SPEECH_FOCUS_DEMO_00,Tyber Zann: Take this Saboteur, corrupt Nal Hutta, and then report back to me.

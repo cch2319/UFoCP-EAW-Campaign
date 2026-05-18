@@ -59,6 +59,36 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #590)
+	-- ENG: 
+
+• : (BUG #591)
+	-- ENG: 
+
+• : (BUG #592)
+	-- ENG: 
+
+• : (BUG #593)
+	-- ENG: 
+
+• : (BUG #594)
+	-- ENG: 
+
+• : (BUG #595)
+	-- ENG: 
+
+• : (BUG #596)
+	-- ENG: 
+
+• : (BUG #597)
+	-- ENG: 
+
+• : (BUG #598)
+	-- ENG: 
+
+• TEXT_SPEECH_ERIADU_RKT_VICTORY_COR19_01: (BUG #599)
+	-- ENG: ...in order to destroy their ships and then claim them as salvage --> ...in order to destroy their ships, and then claim them as salvage.
+
 • TEXT_SPEECH_FRESIA_CRM_VICTORY_COR22_02: (BUG #600)
 	-- ENG: Defiler: We gain another powerful piece of military hardware.  The Consortium grows even stronger! --> Defiler: We've gained another powerful piece of military hardware.  The Consortium grows even stronger!
 
