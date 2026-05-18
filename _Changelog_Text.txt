@@ -59,6 +59,30 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
 • TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02: (BUG #590)
 	-- ENG: ...Follow my lead if you wish to live. --> ...Follow my lead if you wish to live!
 
