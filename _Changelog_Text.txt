@@ -71,8 +71,8 @@ Housekeeping:
 • : (BUG #593)
 	-- ENG: 
 
-• : (BUG #594)
-	-- ENG: 
+• TEXT_SPEECH_CORELLIA_PIR_VICTORY_COR12_03: (BUG #594)
+	-- ENG: ...With more troops as experienced and powerful as these we'll take over this galaxy. --> ...With more troops as experienced and powerful as these, we'll take over this galaxy.
 
 • TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05: (BUG #595)
 	-- ENG: Defiler: Black Market efforts are proving themselves all over the galaxy. ... --> Defiler: Black market efforts are proving themselves all over the galaxy. ...
