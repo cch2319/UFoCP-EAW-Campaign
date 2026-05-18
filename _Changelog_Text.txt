@@ -74,8 +74,8 @@ Housekeeping:
 • : (BUG #594)
 	-- ENG: 
 
-• : (BUG #595)
-	-- ENG: 
+• TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05: (BUG #595)
+	-- ENG: Defiler: Black Market efforts are proving themselves all over the galaxy. ... --> Defiler: Black market efforts are proving themselves all over the galaxy. ...
 
 • TEXT_SPEECH_CORULAG_CRM_VICTORY_COR13_05: (BUG #597)
 	-- ENG: ...If we're threatened there'll be a planet wide revolt, ... --> ...If we're threatened, there'll be a planet-wide revolt, ...

@@ -14656,7 +14656,7 @@ TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_08,Admiral Dalken Hol: I don't want any tr
 TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: (Translated) News of our Kidnapping Admiral Hol is spreading like wildfire across the galaxy.  Important worlds are jumping all over themselves to join the Consortium.
 TEXT_SPEECH_CHOOSE_LANDING,Choose your landing zone
 TEXT_SPEECH_CHOOSE_REINFORCEMENTS,Choose your reinforcements
-TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05,Defiler: Black Market efforts are proving themselves all over the galaxy.  The Zann Consortium is gaining important ships to strengthen our fleets.
+TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05,Defiler: Black market efforts are proving themselves all over the galaxy.  The Zann Consortium is gaining important ships to strengthen our fleets.
 TEXT_SPEECH_CORELLIA_PIR_LOAD_COR12_01,Tyber Zann: Our forces have grown powerful in the recent months, today they gain a great victory.
 TEXT_SPEECH_CORELLIA_PIR_LOSS_COR12_04,Tyber Zann: That was simply a failure of execution.  I will raise more forces and try again as soon as possible.
 TEXT_SPEECH_CORELLIA_PIR_TACTICAL_COR12_02,Tyber Zann: Destroy the satellites and wipe out the forces protecting them.  Advance!
