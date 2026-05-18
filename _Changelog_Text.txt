@@ -116,8 +116,8 @@ Housekeeping:
 • : (BUG #618)
 	-- ENG: 
 
-• : (BUG #619)
-	-- ENG: 
+• TEXT_SPEECH_TATOOINE_BLK_VICTORY_COR47_02: (BUG #619)
+	-- ENG: ...maintaining a Black Market. ... --> ...maintaining a black market. ...
 
 • TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05: (BUG #620)
 	-- ENG: ...Centering our racketeering efforts around Bacta production can bring the economic power of the planet under our control --> ...Centering our racketeering efforts around bacta production can bring the economic power of the planet under our control.
