@@ -59,6 +59,66 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #600)
+	-- ENG: 
+
+• : (BUG #601)
+	-- ENG: 
+
+• : (BUG #602)
+	-- ENG: 
+
+• : (BUG #603)
+	-- ENG: 
+
+• : (BUG #604)
+	-- ENG: 
+
+• : (BUG #605)
+	-- ENG: 
+
+• : (BUG #606)
+	-- ENG: 
+
+• : (BUG #607)
+	-- ENG: 
+
+• : (BUG #608)
+	-- ENG: 
+
+• : (BUG #609)
+	-- ENG: 
+
+• : (BUG #610)
+	-- ENG: 
+
+• : (BUG #611)
+	-- ENG: 
+
+• : (BUG #612)
+	-- ENG: 
+
+• : (BUG #613)
+	-- ENG: 
+
+• : (BUG #614)
+	-- ENG: 
+
+• : (BUG #615)
+	-- ENG: 
+
+• : (BUG #616)
+	-- ENG: 
+
+• : (BUG #617)
+	-- ENG: 
+
+• : (BUG #618)
+	-- ENG: 
+
+• : (BUG #619)
+	-- ENG: 
+
 • TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05: (BUG #620)
 	-- ENG: ...Centering our racketeering efforts around Bacta production can bring the economic power of the planet under our control --> ...Centering our racketeering efforts around bacta production can bring the economic power of the planet under our control.
 
