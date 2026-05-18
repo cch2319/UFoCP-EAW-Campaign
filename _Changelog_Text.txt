@@ -80,14 +80,14 @@ Housekeeping:
 • : (BUG #606)
 	-- ENG: 
 
-• : (BUG #607)
-	-- ENG: 
-
 • TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05: (BUG #609)
 	-- ENG: ...the uprising when the funds are cut to their workers. --> ...the uprising when funds are cut to their workers.
 
 • TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04: (BUG #608)
 	-- ENG: IG-88: My calculations failed, I've even now ... --> IG-88: My calculations failed.  I've even now ...
+
+• TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02: (BUG #607)
+	-- ENG: ...locate an Imperial Communication Satellite. ... --> ...locate an Imperial communication satellite. ...
 
 • TEXT_SPEECH_KORRIBAN_RKT_VICTORY_COR31_01: (BUG #610)
 	-- ENG: ...there is Dark Force energy in this sector of space. --> ...there is dark Force energy in this sector of space.
