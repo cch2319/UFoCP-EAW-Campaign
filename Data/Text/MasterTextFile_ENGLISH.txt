@@ -14646,7 +14646,7 @@ TEXT_SPEECH_CAMPAIGN_SINGLE_50_INTRO_R,The Alliance is small, holding only one p
 TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_E,Imperial forces have managed to push back the Rebellion in certain areas, but this sector remains stubborn.  Neither side has any real advantage.  Use the 20,000 credits provided to remove the Rebel forces in the area so that the Empire can concentrate on more important concerns.
 TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_R,The Rebellion and Empire have divided this area of the galaxy evenly, neither with any apparent advantage over the other.  You must use the 20,000 credits provided to liberate all of these worlds and bring freedom to the sector.
 TEXT_SPEECH_CAMPAIGN_SINGLE_FOCUS_INTRO_U,Tyber Zann: Jabba's cartel has continued to grow, while I withered behind bars!  Now that I'm free, I will exact my revenge on Jabba and reclaim my territory!
-TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06,Defiler: A Black Market has been established and is providing important information.  Tyber's plans are moving forward.
+TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06,Defiler: A black market has been established and is providing important information.  Tyber's plans are moving forward!
 TEXT_SPEECH_CARIDA_BRB_VICTORY_COR11_05,Defiler: I'm extremely pleased to report that the bribery efforts were successful.  We've corrupted the planet and gained a great deal of useful information in the process.
 TEXT_SPEECH_CARIDA_KID_LOAD_COR11_01,Bossk: (Translated) I've been tasked with this kidnapping mission and I will not fail.
 TEXT_SPEECH_CARIDA_KID_LOSS_COR11_04,Bossk: (Translated) That first attempt did not go well.  I should be able to win, with the forces available.  I will try again as soon as I can.
