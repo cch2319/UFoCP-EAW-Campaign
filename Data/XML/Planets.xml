@@ -5002,7 +5002,7 @@
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>Yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Volcanic</Terrain>
 		<Planet_Credit_Value>35</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>16</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>200.0, -260.0, 10.0</Galactic_Position>

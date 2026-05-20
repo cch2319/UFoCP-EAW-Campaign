@@ -83,6 +83,7 @@ Interface Fixes:
 
 Map/Planet Fixes:
 • MP Space Bespin's lighting was severely outdated/unconfigured - internally, it used almost the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02.TED," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
+• Shola was defined as a volcanic planet but with "temperate" terrain; I don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
 
 
 Model Fixes:
