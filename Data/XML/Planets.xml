@@ -957,7 +957,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Urban</Terrain>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
 		<Pre_Lit>No</Pre_Lit>
 		<Political_Control>0</Political_Control>
