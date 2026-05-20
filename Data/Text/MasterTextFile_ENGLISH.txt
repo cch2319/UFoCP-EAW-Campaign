@@ -1,8 +1,8 @@
-﻿EMPIRE_BM_TECH_1,Black Market Items available at Empire tech level one.
-EMPIRE_BM_TECH_2,Black Market Items available at Empire tech level two.
-EMPIRE_BM_TECH_3,Black Market Items available at Empire tech level three.
-EMPIRE_BM_TECH_4,Black Market Items available at Empire tech level four.
-EMPIRE_BM_TECH_5,Black Market Items available at Empire tech level five.
+﻿EMPIRE_BM_TECH_1,Black market items available at Empire tech level one.
+EMPIRE_BM_TECH_2,Black market items available at Empire tech level two.
+EMPIRE_BM_TECH_3,Black market items available at Empire tech level three.
+EMPIRE_BM_TECH_4,Black market items available at Empire tech level four.
+EMPIRE_BM_TECH_5,Black market items available at Empire tech level five.
 Hint_IDC_CUSTOM_CAMPAIGN_BUTTON,Embark on galactic conquests that pit the Empire, Rebellion and Zann Consortium in space and land battles across multiple systems.
 Hint_IDC_NEW_CAMPAIGN_BUTTON,Experience the story campaign chronicling the rise to power of Tyber Zann and his quest to control the galaxy's criminal underworld.
 Hint_IDC_NEW_CAMPAIGN_BUTTON_DEMO,Experience the story campaigns starting from the rise of the Rebellion through ultimate galactic victory. (Not available in demo)
@@ -291,11 +291,11 @@ MTUM11_RAIDERS_OF_THE_LOST_HOLOCRON,Following the Artifact
 MTUM12_TEST_MISSION_TWELVE,Mission 12 Test Campaign
 MTUM12_THE_EMPERORS_NEW_WEAPON,The Emperor's New Weapon
 PHASE 2 LINES,[TBL]
-REBEL_BM_TECH_1,Black Market Items available at Rebel tech level one.
-REBEL_BM_TECH_2,Black Market Items available at Rebel tech level two.
-REBEL_BM_TECH_3,Black Market Items available at Rebel tech level three.
-REBEL_BM_TECH_4,Black Market Items available at Rebel tech level four.
-REBEL_BM_TECH_5,Black Market Items available at Rebel tech level five.
+REBEL_BM_TECH_1,Black market items available at Rebel tech level one.
+REBEL_BM_TECH_2,Black market items available at Rebel tech level two.
+REBEL_BM_TECH_3,Black market items available at Rebel tech level three.
+REBEL_BM_TECH_4,Black market items available at Rebel tech level four.
+REBEL_BM_TECH_5,Black market items available at Rebel tech level five.
 TEXT_3D_AUDIO_TECH_INIT_FAILURE_1,Failed to initialize the selected 3D audio technology.
 TEXT_3D_AUDIO_TECH_INIT_FAILURE_2,This technology is not supported by your current PC system specifications.
 TEXT_3D_AUDIO_TECH_INIT_SUCCESS_1,Successfully initialized the selected 3D audio technology.
@@ -15065,7 +15065,7 @@ TEXT_SPEECH_FOCUS_DEMO_00,Tyber Zann: Take this Saboteur, corrupt Nal Hutta, and
 TEXT_SPEECH_FOCUS_DEMO_00B,Tyber Zann: Take this Saboteur, corrupt Kashyyyk, and then report back to me.
 TEXT_SPEECH_FOCUS_DEMO_01,Hint: Drag the saboteur to the 'Spread Corruption' slot on Nal Hutta.
 TEXT_SPEECH_FOCUS_DEMO_01B,Hint: Drag the saboteur to the 'Spread Corruption' slot on Kashyyyk.
-TEXT_SPEECH_FOCUS_DEMO_02,Tyber Zann: Good!  Our influence has been spread to Kashyyyk.  As long as Kashyyyk remains corrupted we can access the Black Market that is in place on that planet.  Now, direct my lieutenant to purchase Stealth Technology from the Black Market on Kashyyyk.
+TEXT_SPEECH_FOCUS_DEMO_02,Tyber Zann: Good!  Our influence has been spread to Kashyyyk.  As long as Kashyyyk remains corrupted we can access the black market that is in place on that planet.  Now, direct my lieutenant to purchase Stealth Technology from the black market on Kashyyyk.
 TEXT_SPEECH_FOCUS_DEMO_03,Hint: Drag Silri to the 'Buy' slot on Kashyyyk and choose Cloaking Technology from the purchase menu.
 TEXT_SPEECH_FOCUS_DEMO_04,Tyber Zann: Kashyyyk is crawling with Imperial units, so we will need to find another target if we're going to expand our operations.  Capturing Felucia would allow us to build a larger army.  Take this Saboteur to Felucia, and spread our corruption influence on that planet.
 TEXT_SPEECH_FOCUS_DEMO_05,Tyber Zann: As you might have already guessed - they're called Saboteurs for a reason.  Move this Saboteur to Felucia, and destroy the Ion Cannon that the Rebels have built.
@@ -15079,13 +15079,13 @@ TEXT_SPEECH_FOCUS_DEMO_12,Tyber Zann: Remember to use the abilities of our heroe
 TEXT_SPEECH_FOCUS_DEMO_13,Tyber Zann: Excellent.  We can now use Felucia to produce advanced ships.  I will leave it to you to capture the remaining planets.
 TEXT_SPEECH_FOCUS_DEMO_14,Hint: Use the saboteur to spread corruption to Felucia.
 TEXT_SPEECH_FOCUS_DEMO_15,Hint: Conquer the remaining planets in the galaxy.
-TEXT_SPEECH_FOCUS_DEMO_16,Tyber Zann: Our Mercenaries are equipped with disruptor technology from the Black Market.  Switch to these weapons when fighting enemy infantry.
+TEXT_SPEECH_FOCUS_DEMO_16,Tyber Zann: Our Mercenaries are equipped with disruptor technology from the black market.  Switch to these weapons when fighting enemy infantry.
 TEXT_SPEECH_FOCUS_DEMO_17,Tyber Zann: Make sure you include Tyber in the invading fleet!
 TEXT_SPEECH_FOCUS_DEMO_18,Tyber Zann: Their forces are too powerful; we can't take them on just yet.
 TEXT_SPEECH_FOCUS_DEMO_19,Tyber Zann: A bunker!  We can use these structures to protect our infantry, and to hold key areas of the battlefield.
 TEXT_SPEECH_FOCUS_DEMO_20,Tyber Zann: This terrain is far too dense for vehicles, but infantry will have no problems traveling through this area.  Let's use this to our advantage.
 TEXT_SPEECH_FOCUS_DEMO_21,Tyber Zann: Since we have Destroyers in orbit, we can order an orbital bombardment.  This Rebel base would be an ideal target for this new weapon.
-TEXT_SPEECH_FOCUS_DEMO_22,Tyber Zann: This would be an ideal time to use the cloaking technology that we purchased on the Black Market.  Use this ability on our Vengeance-Class ships to launch a sneak attack on the nearby Rebel turrets.  They'll never know what hit them.
+TEXT_SPEECH_FOCUS_DEMO_22,Tyber Zann: This would be an ideal time to use the cloaking technology that we purchased on the black market.  Use this ability on our Vengeance-Class ships to launch a sneak attack on the nearby Rebel turrets.  They'll never know what hit them.
 TEXT_SPEECH_FOCUS_DEMO_23,Tyber Zann: The enemy has bomber units, but we did not come unprepared.  We can easily counter these pests by using the defensive systems on our new Crusader Gunships.
 TEXT_SPEECH_FOCUS_DEMO_24,Tyber Zann: We are not bound by the same restrictions that plague our enemies.  There will be no Imperial bureaucracy to slow us down; and we do not follow a righteous moral code as the Rebels do.  NOTHING will stand in the way of our success.  We will corrupt, sabotage, and then annihilate our enemies.
 TEXT_SPEECH_FOCUS_DEMO_25,Tyber Zann: We need money!  We must spread corruption to nearby planets with our Saboteurs.  Once it has been established, our corruption influence will automatically begin extorting a percentage of the planetary income.
@@ -15322,7 +15322,7 @@ TEXT_SPEECH_NABOO_INT_LOAD_COR39_01,Silri: The chairman must be frightened into 
 TEXT_SPEECH_NABOO_INT_LOSS_COR39_04,Silri: The chairman's guards were unusually powerful.  I'll try a new battle plan to win the day.
 TEXT_SPEECH_NABOO_INT_TACTICAL_COR39_02,Silri: The Naboo security forces should be easy prey for us.
 TEXT_SPEECH_NABOO_INT_VICTORY_COR39_03,Silri: The chairman has been turned into jibbering idiot.  This world will no longer support the enemies of the Zann Consortium.  If things change we know who to kill.
-TEXT_SPEECH_NALHUTTA_BLK_VICTORY_COR40_06,Defiler: The Black Market on Nal Hutta is already providing advanced technologies the Consortium can use to boost the power of Zann fleets.
+TEXT_SPEECH_NALHUTTA_BLK_VICTORY_COR40_06,Defiler: The black market on Nal Hutta is already providing advanced technologies the Consortium can use to boost the power of Zann fleets.
 TEXT_SPEECH_NALHUTTA_BRB_VICTORY_COR40_05,Defiler: Bribery has worked very well on Nal Hutta.  No garrison units will join the side of our enemies from this world.  Enemy fleet movements will be reported to us on a daily basis from planet sensors.
 TEXT_SPEECH_NALHUTTA_CRM_VICTORY_COR40_07,Defiler: The Hutts are trying to please the Consortium enough that we will aid them in their petty squabbles.  As a result, their militia will fight for us if needed.
 TEXT_SPEECH_NALHUTTA_KID_LOAD_COR40_01,Urai Fen: The bogs can be dangerous, strike as quickly as possible, move out.  Glory to the Zann Consortium!
@@ -16156,23 +16156,23 @@ TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_16,Hint: The MDU needs to remain at the 
 TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_17,Hint: Your infantry units will be severely injured if they progress into the poisonous flowers.
 TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18,Urai Fen: They'll be coming for us at Ryloth once they learn that Tyber doesn't have their precious artifact.  Kamino is an ideal location to lay low while we plan Tyber's escape.  I have connections on Kamino that I trust to hide us for a while.  Build a suitable force and conquer Kamino.
 TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_19,Tyber Zann: Those guard towers will see right through our cloaking fields.  If we try to go that way, we'll get chewed up by the anti-infantry turrets.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_00,Hint: The Zann Consortium uses corruption powers, among other abilities, to gain advantages over the Empire and the Rebels.  Pay close attention as you move Tyber Zann through the galaxy, corrupting planets to gain power.  In this scenario, Tyber will direct his Defiler units to corrupt Mandalore, and establish a Black Market on Nal Hutta, without actually conquering either planet.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_00,Hint: The Zann Consortium uses corruption powers, among other abilities, to gain advantages over the Empire and the Rebels.  Pay close attention as you move Tyber Zann through the galaxy, corrupting planets to gain power.  In this scenario, Tyber will direct his Defiler units to corrupt Mandalore, and establish a black market on Nal Hutta, without actually conquering either planet.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_01,Tyber Zann: A year ago, I joined forces with Jabba the Hutt.  Our combined criminal contacts and resources brought both of us great wealth.  But I never intended to make this alliance permanent.  Recently, Jabba acquired a unique artifact.  From what I can tell, it cost him nearly half his wealth.  It's too valuable a prize to let my good partner enjoy all by himself.  That artifact will be in my hands soon.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_02,Tyber Zann: I'm going to go to Nal Hutta.  There are Hutt family members that I intend to bribe so that I find out facts about Jabba and where the closest black market can be found.  The black markets throughout the galaxy are important sources of stolen technology.  As soon as the Empire or the Rebel Alliance develop new tech, it's available on the Black Market.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_02,Tyber Zann: I'm going to go to Nal Hutta.  There are Hutt family members that I intend to bribe so that I find out facts about Jabba and where the closest black market can be found.  The black markets throughout the galaxy are important sources of stolen technology.  As soon as the Empire or the Rebel Alliance develop new tech, it's available on the black market.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_03,Hint: Drag Tyber Zann to the glowing oval above Nal Hutta.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_04,Tyber Zann: Most worlds are alike.  There are important officials on the planet who need credits for one reason or another.  The trick is to find them, pay them, and keep them happy.  Once you do this there is a rippling effect that spreads corruption and loyalty to me around the world.  This time I go down and find one of the members of Jabba's family.  He's one of the many who doesn't like his cousin and wants to help my cause.  I've dealt with him in the past and know his type of criminal well.  It won't be easy to find him, the best acts of corruption are never without a little effort.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_05,Hint: Take Tyber and explore the landscape. Move past the characters and units you discover on the world. Sometimes these characters will attack and other times they'll ignore you completely. When you are near enough to your mark they will start up a conversation.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_06,Hut-tina, Jabba's fourth cousin: Tyber Zann it has been too long  since we last spoke. I think that drug ring we set up on the outer moons is still running well. What are you and that miserable cousin of mine doing these days?
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_07,Tyber Zann: Never mind the pleasant conversation, Hut-tina. I've got credits for information. I know you helped Jabba hide his new treasure on Felucia. Tell me where it is and I will give you the credits.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_08,Hut-tina: It's really not that easy.  First you must deal with the Black Market on Kashyyyk.  Once you have the Buzz Droids you'll find there, you must go to Felucia.  Jabba's hidden base is there, but don't take a lot of tanks.  It's hidden where only your foot troops can go.  The Buzz Droids are a vital key toward the success of your mission.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_09,Hint: Tyber summons a Defiler to deal with the Black Market on Nal Hutta.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_08,Hut-tina: It's really not that easy.  First you must deal with the black market on Kashyyyk.  Once you have the Buzz Droids you'll find there, you must go to Felucia.  Jabba's hidden base is there, but don't take a lot of tanks.  It's hidden where only your foot troops can go.  The Buzz Droids are a vital key toward the success of your mission.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_09,Hint: Tyber summons a Defiler to deal with the black market on Nal Hutta.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_10,Hint: To see the cost of bribing your way to a planet, drag your force to your final destination without releasing the mouse button.  The bribe cost will be listed next to your fleet.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_100,Hint: Buzz droids will swarm an enemy unit and begin tearing through its hull.  Activate this ability by selecting the highlighted button and targeting an area near your desired target.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_101,Hint: Note that Urai Fen has the innate ability to self heal.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_102,Hint: The Zann Consortium can either corrupt or capture planets, the choice is yours.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_103,Hint: Like the original Empire at War, conquering establishes ownership and allows Tyber to build new bases.  Corrupting an enemy planet leaves the enemy in control, but in return Tyber gains access to unique missions, tech upgrades, enemy information, increased income, and new space routes.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_11,Tyber Zann: My plans grow apace.  As soon as the agents on Nal Hutta are contacted, I can tap into their Black Market community.  It's a source of valuable stolen technology.  Now that I know about Black Market on Nal Hutta, I can send a Defiler to establish communications with it.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_12,Hint: Drag a Defiler to the 'Spread Corruption' slot at the planet Nal Hutta.  Once there, use the Defiler to tap into the Black Market on Nal Hutta.  There will be chances to contact and gain technology from scientifically rich worlds all over the galaxy.  Once you have set up your connections with the Black Market, the world will be corrupted, and will serve your cause.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_11,Tyber Zann: My plans grow apace.  As soon as the agents on Nal Hutta are contacted, I can tap into their black market community.  It's a source of valuable stolen technology.  Now that I know about black market on Nal Hutta, I can send a Defiler to establish communications with it.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_12,Hint: Drag a Defiler to the 'Spread Corruption' slot at the planet Nal Hutta.  Once there, use the Defiler to tap into the black market on Nal Hutta.  There will be chances to contact and gain technology from scientifically rich worlds all over the galaxy.  Once you have set up your connections with the black market, the world will be corrupted, and will serve your cause.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_13,Tyber Zann: Nal Hutta is crawling with Imperial units, so we need to bribe the system officials there to let us fly by unnoticed.  We're going to raid Jabba's hidden base and take his artifact.  I'll gather all of my space and land forces and move to Felucia.  I don't intend to stay very long -- the planet is too powerful for me to win it over today.  But someday, I'll make it a permanent addition to my Consortium.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_14,Tyber Zann: In order to steal the artifact from Jabba and the Empire, we need to make a stealthy approach to Felucia.  One of the special talents of my Defilers is their ability to sabotage structures on enemy planets.  Take this Defiler to Felucia and destroy the Orbital Long Range Scanner there.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_15,Hint: Drag the Defiler to the glowing oval slot on Felucia and destroy the Ion Cannon.
@@ -16188,13 +16188,13 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_24,Tyber Zann: I know how much Jabba paid for it
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_25,Tyber Zann: Excellent.  We can now use Felucia to produce advanced ships.  I will leave it to you to capture the remaining planets.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_26,Hint: Use the saboteur to spread corruption to Felucia.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_27,Conquer the remaining planets in the galaxy.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_28,Tyber Zann: Our Mercenaries are equipped with disruptor technology from the Black Market.  Use these weapons when fighting enemy infantry.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_28,Tyber Zann: Our Mercenaries are equipped with disruptor technology from the black market.  Use these weapons when fighting enemy infantry.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_29,Hint: Make sure you include Tyber in the invading fleet!
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_30,Tyber Zann: Their forces are too powerful; we can't take them on just yet.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_31,Tyber Zann: A bunker!  I can use these structures to protect my men on the planet, and to hold key areas of the battlefield.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_32,Tyber Zann: This terrain is far too dense for vehicles, but Consortium troops will have no problem moving through it on foot.  Let's use this to our advantage.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_33,Tyber Zann: Since we have Destroyers in orbit, we can order an orbital bombardment.  This Rebel base would be an ideal target for this new weapon.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_34,Tyber Zann: This would be an ideal time to use the cloaking technology that we purchased on the Black Market.  Use this ability on our Vengeance-Class ships to launch a sneak attack on the nearby Rebel turrets.  They'll never know what hit them.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_34,Tyber Zann: This would be an ideal time to use the cloaking technology that we purchased on the black market.  Use this ability on our Vengeance-Class ships to launch a sneak attack on the nearby Rebel turrets.  They'll never know what hit them.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_35,Tyber Zann: The enemy has bomber units, but we did not come unprepared.  We can easily counter these pests by using the defensive systems on our new Crusader Gunships.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_36,Tyber Zann: We are not bound by the same restrictions that plague our enemies.  There will be no Imperial bureaucracy to slow us down; nor do we adhere to some ridiculous moral code, as do the Rebels.  Nothing will stand in the way of our success.  We will corrupt, sabotage, and annihilate our enemies.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_37,Tyber Zann: I need credits to further grow the Zann Consortium!  I must spread corruption to nearby planets with Defilers.  Once it has been established, my corrupting influence will automatically begin siphoning a percentage of each planet's income.
@@ -16211,7 +16211,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_47,Tyber Zann: Destroying the power generator wi
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_48,Hint: As long as their base shield is active our planetary bombardment is useless against their factories.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_49,Hint: Defilers spread the will of Tyber Zann across the galaxy.  They infiltrate and corrupt planets using bribery, extortion, and assassination, and other underworld tactics.  There will be choices to make when corrupting a world.  These choices determine many things, including the types of units each world produces for the Zann Consortium.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_50,Hint: From the Advanced Base Layout screen, you can arrange troops and base structures to better defend planets in your possession.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_51,Hint: Technology purchased from the black market will vary depending on many factors.  The cost of stealing certain technologies will change depending on the current tech level of the enemy you're stealing from. The items you gain from Black Markets across the galaxy will improve with the number of Black Markets you set up.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_51,Hint: Technology purchased from the black market will vary depending on many factors.  The cost of stealing certain technologies will change depending on the current tech level of the enemy you're stealing from. The items you gain from black markets across the galaxy will improve with the number of black markets you set up.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_52,Hint: The cost to destroy each structure is displayed next to it. For our purposes, the Ion Cannon is the only structure that is affordable to sabotage.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_53,Tyber Zann: Direct these mercenaries to enter the bunker by selecting them and clicking on the bunker.  This will garrison them inside the bunker and protect them from any damage, while allowing them to fire upon any nearby enemies.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_54,Hint: To call down reinforcements, click the Call for Reinforcements button.
@@ -16238,7 +16238,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_74,Hint: When a Defiler attempts to spread corru
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_75,Hint: Select 'Piracy' from the corruption menu.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_76,Tyber Zann: This will be one of the toughest battles I've ever faced.  The people of Mandalore have been among the best warriors in the galaxy for many generations.  And I'll be facing their most ruthless clan leader in the space above the planet.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_77,Tyber Zann: I've successfully hijacked the Supreme Strategist's ship.  While he rots in our custody, news of our victory will spread fear through every system in the galaxy.  Perhaps other worlds will now think twice about defying the Zann Consortium.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_78,Tyber Zann: Send my lieutenant Urai Fen to Nal Hutta to purchase Disruptor Technology from the Black Market there.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_78,Tyber Zann: Send my lieutenant Urai Fen to Nal Hutta to purchase Disruptor Technology from the black market there.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_79,Urai Fen: At your service.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_80,Urai Fen: Why an Empire planet?  Would it not be better to set up our black market on a Rebel owned world?  Because of their resistance efforts, they sometimes have access to more exotic technology that we could greatly benefit from.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_81,Tyber Zann: My motives are my own, but I will tell you this.  I was rapidly working my way up through the Imperial Academy, but some took exception to my creative solutions for advancement and had me expelled.  I vowed to make them pay for this indignity.  The Rebellion, and their worlds, may be useful later, but the Empire will start their repayment to me now.  Let's get to work.
@@ -16253,7 +16253,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_89,Tyber Zann: This worked out better than I tho
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_90,Tyber Zann: We need to bring all of our forces to Felucia before we can invade.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_91,Tyber Zann: Corrupting planets has many benefits. Not only can we spy on the forces on a planet, but we are able to study the configuration of the land invasion map.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_92,Tyber Zann: We have failed in our first attempt at corrupting Mandalore.  Fortunately, we have received word that the Supreme Strategist will be making another trip to the Hutt base.  Take this Defiler to Mandalore and try again.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_93,Hint: Be advised that only Zann Consortium heroes are capable of purchasing technology from the Black Market.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_93,Hint: Be advised that only Zann Consortium heroes are capable of purchasing technology from the black market.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_94,Tyber Zann: We don't want to give Jabba any warning.  Leave Mandalore under his control for now.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_95,Urai Fen: We need to go into hiding quickly!  Attacking Mandalore would expose us.  We cannot afford that at this time.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_96,Urai Fen: It would be foolish to expose ourselves to the Imperials at Nal Hutta.  Let's get to Kamino and out of sight.
@@ -19007,13 +19007,13 @@ TEXT_UW_ACT01_G02_12,Striking Back at Jabba
 TEXT_UW_ACT01_G02_13,Jabba thought that he could absorb all my planets and take control of the Consortium.  Shola was one of my storage houses for contraband, and Jabba wasted no time in stealing everything I had there.  Unfortunately, Urai chose Shola as the hiding place for the Sith Artifact I stole - we need to get it back and destroy Jabba's forces there before they manage to uncover it.
 TEXT_UW_ACT01_G03_08,Task: Take a fleet including Tyber Zann to Yavin 4.
 TEXT_UW_ACT01_G03_09,Hint: Remember that you can corrupt planets in a chain and bribe planets to let you pass without battle.
-TEXT_UW_ACT01_G05_01,Task: Use a Defiler to establish a Black Market on Kuat.
+TEXT_UW_ACT01_G05_01,Task: Use a Defiler to establish a black market on Kuat.
 TEXT_UW_ACT01_G05_02,Task: Drag Tyber Zann to the 'Buy' slot on Kuat.
 TEXT_UW_ACT01_G05_04,Task: Purchase Disruptor Technology.
-TEXT_UW_ACT01_G05_05,Hint: After accessing the Black Market your hero is removed from the game temporarily.  The amount of time they remain out of play depends on the hero.
+TEXT_UW_ACT01_G05_05,Hint: After accessing the black market your hero is removed from the game temporarily.  The amount of time they remain out of play depends on the hero.
 TEXT_UW_ACT01_G05_06,The Zann Consortium advances their technology differently than the other factions.  While all of their units are generally available from the beginning, the special abilities must be purchased from the black market.  In this way the units become more powerful as the game advances.
-TEXT_UW_ACT01_G05_07,To enter the Black Market, you must first spread corruption on a system.  Once corrupted, you can drag Tyber Zann or Urai Fen, and some other heroes to the Black Market context sensitive slot.
-TEXT_UW_ACT01_G05_08,Different heroes have different effects on the Black Market.  Tyber Zann lowers the tech level requirement of technology one level, while Urai Fen can gain tech more quickly.  Of course, these abilities have a large effect on the price you pay.
+TEXT_UW_ACT01_G05_07,To enter the black market, you must first spread corruption on a system.  Once corrupted, you can drag Tyber Zann or Urai Fen, and some other heroes to the black market context sensitive slot.
+TEXT_UW_ACT01_G05_08,Different heroes have different effects on the black market.  Tyber Zann lowers the tech level requirement of technology one level, while Urai Fen can gain tech more quickly.  Of course, these abilities have a large effect on the price you pay.
 TEXT_UW_ACT01_G05_09,Tyber Zann has accessed the black market.  Since Kuat belongs to the Empire, you will only see technology that they control.  Rebel-controlled planets will have different technology available.  Note that some of the advances are relatively cheap, while others are extremely expensive.  Each ability has an associated enemy tech level - the Zann Consortium has no tech level of its own.  Because of this, the Zann Consortium must balance its expansion with the need for new tech.  Once the Empire's tech level advances, the price of the tech associated with that level is cut dramatically.
 TEXT_UW_ACT01_G05_10,Hint: Note that you can hover the mouse over each tech advancement to see what it does and which of the Zann Consortium units will be affected by it.
 TEXT_UW_ACT01_G05_15,Black Market Establishment
