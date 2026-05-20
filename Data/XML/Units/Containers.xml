@@ -9,7 +9,9 @@
 		<Show_Name>No</Show_Name>
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
 		<Behavior>
-			SELECTABLE, FLEET, FLEET_LOCOMOTOR
+			SELECTABLE,
+			FLEET,
+			FLEET_LOCOMOTOR
 		</Behavior>
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
@@ -25,16 +27,19 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Show_Name>No</Show_Name>
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
 		<Behavior>FLEET</Behavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	</Container>
 
 	<Container Name="Team">
 		<Text_ID>TEXT_OBJECT_TEAM</Text_ID>
 		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR</Behavior>
+		<Behavior>
+			TEAM,
+			SELECTABLE,
+			UNIT_AI,
+			TEAM_LOCOMOTOR
+		</Behavior>
 		<LandBehavior>
 			REVEAL
 		</LandBehavior>
