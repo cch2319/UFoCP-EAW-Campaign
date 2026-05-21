@@ -1988,6 +1988,8 @@
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Bothan_Civ_Force_Lightning_Death_Clone">
@@ -1995,6 +1997,8 @@
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</Indigenous_Unit>
 
 	<Indigenous_Unit Name="Bothan_Civilian_Mission_Force_Lightning_Death_Clone">
@@ -3806,6 +3810,7 @@
 		<Custom_Hard_YExtent>24.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<CategoryMask>None</CategoryMask>
@@ -3822,6 +3827,7 @@
 		<Custom_Hard_YExtent>24.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 		<CategoryMask>None</CategoryMask>

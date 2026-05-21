@@ -124,6 +124,8 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<TransportUnit Name="Imperial_Landing_Craft_Landing">
@@ -276,6 +278,8 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<TransportUnit Name="Imperial_ATAT_Barge_Landing">
@@ -409,6 +413,8 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<TransportUnit Name="Non_Combat_Gallofree">
@@ -566,7 +572,8 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<CategoryMask>None</CategoryMask>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<TransportUnit Name="Shuttle_Tyderium_Landing">
@@ -759,7 +766,8 @@
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<CategoryMask>None</CategoryMask>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<TransportUnit Name="Alliance_Shuttle_Landing">

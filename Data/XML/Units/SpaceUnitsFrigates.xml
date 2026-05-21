@@ -189,6 +189,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -383,6 +384,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -567,6 +569,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -774,6 +777,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -970,6 +974,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -1137,6 +1142,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 
@@ -1351,6 +1357,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </SpaceUnitsFrigates>

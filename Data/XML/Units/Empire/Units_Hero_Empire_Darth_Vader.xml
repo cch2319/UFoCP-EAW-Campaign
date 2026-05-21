@@ -973,6 +973,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>super</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 
@@ -1180,9 +1181,11 @@
 		<Show_Name>No</Show_Name>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 
-		<!-- AJA 3/18/2005 - Vader's fighting isn't a hero, but it does contain a hero. If
-		you specifically need this flag set, come talk to Andre before re-enabling it. No
-		other hero transport claims to be a hero, so this seemed like a strange exception case. -->
+		<!--
+			AJA 3/18/2005 - Vader's fighting isn't a hero, but it does contain a hero. If
+			you specifically need this flag set, come talk to Andre before re-enabling it. No
+			other hero transport claims to be a hero, so this seemed like a strange exception case.
+		-->
 		<!--<Is_Named_Hero>Yes</Is_Named_Hero>-->
 
 
@@ -1204,6 +1207,7 @@
 		<SpaceBehavior>
 			REVEAL
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>

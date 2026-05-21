@@ -3058,14 +3058,13 @@
 		<!--<Death_Clone>Damage_Normal, AlzocIII_Prize_Shaak_Death_Clone</Death_Clone>-->
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
-
 	</Props_Story>
 
 	<Props_Story Name="AlzocIII_Prize_Shaak_Death_Clone">
 		<Variant_Of_Existing_Type>AlzocIII_Prize_Shaak</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
-
-
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</Props_Story>
 
 

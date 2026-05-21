@@ -183,6 +183,7 @@
 		<Glory_Cinematics />
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 

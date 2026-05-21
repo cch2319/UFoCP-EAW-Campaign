@@ -257,6 +257,8 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>

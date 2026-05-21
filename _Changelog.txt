@@ -65,6 +65,10 @@ MISC:
 ======
 
 
+Multiplayer:
+• MP stability should be greatly improved. (BUG #673)
+
+
 Ability Fixes:
 • Fixed Rogue Squadron's "Strike" ability embracing its inner creepypasta, losing its icon and renaming itself to "-BAD VALUE-" when used while selecting multiple X-wings. (BUG #272)
 

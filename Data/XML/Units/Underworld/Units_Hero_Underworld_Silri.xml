@@ -594,6 +594,7 @@
 		<Custom_Hard_YExtent>24.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 
@@ -618,6 +619,7 @@
 		<Custom_Hard_YExtent>24.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
 

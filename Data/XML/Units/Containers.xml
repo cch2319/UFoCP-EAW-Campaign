@@ -50,6 +50,7 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</Container>
 
 
@@ -86,6 +87,7 @@
 			REVEAL,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
@@ -174,6 +176,7 @@
 			REVEAL,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
@@ -223,6 +226,8 @@
 		<SpaceBehavior>
 			REVEAL
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -289,6 +294,8 @@
 			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
 		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -345,6 +352,8 @@
 			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
 		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -406,6 +415,8 @@
 			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
 		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -465,6 +476,8 @@
 			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
 		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -518,6 +531,8 @@
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -583,6 +598,8 @@
 			REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT
 		</LandBehavior>
 		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -639,6 +656,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -675,6 +694,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>65</Select_Box_Scale>
@@ -712,6 +733,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>65</Select_Box_Scale>
@@ -748,6 +771,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -784,6 +809,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -820,6 +847,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -856,6 +885,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Garrison_Category>Infantry</Garrison_Category>
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
@@ -892,6 +923,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>65</Select_Box_Scale>
@@ -928,6 +961,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -964,6 +999,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -1000,6 +1037,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -1037,6 +1076,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -1073,6 +1114,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -1109,6 +1152,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -1145,6 +1190,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>50</Select_Box_Scale>
@@ -1182,6 +1229,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -1218,6 +1267,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -1255,6 +1306,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -1292,6 +1345,8 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -1328,9 +1383,10 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
-
 		<Max_Speed>.8</Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer>Land</Space_Layer>
@@ -1362,9 +1418,10 @@
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
 		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
-
 		<Max_Speed>.8</Max_Speed>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer>Land</Space_Layer>

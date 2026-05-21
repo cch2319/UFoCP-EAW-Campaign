@@ -255,6 +255,7 @@
 		<Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>15</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
@@ -277,6 +278,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_Persistence_Duration>15</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
@@ -300,6 +302,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_Persistence_Duration>15</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
@@ -323,6 +326,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_Persistence_Duration>15</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
@@ -615,6 +619,7 @@
 		<Custom_Hard_YExtent>6.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>30</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
@@ -633,6 +638,7 @@
 		<Custom_Hard_YExtent>15.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>30</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
@@ -650,6 +656,7 @@
 		<Custom_Hard_YExtent>6.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>30</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
 		<Specific_Death_Anim_Index>2</Specific_Death_Anim_Index>
@@ -1116,6 +1123,7 @@
 		<Custom_Hard_XExtent_Offset>-9.0</Custom_Hard_XExtent_Offset>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>
@@ -1498,6 +1506,7 @@
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Tank_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle>True</IsDeathCloneObstacle>

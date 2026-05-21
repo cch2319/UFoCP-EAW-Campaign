@@ -318,6 +318,7 @@
 		<SpaceBehavior>
 			REVEAL
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<MovementClass>Space</MovementClass>
 		<Max_Speed>5.8</Max_Speed>

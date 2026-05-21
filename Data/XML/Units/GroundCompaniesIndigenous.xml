@@ -695,7 +695,7 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Text>
 	</GroundCompany>
 
-	<GroundCompany Name="Empire_Pirate_Skiff_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Empire_Pirate_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Empire</Affiliation>
@@ -719,7 +719,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 	</GroundCompany>
 
-	<GroundCompany Name="Rebel_Pirate_Skiff_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Rebel_Pirate_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Rebel</Affiliation>
@@ -744,7 +744,7 @@
 	</GroundCompany>
 
 
-	<GroundCompany Name="Underworld_Skiff_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Underworld_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Underworld</Affiliation>
@@ -814,7 +814,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
 	</GroundCompany>
 
-	<GroundCompany Name="Empire_Pirate_Swamp_Speeder_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Empire_Pirate_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Empire</Affiliation>
@@ -837,7 +837,7 @@
 	</GroundCompany>
 
 
-	<GroundCompany Name="Rebel_Pirate_Swamp_Speeder_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Rebel_Pirate_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Rebel</Affiliation>
@@ -859,7 +859,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
 	</GroundCompany>
 
-	<GroundCompany Name="Underworld_Swamp_Speeder_Team"><!--Multiplayer Only-->
+	<GroundCompany Name="Underworld_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
 
 		<Affiliation>Underworld</Affiliation>

@@ -482,6 +482,8 @@
 
 		<Behavior>TEAM, UNIT_AI</Behavior>
 		<LandBehavior>SELECTABLE, REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, ABILITY_COUNTDOWN, GARRISON_UNIT</LandBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
 		<Garrison_Category>Infantry</Garrison_Category>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>

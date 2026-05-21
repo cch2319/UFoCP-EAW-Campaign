@@ -422,6 +422,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
 	</UniqueUnit>
 </Grand_Admiral_Thrawn_Data>

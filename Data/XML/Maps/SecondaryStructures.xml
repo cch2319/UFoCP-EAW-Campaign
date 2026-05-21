@@ -1072,7 +1072,8 @@
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>25</Death_Persistence_Duration>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</SecondaryStructure>
 

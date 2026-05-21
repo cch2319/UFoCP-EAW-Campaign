@@ -176,6 +176,7 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<!-- Slave I is used by Boba Fett (Empire Major Hero) during space battles -->
@@ -333,6 +334,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Slave_I_Landing">
@@ -842,6 +844,7 @@
 		<Glory_Cinematics>CAM_HomeOne_Die.tec</Glory_Cinematics>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 
@@ -1429,6 +1432,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Millennium_Falcon_Backwards_Death_Clone">
@@ -1444,6 +1448,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<!-- Used in Empire Campaign Act III Mission 8 -->
@@ -1743,6 +1748,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Sundered_Heart_Cinematic_Clone">
@@ -1939,6 +1945,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<CategoryMask>None</CategoryMask>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Jedi_Cruiser_E">

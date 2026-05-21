@@ -40,6 +40,7 @@
 			AMBIENT_SFX,
 			NEBULA
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<SFXEvent_Select>Unit_Select_Wedge_Rogue</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Wedge_Rogue</SFXEvent_Move>
@@ -324,6 +325,7 @@
 			ABILITY_COUNTDOWN,
 			REVEAL
 		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>

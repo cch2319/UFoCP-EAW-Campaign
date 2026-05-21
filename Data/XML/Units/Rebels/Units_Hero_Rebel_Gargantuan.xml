@@ -230,6 +230,7 @@
 		<IsDeathClone>True</IsDeathClone>
 		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
 		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</UniqueUnit>
 
 

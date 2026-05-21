@@ -286,6 +286,7 @@
 
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
