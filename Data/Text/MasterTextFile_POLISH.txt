@@ -18285,7 +18285,7 @@ TEXT_TOOLTIP_SABOTEUR,Sabotażysta wypełnia rozkazy Tybera Zanna na terenie gal
 TEXT_TOOLTIP_SCAVENGER_DROID,Droidy-padlinożercy przyczepiają się do pojazdów i zaczynają je rozbierać, zamieniając uzyskany w ten sposób złom na kredyty.
 TEXT_TOOLTIP_SCOUTTROOPER,Żołnierze Imperium wyposażeni w skutery. Wykonują misje zwiadowcze, mogą zrzucać miny. W kompanii może się znaleźć 2 żołnierzy. 
 TEXT_TOOLTIP_SD_ADMONITOR,Admonitor to okręt flagowy wielkiego admirała Thrawna.
-TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships.
+TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician who grants minor damage, defense and speed bonuses to all ships in space combat he participates in.  The Admonitor is a Star Destroyer that can overcharge its batteries and rapidly assault any target in range.
 TEXT_TOOLTIP_SELL_STRUCTURE,Sprzedaj wybraną budowlę
 TEXT_TOOLTIP_SENSOR_NODE,Specjalny czujnik, pozwalający na usunięcie mgły wojny.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Zagłuszacz unieszkodliwia nieprzyjacielskie systemy radarowe oraz zakłóca systemy naprowadzania pocisków.

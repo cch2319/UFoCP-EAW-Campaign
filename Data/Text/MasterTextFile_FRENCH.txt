@@ -18285,7 +18285,7 @@ TEXT_TOOLTIP_SABOTEUR,Le Corrupteur propage l'influence de Tyber Zann dans toute
 TEXT_TOOLTIP_SCAVENGER_DROID,Les droïdes casseurs désossent les véhicules, convertissant la ferraille en précieux crédits.
 TEXT_TOOLTIP_SCOUTTROOPER,Soldats Impériaux chevauchant des motos-jets. Ils peuvent larguer des mines pour infliger de lourds dommages à l'infanterie ennemie. 2 soldats par groupe.
 TEXT_TOOLTIP_SD_ADMONITOR,L'Admonitor est le vaisseau du Grand Amiral Thrawn.
-TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships.
+TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician who grants minor damage, defense and speed bonuses to all ships in space combat he participates in.  The Admonitor is a Star Destroyer that can overcharge its batteries and rapidly assault any target in range.
 TEXT_TOOLTIP_SELL_STRUCTURE,Vendre la structure sélectionnée.
 TEXT_TOOLTIP_SENSOR_NODE,Radar spécialisé qui permet de lever le brouillard de guerre dans son rayon d'action.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Ce brouilleur perturbe les radars ennemis, réduit leur visibilité et affole les systèmes de guidage des missiles.
