@@ -15,7 +15,7 @@
 	
 */
 
-string _ALAMO_RENDER_PHASE = "SemiOpaque";
+string _ALAMO_RENDER_PHASE = "Transparent";
 string _ALAMO_VERTEX_PROC = "Grass";    
 string _ALAMO_VERTEX_TYPE = "alD3dVertGrass";
 bool _ALAMO_TANGENT_SPACE = false;
