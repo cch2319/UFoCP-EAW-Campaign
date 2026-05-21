@@ -340,6 +340,14 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
 
+• TEXT_TOOLTIP_PIETT_02: (BUG #227)
+	-- ENG: A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships. --> Dedicated Imperial Fleet Commander.  Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in, with an additional 25% to other Star Destroyers.  The Accuser is an enhanced Star Destroyer equipped with a proton energy weapon for a quick, devastating attack.
+	-- FRA: (Same as English)
+	-- GER: Als engagierter imperialer Flottenkommandant gewährt Captain Firmus Piett allen Schiffen, an denen er im Weltraum kämpft, einen 25%igen Bonus auf die Kampfkraft. Der Ankläger ist mit 4 Turbolaser-Batterien, 2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern bewaffnet. Außerdem ist er mit einer Protonen-Energiewaffe für einen schnellen, verheerenden Angriff und einem Fangstrahl zur Immobilisierung kleinerer Schiffe ausgestattet. --> Engagierter Kommandant der Imperialen Flotte. Captain Firmus Piett gewährt allen Schiffen in Weltraumkämpfen, an denen er teilnimmt, einen Bonus von 25 % auf die Kampfgesundheit, wobei andere Sternenzerstörer zusätzlich 25 % erhalten. Der Ankläger ist ein verbesserter Sternenzerstörer, der mit einer Protonenenergie-Waffe für schnelle, verheerende Angriffe ausgerüstet ist.
+	-- POL: (Same as English)
+	-- RUS: (Same as English)
+	-- SPA: (Same as English)
+
 • TEXT_TOOLTIP_SD_ADMONITOR_02: (BUG #225)
 	-- ENG: ...Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships. --> ...Thrawn is a master strategist and tactician who grants minor damage, defense and speed bonuses to all ships in space combat he participates in.  The Admonitor is a Star Destroyer that can overcharge its batteries and rapidly assault any target in range.
 	-- FRA: (Same as English)
