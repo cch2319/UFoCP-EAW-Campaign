@@ -98,6 +98,7 @@ Model Fixes:
 
 Structure Fixes:
 • The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with every other defense satellite icon (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
+• The Reinforcement Points and various versions of it (that give different pop. cap values) have received an AI "CategoryMask" to prevent throwing handfuls of assertions every few frames when present in a battle.
 
 
 Texture Fixes:

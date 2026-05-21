@@ -877,6 +877,7 @@
 		<Property_Flags>IsRushTarget</Property_Flags>
 		<Immune_To_Damage>True</Immune_To_Damage>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<CategoryMask>Structure</CategoryMask>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Plus1_Cap">
@@ -957,6 +958,7 @@
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<CategoryMask>Structure</CategoryMask>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Rebel_Plus4_Cap">
@@ -1005,6 +1007,7 @@
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<CategoryMask>Structure</CategoryMask>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Empire_Plus4_Cap">
@@ -1054,6 +1057,7 @@
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
 		<Immune_To_Damage>True</Immune_To_Damage>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<CategoryMask>Structure</CategoryMask>
 	</Marker>
 
 	<Marker Name="Reinforcement_Point_Underworld_Plus4_Cap">
