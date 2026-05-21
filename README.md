@@ -50,7 +50,7 @@ Forces of Corruption, and this repo, works with TGA, DDS, ICO and PNG (with DDS 
 - [Paint.NET](https://www.getpaint.net/)
 
 ## Links
-- Discord: https://discord.gg/empireatwar
+- Discord: https://discord.gg/ArFEBEPhYQ
 - Bug Reports: https://github.com/AlyMar1994/UFCP/issues
 - Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1548018187
 - ModDB: https://www.moddb.com/mods/unofficial-forces-of-corruption-patch
