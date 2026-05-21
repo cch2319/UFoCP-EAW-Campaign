@@ -19206,6 +19206,7 @@ TEXT_WEAPON_HARDPOINT,Sistema de armas
 TEXT_WEAPON_IONCANNON,Batería de cañones de iones
 TEXT_WEAPON_LASERCANNON,Batería de cañones láser
 TEXT_WEAPON_MASS_DRIVER,Acelerador de masa
+TEXT_WEAPON_PLASMACANNON,Batería de cañones de plasma
 TEXT_WEAPON_SPECIAL,Arma especial
 TEXT_WEAPON_TORPEDOES,Lanzador de torpedos de protones
 TEXT_WEAPON_TURBOLASER,Batería turboláser

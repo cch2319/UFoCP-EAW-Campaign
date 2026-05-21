@@ -19206,6 +19206,7 @@ TEXT_WEAPON_HARDPOINT,System uzbrojenia
 TEXT_WEAPON_IONCANNON,Bateria dział jonowych
 TEXT_WEAPON_LASERCANNON,Bateria dział laserowych
 TEXT_WEAPON_MASS_DRIVER,Działo masowe
+TEXT_WEAPON_PLASMACANNON,Bateria dział plazmowych
 TEXT_WEAPON_SPECIAL,Broń specjalna
 TEXT_WEAPON_TORPEDOES,Wyrzutnia torped protonowych
 TEXT_WEAPON_TURBOLASER,Bateria turbolaserów

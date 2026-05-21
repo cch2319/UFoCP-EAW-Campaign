@@ -4144,7 +4144,7 @@
 		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_PLASMACANNON</Tooltip_Text>
 		<Health>450.00</Health>
 		<Repair_Cost_Per_Frame>1.50</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
@@ -4307,7 +4307,7 @@
 		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_PLASMACANNON</Tooltip_Text>
 		<Health>500.00</Health>
 
 		<Repair_Cost_Per_Frame>1.50</Repair_Cost_Per_Frame>

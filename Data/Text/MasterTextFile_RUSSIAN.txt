@@ -19206,6 +19206,7 @@ TEXT_WEAPON_HARDPOINT,Оружейные системы
 TEXT_WEAPON_IONCANNON,Батарея ионных пушек
 TEXT_WEAPON_LASERCANNON,Батарея лазерных пушек
 TEXT_WEAPON_MASS_DRIVER,Автоматическая пушка
+TEXT_WEAPON_PLASMACANNON,Батарея плазменных пушек
 TEXT_WEAPON_SPECIAL,Спецоружие
 TEXT_WEAPON_TORPEDOES,Протонный торпедный аппарат
 TEXT_WEAPON_TURBOLASER,Батарея турболазерных пушек
