@@ -17962,18 +17962,18 @@ TEXT_TOOLTIP_ABILITY_WEAKEN_ENEMY_NAME,Weaken Enemy
 TEXT_TOOLTIP_ABILITY_WEATHER_FILTER,Display/Hide a planet's special ability and weather icons on the galactic map.
 TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_02,Display/Hide a planet's special ability, weather and corruption icons on the galactic map.
 TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_NAME,Weather/Ability Filter
-TEXT_TOOLTIP_ACCLAMATOR,Medium frigate armed with 2 turbolaser batteries, 2 laser cannon batteries, a proton torpedo launcher, and a concussion missile launcher. Also carries 3 TIE fighter squadrons and 1 TIE bomber squadrons. A ship that fills many roles, which is both its strength and weakness.
+TEXT_TOOLTIP_ACCLAMATOR,Medium frigate armed with 2 turbolaser batteries, 2 laser cannon batteries, a proton torpedo launcher, and a concussion missile launcher.  Also carries 3 TIE fighter squadrons and 1 TIE bomber squadrons.  A ship that fills many roles, which is both its strength and weakness.
 TEXT_TOOLTIP_AI_TURRET,Anti-Infantry turret capable of defeating enemy infantry assaults.
 TEXT_TOOLTIP_AKBAR,Rebellion admiral able to command ships of the fleet for maximum combat effectiveness and reduces ship production costs. Travels in Home One. A formidable capital ship.
 TEXT_TOOLTIP_ANNIHILATOR,The Annihilator - Admiral Gaarn
-TEXT_TOOLTIP_ANTILLES,The ship of Captain Raymus Antilles, a veteran of the Clone Wars who serves under Senators Bail and Leia Organa. His ship is a heavily modified Corellian Corvette.
+TEXT_TOOLTIP_ANTILLES,The ship of Captain Raymus Antilles, a veteran of the Clone Wars who serves under Senators Bail and Leia Organa.  His ship is a heavily modified Corellian Corvette.
 TEXT_TOOLTIP_ARC_HAMMER,A mobile factory ship, commanded by General Rom Mohc.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
-TEXT_TOOLTIP_ASSAULT_FRIGATE,Heavy assault frigate armed with 2 enhanced turbolaser batteries and 2 laser cannon batteries. An advanced combat ship with emphasis on firepower at the expense of durability.
-TEXT_TOOLTIP_ATAA,All Terrain Anti Aircraft walker armed with flak cannons capable of defeating flying threats with ease. Can emit a field that disrupts missile guidance systems.  3 vehicles per company.
-TEXT_TOOLTIP_ATAT,All Terrain - Armored Transport armed with twin heavy laser cannons. Thick armor compensates for its slow speed. Able to deploy Stormtroopers.
-TEXT_TOOLTIP_ATAT_BARGE,Contains AT-AT vehicle. Slow speed and weak armor of this transport make it vulnerable to nearly every enemy threat.
-TEXT_TOOLTIP_ATST,All Terrain Scout Transport armed with a pair of light laser cannons. Ideal for garrison duties and neutralizing light enemy resistance. Capable of releasing a barrage of fire on an area for a limited time. 4 vehicles per company.
+TEXT_TOOLTIP_ASSAULT_FRIGATE,Heavy assault frigate armed with 2 enhanced turbolaser batteries and 2 laser cannon batteries.  An advanced combat ship with emphasis on firepower at the expense of durability.
+TEXT_TOOLTIP_ATAA,All Terrain Anti Aircraft walker armed with flak cannons capable of defeating flying threats with ease.  Can emit a field that disrupts missile guidance systems.  3 vehicles per company.
+TEXT_TOOLTIP_ATAT,All Terrain - Armored Transport armed with twin heavy laser cannons.  Thick armor compensates for its slow speed.  Able to deploy Stormtroopers.
+TEXT_TOOLTIP_ATAT_BARGE,Contains AT-AT vehicle.  Slow speed and weak armor of this transport make it vulnerable to nearly every enemy threat.
+TEXT_TOOLTIP_ATST,All Terrain Scout Transport armed with a pair of light laser cannons.  Ideal for garrison duties and neutralizing light enemy resistance.  Capable of releasing a barrage of fire on an area for a limited time.  4 vehicles per company.
 TEXT_TOOLTIP_ATTACK,Attack
 TEXT_TOOLTIP_ATTACK_01,Attack targeted object with selected units
 TEXT_TOOLTIP_ATTACK_DEFENSE,Combat Power: %ld
@@ -17994,15 +17994,15 @@ TEXT_TOOLTIP_BM_SENSOR_JAMMING,Enables units to jam the communications and guida
 TEXT_TOOLTIP_BM_SHIELD_REDIST,Allows the transfer of enemy shield energy to a weapon system, boosting the weapon effectiveness.
 TEXT_TOOLTIP_BM_STRAT_DEMO,Allows units to overload their weapons or drive systems to produce a strategic explosion.  Does not guarantee the survival of the pilot.
 TEXT_TOOLTIP_BM_WEAPON_SYNC,Allows multiple weapons to synchronize their firepower for increased damage and accuracy.
-TEXT_TOOLTIP_BM_WEAPONIZED_CARBONITE,Allows the use of carbonite in weapon form, such as missiles. Carbonite missiles damage and slow enemy units.
+TEXT_TOOLTIP_BM_WEAPONIZED_CARBONITE,Allows the use of carbonite in weapon form, such as missiles.  Carbonite missiles damage and slow enemy units.
 TEXT_TOOLTIP_BOARDING_SHUTTLE,The RZ-52 Dekard boarding shuttle carries up to 12 destroyer droids.  It is equipped to deposit the droids into a ship and destroy it from the inside.  It has no defenses other than speed.
-TEXT_TOOLTIP_BOBA_FETT,A bounty hunter who can travel around the galaxy undetected by enemy fleets. Can deploy at a system to eliminate enemy heroes. Armed with a flame thrower and a jetpack for quick get away.
+TEXT_TOOLTIP_BOBA_FETT,A bounty hunter who can travel around the galaxy undetected by enemy fleets.  Can deploy at a system to eliminate enemy heroes.  Armed with a flame thrower and a jetpack for quick get away.
 TEXT_TOOLTIP_BOMBRUN_BUTTON,Call for Bombing Run
-TEXT_TOOLTIP_BOSSK,A Trandoshan bounty hunter with a reputation for ruthlessness; hates Wookiees and Chewbacca in particular. Can deploy at a system to eliminate enemy heroes.
+TEXT_TOOLTIP_BOSSK,A Trandoshan bounty hunter with a reputation for ruthlessness; hates Wookiees and Chewbacca in particular.  Can deploy at a system to eliminate enemy heroes.
 TEXT_TOOLTIP_BOSSK_FLAMETHROWER,Flamethrower
 TEXT_TOOLTIP_BOSSK_SWAP,Weapon Swap: Plasma Grenades
 TEXT_TOOLTIP_BOUNTYHUNTER,Travels the galaxy undetected by hostile fleets and can be deployed on enemy systems to find and neutralize minor Bounty Hunters, minor Smugglers, Defilers, Fleet Commanders and Field Commanders.
-TEXT_TOOLTIP_BROADSIDE,Missile frigate armed with incredibly long ranged Diamond-Boron missiles able to inflict great damage. Suffers from low accuracy, weak armor, and poor maneuverability.
+TEXT_TOOLTIP_BROADSIDE,Missile frigate armed with incredibly long ranged Diamond-Boron missiles able to inflict great damage.  Suffers from low accuracy, weak armor, and poor maneuverability.
 TEXT_TOOLTIP_BUTTON_CANCEL,Cancel Production
 TEXT_TOOLTIP_C3P0,The droid companion of R2-D2. Provides voice of reason.
 TEXT_TOOLTIP_CAPITAL_SHIPS,Capital Ships
@@ -18012,8 +18012,8 @@ TEXT_TOOLTIP_CLICK_FOR_MORE_INFO,Click for more information on corruption choice
 TEXT_TOOLTIP_CLOAK,Cloak
 TEXT_TOOLTIP_CLOSED_STRUCTURE_SLOT,Empty Structure Slot
 TEXT_TOOLTIP_COMPANY_COUNT,Ground Forces on Planet
-TEXT_TOOLTIP_CORELLIAN_CORVETTE,Fast patrol cruiser armed with 8 laser cannons. Designed to destroy fighters and bombers. Engines are extremely powerful allowing it to safely run away from any fight it can't win.
-TEXT_TOOLTIP_CORELLIAN_GUNBOAT,Fast patrol cruiser armed with 2 laser cannons and 4 concussion missile launchers. Dominant missile weaponry can damage enemy ships even if their shields are up.
+TEXT_TOOLTIP_CORELLIAN_CORVETTE,Fast patrol cruiser armed with 8 laser cannons.  Designed to destroy fighters and bombers.  Engines are extremely powerful allowing it to safely run away from any fight it can't win.
+TEXT_TOOLTIP_CORELLIAN_GUNBOAT,Fast patrol cruiser armed with 2 laser cannons and 4 concussion missile launchers.  Dominant missile weaponry can damage enemy ships even if their shields are up.
 TEXT_TOOLTIP_CORRUPT_EVIL_PLANET,Corrupt Empire controlled planet
 TEXT_TOOLTIP_CORRUPT_GOOD_PLANET,Corrupt Rebel controlled planet
 TEXT_TOOLTIP_CORRUPTION_AGENT,The corruption agent spreads the will of Tyber Zann across the galaxy by infiltrating a planet with bribery, extortion and assassination.
@@ -18031,7 +18031,7 @@ TEXT_TOOLTIP_DARKTROOPER_P1_COMPANY,Dark Trooper P1 Company
 TEXT_TOOLTIP_DARKTROOPER_P2,The second level of dark trooper; quick and maneuverable, medium level firepower.
 TEXT_TOOLTIP_DARKTROOPER_P2_COMPANY,Dark Trooper P2 Company
 TEXT_TOOLTIP_DARKTROOPER_P3,The height of the Dark Trooper technology, the Phase III holds multiple weapon systems to battle any foe.
-TEXT_TOOLTIP_DARTH_VADER,Powerful with the dark side of the Force. Capable of destroying his enemies with ease.
+TEXT_TOOLTIP_DARTH_VADER,Powerful with the dark side of the Force.  Capable of destroying his enemies with ease.
 TEXT_TOOLTIP_DEATH_STAR,Immense Battle Station with enough firepower to destroy an entire planet.
 TEXT_TOOLTIP_DEATH_STAR_II,A larger, more powerful version of the original Death Star; the new battle station includes enhanced targeting computers for the superlaser, allowing it to fire on slow-moving ships.
 TEXT_TOOLTIP_DEATHSTAR_FIRED,Death Star weapon unavailable
@@ -18055,7 +18055,7 @@ TEXT_TOOLTIP_DT_JETPACK,Jet Pack
 TEXT_TOOLTIP_ECLIPSE,The emperor's ultimate expression of power, the Eclipse-class Star Destroyer boasted a planet's worth of weaponry, including a coaxial superlaser.
 TEXT_TOOLTIP_ECLIPSE_SL_DESCRIPTION,While not able to destroy a planet like the Death Star, the Eclipse superlaser can render a planet uninhabitable, or destroy large capital ships with a single shot.
 TEXT_TOOLTIP_EFFECT_BOUNTY_HUNTER,A hero or smuggler has been neutralized here.
-TEXT_TOOLTIP_EFFECT_SMUGGLER,Smuggler present. He can be neutralized with a bounty hunter.
+TEXT_TOOLTIP_EFFECT_SMUGGLER,Smuggler present.  He can be neutralized with a bounty hunter.
 TEXT_TOOLTIP_ELITE_GUARD,Highly trained trooper serving as the Imperial elite fighting force.
 TEXT_TOOLTIP_EMF_GEN,Generates an EM jamming field that disrupts missile guidance systems.
 TEXT_TOOLTIP_ENEMY_BOUNTY_HUNTER,Assassinations by Enemy Bounty Hunter
@@ -18137,14 +18137,14 @@ TEXT_TOOLTIP_HERO_FILTER,Brings heroes to the top of a unit stack on the galacti
 TEXT_TOOLTIP_HERO_FILTER_NAME,Hero Filter
 TEXT_TOOLTIP_HEROES_BUTTON,Heroes
 TEXT_TOOLTIP_HOME_ONE,Capital ship of Commander Ackbar, an excellent fleet commander able to direct other ships to fire for maximum effect. Home One is armed with 4 turbolaser batteries and 4 ion cannon batteries.
-TEXT_TOOLTIP_HOME_ONE_01,Capital ship of Admiral Ackbar, an excellent fleet commander able to direct other ships to fire for maximum effect. Home One is armed with 4 turbolaser batteries and 4 ion cannon batteries.
+TEXT_TOOLTIP_HOME_ONE_01,Capital ship of Admiral Ackbar, an excellent fleet commander able to direct other ships to fire for maximum effect.  Home One is armed with 4 turbolaser batteries and 4 ion cannon batteries.
 TEXT_TOOLTIP_HOUNDSTOOTH,Bossk's personal transport ship.
 TEXT_TOOLTIP_HOUNDSTOOTH_02,A slow but powerful starfighter, the Hound's Tooth is Bossk's personal transport ship.  Armed with 2 rapid-fire missile batteries, 2 laser cannons, and a missile jammer which repels projectiles away from the hull.
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Allows production of various Hutt units and upgrades.
 TEXT_TOOLTIP_HYPERV_BUTTON,Fire the Hypervelocity Gun
 TEXT_TOOLTIP_IG2000,IG-88's ship is an extension of his own mind.
 TEXT_TOOLTIP_IG2000_02,A light and maneuverable fighter, IG-2000 is a direct extension of IG-88's mind.  Armed with two laser cannons, IG-88 can disrupt enemy ship computers, draining their shields and affecting their accuracy.
-TEXT_TOOLTIP_IG88,A sinister bounty hunter with the body of a droid and the mind of a hyper-intelligent AI. Can deploy at a system to eliminate enemy heroes.
+TEXT_TOOLTIP_IG88,A sinister bounty hunter with the body of a droid and the mind of a hyper-intelligent AI.  Can deploy at a system to eliminate enemy heroes.
 TEXT_TOOLTIP_INDIG_BOTHAN_CIV,The native inhabitant of Bothawui.  Lightly armed, but highly motivated to defend their home.
 TEXT_TOOLTIP_INDIG_ELITE_GUARD,The emperor's highly-trained bodyguards, clad in red.  Royal Guards use force pikes, an energy staff that is effective against infantry and land heroes.
 TEXT_TOOLTIP_INDIG_EWOK,The native creature inhabiting Endor's forest moon.  Ewoks hurl stones and rocks at their enemies, which are effective against infantry and structures.
@@ -18178,15 +18178,15 @@ TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION,Forces a chain reaction within the main 
 TEXT_TOOLTIP_KYLE_KATARN,A former Imperial commando who defected to the Alliance when he discovered the Empire killed his father.  Kyle is adept with many weapons, including high explosives.
 TEXT_TOOLTIP_LANCET,The Lancet is a slow-moving repulsorlift vehicle that carries a powerful proton beam weapon.
 TEXT_TOOLTIP_LEAH,Princess of Alderaan and covert Rebellion leader. Inspires heroes to go to great lengths for her cause.
-TEXT_TOOLTIP_LUKE,Jedi-in-training and powerful with the light side of the Force. As part of Red Squadron, he is capable inflicting great damage by using perfect aim.
+TEXT_TOOLTIP_LUKE,Jedi-in-training and powerful with the light side of the Force.  As part of Red Squadron, he is capable inflicting great damage by using perfect aim.
 TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI,Once a farm boy from Tatooine, Luke Skywalker trained under Jedi Master Yoda to become the first of a new generation of Jedi Knights.
-TEXT_TOOLTIP_M1_REPULSOR,Medium tank armed with a rapid-fire laser cannon. Repulsorlift engines let the tank float quickly and effortlessly across the battlefield. 4 vehicles per company.
+TEXT_TOOLTIP_M1_REPULSOR,Medium tank armed with a rapid-fire laser cannon.  Repulsorlift engines let the tank float quickly and effortlessly across the battlefield.  4 vehicles per company.
 TEXT_TOOLTIP_MAGNEPULSE_BUTTON,Fire the Magnapulse Cannon
 TEXT_TOOLTIP_MAL,The Mobile Attack Launcher (M.A.L.) is equipped with multiple turreted concussion missile launchers.  It is equally capable of destroying ground or air vehicles.
 TEXT_TOOLTIP_MAL_DEPLOY_DESCRIPTION,Deploy/Undeploy to long-range turreted mode
 TEXT_TOOLTIP_MAL_SWAP,Weapon Swap: Missiles
 TEXT_TOOLTIP_MARA_JADE,Mara Jade was raised under the tutelage of Emperor Palpatine and trained as one of his special agents known as the Emperor's Hands.  She is deadly in combat and has a direct connection to the Emperor via the Force.  Mara's Force corrupt ability will only affect nearby infantry.
-TEXT_TOOLTIP_MARAUDER,Missile frigate armed with incredibly long ranged Diamond-Boron missiles able to inflict great damage. Suffers from low accuracy, weak armor, and poor maneuverability.
+TEXT_TOOLTIP_MARAUDER,Missile frigate armed with incredibly long ranged Diamond-Boron missiles able to inflict great damage.  Suffers from low accuracy, weak armor, and poor maneuverability.
 TEXT_TOOLTIP_MARAUDER_HUTT,A modified version of the Marauder cruiser equipped with turbolaser cannons.
 TEXT_TOOLTIP_MATCHUP_EVERYTHING,Everything
 TEXT_TOOLTIP_MATCHUP_STRUCTURES,Structures
@@ -18195,23 +18195,23 @@ TEXT_TOOLTIP_MC30_FRIGATE,The MC30c is an extremely fast capital ship destroyer.
 TEXT_TOOLTIP_MD_TURRET,Mass Driver turrets use high-velocity solid slugs.  They can attack any land or air unit, and the projectiles ignore shields.
 TEXT_TOOLTIP_MDU_COMPANY,MDU Company
 TEXT_TOOLTIP_MERCHANT_FREIGHTER,Transport ship.
-TEXT_TOOLTIP_MILLENNIUM_FALCON,Han Solo's highly modified YT-1300 Corellian freighter. Very fast and highly maneuverable, with weapons rivaling a much larger ship.
+TEXT_TOOLTIP_MILLENNIUM_FALCON,Han Solo's highly modified YT-1300 Corellian freighter.  Very fast and highly maneuverable, with weapons rivaling a much larger ship.
 TEXT_TOOLTIP_MISSILE_POD,A weapon turret holding concussion missile launchers.  The turret can target both ground and air vehicles.
 TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT,A mobile, multipurpose build pad.  Once deployed, the pad can produce defensive structures (depending on faction).
 TEXT_TOOLTIP_MOBILE_SHIELD_GENERATOR,A small-area variant of the base shield generator that can be set up in any area.
-TEXT_TOOLTIP_MON_CALAMARI_CRUISER,Heavy Rebel attack cruiser armed with 4 turbolaser batteries and 2 ion cannon batteries. Invulnerable to shield generator destruction.
+TEXT_TOOLTIP_MON_CALAMARI_CRUISER,Heavy Rebel attack cruiser armed with 4 turbolaser batteries and 2 ion cannon batteries.  Invulnerable to shield generator destruction.
 TEXT_TOOLTIP_MON_MOTHMA,Leader of the Rebellion. Inspires strong morale boost when present in combat. Production speed increases at current system.
-TEXT_TOOLTIP_MON_MOTHMA_01,Leader of the Rebellion. Inspires strong morale boost when present in combat. All production costs are reduced by 25% at her current location.
+TEXT_TOOLTIP_MON_MOTHMA_01,Leader of the Rebellion.  Inspires strong morale boost when present in combat.  All production costs are reduced by 25% at her current location.
 TEXT_TOOLTIP_MOVE,Move
 TEXT_TOOLTIP_MOVE_01,Orders the selected units to move to the targeted location, ignoring all enemies along the route.
-TEXT_TOOLTIP_MPTL,Mobile Proton Torpedo Launcher armed with 9 torpedo launchers capable of very long range destruction.  Must deploy in order to fire. Accompanied by spotter droid to aid in finding targets.  2  vehicles and 2 Spotters per company.
+TEXT_TOOLTIP_MPTL,Mobile Proton Torpedo Launcher armed with 9 torpedo launchers capable of very long range destruction.  Must deploy in order to fire.  Accompanied by spotter droid to aid in finding targets.  2 vehicles and 2 Spotters per company.
 TEXT_TOOLTIP_MZ8_PC_TANK,The MZ-8 is a tracked, heavily armed tank.  It is, however, lightly armored due to the weight of the weapon, requiring escort.
-TEXT_TOOLTIP_NEBULON_B,Medium Rebel frigate armed with 2 turbolaser batteries and 2 laser cannon batteries. A general purpose combat ship without any notable weaknesses.
+TEXT_TOOLTIP_NEBULON_B,Medium Rebel frigate armed with 2 turbolaser batteries and 2 laser cannon batteries.  A general purpose combat ship without any notable weaknesses.
 TEXT_TOOLTIP_NEXT_BUTTON,Next controlled planet
 TEXT_TOOLTIP_NIGHT_SISTER,Native to Dathomir, the Nightsisters use the dark side of the Force to control their rancor mounts.
 TEXT_TOOLTIP_NOGHRI_ASSASSIN,The Noghri have pledged their service to Darth Vader in return for aiding their people.  They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
-TEXT_TOOLTIP_OBI_WAN,A Jedi Knight powerful in the light side of the Force. Able to heal and protect allies.
-TEXT_TOOLTIP_OBI_WAN_01,A Jedi Knight powerful in the light side of the Force. Able to heal himself and protect allies.
+TEXT_TOOLTIP_OBI_WAN,A Jedi Knight powerful in the light side of the Force.  Able to heal and protect allies.
+TEXT_TOOLTIP_OBI_WAN_01,A Jedi Knight powerful in the light side of the Force.  Able to heal himself and protect allies.
 TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Reveals terrain through the fog of war in a large radius; this node can protect itself using an energy discharge weapon.
 TEXT_TOOLTIP_ORBITAL_CONTROL,Orbital Control
 TEXT_TOOLTIP_ORG_GARRISON,Open Base Garrison Slot
@@ -18219,7 +18219,7 @@ TEXT_TOOLTIP_ORG_HERO,Open Hero Slot
 TEXT_TOOLTIP_ORG_PLANET,Open Ground Forces
 TEXT_TOOLTIP_ORGANIZE_FLEETS,Orbiting Fleets & Ground Forces
 TEXT_TOOLTIP_PALPATINE,Imperial leader. Strong in the dark side of the Force and capable of inflicting great damage.  The Emperor also drains the life and will from nearby enemy.  The Emperor's Force corrupt ability affects any nearby units.
-TEXT_TOOLTIP_PALPATINE_01,Imperial leader. Strong in the dark side of the Force and capable of inflicting great damage.  The Emperor also drains the life and will from nearby enemy.  The Emperor's Force corrupt ability affects any nearby units.  All production costs are reduced by 25% at his current location.
+TEXT_TOOLTIP_PALPATINE_01,Imperial leader.  Strong in the dark side of the Force and capable of inflicting great damage.  The Emperor also drains the life and will from nearby enemy.  The Emperor's Force corrupt ability affects any nearby units.  All production costs are reduced by 25% at his current location.
 TEXT_TOOLTIP_PATHFINDER,Units placed in this slot will hyperspace into the battlefield before all other units in the fleet
 TEXT_TOOLTIP_PAUSE_PLAY,Pause/Play the game
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Pause/Play
@@ -18228,21 +18228,21 @@ TEXT_TOOLTIP_PEACEBRINGER_02,Tyber Zann's flagship is an Aggressor-class Destroy
 TEXT_TOOLTIP_PIETT,Imperial fleet commander. Commands enhanced Star Destroyer with improved weaponry.
 TEXT_TOOLTIP_PIETT_02,A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_PIETT_SD,Heavy Imperial attack cruiser armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. Also armed with devastating proton beam weapon and a tractor beam for immobilizing smaller ships.
-TEXT_TOOLTIP_PIRATE,Black Sun Pirate mercenary. Ruthless and deadly. 3 squads (of 3 soldiers each) per company.
-TEXT_TOOLTIP_PIRATE_FIGHTER,Heavy fighter armed with laser cannons. Designed to inflict maximum damage without sacrificing armor protection. 5 fighters per squadron.
-TEXT_TOOLTIP_PIRATE_FRIGATE,Interceptor cruiser armed with 2 turbolaser batteries and a proton torpedo launcher. Designed to defeat freight convoys and light military escort ships.
-TEXT_TOOLTIP_PIRATEPLEX,Black Sun pirate mercenary armed with Plex rockets and is especially dangerous to vehicles and structures. 2 squads (of 3 soldiers each) per company.
+TEXT_TOOLTIP_PIRATE,Black Sun Pirate mercenary.  Ruthless and deadly.  3 squads (of 3 soldiers each) per company.
+TEXT_TOOLTIP_PIRATE_FIGHTER,Heavy fighter armed with laser cannons.  Designed to inflict maximum damage without sacrificing armor protection.  5 fighters per squadron.
+TEXT_TOOLTIP_PIRATE_FRIGATE,Interceptor cruiser armed with 2 turbolaser batteries and a proton torpedo launcher.  Designed to defeat freight convoys and light military escort ships.
+TEXT_TOOLTIP_PIRATEPLEX,Black Sun pirate mercenary armed with Plex rockets and is especially dangerous to vehicles and structures.  2 squads (of 3 soldiers each) per company.
 TEXT_TOOLTIP_PLANET_CORRUPTION_INCOME,Corruption Income: %+d
 TEXT_TOOLTIP_PLASMAC_BUTTON,Fire Plasma Cannon
-TEXT_TOOLTIP_PLEX,Plex rocket armed infantry able to inflict long range damage against vehicles and structures. 2 squads (of 3 soldiers each) per company.
-TEXT_TOOLTIP_PODWALKER,A mobile scout walker, precursor to the AT-ST, armed with 1 heavy cannon. Designed to combat light vehicle resistance. 2 vehicles per company.
+TEXT_TOOLTIP_PLEX,Plex rocket armed infantry able to inflict long range damage against vehicles and structures.  2 squads (of 3 soldiers each) per company.
+TEXT_TOOLTIP_PODWALKER,A mobile scout walker, precursor to the AT-ST, armed with 1 heavy cannon.  Designed to combat light vehicle resistance.  2 vehicles per company.
 TEXT_TOOLTIP_POLITICAL_CONTROL,Economic Control Level
 TEXT_TOOLTIP_POLITICAL_LEANING,Political Leaning
 TEXT_TOOLTIP_POWER,Power
 TEXT_TOOLTIP_PREVIOUS_BUTTON,Previous controlled planet
 TEXT_TOOLTIP_PRINCESS_LEIA,Former senator and hero of the Alliance, Princess Leia Organna is fearless both on the battlefield and in front of a negotiation table.
 TEXT_TOOLTIP_PRISONER,Escaped prisoners -- weak and unarmed.
-TEXT_TOOLTIP_PROBE_DROID,Imperial scouting probe that searches remote systems for enemy presence. The probe is expended upon use.
+TEXT_TOOLTIP_PROBE_DROID,Imperial scouting probe that searches remote systems for enemy presence.  The probe is expended upon use.
 TEXT_TOOLTIP_PROD_LAND_BUTTON,Ground Production
 TEXT_TOOLTIP_PROD_SCROLL_LEFT,Scroll production menu left
 TEXT_TOOLTIP_PROD_SCROLL_RIGHT,Scroll production menu right
@@ -18259,8 +18259,8 @@ TEXT_TOOLTIP_R2D2_AND_C3P0,A droid duo with the ability to steal technology from
 TEXT_TOOLTIP_RANCOR_CUDDLES,Silri's loyal and fierce rancor ally.
 TEXT_TOOLTIP_REBEL_PILOT,Well trained fighter pilot, but vulnerable on the ground - must be protected.
 TEXT_TOOLTIP_REBEL_REFUGEE,A group of refugees on the run from Imperial forces.
-TEXT_TOOLTIP_REBELSOLDIER,Rebellion soldiers, lightly armed, but highly motivated. 3 squads (of 5 soldiers each) per company.
-TEXT_TOOLTIP_RED_SQUADRON,Luke Skywalker, Wedge, Biggs, and Porkins team up to make a potent fighter squadron. Luke uses the light side of the Force to enhance his fighting skills.
+TEXT_TOOLTIP_REBELSOLDIER,Rebellion soldiers, lightly armed, but highly motivated.  3 squads (of 5 soldiers each) per company.
+TEXT_TOOLTIP_RED_SQUADRON,Luke Skywalker, Wedge, Biggs, and Porkins team up to make a potent fighter squadron.  Luke uses the light side of the Force to enhance his fighting skills.
 TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION,Allows a player to bring in reinforcements from space.  Must be captured before it can be used.  Capture it by keeping only friendly infantry near it for several seconds.
 TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME,Reinforcement Point
 TEXT_TOOLTIP_REINFORCEMENT_ZONE,Reinforcement marker allows landing of ground forces and increases the unit maximum allowed for the attacker.
@@ -18283,7 +18283,7 @@ TEXT_TOOLTIP_RF_LASER_TURRET,Fires a continuous stream of laser fire until its t
 TEXT_TOOLTIP_RIEEKAN,A field commander known for enabling small forces to perform well and escaping even the tightest traps.
 TEXT_TOOLTIP_SABOTEUR,A Defiler spreads the will of Tyber Zann across the galaxy by infiltrating a planet with bribery, extortion and assassination.
 TEXT_TOOLTIP_SCAVENGER_DROID,Scavenger droids latch onto vehicles and disassemble them, converting the scrap to credits.
-TEXT_TOOLTIP_SCOUTTROOPER,Imperial soldiers riding fast speeder bikes. Can drop explosive mines to great effect against enemy infantry. 2 troopers per company.
+TEXT_TOOLTIP_SCOUTTROOPER,Imperial soldiers riding fast speeder bikes.  Can drop explosive mines to great effect against enemy infantry.  2 troopers per company.
 TEXT_TOOLTIP_SD_ADMONITOR,The Admonitor is Grand Admiral Thrawn's flagship.
 TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_SELL_STRUCTURE,Sell the current structure
@@ -18291,9 +18291,9 @@ TEXT_TOOLTIP_SENSOR_NODE,A specialized sensor that reveals a large area of surro
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,The scrambler interferes with enemy radar and sight ranges, and also jams missile guidance systems.
 TEXT_TOOLTIP_SHIELDS,Shields
 TEXT_TOOLTIP_SILRI,A violent and powerful member of the Nightsisters, Silri uses a lightsaber whip in combat.
-TEXT_TOOLTIP_SKIFF,Light patrol vehicle primarily used to dominate local population. 3 vehicles per company.
+TEXT_TOOLTIP_SKIFF,Light patrol vehicle primarily used to dominate local population.  3 vehicles per company.
 TEXT_TOOLTIP_SKIPRAY,Originally designed for the Empire, the Skipray became popular with pirates and crime syndicates.  It is an effective torpedo bomber, but is short on maneuverability.
-TEXT_TOOLTIP_SLAVE_ONE,Boba Fett, a bounty hunter who can travel around the galaxy undetected by enemy fleets. His ship, Slave I, is armed with rapid-fire laser cannons and can drop seismic charges that deal great damage to nearby ships.
+TEXT_TOOLTIP_SLAVE_ONE,Boba Fett, a bounty hunter who can travel around the galaxy undetected by enemy fleets.  His ship, Slave I, is armed with rapid-fire laser cannons and can drop seismic charges that deal great damage to nearby ships.
 TEXT_TOOLTIP_SMUGGLER,Travels the galaxy undetected by hostile fleets and can be deployed on enemy systems to steal credits away.
 TEXT_TOOLTIP_SPACE_LEVEL,Space Station Level
 TEXT_TOOLTIP_SPACE_LEVEL_DESC,Current space station level
@@ -18301,52 +18301,52 @@ TEXT_TOOLTIP_SPECIAL_ABILITY_DISABLED,Unit special abilities disabled in nebula
 TEXT_TOOLTIP_SPECIAL_STRUCTURES,Special Structures
 TEXT_TOOLTIP_SPEED_TIME,Click to toggle accelerated game time
 TEXT_TOOLTIP_SPEED_TIME_NAME,Fast Forward
-TEXT_TOOLTIP_SPEEDER,Fast speeder aircraft that is immune to most ground vehicle attacks. Can defeat AT-ATs using special cable attack. 3 vehicles per company.
-TEXT_TOOLTIP_SPMA,Self Propelled Medium Artillery walker that can lob energy bolts great distances. Must deploy to fire. Its light armor makes it vulnerable to fast enemy counterattacks. 3 vehicles per company.
+TEXT_TOOLTIP_SPEEDER,Fast speeder aircraft that is immune to most ground vehicle attacks.  Can defeat AT-ATs using special cable attack.  3 vehicles per company.
+TEXT_TOOLTIP_SPMA,Self Propelled Medium Artillery walker that can lob energy bolts great distances.  Must deploy to fire.  Its light armor makes it vulnerable to fast enemy counterattacks.  3 vehicles per company.
 TEXT_TOOLTIP_SPOTTER,Light drone capable of scouting out enemy positions to allow long range artillery to fire from a safe distance.
-TEXT_TOOLTIP_STAR_DESTROYER,Heavy Imperial attack cruiser armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons. Also carries a tractor beam for immobilizing smaller ships.
+TEXT_TOOLTIP_STAR_DESTROYER,Heavy Imperial attack cruiser armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons.  Also carries a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_STARBASE,Starbase
-TEXT_TOOLTIP_STARVIPER,The Mandal Hypernautics StarViper is a powerful and versatile fighter ship.  Because of its high cost, it is generally only used by the very wealthy. 5 fighters per squadron.
+TEXT_TOOLTIP_STARVIPER,The Mandal Hypernautics StarViper is a powerful and versatile fighter ship.  Because of its high cost, it is generally only used by the very wealthy.  5 fighters per squadron.
 TEXT_TOOLTIP_STATION1,Small space station capable of withstanding minor attacks.
 TEXT_TOOLTIP_STATION2,Medium sized space station capable of withstanding typical attacks.
 TEXT_TOOLTIP_STATION3,Enhanced medium sized space station capable of withstanding significant attacks.
 TEXT_TOOLTIP_STATION4,Large space station capable of withstanding most attacks.
 TEXT_TOOLTIP_STATION5,Very large space station capable of withstanding major attacks.
-TEXT_TOOLTIP_STORMTROOPER,Imperial soldiers well suited for garrison duties and neutralizing light enemy resistance. 2 squads (of 9 soldiers each) per company.
+TEXT_TOOLTIP_STORMTROOPER,Imperial soldiers well suited for garrison duties and neutralizing light enemy resistance.  2 squads (of 9 soldiers each) per company.
 TEXT_TOOLTIP_STORY_BUTTON,Mission Holocron
 TEXT_TOOLTIP_STRUCTURE_COMMUNICATION_SATELLITE,Communication Satellite
 TEXT_TOOLTIP_STRUCTURE_SECURITY_OUTPOST,Security Outpost
 TEXT_TOOLTIP_STRUCTURE_SLOT,Open Special Structure Slot
 TEXT_TOOLTIP_STRUCTURE_STYGIUM_CRYSTAL_CONTAINER,Stygium Crystal Capsule
 TEXT_TOOLTIP_STRUCTURE_TIB_REFINERY,Tibanna Gas Refinery
-TEXT_TOOLTIP_SWAMP_SPEEDER,Light attack vehicle used to intercept and occupy enemy threats until reinforcements arrive. 3 vehicles per company.
+TEXT_TOOLTIP_SWAMP_SPEEDER,Light attack vehicle used to intercept and occupy enemy threats until reinforcements arrive.  3 vehicles per company.
 TEXT_TOOLTIP_SYSTEM_CONTROL,System Control
-TEXT_TOOLTIP_T2B,Medium tank armed with 4 rapid-fire laser cannons. Repulsorlift engines allow it to maneuver quickly. Vulnerable to Imperial Gravity Control Generator. 5 vehicles per company.
-TEXT_TOOLTIP_T4B,Heavy battle tank armed with 2 large cannons for hard targets and a concussion missile launcher for long range infantry suppression. Slow but heavily armored. 3 vehicles per company.
+TEXT_TOOLTIP_T2B,Medium tank armed with 4 rapid-fire laser cannons.  Repulsorlift engines allow it to maneuver quickly.  Vulnerable to Imperial Gravity Control Generator.  5 vehicles per company.
+TEXT_TOOLTIP_T4B,Heavy battle tank armed with 2 large cannons for hard targets and a concussion missile launcher for long range infantry suppression.  Slow but heavily armored.  3 vehicles per company.
 TEXT_TOOLTIP_TAB_GROUND,Build Ground Forces
 TEXT_TOOLTIP_TAB_HEROES,Recruit Heroes
 TEXT_TOOLTIP_TAB_SPACE,Build Space Ships
 TEXT_TOOLTIP_TAB_STRUCTURES,Build Special Structures
-TEXT_TOOLTIP_TARKIN,Commander of the Empire's military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Unable to contemplate retreat as a viable option.
-TEXT_TOOLTIP_TARKIN_01,Commander of the Empire's military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Reduces the production cost of Research Facilities by 25% at his current location.  Unable to contemplate retreat as a viable option.
-TEXT_TOOLTIP_TARTAN,Light patrol cruiser armed with 4 laser cannons. Well suited to defeating fighters and bombers. It can temporarily transfer power to weapons for added firepower at the expense of shield protection.
+TEXT_TOOLTIP_TARKIN,Commander of the Empire's military effort to defeat the Rebellion.  Boosts effectiveness of ships in space combat by 25%.  Unable to contemplate retreat as a viable option.
+TEXT_TOOLTIP_TARKIN_01,Commander of the Empire's military effort to defeat the Rebellion.  Boosts effectiveness of ships in space combat by 25%.  Reduces the production cost of Research Facilities by 25% at his current location.  Unable to contemplate retreat as a viable option.
+TEXT_TOOLTIP_TARTAN,Light patrol cruiser armed with 4 laser cannons.  Well suited to defeating fighters and bombers.  It can temporarily transfer power to weapons for added firepower at the expense of shield protection.
 TEXT_TOOLTIP_TECH_LEVEL,Current tech level
 TEXT_TOOLTIP_TECH_LEVEL_EMPIRE,The current tech level determines what units and structures can be built.  The Empire can advance their tech tree by building a technology upgrade at any planet with a research facility.
 TEXT_TOOLTIP_TECH_LEVEL_REBEL,The current tech level determines what units and structures can be built.  The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3P0.  When all the units and structures are stolen for the current tech level, the Rebellion will advance to the next tech level.
 TEXT_TOOLTIP_TEXT_UNIT_CANDEROUS_TANK,The Canderous-class Assault repulsortank is heavily armed, heavily armored and can hold its own vs. an AT-AT.
 TEXT_TOOLTIP_THRAWN,The only non-human to ever gain the title of Grand Admiral, Thrawn is a master strategist and tactician.
-TEXT_TOOLTIP_TIE_ADVANCED,Darth Vader, a Sith Lord powerful with the dark side of the Force. Though an excellent pilot in his own right, his wingmen are recruited from the Empire's most skilled.
-TEXT_TOOLTIP_TIE_BOMBER,Bomber armed with proton torpedoes that can bypass enemy shields. Designed to attack the larger enemy ships and space stations. 4 bombers per squadron.
+TEXT_TOOLTIP_TIE_ADVANCED,Darth Vader, a Sith Lord powerful with the dark side of the Force.  Though an excellent pilot in his own right, his wingmen are recruited from the Empire's most skilled.
+TEXT_TOOLTIP_TIE_BOMBER,Bomber armed with proton torpedoes that can bypass enemy shields.  Designed to attack the larger enemy ships and space stations.  4 bombers per squadron.
 TEXT_TOOLTIP_TIE_DEFENDER,The most advanced heavy fighter-bomber available to the Empire.  It boasts formidable firepower, and can hold its own against most ships.
-TEXT_TOOLTIP_TIE_FIGHTER,Light fighter armed with laser cannons. Speedy and maneuverable, but lacks shielding and adequate armor. 7 fighters per squadron.
+TEXT_TOOLTIP_TIE_FIGHTER,Light fighter armed with laser cannons.  Speedy and maneuverable, but lacks shielding and adequate armor.  7 fighters per squadron.
 TEXT_TOOLTIP_TIE_INTERCEPTOR,Built to replace the aging TIE fighter, the Interceptor is faster, better armored and has more firepower than previous models.
-TEXT_TOOLTIP_TIE_MAULER,Fast light assault tank armed with rapid-fire anti-infantry laser cannons. Engines prone to overload with devastating results. 5 vehicles per company.
+TEXT_TOOLTIP_TIE_MAULER,Fast light assault tank armed with rapid-fire anti-infantry laser cannons.  Engines prone to overload with devastating results.  5 vehicles per company.
 TEXT_TOOLTIP_TIE_PHANTOM,The TIE phantom has slightly less firepower than most TIE models, but comes equipped with a shield generator, a hyperdrive and a cloaking generator.  The phantom cannot use both the shields and the cloak at the same time.
-TEXT_TOOLTIP_TIE_SCOUT,Scout fighter armed with light laser cannons. What it lacks in firepower, it makes up for in speed, maneuverability, and armor. It can safely scout areas more quickly than any other ship. 3 fighters per squadron.
+TEXT_TOOLTIP_TIE_SCOUT,Scout fighter armed with light laser cannons.  What it lacks in firepower, it makes up for in speed, maneuverability, and armor.  It can safely scout areas more quickly than any other ship.  3 fighters per squadron.
 TEXT_TOOLTIP_TORP_TURRET,The Torpedo Turret fires four ground-based proton torpedoes at fairly long range.
 TEXT_TOOLTIP_TOTAL_INCOME,Total credit income per day
 TEXT_TOOLTIP_TRADE_ROUTES,Trade Routes
-TEXT_TOOLTIP_TRANSPORT,Transport ship containing ground units. Slow speed and weak armor make it vulnerable to nearly every enemy threat.
+TEXT_TOOLTIP_TRANSPORT,Transport ship containing ground units.  Slow speed and weak armor make it vulnerable to nearly every enemy threat.
 TEXT_TOOLTIP_TYBER_CLOAKING,Personal Cloaking Field
 TEXT_TOOLTIP_TYBER_ZANN,Tyber Zann, criminal mastermind of the Zann Consortium.  He is adept at using most weapons of war, and a tactical genius.
 TEXT_TOOLTIP_UNIT_BEVEL_LEMELISK,Bevel Lemelisk is a genius ship designer.
@@ -18367,13 +18367,13 @@ TEXT_TOOLTIP_UNIT_SPACEPORT_DIRECTOR,Spaceport Director Tanda controls the impor
 TEXT_TOOLTIP_UNIT_UNGARR_DARIS,Ungarr Daris
 TEXT_TOOLTIP_URAI_FEN,Urai Fen is a member of the mysterious Talortai race; he is immune to aging.  A practiced warrior, he is second in command of the Zann Consortium.
 TEXT_TOOLTIP_V_WING,Marginally out-dated fighter armed with laser cannons. Salvaged from the Clone Wars, but can still be effective. 5 fighters per squadron.
-TEXT_TOOLTIP_V_WING_01,Marginally outdated fighter armed with laser cannons. Salvaged from the Clone Wars, but can still be effective. 5 fighters per squadron.
+TEXT_TOOLTIP_V_WING_01,Marginally outdated fighter armed with laser cannons.  Salvaged from the Clone Wars, but can still be effective.  5 fighters per squadron.
 TEXT_TOOLTIP_VEERS,Commands an enhanced AT-AT while in land combat. Reduces AT-AT construction time by 50% at his current location.
 TEXT_TOOLTIP_VEERS_01,Commands an enhanced AT-AT while in land combat that is immune to cable attacks. Reduces the production cost of AT-ATs, AT-STs, and AT-AAs by 25% at his current location.
 TEXT_TOOLTIP_VEERS_ATAT,Commander Veers pilots an advanced AT-AT armed with boosted heavy laser cannons able to inflict great damage when charged for maximum firepower. Boosts all Imperial units' defenses by 25%.
-TEXT_TOOLTIP_VENETOR,Battle ship formerly used by the Old Republic. Well rounded, but is now considered obsolete.
-TEXT_TOOLTIP_VENGEANCE,The Vengeance frigate carries four heavy mass driver cannons and two turbolaser batteries. It has no shields, but has very heavy armor and a cloaking device.
-TEXT_TOOLTIP_VICTORY,Heavy frigate armed with 2 enhanced turbolaser batteries and 1 ion cannon battery. Also carries 5 TIE interceptor squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
+TEXT_TOOLTIP_VENETOR,Battle ship formerly used by the Old Republic.  Well rounded, but is now considered obsolete.
+TEXT_TOOLTIP_VENGEANCE,The Vengeance frigate carries four heavy mass driver cannons and two turbolaser batteries.  It has no shields, but has very heavy armor and a cloaking device.
+TEXT_TOOLTIP_VICTORY,Heavy frigate armed with 2 enhanced turbolaser batteries and 1 ion cannon battery.  Also carries 5 TIE interceptor squadrons and 2 TIE bomber squadrons.  Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
 TEXT_TOOLTIP_WAYPOINT,Set waypoint
 TEXT_TOOLTIP_WAYPOINT_01,The selected units will move to the targeted point on the map.  You can continue clicking the map to create a path for the units to follow until waypoint mode is turned off.
 TEXT_TOOLTIP_WEATHER_MODIFIER_ASH_30,This unit's sight range has been reduced by 30% due to falling ash.
@@ -18402,11 +18402,11 @@ TEXT_TOOLTIP_WEATHER_MODIFIER_WIND_60,This unit's accuracy has been reduced by 6
 TEXT_TOOLTIP_WEATHER_MODIFIER_WIND_70,This unit's accuracy has been reduced by 70% due to heavy wind and sandstorms.
 TEXT_TOOLTIP_WEATHER_MODIFIER_WIND_ALT,This unit's accuracy has been reduced by %d% due to heavy wind and sandstorms.
 TEXT_TOOLTIP_WEDGE,[TBL]
-TEXT_TOOLTIP_X_WING,Versatile fighter armed with laser cannons and able to defeat enemy fighters. Can hyperspace without requiring a carrier ship. 5 fighters per squadron.
-TEXT_TOOLTIP_Y_WING,Bomber armed with proton torpedoes and ion cannons.  Torpedoes are able to bypass shields. Ideally suited for attacking the larger enemy ships and space stations. 3 bombers per squadron.
+TEXT_TOOLTIP_X_WING,Versatile fighter armed with laser cannons and able to defeat enemy fighters.  Can hyperspace without requiring a carrier ship.  5 fighters per squadron.
+TEXT_TOOLTIP_Y_WING,Bomber armed with proton torpedoes and ion cannons.  Torpedoes are able to bypass shields. Ideally suited for attacking the larger enemy ships and space stations.  3 bombers per squadron.
 TEXT_TOOLTIP_YODA,Yoda was a Jedi Master and part of the Jedi Council before the fall of the Republic.  He has been in hiding from the emperor since the end of the Clone Wars.
 TEXT_TOOLTIP_YSALAMIRI_CAGE,A large cage holding captive ysalamiri.  Their presence disables all Force-based special abilities in a radius around the cage.
-TEXT_TOOLTIP_Z95_HEADHUNTER,Out-dated fighter armed with light laser cannons. Unremarkable except for its ability to hyperspace without a carrier ship and low cost of production. 5 fighters per squadron.
+TEXT_TOOLTIP_Z95_HEADHUNTER,Out-dated fighter armed with light laser cannons.  Unremarkable except for its ability to hyperspace without a carrier ship and low cost of production.  5 fighters per squadron.
 TEXT_TOOLTIP_ZOOM_BUTTON,Zoom into/out of selected planet
 TEXT_TOOLTIP_ZUCKUSS,An insectoid bounty hunter from Gand.  Speaks rarely.  Sometimes partners with 4-LOM.
 TEXT_TOTAL_INCOME,Total Income
@@ -19058,7 +19058,7 @@ TEXT_UW_ACT01_M02_GOAL_02,Tyber Zann must survive.
 TEXT_UW_ACT01_M02_GOAL_03,Scavenge 4 shipwrecks
 TEXT_UW_ACT01_M02_GOAL_04,Rob 4 Rebel shuttles.
 TEXT_UW_ACT01_M02_HINT_01,Hint: Move Tyber Zann near the data pods to retrieve them.
-TEXT_UW_ACT01_M02_HINT_02,Hint: Destroy the Pirate Frigate to release the Data Pod. Avoid engaging the enemy forces.
+TEXT_UW_ACT01_M02_HINT_02,Hint: Destroy the Pirate Frigate to release the Data Pod.  Avoid engaging the enemy forces.
 TEXT_UW_ACT01_M02_HINT_03,Hint: Catch the Rebel shuttles to steal their contents.
 TEXT_UW_ACT01_M02_HINT_04,Hint: Approach wreckage to scavenge valuables.
 TEXT_UW_ACT01_M02_NOTICE_01,Notice: The Imperial Tartan Patrol Cruisers have defected to your side, and are now under your control.
