@@ -19205,7 +19205,7 @@ TEXT_WEAPON_CONCUSSIONMISSILE,Lanceur de missiles à concussion
 TEXT_WEAPON_HARDPOINT,Systèmes d'armement
 TEXT_WEAPON_IONCANNON,Batterie de canons à ions
 TEXT_WEAPON_LASERCANNON,Batterie de canons laser
-TEXT_WEAPON_MASS_DRIVER,Tourelle accélératrice
+TEXT_WEAPON_MASS_DRIVER,Batterie de tourelle d'accélérateur
 TEXT_WEAPON_PLASMACANNON,Batterie de canons à plasma
 TEXT_WEAPON_SPECIAL,Arme spéciale
 TEXT_WEAPON_TORPEDOES,Lanceur de torpilles à protons

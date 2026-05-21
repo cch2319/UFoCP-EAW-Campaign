@@ -340,6 +340,14 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
 
+• TEXT_WEAPON_MASS_DRIVER: (BUG #678)
+	-- ENG: Mass Driver --> Mass Driver Battery
+	-- FRA: Tourelle accélératrice --> Batterie de tourelle d'accélérateur
+	-- GER: Massentreiber --> Massentreiber-Batterie
+	-- POL: Działo masowe --> Bateria akceleratorów masy
+	-- RUS: Автоматическая пушка --> Батарея автоматических пушек
+	-- SPA: Acelerador de masa --> Batería de acelerador de masas
+
 
 
 

@@ -19205,7 +19205,7 @@ TEXT_WEAPON_CONCUSSIONMISSILE,Wyrzutnia pocisków
 TEXT_WEAPON_HARDPOINT,System uzbrojenia
 TEXT_WEAPON_IONCANNON,Bateria dział jonowych
 TEXT_WEAPON_LASERCANNON,Bateria dział laserowych
-TEXT_WEAPON_MASS_DRIVER,Działo masowe
+TEXT_WEAPON_MASS_DRIVER,Bateria akceleratorów masy
 TEXT_WEAPON_PLASMACANNON,Bateria dział plazmowych
 TEXT_WEAPON_SPECIAL,Broń specjalna
 TEXT_WEAPON_TORPEDOES,Wyrzutnia torped protonowych
