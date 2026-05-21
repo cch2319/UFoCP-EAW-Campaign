@@ -17,7 +17,7 @@
 	<File>GroundBuildablesPirate.xml</File>
 
 	<File>Maps\SpaceProps.xml</File>
-	<File>SpaceUnitsCapital.xml</File>
+	<File>Units\SpaceUnitsCapital.xml</File>
 	<File>Units\SpaceUnitsFighters.xml</File>
 	<File>Units\SpaceUnitsCorvettes.xml</File>
 	<File>Units\SpaceUnitsFrigates.xml</File>
