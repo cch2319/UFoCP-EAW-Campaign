@@ -47,6 +47,7 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 UFCP:
 ======
 ENHANCEMENTS:
+• In what will probably be a never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up (again...) to improve the quality of the graphics work.
 • The new menu and loading screens have been expanded to include all available languages supported by FoC.  Currently, there are no German, Russian, Polish or French localized game logos, so those use the UK English ones by default. (BUG #451)
 • The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering (and other, bigger mods have obviously shown it isn't that big of an impact). (BUG #529)
 •• Land Fade Begin: 1,100 units --> 4,000 units
@@ -56,8 +57,8 @@ ENHANCEMENTS:
 
 
 HOUSEKEEPING:
-• In what will probably be a never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up (again...) to improve the quality of the graphics work.
 • V-wing fighters had their unit entries moved from UniqueUnits.xml to SpaceUnitsFighters.xml.  In addition, their game object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
+• FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown if these errors had any negative effects, as FoC is pretty error-resistant internally and the broken definitions seemed to work anyway, but this should help prevent assertions for MP.
 
 
 MISC:
