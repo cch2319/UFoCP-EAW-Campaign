@@ -68,7 +68,8 @@ MISC:
 
 
 Multiplayer:
-• MP stability should be greatly improved. (BUG #673)
+• MP stability should be greatly improved in this update (specifically for Space combat, but Land combat benefits from this as well).  For the Long Version:tm:, see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
+• Reinforcement Points, and various versions of it (that give different pop. cap values), have received an XML AI category to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
 
 
 Ability Fixes:
@@ -99,7 +100,6 @@ Model Fixes:
 
 Structure Fixes:
 • The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with every other defense satellite icon (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
-• The Reinforcement Points and various versions of it (that give different pop. cap values) have received an AI "CategoryMask" to prevent throwing handfuls of assertions every few frames when present in a battle.
 
 
 Texture Fixes:
