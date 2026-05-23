@@ -1431,6 +1431,7 @@
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Empire_Dock_Medium">
@@ -1440,6 +1441,7 @@
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Empire_Dock_Large">
@@ -1449,6 +1451,7 @@
 		<Is_Discardable>No</Is_Discardable>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
 	</SpaceProp>
 
 	<SpaceProp Name="PropOnly_Asteroid_Small00">
@@ -1560,6 +1563,7 @@
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Size>0.18 0.18</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
 		<Affiliation>Empire, Neutral</Affiliation>
 	</SpaceProp>
 
@@ -1623,40 +1627,6 @@
 		<Is_Asteroid_Field>Yes</Is_Asteroid_Field>
 		<Space_Obstacle_Radius>250</Space_Obstacle_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-		<Space_Layer>StaticObject</Space_Layer>
-	</SpaceProp>
-
-	<SpaceProp Name="Star_Destroyer_Construction">
-		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
-		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
-		<Is_Discardable>No</Is_Discardable>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
-		<Layer_Z_Adjust>0</Layer_Z_Adjust>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-
-		<Is_Impassable_Asteroid>True</Is_Impassable_Asteroid>
-		<Space_Obstacle_Radius>300</Space_Obstacle_Radius>
-		<Space_Obstacle_Offset>100 0 0</Space_Obstacle_Offset>
-		<Space_Layer>StaticObject</Space_Layer>
-	</SpaceProp>
-
-	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repair">
-		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
-		<Space_Model_Name>RV_MonCalCruiser_Hulk.ALO</Space_Model_Name>
-		<Is_Decoration>No</Is_Decoration>
-		<Is_Discardable>No</Is_Discardable>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
-		<Layer_Z_Adjust>0</Layer_Z_Adjust>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-
-		<Is_Impassable_Asteroid>True</Is_Impassable_Asteroid>
-		<Space_Obstacle_Radius>300</Space_Obstacle_Radius>
-		<Space_Obstacle_Offset>100 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
 	</SpaceProp>
 
