@@ -48,41 +48,37 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 ENHANCEMENTS:
-• In what will probably be a never-ending process, the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up (again...) to improve the quality of the graphics work.
-• The new menu and loading screens have been expanded to include all available languages supported by FoC.  Currently, there are no German, Russian, Polish or French localized game logos, so those use the UK English ones by default. (BUG #451)
-• The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering (and other, bigger mods have obviously shown it isn't that big of an impact). (BUG #529)
-•• Land Fade Begin: 1,100 units --> 4,000 units
-•• Land Fade End: 1,300 units --> 5,000 units
-•• Space Fade Begin: 6,000 units --> 25,000 units
-•• Space Fade End: 7,000 units --> 250,000 units
+• (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up to improve the quality of the graphics work.
+• UFCP's new loading screens and main menu have been expanded to include all available languages supported by FoC. (BUG #451)
+• The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
 
 
 HOUSEKEEPING:
-• V-wing fighters had their unit entries moved from UniqueUnits.xml to SpaceUnitsFighters.xml.  In addition, their game object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
+• V-wing fighters had their unit game object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
 • FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown if these errors had any negative effects, as FoC is pretty error-resistant internally and the broken definitions seemed to work anyway, but this should help prevent assertions for MP.
 
 
 MISC:
-• A "condensed" changelog (a log that isn't separated by versions) is now included in the main mod directory.  It also includes a dedicated section at the top for balance modifications (for those who wish to see only what is different gameplay-wise), but doesn't include text changes; those will remain in the dedicated text changelog.
+• A condensed changelog (a log that isn't separated by versions) is now included in the main mod directory.  It also includes a dedicated section at the top for balance and MP modifications (for those who wish to see only what is different gameplay-wise), but doesn't include text changes; those will remain in the dedicated text changelog.
 ======
 
 
 Multiplayer:
-• MP stability should be greatly improved in this update (specifically for Space combat, but Land combat benefits from this as well).  For the Long Version:tm:, see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
-• Reinforcement Points, and various versions of it (that give different pop. cap values), have received an XML AI category to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
+• MP stability should be greatly improved in this update (specifically for Space combat, but Land combat benefits from this as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
+• Reinforcement Points, and the various versions of them (that give different pop. cap values) have received XML AI categories to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
 
 
 Ability Fixes:
-• Fixed Rogue Squadron's "Strike" ability embracing its inner creepypasta, losing its icon and renaming itself to "-BAD VALUE-" when used while selecting multiple X-wings. (BUG #272)
+• "STRIKE" for Rogue Squadron would embrace its inner creepypasta, losing its icon and renaming itself to "-BAD VALUE-" when used while selecting multiple X-wings.  It has now embraced normality, no hyper-realistic blood included. (BUG #272)
 
 
 AI Fixes:
-• The Skirmish AI is supposed generate a "magic cash" boost every 2 minutes only if they have less than 3000 credits and were in such dire straits they couldn't recover from (to prevent snowballing if the AI can't keep up with a human player in the race to secure mines).  The scripting, however, didn't prevent the game from marking this plan completed as soon as they received the money, which meant the AI bypassed the 2 minute wait time and could rapidly spend 6000 credits every few seconds. (BUG #571)
-• In space skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid process, they should now properly prioritize distance in tactical situations. (BUG #679)
+• The Skirmish AI is supposed generate a cash boost every 2 minutes if they had <3000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money, which meant the AI bypassed the 2 minute wait time and could rapidly spend 6000 credit cash drops. (BUG #571)
+• In Space Skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid process, they should now properly prioritize distance in tactical situations. (BUG #679)
 
 
 Audio Fixes:
-• Various space units (Luke, Red/Rogue Squadron, Skipray Blastboats) used an incorrect XML setting for their "enemy health is low/critical" attacking VO in space combat, and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (his presence is dependent). (BUG #568)
+• Various space units (Luke, Red & Rogue Squadron, Skipray Blastboats) used incorrect XML settings for their "my enemy's health is low/critical" attacking VO and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (who's presence is dependent). (BUG #568)
 
 
 Interface Fixes:
@@ -90,13 +86,13 @@ Interface Fixes:
 
 
 Map/Planet Fixes:
-• MP Space Bespin's lighting was severely outdated/unconfigured - internally, it used almost the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02.TED," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
-• Shola was defined as a volcanic planet but with "temperate" terrain; I don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
-• Bonadan was defined as an urban planet but with "temperate" terrain; I don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #672)
+• MP Space Bespin's lighting was unconfigured, and used (almost) the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
+• Shola was defined as a volcanic planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
+• Bonadan was defined as an urban planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #672)
 
 
 Model Fixes:
-• The large and small moon models for space maps (such as Space Kamino) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
+• The large and small moon models for space maps (such as Space Kamino, or Space Mon Calamari) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 • The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680) (Thanks, galyana!)
 
 
@@ -109,7 +105,7 @@ Texture Fixes:
 
 
 Unit Fixes:
-• The Consortium's Venator-class Cruiser didn't have a "Shield Armor Type" configured, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against it). (BUG #573)
+• The Consortium's Venator-class Cruiser didn't have shield armor multipliers configured, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against the Cruiser). (BUG #573)
 • The Rebels' MC30c didn't have damage multipliers on its rear laser cannon.  Temporarily, it's been given the Corellian Corvette's damage multipliers (as its a laser cannon battery/anti-starfighter). (BUG #575)
 
 
