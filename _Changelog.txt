@@ -51,7 +51,7 @@ ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up to improve the quality of the graphics work.
 • UFCP's new loading screens and main menu have been expanded to include all available languages supported by FoC. (BUG #451)
 • The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
-• The Imperial Drydocks, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon based on the structure (instead of using a large square). (BUG #682)
+• The Imperial Drydocks, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon based on the structure (instead of using a large square). (BUG #682) (Thanks, .lany!)
 
 
 HOUSEKEEPING:

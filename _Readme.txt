@@ -72,6 +72,7 @@ Texturing:
 - .lany
 -- UV_CrusaderClassCorvette.dds - Inspiration for new team coloring
 -- NV_IPV1.dds - Inspiration for new team coloring
+-- I_Minimap_Empire_Dock.tga - Minimap icon for the drydock props
 
 - Galyana
 -- NV_IPV1.dds - Inspiration for new team coloring
