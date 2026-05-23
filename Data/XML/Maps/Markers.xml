@@ -1375,6 +1375,61 @@
 		<Affiliation>Neutral</Affiliation>
 	</Marker>
 
+	<!--
+		AM1994 (05/22/26): Generic_Starbase_Healing_Marker and Generic_Capital_Ship_Marker are
+		mandatory for UFCP #679, where the AI cannot use lv.1 starbases in perceptions and
+		therefore cannot get base mines, or judge distance from these objects.
+
+		Galyana: Lua Script on Main Station spawns the marker after 3sec, then despawns it after another
+		3sec (~15 heal pulses to ensure starbase is repaired).  Hull_Vs_Hard_Points_Health_Constraint
+		must be set to 0.3 in GameConstants otherwise this will not work
+	-->
+	<Marker Name="Generic_Starbase_Healing_Marker">
+		<Text_ID>TEXT_STORY_TRIGGER_ZONE</Text_ID>
+		<Space_Model_Name>W_LASER_INVISIBLE.alo</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
+		<Behavior>DUMMY_STARSHIP</Behavior>
+		<Is_Discardable>False</Is_Discardable>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Marker>No</Is_Marker>
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Game_Start_Starbase_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>1.00</Heal_Range> <!-- Can be made larger if your mod has multiple starbases / structures spawned on load -->
+				<Heal_Percent>0.00</Heal_Percent>
+				<Heal_Amount>2000.00</Heal_Amount> <!-- Full heal per pulse -->
+				<Heal_Interval_In_Secs>0.20</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal> <!-- Heal all starbases / structures at the same time -->
+				<Applicable_Unit_Types />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories> <!-- Stations are Capital class -->
+			</Force_Healing_Ability>
+		</Abilities>
+	</Marker>
+
+	<Marker Name="Generic_Capital_Ship_Marker">
+		<Text_ID>TEXT_STORY_TRIGGER_ZONE</Text_ID>
+		<Space_Model_Name>W_LASER_INVISIBLE.alo</Space_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
+
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+
+		<Behavior>DUMMY_STARSHIP</Behavior>
+		<CategoryMask>Capital</CategoryMask>
+		<SpaceBehavior>UNIT_AI</SpaceBehavior> <!-- Doesn't work without this behavior -->
+		<Is_Discardable>False</Is_Discardable>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Marker>No</Is_Marker>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Immune_To_Damage>True</Immune_To_Damage>
+
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+
+		<Lua_Script>ObjectScript_DespawnCapitalMarker</Lua_Script> <!-- Despawn after 5 minutes script -->
+	</Marker>
+
 	<!-- jdg adding generic markers for color coding -->
 	<Marker Name="Marker_Generic_White">
 		<Text_ID>TEXT_STORY_TRIGGER_ZONE</Text_ID>

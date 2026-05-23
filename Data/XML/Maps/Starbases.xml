@@ -1788,6 +1788,9 @@
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+
+		<!-- AM1994 (05/22/26): Script for UFCP #679 -->
+		<Lua_Script>ObjectScript_SpawnStarbaseHealer</Lua_Script>
 	</StarBase>
 
 	<StarBase Name="Skirmish_Rebel_Star_Base_2">
@@ -2219,6 +2222,9 @@
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+
+		<!-- AM1994 (05/22/26): Script for UFCP #679 -->
+		<Lua_Script>ObjectScript_SpawnStarbaseHealer</Lua_Script>
 	</StarBase>
 
 	<StarBase Name="Skirmish_Empire_Star_Base_2">

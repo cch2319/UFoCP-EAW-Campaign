@@ -78,6 +78,7 @@ Ability Fixes:
 
 AI Fixes:
 • The Skirmish AI is supposed generate a "magic cash" boost every 2 minutes only if they have less than 3000 credits and were in such dire straits they couldn't recover from (to prevent snowballing if the AI can't keep up with a human player in the race to secure mines).  The scripting, however, didn't prevent the game from marking this plan completed as soon as they received the money, which meant the AI bypassed the 2 minute wait time and could rapidly spend 6000 credits every few seconds. (BUG #571)
+• In space skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid process, they should now properly prioritize distance in tactical situations. (BUG #679)
 
 
 Audio Fixes:
@@ -96,7 +97,7 @@ Map/Planet Fixes:
 
 Model Fixes:
 • The large and small moon models for space maps (such as Space Kamino) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
-• The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680)
+• The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680) (Thanks, galyana!)
 
 
 Structure Fixes:

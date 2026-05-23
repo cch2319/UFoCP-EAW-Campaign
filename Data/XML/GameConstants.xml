@@ -688,7 +688,7 @@
 	<Shield_Flash_Duration>0.10</Shield_Flash_Duration>
 
 	<!-- How closely to tie hull vs. hard point healths together in releation to one another -->
-	<Hull_Vs_Hard_Points_Health_Constraint>0.20</Hull_Vs_Hard_Points_Health_Constraint>
+	<Hull_Vs_Hard_Points_Health_Constraint>0.30</Hull_Vs_Hard_Points_Health_Constraint>
 
 	<!-- An object being influenced by a telekinesis effect -->
 	<Telekinesis_Hover_Height>22.00</Telekinesis_Hover_Height>
