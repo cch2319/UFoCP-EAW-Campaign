@@ -43,6 +43,7 @@ Modeling:
 -- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
 -- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh
 -- W_Bush_Swmp00.alo - New swamp bush model
+-- RB_Station_03_HP03_IC.alo - Fixed lv.3 station ion cannon tower
 
 - irampagingrhin0
 -- NV_JediCruiser.alo - Fixed Venator shield/bumpmap mesh
