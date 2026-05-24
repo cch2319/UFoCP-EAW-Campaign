@@ -914,7 +914,7 @@
 		*
 		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1000.0)
 		*
-		((300.0 > Game.Age > 60.0) * (1.0 >= Variable_Self.BaseLevel)
+		((300.0 > Game.Age) * (Game.Age > 60.0) * (1.0 >= Variable_Self.BaseLevel)
 		+
 		(Game.Age > 180.0) * (Variable_Self.BaseLevel == 2.0)
 		+
