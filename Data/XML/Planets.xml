@@ -4558,7 +4558,7 @@
 		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
 
 		<Space_Tactical_Map>_Space_Planet_NalHutta_01.ted</Space_Tactical_Map>
-		<Land_Tactical_Map>_Land_Planet_NalHutta_02.ted</Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_NalHutta_Story_02.ted</Land_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward>2400</Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
