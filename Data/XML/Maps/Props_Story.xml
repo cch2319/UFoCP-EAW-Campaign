@@ -166,8 +166,32 @@
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>W_Star_Destroyer_Construction_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
+	</SpaceStructure>
+
+	<SpaceStructure Name="Drydock_Calamari_Cruiser_Construction">
+		<Variant_Of_Existing_Type>Drydock_Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+
+		<Space_Model_Name>rv_moncalcruiser_hulk.alo</Space_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<Death_Clone>Damage_Normal, Drydock_Calamari_Cruiser_Construction_Death_Clone</Death_Clone>
+		<Death_Explosions>Friggin_Huge_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+	</SpaceStructure>
+
+	<SpaceStructure Name="Drydock_Calamari_Cruiser_Construction_Death_Clone">
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+		<Space_Model_Name>RV_MONCALCRUISER_DRYDOCK_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+		<CategoryMask>None</CategoryMask>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 	</SpaceStructure>
