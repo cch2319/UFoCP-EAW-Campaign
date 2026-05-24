@@ -107,6 +107,10 @@ Model Fixes:
 • The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680) (Thanks, galyana!)
 
 
+Script/Story Fixes:
+• Thyferra Kidnapping would hardlock and be unable to completed if the player destroyed all of Ungarr Daris' defenses before trying to kidnap him.  The mission script dynamically tries to redirect Daris to the nearest friendly unit - however, if all units are destroyed, the entire scripting engine would crash.  Now, if all units are destroyed, Daris will retreat to the base's shield generator. (BUG #3)
+
+
 Structure Fixes:
 • The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with the other defense satellite icons (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
 

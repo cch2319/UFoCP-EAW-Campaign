@@ -209,16 +209,26 @@ function State_Thyferra_Kidnapping_Mission_Speech_Line_07_Remove_Text(message)
 end
 
 function Move_Objective_To_Nearest_Ally()
+	local objective_retreat = Find_All_Objects_With_Hint("emergency-safespace")
+
 	while not follow_triggered do
 		if TestValid(objective) and rebel_defender then
 			nearest_rebel = Find_Nearest(objective, "Infantry | Vehicle", rebel, true)
-			objective.Move_To(nearest_rebel)
+			if TestValid(nearest_rebel) then
+				objective.Move_To(nearest_rebel)
+			else
+				objective.Move_To(objective_retreat[1])
+			end
 			Sleep(5)
 		end
 		if TestValid(objective) and empire_defender then
 			empire_list = Find_All_Objects_Of_Type(empire)
 			nearest_empire = Find_Nearest(objective, "Infantry | Vehicle", empire, true)
-			objective.Move_To(nearest_empire)
+			if TestValid(nearest_empire) then
+				objective.Move_To(nearest_empire)
+			else
+				objective.Move_To(objective_retreat[1])
+			end
 			Sleep(5)
 		end
 	end
