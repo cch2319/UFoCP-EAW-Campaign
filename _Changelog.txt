@@ -89,6 +89,7 @@ Audio Fixes:
 
 
 Gameplay Fixes:
+• The "Hostile to everything" faction now has Jabba's Criminal Empire as a faction enemy. (BUG #57)
 • Jabba's Criminal Empire now has the Black Sun Pirates as a faction enemy. (BUG #58)
 
 

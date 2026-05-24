@@ -1626,7 +1626,8 @@
 			Rebel,
 			Pirates,
 			Sarlacc,
-			Underworld
+			Underworld,
+			Hutts
 		</Enemies>
 	</Faction>
 
