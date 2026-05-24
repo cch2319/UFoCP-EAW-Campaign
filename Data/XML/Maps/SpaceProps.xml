@@ -1632,6 +1632,170 @@
 
 
 
+	<!-- ===== General MP-safe Drydock Props ===== -->
+	<!-- General -->
+	<!--
+		AM1994 (05/23/26): While Empire_Dock and its variants work just fine,
+		this version is less capable of synching since it's A). so far under
+		the map it can't be collided with (so we can axe the behavior!), and
+		B). it is now a decoration.  Best of both worlds!
+	-->
+	<SpaceProp Name="Orbital_Drydock">
+		<Text_ID>TEXT_STRUCTURE_ORBITAL_DRYDOCK</Text_ID>
+
+		<Space_Model_Name>eb_dock00.alo</Space_Model_Name>
+		<Scale_Factor>1.00</Scale_Factor>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+
+		<Affiliation>Neutral</Affiliation>
+
+		<Behavior>IDLE</Behavior>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.18, 0.18</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+
+
+	<!-- Empire & ISD (template) -->
+	<SpaceProp Name="Star_Destroyer_Construction">
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+
+		<Space_Model_Name>w_star_destroyer_construction.alo</Space_Model_Name>
+		<Scale_Factor>1.00</Scale_Factor>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Behavior>IDLE</Behavior>
+
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+	</SpaceProp>
+
+	<SpaceProp Name="TIE_Fighter_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
+
+		<Space_Model_Name>ev_tiefighter.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
+	</SpaceProp>
+
+	<SpaceProp Name="TIE_Bomber_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
+
+		<Space_Model_Name>ev_tiebomber_construction.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
+	</SpaceProp>
+
+	<SpaceProp Name="Shuttle_Tyderium_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
+
+		<Space_Model_Name>ev_lambdashuttle_space_construction.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+	</SpaceProp>
+
+
+	<!-- Rebels -->
+	<SpaceProp Name="X-Wing_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+
+		<Space_Model_Name>rv_xwing_construction.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>199, 105, 59, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+	<SpaceProp Name="Y-Wing_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
+
+		<Space_Model_Name>rv_ywing_construction.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>199, 105, 59, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repair">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+		<Space_Model_Name>rv_moncalcruiser_hulk.alo</Space_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+	</SpaceProp>
+
+	<SpaceProp Name="Gallofree_Transport_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
+		<Space_Model_Name>rv_transport_construction.alo</Space_Model_Name>
+		<Scale_Factor>0.70</Scale_Factor>
+		<No_Colorization_Color>199, 105, 59, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+
+	<!-- Underworld -->
+	<SpaceProp Name="StarViper_Fighter_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_STARVIPER</Text_ID>
+
+		<Space_Model_Name>nv_virago.alo</Space_Model_Name>
+		<Scale_Factor>0.90</Scale_Factor>
+		<No_Colorization_Color>231, 221, 67, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+	<SpaceProp Name="Skipray_Blastboat_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SKIPRAY</Text_ID>
+
+		<Space_Model_Name>uv_skipray_construction.alo</Space_Model_Name>
+		<Scale_Factor>1.50</Scale_Factor>
+		<No_Colorization_Color>231, 221, 67, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+	<SpaceProp Name="Krayt_Class_Destroyer_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_KRAYT_DESTROYER</Text_ID>
+		<Space_Model_Name>uv_kraytclassdestroyer_construction.alo</Space_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+	</SpaceProp>
+
+	<SpaceProp Name="Keldabe_Battleship_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_KEDALBE_BATTLESHIP</Text_ID>
+		<Space_Model_Name>uv_kedalbebattleship_construction.alo</Space_Model_Name>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
+	</SpaceProp>
+
+	<SpaceProp Name="Underworld_Infantry_Droid_Shuttle_Construction">
+		<Variant_Of_Existing_Type>Star_Destroyer_Construction</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
+		<Space_Model_Name>uv_rz-52boardingship_construction.alo</Space_Model_Name>
+		<No_Colorization_Color>231, 221, 67, 255</No_Colorization_Color> <!-- Faction-defined No Color color -->
+	</SpaceProp>
+
+
+
 	<!-- =================================================================================== -->
 	<!-- Break-off pieces from destroyed hard points, there are referenced in HardPoints.xml -->
 	<!-- NOTE: These all require the DEBRIS behavior                                         -->
