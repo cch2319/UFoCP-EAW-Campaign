@@ -1562,7 +1562,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Radar_Icon_Size>0.18 0.18</Radar_Icon_Size>
+		<Radar_Icon_Size>0.25, 0.25</Radar_Icon_Size>
 		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
 		<Affiliation>Empire, Neutral</Affiliation>
 	</SpaceProp>

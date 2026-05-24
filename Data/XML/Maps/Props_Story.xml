@@ -315,8 +315,8 @@
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles> <!-- jdg test -->
 		<CategoryMask>Structure</CategoryMask>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Radar_Icon_Name>i_radar_empire_dock.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.25, 0.25</Radar_Icon_Size>
 
 		<Space_Obstacle_Radius>130</Space_Obstacle_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
