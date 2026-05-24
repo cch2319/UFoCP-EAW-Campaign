@@ -88,6 +88,10 @@ Audio Fixes:
 • Various space units (Luke, Red & Rogue Squadron, Skipray Blastboats) used incorrect XML settings for their "my enemy's health is low/critical" attacking VO and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (who's presence is dependent). (BUG #568)
 
 
+Gameplay Fixes:
+• Jabba's Criminal Empire now has the Black Sun Pirates as a faction enemy. (BUG #58)
+
+
 Interface Fixes:
 • Rogue Squadron's tooltip claimed they were strong against the Death Star, a unit they can't encounter.  It has been swapped out for the Death Star II. (BUG #578)
 
