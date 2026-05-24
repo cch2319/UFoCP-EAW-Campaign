@@ -13,6 +13,7 @@
 | |__| || | | || (_) || |  | |  | || (__ | || (_| || | | |     | (_| || |_ | (__ | | | |             | |   |  __/ >  < | |_ 
  \____/ |_| |_| \___/ |_|  |_|  |_| \___||_| \__,_||_| |_|      \__,_| \__| \___||_| |_|             |_|    \___|/_/\_\ \__|
 
+
 ~ By the UFCP Team. ~
 
 
@@ -32,7 +33,7 @@ When fixed, bugs introduced by the Unofficial Patch are included in the next hot
 the "UFCP" header and retroactively edited in the changelog.
 
 Dates, grammar, and times are always in American format.
-(i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52.")
+(i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52 EST.")
 
 All entries have tags that are accurate to their GitHub report page's URL. Insert the report
 number into the below URL to see the original report.

@@ -28,7 +28,7 @@ Bugs unintentionally introduced by the Unofficial Patch will be fixed in the nex
 under the "UFCP" header.
 
 Dates, grammar, spelling, and times are always in American format.
-(e.g. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM EST" > "13:52.")
+(e.g. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM EST" > "13:52 EST.")
 
 All bugfix entries have a postfix tag number that indicates the bug report page number on
 GitHub.  Insert the report number into the URL below to see the original report.
@@ -48,36 +48,40 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 ENHANCEMENTS:
-• (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team coloring textures, etc.) have been touched up to improve the quality of the graphics work.
-• UFCP's new loading screens and main menu have been expanded to include all available languages supported by FoC. (BUG #451)
-• The Land and Space camera settings have been adjusted to increase the distance that units can be on screen before fading out.  This was initially done for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
-• The Imperial Drydocks, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon based on the structure (instead of using a large square). (BUG #682) (Thanks, .lany!)
+• (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
+• UFCP's new loading screen and main menu now includes all available languages supported by FoC. (BUG #451)
+• The Land and Space camera settings have been adjusted to increase draw distance for units and props.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
+• The orbital drydock props, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon (instead of using a large square). (BUG #682) (Thanks, .lany!)
+
+
+FORWARDED OFFICIAL FIXES:
+• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new grass shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
 
 
 HOUSEKEEPING:
-• V-wing fighters had their unit game object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
-• FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown if these errors had any negative effects, as FoC is pretty error-resistant internally and the broken definitions seemed to work anyway, but this should help prevent assertions for MP.
+• V-wing fighters have had their unit object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
+• FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
 
 
 MISC:
-• A condensed changelog (a log that isn't separated by versions) is now included in the main mod directory.  It also includes a dedicated section at the top for balance and MP modifications (for those who wish to see only what is different gameplay-wise), but doesn't include text changes; those will remain in the dedicated text changelog.
+• "Condensed" changelogs (a log that isn't separated by versions) are now included in the main mod directory for both text and standard changelogs.  While they are a bit unwieldy, they should make viewing all of UFCP's changes systematically easier.
 ======
 
 
 Multiplayer:
-• MP stability should be greatly improved in this update (specifically for Space combat, but Land combat benefits from this as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
-• Reinforcement Points, and the various versions of them (that give different pop. cap values) have received XML AI categories to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
-• As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock ship objects, which should result in a positive boost for performance and MP stability.
-• As a part of BUG #683, MP Space Kuat now uses MP-optimized drydock models that are now not synchronized between clients, meaning there is now a net-positive network impact on the map.
+• MP Space combat stability should be greatly improved (and marginally, Land combat as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
+• Reinforcement Points have received XML AI categories to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
+• As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
+• As a part of BUG #683 (mentioned below), MP Space Kuat now use optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
 
 
 Ability Fixes:
-• "STRIKE" for Rogue Squadron would embrace its inner creepypasta, losing its icon and renaming itself to "-BAD VALUE-" when used while selecting multiple X-wings.  It has now embraced normality, no hyper-realistic blood included. (BUG #272)
+• "STRIKE" for Rogue Squadron would embrace its inner creepypasta, lose its icon and rename itself to "-BAD VALUE-" when used while selecting multiple X-wings.  It has now embraced normality, no hyper-realistic blood included. (BUG #272)
 
 
 AI Fixes:
-• The Skirmish AI is supposed generate a cash boost every 2 minutes if they had <3000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money, which meant the AI bypassed the 2 minute wait time and could rapidly spend 6000 credit cash drops. (BUG #571)
-• In Space Skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid process, they should now properly prioritize distance in tactical situations. (BUG #679)
+• The Skirmish AI is supposed to generate a 6,000 credit cash boost every 2 minutes if they had <3,000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money - meaning, the AI bypassed the 2 minute wait time and could rapidly spend 6000 credit cash drops. (BUG #571)
+• In Space Skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid bugfix, they should now properly prioritize distance in tactical situations. (BUG #679)
 
 
 Audio Fixes:
@@ -92,27 +96,23 @@ Map/Planet Fixes:
 • MP Space Bespin's lighting was unconfigured, and used (almost) the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
 • Shola was defined as a volcanic planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
 • Bonadan was defined as an urban planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #672)
-• Space Fondor's Piracy map, for unexplainable reasons, used Utapau's planet model instead of the large ecumenopolis backdrop model that the standard Space Fondor map uses. (BUG #681)
-• Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet, sometimes not having faction-based "drydock" units in orbital dockyards.  Fondor and Kuat would only have Imperial ships (only when the Empire owned the planet), Mon Calamari had both the Empire and Rebel ships, but no map supported the Consortium - now, every map supports every main faction.  Multiple custom props were created and placed, which not only are more performant (engine and misc. particles were removed), but are also now MP-friendly and should result in less MPGC instability. (BUG #482)
-• MP Space Kuat's gutting of its orbital dockyard units has been reverted, and now uses its dockyard unit positions from EaW.  Petroglyph initially made this change because the space props used were from the Rebel story campaign, which had active engine particles and were synched between clients - Kuat became the worst performing map in the Skirmish pool.  With BUG #482 fixed, the new Empire shipyard units are now more performant and not synched between clients, which means we can add these props back to Kuat.  In addition, a new, MP-friendly orbital spacedock prop was made that isn't synched, which means the performance benefit should now be net-positive on this map. (BUG #683)
+• Space Fondor's Piracy map, for unexplainable reasons, used Utapau's planet model instead of the large ecumenopolis model that the standard Space Fondor map uses. (BUG #681)
+• Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant, but also MP-friendly and should result in less MPGC instability. (BUG #482)
+• MP Space Kuat's gutting of its orbital dockyard units (as seen in EaW) has been reverted.  Petroglyph likely made this change because the space props used were from the Rebel story campaign, which had active engine particles and were synched between clients - Kuat became the worst performing map in the Skirmish pool.  With BUG #482 fixed, the new Empire shipyard props are more performant and not synched between players, which means we can add these props back to Kuat.  In addition, a new, MP-friendly orbital dockyard prop was made, which means the performance benefit should now be net-positive on this map. (BUG #683)
 • Space Mon Calmari Piracy, when the planet was owned by the Rebels, would not have the Calamari Cruisers be destroyed when the dockyards were destroyed.  A new Calamari Cruiser prop, based on the story campaigns' destroyable drydock Star Destroyer, has been retrofitted on the map. (BUG #684)
 
 
 Model Fixes:
-• The large and small moon models for space maps (such as Space Kamino, or Space Mon Calamari) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (i.e. non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
+• The moon models for Space maps (such as Space Kamino, or Space Mon Calamari) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 • The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680) (Thanks, galyana!)
 
 
 Structure Fixes:
-• The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with every other defense satellite icon (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
-
-
-Texture Fixes:
-• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new grass shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
+• The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with the other defense satellite icons (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
 
 
 Unit Fixes:
-• The Consortium's Venator-class Cruiser didn't have shield armor multipliers configured, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against the Cruiser). (BUG #573)
+• The Consortium's Venator-class Cruiser didn't have shield armor multipliers, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against the Cruiser). (BUG #573)
 • The Rebels' MC30c didn't have damage multipliers on its rear laser cannon.  Temporarily, it's been given the Corellian Corvette's damage multipliers (as its a laser cannon battery/anti-starfighter). (BUG #575)
 
 
@@ -161,7 +161,7 @@ Multiplayer:
 • Fixed an exploit where heroes (such as Darth Vader and the Executor) could be duplicated if certain conditions were met. (BUG #273)
 
 
-Balance Modifications:
+Balance Changes:
 • The Rebel Land Skirmish AI can no longer buy R2-D2 and C-3PO.  The reasoning can be found on the GitHub, but additionally, this comes in tandem with another bugfix (BUG #540) where the AI would overbuy Vornskrs and Vehicle Heroes because it believed they were in an emergency, needed infantry, and buying R2-D2 was the way to solve that. (BUG #539)
 • The Empire AI had a heightened chance to blow up planets it may have not wanted to because the AI's perception of the minimum required collective amount of enemy forces on a planet was set too low (1500).  This limit has been set to 2000 so lightly defended planets don't get vaporized (this may require finetuning). (BUG #441)
 • While this is technically Working As Designed(TM), the popcap being "inaccurate" due to fractional infantry regiments is jarring to play with.  "Allow_Reinforcement_Percentage_Normalized" in GameConstants has been set to 0.5 to test the waters with smoothing out the behavior. (BUG #23)
@@ -451,7 +451,7 @@ Audio Fixes:
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
 
 
-Balance Modifications:
+Balance Changes:
 • "Tyber_Galactic_Stealth" has been removed from Tyber Zann.  He retains this stealth ability in the Consortium campaign, as he requires it there. His galactic stealth ability has been removed for several reasons, visible on GitHub. (BUG #154)
 • Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game.  They are now restricted to the same planets as other capital ships. (BUG #144)
 • Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates, and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their respective classes in the galactic fleet management windows. (BUG #175)
