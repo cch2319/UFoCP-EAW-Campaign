@@ -81,7 +81,7 @@ Ability Fixes:
 
 AI Fixes:
 • The Skirmish AI is supposed to generate a 6,000 credit cash boost every 2 minutes if they had <3,000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money - meaning, the AI bypassed the 2 minute wait time and could rapidly spend 6000 credit cash drops. (BUG #571)
-• In Space Skirmish, the level 1 space station for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid bugfix, they should now properly prioritize distance in tactical situations. (BUG #679)
+• The level 1 space stations for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid bugfix, they should now properly prioritize distance in tactical situations. (BUG #679)
 
 
 Audio Fixes:
