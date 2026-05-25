@@ -16824,7 +16824,7 @@ TEXT_SPEECH_UW_ACT03_M11_48,Urai Fen: Give me the word at any time, Tyber.  I wo
 TEXT_SPEECH_UW_ACT03_M11_49,Tyber Zann: I hate to admit it, Urai, but I think she's actually growing on me.  Of course it's comforting knowing that option is always available.
 TEXT_SPEECH_UW_ACT03_M11_50,Silri: There's something troubling here...
 TEXT_SPEECH_UW_ACT03_M11_51,Tyber Zann: The vault is open.  Let's see what's inside.
-TEXT_SPEECH_UW_ACT03_M11_52,Tyber Zann: Why aren't those Ysalamiri cages being deployed?  We're in trouble here!
+TEXT_SPEECH_UW_ACT03_M11_52,Tyber Zann: Why aren't those ysalamiri cages being deployed?  We're in trouble here!
 TEXT_SPEECH_UW_ACT03_M11_53,Tyber Zann: Everyone into the transport!
 TEXT_SPEECH_UW_ACT03_M11_54,Tyber Zann: This thing must move faster.
 TEXT_SPEECH_UW_ACT03_M11_55,Silri: Use the laser defenses!

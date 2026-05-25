@@ -296,8 +296,8 @@ Housekeeping:
 • : (BUG #724)
 	-- ENG: 
 
-• : (BUG #725)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M11_52: (BUG #725)
+	-- ENG: Tyber Zann: Why aren't those Ysalamiri cages being deployed? ... --> Tyber Zann: Why aren't those ysalamiri cages being deployed? ...
 
 • TEXT_SPEECH_UW_ACT03_M12_00: (BUG #726)
 	-- ENG: Tyber Zann: That is the most magnificent thing I've ever seen, Urai, once we take control we'll... --> Tyber Zann: That's the most magnificent thing I've ever seen, Urai!  Once we take control we'll-
