@@ -16658,7 +16658,7 @@ TEXT_SPEECH_UW_ACT02_M06_41,Nightsister: The Empire will pay for wrongfully impr
 TEXT_SPEECH_UW_ACT02_M06_42,Urai Fen: Those guns will tear us apart if we do not disable them.
 TEXT_SPEECH_UW_ACT02_M06_43,Tyber Zann: Guns that large have to be drawing more power than the prison can produce... that dam we passed earlier might be their power source.
 TEXT_SPEECH_UW_ACT02_M06_54,Tyber Zann: Do you recognize this artifact?  I could reward you handsomely for unlocking it.
-TEXT_SPEECH_UW_ACT02_M06_55,Nightsister: The object is of Sith creation.  Only the most learned and powerful in the dark ways of the force could hope to break its ancient code.
+TEXT_SPEECH_UW_ACT02_M06_55,Nightsister: The object is of Sith creation.  Only the most learned and powerful in the dark ways of the Force could hope to break its ancient code.
 TEXT_SPEECH_UW_ACT02_M06_56,Tyber Zann: And?  Who would be the most powerful among you?  Is there one who could do this?
 TEXT_SPEECH_UW_ACT02_M06_57,Nightsister: Silri can be found in the Frenzied River Prison to the north.  The Imperial Governor placed her in a cage and broadcast news of her imprisonment planet-wide, in order to break our spirit.  It didn't work.  We rebelled, but many of our number were captured, and imprisoned all over the planet.  The Empire is now our mortal enemy.
 TEXT_SPEECH_UW_ACT02_M06_SAB_BOUNCE,Tyber Zann: We need to destroy the orbital sensor array before we can approach Dathomir; trying to land would be suicide otherwise.

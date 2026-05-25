@@ -297,7 +297,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_55: (BUG #715)
-	-- ENG: 
+	-- ENG: ...Only the most learned and powerful in the dark ways of the force could hope to break its ancient code. --> ...Only the most learned and powerful in the dark ways of the Force could hope to break its ancient code.
 
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #716)
 	-- ENG: ...for landing at your location. --> ...for landing at your location!
