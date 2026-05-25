@@ -16692,7 +16692,7 @@ TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: My Lord, we nearly had them, but th
 TEXT_SPEECH_UW_ACT02_M07_29,Darth Vader: Not the performance I expect from an Imperial Field Commander.  I will seek them out myself.
 TEXT_SPEECH_UW_ACT02_M07_30,Tyber Zann: Good work.  Let's get back to the shuttle and get out of here.
 TEXT_SPEECH_UW_ACT02_M07_31,Darth Vader: Your Report.
-TEXT_SPEECH_UW_ACT02_M07_32,Stormtrooper: They escaped with a large supply of tibanna gas -- enough to supply a sizable fleet.
+TEXT_SPEECH_UW_ACT02_M07_32,Stormtrooper: They escaped with a large supply of tibanna gas - enough to supply a sizable fleet.
 TEXT_SPEECH_UW_ACT02_M07_33,Darth Vader: Have they been identified?
 TEXT_SPEECH_UW_ACT02_M07_34,Stormtrooper: We've found evidence that suggests the Black Sun criminal organization was responsible.  We also have records that indicate some of the local militia took bribes to allow them to land.
 TEXT_SPEECH_UW_ACT02_M07_35,Darth Vader: Execute the local militia and any associates.  Xizor will pay for this transgression.

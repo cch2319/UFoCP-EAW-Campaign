@@ -305,11 +305,11 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT02_M07_25: (BUG #717)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT02_M07_32: (BUG #718)
-	-- ENG: 
-
 • TEXT_SPEECH_UW_ACT02_M07_28: (BUG #719)
 	-- ENG: Field Commander: My Lord, we nearly had them, but they seem to have... --> Field Commander: My Lord, we nearly had them, but they seem to have... (Choking)
+
+• TEXT_SPEECH_UW_ACT02_M07_32: (BUG #718)
+	-- ENG: Stormtrooper: They escaped with a large supply of tibanna gas -- ... --> Stormtrooper: They escaped with a large supply of tibanna gas - ...
 
 • TEXT_SPEECH_UW_ACT02_M09_03: (BUG #720)
 	-- ENG: Tyber Zann: Really.  You don't think I came unprepared, do you? --> Tyber Zann: Really?  (Sly Laughter)  You don't think I came unprepared, do you?
