@@ -294,7 +294,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_41: (BUG #714)
-	-- ENG: 
+	-- ENG: ...Bring us to rancor and we'll bring the Imperial forces to their knees. --> ...Bring us to rancor and we'll bring the Imperial forces to their knees!
 
 • TEXT_SPEECH_UW_ACT02_M06_55: (BUG #715)
 	-- ENG: ...Only the most learned and powerful in the dark ways of the force could hope to break its ancient code. --> ...Only the most learned and powerful in the dark ways of the Force could hope to break its ancient code.

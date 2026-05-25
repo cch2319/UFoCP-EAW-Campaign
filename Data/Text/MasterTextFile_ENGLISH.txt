@@ -16654,7 +16654,7 @@ TEXT_SPEECH_UW_ACT02_M06_37,Tyber Zann: Our cloaking fields should get us past t
 TEXT_SPEECH_UW_ACT02_M06_38,Nightsister: Why have you released us?
 TEXT_SPEECH_UW_ACT02_M06_39,Tyber Zann: We see that there is no love lost between your people and the Empire.  We may have more in common that it appears.
 TEXT_SPEECH_UW_ACT02_M06_40,Urai Fen: If you help us, we will fight to free your sisters from every prison on the planet.
-TEXT_SPEECH_UW_ACT02_M06_41,Nightsister: The Empire will pay for wrongfully imprisoning us.  Bring us to rancor and we'll bring the Imperial forces to their knees.
+TEXT_SPEECH_UW_ACT02_M06_41,Nightsister: The Empire will pay for wrongfully imprisoning us.  Bring us to rancor and we'll bring the Imperial forces to their knees!
 TEXT_SPEECH_UW_ACT02_M06_42,Urai Fen: Those guns will tear us apart if we do not disable them.
 TEXT_SPEECH_UW_ACT02_M06_43,Tyber Zann: Guns that large have to be drawing more power than the prison can produce... that dam we passed earlier might be their power source.
 TEXT_SPEECH_UW_ACT02_M06_54,Tyber Zann: Do you recognize this artifact?  I could reward you handsomely for unlocking it.
