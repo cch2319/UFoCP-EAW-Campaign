@@ -284,8 +284,8 @@ Housekeeping:
 • : (BUG #720)
 	-- ENG: 
 
-• : (BUG #721)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_M09_07: (BUG #721)
+	-- ENG: Tyber Zann: Agreed...for an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring... --> Tyber Zann: Agreed.  For an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring.
 
 • TEXT_SPEECH_UW_ACT03_M11_01: (BUG #722)
 	-- ENG: Silri: Dark Troopers...not so threatening when deactivated. --> Silri: Dark Troopers.  Hmph, not so threatening when deactivated.

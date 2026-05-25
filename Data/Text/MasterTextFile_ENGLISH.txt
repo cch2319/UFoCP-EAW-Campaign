@@ -16705,7 +16705,7 @@ TEXT_SPEECH_UW_ACT02_M09_03,Tyber Zann: Really.  You don't think I came unprepar
 TEXT_SPEECH_UW_ACT02_M09_04,Thrawn: Well done, for a petty criminal.  Of course I wouldn't have expected you to anticipate the hypervelocity gun on the surface.
 TEXT_SPEECH_UW_ACT02_M09_05,Tyber Zann: Well I would expect an Imperial Officer to be arrogant enough not to be ready for my surprises.
 TEXT_SPEECH_UW_ACT02_M09_06,Thrawn: Well.  This may actually prove interesting.  Why don't we begin?
-TEXT_SPEECH_UW_ACT02_M09_07,Tyber Zann: Agreed...for an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring...
+TEXT_SPEECH_UW_ACT02_M09_07,Tyber Zann: Agreed.  For an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring.
 TEXT_SPEECH_UW_ACT02_M09_08,Pilot: Bossk has stolen the artifact!  He's heading towards Thrawn's ship.  All fire on the Hound's Tooth!
 TEXT_SPEECH_UW_ACT02_M09_09,Tyber Zann: No!  Let him go!  Let him go.
 TEXT_SPEECH_UW_ACT02_M09_10,Thrawn: I'm sure you are now aware, I have what I came for.  Goodbye, Tyber.  For the last time.
