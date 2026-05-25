@@ -303,7 +303,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M07_25: (BUG #717)
-	-- ENG: 
+	-- ENG: ...if we want to get out of here intact. --> ...if we want to get out of here intact!
 
 • TEXT_SPEECH_UW_ACT02_M07_28: (BUG #719)
 	-- ENG: Field Commander: My Lord, we nearly had them, but they seem to have... --> Field Commander: My Lord, we nearly had them, but they seem to have... (Choking)
