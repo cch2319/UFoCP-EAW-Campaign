@@ -305,8 +305,8 @@ Housekeeping:
 • : (BUG #727)
 	-- ENG: 
 
-• : (BUG #728)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M12_07: (BUG #728)
+	-- ENG: Han Solo: Listen, Zann.  If you're on the level, help us destroy that super star destroyer.  You'll be well rewarded. -->
 
 • TEXT_SPEECH_UW_ACT03_M12_09: (BUG #729)
 	-- ENG: Han Solo: Alright.  Zann, don't think I'm not paying attention. ... --> Han Solo: Alright, Zann, don't think I'm not paying attention. ...
