@@ -291,7 +291,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_27: (BUG #713)
-	-- ENG: 
+	-- ENG: Tyber Zann: This is a chance we have to take - She can access ... --> Tyber Zann: This is a chance we have to take.  She can access ...
 
 • TEXT_SPEECH_UW_ACT02_M06_41: (BUG #714)
 	-- ENG: ...Bring us to rancor and we'll bring the Imperial forces to their knees. --> ...Bring us to rancor and we'll bring the Imperial forces to their knees!

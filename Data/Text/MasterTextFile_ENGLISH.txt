@@ -16640,7 +16640,7 @@ TEXT_SPEECH_UW_ACT02_M06_23,Silri: My message will be sent -- written in your bl
 TEXT_SPEECH_UW_ACT02_M06_24,Tyber Zann: There, now.  That worked out well for you.  Now it is time for you to hold up your end of the bargain.
 TEXT_SPEECH_UW_ACT02_M06_25,Silri: I will unlock the secrets of the artifact.
 TEXT_SPEECH_UW_ACT02_M06_26,Urai Fen: This is a mistake Tyber.  She will betray you as soon as she gets what she wants.
-TEXT_SPEECH_UW_ACT02_M06_27,Tyber Zann: This is a chance we have to take - She can access the artifact and uncover its secrets.  Once my plans are set in motion, you can have the pleasure of killing her.
+TEXT_SPEECH_UW_ACT02_M06_27,Tyber Zann: This is a chance we have to take.  She can access the artifact and uncover its secrets.  Once my plans are set in motion, you can have the pleasure of killing her.
 TEXT_SPEECH_UW_ACT02_M06_28,Prison Guard: Kill her before she reaches the Rancor!
 TEXT_SPEECH_UW_ACT02_M06_29,Prison Guard: It's too late!  Run!
 TEXT_SPEECH_UW_ACT02_M06_30,Nightsister: Now - Feel my wrath!
