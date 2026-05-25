@@ -300,7 +300,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #716)
-	-- ENG: 
+	-- ENG: ...for landing at your location. --> ...for landing at your location!
 
 • TEXT_SPEECH_UW_ACT02_M07_25: (BUG #717)
 	-- ENG: ...if we want to get out of here intact. --> ...if we want to get out of here intact!
