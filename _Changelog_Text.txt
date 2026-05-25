@@ -109,7 +109,7 @@ Housekeeping:
 	-- ENG: 
 
 • : (BUG #732)
-	-- ENG: 
+	-- ENG: Pilot: Sir!  The Eclipse's superlaser is back online and ready to fire! --> Pilot: The Eclipse's superlaser is back online and ready to fire!
 
 • TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02: (BUG #582)
 	-- ENG: ...The planet is completely corrupt and massive credit deposits are coming our way. --> ...The planet is completely corrupt, and massive credit deposits are coming our way.

@@ -16469,7 +16469,7 @@ TEXT_SPEECH_UW_ACT01_M04_12,Bossk: (Translated) It's never enough...
 TEXT_SPEECH_UW_ACT01_M04_13,Tyber Zann: Indeed.  What would you say if I tripled Jabba's payment, and delivered it in advance?
 TEXT_SPEECH_UW_ACT01_M04_14,Bossk: (Translated) Where's the target?
 TEXT_SPEECH_UW_ACT01_M04_15,Tyber Zann: Jabba, your men are dead, and you're surrounded.  I'd say that puts you at a disadvantage.
-TEXT_SPEECH_UW_ACT01_M04_16,Jabba the Hutt: (Translated) We can make a deal Tyber!  There's no need to do anything...permanent.
+TEXT_SPEECH_UW_ACT01_M04_16,Jabba the Hutt: (Translated) We can make a deal Tyber!  There's no need to do anything... permanent.
 TEXT_SPEECH_UW_ACT01_M04_17,Tyber Zann: The only deal that lets you live is this - The price on my head--gone.  The hits on my territories--stop.  The planets Saleucami and Hypori--now belong to me.  If I see your people anywhere in my territory, I'll personally come to Tatooine and feed you to your own rancor.
 TEXT_SPEECH_UW_ACT01_M04_18,Jabba the Hutt: (Translated) Agreed.  Just leave Hutt territory alone and I will leave you to your business.
 TEXT_SPEECH_UW_ACT01_M04_19,Tyber Zann: Oh of course, Jabba.  As long as you live, I will leave you to your holdings.  Now, get off my planet.
@@ -16507,7 +16507,7 @@ TEXT_SPEECH_UW_ACT01_M04_50,Urai Fen: The emergency defenses are active.  The dr
 TEXT_SPEECH_UW_ACT01_M04_51,Tyber Zann: Can we get to the shutoff controls?
 TEXT_SPEECH_UW_ACT01_M04_52,Urai Fen: They are deep within the factory.  We can reach them, if we avoid any unnecessary conflicts.
 TEXT_SPEECH_UW_ACT01_M04_53,Tyber Zann: Backing down from a fight?  Urai, don't tell me you've grown soft while I've been away.
-TEXT_SPEECH_UW_ACT01_M04_54,Urai Fen: I said nothing about backing down - we likely won't have that option.  Droidekas are fast...very fast.
+TEXT_SPEECH_UW_ACT01_M04_54,Urai Fen: I said nothing about backing down - we likely won't have that option.  Droidekas are fast... very fast.
 TEXT_SPEECH_UW_ACT01_M04_55,Urai Fen: The battle class droideka is 1.83 meters in height and has a built in shield projector, making it a formidable threat to infantry and light vehicles.
 TEXT_SPEECH_UW_ACT01_M04_56,Tyber Zann: I've never encountered one myself, but I've heard the stories.
 TEXT_SPEECH_UW_ACT01_M04_57,Urai Fen: It has twin rapid-fire blaster cannons...
@@ -16656,7 +16656,7 @@ TEXT_SPEECH_UW_ACT02_M06_39,Tyber Zann: We see that there is no love lost betwee
 TEXT_SPEECH_UW_ACT02_M06_40,Urai Fen: If you help us, we will fight to free your sisters from every prison on the planet.
 TEXT_SPEECH_UW_ACT02_M06_41,Nightsister: The Empire will pay for wrongfully imprisoning us.  Bring us to rancor and we'll bring the Imperial forces to their knees.
 TEXT_SPEECH_UW_ACT02_M06_42,Urai Fen: Those guns will tear us apart if we do not disable them.
-TEXT_SPEECH_UW_ACT02_M06_43,Tyber Zann: Guns that large have to be drawing more power than the prison can produce...that dam we passed earlier might be their power source.
+TEXT_SPEECH_UW_ACT02_M06_43,Tyber Zann: Guns that large have to be drawing more power than the prison can produce... that dam we passed earlier might be their power source.
 TEXT_SPEECH_UW_ACT02_M06_54,Tyber Zann: Do you recognize this artifact?  I could reward you handsomely for unlocking it.
 TEXT_SPEECH_UW_ACT02_M06_55,Nightsister: The object is of Sith creation.  Only the most learned and powerful in the dark ways of the force could hope to break its ancient code.
 TEXT_SPEECH_UW_ACT02_M06_56,Tyber Zann: And?  Who would be the most powerful among you?  Is there one who could do this?
@@ -16803,7 +16803,7 @@ TEXT_SPEECH_UW_ACT03_M11_27,Urai Fen: Got it.  Do you want anything else in the 
 TEXT_SPEECH_UW_ACT03_M11_28,Tyber Zann: Tempting, but there's no time.  We have the plans and that's what we came for.  Let's leave while we still can.
 TEXT_SPEECH_UW_ACT03_M11_29,Silri: What is it, my pet?
 TEXT_SPEECH_UW_ACT03_M11_30,Tyber Zann: What's that thing doing out of its cage?  And why aren't you waiting in the hangar?
-TEXT_SPEECH_UW_ACT03_M11_31,Silri: I...sensed something, I went to investigate.
+TEXT_SPEECH_UW_ACT03_M11_31,Silri: I... sensed something, I went to investigate.
 TEXT_SPEECH_UW_ACT03_M11_32,Urai Fen: I will deal with you later.  This way.  Make haste!
 TEXT_SPEECH_UW_ACT03_M11_33,Force Adept: Halt, thieves!  Return what you've taken, and I promise a quick and painless death.
 TEXT_SPEECH_UW_ACT03_M11_34,Tyber Zann: You must have no idea who I am...
@@ -16860,11 +16860,11 @@ TEXT_SPEECH_UW_ACT03_M12_27,Pilot: We've got it! The space station is ours!
 TEXT_SPEECH_UW_ACT03_M12_28,Pilot: We're approaching the Eclipse now, initiating boarding protocols.
 TEXT_SPEECH_UW_ACT03_M12_29,Pilot: We've taken control of the Eclipse.  There isn't much functional equipment, but the superlaser is operational.
 TEXT_SPEECH_UW_ACT03_M12_30,Han Solo: Ok, Zann -- fun's over.  You wanted to capture the emperor's new toy?  Fine.  Let's see how long you can keep her.
-TEXT_SPEECH_UW_ACT03_M12_31,Tyber Zann: Ha!  The Rebels have served their purpose...destroy them.
+TEXT_SPEECH_UW_ACT03_M12_31,Tyber Zann: Ha!  The Rebels have served their purpose... destroy them.
 TEXT_SPEECH_UW_ACT03_M12_32,Pilot: Sir!  The Eclipse is under attack!
 TEXT_SPEECH_UW_ACT03_M12_33,Tyber Zann: We've lost the Eclipse, all units withdraw.  Repeat, all units withdraw!
 TEXT_SPEECH_UW_ACT03_M12_34,Pilot: Sir!  The Eclipse's superlaser has malfunctioned!  We will need some time to make repairs!
-TEXT_SPEECH_UW_ACT03_M12_35,Pilot: Sir!  The Eclipse's superlaser is back online and ready to fire!
+TEXT_SPEECH_UW_ACT03_M12_35,Pilot: The Eclipse's superlaser is back online and ready to fire!
 TEXT_SPEECH_UW_ACT03_M12_BOUNCE,Tyber Zann: The moment of my ultimate triumph cannot be executed with me.
 TEXT_SPEECH_UW_ACT03_M12_BOUNCE_GEN,Tyber Zann: Kuat is too hot right now.  I need to formulate a plan before I can tackle this planet and infiltrate the Eclipse.
 TEXT_SPEECH_UW_CLD_01,Urai Fen: Governor Koong Eeth has proven difficult.  We aren't going to kill him, when simply maiming him should accomplish our goals.  Getting past his impressive security force and severely injuring him sends the appropriate message.  No one denies the Zann Consortium.  No one.
