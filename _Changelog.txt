@@ -55,7 +55,7 @@ ENHANCEMENTS:
 
 
 FORWARDED OFFICIAL FIXES:
-• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new grass shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
+• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
 
 
 HOUSEKEEPING:
