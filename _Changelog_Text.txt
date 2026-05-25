@@ -281,8 +281,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #720)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_M09_03: (BUG #720)
+	-- ENG: Tyber Zann: Really.  You don't think I came unprepared, do you? --> Tyber Zann: Really?  (Sly Laughter)  You don't think I came unprepared, do you?
 
 • TEXT_SPEECH_UW_ACT02_M09_07: (BUG #721)
 	-- ENG: Tyber Zann: Agreed...for an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring... --> Tyber Zann: Agreed.  For an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring.

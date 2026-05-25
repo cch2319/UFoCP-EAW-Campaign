@@ -16701,7 +16701,7 @@ TEXT_SPEECH_UW_ACT02_M07_37,Tyber Zann: Here's one of the security outposts.  On
 TEXT_SPEECH_UW_ACT02_M09_00,Thrawn: Tyber Zann.  I've come to collect your artifact for the emperor.  Comply with my demands, and I promise a swift and reasonably honorable death.
 TEXT_SPEECH_UW_ACT02_M09_01,Tyber Zann: Thrawn.  Of course I knew you were still lurking in my shadows.  Don't tell me you're the contact Xizor arranged.
 TEXT_SPEECH_UW_ACT02_M09_02,Thrawn: In a manner of speaking, yes.  Xizor is dead.  The evidence you planted convinced Vader, but I recognized your unique signature.  You've overstepped your bounds for the last time, Zann.
-TEXT_SPEECH_UW_ACT02_M09_03,Tyber Zann: Really.  You don't think I came unprepared, do you?
+TEXT_SPEECH_UW_ACT02_M09_03,Tyber Zann: Really?  (Sly Laughter)  You don't think I came unprepared, do you?
 TEXT_SPEECH_UW_ACT02_M09_04,Thrawn: Well done, for a petty criminal.  Of course I wouldn't have expected you to anticipate the hypervelocity gun on the surface.
 TEXT_SPEECH_UW_ACT02_M09_05,Tyber Zann: Well I would expect an Imperial Officer to be arrogant enough not to be ready for my surprises.
 TEXT_SPEECH_UW_ACT02_M09_06,Thrawn: Well.  This may actually prove interesting.  Why don't we begin?
