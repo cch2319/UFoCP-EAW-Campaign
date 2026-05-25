@@ -281,6 +281,36 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• TEXT_SPEECH_UW_ACT02_M06_08: (BUG #710)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M06_21: (BUG #711)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M06_23: (BUG #712)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M06_27: (BUG #713)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M06_41: (BUG #714)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M06_55: (BUG #715)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M07_24: (BUG #716)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M07_25: (BUG #717)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M07_32: (BUG #718)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT02_M07_28: (BUG #719)
+	-- ENG: 
+
 • TEXT_SPEECH_UW_ACT02_M09_03: (BUG #720)
 	-- ENG: Tyber Zann: Really.  You don't think I came unprepared, do you? --> Tyber Zann: Really?  (Sly Laughter)  You don't think I came unprepared, do you?
 
