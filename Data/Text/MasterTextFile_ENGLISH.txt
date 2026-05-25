@@ -16838,7 +16838,7 @@ TEXT_SPEECH_UW_ACT03_M12_05,Han Solo: Unidentified ships, what is your purpose i
 TEXT_SPEECH_UW_ACT03_M12_06,Tyber Zann: We heard of the Alliance's glorious victory at Endor, and have come join.
 TEXT_SPEECH_UW_ACT03_M12_07,Han Solo: Listen, Zann.  If you're on the level, help us destroy that super star destroyer.  You'll be well rewarded.
 TEXT_SPEECH_UW_ACT03_M12_08,Tyber Zann: Looks like there are a few space stations between ourselves and the Eclipse.  Take them out!
-TEXT_SPEECH_UW_ACT03_M12_09,Han Solo: Alright.  Zann, don't think I'm not paying attention.  If I smell a double-cross, I won't waste any time taking you out.  Oh, and uh, good luck.
+TEXT_SPEECH_UW_ACT03_M12_09,Han Solo: Alright, Zann, don't think I'm not paying attention.  If I smell a double-cross, I won't waste any time taking you out.  Oh, and uh, good luck.
 TEXT_SPEECH_UW_ACT03_M12_10,Pilot: We've finished scanning the Eclipse Star Destroyer - the main weapon looks to be functional.  If we could board that thing and get our hands on that superlaser...
 TEXT_SPEECH_UW_ACT03_M12_11,Tyber Zann: I'm way ahead of you.  Just worry about those defenses.
 TEXT_SPEECH_UW_ACT03_M12_12,Pilot: Imperial ships dropping out of hyperspace.
