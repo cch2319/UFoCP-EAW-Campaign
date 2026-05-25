@@ -72,6 +72,45 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #720)
+	-- ENG: 
+
+• : (BUG #721)
+	-- ENG: 
+
+• : (BUG #722)
+	-- ENG: 
+
+• : (BUG #723)
+	-- ENG: 
+
+• : (BUG #724)
+	-- ENG: 
+
+• : (BUG #725)
+	-- ENG: 
+
+• : (BUG #726)
+	-- ENG: 
+
+• : (BUG #727)
+	-- ENG: 
+
+• : (BUG #728)
+	-- ENG: 
+
+• : (BUG #729)
+	-- ENG: 
+
+• : (BUG #730)
+	-- ENG: 
+
+• : (BUG #731)
+	-- ENG: 
+
+• : (BUG #732)
+	-- ENG: 
+
 • TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02: (BUG #582)
 	-- ENG: ...The planet is completely corrupt and massive credit deposits are coming our way. --> ...The planet is completely corrupt, and massive credit deposits are coming our way.
 
