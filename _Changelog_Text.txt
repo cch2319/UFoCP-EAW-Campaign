@@ -105,10 +105,10 @@ Housekeeping:
 • : (BUG #730)
 	-- ENG: 
 
-• : (BUG #731)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M12_34: (BUG #731)
+	-- ENG: Pilot: Sir!  The Eclipse's superlaser has malfunctioned!  We will need some time to make repairs! --> Pilot: The Eclipse's superlaser has malfunctioned!  We'll need time to make repairs!
 
-• : (BUG #732)
+• TEXT_SPEECH_UW_ACT03_M12_35: (BUG #732)
 	-- ENG: Pilot: Sir!  The Eclipse's superlaser is back online and ready to fire! --> Pilot: The Eclipse's superlaser is back online and ready to fire!
 
 • TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02: (BUG #582)

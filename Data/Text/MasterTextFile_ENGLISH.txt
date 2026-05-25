@@ -16863,7 +16863,7 @@ TEXT_SPEECH_UW_ACT03_M12_30,Han Solo: Ok, Zann -- fun's over.  You wanted to cap
 TEXT_SPEECH_UW_ACT03_M12_31,Tyber Zann: Ha!  The Rebels have served their purpose... destroy them.
 TEXT_SPEECH_UW_ACT03_M12_32,Pilot: Sir!  The Eclipse is under attack!
 TEXT_SPEECH_UW_ACT03_M12_33,Tyber Zann: We've lost the Eclipse, all units withdraw.  Repeat, all units withdraw!
-TEXT_SPEECH_UW_ACT03_M12_34,Pilot: Sir!  The Eclipse's superlaser has malfunctioned!  We will need some time to make repairs!
+TEXT_SPEECH_UW_ACT03_M12_34,Pilot: The Eclipse's superlaser has malfunctioned!  We'll need time to make repairs!
 TEXT_SPEECH_UW_ACT03_M12_35,Pilot: The Eclipse's superlaser is back online and ready to fire!
 TEXT_SPEECH_UW_ACT03_M12_BOUNCE,Tyber Zann: The moment of my ultimate triumph cannot be executed with me.
 TEXT_SPEECH_UW_ACT03_M12_BOUNCE_GEN,Tyber Zann: Kuat is too hot right now.  I need to formulate a plan before I can tackle this planet and infiltrate the Eclipse.
