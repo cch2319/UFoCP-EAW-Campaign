@@ -293,8 +293,8 @@ Housekeeping:
 • : (BUG #723)
 	-- ENG: 
 
-• : (BUG #724)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M11_17: (BUG #724)
+	-- ENG: ...It has been a long time since I have had a challenging opponent, do not disappoint me. --> ...It has been a long time since I've had a challenging opponent.  Do not disappoint me.
 
 • TEXT_SPEECH_UW_ACT03_M11_52: (BUG #725)
 	-- ENG: Tyber Zann: Why aren't those Ysalamiri cages being deployed? ... --> Tyber Zann: Why aren't those ysalamiri cages being deployed? ...
