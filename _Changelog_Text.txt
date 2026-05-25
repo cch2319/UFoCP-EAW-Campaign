@@ -288,7 +288,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_23: (BUG #712)
-	-- ENG: 
+	-- ENG: Silri: My message will be sent -- written in your blood. --> Silri: My message will be sent - written in your blood!
 
 • TEXT_SPEECH_UW_ACT02_M06_27: (BUG #713)
 	-- ENG: Tyber Zann: This is a chance we have to take - She can access ... --> Tyber Zann: This is a chance we have to take.  She can access ...

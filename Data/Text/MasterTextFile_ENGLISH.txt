@@ -16636,7 +16636,7 @@ TEXT_SPEECH_UW_ACT02_M06_19,Tyber Zann: I'm not concerned about our lovely Silri
 TEXT_SPEECH_UW_ACT02_M06_20,Silri: Understood, now release me from this cell and we'll go to kill the Imperial Governor that put me on display in this cage.
 TEXT_SPEECH_UW_ACT02_M06_21,Silri: That is the Imperial Governor's stronghold.  His lifeless body will send a message to the emperor.  The use of Dark Force powers against his army should convince the emperor it would be wise to leave Dathomir.
 TEXT_SPEECH_UW_ACT02_M06_22,Imperial Governor: Wait, please!  I'm worth more to you alive!  Your message will get out through my ransom!  Your demands will be met!
-TEXT_SPEECH_UW_ACT02_M06_23,Silri: My message will be sent -- written in your blood.
+TEXT_SPEECH_UW_ACT02_M06_23,Silri: My message will be sent - written in your blood!
 TEXT_SPEECH_UW_ACT02_M06_24,Tyber Zann: There, now.  That worked out well for you.  Now it is time for you to hold up your end of the bargain.
 TEXT_SPEECH_UW_ACT02_M06_25,Silri: I will unlock the secrets of the artifact.
 TEXT_SPEECH_UW_ACT02_M06_26,Urai Fen: This is a mistake Tyber.  She will betray you as soon as she gets what she wants.
