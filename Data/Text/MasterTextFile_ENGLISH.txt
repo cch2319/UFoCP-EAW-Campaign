@@ -16773,7 +16773,7 @@ TEXT_SPEECH_UW_ACT03_G21_03,Silri: The emperor, and Vader - they're dead.  The R
 TEXT_SPEECH_UW_ACT03_G21_04,Urai Fen: The Rebels claim it to be true, they are broadcasting it all over the holonet.
 TEXT_SPEECH_UW_ACT03_G21_05,Tyber Zann: With the emperor dead, the Empire will be in chaos.  Most of the ships from the Kuat blockade will have returned from the battle over Endor to regroup.  The time to strike is now!  We must take control of the Eclipse.
 TEXT_SPEECH_UW_ACT03_M11_00,Silri: Tyber Zann is a fool if he thinks I will leave the artifact in the emperor's hands.  It will be mine!
-TEXT_SPEECH_UW_ACT03_M11_01,Silri: Dark Troopers...not so threatening when deactivated.
+TEXT_SPEECH_UW_ACT03_M11_01,Silri: Dark Troopers.  Hmph, not so threatening when deactivated.
 TEXT_SPEECH_UW_ACT03_M11_02,Silri: I can feel the power of the artifact, it must be nearby!
 TEXT_SPEECH_UW_ACT03_M11_03,Silri: Which way?
 TEXT_SPEECH_UW_ACT03_M11_04,Silri: There it is.  Once I have all of its secrets, I will kill both of those fools who think to order me around.

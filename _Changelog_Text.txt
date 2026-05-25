@@ -287,8 +287,8 @@ Housekeeping:
 • : (BUG #721)
 	-- ENG: 
 
-• : (BUG #722)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M11_01: (BUG #722)
+	-- ENG: Silri: Dark Troopers...not so threatening when deactivated. --> Silri: Dark Troopers.  Hmph, not so threatening when deactivated.
 
 • TEXT_SPEECH_UW_ACT03_M11_16: (BUG #723)
 	-- ENG: Tyber Zann: That should take care of the cameras --> Tyber Zann: That should take care of the cameras.
