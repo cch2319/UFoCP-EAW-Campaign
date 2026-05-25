@@ -285,7 +285,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_21: (BUG #711)
-	-- ENG: 
+	-- ENG: Silri: That is the Imperial Governor's stronghold.  His lifeless body will send a message to the emperor.  The use of Dark Force powers against his army should convince the emperor it would be wise to leave Dathomir. --> Silri: That is the Imperial Governor's stronghold!  His lifeless body will send a message to the emperor.  The use of dark Force powers against his army should convince the emperor it would be wise to leave Dathomir!
 
 • TEXT_SPEECH_UW_ACT02_M06_23: (BUG #712)
 	-- ENG: Silri: My message will be sent -- written in your blood. --> Silri: My message will be sent - written in your blood!
