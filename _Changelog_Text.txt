@@ -102,8 +102,8 @@ Housekeeping:
 • : (BUG #729)
 	-- ENG: 
 
-• : (BUG #730)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M12_30: (BUG #730)
+	-- ENG: Han Solo: Ok, Zann -- fun's over. --> Han Solo: Ok, Zann - fun's over.
 
 • TEXT_SPEECH_UW_ACT03_M12_34: (BUG #731)
 	-- ENG: Pilot: Sir!  The Eclipse's superlaser has malfunctioned!  We will need some time to make repairs! --> Pilot: The Eclipse's superlaser has malfunctioned!  We'll need time to make repairs!

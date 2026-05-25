@@ -16859,7 +16859,7 @@ TEXT_SPEECH_UW_ACT03_M12_26,Pilot: We've sabotaged the space station's main reac
 TEXT_SPEECH_UW_ACT03_M12_27,Pilot: We've got it! The space station is ours!
 TEXT_SPEECH_UW_ACT03_M12_28,Pilot: We're approaching the Eclipse now, initiating boarding protocols.
 TEXT_SPEECH_UW_ACT03_M12_29,Pilot: We've taken control of the Eclipse.  There isn't much functional equipment, but the superlaser is operational.
-TEXT_SPEECH_UW_ACT03_M12_30,Han Solo: Ok, Zann -- fun's over.  You wanted to capture the emperor's new toy?  Fine.  Let's see how long you can keep her.
+TEXT_SPEECH_UW_ACT03_M12_30,Han Solo: Ok, Zann - fun's over.  You wanted to capture the emperor's new toy?  Fine.  Let's see how long you can keep her.
 TEXT_SPEECH_UW_ACT03_M12_31,Tyber Zann: Ha!  The Rebels have served their purpose... destroy them.
 TEXT_SPEECH_UW_ACT03_M12_32,Pilot: Sir!  The Eclipse is under attack!
 TEXT_SPEECH_UW_ACT03_M12_33,Tyber Zann: We've lost the Eclipse, all units withdraw.  Repeat, all units withdraw!
