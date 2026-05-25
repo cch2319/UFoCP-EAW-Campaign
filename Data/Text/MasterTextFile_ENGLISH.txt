@@ -16788,7 +16788,7 @@ TEXT_SPEECH_UW_ACT03_M11_12,Officer: I'd be killed if anyone knew I let you in h
 TEXT_SPEECH_UW_ACT03_M11_13,Tyber Zann: You're probably right.
 TEXT_SPEECH_UW_ACT03_M11_14,Force Adept: Well, well... The great Tyber Zann.  I didn't expect to see you here.
 TEXT_SPEECH_UW_ACT03_M11_15,Tyber Zann: I doubt you expected to die, either.  But I'm full of surprises.
-TEXT_SPEECH_UW_ACT03_M11_16,Tyber Zann: That should take care of the cameras
+TEXT_SPEECH_UW_ACT03_M11_16,Tyber Zann: That should take care of the cameras.
 TEXT_SPEECH_UW_ACT03_M11_17,Urai Fen: I can sense the dark side of the Force within you.  It has been a long time since I've had a challenging opponent.  Do not disappoint me.
 TEXT_SPEECH_UW_ACT03_M11_18,Urai Fen: There are three more of them.
 TEXT_SPEECH_UW_ACT03_M11_19,Urai Fen: The power is down.  Now I must reach Tyber.

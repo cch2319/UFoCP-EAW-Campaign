@@ -290,8 +290,8 @@ Housekeeping:
 • : (BUG #722)
 	-- ENG: 
 
-• : (BUG #723)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M11_16: (BUG #723)
+	-- ENG: Tyber Zann: That should take care of the cameras --> Tyber Zann: That should take care of the cameras.
 
 • TEXT_SPEECH_UW_ACT03_M11_17: (BUG #724)
 	-- ENG: ...It has been a long time since I have had a challenging opponent, do not disappoint me. --> ...It has been a long time since I've had a challenging opponent.  Do not disappoint me.
