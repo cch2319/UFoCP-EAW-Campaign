@@ -16835,7 +16835,7 @@ TEXT_SPEECH_UW_ACT03_M12_02,Tyber Zann: It's probably the remains of the Imperia
 TEXT_SPEECH_UW_ACT03_M12_03,Urai Fen: There are multiple Alliance signatures as well.
 TEXT_SPEECH_UW_ACT03_M12_04,Tyber Zann: Already?  More organized than I thought.  Quickly, then!
 TEXT_SPEECH_UW_ACT03_M12_05,Han Solo: Unidentified ships, what is your purpose in this sector?
-TEXT_SPEECH_UW_ACT03_M12_06,Tyber Zann: We heard of the Alliance's glorious victory at Endor, and have come join.
+TEXT_SPEECH_UW_ACT03_M12_06,Tyber Zann: We heard of the Alliance's glorious victory at Endor, and have come join!
 TEXT_SPEECH_UW_ACT03_M12_07,Han Solo: Listen!  Zann, if you're on the level, help us destroy that Super Star Destroyer.  You'll be well-rewarded.
 TEXT_SPEECH_UW_ACT03_M12_08,Tyber Zann: Looks like there are a few space stations between ourselves and the Eclipse.  Take them out!
 TEXT_SPEECH_UW_ACT03_M12_09,Han Solo: Alright, Zann, don't think I'm not paying attention.  If I smell a double-cross, I won't waste any time taking you out.  Oh, and uh, good luck.

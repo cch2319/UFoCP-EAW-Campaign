@@ -302,11 +302,11 @@ Housekeeping:
 • : (BUG #726)
 	-- ENG: 
 
-• : (BUG #727)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M12_06: (BUG #727)
+	-- ENG: ...and have come join. --> ...and have come join!
 
 • TEXT_SPEECH_UW_ACT03_M12_07: (BUG #728)
-	-- ENG: Han Solo: Listen, Zann.  If you're on the level, help us destroy that super star destroyer.  You'll be well rewarded. -->
+	-- ENG: Han Solo: Listen, Zann.  If you're on the level, help us destroy that super star destroyer.  You'll be well rewarded. --> Han Solo: Listen!  Zann, if you're on the level, help us destroy that Super Star Destroyer.  You'll be well-rewarded.
 
 • TEXT_SPEECH_UW_ACT03_M12_09: (BUG #729)
 	-- ENG: Han Solo: Alright.  Zann, don't think I'm not paying attention. ... --> Han Solo: Alright, Zann, don't think I'm not paying attention. ...
