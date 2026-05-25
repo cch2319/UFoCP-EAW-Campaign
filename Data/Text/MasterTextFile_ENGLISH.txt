@@ -16829,7 +16829,7 @@ TEXT_SPEECH_UW_ACT03_M11_53,Tyber Zann: Everyone into the transport!
 TEXT_SPEECH_UW_ACT03_M11_54,Tyber Zann: This thing must move faster.
 TEXT_SPEECH_UW_ACT03_M11_55,Silri: Use the laser defenses!
 TEXT_SPEECH_UW_ACT03_M11_BOUNCE,Tyber Zann: Urai, Silri and myself are needed on Coruscant.  There's really no way we can break in without all three of us.
-TEXT_SPEECH_UW_ACT03_M12_00,Tyber Zann: That is the most magnificent thing I've ever seen, Urai, once we take control we'll...
+TEXT_SPEECH_UW_ACT03_M12_00,Tyber Zann: That's the most magnificent thing I've ever seen, Urai!  Once we take control we'll-
 TEXT_SPEECH_UW_ACT03_M12_01,Urai Fen: Tyber, we are tracking several in-bound fleets!
 TEXT_SPEECH_UW_ACT03_M12_02,Tyber Zann: It's probably the remains of the Imperial fleet attempting to repair and regroup here.
 TEXT_SPEECH_UW_ACT03_M12_03,Urai Fen: There are multiple Alliance signatures as well.

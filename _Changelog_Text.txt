@@ -299,8 +299,8 @@ Housekeeping:
 • : (BUG #725)
 	-- ENG: 
 
-• : (BUG #726)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT03_M12_00: (BUG #726)
+	-- ENG: Tyber Zann: That is the most magnificent thing I've ever seen, Urai, once we take control we'll... --> Tyber Zann: That's the most magnificent thing I've ever seen, Urai!  Once we take control we'll-
 
 • TEXT_SPEECH_UW_ACT03_M12_06: (BUG #727)
 	-- ENG: ...and have come join. --> ...and have come join!
