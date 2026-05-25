@@ -309,7 +309,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M07_28: (BUG #719)
-	-- ENG: 
+	-- ENG: Field Commander: My Lord, we nearly had them, but they seem to have... --> Field Commander: My Lord, we nearly had them, but they seem to have... (Choking)
 
 • TEXT_SPEECH_UW_ACT02_M09_03: (BUG #720)
 	-- ENG: Tyber Zann: Really.  You don't think I came unprepared, do you? --> Tyber Zann: Really?  (Sly Laughter)  You don't think I came unprepared, do you?

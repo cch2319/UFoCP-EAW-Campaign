@@ -16688,7 +16688,7 @@ TEXT_SPEECH_UW_ACT02_M07_24,Zann Consortium Soldier: What appears to be Lord Vad
 TEXT_SPEECH_UW_ACT02_M07_25,Tyber Zann: We're going to have to move quickly on our final task if we want to get out of here intact.
 TEXT_SPEECH_UW_ACT02_M07_26,Field Commander: Sir, a group of smugglers have infiltrated our tibanna gas refinery.
 TEXT_SPEECH_UW_ACT02_M07_27,Darth Vader: You have, of course, captured and detained them?
-TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: My Lord, we nearly had them, but they seem to have...
+TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: My Lord, we nearly had them, but they seem to have... (Choking)
 TEXT_SPEECH_UW_ACT02_M07_29,Darth Vader: Not the performance I expect from an Imperial Field Commander.  I will seek them out myself.
 TEXT_SPEECH_UW_ACT02_M07_30,Tyber Zann: Good work.  Let's get back to the shuttle and get out of here.
 TEXT_SPEECH_UW_ACT02_M07_31,Darth Vader: Your Report.
