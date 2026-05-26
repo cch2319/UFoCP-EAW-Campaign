@@ -16447,7 +16447,7 @@ TEXT_SPEECH_UW_ACT01_M02_BOUNCE,Tyber Zann: I want to oversee this mission perso
 TEXT_SPEECH_UW_ACT01_M02_FAIL,Tyber Zann: Failure is unacceptable.  We'll be better prepared next time.
 TEXT_SPEECH_UW_ACT01_M03_01,Consortium Soldier: No reports of outgoing transports...nowhere to hide...what is this?
 TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba's will be planning an ambush.  Expect resistance at the landing site.
-TEXT_SPEECH_UW_ACT01_M03_03,Consortium Soldier: We've got a...disturbance...
+TEXT_SPEECH_UW_ACT01_M03_03,Zann Consortium Soldier: We've got a... disturbance...
 TEXT_SPEECH_UW_ACT01_M03_04,Urai Fen: This was expected.  Maintain defenses here - I will reestablish a reinforcement point.
 TEXT_SPEECH_UW_ACT01_M03_05,Hutt Soldier: There he is, just like Jabba warned, an infiltrator!
 TEXT_SPEECH_UW_ACT01_M03_06,Urai Fen: Whether Jabba warned you or not is of no consequence.  Stand down or be eliminated.

@@ -290,8 +290,9 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M03_03: (BUG #698)
+	-- ENG: Consortium Soldier: We've got a...disturbance... --> Zann Consortium Soldier: We've got a... disturbance...
+	-- GER: Konsortiumssoldat: Wir haben ... Störungen ... --> Soldat des Zann-Konsortiums: Wir haben ... Störungen ...
 
 • TEXT_SPEECH_UW_ACT01_M04_07: (BUG #699)
 	-- ENG: Tyber Zann: You were saying? --> Tyber Zann: ...You were saying?

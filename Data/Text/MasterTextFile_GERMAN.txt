@@ -16447,7 +16447,7 @@ TEXT_SPEECH_UW_ACT01_M02_BOUNCE,Tyber Zann: Ich will diesen Einsatz persönlich 
 TEXT_SPEECH_UW_ACT01_M02_FAIL,Tyber Zann: Versagen ist undenkbar. Beim nächsten Mal werden wir besser vorbereitet sein.
 TEXT_SPEECH_UW_ACT01_M03_01,Konsortiumssoldat: Keine Berichte über abgehende Transporte ... kein Versteck ... was ist das?
 TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba wird einen Hinterhalt planen. Richtet Euch auf Widerstand im Landebereich ein.
-TEXT_SPEECH_UW_ACT01_M03_03,Konsortiumssoldat: Wir haben ... Störungen ...
+TEXT_SPEECH_UW_ACT01_M03_03,Soldat des Zann-Konsortiums: Wir haben ... Störungen ...
 TEXT_SPEECH_UW_ACT01_M03_04,Urai Fen: Damit habe ich gerechnet. Haltet die Stellung hier, ich werde einen Verstärkungspunkt zurückholen.
 TEXT_SPEECH_UW_ACT01_M03_05,Huttensoldat: Da ist er, genau wie Jabba gesagt hat: ein Infiltrator!
 TEXT_SPEECH_UW_ACT01_M03_06,Urai Fen: Ob Jabba Euch gewarnt hat oder nicht, ist völlig egal. Ergebt Euch, oder Ihr werdet ausgelöscht.
