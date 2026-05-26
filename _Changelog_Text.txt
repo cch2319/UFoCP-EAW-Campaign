@@ -303,7 +303,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_65: (BUG #707)
-	-- ENG: 
+	-- ENG: Tyber Zann: What do I care for their cause.  They've done nothing for me.  I'll play both sides.  No one is doing us any favors so they'll get none in return. --> Tyber Zann: What do I care for their cause?  They've done nothing for me!  I'll play both sides.  No one is doing us any favors, so they'll get none in return.
 
 • TEXT_SPEECH_UW_ACT02_M06_02: (BUG #708)
 	-- ENG: Tyber Zann: Why Urai!  Did you become a Jedi knight while I was in prison? --> Tyber Zann: Why, Urai!  Did you become a Jedi Knight while I was in prison?
