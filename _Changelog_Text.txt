@@ -282,7 +282,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M01_04: (BUG #686)
-	-- ENG: 
+	-- ENG: Tyber Zann: A Bounty Hunter, how very appropriate. ... --> Tyber Zann: A bounty hunter, how very appropriate. ...
 
 • TEXT_SPEECH_UW_ACT01_M01_09: (BUG #687)
 	-- ENG: Tyber Zann: Perfect timing as usual Urai. --> Tyber Zann: Perfect timing as usual, Urai.

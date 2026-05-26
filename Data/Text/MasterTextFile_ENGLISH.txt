@@ -16343,7 +16343,7 @@ TEXT_SPEECH_UW_ACT01_M01_00,Han Solo: I hope you're right about these coordinate
 TEXT_SPEECH_UW_ACT01_M01_01,Han Solo: You said it buddy.  Anyone willing to pay this much money for a spice run is probably looking to avoid Imperial trouble.
 TEXT_SPEECH_UW_ACT01_M01_02,Urai Fen: You have no need to worry, Captain Solo.  My employer is an independent interest in this galactic conflict.
 TEXT_SPEECH_UW_ACT01_M01_03,Bounty Hunter: And you must be Tyber Zann.
-TEXT_SPEECH_UW_ACT01_M01_04,Tyber Zann: A Bounty Hunter, how very appropriate.  I would tell you to send my regards to Jabba but you won't get the chance.
+TEXT_SPEECH_UW_ACT01_M01_04,Tyber Zann: A bounty hunter, how very appropriate.  I would tell you to send my regards to Jabba but you won't get the chance.
 TEXT_SPEECH_UW_ACT01_M01_05,Bounty Hunter: I'll tell him when I pick up my bounty.
 TEXT_SPEECH_UW_ACT01_M01_06,Tyber Zann: You'd be smart to leave with your skin intact before the prison riot I've planned kicks off, which should be any moment now.
 TEXT_SPEECH_UW_ACT01_M01_07,Bounty Hunter: I'll be gone by then.
