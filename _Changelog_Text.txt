@@ -278,7 +278,34 @@ Housekeeping:
 	-- ENG: Urai Fen: Urai here, We are in system, as planned. --> Urai Fen: Urai here.  We are in system, as planned.
 	-- GER: Urai Fen: Urai hier, wir sind im System, wie geplant. --> Urai Fen: Urai hier. Wir sind im System, wie geplant.
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M01_03: (BUG #685)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_04: (BUG #686)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_09: (BUG #687)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_10: (BUG #688)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_59: (BUG #689)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_60: (BUG #690)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M02_01: (BUG #691)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M01_51: (BUG #692)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M02_01: (BUG #693)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M02_06: (BUG #694)
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M02_13: (BUG #695)
