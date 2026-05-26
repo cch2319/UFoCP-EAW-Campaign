@@ -281,6 +281,21 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• TEXT_SPEECH_UW_ACT01_M04_07: (BUG #699)
+	-- ENG: Tyber Zann: You were saying? --> Tyber Zann: ...You were saying?
+
 • TEXT_SPEECH_UW_ACT01_M04_08: (BUG #700)
 	-- ENG: Jabba the Hutt: (Translated) Ho ho...an insignificant thief like you only has so many chances Tyber Zann.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact. --> Jabba the Hutt: (Translated) Ho ho ho... an insignificant thief like you only has so many chances.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact.
 
