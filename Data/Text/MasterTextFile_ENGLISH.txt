@@ -16497,7 +16497,7 @@ TEXT_SPEECH_UW_ACT01_M04_40,Tyber Zann: We've got one landing zone, there's thre
 TEXT_SPEECH_UW_ACT01_M04_41,Tyber Zann: Halfway there.
 TEXT_SPEECH_UW_ACT01_M04_42,Tyber Zann: Just need to take one more.
 TEXT_SPEECH_UW_ACT01_M04_43,Tyber Zann: We've taken them all.  Now what?
-TEXT_SPEECH_UW_ACT01_M04_44,Tyber Zann: I don't know how to use this thing.  Urai get over here!
+TEXT_SPEECH_UW_ACT01_M04_44,Tyber Zann: I don't know how to use this thing!  Urai, get over here!
 TEXT_SPEECH_UW_ACT01_M04_45,Urai Fen: I will need one minute to complete this.
 TEXT_SPEECH_UW_ACT01_M04_46,Tyber Zann: We might not have a minute.  Hurry it up!
 TEXT_SPEECH_UW_ACT01_M04_47,Urai Fen: Tyber, I have re-routed the systems in the Droid Works - we now have complete control over the destroyer droids.

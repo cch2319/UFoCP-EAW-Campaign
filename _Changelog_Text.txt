@@ -300,7 +300,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_44: (BUG #706)
-	-- ENG: 
+	-- ENG: Tyber Zann: I don't know how to use this thing.  Urai get over here! --> Tyber Zann: I don't know how to use this thing!  Urai, get over here!
 
 • TEXT_SPEECH_UW_ACT01_M04_65: (BUG #707)
 	-- ENG: Tyber Zann: What do I care for their cause.  They've done nothing for me.  I'll play both sides.  No one is doing us any favors so they'll get none in return. --> Tyber Zann: What do I care for their cause?  They've done nothing for me!  I'll play both sides.  No one is doing us any favors, so they'll get none in return.
