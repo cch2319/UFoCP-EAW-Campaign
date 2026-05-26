@@ -16472,7 +16472,7 @@ TEXT_SPEECH_UW_ACT01_M04_15,Tyber Zann: Jabba, your men are dead, and you're sur
 TEXT_SPEECH_UW_ACT01_M04_16,Jabba the Hutt: (Translated) We can make a deal Tyber!  There's no need to do anything... permanent.
 TEXT_SPEECH_UW_ACT01_M04_17,Tyber Zann: The only deal that lets you live is this - The price on my head--gone.  The hits on my territories--stop.  The planets Saleucami and Hypori--now belong to me.  If I see your people anywhere in my territory, I'll personally come to Tatooine and feed you to your own rancor.
 TEXT_SPEECH_UW_ACT01_M04_18,Jabba the Hutt: (Translated) Agreed.  Just leave Hutt territory alone and I will leave you to your business.
-TEXT_SPEECH_UW_ACT01_M04_19,Tyber Zann: Oh of course, Jabba.  As long as you live, I will leave you to your holdings.  Now, get off my planet.
+TEXT_SPEECH_UW_ACT01_M04_19,Tyber Zann: Oh, of course, Jabba.  As long as you live, I will leave you to your holdings.  Now, get off my planet!
 TEXT_SPEECH_UW_ACT01_M04_20,Urai Fen: It might be better to simply finish him now.
 TEXT_SPEECH_UW_ACT01_M04_21,Tyber Zann: Now is not the time for a war with the Hutt cartel.  Soon we will have the resources to crush Jabba and the Hutts once and for all.  For now he is not an imminent threat.
 TEXT_SPEECH_UW_ACT01_M04_22,Urai Fen: I have to get to the controls and deactivate these droids!

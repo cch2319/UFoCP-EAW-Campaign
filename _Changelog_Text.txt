@@ -291,7 +291,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_19: (BUG #703)
-	-- ENG: 
+	-- ENG: Tyber Zann: Oh of course, Jabba.  As long as you live, I will leave you to your holdings.  Now, get off my planet. --> Tyber Zann: Oh, of course, Jabba.  As long as you live, I will leave you to your holdings.  Now, get off my planet!
 
 • TEXT_SPEECH_UW_ACT01_M04_23: (BUG #704)
 	-- ENG: Tyber Zann: There are the controls!  Quickly -- shut this thing down! --> Tyber Zann: There are the controls!  Quickly, shut this thing down!
