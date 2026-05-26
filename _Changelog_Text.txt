@@ -296,14 +296,11 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT01_M01_60: (BUG #690)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT01_M02_01: (BUG #691)
-	-- ENG: 
-
 • TEXT_SPEECH_UW_ACT01_M01_51: (BUG #692)
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M02_01: (BUG #693)
-	-- ENG: 
+	-- ENG: ...Take anything of worth.  But do it quickly. --> ...Take anything of worth, but do it quickly.
 
 • TEXT_SPEECH_UW_ACT01_M02_06: (BUG #694)
 	-- ENG: Tyber Zann: Engage the Rebels.  We need to buy more time. --> Tyber Zann: Engage the Rebels, we need to buy more time!
