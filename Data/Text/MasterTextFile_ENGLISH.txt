@@ -16623,7 +16623,7 @@ TEXT_SPEECH_UW_ACT02_M06_04,Tyber Zann: I'm a bit disturbed that you've kept thi
 TEXT_SPEECH_UW_ACT02_M06_05,Urai Fen: I understand, it is something I rarely speak of.  The power of the Force on this world could be a threat if it were ever unleashed.  The Empire's interest in Dathomir is now apparent.
 TEXT_SPEECH_UW_ACT02_M06_06,Tyber Zann: Very well.  Let's find someone who can use it to open the artifact.
 TEXT_SPEECH_UW_ACT02_M06_07,Silri: It is painful to see a trusted friend locked in this cell.  You will open the door now.
-TEXT_SPEECH_UW_ACT02_M06_08,Tyber Zann: Urai, if she tries that mind control trick again, shoot her.  Silri, I assume.  We're not nearly the weak minded fools you take us for.  Though I am willing to open this door on my terms.
+TEXT_SPEECH_UW_ACT02_M06_08,Tyber Zann: Urai, if she tries that mind control trick again, shoot her.  Silri, I assume.  We're not nearly the weak-minded fools you take us for.  Though I am willing to open this door on my terms.
 TEXT_SPEECH_UW_ACT02_M06_09,Silri: Do not taunt me.  When I'm free of this cell you'll be the second one I kill, no matter the cost!
 TEXT_SPEECH_UW_ACT02_M06_10,Tyber Zann: Now now now, you'll get out, as long as you give me a reason to release you.  Do you know what this is?
 TEXT_SPEECH_UW_ACT02_M06_11,Silri: A Sith creation.  If it is real it must be very ancient.  Where did you get it?
