@@ -287,8 +287,9 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M03_01: (BUG #697)
+	-- ENG: Consortium Soldier: No reports of outgoing transports...nowhere to hide...what is this? --> Zann Consortium Soldier: No reports of outgoing transports... nowhere to hide... what is this?
+	-- GER: Konsortiumssoldat: Keine Berichte über abgehende Transporte ... kein Versteck ... was ist das? --> Soldat des Zann-Konsortiums: Keine Berichte über abgehende Transporte ... kein Versteck ... was ist das?
 
 • TEXT_SPEECH_UW_ACT01_M03_03: (BUG #698)
 	-- ENG: Consortium Soldier: We've got a...disturbance... --> Zann Consortium Soldier: We've got a... disturbance...

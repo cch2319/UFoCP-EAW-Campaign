@@ -16445,7 +16445,7 @@ TEXT_SPEECH_UW_ACT01_M02_33,Tyber Zann: Hold on...this one details a new warship
 TEXT_SPEECH_UW_ACT01_M02_34,Tyber Zann: Looks like this one contains some information about the emperor's archive.  Fascinating.  Keep looking for more pods around.
 TEXT_SPEECH_UW_ACT01_M02_BOUNCE,Tyber Zann: I want to oversee this mission personally.
 TEXT_SPEECH_UW_ACT01_M02_FAIL,Tyber Zann: Failure is unacceptable.  We'll be better prepared next time.
-TEXT_SPEECH_UW_ACT01_M03_01,Consortium Soldier: No reports of outgoing transports...nowhere to hide...what is this?
+TEXT_SPEECH_UW_ACT01_M03_01,Zann Consortium Soldier: No reports of outgoing transports... nowhere to hide... what is this?
 TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba's will be planning an ambush.  Expect resistance at the landing site.
 TEXT_SPEECH_UW_ACT01_M03_03,Zann Consortium Soldier: We've got a... disturbance...
 TEXT_SPEECH_UW_ACT01_M03_04,Urai Fen: This was expected.  Maintain defenses here - I will reestablish a reinforcement point.
