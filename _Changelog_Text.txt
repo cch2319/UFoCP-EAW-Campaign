@@ -285,7 +285,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M01_09: (BUG #687)
-	-- ENG: 
+	-- ENG: Tyber Zann: Perfect timing as usual Urai. --> Tyber Zann: Perfect timing as usual, Urai.
 
 • TEXT_SPEECH_UW_ACT01_M01_10: (BUG #688)
 	-- ENG: Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned.  It should prove very effective.  Come.  The Zann Consortium awaits your return. --> Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned, it should prove very effective.  Come, the Zann Consortium awaits your return.
