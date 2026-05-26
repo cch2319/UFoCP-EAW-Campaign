@@ -284,8 +284,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M02_33: (BUG #696)
+	-- ENG: Tyber Zann: Hold on...this one details a new warship.  I've never seen such an ambitious design... apart from the Death Star.  It's apparently under construction at the Kuat shipyards.  Interesting.  Lets keep collecting data pods --> Tyber Zann: Hold on.  This one details a new warship.  I've never seen such an ambitious design... apart from the Death Star.  It's apparently under construction at the Kuat shipyards.  Interesting.  Lets keep collecting data pods.
 
 • TEXT_SPEECH_UW_ACT01_M03_01: (BUG #697)
 	-- ENG: Consortium Soldier: No reports of outgoing transports...nowhere to hide...what is this? --> Zann Consortium Soldier: No reports of outgoing transports... nowhere to hide... what is this?
