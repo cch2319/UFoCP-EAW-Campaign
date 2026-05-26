@@ -281,8 +281,38 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
 • TEXT_SPEECH_UW_ACT02_M06_08: (BUG #710)
 	-- ENG: ...We're not nearly the weak minded fools you take us for.  Though I am willing to open this door on my terms. --> ...We're not nearly the weak-minded fools you take us for.  Though I am willing to open this door on my terms.
+
+• : (BUG #)
+	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT02_M06_21: (BUG #711)
 	-- ENG: Silri: That is the Imperial Governor's stronghold.  His lifeless body will send a message to the emperor.  The use of Dark Force powers against his army should convince the emperor it would be wise to leave Dathomir. --> Silri: That is the Imperial Governor's stronghold!  His lifeless body will send a message to the emperor.  The use of dark Force powers against his army should convince the emperor it would be wise to leave Dathomir!
