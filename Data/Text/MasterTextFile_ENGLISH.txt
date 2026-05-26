@@ -16476,7 +16476,7 @@ TEXT_SPEECH_UW_ACT01_M04_19,Tyber Zann: Oh of course, Jabba.  As long as you liv
 TEXT_SPEECH_UW_ACT01_M04_20,Urai Fen: It might be better to simply finish him now.
 TEXT_SPEECH_UW_ACT01_M04_21,Tyber Zann: Now is not the time for a war with the Hutt cartel.  Soon we will have the resources to crush Jabba and the Hutts once and for all.  For now he is not an imminent threat.
 TEXT_SPEECH_UW_ACT01_M04_22,Urai Fen: I have to get to the controls and deactivate these droids!
-TEXT_SPEECH_UW_ACT01_M04_23,Tyber Zann: There are the controls!  Quickly -- shut this thing down!
+TEXT_SPEECH_UW_ACT01_M04_23,Tyber Zann: There are the controls!  Quickly, shut this thing down!
 TEXT_SPEECH_UW_ACT01_M04_24,Tyber Zann: Destroyer droids!
 TEXT_SPEECH_UW_ACT01_M04_25,Tyber Zann: I have a bad feeling about this.
 TEXT_SPEECH_UW_ACT01_M04_26,Urai Fen: Droids!

@@ -294,7 +294,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_23: (BUG #704)
-	-- ENG: 
+	-- ENG: Tyber Zann: There are the controls!  Quickly -- shut this thing down! --> Tyber Zann: There are the controls!  Quickly, shut this thing down!
 
 • TEXT_SPEECH_UW_ACT01_M04_39: (BUG #705)
 	-- ENG: Tyber Zann: Landing zone captured. --> Tyber Zann: Landing zone captured!
