@@ -16414,7 +16414,7 @@ TEXT_SPEECH_UW_ACT01_M02_02,Pilot: What now?
 TEXT_SPEECH_UW_ACT01_M02_03,Tyber Zann: Let's make a final pass.  There must be something worthwhile here.
 TEXT_SPEECH_UW_ACT01_M02_04,Pilot: Looks like Rebel ships incoming!
 TEXT_SPEECH_UW_ACT01_M02_05,Rebel Ship: Identify yourselves!  Send your transponder codes now!
-TEXT_SPEECH_UW_ACT01_M02_06,Tyber Zann: Engage the Rebels.  We need to buy more time.
+TEXT_SPEECH_UW_ACT01_M02_06,Tyber Zann: Engage the Rebels, we need to buy more time!
 TEXT_SPEECH_UW_ACT01_M02_07,Tyber Zann: That may very well be an emergency data pod from the Death Star.  Retrieve it.
 TEXT_SPEECH_UW_ACT01_M02_08,Tyber Zann: Another data pod.
 TEXT_SPEECH_UW_ACT01_M02_09,Tyber Zann: There's another data pod.

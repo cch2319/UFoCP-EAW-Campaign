@@ -306,7 +306,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M02_06: (BUG #694)
-	-- ENG: 
+	-- ENG: Tyber Zann: Engage the Rebels.  We need to buy more time. --> Tyber Zann: Engage the Rebels, we need to buy more time!
 
 • TEXT_SPEECH_UW_ACT01_M02_13: (BUG #695)
 	-- ENG: Wedge Antilles: Red 2 to all Alliance units – we need to regroup for another strike - we're losing too many fighters! --> Wedge Antilles: Red 2 to all Alliance units: we need to regroup for another strike - we're losing too many fighters!
