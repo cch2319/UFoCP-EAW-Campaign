@@ -16421,7 +16421,7 @@ TEXT_SPEECH_UW_ACT01_M02_09,Tyber Zann: There's another data pod.
 TEXT_SPEECH_UW_ACT01_M02_10,Tyber Zann: That's enough.  We have what we came for - prepare to jump to Hyperspace!
 TEXT_SPEECH_UW_ACT01_M02_11,Wedge Antilles: Unidentified ships – you are trespassing in Alliance space.  Surrender immediately and prepare to be boarded!
 TEXT_SPEECH_UW_ACT01_M02_12,Tyber Zann: Surrender isn't in an option.  Let our enemies fight each other.  Stay focused on those data pods.
-TEXT_SPEECH_UW_ACT01_M02_13,Wedge Antilles: Red 2 to all Alliance units – we need to regroup for another strike - we're losing too many fighters!
+TEXT_SPEECH_UW_ACT01_M02_13,Wedge Antilles: Red 2 to all Alliance units: we need to regroup for another strike - we're losing too many fighters!
 TEXT_SPEECH_UW_ACT01_M02_14,Tyber Zann: Oh look, the little Rebels are deploying defensive satellites.  Do not let their toys interfere with our operation.
 TEXT_SPEECH_UW_ACT01_M02_15,Pirate Ship: This is not your fight.  Move along or we'll add you to the scrap!
 TEXT_SPEECH_UW_ACT01_M02_16,Tyber Zann: Brush these insects off.  Leave them for the Rebels.

@@ -281,8 +281,8 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT01_M02_13: (BUG #695)
+	-- ENG: Wedge Antilles: Red 2 to all Alliance units – we need to regroup for another strike - we're losing too many fighters! --> Wedge Antilles: Red 2 to all Alliance units: we need to regroup for another strike - we're losing too many fighters!
 
 • TEXT_SPEECH_UW_ACT01_M02_33: (BUG #696)
 	-- ENG: Tyber Zann: Hold on...this one details a new warship.  I've never seen such an ambitious design... apart from the Death Star.  It's apparently under construction at the Kuat shipyards.  Interesting.  Lets keep collecting data pods --> Tyber Zann: Hold on.  This one details a new warship.  I've never seen such an ambitious design... apart from the Death Star.  It's apparently under construction at the Kuat shipyards.  Interesting.  Lets keep collecting data pods.
