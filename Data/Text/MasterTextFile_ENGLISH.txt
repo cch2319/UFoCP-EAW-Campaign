@@ -16633,7 +16633,7 @@ TEXT_SPEECH_UW_ACT02_M06_16,Tyber Zann: Name your price.
 TEXT_SPEECH_UW_ACT02_M06_17,Silri: I'll need transport off this planet in order to gather the needed resources.  I ask one other thing - Revenge on my captor.
 TEXT_SPEECH_UW_ACT02_M06_18,Urai Fen: Do not trust her, Tyber.  Even now, she is reaching out to you with the dark side, prying at your defenses...
 TEXT_SPEECH_UW_ACT02_M06_19,Tyber Zann: I'm not concerned about our lovely Silri, Urai.  For now, at least, our goals are mutually beneficial.
-TEXT_SPEECH_UW_ACT02_M06_20,Silri: Understood, now release me from this cell and we'll go to kill the Imperial Governor that put me on display in this cage.
+TEXT_SPEECH_UW_ACT02_M06_20,Silri: Understood.  Now, release me from this cell and we'll go to kill the Imperial Governor that put me on display in this cage.
 TEXT_SPEECH_UW_ACT02_M06_21,Silri: That is the Imperial Governor's stronghold!  His lifeless body will send a message to the emperor.  The use of dark Force powers against his army should convince the emperor it would be wise to leave Dathomir!
 TEXT_SPEECH_UW_ACT02_M06_22,Imperial Governor: Wait, please!  I'm worth more to you alive!  Your message will get out through my ransom!  Your demands will be met!
 TEXT_SPEECH_UW_ACT02_M06_23,Silri: My message will be sent - written in your blood!
