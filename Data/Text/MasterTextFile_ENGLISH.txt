@@ -16399,7 +16399,7 @@ TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: I'm accelerating our plans.  Jabba has s
 TEXT_SPEECH_UW_ACT01_M01_57,Urai Fen: Captain Solo wanted more time to slip past the Imperial defenses.  I believe I can motivate him with additional credits.
 TEXT_SPEECH_UW_ACT01_M01_58,Tyber Zann: We need to make sure that neither Jabba nor the Empire has discovered the location of our hidden palace on Ryloth.
 TEXT_SPEECH_UW_ACT01_M01_59,Urai Fen: There has been no unusual activity near Ryloth,  The Hutts are unaware of our palace there and the Imperials have extended themselves trying to quell the Rebellion.  We will be able to expand our operations quickly upon your return.
-TEXT_SPEECH_UW_ACT01_M01_60,Tyber Zann: The partnership with Jabba was a mistake.  No more alliances.  We're going to do this our way, We'll corrupt planets one by one and crush all those who oppose us.
+TEXT_SPEECH_UW_ACT01_M01_60,Tyber Zann: The partnership with Jabba was a mistake.  No more alliances.  We're going to do this our way.  We'll corrupt planets one by one and crush all those who oppose us.
 TEXT_SPEECH_UW_ACT01_M01_61,Han Chewie, get the Falcon ready, we're leaving.  We didn't sign up for this!
 TEXT_SPEECH_UW_ACT01_M01_62,Tyber Zann: Captain, I'm very sorry.  I understand your concern, but that's the problem with good help like my lieutenant - by the time I can get a word out to stop him, he's already finished.
 TEXT_SPEECH_UW_ACT01_M01_63,Han Solo: When we get out of Imperial space, you're on your own.  I never heard of you.

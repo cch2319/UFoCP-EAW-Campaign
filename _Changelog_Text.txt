@@ -293,11 +293,11 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT01_M01_59: (BUG #689)
 	-- ENG: 
 
-• TEXT_SPEECH_UW_ACT01_M01_60: (BUG #690)
-	-- ENG: 
-
 • TEXT_SPEECH_UW_ACT01_M01_51: (BUG #692)
 	-- ENG: Jabba the Hutt: (Translated) You have stolen something very valuable from me so I in turn have taken everything from you.  You have made a grave error in taking my precious artifact, I have come to offer you one last chance to tell me where you have hidden it and I will let you live. --> Jabba the Hutt: (Translated) You have stolen something very valuable from me, so I in turn have taken everything from you.  You have made a grave error in taking my precious artifact.  I have come to offer you one last chance to tell me where you have hidden it, and I will let you live.
+
+• TEXT_SPEECH_UW_ACT01_M01_60: (BUG #690)
+	-- ENG: ...We're going to do this our way, We'll corrupt planets one by one and crush all those who oppose us. --> ...We're going to do this our way.  We'll corrupt planets one by one and crush all those who oppose us.
 
 • TEXT_SPEECH_UW_ACT01_M02_01: (BUG #693)
 	-- ENG: ...Take anything of worth.  But do it quickly. --> ...Take anything of worth, but do it quickly.
