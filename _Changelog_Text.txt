@@ -282,7 +282,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_08: (BUG #700)
-	-- ENG: 
+	-- ENG: Jabba the Hutt: (Translated) Ho ho...an insignificant thief like you only has so many chances Tyber Zann.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact. --> Jabba the Hutt: (Translated) Ho ho ho... an insignificant thief like you only has so many chances.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact.
 
 • TEXT_SPEECH_UW_ACT01_M04_13: (BUG #701)
 	-- ENG: Tyber Zann: Indeed.  What would you say if I tripled Jabba's payment, and delivered it in advance? --> Tyber Zann: Indeed?  Hmm... what would you say if I tripled Jabba's payment, and delivered it in advance?

@@ -16461,7 +16461,7 @@ TEXT_SPEECH_UW_ACT01_M04_04,Tyber Zann: The droids must be using those nodes to 
 TEXT_SPEECH_UW_ACT01_M04_05,Tyber Zann: They're coming from somewhere!
 TEXT_SPEECH_UW_ACT01_M04_06,Urai Fen: I have managed to set the factory to manual, so we should have no more surprises.
 TEXT_SPEECH_UW_ACT01_M04_07,Tyber Zann: You were saying?
-TEXT_SPEECH_UW_ACT01_M04_08,Jabba the Hutt: (Translated) Ho ho...an insignificant thief like you only has so many chances Tyber Zann.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact.
+TEXT_SPEECH_UW_ACT01_M04_08,Jabba the Hutt: (Translated) Ho ho ho... an insignificant thief like you only has so many chances.  Your chances have just run out.  It is good to know that I will soon have back my stolen artifact.
 TEXT_SPEECH_UW_ACT01_M04_09,Tyber Zann: Not so insignificant that I can't steal your most precious and valuable artifact.  Now I control your little droid factory.  Admit it Jabba, you've been beaten.
 TEXT_SPEECH_UW_ACT01_M04_10,Jabba the Hutt: (Translated) The game is not over Tyber.  I knew you were coming, and I thought I would let you clean out the droids for me.  You have my thanks - now you can die.  Kill them all!
 TEXT_SPEECH_UW_ACT01_M04_11,Tyber Zann: I'm sure Jabba's not paying enough for the services of a bounty hunter of your expertise.
