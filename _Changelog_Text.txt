@@ -279,7 +279,7 @@ Housekeeping:
 	-- GER: Urai Fen: Urai hier, wir sind im System, wie geplant. --> Urai Fen: Urai hier. Wir sind im System, wie geplant.
 
 • TEXT_SPEECH_UW_ACT01_M01_03: (BUG #685)
-	-- ENG: 
+	-- ENG: Bounty Hunter: And you must be Tyber Zann. --> Bounty Hunter: ...And you must be Tyber Zann.
 
 • TEXT_SPEECH_UW_ACT01_M01_04: (BUG #686)
 	-- ENG: Tyber Zann: A Bounty Hunter, how very appropriate. ... --> Tyber Zann: A bounty hunter, how very appropriate. ...
