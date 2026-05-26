@@ -288,7 +288,8 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M01_10: (BUG #688)
-	-- ENG: 
+	-- ENG: Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned.  It should prove very effective.  Come.  The Zann Consortium awaits your return. --> Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned, it should prove very effective.  Come, the Zann Consortium awaits your return.
+	-- GER: ...Kommt, das Zann-Konsortium erwartet Eure Rückkehr. --> ...Kommt, das Zann-Konsortium erwartet Eure Rückkehr. (Blaster wird aktiviert)
 
 • TEXT_SPEECH_UW_ACT01_M01_51: (BUG #692)
 	-- ENG: Jabba the Hutt: (Translated) You have stolen something very valuable from me so I in turn have taken everything from you.  You have made a grave error in taking my precious artifact, I have come to offer you one last chance to tell me where you have hidden it and I will let you live. --> Jabba the Hutt: (Translated) You have stolen something very valuable from me, so I in turn have taken everything from you.  You have made a grave error in taking my precious artifact.  I have come to offer you one last chance to tell me where you have hidden it, and I will let you live.

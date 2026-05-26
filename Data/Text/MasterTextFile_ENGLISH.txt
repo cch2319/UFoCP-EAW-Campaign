@@ -16349,7 +16349,7 @@ TEXT_SPEECH_UW_ACT01_M01_06,Tyber Zann: You'd be smart to leave with your skin i
 TEXT_SPEECH_UW_ACT01_M01_07,Bounty Hunter: I'll be gone by then.
 TEXT_SPEECH_UW_ACT01_M01_08,Tyber Zann: You're right, sooner than you thought.
 TEXT_SPEECH_UW_ACT01_M01_09,Tyber Zann: Perfect timing as usual Urai.
-TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned.  It should prove very effective.  Come.  The Zann Consortium awaits your return.
+TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned, it should prove very effective.  Come, the Zann Consortium awaits your return.
 TEXT_SPEECH_UW_ACT01_M01_11,Tyber Zann: I've been here far too long already.  I assume you've arranged for a hasty departure?  This way!
 TEXT_SPEECH_UW_ACT01_M01_12,Han Solo: Hold on a second, where's my cargo?  And what's with all these people?  I'm not running a passenger ship!
 TEXT_SPEECH_UW_ACT01_M01_13,Tyber Zann: Urai, explain things to the prisoners.  Their usefulness is at an end.

@@ -16349,7 +16349,7 @@ TEXT_SPEECH_UW_ACT01_M01_06,Tyber Zann: Wenn Ihr schlau seid, verschwindet Ihr m
 TEXT_SPEECH_UW_ACT01_M01_07,Kopfgeldjäger: Bis dahin bin ich längst verschwunden.
 TEXT_SPEECH_UW_ACT01_M01_08,Tyber Zann: Stimmt. Das geht oft schneller, als man denkt.
 TEXT_SPEECH_UW_ACT01_M01_09,Tyber Zann: Perfektes Timing, wie immer, Urai.
-TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: Wir müssen schnell zur Landestelle. Ich habe die Leistung Eures Blasters erhöhen lassen, während Ihr im Gefängnis wart. Er sollte jetzt recht durchschlagende Wirkung haben. Kommt, das Zann-Konsortium erwartet Eure Rückkehr.
+TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: Wir müssen schnell zur Landestelle. Ich habe die Leistung Eures Blasters erhöhen lassen, während Ihr im Gefängnis wart. Er sollte jetzt recht durchschlagende Wirkung haben. Kommt, das Zann-Konsortium erwartet Eure Rückkehr. (Blaster wird aktiviert)
 TEXT_SPEECH_UW_ACT01_M01_11,Tyber Zann: Ich bin schon viel zu lange hier. Ich nehme an, Ihr habt für ein schnelles Transportmittel gesorgt? Hier lang!
 TEXT_SPEECH_UW_ACT01_M01_12,Han Solo: Moment mal, wo ist meine Fracht? Und was sind das alles für Leute? Das hier ist doch kein Passagierschiff!
 TEXT_SPEECH_UW_ACT01_M01_13,Tyber Zann: Urai, erklärt den Gefangenen doch bitte, dass wir sie jetzt nicht mehr brauchen.
