@@ -285,7 +285,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_13: (BUG #701)
-	-- ENG: 
+	-- ENG: Tyber Zann: Indeed.  What would you say if I tripled Jabba's payment, and delivered it in advance? --> Tyber Zann: Indeed?  Hmm... what would you say if I tripled Jabba's payment, and delivered it in advance?
 
 • TEXT_SPEECH_UW_ACT01_M04_17: (BUG #702)
 	-- ENG: Tyber Zann: The only deal that lets you live is this - The price on my head--gone.  The hits on my territories--stop.  The planets Saleucami and Hypori--now belong to me.  If I see your people anywhere in my territory, I'll personally come to Tatooine and feed you to your own rancor. --> Tyber Zann: The only deal that lets you live is this: the price on my head?  Gone.  The hits on my territories?  Stop.  The planets Saleucami, and Hypori, now belong to me.  If I see your people anywhere in my territory, I'll personally come to Tatooine, and feed you to your own rancor!
