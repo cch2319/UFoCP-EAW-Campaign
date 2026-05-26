@@ -16492,7 +16492,7 @@ TEXT_SPEECH_UW_ACT01_M04_35,Urai Fen: It would be best to forget that option.  T
 TEXT_SPEECH_UW_ACT01_M04_36,Tyber Zann: It's no use.  Those doors are magnetically sealed.
 TEXT_SPEECH_UW_ACT01_M04_37,Tyber Zann: We'll have to find another way around.
 TEXT_SPEECH_UW_ACT01_M04_38,Urai Fen: We cannot open those doors until the power is shut down.
-TEXT_SPEECH_UW_ACT01_M04_39,Tyber Zann: Landing zone captured.
+TEXT_SPEECH_UW_ACT01_M04_39,Tyber Zann: Landing zone captured!
 TEXT_SPEECH_UW_ACT01_M04_40,Tyber Zann: We've got one landing zone, there's three more!
 TEXT_SPEECH_UW_ACT01_M04_41,Tyber Zann: Halfway there.
 TEXT_SPEECH_UW_ACT01_M04_42,Tyber Zann: Just need to take one more.

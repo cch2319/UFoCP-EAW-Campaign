@@ -297,7 +297,7 @@ Housekeeping:
 	-- ENG: 
 
 • TEXT_SPEECH_UW_ACT01_M04_39: (BUG #705)
-	-- ENG: 
+	-- ENG: Tyber Zann: Landing zone captured. --> Tyber Zann: Landing zone captured!
 
 • TEXT_SPEECH_UW_ACT01_M04_44: (BUG #706)
 	-- ENG: Tyber Zann: I don't know how to use this thing.  Urai get over here! --> Tyber Zann: I don't know how to use this thing!  Urai, get over here!
