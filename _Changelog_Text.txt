@@ -281,32 +281,32 @@ Housekeeping:
 • : (BUG #)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_08: (BUG #700)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_13: (BUG #701)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_17: (BUG #702)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_19: (BUG #703)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_23: (BUG #704)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_39: (BUG #705)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_44: (BUG #706)
 	-- ENG: 
 
-• : (BUG #)
+• TEXT_SPEECH_UW_ACT01_M04_65: (BUG #707)
 	-- ENG: 
 
-• : (BUG #)
-	-- ENG: 
+• TEXT_SPEECH_UW_ACT02_M06_02: (BUG #708)
+	-- ENG: Tyber Zann: Why Urai!  Did you become a Jedi knight while I was in prison? --> Tyber Zann: Why, Urai!  Did you become a Jedi Knight while I was in prison?
 
 • TEXT_SPEECH_UW_ACT02_M06_08: (BUG #709)
 	-- ENG: ...We're not nearly the weak minded fools you take us for.  Though I am willing to open this door on my terms. --> ...We're not nearly the weak-minded fools you take us for.  Though I am willing to open this door on my terms.

@@ -16617,7 +16617,7 @@ TEXT_SPEECH_UW_ACT02_G16_10,Tyber Zann: Enough.  I have a business to run.  I do
 TEXT_SPEECH_UW_ACT02_G16_11,Silri: This is not over...
 TEXT_SPEECH_UW_ACT02_M06_00,Tyber Zann: What a cheerful location.
 TEXT_SPEECH_UW_ACT02_M06_01,Urai Fen: We must be cautious.  This planet resonates with the power of the dark side.
-TEXT_SPEECH_UW_ACT02_M06_02,Tyber Zann: Why Urai!  Did you become a Jedi knight while I was in prison?
+TEXT_SPEECH_UW_ACT02_M06_02,Tyber Zann: Why, Urai!  Did you become a Jedi Knight while I was in prison?
 TEXT_SPEECH_UW_ACT02_M06_03,Urai Fen: My people are not Jedi or Sith.  But our existence has always been tied to the Force.  We are aware of its presence.  It is strong here.
 TEXT_SPEECH_UW_ACT02_M06_04,Tyber Zann: I'm a bit disturbed that you've kept this from me, old friend.  Although it doesn't surprise me that you have some Force awareness.
 TEXT_SPEECH_UW_ACT02_M06_05,Urai Fen: I understand, it is something I rarely speak of.  The power of the Force on this world could be a threat if it were ever unleashed.  The Empire's interest in Dathomir is now apparent.
