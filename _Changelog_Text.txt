@@ -482,6 +482,9 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
 
+• TEXT_TOOLTIP_DARKSIDE_ADEPT: (BUG #741)
+	-- ENG: Force wielding Imperials that utilize... --> Force-wielding Imperials that utilize...
+
 • TEXT_TOOLTIP_PIETT_02: (BUG #227)
 	-- ENG: A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships. --> Dedicated Imperial Fleet Commander.  Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in, with an additional 25% to other Star Destroyers.  The Accuser is an enhanced Star Destroyer equipped with a proton energy weapon for a quick, devastating attack.
 	-- FRA: (Same as English)

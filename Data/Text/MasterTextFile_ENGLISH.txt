@@ -18025,7 +18025,7 @@ TEXT_TOOLTIP_CREDITS_BASE,Basic Income for this planet
 TEXT_TOOLTIP_CREDITS_CURRENT,Current Planetary Income
 TEXT_TOOLTIP_CREDITS_TOTAL,Total Income
 TEXT_TOOLTIP_CRUSADER_GUNSHIP,The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty.
-TEXT_TOOLTIP_DARKSIDE_ADEPT,Force wielding Imperials that utilize the power of the dark side to subdue their enemies.
+TEXT_TOOLTIP_DARKSIDE_ADEPT,Force-wielding Imperials that utilize the power of the dark side to subdue their enemies.
 TEXT_TOOLTIP_DARKTROOPER_P1,The first phase of the dark trooper project; light, quick and devastating to infantry units.
 TEXT_TOOLTIP_DARKTROOPER_P1_COMPANY,Dark Trooper P1 Company
 TEXT_TOOLTIP_DARKTROOPER_P2,The second level of dark trooper; quick and maneuverable, medium level firepower.
