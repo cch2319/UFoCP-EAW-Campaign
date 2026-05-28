@@ -18024,7 +18024,7 @@ TEXT_TOOLTIP_CREDIT_FILTER_NAME,Credit-Filter
 TEXT_TOOLTIP_CREDITS_BASE,Grundeinkommen für diesen Planeten
 TEXT_TOOLTIP_CREDITS_CURRENT,Einkommen des Planeten
 TEXT_TOOLTIP_CREDITS_TOTAL,Gesamteinkommen
-TEXT_TOOLTIP_CRUSADER_GUNSHIP,Die Crusader-Klasse ist ein Produkt von Mandal Hypernautics, gedacht für den Einsatz gegen Jäger.
+TEXT_TOOLTIP_CRUSADER_GUNSHIP,Die Crusader-Klasse ist ein Produkt von Mandal Hypernautics, gedacht für den Einsatz gegen Jäger. Leichtes Angriffsschiff mit 12 Laserkanonen, das mit Raketenabwehrsystemen für den Nahbereich vom Schwarzmarkt ausgerüstet werden kann.
 TEXT_TOOLTIP_DARKSIDE_ADEPT,Machtbegabte Angehörige des Imperiums, die ihre Kräfte der Dunklen Seite einsetzen, um ihre Gegner zu unterjochen.
 TEXT_TOOLTIP_DARKTROOPER_P1,Die erste Phase des Dunkle-Truppe-Projektes: schnell, leicht und verheerend für Infanterie.
 TEXT_TOOLTIP_DARKTROOPER_P1_COMPANY,Dunkle Truppe P1-Kompanie

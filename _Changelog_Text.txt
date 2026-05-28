@@ -482,6 +482,10 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
 
+• TEXT_TOOLTIP_CRUSADER_GUNSHIP: (BUG #740)
+	-- ENG: The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty. --> The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty.  Light assault ship with 12 laser cannons, which can be fitted with anti-missile point-defense weapons from the black market.
+	-- GER: Die Crusader-Klasse ist ein Produkt von Mandal Hypernautics, gedacht für den Einsatz gegen Jäger. --> Die Crusader-Klasse ist ein Produkt von Mandal Hypernautics, gedacht für den Einsatz gegen Jäger. Leichtes Angriffsschiff mit 12 Laserkanonen, das mit Raketenabwehrsystemen für den Nahbereich vom Schwarzmarkt ausgerüstet werden kann.
+
 • TEXT_TOOLTIP_DARKSIDE_ADEPT: (BUG #741)
 	-- ENG: Force wielding Imperials that utilize... --> Force-wielding Imperials that utilize...
 

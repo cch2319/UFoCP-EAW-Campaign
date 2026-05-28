@@ -18024,7 +18024,7 @@ TEXT_TOOLTIP_CREDIT_FILTER_NAME,Credit Filter
 TEXT_TOOLTIP_CREDITS_BASE,Basic Income for this planet
 TEXT_TOOLTIP_CREDITS_CURRENT,Current Planetary Income
 TEXT_TOOLTIP_CREDITS_TOTAL,Total Income
-TEXT_TOOLTIP_CRUSADER_GUNSHIP,The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty.
+TEXT_TOOLTIP_CRUSADER_GUNSHIP,The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty.  Light assault ship with 12 laser cannons, which can be fitted with anti-missile point-defense weapons from the black market.
 TEXT_TOOLTIP_DARKSIDE_ADEPT,Force-wielding Imperials that utilize the power of the dark side to subdue their enemies.
 TEXT_TOOLTIP_DARKTROOPER_P1,The first phase of the dark trooper project; light, quick and devastating to infantry units.
 TEXT_TOOLTIP_DARKTROOPER_P1_COMPANY,Dark Trooper P1 Company
