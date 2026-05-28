@@ -106,6 +106,7 @@ Map/Planet Fixes:
 • MP Space Kuat's gutting of its orbital dockyard units (as seen in EaW) has been reverted.  Petroglyph likely made this change because the space props used were from the Rebel story campaign, which had active engine particles and were synched between clients - Kuat became the worst performing map in the Skirmish pool.  With BUG #482 fixed, the new Empire shipyard props are more performant and not synched between players, which means we can add these props back to Kuat.  In addition, a new, MP-friendly orbital dockyard prop was made, which means the performance benefit should now be net-positive on this map. (BUG #683)
 • Space Mon Calmari Piracy, when the planet was owned by the Rebels, would not have the Calamari Cruisers be destroyed when the dockyards were destroyed.  A new Calamari Cruiser prop, based on the story campaigns' destroyable drydock Star Destroyer, has been retrofitted on the map. (BUG #684)
 • Nal Hutta's indigenous Hutts would attack the Hutt units of Jabba's Criminal Empire during the Consortium campaign.  On the map, the indigenous Hutts were part of the Black Sun Pirates, who are hostile to the Hutts, but weren't vice-versa.  A duplicated map (_Land_Planet_Nal_Hutta_Story_02.ted) has been created for the Consortium campaign so the indigenous Hutts' faction can be properly assigned. (BUG #123)
+• Space Coruscant's defending forces would spawn facing backwards on the map; the unit entry flags now face toward the attacking force properly. (BUG #742)
 
 
 Model Fixes:
