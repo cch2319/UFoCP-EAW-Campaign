@@ -1365,15 +1365,17 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: Uniwersalny Lądowy Transporter Opancerzony
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: Uniwersalny Lądowy Transporter Zwiadowczy
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: Samobieżna Wyrzutnia Torped Protonowych
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Samobieżna Artyleria Średniego Zasięgu
+TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Pozwala na tworzenie: dowódcy polowego, dowódcy floty
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Odblokowuje: centrum szkolenia szpiegów
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Buduje: AT-AA, AT-AT
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Gniazdo zwierząt
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Niszczyciel jest dowodzony przez admirała Gaarna.
+TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Pozwala na tworzenie: szturmowców, zwiadowców
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Odblokowuje: akademię oficerską
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Pozwala na szkolenie plutonów piechoty i żołnierzy PLEX, a także na tworzenie akademii oficerskiej.
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,[TBL]
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Szkoli najemnych żołnierzy oraz żołnierzy z dezintegratorami
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Ulepszenia: odnawianie zdolności poziom 1-2, stymulator rankorów poziom 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Zapewnia osłonę przed atakiem bronią energetyczną. Nie powstrzymuje obiektów materialnych, takich jak pociski lub szturmujące oddziały wroga. Zatrzymuje jedynie promień lasera. Wymaga zasilania.
@@ -1476,9 +1478,10 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,Po uaktywnieniu prędkość nieprzyjacielskich poj
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,Dopóki ta konstrukcja pozostaje nienaruszona, żaden okręt wroga nie może wejść w nadprzestrzeń.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Uniemożliwia wylądowanie siłom wroga na obszarze wokół tej struktury. 
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Gunganów
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Heavy vehicle factory that constructs advanced long-range armor.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Buduje: Czołg 2-M Repulsor, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Odblokowuje: fabrykę pojazdów zaawansowanych, działo akceleratorowe
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Pozwala na tworzenie: artylerii MPTL, czołgów T4-B
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,Holokron misji został zaktualizowany.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy ludzi
 TEXT_ENCYCLOPEDIA_HUTT_PALACE_00,Pozwala na tworzenie: drugorzędnych bohaterów łowców nagród.
@@ -1486,13 +1489,15 @@ TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas t
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,Broń typu ziemia-kosmos. Przenika przez tarcze, trafiając bezpośrednio w kadłub okrętu i powodując ogromne zniszczenia. Użyta do walki z mniejszymi statkami ma ograniczoną celność.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Siedziba Imperatora Palpatine'a; dopóki nie zostanie zniszczona, co jakiś czas tworzy elitarną gwardię imperialną
 TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Pozwala na tworzenie: szpiega
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Special war academy that specializes in advanced commando units.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,Broń typu ziemia-kosmos. Zakłóca działanie osłon, silników i odzyskiwania energii przez okręty. Użyta do walki z mniejszymi statkami ma ograniczoną celność. Nie powoduje zniszczeń fizycznych. Pozwala na ograniczenie strat podczas wycofywania się z bitwy naziemnej.
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Zakłóca pracę urządzeń nadawczych oraz czujników wszystkich okrętów przeciwnika. Pole widzenia tych jednostek zmniejsza się wtedy o połowę.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Jawów
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Pozwala na tworzenie: AT-ST, czołgu typu TIE
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Odblokowuje: fabrykę pojazdów ciężko opancerzonych i wieżę turbolaserową
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Pozwala na tworzenie: czołgów T2-B, śmigaczy
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Odblokowywuje: fabrykę pojazdów ciężko opancerzonych, wieżę turbolaserową
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Odblokowywuje: fabrykę pojazdów ciężko opancerzonych
 TEXT_ENCYCLOPEDIA_LOADING,Wczytywanie...
 TEXT_ENCYCLOPEDIA_LRS_00,Dostarcza informacji o ruchach przeciwnika, jakie odbywają się w pobliżu tego satelity. Pozwala na uniknięcie niespodziewanych ataków.
 TEXT_ENCYCLOPEDIA_MAGNEPULSE_00,Broń typu ziemia-ziemia, która powoduje tymczasowe unieruchomienie wszystkich pojazdów, znajdujących się w polu rażenia.
@@ -18088,6 +18093,7 @@ TEXT_TOOLTIP_GARRISON_ES_04,Garnizon: myśliwce typu TIE, bombowiec typu TIE, kr
 TEXT_TOOLTIP_GARRISON_ES_05,Garnizon: myśliwce typu TIE, bombowiec typu TIE, krążownik klasy Tartan, krążownik klasy Acclamator
 TEXT_TOOLTIP_GARRISON_FACTORY,Garnizon: MWR
 TEXT_TOOLTIP_GARRISON_INFILT,Garnizon: szpieg
+TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garnizon: żołnierz Rebelii, żołnierz PLEX
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garnizon: MPTL, droid wyszukujący cele
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Garnizon: czołg T2-B

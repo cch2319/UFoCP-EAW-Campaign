@@ -1365,15 +1365,17 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: trasporto corazzato adatto a qualsiasi tipo 
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: trasporto da ricognizione adatto a qualsiasi tipo di terreno
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: rampa di lancio mobile armata con siluri protonici
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: artiglieria turbolaser standard semovente
+TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Unità arruolate: Comandante in campo, Comandante di flotta
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Strutture sbloccate: Struttura d'addestramento infiltratori
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Unità prodotte: AT-AA, AT-AT
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Nido animale
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,L'Annihilator è comandata dall'ammiraglio Gaarn.
+TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Unità arruolate: Truppe d'assalto, Esploratore imperiale
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Strutture sbloccate: Accademia degli ufficiali
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Addestra i soldati ribelli e i soldati PLEX, oltre a consentire la costruzione dell'accademia degli ufficiali.
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,[TBL]
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Addestra i soldati mercenari e i soldati con disgregatori.
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Potenziamenti: Ricarica abilità livello 1-2, Stimolante Rancor livello 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Blocca i colpi delle armi a energia nel raggio del generatore, ma può essere penetrato dalle unità e da oggetti solidi (come i missili). Solo i laser vengono deviati. Richiede una fonte d'alimentazione energetica.
@@ -1476,9 +1478,10 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,La velocità di movimento di tutti i veicoli a rep
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,Struttura che impedisce alle navi nemiche di saltare nell'iperspazio, almeno finché non viene distrutta.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Impedisce al nemico di inviare rinforzi in un'ampia zona intorno alla struttura.
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Crea periodicamente dei Gungan finché non viene distrutto.
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Heavy vehicle factory that constructs advanced long-range armor.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Unità prodotte: Carro armato a repulsione 2-M, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Strutture sbloccate: Fabbrica di veicoli avanzati, Cannone ipervelocità
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Unità prodotte: Artiglieria MPTL, Carro armato T4-B
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,L'Olocron missione è stato aggiornato.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Crea periodicamente dei civili umani finché non viene distrutto.
 TEXT_ENCYCLOPEDIA_HUTT_PALACE_00,Unità arruolate: Cacciatore di taglie
@@ -1486,13 +1489,15 @@ TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,Crea periodicamente degli Hutt finché non viene 
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,Arma installata sulla superficie del pianeta in grado di colpire le navi in orbita, penetrandone gli scudi e causando gravi danni. Poco preciso contro le navi più piccole e veloci.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Dimora dell'Imperatore Palpatine. Crea periodicamente delle guardie imperiali d'élite finché non viene distrutto.
 TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Unità arruolate: Infiltratore
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Special war academy that specializes in advanced commando units.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,Arma installata sulla superficie del pianeta in grado di colpire le navi in orbita disabilitandone gli scudi e i motori. Poco preciso contro le navi di piccole dimensioni e incapace di infliggere danni strutturali permanenti. Impedisce di subire perdite d
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Blocca le comunicazioni e i sensori delle navi nemiche, dimezzando il loro raggio visivo all'interno della nebbia di guerra.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Crea periodicamente dei Jawa finché non viene distrutto.
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Unità prodotte: AT-ST, TIE Mauler
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Strutture sbloccate: Fabbrica di veicoli pesanti, Torretta turbolaser
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Unità prodotte: Carro armato T2-B, Speeder
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Strutture sbloccate: Fabbrica di veicoli pesanti, Torretta turbolaser
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Strutture sbloccate: Fabbrica di veicoli pesanti
 TEXT_ENCYCLOPEDIA_LOADING,Caricamento in corso...
 TEXT_ENCYCLOPEDIA_LRS_00,Rilevatore a lungo raggio che segnala i movimenti delle unità nemiche. Perfetto per sventare eventuali attacchi a sorpresa.
 TEXT_ENCYCLOPEDIA_MAGNEPULSE_00,Arma terra-terra in grado di disabilitare temporaneamente tutti i veicoli nei pressi della zona d'impatto.
@@ -18088,6 +18093,7 @@ TEXT_TOOLTIP_GARRISON_ES_04,Guarnigione: Caccia TIE, Bombardiere TIE, Incrociato
 TEXT_TOOLTIP_GARRISON_ES_05,Guarnigione: Caccia TIE, Bombardiere TIE, Incrociatore Tartan, Acclamator
 TEXT_TOOLTIP_GARRISON_FACTORY,Guarnigione: MAL
 TEXT_TOOLTIP_GARRISON_INFILT,Guarnigione: Infiltratore
+TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Guarnigione: Soldato ribelle, Soldato PLEX
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Guarnigione: MPTL, Ricognitore
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Guarnigione: Carro armato T2-B

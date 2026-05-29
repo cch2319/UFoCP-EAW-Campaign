@@ -1365,15 +1365,17 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: All Terrain Armored Transport
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: All Terrain Scout Transport
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: Mobile Proton Torpedo Launcher
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Self-Propelled Medium Artillery-Turbolaser
-TEXT_ENCYCLOPEDIA_ACADEMY_00,Builds: Field Commander, Fleet Commander
-TEXT_ENCYCLOPEDIA_ACADEMY_01,Unlocks: Infiltrator Training Facility
+TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
+TEXT_ENCYCLOPEDIA_ACADEMY_00,Builds: Field Commanders, Fleet Commanders
+TEXT_ENCYCLOPEDIA_ACADEMY_01,Unlocks: Infiltrator Academy
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Class: Animal Nest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,The Annihilator is commanded by Admiral Gaarn.
+TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtrooper, Scout Trooper
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Unlocks: Officer Academy
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Trains Infantry Platoons and Plex Soldiers and enables the construction of Officer Academies.
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,[TBL]
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Trains Grenadiers and Mercenary Assault Soldiers
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Upgrades: Ability Recharge Level 1-2, Rancor Stimulant Level 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Prevents energy weapon fire in a radius around the generator. Does not prevent solid objects, such as missiles or units, from passing through.  Only laser fire is stopped. Heavily dependant on power.
@@ -1476,23 +1478,26 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,When active, the movement speed of all enemy repul
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,As long as this structure is intact, no enemy ships can hyperspace away.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Prevents reinforcements from warping in a large radius around the structure.
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Periodically creates Gungans until destroyed.
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Heavy vehicle factory that constructs advanced long-range armor.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Builds: 2-M Repulsor Tank, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Unlocks: Advanced Vehicle Factory, Hypervelocity Gun
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: MPTL Artillery, T4-B Tanks
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,The mission holocron has been updated.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Periodically creates human civilians until destroyed.
 TEXT_ENCYCLOPEDIA_HUTT_PALACE_00,Builds: Bounty Hunter minor heroes.
 TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,Periodically creates Hutts until destroyed.
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,A ground-to-space weapon that bypasses shields for tremendous damage. Inaccurate against smaller fast-moving ships.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Home of Emperor Palpatine; periodically creates Elite Imperial Guards until destroyed.
-TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Builds: Infiltrator
+TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Builds: Infiltrators
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Special war academy that specializes in advanced commando units.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,A ground-to-space weapon. Disables shields and engines on enemy ships. Inaccurate vs. small ships. Causes no permanent physical damage.  Prevents incurring losses when retreating from a land battle, even when an enemy fleet is in orbit.
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Blocks communication and sensors of enemy ships, causing their fog-of-war sight range to be cut in half.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Periodically creates Jawas until destroyed.
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Unlocks: Heavy Vehicle Factory, Turbolaser Tower
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Unlocks: Heavy Factory, Turbolaser Tower
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Unlocks: Heavy Factory
 TEXT_ENCYCLOPEDIA_LOADING,Loading...
 TEXT_ENCYCLOPEDIA_LRS_00,Reveals information about enemy movement within a large radius about this satellite. Ideal for thwarting surprise attacks.
 TEXT_ENCYCLOPEDIA_MAGNEPULSE_00,A surface-to-surface weapon that temporarily disables vehicles around the area of impact.
@@ -18087,10 +18092,11 @@ TEXT_TOOLTIP_GARRISON_ES_03,Garrison: TIE fighter, TIE bomber, Tartan Cruiser
 TEXT_TOOLTIP_GARRISON_ES_04,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, Acclamator
 TEXT_TOOLTIP_GARRISON_ES_05,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, Acclamator
 TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: M.A.L.
-TEXT_TOOLTIP_GARRISON_INFILT,Garrison: Infiltrator
-TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garrison: Rebel Soldier, PLEX Soldier
-TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garrison: MPTL, Spotter
-TEXT_TOOLTIP_GARRISON_R_LTFAC,Garrison: T2-B Tank
+TEXT_TOOLTIP_GARRISON_INFILT,Garrison: Infiltrators
+TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
+TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garrison: Infantry Platoons, Plex Soldiers
+TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garrison: MPTL Artillery, MPTL Spotter
+TEXT_TOOLTIP_GARRISON_R_LTFAC,Garrison: T2-B Tanks
 TEXT_TOOLTIP_GARRISON_RS_01,Garrison: X-wing, Y-wing
 TEXT_TOOLTIP_GARRISON_RS_02,Garrison: X-wing, Y-wing, Corellian Corvette
 TEXT_TOOLTIP_GARRISON_RS_03,Garrison: X-wing, Y-wing, Corellian Corvette

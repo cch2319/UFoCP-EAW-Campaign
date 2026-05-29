@@ -1941,7 +1941,11 @@
 	<SpecialStructure Name="Ground_Infiltrator_Facility">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_INFILTRATOR_FACILITY</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_INFILTRATOR_00 TEXT_TOOLTIP_GARRISON_INFILT</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,
+			TEXT_ENCYCLOPEDIA_INFILTRATOR_00,
+			TEXT_TOOLTIP_GARRISON_INFILT
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<GUI_Row>0</GUI_Row>
@@ -2927,7 +2931,12 @@
 	<SpecialStructure Name="R_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00 TEXT_TOOLTIP_GARRISON_R_BARRACKS</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_BARRACKS,
+			TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,
+			TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,
+			TEXT_TOOLTIP_GARRISON_R_BARRACKS
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -3278,7 +3287,12 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Icon_Name>i_button_r_vehicle_factory.tga</Icon_Name>
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01 TEXT_TOOLTIP_GARRISON_R_LTFAC</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,
+			TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,
+			TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,
+			TEXT_TOOLTIP_GARRISON_R_LTFAC
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00, MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -3624,7 +3638,11 @@
 	<SpecialStructure Name="R_Ground_Heavy_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.2</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_HEAVY_VEHICLE_FACTORY</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00 TEXT_TOOLTIP_GARRISON_R_HVYFAC</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,
+			TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,
+			TEXT_TOOLTIP_GARRISON_R_HVYFAC
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00, MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -4141,7 +4159,12 @@
 		<Starting_Spawned_Units_Tech_0>Field_Com_Rebel_Team, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Field_Com_Rebel_Team, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ACADEMY_00, TEXT_ENCYCLOPEDIA_ACADEMY_01</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_ACADEMY,
+			TEXT_ENCYCLOPEDIA_ACADEMY_00,
+			TEXT_ENCYCLOPEDIA_ACADEMY_01,
+			TEXT_TOOLTIP_GARRISON_OFFICER
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits>8000</Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>

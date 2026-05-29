@@ -58,6 +58,7 @@ Additions:
 	-- POL: Bateria dział plazmowych
 	-- RUS: Батарея плазменных пушек
 	-- SPA: Batería de cañones de plasma
+• Infantry barracks, light vehicle factories, heavy vehicle factories and officer academies now have a generic description shared between all factions' buildings, instead of being tooltip-less.  Otherwise, each unique building (Infiltrator Academy, Droid Works, etc.) have received unique descriptions. (BUG #744, #745, #746)
 
 
 Housekeeping:
@@ -65,6 +66,57 @@ Housekeeping:
 • Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 • Various instances of "Black Market" have been decapitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 
+
+• TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)
+	-- ENG: Unlocks: Infiltrator Training Facility --> Unlocks: Infiltrator Academy
+
+• TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00: (BUG #744)
+	-- ENG: Trains Infantry Platoons and Plex Soldiers and enables the construction of Officer Academies. --> Builds: Infantry Platoons, Plex Soldiers
+	-- FRA: Forme des bataillons d'infanterie, des Soldats Plex, et autorise la construction d'Écoles d'officiers. --> (Same as English)
+	-- GER: Bildet Rebellensoldaten und Plex-Raketentruppen aus und ermöglicht den Bau von Offiziersakademien. --> Bilde folgende Einheiten aus: Infanterie-Züge, Plex-Soldaten
+	-- ITA: Addestra i soldati ribelli e i soldati PLEX, oltre a consentire la costruzione dell'accademia degli ufficiali. --> (Same as English)
+	-- POL: Pozwala na szkolenie plutonów piechoty i żołnierzy PLEX, a także na tworzenie akademii oficerskiej. --> (Same as English)
+	-- RUS: Позволяет набирать взводы пехоты и ракетную пехоту, открывает строительство военной академии. --> (Same as English)
+	-- SPA: Entrena a pelotones de infantería y soldados plex y permite la construcción de academias de oficiales. --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01: (BUG #744)
+	-- ENG: [TBL] --> Unlocks: Officer Academy
+	-- FRA: [TBL] --> (Same as English)
+	-- GER: [TBL] --> Ermöglicht: Offiziersakademie
+	-- ITA: [TBL] --> (Same as English)
+	-- POL: [TBL] --> (Same as English)
+	-- RUS: [TBL] --> (Same as English)
+	-- SPA: [TBL] --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00: (BUG #744)
+	-- ENG: Builds: MPTL Artillery, T4-B Tanks --> Builds: MPTL Artillery, T4-B Tanks --> Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
+	-- FRA: Produit : Artillerie LTPM, Chars T4-B --> (Same as English)
+	-- GER: Baut folgende Einheiten: MPTL-Artillerie, Panzer T4-B --> Baut folgende Einheiten: Gallofree-Transporterstaffel, MPTL-Artillerie, Panzer T4-B
+	-- ITA: Unità prodotte: Artiglieria MPTL, Carro armato T4-B --> (Same as English)
+	-- POL: Pozwala na tworzenie: artylerii MPTL, czołgów T4-B --> (Same as English)
+	-- RUS: Строительство: артиллерия MPTL, танки T4-B. --> (Same as English)
+	-- SPA: Construye: artillería MPTL, tanques T4-B. --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_INFILTRATOR_00: (BUG #744)
+	-- ENG: Builds: Infiltrator --> Builds: Infiltrators
+
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00: (BUG #744)
+	-- ENG: Builds: T2-B Tanks, Speeders --> Builds: T2-B Tanks, Speeders, MDUs
+	-- FRA: Produit : Chars T2-B, Speeders --> (Same as English)
+	-- GER: Baut folgende Einheiten: Panzer T2-B, Gleiter --> Baut folgende Einheiten: Panzer T2-B, Gleiter, MVE-Kompanie
+	-- ITA: Unità prodotte: Carro armato T2-B, Speeder --> (Same as English)
+	-- POL: Pozwala na tworzenie: czołgów T2-B, śmigaczy --> (Same as English)
+	-- RUS: Строительство: Танки T2-B, глиссеры --> (Same as English)
+	-- SPA: Construye: tanques T2-B, deslizadores. --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01: (BUG #744)
+	-- ENG: Unlocks: Heavy Factory, Turbolaser Tower --> Unlocks: Heavy Factory
+	-- FRA: Débloque : Usine lourde, Tour turbolaser --> Débloque : Usine lourde
+	-- GER: Ermöglicht: Schwere Fahrzeugfabrik, Turbolaser-Turm --> Ermöglicht: Schwere Fahrzeugfabrik
+	-- ITA: Strutture sbloccate: Fabbrica di veicoli pesanti, Torretta turbolaser --> Strutture sbloccate: Fabbrica di veicoli pesanti
+	-- POL: Odblokowywuje: fabrykę pojazdów ciężko opancerzonych, wieżę turbolaserową --> Odblokowywuje: fabrykę pojazdów ciężko opancerzonych
+	-- RUS: Открывает: Завод тяжелой техники, турболазерная башня --> Открывает: Завод тяжелой техники
+	-- SPA: Desbloquea: fábrica pesada, torre turboláser. --> Desbloquea: fábrica pesada
 
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
@@ -501,6 +553,7 @@ Housekeeping:
 	-- ENG: ...Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships. --> ...Thrawn is a master strategist and tactician who grants minor damage, defense and speed bonuses to all ships in space combat he participates in.  The Admonitor is a Star Destroyer that can overcharge its batteries and rapidly assault any target in range.
 	-- FRA: (Same as English)
 	-- GER: Als einziger Nichtmensch, der jemals den Titel eines Großadmirals erhalten hat, ist Thrawn ein Meisterstratege und Taktiker. Mit der Admonitor als seinem Flaggschiff gewährt Thrawn allen Schiffen, an denen er im Weltraum kämpft, kleine Boni auf Schaden, Verteidigung und Geschwindigkeit. Bewaffnet mit 4 Turbolaser-Batterien, 2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern kann der Admonitor seine Batterien überladen und jedes Ziel in Reichweite schnell angreifen. Ist außerdem mit einem Fangstrahl ausgestattet, der kleinere Schiffe bewegungsunfähig macht. --> Thrawn, der einzige Nichtmensch, der jemals den Titel eines Großadmirals erlangt hat, ist ein meisterhafter Stratege und Taktiker, der allen Schiffen in Weltraumkämpfen, an denen er teilnimmt, geringfügige Schadens-, Verteidigungs- und Geschwindigkeitsboni gewährt. Die Admonitor ist ein Sternenzerstörer, der seine Batterien überladen und jedes Ziel in Reichweite rasch angreifen kann.
+	-- ITA: (Same as English)
 	-- POL: (Same as English)
 	-- RUS: (Same as English)
 	-- SPA: (Same as English)

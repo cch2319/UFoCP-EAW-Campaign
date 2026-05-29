@@ -1365,15 +1365,17 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: All Terrain Armored Transport
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: All Terrain Scout Transport
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: Mobile Proton Torpedo Launcher
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Self-Propelled Medium Artillery-Turbolaser
-TEXT_ENCYCLOPEDIA_ACADEMY_00,Bildet folgende Einheiten aus: Field Commander, Flottenkommandeur
+TEXT_ENCYCLOPEDIA_ACADEMY,Kriegsakademie für Offiziere, die sich auf die Verbesserung der Kampftechniken spezialisiert haben. Bildet Kommandeure für den Einsatz auf dem Schlachtfeld aus.
+TEXT_ENCYCLOPEDIA_ACADEMY_00,Bildet folgende Einheiten aus: Feldkommandeur, Flottenkommandeur
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Ermöglicht: Infiltrator-Trainingslager
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Baut folgende Einheiten: AT-AA, AT-AT
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Klasse: Tiernest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Die Annihilator steht unter dem Kommando von Admiral Gaarn.
+TEXT_ENCYCLOPEDIA_BARRACKS,Unterkünfte und Kommandozentrale für die Infanterie. Ausbildung von Infanterietrupps und Unterstützungseinheiten.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Bildet folgende Einheiten aus: Sturmtruppen, Kundschafter
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Ermöglicht: Offiziersakademie
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Bildet Rebellensoldaten und Plex-Raketentruppen aus und ermöglicht den Bau von Offiziersakademien.
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,[TBL]
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Bilde folgende Einheiten aus: Infanterie-Züge, Plex-Soldaten
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Ermöglicht: Offiziersakademie
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Bildet Grenadiere und Sturmsöldner aus.
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Aufrüstungen: Wiederaufladung Stufe 1-2, Rancorstimulanz Stufe 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Verhindert Energiewaffenfeuer in einem gewissen Umkreis des Generators. Hält keine massiven Gegenstände auf, wie etwa Raketen - nur Laserfeuer wird abgefangen. Braucht eine starke Energieversorgung.
@@ -1476,9 +1478,10 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,Alle gegnerischen Fahrzeuge mit Repulsorliftantrie
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,So lange dieses Gebäude in Betrieb ist, können keine gegnerischen Schiffe in den Hyperraum entkommen.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Verhindert in einem großen Umkreis um das Gebäude das Auftauchen von Verstärkungen.
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Bringt regelmäßig Gunganer hervor, bis es zerstört wird.
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Werk für Schwerfahrzeuge, das hochmoderne gepanzerte Langstreckenfahrzeuge baut.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Baut folgende Einheiten: Repulsor-Panzer 2-M, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Ermöglicht: Verbesserte Fahrzeugfabrik, Hyper-V-Geschütz
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Baut folgende Einheiten: MPTL-Artillerie, Panzer T4-B
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Baut folgende Einheiten: Gallofree-Transporterstaffel, MPTL-Artillerie, Panzer T4-B
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,Das Einsatzholocron wurde aktualisiert.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Bringt regelmäßig menschliche Zivilisten hervor, bis es zerstört wird.
 TEXT_ENCYCLOPEDIA_HUTT_PALACE_00,Bildet Schwächere Kopfgeldjäger-Helden aus.
@@ -1486,13 +1489,15 @@ TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,Bringt regelmäßig Hutten hervor, bis es zerstö
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,Eine Boden-Raum-Waffe, deren Geschosse die Schilde des Zieles umgehen und verheerende Schäden anrichten. Nicht sehr treffsicher gegen kleine, schnelle Schiffe.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Die Heimat von Imperator Palpatine. Bringt regelmäßig Imperiale Elitewachen hervor, bis es zerstört wird.
 TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Bildet Infiltratoren aus
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Eine spezielle Militärakademie, die auf hochqualifizierte Kommandoeinheiten spezialisiert ist.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,Eine Boden-Raum-Waffe, die Schilde gegnerischer Schiffe ebenso ausschalten kann wie ihren Antrieb. Ungenau gegen kleinere Schiffe, richtet keine bleibenden Schäden an. Verhindert Verluste beim Rückzug aus Bodengefechten, selbst wenn eine gegnerische Flotte in der Umlaufbahn lauert.
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Blockiert die Kommunikation und Sensoren gegnerischer Schiffe und halbiert damit effektiv ihre Kriegsnebel-Sichtweite.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Bringt regelmäßig Jawas hervor, bis es zerstört wird.
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Fabrik für leichte Fahrzeuge, die auf die Ausbildung schneller, leicht gepanzerter Einheiten spezialisiert ist.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Baut folgende Einheiten: AT-ST, TIE-Mauler
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Ermöglicht: Schwere Fahrzeugfabrik, Turbolaser-Turm
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Baut folgende Einheiten: Panzer T2-B, Gleiter
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Ermöglicht: Schwere Fahrzeugfabrik, Turbolaser-Turm
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Baut folgende Einheiten: Panzer T2-B, Gleiter, MVE-Kompanie
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Ermöglicht: Schwere Fahrzeugfabrik
 TEXT_ENCYCLOPEDIA_LOADING,Laden ...
 TEXT_ENCYCLOPEDIA_LRS_00,Zeigt Informationen über gegnerische Truppenbewegungen im weiten Umkreis um diesen Satelliten an. Ideal zur Vereitelung von Überraschungsangriffen.
 TEXT_ENCYCLOPEDIA_MAGNEPULSE_00,Eine Boden-Boden-Waffe, die Fahrzeuge rund um die Einschlagsstelle zeitweilig außer Funktion setzt.
@@ -18088,6 +18093,7 @@ TEXT_TOOLTIP_GARRISON_ES_04,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer, A
 TEXT_TOOLTIP_GARRISON_ES_05,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer, Acclamator-Kreuzer
 TEXT_TOOLTIP_GARRISON_FACTORY,Garnison: Mobile Raketenwerfer
 TEXT_TOOLTIP_GARRISON_INFILT,Garnison: Infiltrator
+TEXT_TOOLTIP_GARRISON_OFFICER,Garnison: Feldkommandeur
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garnison: Rebellensoldat, PLEX-Soldat
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garnison: MPTL, Beobachterdrohne
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Garnison: Panzer T2-B
