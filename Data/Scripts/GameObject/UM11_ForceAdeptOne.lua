@@ -44,10 +44,10 @@ require("PGStateMachine")
 
 function Definitions()
 
-   -- Object isn't valid at this point so don't do any operations that
-   -- would require it.  State_Init is the first chance you have to do
-   -- operations on Object
-   
+	-- Object isn't valid at this point so don't do any operations that
+	-- would require it.  State_Init is the first chance you have to do
+	-- operations on Object
+
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	Define_State("State_Init", State_Init);
 end
@@ -58,7 +58,7 @@ function State_Init(message)
 	if message == OnEnter then
 		healme = Find_Nearest(Object, "EMPIRE_BUILDABLE_BACTA_TANK")
 		target = Find_Nearest(Object, "TYBER_ZANN")
-	
+
 		Create_Thread("AdeptOne_AI")
 	elseif message == OnUpdate then
 		-- Do nothing
@@ -88,4 +88,3 @@ function AdeptOne_AI()
 		Sleep(2)
 	end
 end
-	
