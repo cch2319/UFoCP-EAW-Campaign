@@ -47,6 +47,10 @@ There are changes to the game's master text directory this update!  Check "_Chan
 
 UFCP:
 ======
+UFCP FIXES:
+• Fix a regression caused by the bugfix for BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to break the story (cosmetically) and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact"). (BUG #736)
+
+
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
 • UFCP's new loading screen and main menu now includes all available languages supported by FoC. (BUG #451)
