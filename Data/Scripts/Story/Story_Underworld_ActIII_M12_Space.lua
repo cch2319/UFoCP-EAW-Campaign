@@ -291,11 +291,11 @@ function State_Underworld_A03M12_Begin(message)
 		shipyard05 = Find_Hint("EMPIRE_DOCK_DESTROYABLE", "shipyard05")
 
 		if not shipyard01 then
-			MessageBox("not shipyard01")
+			DebugMessage("not shipyard01")
 		end
 
 		if not shipyard02 then
-			MessageBox("not shipyard02")
+			DebugMessage("not shipyard02")
 		end
 
 		--healing "bays" definintions
@@ -318,13 +318,13 @@ function State_Underworld_A03M12_Begin(message)
 		--defining "mission critical" units here
 		tyber_start_spot = Find_Hint("MARKER_GENERIC_BLUE", "peacebringer-startspot")
 		if not TestValid(tyber_start_spot) then
-			MessageBox("no tyber_start_spot")
+			DebugMessage("no tyber_start_spot")
 		end
 		tyber = Find_First_Object("THE_PEACEBRINGER")
 		if TestValid(tyber) then
 			tyber.Teleport_And_Face(tyber_start_spot)
 		else
-			tyber_spawn = Spawn_From_Reinforcement_Pool(Find_Object_Type("Tyber_Zann_Team"), tyber_start_spot, underworld_player)
+			tyber_spawn = Spawn_From_Reinforcement_Pool(Find_Object_Type("TYBER_ZANN_TEAM_CAMPAIGN"), tyber_start_spot, underworld_player)
 			tyber = tyber_spawn
 			--tyber = Find_First_Object("THE_PEACEBRINGER")
 
@@ -336,7 +336,7 @@ function State_Underworld_A03M12_Begin(message)
 				--tyber.Prevent_All_Fire(true)
 				--tyber.Set_Cannot_Be_Killed(true)
 			else
-				--MessageBox("No Tyber!! Fool")
+				DebugMessage("No Tyber!! Fool")
 				Spawn_Unit(Find_Object_Type("THE_PEACEBRINGER"), tyber_start_spot, underworld_player)
 				tyber = Find_First_Object("THE_PEACEBRINGER")
 				tyber.Teleport_And_Face(tyber_start_spot)
@@ -396,7 +396,7 @@ function State_Underworld_A03M12_Begin(message)
 			end
 
 			Point_Camera_At(tyber)
-			--MessageBox("A really cool opening cinematic goes here...you'd be super impressed.")
+			--DebugMessage("A really cool opening cinematic goes here...you'd be super impressed.")
 
 			Sleep(1)
 			End_Cinematic_Camera()
@@ -868,7 +868,6 @@ function Thread_Give_Opening_Hint()
 		local hint_timer = 60
 		local hint_number = GameRandom.Free_Random(2, 3)
 		JoeMessage("current hint_number  is %d", hint_number)
-		--MessageBox("current hint_number  is %d", hint_number)
 		if hint_number == 1 then
 			--check to see if any starbases are still alive and not under your control
 			if bool_starbase01_active == true or bool_starbase01_active == true or bool_starbase01_active == true then
@@ -934,7 +933,7 @@ function State_UM12_ADD_OBJECTIVE_Defeat_The_Rebels(message)
 
 			Create_Thread("Thread_DeathMonitor_RebelHero")
 		else
-			MessageBox("Cannot find Rebel hero...aborting.  Tell Dan Etter immediately")
+			DebugMessage("Cannot find Rebel hero...aborting.  Tell Dan Etter immediately")
 		end
 	end
 end
@@ -953,7 +952,7 @@ end
 
 function State_UM12_Bring_In_SuperStarDestroyer(message)
 	if message == OnEnter then
-		--MessageBox("Eclipse weapon goes offline here")
+		DebugMessage("Eclipse weapon goes offline here")
 
 		--make sure there's no attack target
 		while eclipse.Has_Attack_Target() == true do
@@ -1060,13 +1059,13 @@ function Thread_Rebel_Units_Arrive()
 		for i, entryflag in pairs(rebel_entryflag_list) do
 			top_end = top_end + 1
 		end
-		--MessageBox("top_end is %d", top_end)
+		DebugMessage("top_end is %d", top_end)
 		--random pick of entry location
 		local roll_entryflag = GameRandom(1,top_end)
 
 		if (bool_rebels_attacking == true) then
 			if not TestValid(rebel_entryflag_list[roll_entryflag]) then
-				MessageBox("cannot find rebel entry flag")
+				DebugMessage("cannot find rebel entry flag")
 			else
 				ReinforceList(rebel_reinforce_list, rebel_entryflag_list[roll_entryflag], rebel_player, false, true, false, Callback_Rebel_Reinforcements)
 			end
@@ -1077,12 +1076,12 @@ end
 
 
 function Callback_Rebel_Reinforcements(new_list)
-	--MessageBox("Callback_Rebel_Reinforcements HIT!")
+	DebugMessage("Callback_Rebel_Reinforcements HIT!")
 	Create_Thread("Thread_Rebel_Reinforcements", new_list)
 end
 
 function Thread_Rebel_Reinforcements(reinforce_list)
-	--MessageBox("Thread_Rebel_Reinforcements HIT!")
+	DebugMessage("Thread_Rebel_Reinforcements HIT!")
 	for i, rebel_ship in pairs(reinforce_list) do
 		if TestValid(rebel_ship) then
 			Create_Thread("Thread_Rebel_Reinforcement_Orders", rebel_ship)
@@ -1149,7 +1148,7 @@ function Thread_Empire_Units_Arrive()
 		--	num_current_popcap = num_current_popcap + num_this_lists_popcap_value
 			JoeMessage("new pop count (after reinforcing) is %d", num_current_popcap)
 		--else
-		--	MessageBox("current pop cap too high, not reinforcing")
+		--	DebugMessage("current pop cap too high, not reinforcing")
 		--end
 		Sleep(30)
 	end
@@ -1348,7 +1347,7 @@ function Prox_FAKE_Heal_Big_Ships(prox_obj, trigger_obj)
 			thread_info[1] = trigger_obj
 			thread_info[2] = prox_obj
 			Create_Thread("Thread_FAKE_Heal_Big_Ships", thread_info)
-			--MessageBox("Prox_FAKE_Heal_Big_Ships hit")
+			DebugMessage("Prox_FAKE_Heal_Big_Ships hit")
 		end
 end
 
@@ -1362,7 +1361,7 @@ function Thread_FAKE_Heal_Big_Ships (thread_info)
 	Sleep(15)
 
 	if TestValid(big_ship) then
-		--MessageBox("Thread_FAKE_Heal_Big_Ships hit")
+		DebugMessage("Thread_FAKE_Heal_Big_Ships hit")
 		local ship_loc = big_ship.Get_Position()
 		local healed_ship = Create_Generic_Object(big_ship.Get_Type().Get_Name(),ship_loc,empire_player)
 		healed_ship.Teleport_And_Face(big_ship)
@@ -1415,7 +1414,6 @@ function Find_First_Open_Bay()
 		JoeMessage("bool_sy05_hf01_taken = true")
 		return sy05_healbay01
 	else
-		--MessageBox("damaged ship cannot find any open healbays")
 		JoeMessage("damaged ship cannot find any open healbays")
 		return nil
 	end
@@ -1452,22 +1450,18 @@ end
 function Heal_Bay_Is_Now_Clear(heal_bay)
 	if (heal_bay == sy01_healbay01) then
 		bool_sy01_hf01_taken = false
-		--MessageBox("bool_sy01_hf01_taken = false")
 		JoeMessage("bool_sy01_hf01_taken = false")
 		return
 	elseif (heal_bay == sy01_healbay02) then
 		bool_sy01_hf02_taken = false
-		--MessageBox("bool_sy01_hf02_taken = false")
 		JoeMessage("bool_sy01_hf02_taken = false")
 		return
 	elseif (heal_bay == sy01_healbay03) then
 		bool_sy01_hf03_taken = false
-		--MessageBox("bool_sy01_hf03_taken = false")
 		JoeMessage("bool_sy01_hf03_taken = false")
 		return
 	elseif (heal_bay == sy01_healbay04) then
 		bool_sy01_hf04_taken = false
-		--MessageBox("bool_sy01_hf04_taken = false")
 		JoeMessage("bool_sy01_hf04_taken = false")
 		return
 	elseif (heal_bay == sy02_healbay01) then
@@ -1841,7 +1835,7 @@ function Thread_Monitor_Eclipse_FiringStatus()
 
 		while bool_first_shot_fired == false do
 			if eclipse.Has_Attack_Target() == true then
-				--MessageBox("Player is firing the Eclipse")
+				DebugMessage("Player is firing the Eclipse")
 				target = eclipse.Get_Attack_Target()
 				--if target == empire_super_stardestroyer[1] then
 				--if target.Get_Type().Get_Name() == "UM12_SUPER_STAR_DESTROYER" then
@@ -1850,7 +1844,7 @@ function Thread_Monitor_Eclipse_FiringStatus()
 					bool_first_shot_fired = true
 					break
 				--else
-					--MessageBox("detected fire event ... not registering super star destroyer")
+					--DebugMessage("detected fire event ... not registering super star destroyer")
 				--end
 			end
 
@@ -1862,7 +1856,7 @@ end
 
 function Thread_Midtro_Cinematic_Eclipse_Fires(target)
 	if not TestValid(eclipse) or not TestValid(target) then
-		MessageBox("UM12 Midtro is missing key objects...aborting...let Joe G know immediately!")
+		DebugMessage("UM12 Midtro is missing key objects...aborting...let Joe G know immediately!")
 	end
 	target.Set_Cannot_Be_Killed(true)
 
@@ -1937,7 +1931,7 @@ function Thread_Empire_SuperStarDestroyer_Arrives(new_list)
 
 		local goto_flag = Find_Hint("MARKER_GENERIC_GREEN", "goto-superstardestroyer")
 		BlockOnCommand(super_destroyer.Move_To(goto_flag))
-		MessageBox("super_destroyer.Attack_Target(eclipse)")
+		DebugMessage("super_destroyer.Attack_Target(eclipse)")
 		super_destroyer.Attack_Target(eclipse)
 
 		block_table = {}
@@ -1984,7 +1978,7 @@ function Thread_Empire_StarDestroyer_Arrives(thread_info)
 	goto_flag = thread_info[2]
 
 	BlockOnCommand(destroyer.Move_To(goto_flag))
-	--MessageBox("Destroyer in position...releasing to AI")
+	DebugMessage("Destroyer in position...releasing to AI")
 	--destroyer.Prevent_AI_Usage(false)
 	--destroyer.Guard_Target(goto_flag.Get_Position())
 	if TestValid(destroyer) and TestValid(eclipse) then
@@ -2136,7 +2130,7 @@ function Thread_DeathMonitor_Starbase01()
 	end
 
 	bool_starbase01_active = false
-	--MessageBox("bool_starbase01_active = false")
+	DebugMessage("bool_starbase01_active = false")
 end
 
 function Thread_DeathMonitor_Starbase02()
@@ -2145,7 +2139,7 @@ function Thread_DeathMonitor_Starbase02()
 	end
 
 	bool_starbase02_active = false
-	--MessageBox("bool_starbase02_active = false")
+	DebugMessage("bool_starbase02_active = false")
 end
 
 function Thread_DeathMonitor_Starbase03()
@@ -2154,7 +2148,7 @@ function Thread_DeathMonitor_Starbase03()
 	end
 
 	bool_starbase03_active = false
-	--MessageBox("bool_starbase03_active = false")
+	DebugMessage("bool_starbase03_active = false")
 end
 
 function Thread_DeathMonitor_Starbases()
@@ -2307,9 +2301,9 @@ function Thread_DeathMonitor_Eclipse()
 
 	while TestValid(eclipse) do
 		local eclipse_current_health = eclipse.Get_Hull()
-		--MessageBox("eclipse_current_health is %d", eclipse_current_health)
+		DebugMessage("eclipse_current_health is %d", eclipse_current_health)
 		if TestValid(eclipse) and eclipse_current_health < 0.9 then
-			MessageBox("current eclipse_current_health  is %d", eclipse_current_health)
+			DebugMessage("current eclipse_current_health  is %d", eclipse_current_health)
 			Story_Event("UM12_ECLIPSE_BEING_ATTACKED")
 			break
 		end
@@ -2318,7 +2312,7 @@ function Thread_DeathMonitor_Eclipse()
 	end
 
 	while TestValid(eclipse) do
-		--MessageBox("Thread_DeathMonitor_Eclipse entering into wait mode.")
+		DebugMessage("Thread_DeathMonitor_Eclipse entering into wait mode.")
 		Sleep(3)
 	end
 
@@ -2332,7 +2326,7 @@ function Thread_DeathMonitor_SuperStarDestroyer(destroyer)
 
 	--super star destroyer has been killed, clear objective
 	Story_Event("UM12_OBJECTIVE_COMPLETE_DESTROY_SUPER_STAR_DESTROYER")
-	--MessageBox("Super Star Destroyer dead...Rebels retreat...player wins!")
+	DebugMessage("Super Star Destroyer dead...Rebels retreat...player wins!")
 end
 
 

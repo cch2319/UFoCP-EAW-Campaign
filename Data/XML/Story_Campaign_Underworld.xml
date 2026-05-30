@@ -7393,7 +7393,7 @@
 	<Event Name="Spawn_New_Tyber_With_Peacebringer">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Tyber_Zann_Team</Reward_Param1>
+		<Reward_Param1>Tyber_Zann_Team_Campaign</Reward_Param1>
 		<Reward_Param2>Carida</Reward_Param2>
 		<Prereq>Remove_Old_Tyber</Prereq>
 	</Event>
@@ -8778,7 +8778,7 @@
 	<Event Name="Underworld_ActII_M11_Start">
 		<Event_Type>STORY_ENTER</Event_Type>
 		<Event_Param1>Coruscant</Event_Param1>
-		<Event_Param3>Tyber_Zann_Team Urai_Fen_Team Silri_Team</Event_Param3>
+		<Event_Param3>Tyber_Zann_Team_Campaign Urai_Fen_Team Silri_Team</Event_Param3>
 		<Event_Param6>1</Event_Param6>
 		<Reward_Type>LINK_TACTICAL</Reward_Type>
 		<Reward_Param1>Coruscant</Reward_Param1>
@@ -8933,7 +8933,7 @@
 	<Event Name="Tyber_Enters_Coruscant_Space_BM">
 		<Event_Type>STORY_ENTER</Event_Type>
 		<Event_Param1>Coruscant</Event_Param1>
-		<Event_Param3>Tyber_Zann_Team</Event_Param3>
+		<Event_Param3>Tyber_Zann_Team_Campaign</Event_Param3>
 		<Event_Param6>1</Event_Param6>
 		<Prereq>Underworld_Mission_11_Completed</Prereq>
 		<Perpetual>True</Perpetual>
@@ -9260,7 +9260,7 @@
 	<Event Name="Underworld_ActII_M12_Start">
 		<Event_Type>STORY_ENTER</Event_Type>
 		<Event_Param1>Kuat</Event_Param1>
-		<Event_Param3>Tyber_Zann_Team</Event_Param3>
+		<Event_Param3>Tyber_Zann_Team_Campaign</Event_Param3>
 		<Event_Param6>0</Event_Param6>
 		<Reward_Type>LINK_TACTICAL</Reward_Type>
 		<Reward_Param1>Kuat</Reward_Param1>

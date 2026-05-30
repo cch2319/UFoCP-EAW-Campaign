@@ -54,18 +54,12 @@ end
 
 
 function State_Init(message)
-
 	if message == OnEnter then
 		healme = Find_Nearest(Object, "EMPIRE_BUILDABLE_BACTA_TANK")
-		target = Find_Nearest(Object, "TYBER_ZANN")
+		target = Find_Nearest(Object, "TYBER_ZANN_CAMPAIGN")
 
 		Create_Thread("AdeptOne_AI")
-	elseif message == OnUpdate then
-		-- Do nothing
-	elseif message == OnExit then
-		-- Do nothing
 	end
-
 end
 
 function AdeptOne_AI()
@@ -73,7 +67,7 @@ function AdeptOne_AI()
 		if Object.Get_Hull() < 0.65 then
 			if TestValid(healme) then
 				Object.Move_To(healme)
-				--MessageBox("move %s", tostring(healme.Get_Type().Get_Name()))
+				DebugMessage("move %s", tostring(healme.Get_Type().Get_Name()))
 			end
 		else
 			if TestValid(target) then
@@ -81,7 +75,7 @@ function AdeptOne_AI()
 					Object.Move_To(Object)
 				else
 					Object.Attack_Move(target)
-					--MessageBox("attack move %s", tostring(target.Get_Type().Get_Name()))
+					DebugMessage("attack move %s", tostring(target.Get_Type().Get_Name()))
 				end
 			end
 		end

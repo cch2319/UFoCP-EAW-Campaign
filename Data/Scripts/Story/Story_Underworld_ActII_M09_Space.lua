@@ -148,7 +148,7 @@ function Initialize_Mission_Variables()
 
 -- THE PEACEBRINGER
 	tyber_pos = Find_Hint("STORY_TRIGGER_ZONE", "tyberpos")
-	tyber = Spawn_Unit(Find_Object_Type("Tyber_Zann_Team"), tyber_pos, underworld_player)
+	tyber = Spawn_Unit(Find_Object_Type("TYBER_ZANN_TEAM_CAMPAIGN"), tyber_pos, underworld_player)
 	tyber[1].Teleport_And_Face(tyber_pos)
 	tyber[1].Stop()
 	tyber[1].Hide(true)

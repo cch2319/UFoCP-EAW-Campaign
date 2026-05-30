@@ -228,7 +228,7 @@ function State_Underworld_A03M11_Begin(message)
 		camstart_six = Find_Hint("STORY_TRIGGER_ZONE", "partsix-camerastart")
 
 		-- name and register death events for required heroes
-		tyber_zann = Find_Nearest(doora,"TYBER_ZANN")
+		tyber_zann = Find_Nearest(doora,"TYBER_ZANN_CAMPAIGN")
 		Register_Death_Event(tyber_zann, Tyber_Destroyed)
 		tyber_zann.Prevent_AI_Usage(true)
 		urai_fen = Find_Nearest(doora,"URAI_FEN")
@@ -523,8 +523,8 @@ function Main()
 			if VictoryCondition_AdeptsSpawned then
 				if not VictoryCondition_AdeptOneDead then
 					if not TestValid(adeptonea) and
-					   not TestValid(adeptoneb) and
-					   not TestValid(adeptonec) then
+						not TestValid(adeptoneb) and
+						not TestValid(adeptonec) then
 						VictoryCondition_AdeptOneDead = true
 						Open_AdeptOneDoor()
 						Story_Event("UM11_OBJECTIVE_02_DONE")
@@ -545,9 +545,9 @@ function Main()
 		if MissionPartThreeStarted then
 			if not MissionPartThreeDone then
 				if VictoryCondition_Blown_A and
-				   VictoryCondition_Blown_B and
-				   VictoryCondition_Blown_C and
-				   VictoryCondition_Blown_D then
+					VictoryCondition_Blown_B and
+					VictoryCondition_Blown_C and
+					VictoryCondition_Blown_D then
 					if not VictoryCondition_GeneratorDead then
 						VictoryCondition_GeneratorDead = true
 						turrets = Find_All_Objects_Of_Type("EMPIRE_ANTI_INFANTRY_TURRET")
@@ -599,14 +599,14 @@ function Main()
 			if not MissionPartFourDone then
 				if VictoryCondition_DarkTroopersSpawned then
 					if not TestValid(dt1a) and
-					   not TestValid(dt2a) and
-					   not TestValid(dt3a) and
-					   not TestValid(dt4a) and
-					   not TestValid(dt5a) and
-					   not TestValid(dt6a) and
-					   not TestValid(dt7a) and
-					   not TestValid(dt8a) and
-					   not TestValid(dt9a) then
+						not TestValid(dt2a) and
+						not TestValid(dt3a) and
+						not TestValid(dt4a) and
+						not TestValid(dt5a) and
+						not TestValid(dt6a) and
+						not TestValid(dt7a) and
+						not TestValid(dt8a) and
+						not TestValid(dt9a) then
 						if not VictoryCondition_DarkTroopersDead then
 							Story_Event("UM11_OBJECTIVE_06A_DONE")
 							VictoryCondition_DarkTroopersDead = true
@@ -626,8 +626,8 @@ function Main()
 				if VictoryCondition_AdeptThreeSpawned then
 					if not VictoryCondition_AdeptThreeDead then
 						if not TestValid(adeptthreea) and
-						   not TestValid(adeptthreeb) and
-						   not TestValid(adeptthreec) then
+							not TestValid(adeptthreeb) and
+							not TestValid(adeptthreec) then
 							Story_Event("UM11_OBJECTIVE_07_DONE")
 							VictoryCondition_AdeptThreeDead = true
 						end
@@ -891,7 +891,7 @@ function CINE_Start_Mission()
 	tyber_zann.Hide(true)
 	tyber_zann.Prevent_All_Fire(true)
 
-	cin_tyber = Create_Generic_Object("TYBER_ZANN", introtyber.Get_Position(), underworld_player)
+	cin_tyber = Create_Generic_Object("TYBER_ZANN_CAMPAIGN", introtyber.Get_Position(), underworld_player)
 	cin_tyber.Suspend_Locomotor(true)
 	cin_tyber.Prevent_All_Fire(true)
 	cin_tyber.Face_Immediate(introguard)
@@ -900,7 +900,7 @@ function CINE_Start_Mission()
 	cin_guard.Prevent_All_Fire(true)
 	cin_guard.Face_Immediate(introtyber)
 
-	cin_btyber = Create_Generic_Object("TYBER_ZANN", balconytyber.Get_Position(), neutral_player)
+	cin_btyber = Create_Generic_Object("TYBER_ZANN_CAMPAIGN", balconytyber.Get_Position(), neutral_player)
 	cin_btyber.Teleport_And_Face(balconytyber)
 	cin_bsilri = Create_Generic_Object("SILRI", balconysilri.Get_Position(), neutral_player)
 	cin_bsilri.Teleport_And_Face(balconysilri)
@@ -945,10 +945,10 @@ function CINE_Start_Mission()
 	Set_Cinematic_Camera_Key(cin_btyber, 40, 45, 45, 1, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_burai, 0, 0, 5, 0, 0, 0, 0)
 	--Transition_Cinematic_Camera_Key(cambalcurai, 3, 0, 0, 37, 0, 0, 0, 0)
-    cin_btyber.Play_Animation("idle", true, 0)
+	cin_btyber.Play_Animation("idle", true, 0)
 	cin_burai.Play_Animation("cinematic", true, 0)
 	cin_bsilri.Play_Animation("idle", true, 0)
-    Story_Event("CHATTER_43")
+	Story_Event("CHATTER_43")
 	while not State_Mission_43_Done	do Sleep(.5) end
 
 	-- camera focus tyber
@@ -1076,7 +1076,7 @@ function Intro_Cine_Cleanup()
 	tyber_zann.Prevent_All_Fire(false)
 	tyber_zann.Hide(false)
 
-    ext_sky.Hide(true)
+	ext_sky.Hide(true)
 	int_sky.Hide(false)
 	endcinebox.Hide(false)
 	endcinebox1.Hide(false)
@@ -1424,7 +1424,7 @@ function CINE_Adept_One()
 	tyber_zann.Prevent_All_Fire(true)
 	tyber_zann.Hide(true)
 
-	cin_tyber2 = Create_Generic_Object("TYBER_ZANN", cineadeptonetyber.Get_Position(), neutral_player)
+	cin_tyber2 = Create_Generic_Object("TYBER_ZANN_CAMPAIGN", cineadeptonetyber.Get_Position(), neutral_player)
 	cin_tyber2.Face_Immediate(adeptonespawnb)
 
 	adeptonedoor.Play_Animation("Cinematic", false, 2)
@@ -2571,7 +2571,7 @@ function CINE_Grouped_Up()
 	end
 
 	cin_urai = Create_Generic_Object("URAI_FEN", cineddduraispawn.Get_Position(), neutral_player)
-	cin_tyber = Create_Generic_Object("TYBER_ZANN", cinedddtyberspawn.Get_Position(), neutral_player)
+	cin_tyber = Create_Generic_Object("TYBER_ZANN_CAMPAIGN", cinedddtyberspawn.Get_Position(), neutral_player)
 	cin_urai.Face_Immediate(silridddspawn)
 	cin_tyber.Face_Immediate(silridddspawn)
 
@@ -2996,7 +2996,7 @@ function CINE_Outside_Vault_Setup()
 						if TestValid(unit) then
 							unit.Despawn()
 						end
-					    newunit=Create_Generic_Object("UNDERWORLD_MOBILE_DEFENSE_UNIT",partfivemdus.Get_Position(),underworld_player)
+						newunit=Create_Generic_Object("UNDERWORLD_MOBILE_DEFENSE_UNIT",partfivemdus.Get_Position(),underworld_player)
 						newunit.Move_To(fivemdusrunto)
 					end
 				end
@@ -3315,7 +3315,7 @@ function CINE_Final_Adept()
 	Start_Cinematic_Camera()
 
 	cin_tele = Create_Generic_Object("UM05_ADEPTFOURCINE", lastadeptspawn.Get_Position(), neutral_player)
-	cin_tyber = Create_Generic_Object("TYBER_ZANN", lasttyberspawn.Get_Position(), neutral_player)
+	cin_tyber = Create_Generic_Object("TYBER_ZANN_CAMPAIGN", lasttyberspawn.Get_Position(), neutral_player)
 	cin_silri = Create_Generic_Object("SILRI", lastsilrispawn.Get_Position(), neutral_player)
 	cin_urai = Create_Generic_Object("URAI_FEN", lasturaispawn.Get_Position(), neutral_player)
 	cin_cuddles = Create_Generic_Object("UM05_CUDDLES_THE_RANCOR", lastcuddlesspawn.Get_Position(), neutral_player)
@@ -3707,7 +3707,7 @@ end
 
 -- delay a short time and then show game has been won VICTORY
 function EndMissionVictory()
-    Cancel_Fast_Forward()
+	Cancel_Fast_Forward()
 
 
 	units = Find_All_Objects_Of_Type(underworld_player)
@@ -3734,7 +3734,7 @@ function EndMissionVictory()
 		endcinejugger.Override_Max_Speed(1.5)
 		endcinejugger.Move_To(endcinejuggergoto)
 	else
-		endcintyber=Create_Generic_Object("TYBER_ZANN", Find_Hint("STORY_TRIGGER_ZONE","endcinetyber").Get_Position(), underworld_player);
+		endcintyber=Create_Generic_Object("TYBER_ZANN_CAMPAIGN", Find_Hint("STORY_TRIGGER_ZONE","endcinetyber").Get_Position(), underworld_player);
 		endcinurai=Create_Generic_Object("URAI_FEN", Find_Hint("STORY_TRIGGER_ZONE","endcineurai").Get_Position(), underworld_player);
 		endcinsilri=Create_Generic_Object("SILRI", Find_Hint("STORY_TRIGGER_ZONE","endcinesilri").Get_Position(), underworld_player);
 		endcincuddles=Create_Generic_Object("UM05_CUDDLES_THE_RANCOR", Find_Hint("STORY_TRIGGER_ZONE","endcinecuddles").Get_Position(), underworld_player);
