@@ -75,7 +75,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -185,7 +185,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -295,7 +295,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -405,7 +405,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -518,7 +518,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -632,7 +632,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -745,7 +745,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -860,7 +860,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -972,7 +972,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -1084,7 +1084,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 
 		<Damage>30</Damage>
@@ -1197,7 +1197,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -1307,7 +1307,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>1300</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -1353,7 +1353,7 @@
 		<LandBehavior>EARTHQUAKE_TARGET</LandBehavior>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		
+
 		<Tactical_Health>100</Tactical_Health>
 
 		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
@@ -1557,7 +1557,7 @@
 		<LandBehavior>EARTHQUAKE_TARGET</LandBehavior>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
-		
+
 		<Tactical_Health>100</Tactical_Health>
 
 		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
@@ -1727,6 +1727,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Sold_Tactical>UHD_Sensor_Node_Sold</SFXEvent_Sold_Tactical>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Behavior>SELECTABLE, TACTICAL_SELL</Behavior>
 		<LandBehavior>IDLE, REVEAL, HIDE_WHEN_FOGGED, LAND_OBSTACLE</LandBehavior>
@@ -1736,6 +1737,7 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Select_Box_Scale>50</Select_Box_Scale>
+
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
@@ -1836,7 +1838,7 @@
 		<Land_Model_Name>UV_MDU_Sensor.alo</Land_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 
-		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Started>UHD_Sensor_Node_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
@@ -1875,6 +1877,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 
 		<Disable_Force_Abilities_Range>250</Disable_Force_Abilities_Range>
+		<SFXEvent_Sold_Tactical>UHD_Cage_Sold</SFXEvent_Sold_Tactical>
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.4</Scale_Factor>
@@ -1914,7 +1917,7 @@
 		<Land_Model_Name>UV_MDU_Cage.alo</Land_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
 
-		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Started>UHD_Cage_Constructing</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
@@ -2011,7 +2014,7 @@
 		<Encyclopedia_Vulnerable_To>Stormtrooper Rebel_Trooper</Encyclopedia_Vulnerable_To>
 
 		<Tactical_Health>250</Tactical_Health>
-		
+
 
 		<Affiliation>Underworld</Affiliation>
 
@@ -2044,6 +2047,7 @@
 		<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>UHD_Turret_Sold</SFXEvent_Sold_Tactical>
 
 		<CategoryMask>Structure | AntiVehicle | AntiAir</CategoryMask>
 
@@ -2301,7 +2305,7 @@
 		<Icon_Name>i_button_ev_mdu_grenade mortar.tga</Icon_Name>
 
 		<Tactical_Health>300</Tactical_Health>
-		
+
 
 		<Affiliation>Empire</Affiliation>
 
@@ -2430,7 +2434,7 @@
 		<Icon_Name>i_button_ev_mdu_grenade mortar.tga</Icon_Name>
 
 		<Tactical_Health>250</Tactical_Health>
-		
+
 
 		<Affiliation>Hutts</Affiliation>
 
@@ -2848,7 +2852,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
@@ -2970,7 +2974,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		
+
 		<Score_Cost_Credits>800</Score_Cost_Credits>
 
 		<Damage>20</Damage>
