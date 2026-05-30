@@ -73,7 +73,7 @@ MISC:
 
 
 Multiplayer:
-• MP Space combat stability should be greatly improved (and marginally, Land combat as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," "death clone" and object should be removed upon death. (BUG #673)
+• MP Space combat stability should be greatly improved (and marginally, Land combat as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
 • Reinforcement Points have received XML AI categories to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
 • As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
 • As a part of BUG #683 (mentioned below), MP Space Kuat now use optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
