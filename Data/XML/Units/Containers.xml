@@ -13,6 +13,7 @@
 			FLEET,
 			FLEET_LOCOMOTOR
 		</Behavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Pre_Lit>Yes</Pre_Lit>
@@ -29,6 +30,7 @@
 		<Name_Adjust>-20, -12, 0.1</Name_Adjust>
 		<Behavior>FLEET</Behavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</Container>
 
 	<Container Name="Team">

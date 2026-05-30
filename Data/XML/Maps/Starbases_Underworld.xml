@@ -128,8 +128,9 @@
 		<Space_Model_Name>UB_01_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
@@ -264,8 +265,9 @@
 		<Space_Model_Name>UB_02_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
@@ -412,8 +414,9 @@
 		<Space_Model_Name>UB_03_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
@@ -574,8 +577,9 @@
 		<Space_Model_Name>UB_04_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
@@ -740,8 +744,9 @@
 		<Space_Model_Name>UB_05_STATION_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask>Capital</CategoryMask>
-		<Death_Persistence_Duration>34</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle>True</Should_Death_Clone_Play_Idle>
 	</StarBase>
 
