@@ -45,10 +45,10 @@ require("PGStateMachine")
 
 --
 -- Definitions -- This function is called once when the script is first created.
--- 
+--
 
 function Definitions()
-	StoryModeEvents = 
+	StoryModeEvents =
 	{
 		Underworld_A02M09_Begin = State_Underworld_A02M09_Begin,
 		Mission_9_Intro_Dialog_00_Speech_Done = State_Mission_9_Intro_Dialog_00_Speech_Done,
@@ -69,17 +69,17 @@ function Definitions()
 		Mission_9_Midtro_Dialog_06_Speech_Done = State_Mission_9_Midtro_Dialog_06_Speech_Done,
 		Mission_9_Midtro_Dialog_07_Speech_Done = State_Mission_9_Midtro_Dialog_07_Speech_Done
 	}
-	
+
 	interceptor_frigate =
 	{
 		"INTERCEPTOR4_FRIGATE"
 	}
-	
-	bossk_list = 
+
+	bossk_list =
 	{
 		"HOUNDSTOOTH"
 	}
-	
+
 	mission_begin = false
 end
 
@@ -90,11 +90,11 @@ function State_Underworld_A02M09_Begin (message)
 		Initialize_Cinematic_Variables()
 
 		current_cine_id = Create_Thread("Intro_Cinematic")
-		
+
 		mission_begin = true
 	end
 end
-	
+
 function Story_Mode_Service()
 	if mission_begin then
 		if not mission_defeat_tyber then
@@ -122,7 +122,7 @@ function Initialize_Mission_Variables()
 
 	tyber_target = {}
 	tyber_target[1] = nil
-	
+
 	mission_victory = false
 	mission_defeat_tyber = false
 	bossk_defected = false
@@ -138,7 +138,7 @@ function Initialize_Mission_Variables()
 	bossk = Find_First_Object("HOUNDSTOOTH")
 	if TestValid(bossk) then
 		bossk.Despawn()
-		
+
 		--Need to despawn Bossk himself also to eliminate hero icon.
 		bossk_land_version = Find_First_Object("BOSSK")
 		if TestValid(bossk_land_version) then
@@ -152,7 +152,7 @@ function Initialize_Mission_Variables()
 	tyber[1].Teleport_And_Face(tyber_pos)
 	tyber[1].Stop()
 	tyber[1].Hide(true)
-	
+
 -- THRAWN
 	thrawn = Find_First_Object("Admonitor_Star_Destroyer_No_Engine_Hardpoint")
 	thrawn.Set_Cannot_Be_Killed(true)
@@ -169,7 +169,7 @@ function Initialize_Mission_Variables()
 		unit.Stop()
 	end
 
--- FOUND CRUSADERS ON FIELD	
+-- FOUND CRUSADERS ON FIELD
 	underworld_crusader_list = Find_All_Objects_Of_Type("CRUSADER_GUNSHIP")
 	for i, unit in pairs (underworld_crusader_list) do
 		unit.Hide(true)
@@ -177,14 +177,14 @@ function Initialize_Mission_Variables()
 		unit.Stop()
 	end
 
--- FOUND VENGEANCE ON FIELD	
+-- FOUND VENGEANCE ON FIELD
 	underworld_vengeance_list = Find_All_Objects_Of_Type("VENGEANCE_FRIGATE")
 	for i, unit in pairs (underworld_vengeance_list) do
 		unit.Hide(true)
 		unit.Prevent_Opportunity_Fire(true)
 		unit.Stop()
 	end
-	
+
 -- HYPERVELOCITY TARGET
 	target_vessel_pos = Find_Hint("STORY_TRIGGER_ZONE", "targetpos")
 	target_vessel = Spawn_Unit(Find_Object_Type("INTERCEPTOR4_FRIGATE"), target_vessel_pos, underworld_player)
@@ -201,7 +201,7 @@ function Initialize_Mission_Variables()
 -- HYPERVELOCITY CANNON
 	hypervelocity = Spawn_Special_Weapon("Ground_Empire_Hypervelocity_Gun", empire_player)
 	hypervelocity.Prevent_AI_Usage(true)
-	
+
 end
 
 function Initialize_Cinematic_Variables()
@@ -215,15 +215,15 @@ function Initialize_Cinematic_Variables()
 	tyber_target_pos = Find_Hint("STORY_TRIGGER_ZONE", "tybertarget")
 
 	mid1cam1 = Find_Hint("STORY_TRIGGER_ZONE", "mid1cam1")
-	
+
 	thrawnmid = Find_Hint("STORY_TRIGGER_ZONE", "thrawnmid")
 	bosskmid = Find_Hint("STORY_TRIGGER_ZONE", "bosskmid")
-	
+
 	phantom_01 = Find_Hint("STORY_TRIGGER_ZONE", "phantom1")
 	phantom_02 = Find_Hint("STORY_TRIGGER_ZONE", "phantom2")
 	phantom_03 = Find_Hint("STORY_TRIGGER_ZONE", "phantom3")
 	phantom_04 = Find_Hint("STORY_TRIGGER_ZONE", "phantom4")
-	
+
 	hyper1 = Find_Hint("STORY_TRIGGER_ZONE", "hyper1")
 	hyper2 = Find_Hint("STORY_TRIGGER_ZONE", "hyper2")
 	hyper3 = Find_Hint("STORY_TRIGGER_ZONE", "hyper3")
@@ -239,7 +239,7 @@ function Timer_Fire_Hypervelocity()
 		if TestValid(vengeance_target) then
 			hypervelocity.Fire_Special_Weapon(vengeance_target, empire_player)
 		end
-		Register_Timer(Timer_Fire_Hypervelocity_Again,120)	
+		Register_Timer(Timer_Fire_Hypervelocity_Again,120)
 	end
 end
 
@@ -256,7 +256,7 @@ end
 -- VICTORY AND DEFEAT FUNCTIONS
 
 function Mission_Defeat()
-	Cancel_Fast_Forward() 
+	Cancel_Fast_Forward()
 	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)
 	Story_Event("M09_DEFEAT_TYBER")
 end
@@ -265,7 +265,7 @@ end
 -- CINEMATIC FUNCTIONS
 
 function Story_Handle_Esc()
-	if CINE_Intro_Active then 
+	if CINE_Intro_Active then
 		CINE_Intro_Active = false
 		Thread.Kill(current_cine_id)
 		Create_Thread("IntroCineCleanup")
@@ -273,7 +273,7 @@ function Story_Handle_Esc()
 end
 
 function IntroCineCleanup()
-	current_cine_id = nil	
+	current_cine_id = nil
 	Story_Event("DISABLE_INTRO_BRANCH")
 	Stop_All_Music()
 	Stop_All_Speech()
@@ -281,7 +281,7 @@ function IntroCineCleanup()
 	Allow_Localized_SFX(true)
 	Transition_To_Tactical_Camera(2)
 	Letter_Box_Out(1)
-	Sleep(2)	
+	Sleep(2)
 	End_Cinematic_Camera()
 	Lock_Controls(0)
 	Suspend_AI(0)
@@ -296,7 +296,7 @@ function IntroCineCleanup()
 	--It's important to do this after releasing the Empire units (since that will include the HV gun)
 	hypervelocity.Prevent_AI_Usage(true)
 	Register_Timer(Timer_Fire_Hypervelocity,120)
-	
+
 	if TestValid(tyber_target[1]) then
 		tyber_target[1].Take_Damage(10000)
 	end
@@ -305,11 +305,11 @@ function IntroCineCleanup()
 	for i, unit in pairs (underworld_interceptor_list) do
 		unit.Hide(false)
 	end
-	
+
 	for i, unit in pairs (underworld_crusader_list) do
 		unit.Hide(false)
 	end
-	
+
 	for i, unit in pairs (underworld_vengeance_list) do
 		unit.Hide(false)
 	end
@@ -321,43 +321,43 @@ function IntroCineCleanup()
 	end
 
 	tyber[1].Hide(false)
-	
+
 	if TestValid(target_vessel[1]) then
 		target_vessel[1].Take_Damage(10000)
 	end
-	
+
 	if TestValid(tyber_target[1]) then
 		tyber_target[1].Take_Damage(10000)
 	end
-	
+
 -- ADDITIONAL SPAWNED UNITS FROM INTRO CINEMATIC
-		
+
 	if not intro_cinematic_units_spawned then
 		local hyperspace_interceptor_01_list = SpawnList(interceptor_frigate, hyper1.Get_Position(), underworld_player, false, false)
 		local hyperspace_interceptor_02_list = SpawnList(interceptor_frigate, hyper2.Get_Position(), underworld_player, false, false)
 		local hyperspace_interceptor_03_list = SpawnList(interceptor_frigate, hyper3.Get_Position(), underworld_player, false, false)
 		local hyperspace_interceptor_04_list = SpawnList(interceptor_frigate, hyper4.Get_Position(), underworld_player, false, false)
 	end
-	
+
 	CINE_Intro_Active = false
-	
+
 	tyber[1].Prevent_Opportunity_Fire(true)
-	
-	-- Thrawn: 	This is actually proving interesting.  Why don’t we begin?
+
+	-- Thrawn: 	This is actually proving interesting.  Why donï¿½t we begin?
 	Story_Event("INTRO_DIALOG_06")
 end
 
 function State_Mission_9_Intro_Dialog_06_Speech_Done(message)
-	if message == OnEnter then	
+	if message == OnEnter then
 		-- Tyber: Agreed.
 		Story_Event("INTRO_DIALOG_07")
-	end		
+	end
 end
 
 function Intro_Cinematic()
 
 	CINE_Intro_Active = true
-	
+
 	Cancel_Fast_Forward()
 	Sleep(1)
 	Suspend_AI(1)
@@ -365,7 +365,7 @@ function Intro_Cinematic()
 	Start_Cinematic_Camera()
 	Letter_Box_In(0)
 	Fade_Screen_In(1)
-	
+
 	Set_Cinematic_Camera_Key(camera1.Get_Position(), 0, 0, 0, -400, camera1, 0, 0)
 	Set_Cinematic_Target_Key(thrawn.Get_Position(), 0, 0, 0, 0, thrawn, 0, 0)
 	Transition_Cinematic_Camera_Key(camera1.Get_Position(), 10, 0, 0, 90, 0, camera1, 0, 0)
@@ -384,7 +384,7 @@ function State_Mission_9_Intro_Dialog_00_Speech_Done(message)
 end
 
 function State_Mission_9_Intro_Dialog_01_Speech_Done(message)
-	if message == OnEnter then	
+	if message == OnEnter then
 		Set_Cinematic_Camera_Key(thrawn, 600, 20, 0, 1, 0, 0, 0)
 		Set_Cinematic_Target_Key(thrawn.Get_Position(), 0, 0, 0, 0, thrawn, 0, 0)
 		Transition_Cinematic_Camera_Key(thrawn, 13, 700, 30, 45, 1, 0, 0, 0)
@@ -399,23 +399,23 @@ function State_Mission_9_Intro_Dialog_02_Speech_Done(message)
 		Set_Cinematic_Target_Key(hypercamera.Get_Position(), 0, 0, 0, 0, hypercamera, 0, 0)
 		-- Tyber: Really.  You didn't think I came unprepared, did you?
 		Story_Event("INTRO_DIALOG_03")
-	
+
 		-- Bring in Tyber's remaining initial fleet here.
 		for i, unit in pairs (underworld_interceptor_list) do
 			unit.Hide(false)
 			unit.Cinematic_Hyperspace_In(1)
 		end
-		
+
 		for i, unit in pairs (underworld_crusader_list) do
 			unit.Hide(false)
 			unit.Cinematic_Hyperspace_In(1)
 		end
-		
+
 		for i, unit in pairs (underworld_vengeance_list) do
 			unit.Hide(false)
 			unit.Cinematic_Hyperspace_In(1)
 		end
-		
+
 		local hyperspace_interceptor_01_list = SpawnList(interceptor_frigate, hyper1.Get_Position(), underworld_player, false, false)
 		hyper_interceptor_01 = hyperspace_interceptor_01_list[1]
 		local hyperspace_interceptor_02_list = SpawnList(interceptor_frigate, hyper2.Get_Position(), underworld_player, false, false)
@@ -429,44 +429,44 @@ function State_Mission_9_Intro_Dialog_02_Speech_Done(message)
 		hyper_interceptor_03.Cinematic_Hyperspace_In(1)
 		hyper_interceptor_04.Cinematic_Hyperspace_In(1)
 		intro_cinematic_units_spawned = true
-		
+
 		Transition_Cinematic_Camera_Key(camera3.Get_Position(), 3, 0, -400, -100, 0, camera3, 0, 0)
 	end
 end
 
 function State_Mission_9_Intro_Dialog_03_Speech_Done(message)
-	if message == OnEnter then	
+	if message == OnEnter then
 		planet = Find_First_Object("FOREST_BACKDROP_LARGE")
 		Set_Cinematic_Camera_Key(target_vessel[1].Get_Position(), 600, 20, -20, 1, 0, 0, 0)
-		Set_Cinematic_Target_Key(planet, 0, 0, 0, 0, 0, 0, 0)	
-		-- Thrawn: Well done.  But then you couldn’t have known about the hypervelocity gun on the surface, could you?
+		Set_Cinematic_Target_Key(planet, 0, 0, 0, 0, 0, 0, 0)
+		-- Thrawn: Well done.  But then you couldnï¿½t have known about the hypervelocity gun on the surface, could you?
 		Story_Event("INTRO_DIALOG_04")
 		Transition_Cinematic_Target_Key(target_vessel[1], 4, 0, 0, 0, 0, 0, 0, 0)
 		hypervelocity.Fire_Special_Weapon(target_vessel[1], empire_player)
 		Sleep(5)
-		
+
 		target_vessel[1].Take_Damage(10000)
 	end
 end
 
 function State_Mission_9_Intro_Dialog_04_Speech_Done(message)
-	if message == OnEnter then	
-		-- Tyber: Unfortunate.  But then you aren’t the only one with toys...
+	if message == OnEnter then
+		-- Tyber: Unfortunate.  But then you arenï¿½t the only one with toys...
 		Story_Event("INTRO_DIALOG_05")
-		
+
 		Sleep(1)
-		
+
 		Set_Cinematic_Camera_Key(tybercam.Get_Position(), 0, 0, 0, 0, tybercam, 0, 0)
 		Set_Cinematic_Target_Key(tyber[1].Get_Position(), 0, 0, 0, 0, tyber[1], 0, 0)
 
 		tyber_target = Spawn_Unit(Find_Object_Type("VICTORY_DESTROYER"), tyber_target_pos, empire_player)
 		tyber_target[1].Teleport_And_Face(tyber_target_pos)
-			
+
 		tyber[1].Hide(false)
 		tyber[1].Cinematic_Hyperspace_In(1)
 		tyber[1].Activate_Ability("BLAST", true)
 		Sleep(2)
-		
+
 		Transition_Cinematic_Camera_Key(tyber_target[1].Get_Position(), 6, 1000, 25, -90, 1, 0, 0, 0)
 		Sleep(4)
 		if TestValid(tyber_target[1]) then
@@ -477,17 +477,17 @@ function State_Mission_9_Intro_Dialog_04_Speech_Done(message)
 			Sleep(4.5)
 			tyber_target[1].Take_Damage(10000)
 		end
-		
+
 	--	Set_Cinematic_Camera_Key(camera1.Get_Position(), 0, 0, 0, 0, camera1, 0, 0)
 	--	Set_Cinematic_Target_Key(thrawn.Get_Position(), 0, 0, 0, 0, thrawn, 0, 0)
-		
+
 	--	Set_Cinematic_Camera_Key(camera2.Get_Position(), 0, 0, 0, 0, camera2, 0, 0)
 	--	Set_Cinematic_Target_Key(tyber[1].Get_Position(), 0, 0, 0, 0, tyber[1], 0, 0)
 	end
 end
 
 function State_Mission_9_Intro_Dialog_05_Speech_Done(message)
-	if message == OnEnter then	
+	if message == OnEnter then
 		Create_Thread("IntroCineCleanup")
 	end
 end
@@ -506,7 +506,7 @@ function Midtro_Cinematic()
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Letter_Box_In(0)
-	
+
 	thrawn.Prevent_AI_Usage(true)
 	thrawn.Prevent_Opportunity_Fire(true)
 	thrawn.Stop()
@@ -521,22 +521,22 @@ function Midtro_Cinematic()
 
 	Set_Cinematic_Camera_Key(bossk, 450, 35, 0, 1, 0, 0, 0)
 	Set_Cinematic_Target_Key(bossk, 0, 0, 0, 0, bossk, 0, 0)
-	
+
 	Fade_Screen_In(2)
 	Sleep(1)
 	Story_Event("BOSSK_MIDTRO")
-	
+
 	Sleep(2)
 	Transition_Cinematic_Camera_Key(thrawn, 15, 900, 50, 0, 1, thrawn, 0, 0)
 	Transition_Cinematic_Target_Key(thrawn, 4, 0, 0, 0, 0, thrawn, 0, 0)
 	Sleep(8)
-		
+
 	Fade_Screen_Out(1)
 	Sleep(1.2)
 	Letter_Box_Out(0)
 
 	bossk.Make_Invulnerable(false)
-	bossk.Set_Cannot_Be_Killed(false)	
+	bossk.Set_Cannot_Be_Killed(false)
 	bossk.Despawn()
 
 	thrawn.Prevent_AI_Usage(false)
@@ -552,7 +552,7 @@ function Midtro_Cinematic()
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Fade_Screen_In(2)
-	
+
 	star_destroyer = Spawn_Unit(Find_Object_Type("Acclamator_Assault_Ship"), camera1.Get_Position(), empire_player)
 	star_destroyer[1].Teleport_And_Face(camera1)
 	star_destroyer[1].Cinematic_Hyperspace_In(3)
@@ -582,13 +582,13 @@ function Midtro_Cinematic_2()
 	phantom_squadron_06 = Spawn_Unit(Find_Object_Type("TIE_PHANTOM_SQUADRON"), phantom_02.Get_Position(), empire_player)
 	phantom_squadron_07 = Spawn_Unit(Find_Object_Type("TIE_PHANTOM_SQUADRON"), phantom_03.Get_Position(), empire_player)
 	phantom_squadron_08 = Spawn_Unit(Find_Object_Type("TIE_PHANTOM_SQUADRON"), phantom_04.Get_Position(), empire_player)
-	
+
 	star_destroyer2 = Spawn_Unit(Find_Object_Type("VICTORY_DESTROYER"), phantom_04.Get_Position(), empire_player)
 	star_destroyer2[1].Teleport_And_Face(phantom_04)
 	star_destroyer2[1].Cinematic_Hyperspace_In(8)
-	
-	Suspend_AI(1)	
-	
+
+	Suspend_AI(1)
+
 	thrawn.Teleport_And_Face(thrawnmid)
 
 	Set_Cinematic_Camera_Key(camera1.Get_Position(), 0, 0, 0, 0, camera1, 0, 0)
@@ -597,7 +597,7 @@ function Midtro_Cinematic_2()
 	Fade_Screen_In(2)
 	Story_Event("THRAWN_ENDTRO")
 	Sleep(2)
-	
+
 	thrawn.Hyperspace_Away(true)
 	Sleep(3)
 
@@ -610,7 +610,7 @@ function Midtro_Cinematic_2()
 	phantom_squadron_07[1].Activate_Ability("STEALTH", true)
 	phantom_squadron_08[1].Activate_Ability("STEALTH", true)
 	Sleep(1)
-	
+
 	if TestValid(thrawn) then
 		thrawn.Make_Invulnerable(false)
 		thrawn.Set_Cannot_Be_Killed(false)

@@ -91,7 +91,7 @@
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Underworld_Campaign_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_Mission_06_Flag_Set">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SET_FLAG</Reward_Type>
@@ -440,7 +440,7 @@
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>OK_To_Begin_Underworld_ActI</Prereq>
 			</Event>
-			
+
 			<Event Name="Lock_Sabotage_Shola">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>RESTRICT_SABOTAGE</Reward_Type>
@@ -475,7 +475,7 @@
 
 
 	<!-- Lock autoresolve for sandbox maps used in missions -->
-	
+
 
 	<Event Name="Lock_Autoresolve_Saleucami">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -502,7 +502,7 @@
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>OK_To_Begin_Underworld_ActI</Prereq>
 	</Event>
-	
+
 	<Event Name="Mission_Lock_Kuat_Invasion">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_INVASION</Reward_Type>
@@ -510,9 +510,9 @@
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>OK_To_Begin_Underworld_ActI</Prereq>
 	</Event>
-	
-	
-	
+
+
+
 
 
 <!-- Lock Mandalore until Piracy Mission -->
@@ -588,7 +588,7 @@
 		<Prereq>Underworld_ActI_M01_Load</Prereq>
         <Branch>BRANCH_UA01M01</Branch>
 	</Event>
-	
+
 	<Event Name="Underworld_Set_Starting_Cash">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>CREDITS</Reward_Type>
@@ -627,9 +627,9 @@
 
 
 	<!-- Corruption Tutorial Dialog -->
-	
+
 	<!--
-		"My stay in prison has not done wonders for the organization. 
+		"My stay in prison has not done wonders for the organization.
 		Jabba will find out about my escape soon enough - what do we have left?"
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_00">
@@ -637,7 +637,7 @@
 		<Event_Param1>3</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_01</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -655,7 +655,7 @@
 		<Event_Param1>UW_ACT01_G01_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_02</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -666,7 +666,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_01</Prereq>
 			</Event>
 
@@ -680,7 +680,7 @@
 		<Event_Param1>UW_ACT01_G01_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -691,7 +691,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_02</Prereq>
 			</Event>
 
@@ -702,7 +702,7 @@
 		<Event_Param1>UW_ACT01_G01_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -713,7 +713,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_03</Prereq>
 			</Event>
 
@@ -722,19 +722,19 @@
 				<Event_Param1>UW_ACT01_G01_04</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_03</Prereq>
 			</Event>
 
 			<Event Name="Corruption_Tutorial_Dialog_04b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Corruption_Tutorial_Dialog_04a</Prereq>
 			</Event>
 
 
 
-	<!-- 
+	<!--
 		TASK: Build a saboteur
 	-->
 	<Event Name="Underworld_Corruption_Tutorial_Task_Text_00">
@@ -812,7 +812,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_06</Reward_Param1>
-		<Reward_Param2>4</Reward_Param2>	
+		<Reward_Param2>4</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_06</Reward_Param8>
 		<Reward_Param9>Saboteur_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -830,7 +830,7 @@
 		<Event_Param1>UW_ACT01_G01_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -841,7 +841,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_06</Prereq>
 			</Event>
 
@@ -850,17 +850,17 @@
 				<Event_Param1>UW_ACT01_G01_07</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_06</Prereq>
 			</Event>
 
 			<Event Name="Corruption_Tutorial_Dialog_06c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Corruption_Tutorial_Dialog_06b</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 	TASK: Drag your new Saboteur unit to Honoghr and drop him in the 'Corrupt Planet'
 	context-sensitive slot.
 	-->
@@ -921,9 +921,9 @@
 				<Reward_Param4>remove</Reward_Param4>
 				<Prereq>Defiler_Opens_Corruption_Window_On_Honoghr</Prereq>
 			</Event>
-			
 
-	<!-- 
+
+	<!--
 		Tyber Zann: I know we could set up a Raketeering organization
 		there, but I believe we'll need to try a little intimidation first.
 	-->
@@ -931,7 +931,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_28</Reward_Param1>
-		<Reward_Param2>6</Reward_Param2>	
+		<Reward_Param2>6</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_28</Reward_Param8>
 		<Prereq>Defiler_Opens_Corruption_Window_On_Honoghr</Prereq>
 	</Event>
@@ -941,12 +941,12 @@
 				<Event_Param1>6</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_28</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Honghr_Dialog_00</Prereq>
 			</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Choose the INTIMIDATION mission from the corruption menu.
 	-->
 	<Event Name="Underworld_Corruption_Tutorial_Task_Text_05">
@@ -969,7 +969,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_G01_29</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corrupt_Honoghr_M01A</Prereq>
 			</Event>
 
@@ -996,16 +996,16 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		"Tyber Zann: Successful on Honoghr, word will spread to other systems
 		that the Zann Consortium is not one a group to ignore.  For example,
-		Shola should now be ripe for a racketeering operation.  See to it. 
+		Shola should now be ripe for a racketeering operation.  See to it.
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_20">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1017,13 +1017,13 @@
 				<Event_Param1>UW_ACT01_G01_09</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_20</Prereq>
 			</Event>
 
 			<Event Name="Corruption_Tutorial_Dialog_20b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Corruption_Tutorial_Dialog_20a</Prereq>
 			</Event>
 
@@ -1042,7 +1042,7 @@
 			</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Use a Defiler to set up a Racketeering operation on Shola.
 	-->
 	<Event Name="Underworld_Corruption_Tutorial_Task_Text_20">
@@ -1138,7 +1138,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		Tyber Zann: Excellent!  I can see the credits start to flow already.
 		It's always comforting to me to know that everyone has their price.
 		Speaking of which, I want you to hire some pirates to raid Mandal
@@ -1148,14 +1148,14 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_16</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Corrupt_Shola_For_Tut</Prereq>
 	</Event>
 
-	<!-- 
+	<!--
 		Urai Fen: Why Mandal Hypernautics?
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_11">
@@ -1163,7 +1163,7 @@
 		<Event_Param1>UW_ACT01_G01_16</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_17</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1174,21 +1174,21 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_16</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_11</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		Tyber Zann: I need that company brutalized and softened up. They're
 		a small part of a much larger effort. You can't make a delicious
-		drogoton without breaking a few latal shells. 
+		drogoton without breaking a few latal shells.
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_12">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>UW_ACT01_G01_17</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_18</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1199,11 +1199,11 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_17</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_12</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		Urai Fen: And how will raiding their supply shipments gain you ships?
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_13">
@@ -1211,7 +1211,7 @@
 		<Event_Param1>UW_ACT01_G01_18</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_19</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1222,22 +1222,22 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_18</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_13</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		Tyber Zann: Urai I'm surprised at you. At my order you've sliced
 		enough sons and daughters and captured enough wives of corporate
 		officers to know that a little softening needs to be done before
-		orders are obeyed. 
+		orders are obeyed.
 	-->
 	<Event Name="Corruption_Tutorial_Dialog_14">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>UW_ACT01_G01_19</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G01_20</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1248,7 +1248,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_19</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_14</Prereq>
 			</Event>
 
@@ -1257,13 +1257,13 @@
 				<Event_Param1>UW_ACT01_G01_20</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G01_20</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Tutorial_Dialog_14</Prereq>
 			</Event>
 
 			<Event Name="Corruption_Tutorial_Dialog_14c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Corruption_Tutorial_Dialog_14b</Prereq>
 			</Event>
 
@@ -1312,7 +1312,7 @@
 
 
 
-	<!-- 
+	<!--
 		TASK: Corrupt Mandalore using PIRACY.
 	-->
 	<Event Name="Underworld_Corruption_Tutorial_Task_Text_50">
@@ -1401,7 +1401,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_MANDALORE_STORY_PIR_VICTORY_COR34_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>MANDALORE_STORY_PIR_VICTORY_COR34_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1413,13 +1413,13 @@
 				<Event_Param1>MANDALORE_STORY_PIR_VICTORY_COR34_06</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_MANDALORE_STORY_PIR_VICTORY_COR34_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Corruption_Mandalore_End_Speech_00</Prereq>
 			</Event>
 
 			<Event Name="Corruption_Mandalore_End_Speech_00b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Corruption_Mandalore_End_Speech_00a</Prereq>
 			</Event>
 
@@ -1442,7 +1442,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1453,7 +1453,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_14</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_01</Prereq>
 			</Event>
 
@@ -1474,7 +1474,7 @@
 		<Event_Param1>UW_ACT01_G02_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1485,20 +1485,20 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_02</Prereq>
 			</Event>
 
 	<!--
 		Urai Fen: Even at twice Jabba's wealth the Empire was paying far
-		too little. 
+		too little.
 	-->
 	<Event Name="Sandbox_Interlude_Dialog_03">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>UW_ACT01_G02_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_03</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1509,7 +1509,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_03</Prereq>
 			</Event>
 
@@ -1521,7 +1521,7 @@
 		<Event_Param1>UW_ACT01_G02_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1532,7 +1532,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_04</Prereq>
 			</Event>
 
@@ -1546,7 +1546,7 @@
 		<Event_Param1>UW_ACT01_G02_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_05</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1557,7 +1557,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_05</Prereq>
 			</Event>
 
@@ -1569,7 +1569,7 @@
 		<Event_Param1>UW_ACT01_G02_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1580,7 +1580,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_06</Prereq>
 			</Event>
 
@@ -1593,7 +1593,7 @@
 		<Event_Param1>UW_ACT01_G02_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_07</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1604,13 +1604,13 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_07</Prereq>
 			</Event>
 
 	<!--
 		Tyber Zann: Hmm…Interesting.  If we could unlock it, we might find something
-		useful.  I want you to keep digging, but don't let it interfere with our rebuilding. 
+		useful.  I want you to keep digging, but don't let it interfere with our rebuilding.
 		I want Jabba and everyone else to know the Consortium is back.
 	-->
 	<Event Name="Sandbox_Interlude_Dialog_08">
@@ -1618,7 +1618,7 @@
 		<Event_Param1>UW_ACT01_G02_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G02_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1629,7 +1629,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_08</Prereq>
 			</Event>
 
@@ -1638,13 +1638,13 @@
 				<Event_Param1>UW_ACT01_G02_08</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G02_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Sandbox_Interlude_Dialog_08</Prereq>
 			</Event>
 
 			<Event Name="Sandbox_Interlude_Dialog_08c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Sandbox_Interlude_Dialog_08b</Prereq>
 			</Event>
 
@@ -1672,7 +1672,7 @@
 		<Event_Param1>5</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_01</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1680,7 +1680,7 @@
 	</Event>
 
 	<!--
-		"And did this cell mate know where these vaults were? 
+		"And did this cell mate know where these vaults were?
 		It sounds like a children's story."
 	-->
 	<Event Name="Underworld_A02M02_Dialog_01">
@@ -1688,7 +1688,7 @@
 		<Event_Param1>UW_ACT01_G03_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_02</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1699,7 +1699,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_01</Prereq>
 			</Event>
 
@@ -1715,7 +1715,7 @@
 		<Event_Param1>UW_ACT01_G03_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1726,7 +1726,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_02</Prereq>
 			</Event>
 
@@ -1738,7 +1738,7 @@
 		<Event_Param1>UW_ACT01_G03_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1749,14 +1749,14 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_03</Prereq>
 			</Event>
 
 	<!--
 		"They destroyed the Emperor's latest toy - the Death Star - over
 		Yavin 4.  Most Imperial battlestations carry data pods that are
-		ejected during emergencies.  Hopefully someone thought to follow 
+		ejected during emergencies.  Hopefully someone thought to follow
 		rotocol before it blew up."
 	-->
 	<Event Name="Underworld_A02M02_Dialog_04">
@@ -1764,7 +1764,7 @@
 		<Event_Param1>UW_ACT01_G03_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1775,7 +1775,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_04</Prereq>
 			</Event>
 
@@ -1787,7 +1787,7 @@
 		<Event_Param1>UW_ACT01_G03_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_06</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1798,7 +1798,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_05</Prereq>
 			</Event>
 
@@ -1813,7 +1813,7 @@
 		<Event_Param1>UW_ACT01_G03_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1824,7 +1824,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_06</Prereq>
 			</Event>
 
@@ -1837,7 +1837,7 @@
 		<Event_Param1>UW_ACT01_G03_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_11</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1848,7 +1848,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_07</Prereq>
 			</Event>
 
@@ -1861,7 +1861,7 @@
 		<Event_Param1>UW_ACT01_G03_11</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G03_12</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1872,7 +1872,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_08</Prereq>
 			</Event>
 
@@ -1881,13 +1881,13 @@
 				<Event_Param1>UW_ACT01_G03_12</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G03_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M02_Dialog_08</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A02M02_Dialog_08c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A02M02_Dialog_08b</Prereq>
 			</Event>
 
@@ -1964,7 +1964,7 @@
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-			
+
 			<Event Name="Fleet_to_Yavin_Bounced_Without_Tyber_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT01_M02_BOUNCE</Event_Param1>
@@ -2013,12 +2013,12 @@
 				<Prereq>Underworld_ActI_M02_Start</Prereq>
 				<Branch>A01_Mission_02</Branch>
 			</Event>
-			
+
 
 
 
 	<!-- MISSION TWO FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 2 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_ActI_Mission_Two_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -2059,7 +2059,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -2141,7 +2141,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_01</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2157,7 +2157,7 @@
 		<Event_Param1>UW_ACT01_G04_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_02</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2168,7 +2168,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_01</Prereq>
 			</Event>
 
@@ -2185,7 +2185,7 @@
 		<Event_Param1>UW_ACT01_G04_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2196,7 +2196,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_02</Prereq>
 			</Event>
 
@@ -2208,7 +2208,7 @@
 		<Event_Param1>UW_ACT01_G04_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2219,7 +2219,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_03</Prereq>
 			</Event>
 
@@ -2233,7 +2233,7 @@
 		<Event_Param1>UW_ACT01_G04_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2244,7 +2244,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_04</Prereq>
 			</Event>
 
@@ -2256,7 +2256,7 @@
 		<Event_Param1>UW_ACT01_G04_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_06</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2267,7 +2267,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_05</Prereq>
 			</Event>
 
@@ -2281,7 +2281,7 @@
 		<Event_Param1>UW_ACT01_G04_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2292,7 +2292,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_06</Prereq>
 			</Event>
 
@@ -2305,7 +2305,7 @@
 		<Event_Param1>UW_ACT01_G04_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_08</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2316,7 +2316,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_07</Prereq>
 			</Event>
 
@@ -2329,7 +2329,7 @@
 		<Event_Param1>UW_ACT01_G04_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2340,7 +2340,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_08</Prereq>
 			</Event>
 
@@ -2352,7 +2352,7 @@
 		<Event_Param1>UW_ACT01_G04_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_10</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2363,7 +2363,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_09</Prereq>
 			</Event>
 
@@ -2376,7 +2376,7 @@
 		<Event_Param1>UW_ACT01_G04_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G04_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2387,7 +2387,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_10</Prereq>
 			</Event>
 
@@ -2396,13 +2396,13 @@
 				<Event_Param1>UW_ACT01_G04_11</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G04_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_M02_Dialog_10</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Post_M02_Dialog_11b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Post_M02_Dialog_11a</Prereq>
 			</Event>
 
@@ -2450,7 +2450,7 @@
 
 
 
-	<!-- 
+	<!--
 		TASK: Use a Defiler to establish a Black Market on Kuat
 	-->
 	<Event Name="Underworld_Black_Market_Tutorial_Task_Text_00">
@@ -2515,7 +2515,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G05_14</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2527,20 +2527,20 @@
 				<Event_Param1>UW_ACT01_G05_14</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_14</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_BM_Kuat_00</Prereq>
 			</Event>
 
 			<Event Name="Underworld_BM_Kuat_00b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_BM_Kuat_00a</Prereq>
 			</Event>
 
 
 
 
-	<!-- 
+	<!--
 		TASK: Drag Tyber Zann to the BUY slot on Kuat
 	-->
 	<Event Name="Underworld_Black_Market_Tutorial_Task_Text_01">
@@ -2618,7 +2618,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G05_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2630,17 +2630,17 @@
 				<Event_Param1>UW_ACT01_G05_03</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Black_Market_Tutorial_Dialog_00</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Black_Market_Tutorial_Dialog_00b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Black_Market_Tutorial_Dialog_00a</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		TASK: Purchase Disruptor Technology
 	-->
 	<Event Name="Underworld_Black_Market_Tutorial_Task_Text_02">
@@ -2686,7 +2686,7 @@
 		<Event_Param1>3</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G05_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2702,7 +2702,7 @@
 		<Event_Param1>UW_ACT01_G05_11</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G05_12</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2713,7 +2713,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_BMT_Dialog_01</Prereq>
 			</Event>
 
@@ -2727,7 +2727,7 @@
 		<Event_Param1>UW_ACT01_G05_12</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G05_13</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2738,7 +2738,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_BMT_Dialog_02</Prereq>
 			</Event>
 
@@ -2747,13 +2747,13 @@
 				<Event_Param1>UW_ACT01_G05_13</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G05_13</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Post_BMT_Dialog_02</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Post_BMT_Dialog_03b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Post_BMT_Dialog_03a</Prereq>
 			</Event>
 
@@ -2761,7 +2761,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>Fleet_to_Kuat_Bounced_M12</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_Post_BMT_Dialog_00</Prereq>
 	</Event>
 
@@ -2776,7 +2776,7 @@
 				<Reward_Param10>1</Reward_Param10>
 				<Perpetual>True</Perpetual>
 			</Event>
-					
+
 					<Event Name="General_Kuat_Fleet_Bounce_Speech_Done">
 						<Event_Type>STORY_SPEECH_DONE</Event_Type>
 						<Event_Param1>UW_ACT03_G21_07</Event_Param1>
@@ -2843,7 +2843,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SABOTAGE_STRUCTURE</Reward_Type>
 		<Reward_Param1>Ryloth</Reward_Param1>
-		<Reward_Param2>U_Ground_Barracks</Reward_Param2>	
+		<Reward_Param2>U_Ground_Barracks</Reward_Param2>
 		<Prereq>Jump_Camera_to_Ryloth_For_Event</Prereq>
 	</Event>
 
@@ -2856,7 +2856,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_01</Reward_Param8>
 		<Reward_Param9>Underworld_soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2873,7 +2873,7 @@
 		<Event_Param1>UW_ACT01_G06_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2884,7 +2884,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_01</Prereq>
 			</Event>
 
@@ -2910,7 +2910,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_02</Prereq>
 			</Event>
 
@@ -2924,7 +2924,7 @@
 		<Event_Param1>UW_ACT01_G06_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2935,7 +2935,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_03</Prereq>
 			</Event>
 
@@ -2948,7 +2948,7 @@
 		<Event_Param1>UW_ACT01_G06_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_05</Reward_Param8>
 		<Reward_Param9>Underworld_soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2959,7 +2959,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_04</Prereq>
 			</Event>
 
@@ -2974,7 +2974,7 @@
 		<Event_Param1>UW_ACT01_G06_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2985,7 +2985,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_05</Prereq>
 			</Event>
 
@@ -2994,13 +2994,13 @@
 				<Event_Param1>UW_ACT01_G06_06</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M03_Dialog_05</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A01M03_Dialog_05c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A01M03_Dialog_05b</Prereq>
 			</Event>
 
@@ -3023,7 +3023,7 @@
 
 
 
-	<!-- 
+	<!--
 		TASK: In order to perform sabotage, you must first corrupt the planet.
 		Corrupt Saleucami however you wish.
 	-->
@@ -3107,7 +3107,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_10</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3120,18 +3120,18 @@
 				<Event_Param1>UW_ACT01_G06_10</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Response_00</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Sabotage_Response_00c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Sabotage_Response_00b</Prereq>
 			</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Build a Saboteur and drag it to the SABOTAGE context-sensitive slot
 		on Saleucami.
 	-->
@@ -3182,7 +3182,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_G06_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Saboteur_Opens_Sabotage_Menu_ActI</Prereq>
 			</Event>
 
@@ -3208,7 +3208,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3220,17 +3220,17 @@
 				<Event_Param1>UW_ACT01_G06_08</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabo_Tut_ActI_Dialog_00</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Sabo_Tut_ActI_Dialog_00b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Sabo_Tut_ActI_Dialog_00a</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		TASK: Destroy the shield generator on Saleucami
 	-->
 	<Event Name="Underworld_Sabotage_Tutorial_Task_Text_01">
@@ -3252,7 +3252,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_G06_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_ActI_Task_Completed</Prereq>
 			</Event>
 
@@ -3272,7 +3272,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G06_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3284,13 +3284,13 @@
 				<Event_Param1>UW_ACT01_G06_09</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G06_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabo_Tut_ActI_Dialog_01</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Sabo_Tut_ActI_Dialog_01b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Sabo_Tut_ActI_Dialog_01a</Prereq>
 			</Event>
 
@@ -3306,7 +3306,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 				<Reward_Param1>General_Saleucami_Bounce</Reward_Param1>
-				<Reward_Param2>1</Reward_Param2>	
+				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Underworld_Sabo_Tut_ActI_Dialog_01b</Prereq>
 			</Event>
 
@@ -3362,7 +3362,7 @@
 				<Prereq>JumpA2</Prereq>
 				<Prereq>JumpA3</Prereq>
 			</Event>
-			
+
 			<Event Name="Unlock_Sabotage_Shola">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>RESTRICT_SABOTAGE</Reward_Type>
@@ -3405,7 +3405,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Take control of Saleucami without destroying the
 		Communications Station.  Deploy Urai Fen on Saleucami to
 		begin the mission.
@@ -3461,7 +3461,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_G06_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActI_M03_Start</Prereq>
 			</Event>
 
@@ -3469,7 +3469,7 @@
 
 
 	<!-- MISSION THREE FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 3 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_A01M03_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -3502,7 +3502,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -3526,7 +3526,7 @@
 						<Prereq>Underworld_A01M03_Failed_Remove_Text</Prereq>
 						<Branch>A01_Mission_03</Branch>
 					</Event>
-			
+
 					<!--Force Respawn Urai Fen -->
 					<Event Name="Underworld_A01M03_Failed_Respawn_Urai">
 						<Event_Type>STORY_TRIGGER</Event_Type>
@@ -3535,7 +3535,7 @@
 						<Prereq>Underworld_A01M03_Failed_Stop_Movie</Prereq>
 						<Branch>A01_Mission_03</Branch>
 					</Event>
-					
+
 					<Event Name="A01M03_Failed_Unlock_Player">
 						<Event_Type>STORY_TRIGGER</Event_Type>
 						<Reward_Type>LOCK_CONTROLS</Reward_Type>
@@ -3563,7 +3563,7 @@
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Underworld_A01M03_Story_Dialog_Completed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
@@ -3618,7 +3618,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_01</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3634,7 +3634,7 @@
 		<Event_Param1>UW_ACT01_G07_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_02</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3645,7 +3645,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_01</Prereq>
 			</Event>
 
@@ -3659,7 +3659,7 @@
 		<Event_Param1>UW_ACT01_G07_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3670,7 +3670,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_02</Prereq>
 			</Event>
 
@@ -3682,7 +3682,7 @@
 		<Event_Param1>UW_ACT01_G07_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3693,7 +3693,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_03</Prereq>
 			</Event>
 
@@ -3708,7 +3708,7 @@
 		<Event_Param1>UW_ACT01_G07_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3719,7 +3719,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_04</Prereq>
 			</Event>
 
@@ -3731,7 +3731,7 @@
 		<Event_Param1>UW_ACT01_G07_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_06</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3742,7 +3742,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_05</Prereq>
 			</Event>
 
@@ -3755,7 +3755,7 @@
 		<Event_Param1>UW_ACT01_G07_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_G07_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -3766,7 +3766,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_06</Prereq>
 			</Event>
 
@@ -3775,13 +3775,13 @@
 				<Event_Param1>UW_ACT01_G07_07</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_G07_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A01M04_Dialog_06</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A01M04_Dialog_07b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A01M04_Dialog_07a</Prereq>
 			</Event>
 
@@ -3826,7 +3826,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Put together a ground force along with Tyber Zann and deploy Tyber on Hypori
 	-->
 	<Event Name="Mission_Four_Task_Message_00">
@@ -3872,7 +3872,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_G07_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActI_M04_Start</Prereq>
 				<Branch>A01_Mission_04</Branch>
 			</Event>
@@ -3880,7 +3880,7 @@
 
 
 	<!-- MISSION FOUR FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 4 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_ActI_Mission_Four_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -3921,7 +3921,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -3996,7 +3996,7 @@
 				<Reward_Param2>Hypori</Reward_Param2>
 				<Prereq>Give_Hypori_to_Underworld</Prereq>
 			</Event>
-			
+
 			<Event Name="Give_Player_Free_Droids_00">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -4004,7 +4004,7 @@
 				<Reward_Param2>Hypori</Reward_Param2>
 				<Prereq>Give_Hypori_to_Underworld</Prereq>
 			</Event>
-			
+
 			<Event Name="Give_Player_Free_Droids_01">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -4042,7 +4042,7 @@
 
 
 
-	<!-- 
+	<!--
 		END OF ACT I
 	-->
 	<Event Name="End_Of_ActI_Text_00">
@@ -4211,7 +4211,7 @@
 		<Reward_Param2>2</Reward_Param2>
 		<Prereq>All_ActII_Units_Unlocked</Prereq>
 	</Event>
-	
+
 	<Event Name="Set_Act02_Rebel_Remove_Corruption_AI">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -4219,15 +4219,15 @@
 		<Reward_Param2>AI_Player_UnderworldStoryOpponent</Reward_Param2>
 		<Prereq>All_ActII_Units_Unlocked</Prereq>
 	</Event>
-	
+
 	<Event Name="Set_Act02_Empire_Remove_Corruption_AI">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
 		<Reward_Param1>Empire</Reward_Param1>
 		<Reward_Param2>AI_Player_UnderworldStoryOpponent</Reward_Param2>
 		<Prereq>All_ActII_Units_Unlocked</Prereq>
-	</Event>	
-	
+	</Event>
+
 
 	<Event Name="OK_To_Begin_Underworld_ActII">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -4242,7 +4242,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		HINT: Prices have changed in the black market.  Visit Imperial and
 		Rebel worlds to see what's available
 	-->
@@ -4251,7 +4251,7 @@
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_62</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10></Reward_Param10>
@@ -4263,7 +4263,7 @@
 				<Event_Param1>UW_ACT01_M04_62</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Hint_about_BM_Advancement_ActII</Prereq>
 			</Event>
 
@@ -4285,7 +4285,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4303,7 +4303,7 @@
 		<Event_Param1>UW_ACT02_G08_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4314,7 +4314,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_01</Prereq>
 			</Event>
 
@@ -4330,7 +4330,7 @@
 		<Event_Param1>UW_ACT02_G08_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4341,7 +4341,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_02</Prereq>
 			</Event>
 
@@ -4353,7 +4353,7 @@
 		<Event_Param1>UW_ACT02_G08_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4364,7 +4364,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_03</Prereq>
 			</Event>
 
@@ -4378,7 +4378,7 @@
 		<Event_Param1>UW_ACT02_G08_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4389,7 +4389,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_04</Prereq>
 			</Event>
 
@@ -4401,7 +4401,7 @@
 		<Event_Param1>UW_ACT02_G08_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_06</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4412,7 +4412,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_05</Prereq>
 			</Event>
 
@@ -4424,7 +4424,7 @@
 		<Event_Param1>UW_ACT02_G08_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4435,7 +4435,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_06</Prereq>
 			</Event>
 
@@ -4447,7 +4447,7 @@
 		<Event_Param1>UW_ACT02_G08_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_08</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4458,7 +4458,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_07</Prereq>
 			</Event>
 
@@ -4470,7 +4470,7 @@
 		<Event_Param1>UW_ACT02_G08_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4481,7 +4481,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_08</Prereq>
 			</Event>
 
@@ -4496,7 +4496,7 @@
 		<Event_Param1>UW_ACT02_G08_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_10</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4507,7 +4507,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_09</Prereq>
 			</Event>
 
@@ -4521,7 +4521,7 @@
 		<Event_Param1>UW_ACT02_G08_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G08_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4532,7 +4532,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_10</Prereq>
 			</Event>
 
@@ -4541,13 +4541,13 @@
 				<Event_Param1>UW_ACT02_G08_11</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G08_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act02_Intro_Dialog_10</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Act02_Intro_Dialog_10c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Act02_Intro_Dialog_10b</Prereq>
 			</Event>
 
@@ -4572,7 +4572,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G09_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4588,7 +4588,7 @@
 		<Event_Param1>UW_ACT02_G09_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G09_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4599,7 +4599,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Interlude_Dialog_01</Prereq>
 			</Event>
 
@@ -4612,7 +4612,7 @@
 		<Event_Param1>UW_ACT02_G09_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G09_09</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4623,7 +4623,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Interlude_Dialog_02</Prereq>
 			</Event>
 
@@ -4637,7 +4637,7 @@
 		<Event_Param1>UW_ACT02_G09_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G09_10</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4648,7 +4648,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Interlude_Dialog_03</Prereq>
 			</Event>
 
@@ -4657,18 +4657,18 @@
 				<Event_Param1>UW_ACT02_G09_10</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G09_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Interlude_Dialog_03</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Mandalore_Interlude_Dialog_03c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Mandalore_Interlude_Dialog_03b</Prereq>
 			</Event>
 
 
-	<!-- 
+	<!--
 		BONUS: The Crusader-class Gunship has been unlocked and is available for production.
 	-->
 	<Event Name="Mandalore_Interlude_Crusader_Message">
@@ -4717,7 +4717,7 @@
 		<Event_Param1>5</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4732,7 +4732,7 @@
 		<Event_Param1>UW_ACT02_G10_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4743,7 +4743,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_01</Prereq>
 			</Event>
 
@@ -4757,7 +4757,7 @@
 		<Event_Param1>UW_ACT02_G10_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_03</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4768,7 +4768,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_02</Prereq>
 			</Event>
 
@@ -4781,7 +4781,7 @@
 		<Event_Param1>UW_ACT02_G10_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4792,7 +4792,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_03</Prereq>
 			</Event>
 
@@ -4805,7 +4805,7 @@
 		<Event_Param1>UW_ACT02_G10_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_05</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4816,7 +4816,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_04</Prereq>
 			</Event>
 
@@ -4829,7 +4829,7 @@
 		<Event_Param1>UW_ACT02_G10_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -4840,7 +4840,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_05</Prereq>
 			</Event>
 
@@ -4849,18 +4849,18 @@
 				<Event_Param1>UW_ACT02_G10_06</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_05a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Sabotage_Tutorial_Dialog_06b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_06a</Prereq>
 			</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Sabotage the Orbital Sensor Array on Dathomir
 	-->
 	<Event Name="Underworld_Sabotage_Tutorial_Task_Text_00">
@@ -4904,7 +4904,7 @@
 			<Reward_Type>ENABLE_INVASION</Reward_Type>
 			<Reward_Param1>Dathomir</Reward_Param1>
 			<Reward_Param2>0</Reward_Param2>
-			<Prereq>Reveal_Dathomir_For_Mission</Prereq>			
+			<Prereq>Reveal_Dathomir_For_Mission</Prereq>
 		</Event>
 
 		<Event Name="Flash_Dathomir_Sabo_Tut">
@@ -4930,7 +4930,7 @@
 		<Perpetual>True</Perpetual>
 		<Branch>PRE_MISSION_06_SABO</Branch>
 	</Event>
-			
+
 			<Event Name="M06_Fleet_Bounced_Before_Dathomir_Sabotage_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT02_M06_SAB_BOUNCE</Event_Param1>
@@ -4975,11 +4975,11 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_G10_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Saboteur_Opens_Sabotage_Menu</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		TASK: Destroy the Orbital Sensor Array on Dathomir
 	-->
 	<Event Name="Underworld_Sabotage_Tutorial_A02_Task_Text_01">
@@ -5002,7 +5002,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_G10_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Task_Completed</Prereq>
 			</Event>
 
@@ -5032,7 +5032,7 @@
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G10_12</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5044,13 +5044,13 @@
 				<Event_Param1>UW_ACT02_G10_12</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G10_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_07</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Sabotage_Tutorial_Dialog_08b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Sabotage_Tutorial_Dialog_08a</Prereq>
 			</Event>
 
@@ -5073,7 +5073,7 @@
 		</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Take Tyber Zann and Urai Fen to Dathomir to begin the mission.
 	-->
 	<Event Name="Mission_Six_Task_Message_00">
@@ -5094,13 +5094,13 @@
 		<Prereq>Underworld_Sabotage_Tutorial_Task_Completed</Prereq>
 	</Event>
 
-	<!-- The planet restriction and scripted mission should now be sufficient to prevent us invading --> 
+	<!-- The planet restriction and scripted mission should now be sufficient to prevent us invading -->
 	<Event Name="Mission_Unlock_Dathomir_Invasion">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_INVASION</Reward_Type>
 		<Reward_Param1>Dathomir</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
-		<Prereq>A02M06_Story_Dialog_Begin</Prereq>			
+		<Prereq>A02M06_Story_Dialog_Begin</Prereq>
 	</Event>
 
 	<Event Name="M06_Fleet_Bounced_Without_Tyber">
@@ -5114,7 +5114,7 @@
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-			
+
 			<Event Name="M06_Fleet_Bounced_Without_Tyber_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT02_G10_17</Event_Param1>
@@ -5165,14 +5165,14 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_G10_13</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActII_M06_Start</Prereq>
 			</Event>
 
 
 
 	<!-- MISSION SIX FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 6 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_ActII_Mission_Six_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -5180,7 +5180,7 @@
 		<Prereq>Underworld_ActII_M06_Start</Prereq>
 		<Branch>BRANCH_UA02M06</Branch>
 	</Event>
-	
+
 			<!-- Kill Tyber and Urai to reflect mission failure -->
 			<Event Name="Underworld_ActII_Mission_Six_Failed_Kill_Tyber">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -5188,15 +5188,15 @@
 				<Reward_Param1>Tyber_Zann_Passenger</Reward_Param1>
 				<Prereq>Underworld_ActII_Mission_Six_Failed</Prereq>
 				<Branch>BRANCH_UA02M06</Branch>
-			</Event>	
-			
+			</Event>
+
 			<Event Name="Underworld_ActII_Mission_Six_Failed_Kill_Urai">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DESTROY_OBJECT</Reward_Type>
 				<Reward_Param1>Urai_Fen</Reward_Param1>
 				<Prereq>Underworld_ActII_Mission_Six_Failed</Prereq>
 				<Branch>BRANCH_UA02M06</Branch>
-			</Event>					
+			</Event>
 
 			<!-- Wait until the battle summary dialog is closed -->
 			<Event Name="Underworld_ActII_Mission_Six_Failed_01">
@@ -5223,7 +5223,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -5328,7 +5328,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5343,7 +5343,7 @@
 		<Event_Param1>UW_ACT02_G11_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5354,7 +5354,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_01</Prereq>
 			</Event>
 
@@ -5367,7 +5367,7 @@
 		<Event_Param1>UW_ACT02_G11_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_03</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5378,7 +5378,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_02</Prereq>
 			</Event>
 
@@ -5392,7 +5392,7 @@
 		<Event_Param1>UW_ACT02_G11_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5403,7 +5403,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_03</Prereq>
 			</Event>
 
@@ -5419,7 +5419,7 @@
 		<Event_Param1>UW_ACT02_G11_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_05</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5430,7 +5430,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_04</Prereq>
 			</Event>
 
@@ -5444,7 +5444,7 @@
 		<Event_Param1>UW_ACT02_G11_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5455,7 +5455,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_05</Prereq>
 			</Event>
 
@@ -5471,7 +5471,7 @@
 		<Event_Param1>UW_ACT02_G11_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_07</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5482,7 +5482,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_06</Prereq>
 			</Event>
 
@@ -5494,7 +5494,7 @@
 		<Event_Param1>UW_ACT02_G11_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5505,7 +5505,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_07</Prereq>
 			</Event>
 
@@ -5518,7 +5518,7 @@
 		<Event_Param1>UW_ACT02_G11_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G11_09</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5529,7 +5529,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_08</Prereq>
 			</Event>
 
@@ -5538,13 +5538,13 @@
 				<Event_Param1>UW_ACT02_G11_09</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G11_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_08a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Thrawn_Interlude_Dialog_09b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Thrawn_Interlude_Dialog_09a</Prereq>
 			</Event>
 
@@ -5577,7 +5577,7 @@
 		<Event_Param1>15</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_01</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5592,7 +5592,7 @@
 		<Event_Param1>UW_ACT02_G12_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5603,7 +5603,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_01</Prereq>
 			</Event>
 
@@ -5617,7 +5617,7 @@
 		<Event_Param1>UW_ACT02_G12_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_03</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5628,7 +5628,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_02</Prereq>
 			</Event>
 
@@ -5640,7 +5640,7 @@
 		<Event_Param1>UW_ACT02_G12_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5651,7 +5651,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_03</Prereq>
 			</Event>
 
@@ -5665,7 +5665,7 @@
 		<Event_Param1>UW_ACT02_G12_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_05</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5676,7 +5676,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_04</Prereq>
 			</Event>
 
@@ -5688,7 +5688,7 @@
 		<Event_Param1>UW_ACT02_G12_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5699,7 +5699,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_05</Prereq>
 			</Event>
 
@@ -5711,7 +5711,7 @@
 		<Event_Param1>UW_ACT02_G12_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_07</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5722,7 +5722,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_06</Prereq>
 			</Event>
 
@@ -5735,7 +5735,7 @@
 		<Event_Param1>UW_ACT02_G12_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5746,7 +5746,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_07</Prereq>
 			</Event>
 
@@ -5758,7 +5758,7 @@
 		<Event_Param1>UW_ACT02_G12_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_09</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5769,7 +5769,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_08</Prereq>
 			</Event>
 
@@ -5781,7 +5781,7 @@
 		<Event_Param1>UW_ACT02_G12_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_10</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5792,7 +5792,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_09</Prereq>
 			</Event>
 
@@ -5805,7 +5805,7 @@
 		<Event_Param1>UW_ACT02_G12_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G12_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5816,7 +5816,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_10</Prereq>
 			</Event>
 
@@ -5825,13 +5825,13 @@
 				<Event_Param1>UW_ACT02_G12_11</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G12_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Silri_Interlude_Dialog_10a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Silri_Interlude_Dialog_11b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Silri_Interlude_Dialog_11a</Prereq>
 			</Event>
 
@@ -5858,7 +5858,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5873,7 +5873,7 @@
 		<Event_Param1>UW_ACT02_G13_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5884,7 +5884,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_01</Prereq>
 			</Event>
 
@@ -5899,7 +5899,7 @@
 		<Event_Param1>UW_ACT02_G13_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_03</Reward_Param8>
 		<Reward_Param9>Xizor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5910,7 +5910,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_02</Prereq>
 			</Event>
 
@@ -5924,7 +5924,7 @@
 		<Event_Param1>UW_ACT02_G13_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5935,7 +5935,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_03</Prereq>
 			</Event>
 
@@ -5949,7 +5949,7 @@
 		<Event_Param1>UW_ACT02_G13_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_05</Reward_Param8>
 		<Reward_Param9>Xizor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5960,7 +5960,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_04</Prereq>
 			</Event>
 
@@ -5972,7 +5972,7 @@
 		<Event_Param1>UW_ACT02_G13_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -5983,7 +5983,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_05</Prereq>
 			</Event>
 
@@ -5997,7 +5997,7 @@
 		<Event_Param1>UW_ACT02_G13_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_07</Reward_Param8>
 		<Reward_Param9>Xizor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6008,7 +6008,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_06</Prereq>
 			</Event>
 
@@ -6020,7 +6020,7 @@
 		<Event_Param1>UW_ACT02_G13_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6031,7 +6031,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_07</Prereq>
 			</Event>
 
@@ -6043,7 +6043,7 @@
 		<Event_Param1>UW_ACT02_G13_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_09</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6054,7 +6054,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_08</Prereq>
 			</Event>
 
@@ -6068,7 +6068,7 @@
 		<Event_Param1>UW_ACT02_G13_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_10</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6079,7 +6079,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_09</Prereq>
 			</Event>
 
@@ -6091,7 +6091,7 @@
 		<Event_Param1>UW_ACT02_G13_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_11</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6102,7 +6102,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_10</Prereq>
 			</Event>
 
@@ -6117,7 +6117,7 @@
 		<Event_Param1>UW_ACT02_G13_11</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_12</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6128,7 +6128,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_11</Prereq>
 			</Event>
 
@@ -6140,7 +6140,7 @@
 		<Event_Param1>UW_ACT02_G13_12</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_13</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6151,7 +6151,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_12</Prereq>
 			</Event>
 
@@ -6163,7 +6163,7 @@
 		<Event_Param1>UW_ACT02_G13_13</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_14</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6174,7 +6174,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_13</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_13</Prereq>
 			</Event>
 
@@ -6186,7 +6186,7 @@
 		<Event_Param1>UW_ACT02_G13_14</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_15</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6197,7 +6197,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_14</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_14</Prereq>
 			</Event>
 
@@ -6209,7 +6209,7 @@
 		<Event_Param1>UW_ACT02_G13_15</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_16</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6220,7 +6220,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_15</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_15</Prereq>
 			</Event>
 
@@ -6232,7 +6232,7 @@
 		<Event_Param1>UW_ACT02_G13_16</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G13_17</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6243,7 +6243,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_16</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_16</Prereq>
 			</Event>
 
@@ -6252,13 +6252,13 @@
 				<Event_Param1>UW_ACT02_G13_17</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G13_17</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Intro_Dialog_16</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A02M07_Intro_Dialog_16c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A02M07_Intro_Dialog_16b</Prereq>
 			</Event>
 
@@ -6274,7 +6274,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Form a land force along with Tyber Zann and Urai Fen,
 		and take it to Bespin.  Deploy Tyber on Bespin to begin
 		the mission.
@@ -6325,7 +6325,7 @@
 					<Prereq>Underworld_Mission_07_Reveal_Bespin</Prereq>
 					<Branch>BRANCH_UA02M07</Branch>
 				</Event>
-				
+
 
 	<Event Name="M07_Fleet_Bounced_Without_Tyber">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
@@ -6339,7 +6339,7 @@
 		<Perpetual>True</Perpetual>
 		<Branch>BRANCH_UA02M07</Branch>
 	</Event>
-			
+
 			<Event Name="M07_Fleet_Bounced_Without_Tyber_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT02_G13_20</Event_Param1>
@@ -6358,7 +6358,7 @@
 			</Event>
 
 
-	
+
 	<Event Name="Underworld_ActII_M07_Tyber_And_Urai_At_Bespin">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>START_MISSION_7</Event_Param2>
@@ -6405,7 +6405,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_G13_19</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActII_M07_Start</Prereq>
 			</Event>
 
@@ -6414,7 +6414,7 @@
 
 
 	<!-- MISSION SEVEN FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 7 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_ActII_Mission_07_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -6447,7 +6447,7 @@
 						<Prereq>Underworld_ActII_Mission_07_Failed</Prereq>
 						<Branch>BRANCH_UA02M07</Branch>
 					</Event>
-					
+
 					<!--Force Respawn Urai Fen -->
 					<Event Name="Underworld_A02M07_Failed_Respawn_Urai">
 						<Event_Type>STORY_TRIGGER</Event_Type>
@@ -6465,7 +6465,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -6572,7 +6572,7 @@
 		<Prereq>M07_Player_Closes_Mission_End_Screen</Prereq>
 	</Event>
 
-	<!-- 
+	<!--
 		BONUS: Tyber Zann receives 50,000 credits from selling Tibanna Gas on the black market.
 	-->
 	<Event Name="Underworld_A02M07_Task_Text_01">
@@ -6594,7 +6594,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G14_02</Reward_Param8>
 		<Reward_Param9>Xizor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6609,7 +6609,7 @@
 		<Event_Param1>UW_ACT02_G14_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G14_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6620,7 +6620,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Post_Dialog_01</Prereq>
 			</Event>
 
@@ -6634,7 +6634,7 @@
 		<Event_Param1>UW_ACT02_G14_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G14_04</Reward_Param8>
 		<Reward_Param9>Xizor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6645,7 +6645,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Post_Dialog_02</Prereq>
 			</Event>
 
@@ -6654,13 +6654,13 @@
 				<Event_Param1>UW_ACT02_G14_04</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G14_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M07_Post_Dialog_02a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A02M07_Post_Dialog_03b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A02M07_Post_Dialog_03a</Prereq>
 			</Event>
 
@@ -6683,7 +6683,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G15_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6700,7 +6700,7 @@
 		<Event_Param1>UW_ACT02_G15_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G15_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6711,7 +6711,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02_Ship_Interlude_Dialog_01</Prereq>
 			</Event>
 
@@ -6723,7 +6723,7 @@
 		<Event_Param1>UW_ACT02_G15_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G15_03</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6734,7 +6734,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02_Ship_Interlude_Dialog_02</Prereq>
 			</Event>
 
@@ -6747,7 +6747,7 @@
 		<Event_Param1>UW_ACT02_G15_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G15_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6758,7 +6758,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02_Ship_Interlude_Dialog_03</Prereq>
 			</Event>
 
@@ -6767,19 +6767,19 @@
 				<Event_Param1>UW_ACT02_G15_04</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G15_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02_Ship_Interlude_Dialog_03</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A02_Ship_Interlude_Dialog_03c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A02_Ship_Interlude_Dialog_03b</Prereq>
 			</Event>
 
 
 
-	<!-- 
+	<!--
 		BONUS: A new ship, the Vengeance-class Frigate, has been unlocked and is
 		ready for production.
 	-->
@@ -6838,7 +6838,7 @@
 		<Event_Param1>5</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6854,7 +6854,7 @@
 		<Event_Param1>UW_ACT02_G16_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6865,7 +6865,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_01</Prereq>
 			</Event>
 
@@ -6877,7 +6877,7 @@
 		<Event_Param1>UW_ACT02_G16_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_03</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6888,7 +6888,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_02</Prereq>
 			</Event>
 
@@ -6900,7 +6900,7 @@
 		<Event_Param1>UW_ACT02_G16_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6911,7 +6911,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_03</Prereq>
 			</Event>
 
@@ -6923,7 +6923,7 @@
 		<Event_Param1>UW_ACT02_G16_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_05</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6934,7 +6934,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_04</Prereq>
 			</Event>
 
@@ -6947,7 +6947,7 @@
 		<Event_Param1>UW_ACT02_G16_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6958,7 +6958,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_05</Prereq>
 			</Event>
 
@@ -6971,7 +6971,7 @@
 		<Event_Param1>UW_ACT02_G16_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_07</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -6982,7 +6982,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_06</Prereq>
 			</Event>
 
@@ -6994,7 +6994,7 @@
 		<Event_Param1>UW_ACT02_G16_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_08</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7005,7 +7005,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_07</Prereq>
 			</Event>
 
@@ -7017,7 +7017,7 @@
 		<Event_Param1>UW_ACT02_G16_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_09</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7028,7 +7028,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_08</Prereq>
 			</Event>
 
@@ -7042,7 +7042,7 @@
 		<Event_Param1>UW_ACT02_G16_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_10</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7053,7 +7053,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_09</Prereq>
 			</Event>
 
@@ -7065,7 +7065,7 @@
 		<Event_Param1>UW_ACT02_G16_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_G16_11</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7076,7 +7076,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_10</Prereq>
 			</Event>
 
@@ -7085,13 +7085,13 @@
 				<Event_Param1>UW_ACT02_G16_11</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT02_G16_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A02M09_Intro_Dialog_10a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A02M09_Intro_Dialog_11b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A02M09_Intro_Dialog_11a</Prereq>
 			</Event>
 
@@ -7107,7 +7107,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		Task: Take Tyber along with a space fleet and meet the Imperial contact in orbit over Carida
 	-->
 	<Event Name="Mission_Nine_Task_Message_00">
@@ -7157,7 +7157,7 @@
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-			
+
 			<Event Name="M09_Fleet_Bounced_Without_Tyber_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT01_M02_BOUNCE</Event_Param1>
@@ -7210,10 +7210,10 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_G16_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActII_M09_Start</Prereq>
 			</Event>
-			
+
 			<!-- Don't despawn Bossk here.  It causes great confusion and bugginess in the transition
 			to tactical since he vanishes after being recorded as a participant in the battle -->
 
@@ -7222,7 +7222,7 @@
 
 
 	<!-- MISSION NINE FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 9 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_A02M09_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -7230,11 +7230,11 @@
 		<Prereq>Underworld_ActII_M09_Start</Prereq>
 		<Branch>BRANCH_UA02M09</Branch>
 	</Event>
-	
+
 			<!-- New place to remove Bossk.  He's gone whether you win or lose -->
 			<Event Name="Despawn_Bossk_Due_to_Betrayal_Failure_Version">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>REMOVE_UNIT</Reward_Type> 
+				<Reward_Type>REMOVE_UNIT</Reward_Type>
 				<Reward_Param1>Bossk</Reward_Param1> <!--Despawn the unit, not the team -->
 				<Reward_Param2>1</Reward_Param2> <!-- Remove all instances of this type -->
 				<Prereq>Underworld_A02M09_Failed</Prereq>
@@ -7265,7 +7265,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -7363,7 +7363,7 @@
 		<Prereq>Underworld_Mission_09_Completed</Prereq>
 	</Event>
 
-	<!-- 
+	<!--
 		REWARD: A new ship, the Krayt-class Destroyer, has been unlocked.
 	-->
 	<Event Name="Underworld_A02M09_Reward_Text_01">
@@ -7400,7 +7400,7 @@
 
 
 
-	<!-- 
+	<!--
 		END OF ACT II
 	-->
 	<Event Name="End_Of_ActII_Text_00">
@@ -7515,7 +7515,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>Fleet_to_Coruscant_Bounced_M11</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_ActIII_Reveal_09</Prereq>
 	</Event>
 
@@ -7540,7 +7540,7 @@
 				<Reward_Param10>1</Reward_Param10>
 				<Perpetual>True</Perpetual>
 			</Event>
-					
+
 					<Event Name="General_Coruscant_Bounce_Tyber_Speech_Done">
 						<Event_Type>STORY_SPEECH_DONE</Event_Type>
 						<Event_Param1>UW_ACT03_BOUNCE_CORUSCANT</Event_Param1>
@@ -7576,7 +7576,7 @@
 				<Reward_Param10>1</Reward_Param10>
 				<Perpetual>True</Perpetual>
 			</Event>
-					
+
 					<Event Name="General_Endor_Bounce_Tyber_Speech_Done">
 						<Event_Type>STORY_SPEECH_DONE</Event_Type>
 						<Event_Param1>UW_ACT03_BOUNCE_ENDOR</Event_Param1>
@@ -7611,7 +7611,7 @@
 				<Reward_Param10>1</Reward_Param10>
 				<Perpetual>True</Perpetual>
 			</Event>
-					
+
 					<Event Name="General_Sullust_Bounce_Tyber_Speech_Done">
 						<Event_Type>STORY_SPEECH_DONE</Event_Type>
 						<Event_Param1>UW_ACT03_BOUNCE_SULLUST</Event_Param1>
@@ -7667,7 +7667,7 @@
 	</Event>
 
 
-	<!-- 
+	<!--
 		HINT: Prices have changed in the black market.  Visit Imperial and
 		Rebel worlds to see what's available
 	-->
@@ -7676,7 +7676,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_62</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10></Reward_Param10>
@@ -7688,7 +7688,7 @@
 				<Event_Param1>UW_ACT01_M04_62</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Hint_about_BM_Advancement_ActIII</Prereq>
 			</Event>
 
@@ -7710,7 +7710,7 @@
 		<Event_Param1>5</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_01</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7725,7 +7725,7 @@
 		<Event_Param1>UW_ACT03_G17_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7736,7 +7736,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_01</Prereq>
 			</Event>
 
@@ -7748,7 +7748,7 @@
 		<Event_Param1>UW_ACT03_G17_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_03</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7759,10 +7759,10 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_02</Prereq>
 			</Event>
-			
+
 	<!--
 		"Unless, of course, it was something more than you said?"
 	-->
@@ -7771,7 +7771,7 @@
 		<Event_Param1>UW_ACT03_G17_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_04</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7782,7 +7782,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_03</Prereq>
 			</Event>
 
@@ -7794,7 +7794,7 @@
 		<Event_Param1>UW_ACT03_G17_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_05</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7805,7 +7805,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_04</Prereq>
 			</Event>
 
@@ -7817,7 +7817,7 @@
 		<Event_Param1>UW_ACT03_G17_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_06</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7828,7 +7828,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_05</Prereq>
 			</Event>
 
@@ -7843,7 +7843,7 @@
 		<Event_Param1>UW_ACT03_G17_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_07</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7854,7 +7854,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_06</Prereq>
 			</Event>
 
@@ -7866,7 +7866,7 @@
 		<Event_Param1>UW_ACT03_G17_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7877,7 +7877,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_07</Prereq>
 			</Event>
 
@@ -7889,7 +7889,7 @@
 		<Event_Param1>UW_ACT03_G17_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_09</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7900,7 +7900,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_08</Prereq>
 			</Event>
 
@@ -7914,7 +7914,7 @@
 		<Event_Param1>UW_ACT03_G17_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_10</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7925,7 +7925,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_09</Prereq>
 			</Event>
 
@@ -7937,7 +7937,7 @@
 		<Event_Param1>UW_ACT03_G17_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_11</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7948,7 +7948,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_10</Prereq>
 			</Event>
 
@@ -7962,7 +7962,7 @@
 		<Event_Param1>UW_ACT03_G17_11</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_12</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7973,7 +7973,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_11</Prereq>
 			</Event>
 
@@ -7985,7 +7985,7 @@
 		<Event_Param1>UW_ACT03_G17_12</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_13</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -7996,7 +7996,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_12</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_12</Prereq>
 			</Event>
 
@@ -8009,7 +8009,7 @@
 		<Event_Param1>UW_ACT03_G17_13</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_14</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8020,7 +8020,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_13</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_13</Prereq>
 			</Event>
 
@@ -8032,7 +8032,7 @@
 		<Event_Param1>UW_ACT03_G17_14</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_15</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8043,7 +8043,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_14</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_14</Prereq>
 			</Event>
 
@@ -8051,7 +8051,7 @@
 		"Did you really think I didn't know what would happen?  I let Bossk
 		steal it.  Now we can follow it right to the Emperor's personal vault
 		on Coruscant.  We gain entry with Vader's codes, and hopefully find
-		the Emperor's personal codes inside the vault.  We get those, and we 
+		the Emperor's personal codes inside the vault.  We get those, and we
 		can get into the Eclipse."
 	-->
 	<Event Name="Underworld_Act03_Begin_Dialog_15">
@@ -8059,7 +8059,7 @@
 		<Event_Param1>UW_ACT03_G17_15</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_16</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8070,7 +8070,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_15</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_15</Prereq>
 			</Event>
 
@@ -8082,7 +8082,7 @@
 		<Event_Param1>UW_ACT03_G17_16</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_17</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8093,7 +8093,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_16</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_16</Prereq>
 			</Event>
 
@@ -8108,7 +8108,7 @@
 		<Event_Param1>UW_ACT03_G17_17</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_18</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8119,7 +8119,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_17</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_17</Prereq>
 			</Event>
 
@@ -8131,7 +8131,7 @@
 		<Event_Param1>UW_ACT03_G17_18</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_19</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8142,7 +8142,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_18</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_18</Prereq>
 			</Event>
 
@@ -8154,7 +8154,7 @@
 		<Event_Param1>UW_ACT03_G17_19</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G17_20</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8165,7 +8165,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_19</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_19</Prereq>
 			</Event>
 
@@ -8174,13 +8174,13 @@
 				<Event_Param1>UW_ACT03_G17_20</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G17_20</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Act03_Begin_Dialog_19a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Act03_Begin_Dialog_20b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Act03_Begin_Dialog_20a</Prereq>
 			</Event>
 
@@ -8204,7 +8204,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_01</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8219,7 +8219,7 @@
 		<Event_Param1>UW_ACT03_G18_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8230,7 +8230,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_01</Prereq>
 			</Event>
 
@@ -8242,7 +8242,7 @@
 		<Event_Param1>UW_ACT03_G18_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_03</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8253,7 +8253,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_02</Prereq>
 			</Event>
 
@@ -8265,7 +8265,7 @@
 		<Event_Param1>UW_ACT03_G18_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8276,7 +8276,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_03</Prereq>
 			</Event>
 
@@ -8291,7 +8291,7 @@
 		<Event_Param1>UW_ACT03_G18_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_06</Reward_Param8>
 		<Reward_Param9>Pirate2_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8302,7 +8302,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_04</Prereq>
 			</Event>
 
@@ -8314,7 +8314,7 @@
 		<Event_Param1>UW_ACT03_G18_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8325,7 +8325,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_05</Prereq>
 			</Event>
 
@@ -8337,7 +8337,7 @@
 		<Event_Param1>UW_ACT03_G18_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_08</Reward_Param8>
 		<Reward_Param9>Pirate2_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8348,7 +8348,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_06</Prereq>
 			</Event>
 
@@ -8360,7 +8360,7 @@
 		<Event_Param1>UW_ACT03_G18_08</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8371,7 +8371,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_07</Prereq>
 			</Event>
 
@@ -8383,7 +8383,7 @@
 		<Event_Param1>UW_ACT03_G18_09</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_10</Reward_Param8>
 		<Reward_Param9>Pirate2_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8394,7 +8394,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_08</Prereq>
 			</Event>
 
@@ -8409,7 +8409,7 @@
 		<Event_Param1>UW_ACT03_G18_10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G18_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8420,7 +8420,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_09</Prereq>
 			</Event>
 
@@ -8429,18 +8429,18 @@
 				<Event_Param1>UW_ACT03_G18_11</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G18_11</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_09</Prereq>
 			</Event>
 
 			<Event Name="Underworld_Mandalore_Pirate_Dialog_09c">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_Mandalore_Pirate_Dialog_09b</Prereq>
 			</Event>
 
 
-	<!-- 
+	<!--
 		BONUS: The Kedalbe-class Battleship and the Canderous Assault Tank have been
 		unlocked and are available for production.
 	-->
@@ -8513,7 +8513,7 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_01</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8528,7 +8528,7 @@
 		<Event_Param1>UW_ACT03_G20_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_02</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8539,7 +8539,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_01</Prereq>
 			</Event>
 
@@ -8553,7 +8553,7 @@
 		<Event_Param1>UW_ACT03_G20_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_03</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8564,7 +8564,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_02</Prereq>
 			</Event>
 
@@ -8576,7 +8576,7 @@
 		<Event_Param1>UW_ACT03_G20_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8587,7 +8587,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_03</Prereq>
 			</Event>
 
@@ -8600,7 +8600,7 @@
 		<Event_Param1>UW_ACT03_G20_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8611,7 +8611,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_04</Prereq>
 			</Event>
 
@@ -8623,7 +8623,7 @@
 		<Event_Param1>UW_ACT03_G20_05</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_06</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8634,7 +8634,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_05</Prereq>
 			</Event>
 
@@ -8647,7 +8647,7 @@
 		<Event_Param1>UW_ACT03_G20_06</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8658,7 +8658,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_06</Prereq>
 			</Event>
 
@@ -8670,7 +8670,7 @@
 		<Event_Param1>UW_ACT03_G20_07</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G20_08</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -8681,7 +8681,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_07</Prereq>
 			</Event>
 
@@ -8690,13 +8690,13 @@
 				<Event_Param1>UW_ACT03_G20_08</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G20_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M11_Intro_Dialog_07a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A03M11_Intro_Dialog_08b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A03M11_Intro_Dialog_08a</Prereq>
 			</Event>
 
@@ -8704,7 +8704,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>General_Lock_Coruscant</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_A03M11_Intro_Dialog_08b</Prereq>
 	</Event>
 
@@ -8727,7 +8727,7 @@
 				<Prereq>Story_Dialog_ActIII_Mission_11</Prereq>
 			</Event>
 
-	<!-- 
+	<!--
 		TASK: Take Urai, Tyber and Silri to Coruscant and Deploy
 		Tyber on Coruscant to begin the mission.
 	-->
@@ -8744,7 +8744,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>Fleet_to_Coruscant_Bounced_M11</Reward_Param1>
-		<Reward_Param2>0</Reward_Param2>	
+		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Disable_General_Coruscant_Lockout</Prereq>
 	</Event>
 
@@ -8759,7 +8759,7 @@
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-		
+
 			<Event Name="Fleet_to_Coruscant_Bounced_M11_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT03_M11_BOUNCE</Event_Param1>
@@ -8802,7 +8802,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT03_G20_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActII_M11_Start</Prereq>
 			</Event>
 
@@ -8810,7 +8810,7 @@
 
 
 	<!-- MISSION ELEVEN FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 11 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_A03M11_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -8843,7 +8843,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>
@@ -8943,7 +8943,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>Fleet_to_Coruscant_Bounced_M11</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_Mission_11_Completed</Prereq>
 	</Event>
 
@@ -8951,7 +8951,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>General_Lock_Coruscant</Reward_Param1>
-		<Reward_Param2>0</Reward_Param2>	
+		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Underworld_Mission_11_Completed</Prereq>
 	</Event>
 
@@ -8996,7 +8996,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SABOTAGE_STRUCTURE</Reward_Type>
 		<Reward_Param1>Endor</Reward_Param1>
-		<Reward_Param2>E_Ground_Barracks</Reward_Param2>	
+		<Reward_Param2>E_Ground_Barracks</Reward_Param2>
 		<Prereq>Jump_Camera_to_Endor</Prereq>
 	</Event>
 
@@ -9027,7 +9027,7 @@
 		<Event_Param1>3</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G21_01</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -9042,7 +9042,7 @@
 		<Event_Param1>UW_ACT03_G21_01</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G21_02</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -9053,7 +9053,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_01</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M12_Intro_Dialog_01</Prereq>
 			</Event>
 
@@ -9065,7 +9065,7 @@
 		<Event_Param1>UW_ACT03_G21_02</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G21_03</Reward_Param8>
 		<Reward_Param9>Silri_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -9076,7 +9076,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_02</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M12_Intro_Dialog_02</Prereq>
 			</Event>
 
@@ -9088,7 +9088,7 @@
 		<Event_Param1>UW_ACT03_G21_03</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G21_04</Reward_Param8>
 		<Reward_Param9>Urai_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -9099,7 +9099,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_03</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M12_Intro_Dialog_03</Prereq>
 			</Event>
 
@@ -9114,7 +9114,7 @@
 		<Event_Param1>UW_ACT03_G21_04</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_G21_05</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -9125,7 +9125,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_04</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M12_Intro_Dialog_04</Prereq>
 			</Event>
 
@@ -9134,13 +9134,13 @@
 				<Event_Param1>UW_ACT03_G21_05</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT03_G21_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_A03M12_Intro_Dialog_04a</Prereq>
 			</Event>
 
 			<Event Name="Underworld_A03M12_Intro_Dialog_05b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Underworld_A03M12_Intro_Dialog_05a</Prereq>
 			</Event>
 
@@ -9172,7 +9172,7 @@
 			</Event>
 
 
-	<!-- 
+	<!--
 		TASK: Form a large fleet from your best ships including Tyber Zann, and go to Kuat!
 	-->
 	<Event Name="Mission_Twelve_Task_Message_00">
@@ -9188,7 +9188,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 				<Reward_Param1>Tyber_Enters_Kuat_Space_Tut</Reward_Param1>
-				<Reward_Param2>1</Reward_Param2>	
+				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Mission_Twelve_Task_Message_00</Prereq>
 			</Event>
 
@@ -9196,7 +9196,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 				<Reward_Param1>Urai_Enters_Kuat_Space_BM</Reward_Param1>
-				<Reward_Param2>1</Reward_Param2>	
+				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Mission_Twelve_Task_Message_00</Prereq>
 			</Event>
 
@@ -9204,7 +9204,7 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 				<Reward_Param1>Silri_Enters_Kuat_Space_BM</Reward_Param1>
-				<Reward_Param2>1</Reward_Param2>	
+				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Mission_Twelve_Task_Message_00</Prereq>
 			</Event>
 
@@ -9216,7 +9216,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>General_Kuat_Fleet_Bounce</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Story_Dialog_ActIII_Mission_12</Prereq>
 	</Event>
 
@@ -9224,7 +9224,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
 		<Reward_Param1>Fleet_to_Kuat_Bounced_M12</Reward_Param1>
-		<Reward_Param2>0</Reward_Param2>	
+		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Story_Dialog_ActIII_Mission_12</Prereq>
 	</Event>
 
@@ -9239,7 +9239,7 @@
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-		
+
 			<Event Name="Fleet_to_Kuat_Bounced_M12_Speech_Done">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>UW_ACT03_G21_06</Event_Param1>
@@ -9289,13 +9289,13 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT03_G21_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Underworld_ActII_M12_Start</Prereq>
 			</Event>
 
 
 	<!-- MISSION TWELVE FAILURE EVENTS -->
-	
+
 	<!-- Detect mission 12 being lost.  Display text telling the player to try again -->
 	<Event Name="Underworld_A03M12_Failed">
 		<Event_Type>STORY_MISSION_LOST</Event_Type>
@@ -9328,7 +9328,7 @@
 				<Event_Param1>2</Event_Param1>
 				<Reward_Type>MULTIMEDIA</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_FAIL</Reward_Param1>
-				<Reward_Param2>-1</Reward_Param2>	
+				<Reward_Param2>-1</Reward_Param2>
 				<Reward_Param8>UW_ACT01_M02_FAIL</Reward_Param8>
 				<Reward_Param9>Tyber_Loop</Reward_Param9>
 				<Reward_Param10>1</Reward_Param10>

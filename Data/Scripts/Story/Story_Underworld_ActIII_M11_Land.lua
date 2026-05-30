@@ -45,7 +45,7 @@ require("PGStoryMode")
 
 function Definitions()
 	--MessageBox("Defined")
-	StoryModeEvents = 
+	StoryModeEvents =
 	{
 		Underworld_A03M11_Begin = State_Underworld_A03M11_Begin,
 		Mission_Chatter_00_Done = State_Mission_Chatter_00_Done,
@@ -110,9 +110,9 @@ end
 
 function State_Underworld_A03M11_Begin(message)
 	if message == OnEnter then
-	
+
 		Fade_Screen_Out(0)
-	
+
 		State_Mission_00_Done = false
 		State_Mission_01_Done = false
 		State_Mission_02_Done = false
@@ -169,12 +169,12 @@ function State_Underworld_A03M11_Begin(message)
 		State_Mission_53_Done = false
 		State_Mission_54_Done = false
 		State_Mission_55_Done = false
-	
+
 		neutral_player = Find_Player("Neutral")
 		empire_player = Find_Player("Empire")
 		underworld_player = Find_Player("Underworld")
 		hostile_player = Find_Player("Hostile")
-		
+
 		Setup_Cinematic_Definitions()
 
 		-- name and register prox and death values for operating doors in mission
@@ -183,7 +183,7 @@ function State_Underworld_A03M11_Begin(message)
 		int_sky=Find_First_Object("GIRDER_SKY_INTERIOR")
 		ext_sky=Find_Hint("PROP_CORUSCANT_SKYDOME","extskydome")
 		thesithartifact = Find_First_Object("UM05_CINE_HOLOCRON")
-		
+
 		thebunker = Find_Hint("GARRISON_BUNKER_CAPTURABLE", "bunker") --
 		doora = Find_Hint("UM05_MOVING_DOOR", "doora") --
 		doorbspawn = Find_Hint("STORY_TRIGGER_ZONE", "doorbspawn")
@@ -219,14 +219,14 @@ function State_Underworld_A03M11_Begin(message)
 		Register_Death_Event(consolek, Open_Door_k)
 		Register_Death_Event(consolej, Open_Door_j)
 		Register_Death_Event(consolee, Open_Door_e)
-		
+
 		camstart_one = Find_Hint("STORY_TRIGGER_ZONE", "partone-camerastart")
 		camstart_two = Find_Hint("STORY_TRIGGER_ZONE", "parttwo-camerastart")
 		camstart_three = Find_Hint("STORY_TRIGGER_ZONE", "partthree-camerastart")
 		camstart_four = Find_Hint("STORY_TRIGGER_ZONE", "partfour-camerastart")
 		camstart_five = Find_Hint("STORY_TRIGGER_ZONE", "partfive-camerastart")
 		camstart_six = Find_Hint("STORY_TRIGGER_ZONE", "partsix-camerastart")
-		
+
 		-- name and register death events for required heroes
 		tyber_zann = Find_Nearest(doora,"TYBER_ZANN")
 		Register_Death_Event(tyber_zann, Tyber_Destroyed)
@@ -237,7 +237,7 @@ function State_Underworld_A03M11_Begin(message)
 		silri = Find_Nearest(doora,"SILRI")
 		Register_Death_Event(silri, Silri_Destroyed)
 		silri.Prevent_AI_Usage(true)
-		
+
 		hallguard1 = Find_Hint("IMP_GUARD_TEAM", "hallguard1")
 		hallguard2 = Find_Hint("IMP_GUARD_TEAM", "hallguard2")
 		hallguard3 = Find_Hint("IMP_GUARD_TEAM", "hallguard3")
@@ -254,7 +254,7 @@ function State_Underworld_A03M11_Begin(message)
 		hallguard14 = Find_Hint("IMP_GUARD_TEAM", "hallguard14")
 		hallguard15 = Find_Hint("IMP_GUARD_TEAM", "hallguard15")
 		hallguard16 = Find_Hint("IMP_GUARD_TEAM", "hallguard16")
-		
+
 		range = 200
 		Register_Prox(hallguard3, Prox_HallGuard_3, range, underworld_player)
 		Register_Prox(hallguard4, Prox_HallGuard_4, range, underworld_player)
@@ -270,7 +270,7 @@ function State_Underworld_A03M11_Begin(message)
 		Register_Prox(hallguard14, Prox_HallGuard_14, range, underworld_player)
 		Register_Prox(hallguard15, Prox_HallGuard_15, range, underworld_player)
 		Register_Prox(hallguard16, Prox_HallGuard_16, range, underworld_player)
-		
+
 		-- Register prox events for battle chatter and game events
 		bactatank = Find_Nearest(doork, "EMPIRE_BUILDABLE_BACTA_TANK")
 		Register_Death_Event(bactatank, PartOne_BactaGone)
@@ -284,7 +284,7 @@ function State_Underworld_A03M11_Begin(message)
 		adepttwospawn = Find_Hint("STORY_TRIGGER_ZONE", "adepttwospawn")
 		adeptfourspawn = Find_Hint("STORY_TRIGGER_ZONE", "adeptfourspawn")
 		Register_Prox(adeptonespawna, Prox_IntroAdeptOne, 200, underworld_player)
-			
+
 		extraguys = Find_Hint("STORY_TRIGGER_ZONE", "extraguys")
 		monitorsa = Find_Hint("EXPLODING_CONTAINER", "monitorsa")
 		monitorsb1 = Find_Hint("DROID_INTERFACE_STATION", "monitorsb1")
@@ -299,10 +299,10 @@ function State_Underworld_A03M11_Begin(message)
 
 		highlightsithroom = Find_Hint("STORY_TRIGGER_ZONE", "highlightsithroom")
 		sithwall = Find_Hint("UM05_MOVING_DOOR", "secretsithdoor") --
-			
+
 		holocron = Find_Hint("STORY_TRIGGER_ZONE", "sithholocron") --
 		Register_Prox(holocron, Prox_SithHolocron, 75, underworld_player)
-			
+
 		nodea = Find_Hint("UM05_POWER_NODE", "powernodea")
 		Register_Death_Event(nodea, PartThree_Node_A)
 		nodeb = Find_Hint("UM05_POWER_NODE", "powernodeb")
@@ -324,7 +324,7 @@ function State_Underworld_A03M11_Begin(message)
 
 		cuddlesstartfour = Find_Hint("STORY_TRIGGER_ZONE", "cuddlesstartfour")
 		silristartfour = Find_Hint("STORY_TRIGGER_ZONE", "silristartfour")
-		
+
 		noticetroopers = Find_Hint("STORY_TRIGGER_ZONE", "noticetroopers") --
 		activatetroopers = Find_Hint("STORY_TRIGGER_ZONE", "activatetroopers") --
 		partfivetyber = Find_Hint("STORY_TRIGGER_ZONE", "partfive-tyber") --
@@ -332,7 +332,7 @@ function State_Underworld_A03M11_Begin(message)
 		partfivecuddles = Find_Hint("STORY_TRIGGER_ZONE", "partfive-cuddles") --
 		partfivemdus = Find_Hint("STORY_TRIGGER_ZONE", "partfive-mdus") --
 		partfiveextras = Find_Hint("STORY_TRIGGER_ZONE", "partfive-extras") --
-		
+
 		dt1 = Find_Hint("UM05_PROP_DTP_I", "dt1") --
 		dt2 = Find_Hint("UM05_PROP_DTP_II", "dt2") --
 		dt3 = Find_Hint("UM05_PROP_DTP_III", "dt3") --
@@ -342,7 +342,7 @@ function State_Underworld_A03M11_Begin(message)
 		dt7 = Find_Hint("UM05_PROP_DTP_I", "dt7") --
 		dt8 = Find_Hint("UM05_PROP_DTP_II", "dt8") --
 		dt9 = Find_Hint("UM05_PROP_DTP_III", "dt9") --
-			
+
 		guardspawna = Find_Hint("STORY_TRIGGER_ZONE", "guardsa") --
 		guardspawnb = Find_Hint("STORY_TRIGGER_ZONE", "guardsb") --
 		mduspawn = Find_Hint("STORY_TRIGGER_ZONE", "mduspawn") --
@@ -375,13 +375,13 @@ function State_Underworld_A03M11_Begin(message)
 		landingc = Find_Hint("STORY_TRIGGER_ZONE", "landingc")
 		landingd = Find_Hint("STORY_TRIGGER_ZONE", "landingd")
 		landinge = Find_Hint("STORY_TRIGGER_ZONE", "landinge")
-			
+
 		urai_comp = Find_Hint("STORY_TRIGGER_ZONE", "uraiworkcomputer")
 		invault = Find_Hint("STORY_TRIGGER_ZONE", "insidevault")
 		Register_Prox(invault, Prox_InsideVault, 75, underworld_player)
 		vault = Find_Hint("STORY_TRIGGER_ZONE", "reachedvault")
 		--Register_Prox(vault, Prox_ReachedVault, 20, underworld_player)
-			
+
 		partsix_mdus = Find_Hint("STORY_TRIGGER_ZONE", "partsix-mdus")
 		partsix_tyber = Find_Hint("STORY_TRIGGER_ZONE", "partsix-tyber")
 		partsix_urai = Find_Hint("STORY_TRIGGER_ZONE", "partsix-urai")
@@ -393,10 +393,10 @@ function State_Underworld_A03M11_Begin(message)
 		breakwall = Find_Hint("STORY_TRIGGER_ZONE", "breakwall") --
 		juggernaut = Find_Hint("HAV_JUGGERNAUT", "juggernaut") --
 		juggernaut.Set_Selectable(false)
-		
+
 		stopspawns = Find_Hint("STORY_TRIGGER_ZONE", "partsix-stopspawns")
 		Register_Prox(stopspawns, Prox_StopSpawns, 100, underworld_player)
-		
+
 		missiles1 = Find_Hint("STORY_TRIGGER_ZONE", "missiles1")
 		missiles2 = Find_Hint("STORY_TRIGGER_ZONE", "missiles2")
 		missiles3 = Find_Hint("STORY_TRIGGER_ZONE", "missiles3")
@@ -405,17 +405,17 @@ function State_Underworld_A03M11_Begin(message)
 		missiles6 = Find_Hint("STORY_TRIGGER_ZONE", "missiles6")
 		missiles7 = Find_Hint("STORY_TRIGGER_ZONE", "missiles7")
 		missiles8 = Find_Hint("STORY_TRIGGER_ZONE", "missiles8")
-		
+
 		mt3 = Create_Generic_Object("UNDERWORLD_TORPEDO_TURRET", missiles3.Get_Position(), neutral_player)
 		mt4 = Create_Generic_Object("UNDERWORLD_TORPEDO_TURRET", missiles4.Get_Position(), neutral_player)
 		mt5 = Create_Generic_Object("UNDERWORLD_TORPEDO_TURRET", missiles5.Get_Position(), neutral_player)
 		mt6 = Create_Generic_Object("UNDERWORLD_TORPEDO_TURRET", missiles6.Get_Position(), neutral_player)
-		
+
 		-- setup end cinematic flags and camera positions
-		
-		
+
+
 		-- set up some global mission state flags
-			
+
 		MissionPartOneStarted = false
 		MissionPartOneDone = false
 		VictoryCondition_BackdoorOpen = false
@@ -423,11 +423,11 @@ function State_Underworld_A03M11_Begin(message)
 		VictoryCondition_AdeptsSpawned = false
 		VictoryCondition_AdeptOneDead = false
 		VictoryCondition_BactaGone = false
-			
+
 		MissionPartTwoStarted = false
 		MissionPartTwoDone = false
 		VictoryCondition_HolocronFound = false
-					
+
 		MissionPartThreeStarted = false
 		MissionPartThreeDone = false
 		VictoryCondition_Blown_A = false
@@ -439,7 +439,7 @@ function State_Underworld_A03M11_Begin(message)
 		VictoryCondition_EndTwo = false
 		VictoryCondition_MeetTyber = false
 		VictoryCondition_AdeptTwoSpawned = false
-	
+
 		MissionPartFourStarted = false
 		MissionPartFourDone = false
 		VictoryCondition_ReachedDoorE2 = false
@@ -448,14 +448,14 @@ function State_Underworld_A03M11_Begin(message)
 		VictoryCondition_EndedFour = false
 		VictoryCondition_AdeptThreeSpawned = false
 		VictoryCondition_AdeptThreeDead = false
-		
+
 		MissionPartFiveStarted = false
 		MissionPartFiveDone = false
 		VictoryCondition_GuardsSpawned = false
 		VictoryCondition_GuardsDead = false
 		VictoryCondition_GotAccessCodes = false
 		VictoryCondition_SeenVault = false
-		
+
 		MissionPartSixStarted = false
 		MissionPartSixDone = false
 		VictoryCondition_AdeptFourDead = false
@@ -463,14 +463,14 @@ function State_Underworld_A03M11_Begin(message)
 		VictoryCondition_InJuggernaut = false
 		VictoryCondition_StopSpawns = false
 		VictoryCondition_ReachedExit = false
-			
+
 		DefeatCondition_TyberDead = false
 		DefeatCondition_UraiDead = false
 		DefeatCondition_SilriDead = false
-			
+
 		VictoryStarted = false
 		DefeatStarted = false
-			
+
 		current_cine_id = nil
 		CINE_Intro_Active = false
 		CINE_Active_Adept_One = false
@@ -480,7 +480,7 @@ function State_Underworld_A03M11_Begin(message)
 		CINE_Active_Grouped_Up = false
 		CINE_Active_Outside_Vault = false
 		CINE_Active_Final_Adept = false
-		
+
 		underworld_player.Disable_Bombing_Run(false)
 		underworld_player.Disable_Orbital_Bombardment(true)
 		underworld_player.Remove_Orbital_Bombardment(true)
@@ -493,11 +493,11 @@ function State_Underworld_A03M11_Begin(message)
 		--current_cine_id = Create_Thread("CINE_Grouped_Up")
 		--current_cine_id = Create_Thread("CINE_Outside_Vault_Setup")
 		--current_cine_id = Create_Thread("CINE_Final_Adept")
-		
+
 		Create_Thread("Main")
 	elseif message == OnUpdate then
 		--Do Nothing
-	elseif message == OnExit then 
+	elseif message == OnExit then
 		--Do Nothing
 	end
 end
@@ -506,7 +506,7 @@ function Main()
 	while true do
 		if MissionPartOneStarted and not MissionPartOneDone then
 			if VictoryCondition_MonitorControls and VictoryCondition_AdeptOneDead then
-				if TestValid(consolej) then 
+				if TestValid(consolej) then
 					if consolej.Get_Owner() ~= hostile_player then
 						consolej.Change_Owner(hostile_player)
 						consolej.Highlight(true)
@@ -544,7 +544,7 @@ function Main()
 		end
 		if MissionPartThreeStarted then
 			if not MissionPartThreeDone then
-				if VictoryCondition_Blown_A and 
+				if VictoryCondition_Blown_A and
 				   VictoryCondition_Blown_B and
 				   VictoryCondition_Blown_C and
 				   VictoryCondition_Blown_D then
@@ -650,9 +650,9 @@ function Main()
 					end
 				end
 				if VictoryCondition_AdeptThreeDead and
-				   VictoryCondition_GuardsSpawned and 
-				   VictoryCondition_GuardsDead and 
-				   VictoryCondition_GotAccessCodes and 
+				   VictoryCondition_GuardsSpawned and
+				   VictoryCondition_GuardsDead and
+				   VictoryCondition_GotAccessCodes and
 				   VictoryCondition_SeenVault then
 					MissionPartFiveDone = true
 					MissionPartSixStart = true
@@ -673,22 +673,22 @@ function Main()
 				end
 			end
 		end
-		if MissionPartOneDone and 
+		if MissionPartOneDone and
 		   MissionPartTwoDone and
 		   MissionPartThreeDone and
 		   MissionPartFourDone and
 		   MissionPartFiveDone and
 		   MissionPartSixDone then
-			if VictoryCondition_MonitorControls and 
-			   VictoryCondition_AdeptOneDead and 
-			   VictoryCondition_HolocronFound and 
-			   VictoryCondition_GeneratorDead and 
-			   VictoryCondition_AdeptTwoDead and 
-			   VictoryCondition_DarkTroopersDead and 
-			   VictoryCondition_GuardsDead and 
-			   VictoryCondition_GotAccessCodes and 
-			   VictoryCondition_AdeptFourDead and 
-			   VictoryCondition_UraiBreakWall and 
+			if VictoryCondition_MonitorControls and
+			   VictoryCondition_AdeptOneDead and
+			   VictoryCondition_HolocronFound and
+			   VictoryCondition_GeneratorDead and
+			   VictoryCondition_AdeptTwoDead and
+			   VictoryCondition_DarkTroopersDead and
+			   VictoryCondition_GuardsDead and
+			   VictoryCondition_GotAccessCodes and
+			   VictoryCondition_AdeptFourDead and
+			   VictoryCondition_UraiBreakWall and
 			   VictoryCondition_ReachedExit	then
 				if not VictoryStarted then
 					Story_Event("UM11_OBJECTIVE_01_DONE")
@@ -711,161 +711,161 @@ end
 
 
 function Setup_Cinematic_Definitions()
-	cambalconypos = Find_Hint("STORY_TRIGGER_ZONE", "cambalconypos") 
-	cambalconylook = Find_Hint("STORY_TRIGGER_ZONE", "cambalconylook") 
-	camcitypos = Find_Hint("STORY_TRIGGER_ZONE", "camcitypos") 
-	camcitylook = Find_Hint("STORY_TRIGGER_ZONE", "camcitylook") 
-	camwindowpos = Find_Hint("STORY_TRIGGER_ZONE", "camwindowpos") 
-	cambalcsilri = Find_Hint("STORY_TRIGGER_ZONE", "cambalcsilri") 
-	cambalctyber = Find_Hint("STORY_TRIGGER_ZONE", "cambalctyber") 
-	cambalcurai = Find_Hint("STORY_TRIGGER_ZONE", "cambalcurai") 
-	camentrancepos = Find_Hint("STORY_TRIGGER_ZONE", "camentrancepos") 
-	camentrancelook = Find_Hint("STORY_TRIGGER_ZONE", "camentrancelook") 
-	
-	cinbtyberstart = Find_Hint("STORY_TRIGGER_ZONE", "cinbtyberstart") 
-	cinbtybergoto = Find_Hint("STORY_TRIGGER_ZONE", "cinbtybergoto") 
-	cinbirds1 = Find_Hint("BIRD_LIGHT_COLOR", "birds1") 
-	cinbirds2 = Find_Hint("BIRD_LIGHT_COLOR", "birds2") 
-	cinbirds3 = Find_Hint("BIRD_LIGHT_COLOR", "birds3") 
-	cinbirds4 = Find_Hint("BIRD_LIGHT_COLOR", "birds4") 
-	
-	cinbarguys1 = Find_Hint("URBAN_CIVILIAN_A", "cinbarguys1") 
-	cinbarguys2 = Find_Hint("URBAN_CIVILIAN_A", "cinbarguys2") 
-	cinbarguys3 = Find_Hint("URBAN_CIVILIAN_B", "cinbarguys3") 
-	cinbarguys4 = Find_Hint("URBAN_CIVILIAN_C", "cinbarguys4") 
-	cinbarguys5 = Find_Hint("TWILEK_FEMALE", "cinbarguys5") 
-	cinbarguys6 = Find_Hint("TWILEK_FEMALE", "cinbarguys6") 
-	cinbarguys7 = Find_Hint("SWAMP_CIVILIAN_B", "cinbarguys7") 
-	cinbarguys8 = Find_Hint("MON_CALAMARI_CIVILIAN", "cinbarguys8") 
-	
-	balconytyber = Find_Hint("STORY_TRIGGER_ZONE", "balconytyber") 
-	balconysilri = Find_Hint("STORY_TRIGGER_ZONE", "balconysilri") 
-	balconyurai = Find_Hint("STORY_TRIGGER_ZONE", "balconyurai") 
-	
-	cambalconypan = Find_Hint("STORY_TRIGGER_ZONE", "cambalconypan") 
-	camintropos = Find_Hint("STORY_TRIGGER_ZONE", "camintropos") 
-	camintrolook = Find_Hint("STORY_TRIGGER_ZONE", "camintrolook") 
-	camintrofloorpos = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorpos") 
-	camintrofloorpan = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorpan") 
-	camintrofloorlook = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorlook") 
-	
-	introtyber = Find_Hint("STORY_TRIGGER_ZONE", "introtyber") 
-	introguard = Find_Hint("STORY_TRIGGER_ZONE", "introguard") 
-	
-	camadeptonepos = Find_Hint("STORY_TRIGGER_ZONE", "camadeptonepos") 
-	camadeptonelook = Find_Hint("STORY_TRIGGER_ZONE", "camadeptonelook") 
-	camonepos = Find_Hint("STORY_TRIGGER_ZONE", "camonepos") 
-	camonelook = Find_Hint("STORY_TRIGGER_ZONE", "camonelook") 
-	camonepospan = Find_Hint("STORY_TRIGGER_ZONE", "camonepospan") 
-	camonelookpan = Find_Hint("STORY_TRIGGER_ZONE", "camonelookpan") 
-	
-	cineadeptonespawns = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonespawns") 
-	cineadeptonemouse = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonemouse") 
-	cineadeptonetyber = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonetyber") 
-	cinemousegoto1 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto1") 
-	cinemousegoto2 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto2") 
-	cinemousegoto3 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto3") 
-	
-	camintrosilripos = Find_Hint("STORY_TRIGGER_ZONE", "camintrosilripos") 
-	camintrosilrilook = Find_Hint("STORY_TRIGGER_ZONE", "camintrosilrilook") 
-	camsilriadeptpos = Find_Hint("STORY_TRIGGER_ZONE", "camsilriadeptpos") 
-	camsilriadeptlook = Find_Hint("STORY_TRIGGER_ZONE", "camsilriadeptlook") 
-	camtwirlsilristart = Find_Hint("STORY_TRIGGER_ZONE", "camtwirlsilristart") 
-	camtwirlsilriend = Find_Hint("STORY_TRIGGER_ZONE", "camtwirlsilriend") 
-	camfightpos = Find_Hint("STORY_TRIGGER_ZONE", "camfightpos") 
-	camfightlook = Find_Hint("STORY_TRIGGER_ZONE", "camfightlook") 
-	camadeptdiepos = Find_Hint("STORY_TRIGGER_ZONE", "camadeptdiepos") 
-	
-	cinesilri = Find_Hint("STORY_TRIGGER_ZONE", "cinesilri") 
-	cinesilriadept = Find_Hint("STORY_TRIGGER_ZONE", "cinesilriadept") 
-	cinesilriadeptmoveto = Find_Hint("STORY_TRIGGER_ZONE", "cinesilriadeptmoveto") 
-	cinerancorsummon = Find_Hint("STORY_TRIGGER_ZONE", "cinerancorsummon") 
-	
-	camholeposstart = Find_Hint("STORY_TRIGGER_ZONE", "camholeposstart") 
-	camholelookstart = Find_Hint("STORY_TRIGGER_ZONE", "camholelookstart") 
-	camholeposend = Find_Hint("STORY_TRIGGER_ZONE", "camholeposend") 
-	camholelookend = Find_Hint("STORY_TRIGGER_ZONE", "camholelookend") 
-	camuraifaceoffpos = Find_Hint("STORY_TRIGGER_ZONE", "camuraifaceoffpos") 
-	camuraifaceofflook = Find_Hint("STORY_TRIGGER_ZONE", "camuraifaceofflook") 
-	camholopos = Find_Hint("STORY_TRIGGER_ZONE", "camholopos") 
-	camhololook = Find_Hint("STORY_TRIGGER_ZONE", "camhololook") 
-	camocronpos = Find_Hint("STORY_TRIGGER_ZONE", "camocronpos") 
-	camocronlook = Find_Hint("STORY_TRIGGER_ZONE", "camocronlook") 
-	
-	sithholofx = Find_Hint("STORY_TRIGGER_ZONE", "sithholofx") 
-	cuddlesholospawn = Find_Hint("STORY_TRIGGER_ZONE", "cuddlesholospawn") 
-	silriholospawn = Find_Hint("STORY_TRIGGER_ZONE", "silriholospawn") 
-	cineadepttwospawn = Find_Hint("STORY_TRIGGER_ZONE", "cineadepttwospawn") 
-	cineadepttwomoveto = Find_Hint("STORY_TRIGGER_ZONE", "cineadepttwomoveto") 
-	
-	camsilrileavepos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavepos") 
-	camsilrileavelook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavelook") 
-	camsilrileavepos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavepos") 
-	camsilrileavelook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavelook") 
+	cambalconypos = Find_Hint("STORY_TRIGGER_ZONE", "cambalconypos")
+	cambalconylook = Find_Hint("STORY_TRIGGER_ZONE", "cambalconylook")
+	camcitypos = Find_Hint("STORY_TRIGGER_ZONE", "camcitypos")
+	camcitylook = Find_Hint("STORY_TRIGGER_ZONE", "camcitylook")
+	camwindowpos = Find_Hint("STORY_TRIGGER_ZONE", "camwindowpos")
+	cambalcsilri = Find_Hint("STORY_TRIGGER_ZONE", "cambalcsilri")
+	cambalctyber = Find_Hint("STORY_TRIGGER_ZONE", "cambalctyber")
+	cambalcurai = Find_Hint("STORY_TRIGGER_ZONE", "cambalcurai")
+	camentrancepos = Find_Hint("STORY_TRIGGER_ZONE", "camentrancepos")
+	camentrancelook = Find_Hint("STORY_TRIGGER_ZONE", "camentrancelook")
 
-	camdddpos = Find_Hint("STORY_TRIGGER_ZONE", "camdddpos") 
-	camdddlook = Find_Hint("STORY_TRIGGER_ZONE", "camdddlook") 
-	camfindsilripos = Find_Hint("STORY_TRIGGER_ZONE", "camfindsilripos") 
-	camfindsilrilook = Find_Hint("STORY_TRIGGER_ZONE", "camfindsilrilook") 
-	cammeetsilripos = Find_Hint("STORY_TRIGGER_ZONE", "cammeetsilripos") 
-	cammeetsilrilook = Find_Hint("STORY_TRIGGER_ZONE", "cammeetsilrilook") 
-	
-	silridddspawn = Find_Hint("STORY_TRIGGER_ZONE", "silridddspawn") 
-	cuddlesdddspawn = Find_Hint("STORY_TRIGGER_ZONE", "cuddlesdddspawn") 
-	trooperdddspawn = Find_Hint("STORY_TRIGGER_ZONE", "trooperdddspawn") 
-	cineddduraispawn = Find_Hint("STORY_TRIGGER_ZONE", "cineddduraispawn") 
-	cinedddtyberspawn = Find_Hint("STORY_TRIGGER_ZONE", "cinedddtyberspawn") 
-	uraidddgoto = Find_Hint("STORY_TRIGGER_ZONE", "uraidddgoto") 
-	tyberdddgoto = Find_Hint("STORY_TRIGGER_ZONE", "tyberdddgoto") 
-	
-	camuraiworkpos = Find_Hint("STORY_TRIGGER_ZONE", "camuraiworkpos") 
-	camuraiworklook = Find_Hint("STORY_TRIGGER_ZONE", "camuraiworklook") 
-	camdoorclosepos = Find_Hint("STORY_TRIGGER_ZONE", "camdoorclosepos") 
-	camdoorcloselook = Find_Hint("STORY_TRIGGER_ZONE", "camdoorcloselook") 
-	camoutvtyberpos = Find_Hint("STORY_TRIGGER_ZONE", "camoutvtyberpos") 
-	camoutvtyberlook = Find_Hint("STORY_TRIGGER_ZONE", "camoutvtyberlook") 
-	
-	fivesilrirunto = Find_Hint("STORY_TRIGGER_ZONE", "fivesilrirunto") 
-	fivetyberrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivetyberrunto") 
-	fivecuddlesrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivecuddlesrunto") 
-	fivemdusrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivemdusrunto") 
-	fiveextrasrunto = Find_Hint("STORY_TRIGGER_ZONE", "fiveextrasrunto") 
-	fiveuraispawn = Find_Hint("STORY_TRIGGER_ZONE", "fiveuraispawn") 
-	
-	camlastpos = Find_Hint("STORY_TRIGGER_ZONE", "camlastpos") 
-	camlastlook = Find_Hint("STORY_TRIGGER_ZONE", "camlastlook") 
-	camlastpan = Find_Hint("STORY_TRIGGER_ZONE", "camlastpan") 
-	camstraightdown1 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown1") 
-	camstraightdown2 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown2") 
-	camstraightdown3 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown3") 
-	camstraightdown4 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown4") 
-	camsilrityberpos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrityberpos") 
-	camsilrityberlook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrityberlook") 
-	
-	lasttyberspawn = Find_Hint("STORY_TRIGGER_ZONE", "lasttyberspawn") 
-	lasttybergoto = Find_Hint("STORY_TRIGGER_ZONE", "lasttybergoto") 
-	lastsilrispawn = Find_Hint("STORY_TRIGGER_ZONE", "lastsilrispawn") 
-	lastsilrigoto = Find_Hint("STORY_TRIGGER_ZONE", "lastsilrigoto") 
-	lasturaispawn = Find_Hint("STORY_TRIGGER_ZONE", "lasturaispawn") 
-	lasturaigoto = Find_Hint("STORY_TRIGGER_ZONE", "lasturaigoto") 
-	lastcuddlesspawn = Find_Hint("STORY_TRIGGER_ZONE", "lastcuddlesspawn") 
-	lastcuddlesgoto = Find_Hint("STORY_TRIGGER_ZONE", "lastcuddlesgoto") 
-	lastadeptspawn = Find_Hint("STORY_TRIGGER_ZONE", "lastadeptspawn") 
-	lasttele1 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele1") 
-	lasttele2 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele2") 
-	lasttele3 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele3") 
-	lasttele4 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele4") 
-	
-	finaltyberspot = Find_Hint("STORY_TRIGGER_ZONE", "finaltyberspot") 
-	finalsilrispot = Find_Hint("STORY_TRIGGER_ZONE", "finalsilrispot") 
-	finaluraispot = Find_Hint("STORY_TRIGGER_ZONE", "finaluraispot") 
-	finalcuddlesspot = Find_Hint("STORY_TRIGGER_ZONE", "finalcuddlesspot") 
-	finalextrasspot = Find_Hint("STORY_TRIGGER_ZONE", "finalextrasspot") 
-	finalmdusspot = Find_Hint("STORY_TRIGGER_ZONE", "finalmdusspot") 
-	
+	cinbtyberstart = Find_Hint("STORY_TRIGGER_ZONE", "cinbtyberstart")
+	cinbtybergoto = Find_Hint("STORY_TRIGGER_ZONE", "cinbtybergoto")
+	cinbirds1 = Find_Hint("BIRD_LIGHT_COLOR", "birds1")
+	cinbirds2 = Find_Hint("BIRD_LIGHT_COLOR", "birds2")
+	cinbirds3 = Find_Hint("BIRD_LIGHT_COLOR", "birds3")
+	cinbirds4 = Find_Hint("BIRD_LIGHT_COLOR", "birds4")
+
+	cinbarguys1 = Find_Hint("URBAN_CIVILIAN_A", "cinbarguys1")
+	cinbarguys2 = Find_Hint("URBAN_CIVILIAN_A", "cinbarguys2")
+	cinbarguys3 = Find_Hint("URBAN_CIVILIAN_B", "cinbarguys3")
+	cinbarguys4 = Find_Hint("URBAN_CIVILIAN_C", "cinbarguys4")
+	cinbarguys5 = Find_Hint("TWILEK_FEMALE", "cinbarguys5")
+	cinbarguys6 = Find_Hint("TWILEK_FEMALE", "cinbarguys6")
+	cinbarguys7 = Find_Hint("SWAMP_CIVILIAN_B", "cinbarguys7")
+	cinbarguys8 = Find_Hint("MON_CALAMARI_CIVILIAN", "cinbarguys8")
+
+	balconytyber = Find_Hint("STORY_TRIGGER_ZONE", "balconytyber")
+	balconysilri = Find_Hint("STORY_TRIGGER_ZONE", "balconysilri")
+	balconyurai = Find_Hint("STORY_TRIGGER_ZONE", "balconyurai")
+
+	cambalconypan = Find_Hint("STORY_TRIGGER_ZONE", "cambalconypan")
+	camintropos = Find_Hint("STORY_TRIGGER_ZONE", "camintropos")
+	camintrolook = Find_Hint("STORY_TRIGGER_ZONE", "camintrolook")
+	camintrofloorpos = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorpos")
+	camintrofloorpan = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorpan")
+	camintrofloorlook = Find_Hint("STORY_TRIGGER_ZONE", "camintrofloorlook")
+
+	introtyber = Find_Hint("STORY_TRIGGER_ZONE", "introtyber")
+	introguard = Find_Hint("STORY_TRIGGER_ZONE", "introguard")
+
+	camadeptonepos = Find_Hint("STORY_TRIGGER_ZONE", "camadeptonepos")
+	camadeptonelook = Find_Hint("STORY_TRIGGER_ZONE", "camadeptonelook")
+	camonepos = Find_Hint("STORY_TRIGGER_ZONE", "camonepos")
+	camonelook = Find_Hint("STORY_TRIGGER_ZONE", "camonelook")
+	camonepospan = Find_Hint("STORY_TRIGGER_ZONE", "camonepospan")
+	camonelookpan = Find_Hint("STORY_TRIGGER_ZONE", "camonelookpan")
+
+	cineadeptonespawns = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonespawns")
+	cineadeptonemouse = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonemouse")
+	cineadeptonetyber = Find_Hint("STORY_TRIGGER_ZONE", "cineadeptonetyber")
+	cinemousegoto1 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto1")
+	cinemousegoto2 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto2")
+	cinemousegoto3 = Find_Hint("STORY_TRIGGER_ZONE", "cinemousegoto3")
+
+	camintrosilripos = Find_Hint("STORY_TRIGGER_ZONE", "camintrosilripos")
+	camintrosilrilook = Find_Hint("STORY_TRIGGER_ZONE", "camintrosilrilook")
+	camsilriadeptpos = Find_Hint("STORY_TRIGGER_ZONE", "camsilriadeptpos")
+	camsilriadeptlook = Find_Hint("STORY_TRIGGER_ZONE", "camsilriadeptlook")
+	camtwirlsilristart = Find_Hint("STORY_TRIGGER_ZONE", "camtwirlsilristart")
+	camtwirlsilriend = Find_Hint("STORY_TRIGGER_ZONE", "camtwirlsilriend")
+	camfightpos = Find_Hint("STORY_TRIGGER_ZONE", "camfightpos")
+	camfightlook = Find_Hint("STORY_TRIGGER_ZONE", "camfightlook")
+	camadeptdiepos = Find_Hint("STORY_TRIGGER_ZONE", "camadeptdiepos")
+
+	cinesilri = Find_Hint("STORY_TRIGGER_ZONE", "cinesilri")
+	cinesilriadept = Find_Hint("STORY_TRIGGER_ZONE", "cinesilriadept")
+	cinesilriadeptmoveto = Find_Hint("STORY_TRIGGER_ZONE", "cinesilriadeptmoveto")
+	cinerancorsummon = Find_Hint("STORY_TRIGGER_ZONE", "cinerancorsummon")
+
+	camholeposstart = Find_Hint("STORY_TRIGGER_ZONE", "camholeposstart")
+	camholelookstart = Find_Hint("STORY_TRIGGER_ZONE", "camholelookstart")
+	camholeposend = Find_Hint("STORY_TRIGGER_ZONE", "camholeposend")
+	camholelookend = Find_Hint("STORY_TRIGGER_ZONE", "camholelookend")
+	camuraifaceoffpos = Find_Hint("STORY_TRIGGER_ZONE", "camuraifaceoffpos")
+	camuraifaceofflook = Find_Hint("STORY_TRIGGER_ZONE", "camuraifaceofflook")
+	camholopos = Find_Hint("STORY_TRIGGER_ZONE", "camholopos")
+	camhololook = Find_Hint("STORY_TRIGGER_ZONE", "camhololook")
+	camocronpos = Find_Hint("STORY_TRIGGER_ZONE", "camocronpos")
+	camocronlook = Find_Hint("STORY_TRIGGER_ZONE", "camocronlook")
+
+	sithholofx = Find_Hint("STORY_TRIGGER_ZONE", "sithholofx")
+	cuddlesholospawn = Find_Hint("STORY_TRIGGER_ZONE", "cuddlesholospawn")
+	silriholospawn = Find_Hint("STORY_TRIGGER_ZONE", "silriholospawn")
+	cineadepttwospawn = Find_Hint("STORY_TRIGGER_ZONE", "cineadepttwospawn")
+	cineadepttwomoveto = Find_Hint("STORY_TRIGGER_ZONE", "cineadepttwomoveto")
+
+	camsilrileavepos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavepos")
+	camsilrileavelook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavelook")
+	camsilrileavepos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavepos")
+	camsilrileavelook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrileavelook")
+
+	camdddpos = Find_Hint("STORY_TRIGGER_ZONE", "camdddpos")
+	camdddlook = Find_Hint("STORY_TRIGGER_ZONE", "camdddlook")
+	camfindsilripos = Find_Hint("STORY_TRIGGER_ZONE", "camfindsilripos")
+	camfindsilrilook = Find_Hint("STORY_TRIGGER_ZONE", "camfindsilrilook")
+	cammeetsilripos = Find_Hint("STORY_TRIGGER_ZONE", "cammeetsilripos")
+	cammeetsilrilook = Find_Hint("STORY_TRIGGER_ZONE", "cammeetsilrilook")
+
+	silridddspawn = Find_Hint("STORY_TRIGGER_ZONE", "silridddspawn")
+	cuddlesdddspawn = Find_Hint("STORY_TRIGGER_ZONE", "cuddlesdddspawn")
+	trooperdddspawn = Find_Hint("STORY_TRIGGER_ZONE", "trooperdddspawn")
+	cineddduraispawn = Find_Hint("STORY_TRIGGER_ZONE", "cineddduraispawn")
+	cinedddtyberspawn = Find_Hint("STORY_TRIGGER_ZONE", "cinedddtyberspawn")
+	uraidddgoto = Find_Hint("STORY_TRIGGER_ZONE", "uraidddgoto")
+	tyberdddgoto = Find_Hint("STORY_TRIGGER_ZONE", "tyberdddgoto")
+
+	camuraiworkpos = Find_Hint("STORY_TRIGGER_ZONE", "camuraiworkpos")
+	camuraiworklook = Find_Hint("STORY_TRIGGER_ZONE", "camuraiworklook")
+	camdoorclosepos = Find_Hint("STORY_TRIGGER_ZONE", "camdoorclosepos")
+	camdoorcloselook = Find_Hint("STORY_TRIGGER_ZONE", "camdoorcloselook")
+	camoutvtyberpos = Find_Hint("STORY_TRIGGER_ZONE", "camoutvtyberpos")
+	camoutvtyberlook = Find_Hint("STORY_TRIGGER_ZONE", "camoutvtyberlook")
+
+	fivesilrirunto = Find_Hint("STORY_TRIGGER_ZONE", "fivesilrirunto")
+	fivetyberrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivetyberrunto")
+	fivecuddlesrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivecuddlesrunto")
+	fivemdusrunto = Find_Hint("STORY_TRIGGER_ZONE", "fivemdusrunto")
+	fiveextrasrunto = Find_Hint("STORY_TRIGGER_ZONE", "fiveextrasrunto")
+	fiveuraispawn = Find_Hint("STORY_TRIGGER_ZONE", "fiveuraispawn")
+
+	camlastpos = Find_Hint("STORY_TRIGGER_ZONE", "camlastpos")
+	camlastlook = Find_Hint("STORY_TRIGGER_ZONE", "camlastlook")
+	camlastpan = Find_Hint("STORY_TRIGGER_ZONE", "camlastpan")
+	camstraightdown1 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown1")
+	camstraightdown2 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown2")
+	camstraightdown3 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown3")
+	camstraightdown4 = Find_Hint("STORY_TRIGGER_ZONE", "camstraightdown4")
+	camsilrityberpos = Find_Hint("STORY_TRIGGER_ZONE", "camsilrityberpos")
+	camsilrityberlook = Find_Hint("STORY_TRIGGER_ZONE", "camsilrityberlook")
+
+	lasttyberspawn = Find_Hint("STORY_TRIGGER_ZONE", "lasttyberspawn")
+	lasttybergoto = Find_Hint("STORY_TRIGGER_ZONE", "lasttybergoto")
+	lastsilrispawn = Find_Hint("STORY_TRIGGER_ZONE", "lastsilrispawn")
+	lastsilrigoto = Find_Hint("STORY_TRIGGER_ZONE", "lastsilrigoto")
+	lasturaispawn = Find_Hint("STORY_TRIGGER_ZONE", "lasturaispawn")
+	lasturaigoto = Find_Hint("STORY_TRIGGER_ZONE", "lasturaigoto")
+	lastcuddlesspawn = Find_Hint("STORY_TRIGGER_ZONE", "lastcuddlesspawn")
+	lastcuddlesgoto = Find_Hint("STORY_TRIGGER_ZONE", "lastcuddlesgoto")
+	lastadeptspawn = Find_Hint("STORY_TRIGGER_ZONE", "lastadeptspawn")
+	lasttele1 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele1")
+	lasttele2 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele2")
+	lasttele3 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele3")
+	lasttele4 = Find_Hint("STORY_TRIGGER_ZONE", "lasttele4")
+
+	finaltyberspot = Find_Hint("STORY_TRIGGER_ZONE", "finaltyberspot")
+	finalsilrispot = Find_Hint("STORY_TRIGGER_ZONE", "finalsilrispot")
+	finaluraispot = Find_Hint("STORY_TRIGGER_ZONE", "finaluraispot")
+	finalcuddlesspot = Find_Hint("STORY_TRIGGER_ZONE", "finalcuddlesspot")
+	finalextrasspot = Find_Hint("STORY_TRIGGER_ZONE", "finalextrasspot")
+	finalmdusspot = Find_Hint("STORY_TRIGGER_ZONE", "finalmdusspot")
+
 	endcinecampos = Find_Hint("STORY_TRIGGER_ZONE", "endcinecampos")
 	endcinecamlook = Find_Hint("STORY_TRIGGER_ZONE", "endcinecamlook")
-		
+
 	endcinejugger = Find_Hint("HAV_JUGGERNAUT", "endcinejugger")
 	endcinejuggergoto = Find_Hint("STORY_TRIGGER_ZONE", "endcinejuggergoto")
 end
@@ -874,23 +874,23 @@ end
 function CINE_Start_Mission()
 	Cancel_Fast_Forward()
 	CINE_Intro_Active = true
-	
+
 	Fade_Screen_Out(0)
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	Play_Music("Structure_Cantina_Music_Event")
-	
+
 	endcinebox.Hide(true)
 	endcinebox1.Hide(true)
 	int_sky.Hide(true)
 	ext_sky.Hide(false)
-	
+
 	tyber_zann.Hide(true)
 	tyber_zann.Prevent_All_Fire(true)
-	
+
 	cin_tyber = Create_Generic_Object("TYBER_ZANN", introtyber.Get_Position(), underworld_player)
 	cin_tyber.Suspend_Locomotor(true)
 	cin_tyber.Prevent_All_Fire(true)
@@ -899,14 +899,14 @@ function CINE_Start_Mission()
 	cin_tyber.Suspend_Locomotor(true)
 	cin_guard.Prevent_All_Fire(true)
 	cin_guard.Face_Immediate(introtyber)
-	
+
 	cin_btyber = Create_Generic_Object("TYBER_ZANN", balconytyber.Get_Position(), neutral_player)
 	cin_btyber.Teleport_And_Face(balconytyber)
 	cin_bsilri = Create_Generic_Object("SILRI", balconysilri.Get_Position(), neutral_player)
 	cin_bsilri.Teleport_And_Face(balconysilri)
 	cin_burai = Create_Generic_Object("URAI_FEN", balconyurai.Get_Position(), neutral_player)
 	cin_burai.Teleport_And_Face(balconyurai)
-	
+
 	cinbarguys1.Suspend_Locomotor(true)
 	cinbarguys2.Suspend_Locomotor(true)
 	cinbarguys3.Suspend_Locomotor(true)
@@ -916,22 +916,22 @@ function CINE_Start_Mission()
 	cinbarguys7.Suspend_Locomotor(true)
 	cinbarguys8.Suspend_Locomotor(true)
 	Sleep(1.5)
-	
+
 	Fade_Screen_In(1)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camcitypos, 0, 0, 75, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camcitylook, 0, 0, 75, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(camwindowpos, 10, -5, -5, 205, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(cin_bsilri, 10, 0, 0, 0, 0, 0, 0, 0)
 	Sleep(10)
-	
+
 	cin_btyber.Play_Animation("cinematic", true, 2)
 	cin_burai.Play_Animation("idle", true, 0)
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_41")
 	while not State_Mission_41_Done	do Sleep(.5) end
-	
+
 	Set_Cinematic_Camera_Key(cambalconypos, 0, 0, 50, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cambalconylook, 0, 0, 0, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(cambalconypan, 4, 0, 0, 50, 0, 0, 0, 0)
@@ -940,7 +940,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_42")
 	while not State_Mission_42_Done	do Sleep(.5) end
-	
+
 	-- camera focus urai
 	Set_Cinematic_Camera_Key(cin_btyber, 40, 45, 45, 1, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_burai, 0, 0, 5, 0, 0, 0, 0)
@@ -950,7 +950,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
     Story_Event("CHATTER_43")
 	while not State_Mission_43_Done	do Sleep(.5) end
-	
+
 	-- camera focus tyber
 	Set_Cinematic_Camera_Key(cambalctyber, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_btyber, 0, 0, 7, 0, 0, 0, 0)
@@ -960,7 +960,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_44")
 	while not State_Mission_44_Done	do Sleep(.5) end
-	
+
 	-- camera focus silri
 	cin_bsilri.Turn_To_Face(cin_btyber)
 	Set_Cinematic_Camera_Key(cambalcsilri, 0, 0, 35, 0, 0, 0, 0)
@@ -971,7 +971,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("cinematic", true, 0)
 	Story_Event("CHATTER_45")
 	while not State_Mission_45_Done	do Sleep(.5) end
-	
+
 	-- camera focus tyber
 	Set_Cinematic_Camera_Key(cambalctyber, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_btyber, 0, 0, 7, 0, 0, 0, 0)
@@ -981,7 +981,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_46")
 	while not State_Mission_46_Done	do Sleep(.5) end
-	
+
 	-- camera focus silri
 	cin_bsilri.Turn_To_Face(cin_btyber)
 	Set_Cinematic_Camera_Key(cambalcsilri, 0, 0, 35, 0, 0, 0, 0)
@@ -992,12 +992,12 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("cinematic", true, 0)
 	Story_Event("CHATTER_47")
 	while not State_Mission_47_Done	do Sleep(.5) end
-	
+
 	cin_bsilri.Suspend_Locomotor(false)
 	cin_bsilri.Move_To(cambalconypos)
-	
+
 	Sleep(2)
-	
+
 	-- camera focus urai
 	--Set_Cinematic_Camera_Key(cambalcurai, 0, 0, 35, 0, 0, 0, 0)
 	Set_Cinematic_Camera_Key(cin_btyber, 40, 45, 45, 1, 0, 0, 0)
@@ -1008,7 +1008,7 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_48")
 	while not State_Mission_48_Done	do Sleep(.5) end
-	
+
 	-- camera focus tyber
 	Set_Cinematic_Camera_Key(cambalctyber, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_btyber, 0, 0, 7, 0, 0, 0, 0)
@@ -1018,27 +1018,27 @@ function CINE_Start_Mission()
 	cin_bsilri.Play_Animation("idle", true, 0)
 	Story_Event("CHATTER_49")
 	while not State_Mission_49_Done	do Sleep(.5) end
-	
+
 	Fade_Screen_Out(2)
 	Sleep(2)
 	Stop_All_Music()
 	Resume_Mode_Based_Music()
-	
+
 	int_sky.Hide(false)
 	ext_sky.Hide(true)
-	
+
 	cin_btyber.Teleport_And_Face(cinbtyberstart)
 	cin_btyber.Override_Max_Speed(.7)
 	cin_btyber.Move_To(cinbtybergoto)
-	
+
 	Set_Cinematic_Camera_Key(camentrancepos, 0, 0, 100, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camentrancelook, 0, 0, 0, 0, 0, 0, 0)
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	Transition_Cinematic_Camera_Key(camentrancepos, 3, 0, 0, 110, 0, 0, 0, 0)
 	Sleep(3)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Fade_Screen_In(1)
@@ -1053,17 +1053,17 @@ function CINE_Start_Mission()
 	Set_Cinematic_Target_Key(camintrolook, 0, 0, 5, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(cin_tyber, 5, 0, 0, 10, 0, 0, 0, 0)
 	Sleep(1)
-	
+
 	cin_tyber.Prevent_All_Fire(false)
 	cin_tyber.Attack_Target(cin_guard)
 	Sleep(1)
 	cin_guard.Take_Damage(9999)
-	
+
 	Sleep(1)
 	Story_Event("CHATTER_13")
 
 	while not State_Mission_13_Done	do Sleep(.5) end
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Create_Thread("Intro_Cine_Cleanup")
@@ -1072,21 +1072,21 @@ end
 function Intro_Cine_Cleanup()
 	CINE_Intro_Active = false
 	current_cine_id = nil
-	
+
 	tyber_zann.Prevent_All_Fire(false)
 	tyber_zann.Hide(false)
-	
+
     ext_sky.Hide(true)
 	int_sky.Hide(false)
 	endcinebox.Hide(false)
 	endcinebox1.Hide(false)
-		
+
 	if TestValid(cin_tyber) then cin_tyber.Despawn() end
 	if TestValid(cin_guard) then cin_guard.Despawn() end
 	if TestValid(cin_btyber) then cin_btyber.Despawn() end
 	if TestValid(cin_bsilri) then cin_bsilri.Despawn() end
 	if TestValid(cin_burai) then cin_burai.Despawn() end
-	
+
 	if TestValid(cinbarguys1) then cinbarguys1.Despawn() end
 	if TestValid(cinbarguys2) then cinbarguys2.Despawn() end
 	if TestValid(cinbarguys3) then cinbarguys3.Despawn() end
@@ -1095,21 +1095,21 @@ function Intro_Cine_Cleanup()
 	if TestValid(cinbarguys6) then cinbarguys6.Despawn() end
 	if TestValid(cinbarguys7) then cinbarguys7.Despawn() end
 	if TestValid(cinbarguys8) then cinbarguys8.Despawn() end
-	
+
 	if TestValid(cinbirds1) then cinbirds1.Despawn() end
 	if TestValid(cinbirds2) then cinbirds2.Despawn() end
 	if TestValid(cinbirds3) then cinbirds3.Despawn() end
 	if TestValid(cinbirds4) then cinbirds4.Despawn() end
-	
+
 	Stop_All_Music()
 	Resume_Mode_Based_Music()
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(0)	
+	Letter_Box_Out(0)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Fade_Screen_In(1)
-	
+
 	Create_Thread("MissionObjective_PartOne")
 	--juggernaut.Despawn()
 	--Create_Thread("EndMissionVictory")
@@ -1126,7 +1126,7 @@ function Story_Handle_Esc()
 --		Thread.Kill(current_cine_id)
 --		Create_Thread("CINE_Adept_One_Cleanup")
 --	end
---	if CINE_Active_Intro_Silri then 
+--	if CINE_Active_Intro_Silri then
 --		CINE_Active_Intro_Silri = false
 --		Thread.Kill(current_cine_id)
 --		Create_Thread("CINE_Intro_Silri_Cleanup")
@@ -1159,109 +1159,109 @@ function Story_Handle_Esc()
 end
 
 -- all functions for opening/closing doors
-function Open_Vault() 
+function Open_Vault()
 	vaulta.Play_Animation("Cinematic",false,1)
 	vaultb.Play_Animation("Cinematic",false,1)
 	Register_Timer(Remove_Vault,2)
 	Story_Event("CHATTER_51")
 end
-function Remove_Vault() 
+function Remove_Vault()
 	vaulta.Despawn()
 	vaultb.Despawn()
 end
 
-function Open_Door_i() 
+function Open_Door_i()
 	Register_Timer(Remove_Door_i,2)
 	doori.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_i() 
+function Remove_Door_i()
 	doori.Highlight(false)
 	Remove_Radar_Blip("doori")
 	doori.Despawn()
 end
 
-function Open_Door_k() 
+function Open_Door_k()
 	Register_Timer(Remove_Door_k,2)
 	doork.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_k() 
+function Remove_Door_k()
 	doork.Despawn()
 	VictoryCondition_BackdoorOpen = true
 	Create_Thread("Hunt_Underworld", monitors_guards1 )
 end
 
-function Open_Door_j() 
+function Open_Door_j()
 	consolej.Highlight(false)
 	Remove_Radar_Blip("consolej")
-	
+
 	Register_Timer(Remove_Door_j,2)
 	doorj.Play_Animation("Cinematic",false,1)
 	Fade_Screen_Out(2)
 end
-function Remove_Door_j() 
+function Remove_Door_j()
 	doorj.Despawn()
 end
 
-function Open_Door_c() 
+function Open_Door_c()
 	Register_Timer(Remove_Door_c,2)
 	doorc1.Play_Animation("Cinematic",false,1)
 	doorc2.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_c() 
+function Remove_Door_c()
 	doorc1.Despawn()
 	doorc2.Despawn()
 end
 
-function Open_Door_e() 
+function Open_Door_e()
 	Register_Timer(Remove_Door_e,2)
 	doore.Play_Animation("Cinematic",false,1)
-	
+
 	consolee.Highlight(false)
 	Remove_Radar_Blip("consolee")
 	highlightsithroom.Highlight(true)
 	Add_Radar_Blip(highlightsithroom, "highlightsithroom")
 end
-function Remove_Door_e() 
+function Remove_Door_e()
 	doore.Despawn()
 end
 
-function Open_Door_f() 
+function Open_Door_f()
 	Register_Timer(Remove_Door_f,2)
 	doorf.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_f() 
+function Remove_Door_f()
 	doorf.Despawn()
 end
 
-function Open_Door_h() 
+function Open_Door_h()
 	Register_Timer(Remove_Door_h,2)
 	doorh.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_h() 
+function Remove_Door_h()
 	doorh.Despawn()
 end
 
-function Open_Door_a() 
+function Open_Door_a()
 	Register_Timer(Remove_Door_a,2)
 	doora.Play_Animation("Cinematic",false,1)
 end
-function Remove_Door_a() 
+function Remove_Door_a()
 	doora.Despawn()
 end
 
-function Open_Panel() 
+function Open_Panel()
 	Register_Timer(Remove_Panel,2)
 	panel.Play_Animation("Cinematic",false,1)
 end
-function Remove_Panel() 
+function Remove_Panel()
 	panel.Despawn()
 end
 
-function Open_AdeptOneDoor() 
+function Open_AdeptOneDoor()
 	Register_Timer(Remove_AdeptOneDoor, 2)
 	adeptonedoor.Play_Animation("Cinematic",false,1)
 end
-function Remove_AdeptOneDoor() 
+function Remove_AdeptOneDoor()
 	adeptonedoor.Despawn()
 	Create_Thread("Hunt_Underworld", {monitorguardsc})
 end
@@ -1275,7 +1275,7 @@ function Open_SithDoor()
 	Register_Timer(Remove_SithDoor,2)
 	sithwall.Play_Animation("Cinematic",false,1)
 end
-function Remove_SithDoor() 
+function Remove_SithDoor()
 	sithwall.Despawn()
 end
 
@@ -1293,35 +1293,35 @@ function MissionObjective_PartOne()
 	doora.Play_Animation("Cinematic",false,0)
 	vaulta.Play_Animation("Cinematic",false,0)
 	vaultb.Play_Animation("Cinematic",false,0)
-	
+
 	silri.Set_In_Limbo(true)
 	silri.Hide(true)
 	silri.Set_Selectable(false)
 	silri.Make_Invulnerable(true)
-	
+
 	urai_fen.Set_In_Limbo(true)
 	urai_fen.Hide(true)
 	urai_fen.Set_Selectable(false)
 	urai_fen.Make_Invulnerable(true)
-	
+
 	juggernaut.Change_Owner(neutral_player)
 	juggernaut.Make_Invulnerable(true)
-	
+
 	Fade_Screen_In(1)
 	Point_Camera_At(tyber_zann)
 	underworld_player.Select_Object(tyber_zann)
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	MissionPartOneStarted = true
 	Story_Event("UM11_INTROCINE_DONE")
 	Story_Event("UM11_OBJECTIVE_01")
 	Create_Thread("PartOne_GuardSpawn")
-	
+
 	monitorsa.Highlight(true)
 	Add_Radar_Blip(monitorsa, "monitorsa")
-	
+
 	Register_Timer(Hint_BribeDoor, 8)
 	Story_Event("UM11_HINT_09")
 	Story_Event("SET_CREDITS")
@@ -1419,14 +1419,14 @@ function CINE_Adept_One()
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	tyber_zann.Prevent_All_Fire(true)
 	tyber_zann.Hide(true)
-	
+
 	cin_tyber2 = Create_Generic_Object("TYBER_ZANN", cineadeptonetyber.Get_Position(), neutral_player)
 	cin_tyber2.Face_Immediate(adeptonespawnb)
-	
+
 	adeptonedoor.Play_Animation("Cinematic", false, 2)
 	cin_mouse1 = Create_Generic_Object("UMP_CINE_MOUSEDROID", cineadeptonemouse.Get_Position(), neutral_player)
 	cin_mouse2 = Create_Generic_Object("UMP_CINE_MOUSEDROID", cineadeptonemouse.Get_Position(), neutral_player)
@@ -1434,26 +1434,26 @@ function CINE_Adept_One()
 	cin_mouse1.Move_To(cinemousegoto1)
 	cin_mouse2.Move_To(cinemousegoto2)
 	cin_mouse3.Move_To(cinemousegoto3)
-	
+
 	cin_adepts1 = Create_Generic_Object("UM05_ADEPTONECINE", adeptonespawna.Get_Position(), neutral_player)
 	cin_adepts2 = Create_Generic_Object("UM05_ADEPTONECINE", adeptonespawnb.Get_Position(), neutral_player)
 	cin_adepts3 = Create_Generic_Object("UM05_ADEPTONECINE", adeptonespawnc.Get_Position(), neutral_player)
 	cin_adepts1.Face_Immediate(cin_tyber2)
 	cin_adepts2.Face_Immediate(cin_tyber2)
 	cin_adepts3.Face_Immediate(cin_tyber2)
-	
+
 	Sleep(1)
 	Fade_Screen_In(1)
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	
+
 	Set_Cinematic_Camera_Key(camadeptonepos, 0, 0, 20, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camadeptonelook, 0, 0, -10, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(camadeptonepos, 5, 0, 0, 16, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(camadeptonelook, 5, 0, 0, -13, 0, 0, 0, 0)
 	Story_Event("CHATTER_14")
-	
+
 	while not State_Mission_14_Done	do Sleep(.5) end
-	
+
 	adeptonedoor.Play_Animation("Cinematic",false,3)
 	Set_Cinematic_Camera_Key(camonepos, 0, 0, 16, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camonelook, 0, 0, 0, 0, 0, 0, 0)
@@ -1463,7 +1463,7 @@ function CINE_Adept_One()
 	Story_Event("CHATTER_15")
 
 	while not State_Mission_15_Done	do Sleep(.5) end
-		
+
 	cin_adepts1.Change_Owner(empire_player)
 	cin_adepts2.Change_Owner(empire_player)
 	cin_adepts3.Change_Owner(empire_player)
@@ -1471,17 +1471,17 @@ function CINE_Adept_One()
 	cin_adepts2.Suspend_Locomotor(true)
 	cin_adepts3.Suspend_Locomotor(true)
 	cin_tyber2.Change_Owner(underworld_player)
-	
+
 	cin_adepts2.Attack_Target(cin_tyber2)
 	Sleep(.5)
 	cin_adepts1.Attack_Target(cin_tyber2)
 	Sleep(.25)
 	cin_adepts3.Attack_Target(cin_tyber2)
 	Sleep(1)
-	
+
 	cin_tyber2.Change_Owner(neutral_player)
 	Sleep(1)
-	
+
 	Create_Thread("CINE_Adept_One_Cleanup")
 end
 
@@ -1497,10 +1497,10 @@ function CINE_Adept_One_Cleanup()
 	adeptonec = Create_Generic_Object("UM05_ADEPTONE", adeptonespawnc.Get_Position(), empire_player)
 	adeptonec.Override_Max_Speed(.7)
 	VictoryCondition_AdeptsSpawned = true
-	
+
 	tyber_zann.Prevent_All_Fire(false)
 	tyber_zann.Hide(false)
-	
+
 	if TestValid(cin_tyber2) then cin_tyber2.Despawn() end
 	if TestValid(cin_mouse1) then cin_mouse1.Despawn() end
 	if TestValid(cin_mouse2) then cin_mouse2.Despawn() end
@@ -1508,21 +1508,21 @@ function CINE_Adept_One_Cleanup()
 	if TestValid(cin_adepts1) then cin_adepts1.Despawn() end
 	if TestValid(cin_adepts2) then cin_adepts2.Despawn() end
 	if TestValid(cin_adepts3) then cin_adepts3.Despawn() end
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
-	
+
 	Fade_Screen_In(1)
 	Point_Camera_At(tyber_zann)
 	underworld_player.Select_Object(tyber_zann)
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
-	
-	
-	
+
+
+
 	Register_Timer(Hint_AdeptOne1, 15)
 	adeptonedoor.Play_Animation("Cinematic",false,0)
 	Story_Event("UM11_OBJECTIVE_02")
@@ -1601,17 +1601,17 @@ function MissionObjective_PartTwo()
 	Fade_Screen_In(1)
 	Point_Camera_At(silri)
 	underworld_player.Select_Object(silri)
-	
+
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
-	else 
+	else
 		silri.Activate_Ability("SUMMON", silri)
 	end
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
 	Story_Event("UM11_OBJECTIVE_03")
-	
+
 	consolee.Highlight(true)
 	Add_Radar_Blip(consolee, "consolee")
 	Register_Timer(Hint_SilriHurt, 10)
@@ -1625,22 +1625,22 @@ function CINE_Intro_Silri()
 
 	silri.Hide(true)
 	silri.Prevent_All_Fire(true)
-	
+
 	--Fade_Screen_Out(1)
 	--Sleep(1)
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
+	Start_Cinematic_Camera()
 
-	cin_silri = Create_Generic_Object("SILRI", cinesilri.Get_Position(), neutral_player)	
-	cin_sadept = Create_Generic_Object("UM05_ADEPTTWOCINE", cinesilriadept.Get_Position(), neutral_player)	
-	cin_rancor = Create_Generic_Object("UM05_CUDDLES_THE_RANCOR", cinerancorsummon.Get_Position(), neutral_player)	
+	cin_silri = Create_Generic_Object("SILRI", cinesilri.Get_Position(), neutral_player)
+	cin_sadept = Create_Generic_Object("UM05_ADEPTTWOCINE", cinesilriadept.Get_Position(), neutral_player)
+	cin_rancor = Create_Generic_Object("UM05_CUDDLES_THE_RANCOR", cinerancorsummon.Get_Position(), neutral_player)
 	cin_silri.Prevent_AI_Usage(true)
-	
+
 	cin_sadept.Override_Max_Speed(.25)
 	cin_sadept.Move_To(cinesilriadeptmoveto)
-	
+
 	cin_silri.Teleport_And_Face(cinesilri)
 	cin_rancor.Turn_To_Face(cin_sadept)
 	Fade_Screen_In(1)
@@ -1653,28 +1653,28 @@ function CINE_Intro_Silri()
 	cin_silri.Play_Animation("cinematic", false, 0)
 	Sleep(1)
 	cin_sadept.Face_Immediate(cin_silri)
-	
+
 	while not State_Mission_05_Done	do Sleep(.5) end
-	
+
 	cin_sadept.Suspend_Locomotor(true)
 	cin_silri.Play_Animation("idle", false, 2)
-	
+
 	Set_Cinematic_Camera_Key(camintrosilripos, 0, 0, 12, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camintrosilrilook, 0, 0, -14, 0, 0, 0, 0)
 	Sleep(.25)
 	cin_silri.Turn_To_Face(cin_sadept)
 	cin_silri.Play_Animation("idle", false, 0)
 	Story_Event("CHATTER_06")
-	
+
 	while not State_Mission_06_Done	do Sleep(.5) end
-	
+
 	cin_silri.Suspend_Locomotor(true)
 	cin_rancor.Suspend_Locomotor(true)
 	Set_Cinematic_Camera_Key(camsilriadeptpos, 0, 0, 17, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camsilriadeptlook, 0, 0, -15, 0, 0, 0, 0)
 	cin_silri.Play_Animation("cinematic", false, 0)
 	Story_Event("CHATTER_07")
-	
+
 	while not State_Mission_07_Done	do Sleep(.5) end
 
 	cin_sadept.Override_Max_Speed(1)
@@ -1685,9 +1685,9 @@ function CINE_Intro_Silri()
 	cin_sadept.Attack_Target(cin_silri)
 	cin_silri.Play_Animation("idle", false, 0)
 	Story_Event("CHATTER_08")
-	
+
 	while not State_Mission_08_Done	do Sleep(.5) end
-	
+
 	Transition_Cinematic_Camera_Key(cin_sadept, 2, 0, 0, 18, 0, cin_sadept, 0, 0)
 	Transition_Cinematic_Target_Key(cin_silri, 2, 0, 0, 6, 0, cin_silri, 0, 0)
 	cin_rancor.Play_Animation("idle", false, 1)
@@ -1695,7 +1695,7 @@ function CINE_Intro_Silri()
 	cin_sadept.Attack_Target(cin_silri)
 	cin_silri.Turn_To_Face(cin_sadept)
 	Sleep(1.5)
-	
+
 	cin_silri.Play_Animation("attack", false, 0)
 	Set_Cinematic_Camera_Key(camfightpos, 0, 0, 20, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camfightlook, 0, 0, 0, 0, 0, 0, 0)
@@ -1704,17 +1704,17 @@ function CINE_Intro_Silri()
 	Sleep(.5)
 	cin_silri.Play_Animation("cinematic", false, 0)
 	Story_Event("CHATTER_02")
-	
+
 	Set_Cinematic_Camera_Key(camadeptdiepos, 0, 0, 18, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cin_silri, 0, 0, 8, 0, 0, 0, 0)
-	
+
 	while not State_Mission_02_Done	do Sleep(.5) end
-	
+
 	Story_Event("CHATTER_03")
-	
+
 	while not State_Mission_03_Done	do Sleep(.5) end
 	cin_silri.Play_Animation("idle", false, 0)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Create_Thread("CINE_Intro_Silri_Cleanup")
@@ -1726,17 +1726,17 @@ function CINE_Intro_Silri_Cleanup()
 
 	silri.Prevent_All_Fire(false)
 	silri.Hide(false)
-	
+
 	if TestValid(cin_sadept) then cin_sadept.Despawn() end
 	if TestValid(cin_silri) then cin_silri.Despawn() end
 	if TestValid(cin_rancor) then cin_rancor.Despawn() end
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(0)	
+	Letter_Box_Out(0)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Fade_Screen_In(1)
-	
+
 	Create_Thread("MissionObjective_PartTwo")
 	Register_Prox(noticetroopers, Prox_NoticeTroopers, 150, underworld_player)
 end
@@ -1795,16 +1795,16 @@ function CINE_Urai_Nodes()
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	-- Silri gets her holocron --
-	
+
 	silri.Hide(true)
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
 		cuddles.Hide(true)
 	end
-	
+
 	cin_silri = Create_Generic_Object("SILRI", silriholospawn.Get_Position(), neutral_player)
 	cin_cuddles = Create_Generic_Object("CUDDLES_THE_RANCOR", cuddlesholospawn.Get_Position(), neutral_player)
 	cin_silri.Face_Immediate(holocron)
@@ -1815,8 +1815,8 @@ function CINE_Urai_Nodes()
 	silri.Prevent_AI_Usage(true)
 	cin_silri.Prevent_AI_Usage(true)
 	cin_silri.Prevent_All_Fire(true)
-	
-	
+
+
 	Sleep(1)
 	Fade_Screen_In(1)
 
@@ -1825,24 +1825,24 @@ function CINE_Urai_Nodes()
 	Set_Cinematic_Target_Key(camhololook, 0, 0, 10, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(camocronpos, 5, 0, 0, 35, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(camocronlook, 5, 0, 0, -5, 0, 0, 0, 0)
-	
+
 	cin_silri.Play_Animation("cinematic", false, 0)
 	Story_Event("CHATTER_04")
-	
+
 	while not State_Mission_04_Done	do Sleep(.5) end
 
 	Story_Event("CHATTER_00")
-	
+
 	while not State_Mission_00_Done	do Sleep(.5) end
 	cin_silri.Play_Animation("idle", false, 0)
-	
+
 	Fade_Screen_Out(2)
 	Sleep(2)
-	
+
 	-- introduce urai fen --
-	
+
 	Fade_Screen_In(2)
-	
+
 	Set_Cinematic_Camera_Key(camholeposend, 0, 0, 20, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camholelookend, 0, 0, 6, 0, 0, 0, 0)
 	cin_uadept = Create_Generic_Object("UM05_ADEPTTWOCINE", cineadepttwospawn.Get_Position(), neutral_player)
@@ -1851,7 +1851,7 @@ function CINE_Urai_Nodes()
 	Transition_Cinematic_Camera_Key(camuraifaceoffpos, 5, 0, 0, 20, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(camuraifaceofflook, 5, 0, 0, -10, 0, 0, 0, 0)
 	Sleep(2.5)
-	
+
 	urai_fen.Turn_To_Face(cin_uadept)
 	Sleep(2)
 	cin_uadept.Turn_To_Face(urai_fen)
@@ -1861,50 +1861,50 @@ function CINE_Urai_Nodes()
 	cin_uadept.Change_Owner(empire_player)
 	urai_fen.Change_Owner(underworld_player)
 	cin_uadept.Attack_Target(urai_fen)
-	
+
 	urai_fen.Play_Animation("cinematic", false, 0)
 	Story_Event("CHATTER_17")
-	
+
 	while not State_Mission_17_Done	do Sleep(.5) end
 	urai_fen.Play_Animation("idle", false, 0)
 	Sleep(1)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
-	
+
 	Create_Thread("CINE_Urai_Nodes_Cleanup")
 end
 
 function CINE_Urai_Nodes_Cleanup()
 	CINE_Active_Urai_Nodes = false
 	current_cine_id = nil
-	
+
 	thesithartifact.Despawn()
-	
+
 	Fade_Screen_In(1)
-	
+
 	Point_Camera_At(urai_fen)
 	underworld_player.Select_Object(urai_fen)
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
-	
+
 	urai_fen.Suspend_Locomotor(false)
-	
+
 	if TestValid(cin_uadept) then cin_uadept.Despawn() end
 	if TestValid(cin_silri) then cin_silri.Despawn() end
 	if TestValid(cin_cuddles) then cin_cuddles.Despawn() end
 	if TestValid(cin_fx) then cin_fx.Despawn() end
-	
+
 	Create_Thread("PartThree_IntroAdeptTwo")
 
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	Story_Event("UM11_OBJECTIVE_04")
-	
+
 	nodea.Highlight(true)
 	Add_Radar_Blip(nodea, "nodea")
 	nodeb.Highlight(true)
@@ -1913,7 +1913,7 @@ function CINE_Urai_Nodes_Cleanup()
 	Add_Radar_Blip(nodec, "nodec")
 	noded.Highlight(true)
 	Add_Radar_Blip(noded, "noded")
-	
+
 	Register_Timer(Hint_UraiHeal, 8)
 	Story_Event("UM11_HINT_11")
 end
@@ -1924,7 +1924,7 @@ function Hint_UraiHeal()
 		Register_Timer(Hint_UraiHeal, 15)
 	end
 end
-	
+
 function PartThree_Node_A()
 	Create_Thread("PartThree_Blow_A")
 	VictoryCondition_Blown_A = true
@@ -2286,8 +2286,8 @@ function CINE_Silri_Troopers()
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	silri.Hide(true)
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
@@ -2296,7 +2296,7 @@ function CINE_Silri_Troopers()
 	if TestValid(sithwall) then
 		sithwall.Despawn()
 	end
-	
+
 	cin_silri = Create_Generic_Object("SILRI", silriholospawn.Get_Position(), neutral_player)
 	cin_cuddles = Create_Generic_Object("CUDDLES_THE_RANCOR", cuddlesholospawn.Get_Position(), neutral_player)
 	cin_silri.Face_Immediate(holocron)
@@ -2305,7 +2305,7 @@ function CINE_Silri_Troopers()
 	cin_silri.Prevent_AI_Usage(true)
 	cin_silri.Prevent_All_Fire(true)
 	Sleep(1)
-	
+
 	Fade_Screen_In(1)
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camocronpos, 0, 0, 35, 0, 0, 0, 0)
@@ -2316,16 +2316,16 @@ function CINE_Silri_Troopers()
 	Story_Event("CHATTER_29")
 	Sleep(.5)
 	cin_cuddles.Turn_To_Face(cin_silri)
-	
+
 	while not State_Mission_29_Done	do Sleep(.5) end
-	
+
 	Story_Event("CHATTER_40")
-	
+
 	cin_silri.Move_To(camsilrileavepos)
 	cin_cuddles.Move_To(camsilrileavepos)
 	Set_Cinematic_Camera_Key(camsilrileavepos, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camsilrileavelook, 0, 0, -15, 0, 0, 0, 0)
-	
+
 	while not State_Mission_40_Done	do Sleep(.5) end
 
 	Fade_Screen_Out(2)
@@ -2339,23 +2339,23 @@ function CINE_Silri_Troopers_Cleanup()
 
 	if TestValid(cin_silri) then cin_silri.Despawn() end
 	if TestValid(cin_cuddles) then cin_cuddles.Despawn() end
-	
+
 	silri.Teleport_And_Face(silristartfour)
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
 		cuddles.Teleport_And_Face(cuddlesstartfour)
 	end
-		
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
-	
+
 	Create_Thread("MissionObjective_PartFour")
 end
 
 function MissionObjective_PartFour()
-	if VictoryCondition_MeetTyber then 
+	if VictoryCondition_MeetTyber then
 		ablowa.Despawn()
 		ablowb.Despawn()
 		ablowc.Despawn()
@@ -2365,7 +2365,7 @@ function MissionObjective_PartFour()
 		ablowg.Despawn()
 		ablowh.Despawn()
 		ablowr.Despawn()
-	
+
 		bblowa.Despawn()
 		bblowb.Despawn()
 		bblowc.Despawn()
@@ -2375,7 +2375,7 @@ function MissionObjective_PartFour()
 		bblowg.Despawn()
 		bblowh.Despawn()
 		bblowr.Despawn()
-	
+
 		cblowa.Despawn()
 		cblowb.Despawn()
 		cblowc.Despawn()
@@ -2391,7 +2391,7 @@ function MissionObjective_PartFour()
 		cblowm.Despawn()
 		cblown.Despawn()
 		cblowr.Despawn()
-	
+
 		dblowa.Despawn()
 		dblowb.Despawn()
 		dblowc.Despawn()
@@ -2409,11 +2409,11 @@ function MissionObjective_PartFour()
 		dblowo.Despawn()
 		dblowr.Despawn()
 	end
-	
+
 	doore2 = Create_Generic_Object("UM05_MOVING_DOOR", doore2spawn.Get_Position(), neutral_player)
 	doore2.Play_Animation("Cinematic",false,3)
-	doore2.Teleport_And_Face(doore2spawn)	
-	
+	doore2.Teleport_And_Face(doore2spawn)
+
 	MissionPartFourStarted = true
 	silri.Set_In_Limbo(false)
 	silri.Hide(false)
@@ -2432,29 +2432,29 @@ function MissionObjective_PartFour()
 	end
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
-	else 
+	else
 		silri.Activate_Ability("SUMMON", silri)
 	end
 
 	Fade_Screen_In(1)
 	Point_Camera_At(silri)
 	underworld_player.Select_Object(silri)
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	Story_Event("UM11_OBJECTIVE_06")
 	Register_Prox(activatetroopers, Prox_ActivateTroopers, 75, underworld_player)
 	Story_Event("UM11_HINT_10")
-	
+
 	Sleep(1)
-	doore2.Despawn()	
+	doore2.Despawn()
 	doore2 = Create_Generic_Object("UM02_KILLABLE_DOOR", doore2spawn.Get_Position(), underworld_player)
-	doore2.Teleport_And_Face(doore2spawn)	
-	doore2.Teleport_And_Face(doore2spawn)	
+	doore2.Teleport_And_Face(doore2spawn)
+	doore2.Teleport_And_Face(doore2spawn)
 	doore2.Set_Selectable(false)
 	doore2.Make_Invulnerable(true)
-	
+
 	doore2.Highlight(true)
 	Add_Radar_Blip(doore2, "doore2")
 
@@ -2476,7 +2476,7 @@ function Hint_SilriCuddles()
 		Register_Timer(Hint_SilriCuddles, 15)
 	end
 end
-	
+
 
 function PartFour_ReleaseTroopers()
 	dt1.Attach_Particle_Effect("STUNNED_PARTICLE_EFFECT")
@@ -2545,7 +2545,7 @@ end
 function CINE_Grouped_Up()
 	Cancel_Fast_Forward()
 	CINE_Active_Grouped_Up = true
-	
+
 	if TestValid(dt1) then dt1.Despawn() end
 	if TestValid(dt2) then dt2.Despawn() end
 	if TestValid(dt3) then dt3.Despawn() end
@@ -2561,20 +2561,20 @@ function CINE_Grouped_Up()
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	silri.Hide(true)
 	silri.Prevent_AI_Usage(true)
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
 		cuddles.Hide(true)
 	end
-	
+
 	cin_urai = Create_Generic_Object("URAI_FEN", cineddduraispawn.Get_Position(), neutral_player)
 	cin_tyber = Create_Generic_Object("TYBER_ZANN", cinedddtyberspawn.Get_Position(), neutral_player)
 	cin_urai.Face_Immediate(silridddspawn)
 	cin_tyber.Face_Immediate(silridddspawn)
-	
+
 	cin_silri = Create_Generic_Object("SILRI", silridddspawn.Get_Position(), neutral_player)
 	cin_cuddles = Create_Generic_Object("CUDDLES_THE_RANCOR", cuddlesdddspawn.Get_Position(), neutral_player)
 	cin_trooper = Create_Generic_Object("DARK_TROOPER_PHASEIII", trooperdddspawn.Get_Position(), neutral_player)
@@ -2585,7 +2585,7 @@ function CINE_Grouped_Up()
 	cin_silri.Suspend_Locomotor(true)
 	Sleep(1)
 	cin_trooper.Take_Damage(9999)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camdddpos, 0, 0, 35, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camdddlook, 0, 0, -5, 0, 0, 0, 0)
@@ -2602,7 +2602,7 @@ function CINE_Grouped_Up()
 	Sleep(1)
 	doora.Play_Animation("Cinematic", false, 1)
 	Sleep(1)
-	
+
 	Set_Cinematic_Camera_Key(camfindsilripos, 0, 0, 22, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camfindsilrilook, 0, 0, -22, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(camfindsilripos, 3, 0, 0, 26, 0, 0, 0, 0)
@@ -2614,9 +2614,9 @@ function CINE_Grouped_Up()
 	cin_silri.Suspend_Locomotor(true)
 	cin_cuddles.Turn_To_Face(cin_tyber)
 	doora.Despawn()
-	
+
 	while not State_Mission_11_Done	do Sleep(.5) end
-	
+
 	Set_Cinematic_Camera_Key(camdddpos, 0, 0, 35, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camdddlook, 0, 0, -10, 0, 0, 0, 0)
 	cin_urai.Override_Max_Speed(.75)
@@ -2624,17 +2624,17 @@ function CINE_Grouped_Up()
 	cin_urai.Move_To(uraidddgoto)
 	cin_tyber.Move_To(tyberdddgoto)
 	Story_Event("CHATTER_30")
-	
+
 	while not State_Mission_30_Done	do Sleep(.5) end
-	
+
 	Set_Cinematic_Camera_Key(cammeetsilripos, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(cammeetsilrilook, 0, 0, -0, 0, 0, 0, 0)
 	cin_silri.Play_Animation("cinematic", false, 0)
 	Story_Event("CHATTER_31")
-	
+
 	while not State_Mission_31_Done	do Sleep(.5) end
 	cin_silri.Play_Animation("idle", false, 0)
-	
+
 	Set_Cinematic_Camera_Key(camfindsilripos, 0, 0, 26, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camfindsilrilook, 0, 0, -22, 0, 0, 0, 0)
 	Sleep(1)
@@ -2645,13 +2645,13 @@ function CINE_Grouped_Up()
 	cin_urai.Override_Max_Speed(1)
 	cin_tyber.Override_Max_Speed(1)
 	cin_silri.Suspend_Locomotor(false)
-	cin_silri.Move_To(partfourmeet)	
-	cin_cuddles.Move_To(partfourmeet)	
-	cin_tyber.Move_To(partfourmeet)	
-	cin_urai.Move_To(partfourmeet)	
-	
+	cin_silri.Move_To(partfourmeet)
+	cin_cuddles.Move_To(partfourmeet)
+	cin_tyber.Move_To(partfourmeet)
+	cin_urai.Move_To(partfourmeet)
+
 	while not State_Mission_32_Done	do Sleep(.5) end
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Create_Thread("CINE_Grouped_Up_Cleanup")
@@ -2667,18 +2667,18 @@ function CINE_Grouped_Up_Cleanup()
 	if TestValid(cin_cuddles) then cin_cuddles.Despawn() end
 	if TestValid(cin_trooper) then cin_trooper.Despawn() end
 	if TestValid(doora) then doora.Despawn() end
-	
+
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
-	else 
+	else
 		silri.Activate_Ability("SUMMON", silri)
 	end
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
-	
+
 	Create_Thread("PartFour_StartFive")
 end
 
@@ -2693,7 +2693,7 @@ function PartFour_StartFive()
 	MissionPartFourStarted = true
 	VictoryCondition_DarkTroopersDead = true
 	VictoryCondition_EndedFour = true
-end	
+end
 
 function Kill_Off_Extras()
 	extras = Find_All_Objects_With_Hint("hallguard3")
@@ -2827,11 +2827,11 @@ function MissionObjective_PartFive()
 	tyber_zann.Make_Invulnerable(false)
 	tyber_zann.Teleport_And_Face(meetspot)
 	tyber_zann.Move_To(partfourmeet)
-	
+
 	doorj = Create_Generic_Object("UM05_MOVING_DOOR", doorjspawn.Get_Position(), neutral_player)
-	doorj.Teleport_And_Face(doorjspawn)	
+	doorj.Teleport_And_Face(doorjspawn)
 	doorj.Play_Animation("Cinematic",false,3)
-	
+
 	Fade_Screen_In(1)
 	--Point_Camera_At(camstart_five)
 	mdu_one = Create_Generic_Object("UNDERWORLD_MOBILE_DEFENSE_UNIT", mdua.Get_Position(), empire_player)
@@ -2848,14 +2848,14 @@ function MissionObjective_PartFive()
 	underworld_player.Select_Object(tyber_zann)
 	underworld_player.Select_Object(urai_fen)
 	underworld_player.Select_Object(silri)
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	range = 200
 	Register_Prox(hallguard1, Prox_HallGuard_1, range, underworld_player)
 	Register_Prox(hallguard2, Prox_HallGuard_2, range, underworld_player)
-		
+
 	movegroup.Highlight(true)
 	Add_Radar_Blip(movegroup, "movegroup")
 	Story_Event("UM11_OBJECTIVE_08")
@@ -2931,17 +2931,17 @@ function Prox_MoveGroup(self_obj, trigger_obj)
 	end
 end
 
-function CINE_Outside_Vault_Setup()		
+function CINE_Outside_Vault_Setup()
 
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Letter_Box_In(0)
-	
+
 		doorf = Create_Generic_Object("UM05_MOVING_DOOR", doorfspawn.Get_Position(), neutral_player)
-		doorf.Teleport_And_Face(doorfspawn)	
-		
+		doorf.Teleport_And_Face(doorfspawn)
+
 		--urai_fen.Set_Selectable(false)
 		urai_fen.Teleport_And_Face(fiveuraispawn)
 		urai_fen.Move_To(urai_door)
@@ -3004,15 +3004,15 @@ function CINE_Outside_Vault_Setup()
 		end
 		current_cine_id = Create_Thread("CINE_Outside_Vault")
 end
-		
+
 function CINE_Outside_Vault()
 	Cancel_Fast_Forward()
 	CINE_Active_Outside_Vault = true
 
-	Start_Cinematic_Camera()	
+	Start_Cinematic_Camera()
 	doorf.Play_Animation("Cinematic",false,2)
 	doorh.Play_Animation("Cinematic",false,2)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camdoorclosepos, 0, 0, 40, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camdoorcloselook, 0, 0, 10, 0, 0, 0, 0)
@@ -3022,30 +3022,30 @@ function CINE_Outside_Vault()
 	Sleep(.5)
 	doorf.Play_Animation("Cinematic",false,3)
 	Sleep(.5)
-	
+
 	Set_Cinematic_Camera_Key(camuraiworkpos, 0, 0, 30, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camuraiworklook, 0, 0, -10, 0, 0, 0, 0)
 	tyber_zann.Play_Animation("cinematic", true, 2)
 	Story_Event("CHATTER_21")
-	
+
 	while not State_Mission_21_Done	do Sleep(.5) end
 	tyber_zann.Play_Animation("idle", true, 0)
-	
+
 	urai_fen.Turn_To_Face(doorh)
 	urai_fen.Play_Animation("cinematic", true, 0)
 	Story_Event("CHATTER_22")
-	
+
 	while not State_Mission_22_Done	do Sleep(.5) end
 	urai_fen.Play_Animation("idle", true, 0)
-	
+
 	Set_Cinematic_Camera_Key(camoutvtyberpos, 0, 0, 20, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camoutvtyberlook, 0, 0, 0, 0, 0, 0, 0)
 	tyber_zann.Play_Animation("cinematic", true, 2)
 	Story_Event("CHATTER_26")
-	
+
 	while not State_Mission_26_Done	do Sleep(.5) end
 	tyber_zann.Play_Animation("idle", true, 0)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 	Create_Thread("CINE_Outside_Vault_Cleanup")
@@ -3055,13 +3055,13 @@ function CINE_Outside_Vault_Cleanup()
 	CINE_Active_Outside_Vault = false
 	current_cine_id = nil
 
-	doorf.Despawn()	
+	doorf.Despawn()
 	doorf = Create_Generic_Object("UM02_KILLABLE_DOOR", doorfspawn.Get_Position(), underworld_player)
-	doorf.Teleport_And_Face(doorfspawn)	
-	doorf.Teleport_And_Face(doorfspawn)	
+	doorf.Teleport_And_Face(doorfspawn)
+	doorf.Teleport_And_Face(doorfspawn)
 	doorf.Set_Selectable(false)
 	doorf.Make_Invulnerable(true)
-	
+
 	Fade_Screen_In(1)
 	Point_Camera_At(tyber_zann)
 	underworld_player.Select_Object(tyber_zann)
@@ -3070,17 +3070,17 @@ function CINE_Outside_Vault_Cleanup()
 
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
-	else 
+	else
 		silri.Activate_Ability("SUMMON", silri)
 	end
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	Create_Thread("PartFive_SpringTrap")
 	Register_Timer(Hint_UseMDUs, 1)
 end
@@ -3154,7 +3154,7 @@ function PartFive_TroopsAttack()
 end
 
 function PartFive_TroopsUseMissiles()
-	while not VictoryCondition_GuardsDead do 
+	while not VictoryCondition_GuardsDead do
 		if TestValid(troopsa) then
 			if not troopsa.Is_Ability_Active("JET_PACK") then
 				if troopsa.Is_Ability_Ready("DEPLOY") then
@@ -3219,10 +3219,10 @@ end
 function PartFive_InVault()
 	Story_Event("CHATTER_27")
 	while not State_Mission_27_Done	do Sleep(.5) end
-	
+
 	Story_Event("CHATTER_28")
 	while not State_Mission_28_Done	do Sleep(.5) end
-	
+
 	Create_Thread("PartSix_StartAdeptFour")
 end
 
@@ -3236,7 +3236,7 @@ end
 
 function PartSix_StartAdeptFour()
 	doorb = Create_Generic_Object("UM05_MOVING_DOOR", doorbspawn.Get_Position(), neutral_player)
-	doorb.Teleport_And_Face(doorbspawn)	
+	doorb.Teleport_And_Face(doorbspawn)
 	doorb.Play_Animation("Cinematic",false,3)
 	current_cine_id = Create_Thread("CINE_Final_Adept")
 end
@@ -3247,12 +3247,12 @@ function CINE_Final_Adept()
 
 	Suspend_AI(1)
 	Lock_Controls(1)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
-	
-	doorf.Despawn()	
-	
+
+	doorf.Despawn()
+
 		urai_fen.Teleport_And_Face(finaluraispot)
 		urai_fen.Prevent_All_Fire(true)
 		urai_fen.Hide(true)
@@ -3312,8 +3312,8 @@ function CINE_Final_Adept()
 			end
 		end
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	cin_tele = Create_Generic_Object("UM05_ADEPTFOURCINE", lastadeptspawn.Get_Position(), neutral_player)
 	cin_tyber = Create_Generic_Object("TYBER_ZANN", lasttyberspawn.Get_Position(), neutral_player)
 	cin_silri = Create_Generic_Object("SILRI", lastsilrispawn.Get_Position(), neutral_player)
@@ -3326,9 +3326,9 @@ function CINE_Final_Adept()
 	cin_tele.Turn_To_Face(cin_tyber)
 	cin_silri.Prevent_AI_Usage(true)
 	cin_silri.Prevent_All_Fire(true)
-	
+
 	Sleep(.5)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camlastpos, 0, 0, 50, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camlastlook, 0, 0, -5, 0, 0, 0, 0)
@@ -3341,27 +3341,27 @@ function CINE_Final_Adept()
 	cin_silri.Turn_To_Face(cin_tele)
 	cin_cuddles.Turn_To_Face(cin_tele)
 	Sleep(3)
-	
+
 	Story_Event("CHATTER_33")
 	Set_Cinematic_Camera_Key(camstraightdown2, 0, 0, 35, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camstraightdown4, 0, 0, 0, 0, 0, 0, 0)
-	
+
 	while not State_Mission_33_Done	do Sleep(.5) end
-	
+
 	cin_tyber.Play_Animation("cinematic", true, 2)
 	Story_Event("CHATTER_34")
 	Set_Cinematic_Camera_Key(camlastpan, 0, 0, 55, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camlastlook, 0, 0, -10, 0, 0, 0, 0)
-	
+
 	while not State_Mission_34_Done	do Sleep(.5) end
 	cin_tyber.Play_Animation("idle", true, 0)
-	
+
 	Story_Event("CHATTER_35")
 	Set_Cinematic_Camera_Key(camstraightdown2, 0, 0, 35, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camstraightdown4, 0, 0, 0, 0, 0, 0, 0)
-	
+
 	while not State_Mission_35_Done	do Sleep(.5) end
-	
+
 	Set_Cinematic_Camera_Key(camstraightdown1, 0, 0, 175, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camstraightdown3, 0, 0, 0, 0, 0, 0, 0)
 	Transition_Cinematic_Camera_Key(camstraightdown2, 11, 0, 0, 40, 0, 0, 0, 0)
@@ -3421,10 +3421,10 @@ function CINE_Final_Adept()
 	cin_tele.Change_Owner(neutral_player)
 	cin_silri.Play_Animation("cinematic", true, 0)
 	Story_Event("CHATTER_36")
-	
+
 	while not State_Mission_36_Done	do Sleep(.5) end
 	cin_silri.Play_Animation("idle", true, 0)
-	
+
 	Set_Cinematic_Camera_Key(camsilrityberpos, 0, 0, 25, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(camsilrityberlook, 0, 0, 0, 0, 0, 0, 0)
 	cin_tyber.Play_Animation("cinematic", true, 2)
@@ -3433,17 +3433,17 @@ function CINE_Final_Adept()
 	Sleep(2)
 	cin_tyber.Suspend_Locomotor(false)
 	cin_tyber.Turn_To_Face(cin_silri)
-	
+
 	while not State_Mission_37_Done	do Sleep(.5) end
 	cin_tyber.Play_Animation("idle", true, 0)
-	
+
 	Create_Thread("CINE_Final_Adept_Cleanup")
 end
 
 function CINE_Final_Adept_Cleanup()
 	CINE_Active_Final_Adept = false
 	current_cine_id = nil
-	
+
 		urai_fen.Prevent_All_Fire(false)
 		urai_fen.Hide(false)
 		tyber_zann.Prevent_All_Fire(false)
@@ -3474,7 +3474,7 @@ function CINE_Final_Adept_Cleanup()
 				end
 			end
 		end
-	
+
 	if TestValid(cin_tyber) then cin_tyber.Despawn() end
 	if TestValid(cin_urai) then cin_urai.Despawn() end
 	if TestValid(cin_silri) then cin_silri.Despawn() end
@@ -3485,33 +3485,33 @@ function CINE_Final_Adept_Cleanup()
 	if TestValid(cin_fx3) then cin_fx3.Despawn() end
 	if TestValid(cin_fx4) then cin_fx4.Despawn() end
 	if TestValid(cin_fx5) then cin_fx5.Despawn() end
-	
+
 	cuddles = Find_Nearest(silri, "CUDDLES_THE_RANCOR")
 	if TestValid(cuddles) then
-	else 
+	else
 		silri.Activate_Ability("SUMMON", silri)
 	end
-	
+
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
-	
+
 	Fade_Screen_In(1)
 	Point_Camera_At(tyber_zann)
 	underworld_player.Select_Object(tyber_zann)
 	underworld_player.Select_Object(urai_fen)
 	underworld_player.Select_Object(silri)
-	
+
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	Create_Thread("PartSix_IntroAdeptFour")
 end
 
 
 function PartSix_IntroAdeptFour()
-	-- this adept is easiest killed by 
+	-- this adept is easiest killed by
 	adeptfour = Create_Generic_Object("UM05_ADEPTFOUR", adeptfourspawn.Get_Position(), empire_player)
 	Register_Death_Event(adeptfour, PartSix_AdeptFourDead)
 	Find_And_Attack({adeptfour})
@@ -3708,28 +3708,28 @@ end
 -- delay a short time and then show game has been won VICTORY
 function EndMissionVictory()
     Cancel_Fast_Forward()
-	
-	
+
+
 	units = Find_All_Objects_Of_Type(underworld_player)
 	for k, unit in pairs(units) do
 		if TestValid(unit) then
 			unit.Make_Invulnerable(true)
 		end
 	end
-	
+
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Fade_Screen_Out(1)
 	Sleep(1)
-	
+
 	ext_sky.Hide(false)
 	int_sky.Hide(true)
 	endcinebox.Hide(true)
 	endcinebox1.Hide(true)
 
 	Letter_Box_In(0)
-	Start_Cinematic_Camera()	
-	
+	Start_Cinematic_Camera()
+
 	if TestValid(juggernaut) then
 		endcinejugger.Override_Max_Speed(1.5)
 		endcinejugger.Move_To(endcinejuggergoto)
@@ -3750,9 +3750,9 @@ function EndMissionVictory()
 		endcincuddles.Prevent_AI_Usage(true)
 		endcincuddles.Prevent_All_Fire(true)
 		endcincuddles.Make_Invulnerable(true)
-		
+
 		endcinejugger.Despawn()
-		
+
 		endcintyber.Override_Max_Speed(1.42)
 		endcintyber.Move_To(endcinejuggergoto)
 		endcinsilri.Override_Max_Speed(1.41)
@@ -3761,10 +3761,10 @@ function EndMissionVictory()
 		endcinurai.Move_To(endcinejuggergoto)
 		endcincuddles.Override_Max_Speed(1.35)
 		endcincuddles.Move_To(endcinejuggergoto)
-		
+
 	 	Sleep(.5)
 	end
-	
+
 	chase_list = Find_All_Objects_With_Hint("endchase")
 	for k, unit in pairs(chase_list) do
 		if TestValid(unit) then
@@ -3773,30 +3773,30 @@ function EndMissionVictory()
 			unit.Attack_Move(endcinejuggergoto)
 		end
 	end
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(endcinecampos, 0, 0, 50, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(endcinecamlook, 0, 0, 0, 0, 0, 0, 0)
-	
+
 	Transition_Cinematic_Camera_Key(endcinecampos, 10, 0, 0, 75, 0, 0, 0, 0)
 	Transition_Cinematic_Target_Key(endcinecamlook, 10, 0, 0, -15, 0, 0, 0, 0)
 	--Sleep(1)
-	
+
 	Fade_Screen_In(1)
 	Sleep(3)
-	
+
 	Story_Event("UM11_ENDMISSION_VICTORY")
 
 	Sleep(3)
 	Fade_Screen_Out(2)
 	Sleep(2)
 	End_Cinematic_Camera()
-	Letter_Box_Out(0)	
+	Letter_Box_Out(0)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	underworld_player.Remove_Orbital_Bombardment(false)
 
-	
+
 end
 
 -- delay a short time and then show game has been lost DEFEAT
@@ -4109,9 +4109,3 @@ function State_Mission_Chatter_55_Done(message)
 		State_Mission_55_Done = true
 	end
 end
-
-
-
-
-
-
