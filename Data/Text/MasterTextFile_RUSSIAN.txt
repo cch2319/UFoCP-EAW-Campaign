@@ -160,7 +160,7 @@ MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00,Шахтеры добывают
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_01,Усовершенствования: Рост дохода
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,ЩЕЛКНИТЕ, чтобы построить космошахты.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_01,Когда они работают, шахтеры добывают руду и ценные минералы на астероиде, преобразуя их в деньги.
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Набор отрядов: штурмовики, разведчики, полевые командиры
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtroopers, Scout Troopers, Noghri Assassins
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Усовершенствования: рост выносливости, увеличение мобильности
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,ЩЕЛКНИТЕ, чтобы построить имперские казармы
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,ЩЕЛКНИТЕ, чтобы построить казармы повстанцев
@@ -1368,7 +1368,8 @@ TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: самоходная средняя арт
 TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Набор отрядов: полевой командир, командир флота
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Открывает: Школа диверсантов
-TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Строительство: AT-AA, AT-AT
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Колония животных
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Аннигилятор находится под командой адмирала Гаарна.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
@@ -1494,8 +1495,8 @@ TEXT_ENCYCLOPEDIA_ION_CANNON_00,Оружие класса 'земля-космо
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Блокирует системы связи и сенсоры вражеских кораблей, вдвое сокращая их зону видимости.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Отсюда периодически появляются джавы.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Строительство: AT-ST, TIE-танк
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Открывает: Завод тяжелой техники, турболазерная башня
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Открывает: Завод тяжелой техники
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Открывает: Завод тяжелой техники
 TEXT_ENCYCLOPEDIA_LOADING,Загрузка…
@@ -18082,9 +18083,9 @@ TEXT_TOOLTIP_GARM_BEL_IBLIS,Гарм Бел Иблис - один из трех 
 TEXT_TOOLTIP_GARRISON_COMMAND_CENTER,Гарнизон: TBD
 TEXT_TOOLTIP_GARRISON_DROIDNODE,Гарнизон: дроиды-разрушители
 TEXT_TOOLTIP_GARRISON_DROIDWORKS,Гарнизон: дроиды-разрушители
-TEXT_TOOLTIP_GARRISON_E_ADVFAC,Гарнизон: танк 2-M
+TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garrison: AT-ATs
 TEXT_TOOLTIP_GARRISON_E_BARRACKS,Гарнизон: штурмовик, разведчик
-TEXT_TOOLTIP_GARRISON_E_HVYFAC,Гарнизон: SPMA-T
+TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garrison: 2-M Repulsor Tanks
 TEXT_TOOLTIP_GARRISON_E_LTFAC,Гарнизон: AT-ST
 TEXT_TOOLTIP_GARRISON_ES_01,Гарнизон: TIE-истребитель, TIE-бомбардировщик
 TEXT_TOOLTIP_GARRISON_ES_02,Гарнизон: TIE-истребитель, TIE-бомбардировщик, 'Тартан'

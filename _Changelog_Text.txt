@@ -70,6 +70,24 @@ Housekeeping:
 • TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)
 	-- ENG: Unlocks: Infiltrator Training Facility --> Unlocks: Infiltrator Academy
 
+• TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00: (BUG #745)
+	-- ENG: Builds: AT-AA, AT-AT --> Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
+	-- FRA: Produit : TB-AA, TB-TT --> (Same as English)
+	-- GER: Baut folgende Einheiten: AT-AA, AT-AT --> Baut folgende Einheiten: AT-AA, AT-AT, Lancetstaffel, Juggernaut-Kompanie
+	-- ITA: Unità prodotte: AT-AA, AT-AT --> (Same as English)
+	-- POL: Buduje: AT-AA, AT-AT --> (Same as English)
+	-- RUS: Строительство: AT-AA, AT-AT --> (Same as English)
+	-- SPA: Construye: AT-AA, AT-AT. --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00: (BUG #745)
+	-- ENG: Builds: Stormtrooper, Scout Trooper --> Builds: Stormtroopers, Scout Troopers, Noghri Assassins
+	-- FRA: Recruter des unités : Stormtrooper, Soldat éclaireur et Commandant de terrain --> (Same as English)
+	-- GER: Bildet folgende Einheiten aus: Sturmtruppen, Kundschafter --> Bildet folgende Einheiten aus: Sturmtruppen, Kundschafter, Noghri-Attentätertrupp
+	-- ITA: Unità arruolate: Truppe d'assalto, Esploratore imperiale, Comandante in campo --> (Same as English)
+	-- POL: Dostępne jednostki: szturmowcy, zwiadowcy, dowódca polowy. --> (Same as English)
+	-- RUS: Набор отрядов: штурмовики, разведчики, полевые командиры --> (Same as English)
+	-- SPA: Unidades alistadas: soldado de asalto, soldado explorador y comandante de campo. --> (Same as English)
+
 • TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00: (BUG #744)
 	-- ENG: Trains Infantry Platoons and Plex Soldiers and enables the construction of Officer Academies. --> Builds: Infantry Platoons, Plex Soldiers
 	-- FRA: Forme des bataillons d'infanterie, des Soldats Plex, et autorise la construction d'Écoles d'officiers. --> (Same as English)
@@ -88,6 +106,9 @@ Housekeeping:
 	-- RUS: [TBL] --> (Same as English)
 	-- SPA: [TBL] --> (Same as English)
 
+• TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01: (BUG #745)
+	-- ENG: Unlocks: Advanced Vehicle Factory, Hypervelocity Gun --> Unlocks: Advanced Factory, Hypervelocity Gun
+
 • TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00: (BUG #744)
 	-- ENG: Builds: MPTL Artillery, T4-B Tanks --> Builds: MPTL Artillery, T4-B Tanks --> Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
 	-- FRA: Produit : Artillerie LTPM, Chars T4-B --> (Same as English)
@@ -99,6 +120,24 @@ Housekeeping:
 
 • TEXT_ENCYCLOPEDIA_INFILTRATOR_00: (BUG #744)
 	-- ENG: Builds: Infiltrator --> Builds: Infiltrators
+
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00 (BUG #745)
+	-- ENG: Builds: AT-ST, TIE mauler --> Builds: AT-ST, TIE mauler, MDUs
+	-- FRA: Produit : TR-TT, Mauler TIE --> (Same as English)
+	-- GER: Baut folgende Einheiten: AT-ST, TIE-Mauler --> Baut folgende Einheiten: AT-ST, TIE-Mauler, MVE-Kompanie
+	-- ITA: Unità prodotte: AT-ST, TIE Mauler --> (Same as English)
+	-- POL: Pozwala na tworzenie: AT-ST, czołgu typu TIE --> (Same as English)
+	-- RUS: Строительство: AT-ST, TIE-танк --> (Same as English)
+	-- SPA: Construye: AT-ST, atacante TIE. --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01 (BUG #745)
+	-- ENG: Unlocks: Heavy Vehicle Factory, Turbolaser Tower --> Unlocks: Heavy Factory
+	-- FRA: Débloque : Usine de véhicules lourds, Tour turbolaser --> Débloque : Usine de véhicules lourds
+	-- GER: Ermöglicht: Schwere Fahrzeugfabrik, Turbolaser-Turm --> Ermöglicht: Schwere Fahrzeugfabrik
+	-- ITA: Strutture sbloccate: Fabbrica di veicoli pesanti, Torretta turbolaser --> Strutture sbloccate: Fabbrica di veicoli pesanti
+	-- POL: Odblokowuje: fabrykę pojazdów ciężko opancerzonych i wieżę turbolaserową --> Odblokowuje: fabrykę pojazdów ciężko opancerzonych
+	-- RUS: Открывает: Завод тяжелой техники, турболазерная башня --> Открывает: Завод тяжелой техники
+	-- SPA: Desbloquea: fábrica de vehículos pesados, torre turboláser. --> Desbloquea: fábrica de vehículos pesados
 
 • TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00: (BUG #744)
 	-- ENG: Builds: T2-B Tanks, Speeders --> Builds: T2-B Tanks, Speeders, MDUs
@@ -540,6 +579,24 @@ Housekeeping:
 
 • TEXT_TOOLTIP_DARKSIDE_ADEPT: (BUG #741)
 	-- ENG: Force wielding Imperials that utilize... --> Force-wielding Imperials that utilize...
+
+• TEXT_TOOLTIP_GARRISON_E_ADVFAC: (BUG #745)
+	-- ENG: Garrison: 2-M Tank --> Garrison: AT-ATs
+	-- FRA: Garnison : Char 2-M --> (Same as English)
+	-- GER: Garnison: Panzer 2-M --> Garnison: AT-AT
+	-- ITA: Guarnigione: Carro armato 2-M --> (Same as English)
+	-- POL: Garnizon: czołg 2-M --> (Same as English)
+	-- RUS: Гарнизон: танк 2-M --> (Same as English)
+	-- SPA: Guarnición: tanque 2-M. --> (Same as English)
+
+• TEXT_TOOLTIP_GARRISON_E_HVYFAC: (BUG #745)
+	-- ENG: Garrison: SPMA-T --> Garrison: 2-M Repulsor Tanks
+	-- FRA: Garnison : TAS-AP --> (Same as English)
+	-- GER: Garnison: SPMA-T --> Garnison: Repulsor-Panzer 2-M
+	-- ITA: Guarnigione: SPMA-T --> (Same as English)
+	-- POL: Garnizon: SPMA-T --> (Same as English)
+	-- RUS: Гарнизон: SPMA-T --> (Same as English)
+	-- SPA: Guarnición: SPMA-T. --> (Same as English)
 
 • TEXT_TOOLTIP_PIETT_02: (BUG #227)
 	-- ENG: A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships. --> Dedicated Imperial Fleet Commander.  Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in, with an additional 25% to other Star Destroyers.  The Accuser is an enhanced Star Destroyer equipped with a proton energy weapon for a quick, devastating attack.

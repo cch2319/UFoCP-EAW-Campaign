@@ -160,7 +160,7 @@ MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00,Los mineros de los asteroides e
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_01,Mejoras: suministros mejorados.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,Haz clic para construir una explotación minera en un asteroide.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_01,Cuando están operativos, los mineros de los asteroides extraen minerales y metales preciosos de las rocas espaciales y las convierten en dinero.
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Unidades alistadas: soldado de asalto, soldado explorador y comandante de campo.
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtroopers, Scout Troopers, Noghri Assassins
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Mejoras: adiestramiento de supervivencia, aumento en la movilidad.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,Haz clic para construir barracones imperiales.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,Haz clic para construir barracones rebeldes.
@@ -1368,7 +1368,8 @@ TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: turboláser intermedio autopropulsado.
 TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Construye: comandante de campo, comandante de flota.
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Desbloquea: centro de entrenamiento de infiltrados.
-TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Construye: AT-AA, AT-AT.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Nido animal
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,El Aniquilador está comandado por el almirante Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
@@ -1494,8 +1495,8 @@ TEXT_ENCYCLOPEDIA_ION_CANNON_00,Arma tierra-espacio. Desactiva los escudos y los
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Bloquea las comunicaciones y los sensores de las naves enemigas, con lo que divide entre dos su alcance visual.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Crea periódicamente jawas hasta su destrucción.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Construye: AT-ST, atacante TIE.
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Desbloquea: fábrica de vehículos pesados, torre turboláser.
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Desbloquea: fábrica de vehículos pesados
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Desbloquea: fábrica pesada
 TEXT_ENCYCLOPEDIA_LOADING,Cargando...
@@ -18082,9 +18083,9 @@ TEXT_TOOLTIP_GARM_BEL_IBLIS,Garm Bel Iblis es uno de los tres miembros fundadore
 TEXT_TOOLTIP_GARRISON_COMMAND_CENTER,Guarnición: TBD.
 TEXT_TOOLTIP_GARRISON_DROIDNODE,Guarnición: Droides destructores
 TEXT_TOOLTIP_GARRISON_DROIDWORKS,Guarnición: Droides destructores.
-TEXT_TOOLTIP_GARRISON_E_ADVFAC,Guarnición: tanque 2-M.
+TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garrison: AT-ATs
 TEXT_TOOLTIP_GARRISON_E_BARRACKS,Guarnición: soldado de asalto, soldado explorador.
-TEXT_TOOLTIP_GARRISON_E_HVYFAC,Guarnición: SPMA-T.
+TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garrison: 2-M Repulsor Tanks
 TEXT_TOOLTIP_GARRISON_E_LTFAC,Guarnición: AT-ST.
 TEXT_TOOLTIP_GARRISON_ES_01,Guarnición: caza TIE, bombardero TIE.
 TEXT_TOOLTIP_GARRISON_ES_02,Guarnición: caza TIE, bombardero TIE, crucero tartan.

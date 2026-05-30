@@ -160,7 +160,7 @@ MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00,Les Astromineurs extraient mine
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_01,Améliorations : Réserves accrues
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,CLIQUEZ pour construire un Complexe astrominier.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_01,Une fois opérationnels, les Astromineurs extraient le minerai et les minéraux contenus dans la roche céleste pour les convertir en crédits.
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Recruter des unités : Stormtrooper, Soldat éclaireur et Commandant de terrain
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds : Stormtroopers, Scout Troopers, Noghri Assassins
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Améliorations : Entraînement de survie, Mobilité accrue
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,CLIQUEZ pour construire une Caserne Impériale.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,CLIQUEZ pour construire une Caserne Rebelle.
@@ -1368,7 +1368,8 @@ TEXT_ENCYCLOPEDIA_ABREV_SPMAT,TAS-AP : Turbolaser d'Artillerie Standard AutoProp
 TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Produit : Commandant de terrain, Commandant de flotte
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Débloque : Centre de formation des Infiltrateurs
-TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Produit : TB-AA, TB-TT
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds : AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Nid de créature
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,L'Annihilator est le vaisseau de l'amiral Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
@@ -1494,8 +1495,8 @@ TEXT_ENCYCLOPEDIA_ION_CANNON_00,Arme de type sol-espace. Neutralise les bouclier
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Brouille les communications et les radars des vaisseaux ennemis, réduisant de moitié leur visibilité.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Génère périodiquement des Jawas jusqu'à sa destruction.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Produit : TR-TT, Mauler TIE
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Débloque : Usine de véhicules lourds, Tour turbolaser
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds : AT-ST, TIE mauler, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Débloque : Usine de véhicules lourds
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds : T2-B Tanks, Speeders, MDUs
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Débloque : Usine lourde
 TEXT_ENCYCLOPEDIA_LOADING,Chargement…
@@ -18082,9 +18083,9 @@ TEXT_TOOLTIP_GARM_BEL_IBLIS,Garm Bel Iblis est l'un des trois membres fondateurs
 TEXT_TOOLTIP_GARRISON_COMMAND_CENTER,Garnison : Non définie
 TEXT_TOOLTIP_GARRISON_DROIDNODE,Garnison : Droïdes destroyers
 TEXT_TOOLTIP_GARRISON_DROIDWORKS,Garnison : Droïdes destroyers
-TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garnison : Char 2-M
+TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garrison : AT-ATs
 TEXT_TOOLTIP_GARRISON_E_BARRACKS,Garnison : Stormtrooper, Éclaireur Impérial
-TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garnison : TAS-AP
+TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garrison : 2-M Repulsor Tanks
 TEXT_TOOLTIP_GARRISON_E_LTFAC,Garnison : TR-TT
 TEXT_TOOLTIP_GARRISON_ES_01,Garnison : Chasseur TIE, Bombardier TIE
 TEXT_TOOLTIP_GARRISON_ES_02,Garnison : Chasseur TIE, Bombardier TIE, Croiseur Tartan

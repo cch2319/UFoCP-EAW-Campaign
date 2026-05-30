@@ -1368,11 +1368,12 @@ TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Self-Propelled Medium Artillery-Turbolaser
 TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Builds: Field Commanders, Fleet Commanders
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Unlocks: Infiltrator Academy
-TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor vehicle factory the Empire can produce.  Constructs powerful all-terrain units.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
 TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Class: Animal Nest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,The Annihilator is commanded by Admiral Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
-TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtrooper, Scout Trooper
+TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtroopers, Scout Troopers, Noghri Assassins
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
@@ -1480,7 +1481,7 @@ TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Prevents reinforcements from warping i
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Periodically creates Gungans until destroyed.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Heavy vehicle factory that constructs advanced long-range armor.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Builds: 2-M Repulsor Tank, SPMA-T
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Unlocks: Advanced Vehicle Factory, Hypervelocity Gun
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Unlocks: Advanced Factory, Hypervelocity Gun
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: Gallofree HTT Wings, MPTL Artillery, T4-B Tanks
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,The mission holocron has been updated.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Periodically creates human civilians until destroyed.
@@ -1494,8 +1495,8 @@ TEXT_ENCYCLOPEDIA_ION_CANNON_00,A ground-to-space weapon. Disables shields and e
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Blocks communication and sensors of enemy ships, causing their fog-of-war sight range to be cut in half.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Periodically creates Jawas until destroyed.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Unlocks: Heavy Vehicle Factory, Turbolaser Tower
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler, MDUs
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Unlocks: Heavy Factory
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders, MDUs
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Unlocks: Heavy Factory
 TEXT_ENCYCLOPEDIA_LOADING,Loading...
@@ -18082,9 +18083,9 @@ TEXT_TOOLTIP_GARM_BEL_IBLIS,Garm Bel Iblis is one of the three founding members 
 TEXT_TOOLTIP_GARRISON_COMMAND_CENTER,Garrison: TBD
 TEXT_TOOLTIP_GARRISON_DROIDNODE,Garrison: Destroyer Droids
 TEXT_TOOLTIP_GARRISON_DROIDWORKS,Garrison: Destroyer Droids
-TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garrison: 2-M Tank
-TEXT_TOOLTIP_GARRISON_E_BARRACKS,Garrison: Stormtrooper, Scout trooper
-TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garrison: SPMA-T
+TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garrison: AT-ATs
+TEXT_TOOLTIP_GARRISON_E_BARRACKS,Garrison: Stormtroopers, Scout Troopers
+TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garrison: 2-M Repulsor Tanks
 TEXT_TOOLTIP_GARRISON_E_LTFAC,Garrison: AT-ST
 TEXT_TOOLTIP_GARRISON_ES_01,Garrison: TIE fighter, TIE bomber
 TEXT_TOOLTIP_GARRISON_ES_02,Garrison: TIE fighter, TIE bomber, Tartan Cruiser
