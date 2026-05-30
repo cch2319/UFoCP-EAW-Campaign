@@ -65,6 +65,7 @@ Housekeeping:
 • A handful of text strings that used colons (:), unlike other strings in FoC, had a space before their usage (f.e., "Windows Firewall :"), which has now been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as this was either intentional [in languages like French, where spaced punctuation is standard] or not applicable.)
 • Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 • Various instances of "Black Market" have been decapitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
+• "TEXT_PALACE_UNDERWORLD_BUILDS" has been renamed to "TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS". (No forward-facing changes.)
 
 
 • TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)
@@ -106,6 +107,28 @@ Housekeeping:
 	-- RUS: [TBL] --> (Same as English)
 	-- SPA: [TBL] --> (Same as English)
 
+• TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD: (BUG #746)
+	-- ENG: Trains Grenadiers and Mercenary Assault Soldiers --> Builds: Grenadiers, Mercenary Assault Squads, Consortium Slaves
+	-- FRA: Permet d'entraîner des Mercenaires d'assaut et des Grenadiers --> (Same as English)
+	-- GER: Bildet Grenadiere und Sturmsöldner aus. --> Bildet folgende Einheiten aus: Grenadiere, Sturmsöldner-Trupp, Konsortiumssklaven
+	-- ITA: Addestra i soldati mercenari e i soldati con disgregatori. --> (Same as English)
+	-- POL: Szkoli najemnych żołnierzy oraz żołnierzy z dezintegratorami --> (Same as English)
+	-- RUS: Здесь проводится подготовка солдат-наемников и штурмовых отрядов. --> (Same as English)
+	-- SPA: Entrena soldados mercenarios y soldados disruptores --> (Same as English)
+
+• TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD: (BUG #746)
+	-- ENG: Produces Destroyer Droids --> Builds: Destroyer Droids
+	-- GER: Stellt Zerstörerdroiden her. --> Baut folgende Einheiten: Zerstörerdroiden
+
+• TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD: (BUG #746)
+	-- ENG: Produces M.A.L. and F9-TZ Transports --> Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
+	-- FRA: Produit des LAM et des transports F9-TZ --> (Same as English)
+	-- GER: Produziert mobile Raketenwerfer und F9-TZ-Transporter --> Baut folgende Einheiten: Canderous-Panzer, MZ-8-Panzer, mobile Raketenwerfer, F9-TZ-Transporter
+	-- ITA: Produce MAL e trasporti F9-TZ. --> (Same as English)
+	-- POL: Produkuje MWR oraz transportowce F9-TZ --> (Same as English)
+	-- RUS: Производит комплексы MAL и транспорты F9-TZ --> (Same as English)
+	-- SPA: Produce transportes L.A.M. y F9-TZ --> (Same as English)
+
 • TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01: (BUG #745)
 	-- ENG: Unlocks: Advanced Vehicle Factory, Hypervelocity Gun --> Unlocks: Advanced Factory, Hypervelocity Gun
 
@@ -121,7 +144,7 @@ Housekeeping:
 • TEXT_ENCYCLOPEDIA_INFILTRATOR_00: (BUG #744)
 	-- ENG: Builds: Infiltrator --> Builds: Infiltrators
 
-• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00 (BUG #745)
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00: (BUG #745)
 	-- ENG: Builds: AT-ST, TIE mauler --> Builds: AT-ST, TIE mauler, MDUs
 	-- FRA: Produit : TR-TT, Mauler TIE --> (Same as English)
 	-- GER: Baut folgende Einheiten: AT-ST, TIE-Mauler --> Baut folgende Einheiten: AT-ST, TIE-Mauler, MVE-Kompanie
@@ -130,7 +153,7 @@ Housekeeping:
 	-- RUS: Строительство: AT-ST, TIE-танк --> (Same as English)
 	-- SPA: Construye: AT-ST, atacante TIE. --> (Same as English)
 
-• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01 (BUG #745)
+• TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01: (BUG #745)
 	-- ENG: Unlocks: Heavy Vehicle Factory, Turbolaser Tower --> Unlocks: Heavy Factory
 	-- FRA: Débloque : Usine de véhicules lourds, Tour turbolaser --> Débloque : Usine de véhicules lourds
 	-- GER: Ermöglicht: Schwere Fahrzeugfabrik, Turbolaser-Turm --> Ermöglicht: Schwere Fahrzeugfabrik
@@ -156,6 +179,15 @@ Housekeeping:
 	-- POL: Odblokowywuje: fabrykę pojazdów ciężko opancerzonych, wieżę turbolaserową --> Odblokowywuje: fabrykę pojazdów ciężko opancerzonych
 	-- RUS: Открывает: Завод тяжелой техники, турболазерная башня --> Открывает: Завод тяжелой техники
 	-- SPA: Desbloquea: fábrica pesada, torre turboláser. --> Desbloquea: fábrica pesada
+
+• TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS: (BUG #746)
+	-- ENG: Produces: Defiler, MDU --> Builds: Defilers, MDUs, Ewok Handlers, Nightsisters, Vornskr Packs
+	-- FRA: Produit : Corrupteur, UDM --> (Same as English)
+	-- GER: Bildet Verderber und MVEs aus. --> Baue folgende Einheiten: Verderber, MVE, Ewok-Zünder, Schwester der Nacht, Vornskr-Rudel
+	-- ITA: Produce: Corruttore, UDM --> (Same as English)
+	-- POL: Produkuje: sabotażystę, MDU --> (Same as English)
+	-- RUS: Набор: Стервятник, МОП --> (Same as English)
+	-- SPA: Produce: Saboteador, UDM. --> (Same as English)
 
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
@@ -597,6 +629,18 @@ Housekeeping:
 	-- POL: Garnizon: SPMA-T --> (Same as English)
 	-- RUS: Гарнизон: SPMA-T --> (Same as English)
 	-- SPA: Guarnición: SPMA-T. --> (Same as English)
+
+• TEXT_TOOLTIP_GARRISON_FACTORY: (BUG #476)
+	-- ENG: Garrison: M.A.L. --> Garrison: MZ-8 Pulse Cannon Tanks
+	-- FRA: Garnison : LAM --> (Same as English)
+	-- GER: Garnison: Mobile Raketenwerfer --> Garnison: Impulsgeschützpanzer MZ-8
+	-- ITA: Guarnigione: MAL --> (Same as English)
+	-- POL: Garnizon: MWR --> (Same as English)
+	-- RUS: Гарнизон: MAL --> (Same as English)
+	-- SPA: Guarnición: L.M.A. --> (Same as English)
+
+• TEXT_TOOLTIP_GARRISON_U_BARRACKS: (BUG #756)
+	-- ENG: Garrison: Grenadier Squad, Merc Assault Squad --> Garrison: Grenadier Squads, Merc Assault Squads
 
 • TEXT_TOOLTIP_PIETT_02: (BUG #227)
 	-- ENG: A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships. --> Dedicated Imperial Fleet Commander.  Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in, with an additional 25% to other Star Destroyers.  The Accuser is an enhanced Star Destroyer equipped with a proton energy weapon for a quick, devastating attack.

@@ -1377,7 +1377,7 @@ TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Construye: soldado de asalto y soldado expl
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Desbloquea: academia de oficiales.
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
-TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Entrena soldados mercenarios y soldados disruptores
+TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Builds: Grenadiers, Mercenary Assault Squads, Consortium Slaves
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Mejoras: Recarga de aptitudes (niveles 1-2), estimulante ráncor (niveles 1-2).
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Detiene los disparos de armas energéticas alrededor del generador. No evita el paso a objetos sólidos (como mísiles o unidades) y solo para los disparos láser. Depende en gran medida de la energía.
 TEXT_ENCYCLOPEDIA_BOTHAN_SPAWNER,Crea periódicamente bothan hasta su destrucción.
@@ -1462,6 +1462,7 @@ TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Aumenta ligeramente el alcance visual de todas l
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_01,Desbloquea: nodo de sensores.
 TEXT_ENCYCLOPEDIA_CREDIT_EFFECT_SMUGGLER,El sistema pierde %d créditos al día por la actividad de un contrabandista. Despliega a un cazarrecompensas en este sistema para anular este efecto.
 TEXT_ENCYCLOPEDIA_DROIDNODE_UNDERWORLD,Permite a los droides viajar casi instantáneamente entre cualquier nodo o estructura de obras droides (si hay).
+TEXT_ENCYCLOPEDIA_DROIDWORKS,Repurposed construction plant from the Clone Wars.  This battle droid factory is fitted to only produce droidekas.
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Produce droides destructores.
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01,Mejoras: Sistemas de droides (niveles 1-2), Blindaje pesado UDM (niveles 1-2).
 TEXT_ENCYCLOPEDIA_E_SHIP_SPEED,Aumenta la velocidad de las naves de línea y las fragatas de tu equipo.
@@ -1469,8 +1470,10 @@ TEXT_ENCYCLOPEDIA_E_SPACE_ALL_ARMOR,Mejora el blindaje de todas las unidades esp
 TEXT_ENCYCLOPEDIA_E_STARBASE_FIREPOWER,Aumenta la cantidad de daño que causan los soportes de la base estelar de tu equipo.
 TEXT_ENCYCLOPEDIA_EFFECT_SMUGGLER,El sistema pierde créditos por la actividad de un contrabandista. Despliega a un cazarrecompensas en este sistema para anular este efecto.
 TEXT_ENCYCLOPEDIA_EWOK_SPAWNER,Crea periódicamente ewoks hasta su destrucción.
-TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Produce transportes L.A.M. y F9-TZ
+TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandalorian-designed heavy tanks.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Mejoras: Aumentar armas (niveles 1-2).
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
 TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Escuadrón de cazas
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Crea periódicamente geonosianos hasta su destrucción.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifica los ingresos del planeta con los beneficios de los juegos de azar. Con el juego se pueden obtener ganancias sustanciosas o sufrir fuertes pérdidas.
@@ -1512,6 +1515,7 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Crea periódicamente mustafarianos hasta s
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Crea periódicamente noghri hasta su destrucción.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,El centro de los intereses financieros de Tyber Zann en el planeta. El palacio genera ingresos de créditos y permite la producción de unidades especiales en algunos planetas. Proporciona energía a estructuras base y cobertura de radar.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Mejoras: Niveles tecnológicos 1-3, bombardeo, bombardeo orbital, salvamento, escudo de estructuras (niveles 1-2).
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Builds: Defilers, MDUs, Ewok Handlers, Nightsisters, Vornskr Packs
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,El palacio de nivel 1 permite la construcción de unidades especiales en algunos planetas. Proporciona energía básica y escudos.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,El palacio de nivel 2 proporciona todos los beneficios anteriores; además, permite la producción de saboteadores y proporciona cobertura de radar.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_3,El palacio de nivel 3 proporciona todos los beneficios anteriores; además, ofrece descuentos en los costes de producción de las unidades específicas del planeta y añade capacidades defensivas.
@@ -2662,7 +2666,6 @@ TEXT_PA_SPY_NETWORK,Red de espionaje
 TEXT_PA_STAMINA_BOOST,Vigor fortalecido
 TEXT_PA_TACTICAL_AUTO_DAMAGE,Daño automático
 TEXT_PA_TACTICAL_HEAL_INFANTRY,Curar infantería
-TEXT_PALACE_UNDERWORLD_BUILDS,Produce: Saboteador, UDM.
 TEXT_PARTICLE_DETAIL,Det. partículas
 TEXT_PASSWORDED_GAME,Contraseña necesaria
 TEXT_PATCH_REQUEST_TEXT,Está disponible una nueva actualización necesaria para jugar en Internet. ¿Quieres descargarla?
@@ -18092,7 +18095,7 @@ TEXT_TOOLTIP_GARRISON_ES_02,Guarnición: caza TIE, bombardero TIE, crucero tarta
 TEXT_TOOLTIP_GARRISON_ES_03,Guarnición: caza TIE, bombardero TIE, crucero tartan.
 TEXT_TOOLTIP_GARRISON_ES_04,Guarnición: caza TIE, bombardero TIE, crucero tartan, Aclamador.
 TEXT_TOOLTIP_GARRISON_ES_05,Guarnición: caza TIE, bombardero TIE, crucero tartan, Aclamador.
-TEXT_TOOLTIP_GARRISON_FACTORY,Guarnición: L.M.A.
+TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: MZ-8 Pulse Cannon Tanks
 TEXT_TOOLTIP_GARRISON_INFILT,Guarnición: infiltrado.
 TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Guarnición: soldado rebelde, soldado plex.

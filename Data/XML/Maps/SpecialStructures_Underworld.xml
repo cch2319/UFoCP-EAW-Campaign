@@ -3,7 +3,10 @@
 	<SpecialStructure Name="U_Ground_Palace">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_PALACE_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_PALACE_UNDERWORLD_BUILDS</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,
+			TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -214,7 +217,11 @@
 	<SpecialStructure Name="U_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BARRACKS_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_BARRACKS,
+			TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,
+			TEXT_TOOLTIP_GARRISON_U_BARRACKS
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -380,7 +387,11 @@
 	<SpecialStructure Name="U_Ground_Droid_Works">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_DROID_WORKS</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_DROIDWORKS,
+			TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,
+			TEXT_TOOLTIP_GARRISON_DROIDWORKS
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
@@ -541,7 +552,12 @@
 	<SpecialStructure Name="U_Ground_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_FACTORY_UNDERWORLD</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_ENCYCLOPEDIA_FACTORY,
+			TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,
+			TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,
+			TEXT_TOOLTIP_GARRISON_FACTORY
+		</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>

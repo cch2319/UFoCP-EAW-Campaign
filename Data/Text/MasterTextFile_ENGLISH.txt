@@ -1377,7 +1377,7 @@ TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtroopers, Scout Troopers, Nogh
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Builds: Infantry Platoons, Plex Soldiers
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Unlocks: Officer Academy
-TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Trains Grenadiers and Mercenary Assault Soldiers
+TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Builds: Grenadiers, Mercenary Assault Squads, Consortium Slaves
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Upgrades: Ability Recharge Level 1-2, Rancor Stimulant Level 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Prevents energy weapon fire in a radius around the generator. Does not prevent solid objects, such as missiles or units, from passing through.  Only laser fire is stopped. Heavily dependant on power.
 TEXT_ENCYCLOPEDIA_BOTHAN_SPAWNER,Periodically creates Bothans until destroyed.
@@ -1462,15 +1462,18 @@ TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Slightly increases the sight range of all units.
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_01,Unlocks: Sensor Node
 TEXT_ENCYCLOPEDIA_CREDIT_EFFECT_SMUGGLER,The system is losing %d credits per day due to smuggler activity. Deploy a bounty hunter at this system to remove the effect.
 TEXT_ENCYCLOPEDIA_DROIDNODE_UNDERWORLD,Allows droids to travel almost instantly between any node or a droid works structure (if present).
-TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Produces Destroyer Droids
+TEXT_ENCYCLOPEDIA_DROIDWORKS,Repurposed construction plant from the Clone Wars.  This battle droid factory is fitted to only produce droidekas.
+TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Builds: Destroyer Droids
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01,Upgrades: Droid Systems Level 1-2, MDU Armor Plating Level 1-2
 TEXT_ENCYCLOPEDIA_E_SHIP_SPEED,Increases the movement speed of your team's Frigate and Capital class starships.
 TEXT_ENCYCLOPEDIA_E_SPACE_ALL_ARMOR,Upgrades the armor plating for all space units on your team.
 TEXT_ENCYCLOPEDIA_E_STARBASE_FIREPOWER,Increases the amount of damage done by each hard point on your team's starbase.
 TEXT_ENCYCLOPEDIA_EFFECT_SMUGGLER,This system is losing credits due to smuggler activity. Deploy a bounty hunter at this system to remove the effect.
 TEXT_ENCYCLOPEDIA_EWOK_SPAWNER,Periodically creates Ewoks until destroyed.
-TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Produces M.A.L. and F9-TZ Transports
+TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandalorian-designed heavy tanks.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Upgrades: Weapon Boost Level 1-2.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
 TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Class: Fighter Squadron
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Periodically creates Geonosians until destroyed.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifies the planet's income rate with gambling profits. Gambling can bring big wins or big losses.
@@ -1512,6 +1515,7 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Periodically creates Mustafarians until de
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Periodically creates Noghri until destroyed.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,The center for Tyber Zann's financial interests on a planet. The palace generates credit income and allows for the production of special units on some planets.  Provides power to base structures and radar coverage.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Upgrades: Technology Levels 1-3, Bombing Run, Orbital Bombardment, Salvage, Structure Shielding Level 1-2.
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Builds: Defilers, MDUs, Ewok Handlers, Nightsisters, Vornskr Packs
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,Level one palace allows production of special units on some planets.  Provides base power and shield.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,Level two palace provides all the previous benefits; in addition, allows production of saboteurs and provides radar coverage.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_3,Level three palace provides all the previous benefits; in addition, discounts the production cost of planet-specific units, and adds defensive capabilities.
@@ -2662,7 +2666,6 @@ TEXT_PA_SPY_NETWORK,Spy Network
 TEXT_PA_STAMINA_BOOST,Stamina Boost
 TEXT_PA_TACTICAL_AUTO_DAMAGE,Auto-Damage
 TEXT_PA_TACTICAL_HEAL_INFANTRY,Heal Infantry
-TEXT_PALACE_UNDERWORLD_BUILDS,Produces: Defiler, MDU
 TEXT_PARTICLE_DETAIL,Particles Detail
 TEXT_PASSWORDED_GAME,Password Required
 TEXT_PATCH_REQUEST_TEXT,A new update is available and required for Internet play, would you like to download the update?
@@ -18092,7 +18095,7 @@ TEXT_TOOLTIP_GARRISON_ES_02,Garrison: TIE fighter, TIE bomber, Tartan Cruiser
 TEXT_TOOLTIP_GARRISON_ES_03,Garrison: TIE fighter, TIE bomber, Tartan Cruiser
 TEXT_TOOLTIP_GARRISON_ES_04,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, Acclamator
 TEXT_TOOLTIP_GARRISON_ES_05,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, Acclamator
-TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: M.A.L.
+TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: MZ-8 Pulse Cannon Tanks
 TEXT_TOOLTIP_GARRISON_INFILT,Garrison: Infiltrators
 TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garrison: Infantry Platoons, Plex Soldiers
@@ -18103,7 +18106,7 @@ TEXT_TOOLTIP_GARRISON_RS_02,Garrison: X-wing, Y-wing, Corellian Corvette
 TEXT_TOOLTIP_GARRISON_RS_03,Garrison: X-wing, Y-wing, Corellian Corvette
 TEXT_TOOLTIP_GARRISON_RS_04,Garrison: X-wing, Y-wing, Corellian Corvette, Nebulon Frigate
 TEXT_TOOLTIP_GARRISON_RS_05,Garrison: X-wing, Y-wing, Corellian Corvette, Nebulon Frigate
-TEXT_TOOLTIP_GARRISON_U_BARRACKS,Garrison: Grenadier Squad, Merc Assault Squad
+TEXT_TOOLTIP_GARRISON_U_BARRACKS,Garrison: Grenadier Squads, Merc Assault Squads
 TEXT_TOOLTIP_GARRISON_US_01,Garrison: StarViper, Skipray Blastboat
 TEXT_TOOLTIP_GARRISON_US_02,Garrison: StarViper, Skipray Blastboat, Crusader
 TEXT_TOOLTIP_GARRISON_US_03,Garrison: StarViper, Skipray Blastboat, Crusader

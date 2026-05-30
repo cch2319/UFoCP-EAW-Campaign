@@ -1377,7 +1377,7 @@ TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Bildet folgende Einheiten aus: Sturmtruppen
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Ermöglicht: Offiziersakademie
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Bilde folgende Einheiten aus: Infanterie-Züge, Plex-Soldaten
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Ermöglicht: Offiziersakademie
-TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Bildet Grenadiere und Sturmsöldner aus.
+TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Bildet folgende Einheiten aus: Grenadiere, Sturmsöldner-Trupp, Konsortiumssklaven
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Aufrüstungen: Wiederaufladung Stufe 1-2, Rancorstimulanz Stufe 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Verhindert Energiewaffenfeuer in einem gewissen Umkreis des Generators. Hält keine massiven Gegenstände auf, wie etwa Raketen - nur Laserfeuer wird abgefangen. Braucht eine starke Energieversorgung.
 TEXT_ENCYCLOPEDIA_BOTHAN_SPAWNER,Bringt regelmäßig Bothaner hervor, bis es zerstört wird.
@@ -1462,15 +1462,18 @@ TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Vergrößert die Sichtweite aller Einheiten ein 
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_01,Ermöglicht: Sensorknoten
 TEXT_ENCYCLOPEDIA_CREDIT_EFFECT_SMUGGLER,Das System verliert täglich%d Credits durch Schmuggleraktivitäten. Setzt in diesem System einen Kopfgeldjäger ein, um diese Aktivitäten zu beenden.
 TEXT_ENCYCLOPEDIA_DROIDNODE_UNDERWORLD,Ermöglicht es Droiden, ohne Zeitverlust von einem Knoten zum nächsten oder zu einer Droidenfabrik (falls vorhanden) zu reisen.
-TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Stellt Zerstörerdroiden her.
+TEXT_ENCYCLOPEDIA_DROIDWORKS,Eine umgebaute Fabrik aus den Klonkriegen. Diese Kampfdroidenfabrik ist ausschließlich auf die Produktion von Droidekas ausgelegt.
+TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Baut folgende Einheiten: Zerstörerdroiden
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01,Aufrüstungen: Droidensysteme Stufe 1-2, MVE-Panzerung Stufe 1-2
 TEXT_ENCYCLOPEDIA_E_SHIP_SPEED,Erhöht die Fluggeschwindigkeit der Fregatten und Schlachtschiffe Eures Teams.
 TEXT_ENCYCLOPEDIA_E_SPACE_ALL_ARMOR,Verbessert die Panzerung aller Raumeinheiten Eures Teams.
 TEXT_ENCYCLOPEDIA_E_STARBASE_FIREPOWER,Erhöht den Schaden aller Waffen in der Raumbasis Eures Teams.
 TEXT_ENCYCLOPEDIA_EFFECT_SMUGGLER,Das System verliert Credits durch Schmuggleraktivitäten. Setzt in diesem System einen Kopfgeldjäger ein, um diese Aktivitäten zu beenden.
 TEXT_ENCYCLOPEDIA_EWOK_SPAWNER,Bringt regelmäßig Ewoks hervor, bis es zerstört wird.
-TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Produziert mobile Raketenwerfer und F9-TZ-Transporter
+TEXT_ENCYCLOPEDIA_FACTORY,Modernes Fahrzeugwerk, in dem nach mandalorianischen Entwürfen schwere Panzer hergestellt werden können.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Baut folgende Einheiten: Canderous-Panzer, MZ-8-Panzer, mobile Raketenwerfer, F9-TZ-Transporter
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Aufrüstungen: Waffenschub Stufe 1-2.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Ermöglicht: Repulsorlift-Störer
 TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Klasse: Jägergeschwader
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Bringt regelmäßig Geonosianer hervor, bis es zerstört wird.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifiziert die planetare Einkommensrate um die Ergebnisse des Glücksspiels. Dabei können ebenso gut enorme Gewinne wie Verluste herauskommen.
@@ -1512,6 +1515,7 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Stellt in gewissen Abständen Mustafariane
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Stellt in gewissen Abständen Noghri her, bis sie zerstört wird.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,Das Zentrum von Tyber Zanns finanziellem Interesse auf einem Planeten. Der Palast generiert Credits und ermöglicht die Produktion von Sondereinheiten auf bestimmten Welten. Liefert Energie für Stützpunktgebäude und Radar.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Aufrüstungen: Technologiestufe 1-3, Bombardement, Orbital-Bombardment, Bergung, Gebäudeschilde Stufe 1-2.
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Baue folgende Einheiten: Verderber, MVE, Ewok-Zünder, Schwester der Nacht, Vornskr-Rudel
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,Ein Palast der Stufe 1 ermöglicht die Produktion von Spezialeinheiten auf einigen Welten. Liefert Stützpunktenergie und Schild.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,Ein Palast der Stufe 2 ermöglicht neben all den bisherigen Vorteilen noch die Produktion von Verderbern und bietet Radar.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_3,Ein Palast der Stufe 3 verbilligt neben all den bisherigen Vorteilen noch die Produktionskosten für planetenspezifische Einheiten und verbessert die Abwehrfähigkeiten.
@@ -2662,7 +2666,6 @@ TEXT_PA_SPY_NETWORK,Spionagenetzwerk
 TEXT_PA_STAMINA_BOOST,Ausdauerschub
 TEXT_PA_TACTICAL_AUTO_DAMAGE,Automatischer Schaden
 TEXT_PA_TACTICAL_HEAL_INFANTRY,Infanterie-Heilung
-TEXT_PALACE_UNDERWORLD_BUILDS,Bildet Verderber und MVEs aus.
 TEXT_PARTICLE_DETAIL,Partikeldetails
 TEXT_PASSWORDED_GAME,Passwort erforderlich
 TEXT_PATCH_REQUEST_TEXT,Es ist ein neues Update verfügbar, das zum Spielen über das Internet benötigt wird. Jetzt runterladen?
@@ -18092,7 +18095,7 @@ TEXT_TOOLTIP_GARRISON_ES_02,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer
 TEXT_TOOLTIP_GARRISON_ES_03,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer
 TEXT_TOOLTIP_GARRISON_ES_04,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer, Acclamator-Kreuzer
 TEXT_TOOLTIP_GARRISON_ES_05,Garnison: TIE-Fighter, TIE-Bomber, Tartan-Kreuzer, Acclamator-Kreuzer
-TEXT_TOOLTIP_GARRISON_FACTORY,Garnison: Mobile Raketenwerfer
+TEXT_TOOLTIP_GARRISON_FACTORY,Garnison: Impulsgeschützpanzer MZ-8
 TEXT_TOOLTIP_GARRISON_INFILT,Garnison: Infiltrator
 TEXT_TOOLTIP_GARRISON_OFFICER,Garnison: Feldkommandeur
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garnison: Rebellensoldat, PLEX-Soldat
