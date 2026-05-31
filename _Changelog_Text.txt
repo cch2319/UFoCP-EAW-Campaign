@@ -201,6 +201,9 @@ Housekeeping:
 • TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER: (BUG #751)
 	-- ENG: Periodically creates Vornskrs until destroyed --> Periodically creates Vornskrs until destroyed.
 
+• TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER: (BUG #752)
+	-- ENG: Periodically creates a wampa until destroyed --> Periodically creates a wampa until destroyed.
+
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
 

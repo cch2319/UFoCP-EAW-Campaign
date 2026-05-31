@@ -1578,7 +1578,7 @@ TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE,Upgrades your team's Technology
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO,Upgrades your team's Technology to Level 2 which grants access to new units and upgrades.
 TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER,Periodically creates Vornskrs until destroyed.
 TEXT_ENCYCLOPEDIA_VORNSKR_WOLF,Vornskrs are highly efficient hunters, especially when their prey is Force-sensitive.
-TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Periodically creates a wampa until destroyed
+TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Periodically creates a wampa until destroyed.
 TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Periodically creates Wookiees until destroyed.
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,This tree houses many Ysalamiri families.  The Ysalamiri block all use of the Force in a large radius around the tree.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se'Lab's Palace
