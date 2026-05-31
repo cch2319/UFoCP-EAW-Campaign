@@ -207,7 +207,7 @@
 		<SFXEvent_Strategic_Pop_Cap_Reached>RHD_Unit_Cap_Reached</SFXEvent_Strategic_Pop_Cap_Reached>
 		<SFXEvent_Tactical_Pop_Cap_Reached>RHD_Unit_Cap_Reached</SFXEvent_Tactical_Pop_Cap_Reached>
 		<SFXEvent_Planet_Corrupted>GUI_Corruption</SFXEvent_Planet_Corrupted>
-		<SFXEvent_Corruption_Removed>EHD_Corruption_Removed</SFXEvent_Corruption_Removed>
+		<SFXEvent_Corruption_Removed>RHD_Corruption_Removed</SFXEvent_Corruption_Removed>
 		<SFXEvent_Bunker_Garrisoned>Structure_Garrison_SFX</SFXEvent_Bunker_Garrisoned>
 		<SFXEvent_Bunker_Vacated>Structure_UnGarrison_SFX</SFXEvent_Bunker_Vacated>
 
