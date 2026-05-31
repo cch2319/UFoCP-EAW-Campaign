@@ -1550,7 +1550,7 @@ TEXT_ENCYCLOPEDIA_SECURITY_OUTPOST,Used by security forces to monitor local area
 TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00,Prevents reinforcements from landing and bombing runs in a large radius around the base.
 TEXT_ENCYCLOPEDIA_SMUGGLER_TITLE,Smuggler present
 TEXT_ENCYCLOPEDIA_SPEEDER_SQUADRON,Airspeeder Squadron
-TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,This ship is unmanned, deactivated, and awaiting repairs
+TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,This ship is unmanned, deactivated, and awaiting repairs.
 TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION,This ship is under construction and not functional
 TEXT_ENCYCLOPEDIA_SULLUSTAN_SPAWNER,Periodically creates Sullustans until destroyed.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Allows production (with prerequisites) of: Barracks, Light Vehicle Factory, Mining Facility, Officer Academy, Research Facility, Imperial Field Commander, basic Imperial Light Infantry and Vehicles, Imperial Space Station Lv. 1, basic Imperial Light Cruisers, Imperial Fleet Commander, Probe Droids, and an Upgrade to Tech Level 2.

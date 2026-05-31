@@ -192,6 +192,9 @@ Housekeeping:
 	-- RUS: Набор: Стервятник, МОП --> (Same as English)
 	-- SPA: Produce: Saboteador, UDM. --> (Same as English)
 
+• TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP: (BUG #749)
+	-- ENG: This ship is unmanned, deactivated, and awaiting repairs --> This ship is unmanned, deactivated, and awaiting repairs.
+
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
 
