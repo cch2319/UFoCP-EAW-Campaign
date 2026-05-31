@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett hat Han Solo und Chewbacca für ei
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett hat Kyle Katarn für einige Zeit ausgeschaltet! Position:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett hat Mon Mothma für einige Zeit ausgeschaltet! Position:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett hat Obi-Wan Kenobi für einige Zeit ausgeschaltet! Position:
-TEXT_BOMB_CLASS,Klasse: Bombe
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Aktiviert Bossks Flammenwerfer und fügt Einheiten vor ihm Schaden zu.
 TEXT_BOSSK_SWAP_DESCRIPTION,Wechselt zwischen Blaster und Plasmagranaten
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Beide Maustasten zum Drehen
@@ -1403,6 +1402,7 @@ TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Klasse: Tiernest
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Klasse: Artillerie
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Klasse: Kampfstation
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Klasse: Gezähmtes Tier
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Klasse: Bombe
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Klasse: Bomber
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Klasse: Kopfgeldjäger
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Klasse: Schlachtschiff

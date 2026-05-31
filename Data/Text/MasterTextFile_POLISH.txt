@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett zneutralizował na pewien czas Han
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett zneutralizował na pewien czas Kyle'a Katarna! Miejsce:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett zneutralizował na pewien czas Mon Mothmę! Miejsce:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett zneutralizował na pewien czas Obi-Wana Kenobiego! Miejsce:
-TEXT_BOMB_CLASS,Bomba
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Aktywuje miotacz ognia Bosska, co powoduje zadanie obrażeń jednostkom, znajdującym się w polu rażenia.
 TEXT_BOSSK_SWAP_DESCRIPTION,Przełączanie pomiędzy blasterem i granatami plazmowymi
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Oba przyciski myszy obracają.
@@ -1403,6 +1402,7 @@ TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Gniazdo zwierząt
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Klasa: Artyleria
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Klasa: Stacja bojowa
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Wyszkolona bestia
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Bomba
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Klasa: Bombowiec
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Klasa: Łowca nagród
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Klasa: Okręt liniowy

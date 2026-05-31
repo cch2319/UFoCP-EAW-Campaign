@@ -68,6 +68,7 @@ Housekeeping:
 • "TEXT_PALACE_UNDERWORLD_BUILDS" has been renamed to "TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS" for internal consistency. (No forward-facing changes.)
 • "TEXT_ENCYCLOPEDIA_ANIMAL_NEST" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST" for internal consistency. (No forward-facing changes.)
 • "TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON" for internal consistency. (No forward-facing changes.)
+• "TEXT_BOMB_CLASS" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_BOMB" for internal consistency. (No forward-facing changes.)
 
 
 • TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)

@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett has temporarily neutralized Han So
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett has temporarily neutralized Kyle Katarn! Location:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett has temporarily neutralized Mon Mothma! Location:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett has temporarily neutralized Obi-Wan Kenobi! Location:
-TEXT_BOMB_CLASS,Class: Bomb
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Activates Bossk's flamethrower, damaging units in front of him.
 TEXT_BOSSK_SWAP_DESCRIPTION,Swap between blaster and plasma grenades
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Both mouse buttons rotate
@@ -1403,6 +1402,7 @@ TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Class: Animal Nest
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Class: Artillery
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Class: Battle Station
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Class: Trained Beast
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Class: Bomb
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Class: Bomber
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Class: Bounty Hunter
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Class: Capital Ship

@@ -133,7 +133,7 @@
 		<CategoryMask>Infantry</CategoryMask>
 		<Text_ID>TEXT_PROXIMITY_MINE</Text_ID>
 		<Encyclopedia_Text>TEXT_PROXIMITY_MINE_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_BOMB_CLASS</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMB</Encyclopedia_Unit_Class>
 		<IsDeathCloneObstacle>Yes</IsDeathCloneObstacle>
 		<Avoidance_Disabled>Yes</Avoidance_Disabled>
 		<Influences_Capture_Point>False</Influences_Capture_Point>

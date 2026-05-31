@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett a temporairement neutralisé Yan S
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett a temporairement neutralisé Kyle Katarn ! Lieu :
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett a temporairement neutralisé Mon Mothma ! Lieu :
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett a temporairement neutralisé Obi-Wan Kenobi ! Lieu :
-TEXT_BOMB_CLASS,Bombe
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Active le lance-flammes de Bossk, qui inflige des dommages aux unités se trouvant face à lui.
 TEXT_BOSSK_SWAP_DESCRIPTION,Passer d'un blaster à des grenades plasma
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Rotation avec les 2 boutons 
@@ -1403,6 +1402,7 @@ TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Nid de créature
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Classe : Artillerie
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Classe : Station de combat
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Classe : Bête domestiquée
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Bombe
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Classe : Bombardier
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Classe : Chasseur primes
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Classe : Vaisseau lourd

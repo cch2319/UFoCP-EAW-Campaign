@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,¡Boba Fett ha neutralizado temporalmente a 
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,¡Boba Fett ha neutralizado temporalmente a Kyle Katarn! Posición:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,¡Boba Fett ha neutralizado temporalmente a Mon Mothma! Posición:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,¡Boba Fett ha neutralizado temporalmente a Obi-Wan Kenobi! Posición:
-TEXT_BOMB_CLASS,Bomba
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Activa el lanzallamas de Bossk y daña a las unidades que hay delante de él.
 TEXT_BOSSK_SWAP_DESCRIPTION,Cambiar entre disparo de bláster y granadas de plasma.
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Ambos botones del ratón giran
@@ -1403,6 +1402,7 @@ TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Nido animal
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Clase: artillería
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Clase: estación de combate
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Bestia entrenada
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Bomba
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Clase: bombardero
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Clase: cazarrecompensas
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Clase: nave de línea
