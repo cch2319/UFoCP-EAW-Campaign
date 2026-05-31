@@ -18097,10 +18097,10 @@ TEXT_TOOLTIP_GARRISON_ES_04,Гарнизон: TIE-истребитель, TIE-б
 TEXT_TOOLTIP_GARRISON_ES_05,Гарнизон: TIE-истребитель, TIE-бомбардировщик, 'Тартан', 'Миротворец'
 TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: MZ-8 Pulse Cannon Tanks
 TEXT_TOOLTIP_GARRISON_INFILT,Гарнизон: диверсант
+TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Гарнизон: Пехота повстанцев, ракетная пехота
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Гарнизон: MPTL, наблюдатель
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Гарнизон: Танк T2-B
-TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_RS_01,Гарнизон: X-крыл, Y-крыл
 TEXT_TOOLTIP_GARRISON_RS_02,Гарнизон: X-крыл, Y-крыл, кореллийский эсминец
 TEXT_TOOLTIP_GARRISON_RS_03,Гарнизон: X-крыл, Y-крыл, кореллийский эсминец
