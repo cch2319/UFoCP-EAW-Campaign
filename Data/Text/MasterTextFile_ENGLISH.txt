@@ -1576,7 +1576,7 @@ TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE,Upgrades your team's Space Station 
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_FOUR,Upgrades your team's Technology to Level 4 which grants access to new units and upgrades.
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE,Upgrades your team's Technology to Level 3 which grants access to new units and upgrades.
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO,Upgrades your team's Technology to Level 2 which grants access to new units and upgrades.
-TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER,Periodically creates Vornskrs until destroyed
+TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER,Periodically creates Vornskrs until destroyed.
 TEXT_ENCYCLOPEDIA_VORNSKR_WOLF,Vornskrs are highly efficient hunters, especially when their prey is Force-sensitive.
 TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Periodically creates a wampa until destroyed
 TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Periodically creates Wookiees until destroyed.

@@ -198,6 +198,9 @@ Housekeeping:
 • TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION: (BUG #750)
 	-- ENG: This ship is under construction and not functional --> This ship is under construction and not functional.
 
+• TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER: (BUG #751)
+	-- ENG: Periodically creates Vornskrs until destroyed --> Periodically creates Vornskrs until destroyed.
+
 • TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02: (BUG #581)
 	-- ENG: Bossk: (Translated) Fleet commander Flankar from Anaxes... --> Bossk: (Translated) Fleet Commander Flankar from Anaxes...
 
