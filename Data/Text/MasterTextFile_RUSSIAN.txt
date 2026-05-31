@@ -1370,7 +1370,6 @@ TEXT_ENCYCLOPEDIA_ACADEMY_00,Набор отрядов: полевой кома�
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Открывает: Школа диверсантов
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Колония животных
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Аннигилятор находится под командой адмирала Гаарна.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Набор отрядов: штурмовики, разведчики
@@ -1400,6 +1399,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Позволяет набирать второст�
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Класс: улучшение технологии
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Класс: авиация
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Класс: Посол Альянса
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Колония животных
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Класс: артиллерия
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Класс: боевая станция
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Класс: Прирученный хищник

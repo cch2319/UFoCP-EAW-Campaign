@@ -66,6 +66,7 @@ Housekeeping:
 • Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 • Various instances of "Black Market" have been decapitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 • "TEXT_PALACE_UNDERWORLD_BUILDS" has been renamed to "TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS". (No forward-facing changes.)
+• "TEXT_ENCYCLOPEDIA_ANIMAL_NEST" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST". (No forward-facing changes.)
 
 
 • TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)

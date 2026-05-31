@@ -1370,7 +1370,6 @@ TEXT_ENCYCLOPEDIA_ACADEMY_00,Builds: Field Commanders, Fleet Commanders
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Unlocks: Infiltrator Academy
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor vehicle factory the Empire can produce.  Constructs powerful all-terrain units.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Class: Animal Nest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,The Annihilator is commanded by Admiral Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtroopers, Scout Troopers, Noghri Assassins
@@ -1400,6 +1399,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Builds: Smugglers
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Class: Technology Upgrade
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Class: Aircraft
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Class: Alliance Ambassador
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Class: Animal Nest
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Class: Artillery
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Class: Battle Station
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Class: Trained Beast

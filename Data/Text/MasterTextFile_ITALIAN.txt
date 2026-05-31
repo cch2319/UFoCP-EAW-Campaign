@@ -1370,7 +1370,6 @@ TEXT_ENCYCLOPEDIA_ACADEMY_00,Unità arruolate: Comandante in campo, Comandante d
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Strutture sbloccate: Struttura d'addestramento infiltratori
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Nido animale
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,L'Annihilator è comandata dall'ammiraglio Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Unità arruolate: Truppe d'assalto, Esploratore imperiale
@@ -1400,6 +1399,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Unità arruolate: Contrabbandiere
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Classe: Potenz. tecnologico
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Classe: Velivolo
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Ambasciatrice dell'Alleanza
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Nido animale
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Classe: Artiglieria
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Classe: Stazione da battaglia
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Creatura addestrata

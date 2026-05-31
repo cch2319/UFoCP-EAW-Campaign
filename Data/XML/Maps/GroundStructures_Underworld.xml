@@ -73,7 +73,7 @@
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_TREE</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_ANIMAL_NEST</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>NB_YSALAMIRI_TREE.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>

@@ -1370,7 +1370,6 @@ TEXT_ENCYCLOPEDIA_ACADEMY_00,Bildet folgende Einheiten aus: Feldkommandeur, Flot
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Ermöglicht: Infiltrator-Trainingslager
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,Die modernste Fabrik für schwere Panzereinheiten, die das Imperium zu bieten hat. Stellt leistungsstarke "allterrain" her.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Baut folgende Einheiten: AT-AA, AT-AT, Lancetstaffel, Juggernaut-Kompanie
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Klasse: Tiernest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Die Annihilator steht unter dem Kommando von Admiral Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Unterkünfte und Kommandozentrale für die Infanterie. Ausbildung von Infanterietrupps und Unterstützungseinheiten.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Bildet folgende Einheiten aus: Sturmtruppen, Kundschafter, Noghri-Attentätertrupp
@@ -1400,6 +1399,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Bildet Schmuggler aus.
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Klasse: Technologie-Aufrüstung
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Klasse: Flugzeug
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Klasse: Allianzbotschafter
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Klasse: Tiernest
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Klasse: Artillerie
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Klasse: Kampfstation
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Klasse: Gezähmtes Tier

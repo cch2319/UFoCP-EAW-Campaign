@@ -1370,7 +1370,6 @@ TEXT_ENCYCLOPEDIA_ACADEMY_00,Construye: comandante de campo, comandante de flota
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Desbloquea: centro de entrenamiento de infiltrados.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor unit factory the Empire can produce.  Constructs powerful all-terrain units.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT, Lancet Wings, B5 Juggernauts
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Nido animal
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,El Aniquilador está comandado por el almirante Gaarn.
 TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Construye: soldado de asalto y soldado explorador.
@@ -1400,6 +1399,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Construye: contrabandistas.
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Clase: mejora tecnológica
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Clase: aeronave
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Embajador de la alianza
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Nido animal
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Clase: artillería
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Clase: estación de combate
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Bestia entrenada
