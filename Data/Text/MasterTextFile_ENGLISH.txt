@@ -1631,16 +1631,16 @@ TEXT_FREE_STARTING_UNITS,Free Starting Units
 TEXT_FRIENDLY_ALLEGIANCE_CHANGE,%s is now allied with %s!
 TEXT_FRIENDLY_SPACE_STATION_LEVEL_LOST,Our space station has taken serious damage.
 TEXT_GALACTIC_GAME_SPEED,Galactic Game Speed
-TEXT_GALACTIC_PERCENTAGE_CONTROL,Galactic Control Report: You control %.0f%% of the galaxy. %.0f%% control required for victory.
-TEXT_GAME_DESCRIPTION_CAMPAIGN,The full campaign game for 2 players. Choose your side: The Galactic Empire, The Rebel Alliance, or The Zann Consortium.
-TEXT_GAME_DESCRIPTION_CAPTURE_CONTROL_POINTS,Ground based team battles for up to 8 players (human or AI). Players must take control of strategic locations to win the game.
-TEXT_GAME_DESCRIPTION_CAPTURE_CONTROL_POINTS-TEMP,Ground based team battles for up to 8 players (human or AI). Players must capture and control all neutral Reinforcement Point locations to win the game.
-TEXT_GAME_DESCRIPTION_EWOK_HUNTER,Ground based team battles for up to 4 Empire vs. 4 Rebellion players (human or AI). Gather Ewok pelts to earn resources
+TEXT_GALACTIC_PERCENTAGE_CONTROL,Galactic Control Report: You control %.0f%% of the galaxy.  %.0f%% control required for victory.
+TEXT_GAME_DESCRIPTION_CAMPAIGN,The full campaign game for 2 players.  Choose your side: The Galactic Empire, The Rebel Alliance, or The Zann Consortium.
+TEXT_GAME_DESCRIPTION_CAPTURE_CONTROL_POINTS,Ground based team battles for up to 8 players (human or AI).  Players must take control of strategic locations to win the game.
+TEXT_GAME_DESCRIPTION_CAPTURE_CONTROL_POINTS-TEMP,Ground based team battles for up to 8 players (human or AI).  Players must capture and control all neutral Reinforcement Point locations to win the game.
+TEXT_GAME_DESCRIPTION_EWOK_HUNTER,Ground based team battles for up to 4 Empire vs. 4 Rebellion players (human or AI).  Gather Ewok pelts to earn resources
 TEXT_GAME_DESCRIPTION_SCENARIO,2 player 'what if' scenarios based on battles from the Star Wars movies
-TEXT_GAME_DESCRIPTION_TEAM_LAND,Ground based battles for up to 8 players (human or AI). Defend your team's base to take control of strategic locations and gain resources.
+TEXT_GAME_DESCRIPTION_TEAM_LAND,Ground based battles for up to 8 players (human or AI).  Defend your team's base to take control of strategic locations and gain resources.
 TEXT_GAME_DESCRIPTION_TEAM_LAND-TEMP,High intensity ground based combat for up to 8 players (human or AI).
-TEXT_GAME_DESCRIPTION_TEAM_SPACE,Space based team battles for up to 8 players (human or AI). Defend your team's base to take control of strategic locations and gain resources.
-TEXT_GAME_DESCRIPTION_TEAM_SPACE01,Space based team battles for up to 9 players (human or AI). Defend your team's base to take control of strategic locations and gain resources.
+TEXT_GAME_DESCRIPTION_TEAM_SPACE,Space based team battles for up to 8 players (human or AI).  Defend your team's base to take control of strategic locations and gain resources.
+TEXT_GAME_DESCRIPTION_TEAM_SPACE01,Space based team battles for up to 9 players (human or AI).  Defend your team's base to take control of strategic locations and gain resources.
 TEXT_GAME_DESCRIPTION_TEAM_SPACE-TEMP,High intensity space based combat for up to 4 Empire vs. 4 Rebellion players (human or AI).
 TEXT_GAME_DROID_ADVISOR_KEYBOARD,Toggle Droid Advisor
 TEXT_GAME_EXPANSION_BASE,Empire at War game
@@ -1855,7 +1855,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Run in a window
 TEXT_GUI_QUICK_SAVE,[Quick Save]
 TEXT_GUI_TOOLTIP_BIND_KEY,Press the desired key to bind your new shortcut
 TEXT_GUI_TOOLTIP_BIND_MODIFIER,If you wish to use the Control, Shift, or Alt keys as a modifier, then hold that key down first.
-TEXT_HACK_SUPER_WEAPON_DESCRIPTION,IG-88 will download his AI consciousness in the data core of the Death Star resulting in a catastrophic overload of all systems. The Death Star, nearby enemy fleets, and the orbited planet, will all be destroyed. IG-88 will also be destroyed in the process.
+TEXT_HACK_SUPER_WEAPON_DESCRIPTION,IG-88 will download his AI consciousness in the data core of the Death Star resulting in a catastrophic overload of all systems.  The Death Star, nearby enemy fleets, and the orbited planet, will all be destroyed.  IG-88 will also be destroyed in the process.
 TEXT_HARD_AI_PLAYER,Hard AI
 TEXT_HEADHUNTER_SQUADRON,Z-95 Squadron
 TEXT_HELLO,Hello!
