@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Nave fábrica
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Creyente fanático
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Clase: comandante de campo
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Clase: caza
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Escuadrón de cazas
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Clase: comandante de flota
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Clase: fragata
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Clase: mano del Emperador
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandaloria
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Mejoras: Aumentar armas (niveles 1-2).
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Escuadrón de cazas
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Crea periódicamente geonosianos hasta su destrucción.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifica los ingresos del planeta con los beneficios de los juegos de azar. Con el juego se pueden obtener ganancias sustanciosas o sufrir fuertes pérdidas.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Impide que los vehículos de repulsores enemigos funcionen en el planeta. No afecta a los vehículos aliados.

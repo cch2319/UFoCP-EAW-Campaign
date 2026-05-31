@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Classe : Vaisseau-usine
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Classe : Partisan fanatique
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Classe : Cmdt. terrain
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Classe : Chasseur
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Escadron de Chasseurs
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Classe : Cmdt. flotte
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Classe : Frégate
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Classe : Exécutrice
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandaloria
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds : Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Améliorations : Puissance de feu accrue niveaux 1-2.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks : Repulsorlift Jammer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Escadron de Chasseurs
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Génère périodiquement des Géonosiens jusqu'à sa destruction.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Affecte les revenus provenant d'une planète. Les jeux d'argent impliquent des bénéfices ou des dettes.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Empêche le fonctionnement de tous les véhicules à répulsion adverses sur la planète. N'affecte pas les véhicules alliés.

@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Nave-fabbrica
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Fanatico
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Classe: Comandante in campo
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Classe: Caccia
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Squadra di caccia
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Classe: Comandante di flotta
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Classe: Fregata
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Classe: Agente dell'Imperatore
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandaloria
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Potenziamenti: Potenziamento armi livello 1-2.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Squadra di caccia
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Crea periodicamente dei Geonosiani finché non viene distrutto.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifica il reddito planetario con i grossi profitti (o le ingenti perdite...) derivanti dal gioco d'azzardo.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Impedisce il funzionamento di tutti i veicoli a repulsione presenti sul pianeta. Non ha effetto sui veicoli alleati.

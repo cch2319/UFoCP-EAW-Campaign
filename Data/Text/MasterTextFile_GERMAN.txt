@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Klasse: Fabrikschiff
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Klasse: Fanatiker
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Klasse: Field Commander
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Klasse: Jäger
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Klasse: Jägergeschwader
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Klasse: Flottenkommandeur
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Klasse: Fregatte
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Klassifizierung: Hand des Imperators
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Modernes Fahrzeugwerk, in dem nach mandalorianischen E
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Baut folgende Einheiten: Canderous-Panzer, MZ-8-Panzer, mobile Raketenwerfer, F9-TZ-Transporter
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Aufrüstungen: Waffenschub Stufe 1-2.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Ermöglicht: Repulsorlift-Störer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Klasse: Jägergeschwader
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Bringt regelmäßig Geonosianer hervor, bis es zerstört wird.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifiziert die planetare Einkommensrate um die Ergebnisse des Glücksspiels. Dabei können ebenso gut enorme Gewinne wie Verluste herauskommen.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Verhindert, dass gegnerische Fahrzeuge mit Repulsorlift-Antrieb auf dem Planeten funktionieren. Verbündete Fahrzeuge sind nicht davon betroffen.

@@ -202,7 +202,7 @@
 	<Squadron Name="Rogue_Squadron_Space">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
@@ -295,7 +295,7 @@
 	<!-- ROGUE SQUADRON SPACE - CONTAINER INFO -->
 	<Container Name="Rogue_Squadron_Space_Container">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>

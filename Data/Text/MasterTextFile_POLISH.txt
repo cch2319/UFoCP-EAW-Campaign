@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Okręt-fabryka
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Fanatyczny samobójca
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Klasa: Dowódca polowy
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Klasa: Myśliwiec
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Eskadra myśliwców
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Klasa: Dowódca floty
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Klasa: Fregata
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Klasa: Ręka Imperatora
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandaloria
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Ulepszenia: poprawa uzbrojenia poziom 1-2.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Eskadra myśliwców
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Geonozjan
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modyfikuje współczynnik przychodów planety z hazardu. Zawierane zakłady mogą przynieść duże zyski lub ogromne straty.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Uniemożliwia działanie wszystkim pojazdom repulsorowym wroga. Nie wpływa na pojazdy należące do sił sprzymierzonych.

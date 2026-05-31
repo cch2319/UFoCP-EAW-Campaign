@@ -1421,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Класс: Корабль-завод
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Класс: Фанатик
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Класс: полевой командир
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Класс: истребитель
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Звено истребителей
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Класс: командир флота
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Класс: крейсер
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Класс: Рука Императора
@@ -1474,7 +1475,6 @@ TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandaloria
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Builds: Canderous Tanks, MZ-8 Pulse Tanks, M.A.L.s, F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Улучшения: Усиленный урон, уровни 1-2.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Звено истребителей
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Отсюда периодически появляются геонозиане.
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Влияет на уровень дохода планеты за счет тотализатора. Может приносить как крупную прибыль, так и крупные убытки.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Вражеская антигравитационная техника не работает на планете. На свои антигравы это не влияет.
