@@ -1753,8 +1753,8 @@ TEXT_GROUP_ROOM_4,Teamspiele
 TEXT_GROUP_ROOM_5,Allgemein
 TEXT_GUARD,Bewachen
 TEXT_GUI_AUTO_SAVE,[Autospeichern]
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,Die Fähigkeiten der Einheiten werden automatisch aktiviert.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,Legt die Dauer des Mausscrollings fest
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,Wenn diese Option aktiviert ist, werden verschiedene Fähigkeiten im Kampf automatisch ausgelöst (erkennbar an einem gelben Rahmen über dem Symbol der Fähigkeit).
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,Wenn diese Option aktiviert ist, erfolgt das Scrollen der Kamera (durch Gedrückthalten der mittleren Maustaste) präziser und wird direkt über die Maus mit der eingestellten Empfindlichkeit gesteuert.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_0,Spieleinstellungen akzeptiert
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_1,Spieleinstellungen akzeptiert
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_2,Spieleinstellungen akzeptiert
@@ -1763,35 +1763,35 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_4,Spieleinstellungen akzeptiert
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_5,Spieleinstellungen akzeptiert
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_6,Spieleinstellungen akzeptiert
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_7,Spieleinstellungen akzeptiert
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ADVANCED,Erweiterte Einstellungen für erfahrene Spieler
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,Legt die Kampfentscheidung fest
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Schaltet Helden ein/aus
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ADVANCED,Erweiterte Einstellungen für erfahrene Spieler.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,Bei der Einstellung "Fragen" wird jeder Spieler gefragt, ob er den Kampf automatisch auswerten oder einen taktischen Kampf starten möchte. Bei der Einstellung "Immer" wird jeder Kampf zwingend automatisch ausgewertet.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Wenn diese Option aktiviert ist, kann jeder Spieler Heldeneinheiten kaufen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Einschalten für bessere Verbindungen durch Firewalls
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Schaltet zufällige Ereignisse ein/aus
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Schaltet Starteinheiten ein/aus
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Schaltet Superwaffen ein/aus
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Wenn diese Option aktiviert ist, starten spontan zufällige Missionen und Ereignisse mit prozeduralen Belohnungen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Wenn diese Option aktiviert ist, beginnt jeder Spieler das Match mit zwei Start-Kampfgeschwadern.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Wenn diese Option aktiviert ist, kann jeder Spieler planetare Superwaffen erwerben.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Ermöglicht UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Umgehe die Windows-Firewall-Protokolle
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,Schaltet zwischen Mausbefehlen für die linke oder rechte Maustaste um
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,Antialiasing in hoher Qualität lässt Kanten weicher aussehen und erhöht die Bildqualität, geringere Qualität kann dafür die Geschwindigkeit erhöhen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,Wenn diese Option aktiviert ist, werden die Mausfunktionen vertauscht. Der mittlere Mausknopf fungiert als rechter Mausknopf, und der linke Mausknopf übernimmt sowohl die Funktion des linken als auch des rechten Mausknopfs.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,Antialiasing glättet gezackte Kanten im Kamerabild. Funktioniert nur im Vollbildmodus. Höhere Werte sorgen für glattere Kanten, beeinträchtigen jedoch die Leistung erheblich. Bei der niedrigsten Qualität ist Antialiasing deaktiviert.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_AUDIO_3D_TECHNOLOGY_COMBOBOX,Unterstützte 3D-Soundtechnologie
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Grafikeinstellungen automatisch abfragen
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,Schaltet die Kampfentscheidung ein/aus
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,Diese Option lässt die Lichteffekte weicher wirken, kann aber die Geschwindigkeit senken.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,Bei Aktivierung kann das Spielfeld gedreht werden, wenn beide Maustasten gedrückt gehalten werden.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Empfohlene Videoeinstellungen werden automatisch anhand der Hardware Ihres Computers ermittelt. Bei moderner Hardware werden dabei in der Regel alle Einstellungen auf den Höchstwert gesetzt.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,Wenn diese Option aktiviert ist, werden alle Kämpfe zwingend automatisch ausgewertet. Diese Einstellung gilt allgemein und überschreibt die Einstellungen zur automatischen Auswertung in den Spielmodi Scharmützel und Galaktische Eroberung.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,Wenn Bloom aktiviert ist, mildert es die Beleuchtung in der Szene und auf Objekten, was einen Halo-Effekt erzeugt. Bloom kann in lichtintensiven Szenarien zu Leistungseinbußen führen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,Wenn diese Option aktiviert ist, wird das Schlachtfeld durch Gedrückthalten der linken und rechten Maustaste gedreht, anstatt mit STRG + mittlerer Maustaste.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CAMPAIGN_DIFFICULTY_SLIDER,Legt den Schwierigkeitsgrad fest
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC,Eure Kampfeffizienz
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC2,Gegnerische Kampfeffizienz
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CHECK_USE_DEFAULT_PORT,Standard-Netzwerkport benutzen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_DELAY_TOOLTIPS,Verzögert das Erscheinen von Tooltipps.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Dieser Regler kontrolliert die generelle Grafikqualität. Eine hohe Einstellung sieht einfach besser aus, geringere Qualität erhöht dafür die Geschwindigkeit.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Steuert die allgemeine grafische Wiedergabegenauigkeit. Lässt sich gut mit starker Antialiasing kombinieren. Höhere Werte verbessern die Qualität von Modellen, Texturen und Beleuchtung, führen jedoch zu einer deutlich geringeren Leistung.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ENVIRONMENT_DETAIL_SLIDER,Umgebungsdetails in hoher Qualität zeigen mehr Pflanzen und Verzierungen am Gelände, geringere Qualität kann dafür die Geschwindigkeit erhöhen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Legt die Spielgeschwindigkeit für Boden und Weltraum fest
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Legt die Scrollgeschwindigkeit fest
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Steuert die Spielgeschwindigkeit für taktische Kämpfe im Weltraum und an Land. Höhere Werte sorgen für flüssigere Animationen, aber auch für ein schnelleres Spielgeschehen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Legt die Geschwindigkeit fest, mit der die Kamera schwenkt, wenn die Einstellung "Reines Mausscrollen" deaktiviert ist.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_FILTER_COMBO,Nur Spiele dieses Typs anzeigen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_LIST,Spielmodi
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Einstellung des Gamma-Werts
-TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,Hier klicken für einen Hardware-Mauszeiger (weicher und reaktionsschneller).
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Regelt den Gammawert des Monitors. Funktioniert nur im Vollbildmodus.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,Wenn diese Option aktiviert ist, wird die Maussteuerung per Direct Input anstelle eines softwareemulierten Cursors verwendet. Direct Input ist flüssiger, reaktionsschneller und nicht an die Bildrate des Spiels gebunden, kann jedoch bei höheren Abtastraten zu Leistungseinbußen führen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_HEAT_DISTORTIONS,Wird diese Option aktiviert, verzerren Hitze- und Druckwellen die Bildschirmdarstellung. Diese Option auszuschalten kann die Geschwindigkeit etwas erhöhen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_CONNECTION_SPEED_COMBO,Verbindungsart festlegen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_GAME_TYPE_BUTTON,Nach Spieltyp sortieren
@@ -1823,35 +1823,35 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Leichte Spielstufe
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Schwierige Spielstufe
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Mittlere Spielstufe
 TEXT_GUI_DIALOG_TOOLTIP_IDC_REFRESH_INFO_BUTTON,Netzwerkinfo aktualisieren
-TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,Scrollen mit der rechten Maustaste
+TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,Wenn diese Option aktiviert ist, wird die rechte Maustaste anstelle der mittleren Maustaste zum Schwenken der Kamera verwendet.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ROOM_LIST,Verfügbare Spielräume
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Scrollgeschwindigkeit anpassen
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Legt die Geschwindigkeit fest, mit der die Kamera schwenkt, wenn die Einstellung "Reines Mausscrollen" deaktiviert ist.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_CUSTOM_MAPS,Von Spielern erstellte Karten
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OFFICIAL_MAPS,Offiziell genehmigte Karten
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OPTIONS,Erweiterte Spieleinstellungen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SET_FILTER_BUTTON,Spiellistenfilter einstellen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADER_DETAIL_SLIDER,Shader in hoher Qualität sehen einfach besser aus, geringere Qualität kann dafür die Geschwindigkeit erhöhen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADOW_DETAIL_SLIDER,Schatten in hoher Qualität sehen realistischer aus, geringere Qualität kann dafür die Geschwindigkeit erhöhen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,Nur grüne (verbündete) und rote (gegnerische) Seitenfarben verwenden.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Legt die Startcredits für jeden Spieler fest
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Legt die höchte Tech-Stufe für das Spiel fest
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Legt die Tech-Stufe zu Spielbeginn fest
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Regelt die Lautstärke der Dialoge
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Haupt-Lautstärkeregler
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Regelt die Lautstärke der Musik
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Regelt die Lautstärke der Geräusche
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,Wenn diese Option aktiviert ist, werden die Fraktionsfarben deaktiviert. Verbündete (grün) und feindliche (rot) Truppen verwenden dasselbe Farbschema wie in Empire at War.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Legt die Startcredits für jeden Spieler fest.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Legt die höchte Tech-Stufe für das Spiel fest.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Legt die Tech-Stufe zu Spielbeginn fest.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Regelt die Lautstärke aller gesprochenen Dialoge während der Zwischensequenzen und im Spielverlauf.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Haupt-Lautstärkeregler.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Regelt die Lautstärke der Musik.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Regelt die Lautstärke aller Soundeffekte, einschließlich bestimmter Infanteriegeräusche.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SOFT_SHADOWS,Die Option Weiche Schatten lässt die Kanten der hochauflösenden Schatten weicher aussehen. Diese Option auszuschalten kann die Geschwindigkeit etwas erhöhen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Legt die Spielgeschwindigkeit für den Galaxismodus fest
+TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Steuert die Spielgeschwindigkeit auf der Galaktischen Karte. Höhere Werte sorgen für flüssigere Animationen, beschleunigen aber das Spielgeschehen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEAM_MEMBERS_ONLY,Nur mit Teammitgliedern reden
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEXTURE_MIP_DETAIL_SLIDER,Texturen in hoher Qualität zeigen mehr Details, verringern dafür aber eventuell die Geschwindigkeit.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_UPNP_DETAILS_BUTTON,UPnP-Gerätedetails anzeigen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_GAME_SUBTITLES,Schaltet Untertitel im Spiel ein/aus
-TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,Schaltet Untertitel ein/aus
-TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,Vsync auszuschalten kann die Geschwindigkeit erhöhen, aber auch Schlieren verursachen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,Wenn diese Option aktiviert ist, werden die filmischen Zwischensequenzen mit Untertiteln angezeigt.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,Wenn diese Option aktiviert ist, wird Bildreißen verhindert, indem die Bildrate auf die Bildwiederholfrequenz des Monitors begrenzt und die Bildanzeige angehalten wird, bis alle Bilder verarbeitet sind. Dies kann die Genauigkeit und Reaktionsgeschwindigkeit der Maus auf dem Bildschirm beeinträchtigen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WATER_DETAIL_SLIDER,Wasser in hoher Qualität zeigt mehr Reflexionen und Brechungen. Geringere Qualität kann dafür die Geschwindigkeit erhöhen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,Hier klicken, wenn ein 16:9-Monitor verwendet wird.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,Wenn diese Option aktiviert ist, wird das Seitenverhältnis der Kamera an 16:9-Monitore angepasst. Ultra-Wide-Monitore werden nicht unterstützt. Bei Aktivierung auf einem 4:3-Monitor wird das Bild verzerrt dargestellt.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WIN_CONDITION_COMBO,Bestimmt die Siegbedingungen
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Fenstermodus
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Wenn diese Option aktiviert ist, wird das Spiel in einem anpassbaren Fenster ausgeführt (das Fenster kann vergrößert und maximiert werden).
 TEXT_GUI_QUICK_SAVE,[Schnellspeichern]
 TEXT_GUI_TOOLTIP_BIND_KEY,Drückt die gewünschte Taste für das neue Tastenkürzel.
 TEXT_GUI_TOOLTIP_BIND_MODIFIER,Wenn Ihr das Tastenkürzel mit der STRG-, Umschalt- oder Alt-Taste kombinieren wollt, drückt diese Taste zuerst und haltet sie gedrückt.

@@ -1753,8 +1753,8 @@ TEXT_GROUP_ROOM_4,Team Games
 TEXT_GROUP_ROOM_5,General
 TEXT_GUARD,Guard
 TEXT_GUI_AUTO_SAVE,[Auto Save]
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,The abilities of units will be activated automatically.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,Sets mouse scroll duration
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,When enabled, various abilities will be activated automatically when in combat (indicated by a yellow box over the ability's icon).
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,When enabled, camera scrolling (activated by holding the middle mouse button) is more precise, and is directly controlled with the mouse at the mouse's sensitivity.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_0,Game settings accepted
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_1,Game settings accepted
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_2,Game settings accepted
@@ -1763,35 +1763,35 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_4,Game settings accepted
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_5,Game settings accepted
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_6,Game settings accepted
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_7,Game settings accepted
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ADVANCED,Advanced settings for experienced users
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,Sets combat resolution
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Toggles heroes on/off
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ADVANCED,Advanced settings for experienced users.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,When set to Ask, each player will be prompted if they wish to auto-resolve or initiate Tactical Combat.  When set to Always, each combat is mandatorily auto-resolved.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,When enabled, each player can purchase hero units.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Enable to better connect through firewalls
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Toggles random events on/off
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Toggles starting units on/off
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Toggles super weapons on/off
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,When enabled, random missions and events with procedural rewards will start spontaneously.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,When enabled, each player will begin the match with two starting fighter squadrons.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,When enabled, each player can purchase planetary super weapons.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Enables UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Bypass Windows Firewall protocols
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,Toggles between left and right click mouse action commands
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,High quality anti-aliasing will smooth out jagged edges and improve image quality.  Use lower quality for best performance.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,When enabled, mouse controls are swapped.  Middle-click becomes right-click, and left-click operates as both left- and right-click.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,Anti-aliasing smooths out jagged edges in the camera's view.  Only works in fullscreen.  Higher values create smoother edges, but with considerably worse performance.  Lowest quality turns anti-aliasing off.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_AUDIO_3D_TECHNOLOGY_COMBOBOX,Supported 3D audio technology
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Auto detect video settings
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,Toggles combat resolution on/off
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,Enabling Bloom will soften the lighting of the scene but may decrease performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,When enabled, holding both mouse buttons down will rotate the playfield.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Autodetect recommended video settings based on your computer's hardware.  On modern hardware, this will typically maximize every setting.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,When enabled, all battles are mandatorily auto-resolved.  This setting is a universal default, and will overwrite auto-resolve preferences in Skirmish and Galactic Conquest.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,When enabled, Bloom softens lighting in the scene and on objects, which causes a "halo" effect.  Bloom may reduce performance in lighting-heavy scenarios.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,When enabled, holding down both left and right mouse buttons will rotate the battlefield instead of CTRL + middle mouse.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CAMPAIGN_DIFFICULTY_SLIDER,Sets difficulty level
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC,Your Combat Efficiency
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC2,Enemy Combat Efficiency
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CHECK_USE_DEFAULT_PORT,Use default network port
 TEXT_GUI_DIALOG_TOOLTIP_IDC_DELAY_TOOLTIPS,Increases the delay for tooltip popup.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,This slider controls the overall quality of the graphics.  High settings will look better while low settings will give better performance.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Controls the overall graphical fidelity.  Pairs well with high anti-aliasing.  Higher values improve the quality of models, textures and lighting, but with considerably worse performance.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ENVIRONMENT_DETAIL_SLIDER,Higher environment detail will display more plant life and decorations on the terrain but lower detail may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Sets game-play speed for space and land
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Sets screen scroll speed
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Controls gameplay speed for Space and Land Tactical Combat.  Higher values will result in smoother animations, but faster gameplay.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Controls how fast the camera scrolls when the setting "Absolute Push Scroll" is disabled.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_FILTER_COMBO,Show only games of this type
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_LIST,Game modes
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Adjust brightness level
-TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,Check this to use a hardware mouse cursor.  A hardware mouse cursor is smoother and more responsive.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Controls the gamma level of the monitor.  Only works in fullscreen.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,When enabled, use direct input mouse control instead of a software-emulated cursor.  Direct input is smoother, more responsive and isn't tied to the game's framerate, but may perform worse with higher polling rates.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_HEAT_DISTORTIONS,Enable this for heat and shockwave effects that distort the screen.  Disabling this may improve performance.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_CONNECTION_SPEED_COMBO,Set your connection type
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_GAME_TYPE_BUTTON,Sort by game type
@@ -1823,35 +1823,35 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Easy game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Hard game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Medium game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_REFRESH_INFO_BUTTON,Refresh network information
-TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,Use right mouse button for scrolling
+TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,When enabled, use the right mouse button for camera scrolling instead of the middle mouse button.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ROOM_LIST,Available game rooms
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Adjust the scroll speed
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Controls how fast the camera scrolls when the setting "Absolute Push Scroll" is disabled.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_CUSTOM_MAPS,Player created maps
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OFFICIAL_MAPS,Officially approved maps
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OPTIONS,Advanced game settings
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SET_FILTER_BUTTON,Set game list filter
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADER_DETAIL_SLIDER,High quality shaders look better.  Lower quality shaders may improve performance.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADOW_DETAIL_SLIDER,High detail shadows look more realistic but lower detail shadows may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,Use green (friendly) and red (enemy) faction colors only
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Sets starting credits for each player
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Sets max tech level for a game
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Sets starting tech level
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Sets Dialog Volume
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Sets master volume for ALL audio
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Sets Music Volume
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Sets SFX Volume
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,When enabled, faction colors will be disabled.  Friendly (green) and enemy (red) forces will use the same color scheme from Empire at War.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Sets the starting credits for each player.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Sets the game's max tech level.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Sets the starting tech level.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Controls the volume of all spoken dialogue during cinematics and gameplay.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Controls the volume of all audio.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Controls the volume of all music.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Controls the volume of all sound effects, including certain infantry sounds.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SOFT_SHADOWS,Enabling soft shadows will soften the edges of the high-detail shadows.  Disabling this option may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Sets game-play speed for galactic
+TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Controls gameplay speed on the Galactic Map.  Higher values will result in smoother animations, but faster gameplay.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEAM_MEMBERS_ONLY,Chat with only team members
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEXTURE_MIP_DETAIL_SLIDER,High detail textures have more detail but may decrease performance.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_UPNP_DETAILS_BUTTON,View UPnP device details
 TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_GAME_SUBTITLES,Toggles in game subtitles on/off
-TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,Toggles subtitles on/off
-TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,Disabling vsync will improve performance but may cause tearing.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,When enabled, cinematic cutscenes will have subtitles.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,When enabled, screen tearing is prevented by capping the framerate to the monitor's refresh rate, and halting the on-screen image until all frames are processed.  May decrease mouse-to-screen accuracy and responsiveness.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WATER_DETAIL_SLIDER,High quality water will display reflections and refractions.  Lower quality water may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,Check this if you are using a widescreen monitor.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,When enabled, the camera's aspect ratio is adjusted to support 16:9 monitors.  Does not support ultrawide monitors.  When enabled on a 4:3 monitor, the image will be distorted.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WIN_CONDITION_COMBO,Sets unique victory conditions
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Run in a window
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,When enabled, the game will run in a resizable window (the window can be stretched and maximized).
 TEXT_GUI_QUICK_SAVE,[Quick Save]
 TEXT_GUI_TOOLTIP_BIND_KEY,Press the desired key to bind your new shortcut
 TEXT_GUI_TOOLTIP_BIND_MODIFIER,If you wish to use the Control, Shift, or Alt keys as a modifier, then hold that key down first.
