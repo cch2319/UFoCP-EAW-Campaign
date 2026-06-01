@@ -18639,14 +18639,14 @@ TEXT_UNIT_TWILEK_COMMANDO,Twi'lek Commando
 TEXT_UNIT_TWILEK_COMMANDO_DESCRIPTION,A highly trained Twi'lek operative in the service of Jabba the Hutt
 TEXT_UNIT_TYDERIUM_SHUTTLE,Lambda-Class Shuttle
 TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC,Merc Assault Squad
-TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC_ENCYC,The heavy soldier for the Zann Consortium, initially equipped with a blaster rifle, can be upgraded to disruptors. 3 squads (of 3 soldiers each) per company.
+TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC_ENCYC,The heavy soldier for the Zann Consortium, initially equipped with a blaster rifle, can be upgraded to disruptors.  3 squads (of 3 soldiers each) per company.
 TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC_SQUAD,Merc Assault Squad
 TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID,Gas Collection Droid
 TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID_FULL,Gas Collection Droid (Full)
 TEXT_UNIT_UNDERWORLD_HERO_SHUTTLE,Consortium Shuttle
 TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT,Consortium Light Transport
 TEXT_UNIT_UNDERWORLD_MERC,Grenadier
-TEXT_UNIT_UNDERWORLD_MERC_ENCYC,The base soldier for the Zann Consortium, useful against infantry and other light resistance. 3 squads (of 4 soldiers each) per company.
+TEXT_UNIT_UNDERWORLD_MERC_ENCYC,The base soldier for the Zann Consortium, useful against infantry and other light resistance.  3 squads (of 4 soldiers each) per company.
 TEXT_UNIT_UNDERWORLD_MERC_SQUAD,Grenadier
 TEXT_UNIT_UNDERWORLD_TRANSPORT,Consortium Vehicle Transport
 TEXT_UNIT_VENGEANCE_FRIGATE,Vengeance-class Frigate
