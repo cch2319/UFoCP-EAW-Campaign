@@ -48,18 +48,15 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix a regression caused by the bugfix for BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to break the story (cosmetically) and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact"). (BUG #736)
+• Fix a regression caused by balance modification BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to break the story (cosmetically) and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact").  Tyber is now a stealth unit for the entirety of the campaign (as intended). (BUG #736)
 
 
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
-• UFCP's new loading screen and main menu now includes all available languages supported by FoC. (BUG #451)
-• The Land and Space camera settings have been adjusted to increase draw distance for units and props.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
+• UFCP's new loading screen and main menu now supports all available languages supported by FoC. (BUG #451)
+• The Land and Space Combat camera settings have been adjusted to increase the draw distance.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
 • The orbital drydock props, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon (instead of using a large square). (BUG #682) (Thanks, .lany!)
-
-
-FORWARDED OFFICIAL FIXES:
-• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
+• Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant than the original drydock props, but are also MP-friendly and should result in less MPGC instability. (BUG #482)
 
 
 HOUSEKEEPING:
@@ -72,9 +69,13 @@ MISC:
 ======
 
 
+NOTICE:
+• The new grass shaders introduced by Petroglyph in the 2016 patch have been reverted to how they were in EaW (meaning they will no longer cast shadows or be visible when submerged in water).  We regret to revert this, however, the new shader caused the land skybox to stop rendering at the sky's horizon when grass/groundcover was used on a map, instead of fully surrounding the map, and it looked *really bad* (see GitHub for details). (BUG #675)
+
+
 Multiplayer:
 • MP Space combat stability should be greatly improved (and marginally, Land combat as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
-• Reinforcement Points have received XML AI categories to prevent throwing tons of assertion errors every few frames when present in a battle. (BUG #676)
+• Reinforcement Points have received XML AI categories to prevent throwing assertion errors every few frames when present in a battle. (BUG #676)
 • As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
 • As a part of BUG #683 (mentioned below), MP Space Kuat now use optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
 
@@ -84,7 +85,7 @@ Ability Fixes:
 
 
 AI Fixes:
-• The Skirmish AI is supposed to generate a 6,000 credit cash boost every 2 minutes if they had <3,000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money - meaning, the AI bypassed the 2 minute wait time and could rapidly spend 6000 credit cash drops. (BUG #571)
+• The Skirmish AI is supposed to generate a 6,000 credit cash boost every 2 minutes if they had <3,000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money - meaning, the AI bypassed the 2 minute wait time and could rapidly spend 6,000 credit cash drops. (BUG #571)
 • The level 1 space stations for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid bugfix, they should now properly prioritize distance in tactical situations. (BUG #679)
 
 
@@ -108,7 +109,6 @@ Map/Planet Fixes:
 • Shola was defined as a volcanic planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
 • Bonadan was defined as an urban planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #672)
 • Space Fondor's Piracy map, for unexplainable reasons, used Utapau's planet model instead of the large ecumenopolis model that the standard Space Fondor map uses. (BUG #681)
-• Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant, but also MP-friendly and should result in less MPGC instability. (BUG #482)
 • MP Space Kuat's gutting of its orbital dockyard units (as seen in EaW) has been reverted.  Petroglyph likely made this change because the space props used were from the Rebel story campaign, which had active engine particles and were synched between clients - Kuat became the worst performing map in the Skirmish pool.  With BUG #482 fixed, the new Empire shipyard props are more performant and not synched between players, which means we can add these props back to Kuat.  In addition, a new, MP-friendly orbital dockyard prop was made, which means the performance benefit should now be net-positive on this map. (BUG #683)
 • Space Mon Calmari Piracy, when the planet was owned by the Rebels, would not have the Calamari Cruisers be destroyed when the dockyards were destroyed.  A new Calamari Cruiser prop, based on the story campaigns' destroyable drydock Star Destroyer, has been retrofitted on the map. (BUG #684)
 • Nal Hutta's indigenous Hutts would attack the Hutt units of Jabba's Criminal Empire during the Consortium campaign.  On the map, the indigenous Hutts were part of the Black Sun Pirates, who are hostile to the Hutts, but weren't vice-versa.  A duplicated map (_Land_Planet_Nal_Hutta_Story_02.ted) has been created for the Consortium campaign so the indigenous Hutts' faction can be properly assigned. (BUG #123)
