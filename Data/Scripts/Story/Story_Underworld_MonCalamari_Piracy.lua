@@ -137,7 +137,7 @@ function Initialize_Mission()
 
 	-- Set the destruction checks for the station.
 
-	dockyard_list = Find_All_Objects_Of_Type("EMPIRE_DOCK_DESTROYABLE")
+	dockyard_list = Find_All_Objects_Of_Type("REBEL_DOCK_DESTROYABLE")
 	for i,unit in pairs(dockyard_list) do
 		Register_Death_Event(unit, Dock_Destroyed)
 	end

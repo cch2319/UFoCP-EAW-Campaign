@@ -339,6 +339,19 @@
 	</SpaceStructure>
 
 
+	<!-- AM1994 (06/05/2026): Used in Rebel version of Mon Cala Piracy map. -->
+	<SpaceStructure Name="Rebel_Dock_Destroyable">
+		<Variant_Of_Existing_Type>Empire_Dock_Destroyable</Variant_Of_Existing_Type>
+
+		<!--
+			Solves 2 problems: 1 where Cons will unintentionally blow themselves up (unintended,
+			just supposed to blow up ship props), and where the normal dock won't blow up the Rebel
+			drydock ships.
+		-->
+		<Affiliation>Rebel</Affiliation>
+		<Death_Projectiles>Proj_Construction_Pod_Detonation_Underworld_Immune</Death_Projectiles>
+	</SpaceStructure>
+
 
 	<SpaceStructure Name="Cargo_Debris_01">
 		<Text_ID>TEXT_OBJECT_CARGO</Text_ID>

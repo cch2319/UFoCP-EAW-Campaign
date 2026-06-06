@@ -2066,8 +2066,8 @@
 	<!-- jdg using this guy in an expansion corruption mission, making player immune to damage -->
 	<Projectile Name="Proj_Construction_Pod_Detonation_Underworld_Immune">
 		<Variant_Of_Existing_Type>Proj_Construction_Pod_Detonation</Variant_Of_Existing_Type>
-		<Projectile_Blast_Area_Immune_Faction>Underworld</Projectile_Blast_Area_Immune_Faction>
 
+		<Projectile_Blast_Area_Immune_Faction>Underworld</Projectile_Blast_Area_Immune_Faction>
 	</Projectile>
 
 	<!-- speeder bike dropped bomb -->
