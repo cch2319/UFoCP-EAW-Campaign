@@ -138,6 +138,7 @@ Unit Fixes:
 • The Consortium's Venator-class Cruiser didn't have shield armor multipliers, using Shield_Default instead of Shield_Frigate.  Various units now have a variety of damage reductions/multipliers against the Cruiser in battle (for example, asteroid fields will now do 25% less damage against the Cruiser). (BUG #573)
 • The Rebels' MC30c didn't have damage multipliers on its rear laser cannon.  Temporarily, it's been given the Corellian Corvette's damage multipliers (as its a laser cannon battery/anti-starfighter). (BUG #575)
 • The Vengeance Frigate had awkward firing angles, as the model bone used to dictate initial firing points upwards.  To smooth out the behavior, the Frigate's firing angle height was boosted from 90* to 120*. (BUG #772)
+• Indigenous Mandalorian units would freeze and not play an animation when getting crushed by tank-like vehicles or AT-ATs.  They were missing the "crushed" animation, and it has been swapped out for their standard death animation. (BUG #755)
 
 
 

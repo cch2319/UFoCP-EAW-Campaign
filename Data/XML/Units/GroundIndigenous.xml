@@ -3324,7 +3324,7 @@
 
 	<GroundInfantry Name="Mandalorian_Indigenous_Crush_Death_Clone">
 		<Variant_Of_Existing_Type>Mandalorian_Indigenous</Variant_Of_Existing_Type>
-		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 		<CategoryMask>None</CategoryMask>
 	</GroundInfantry>
