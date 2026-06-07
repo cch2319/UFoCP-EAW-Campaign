@@ -53,7 +53,7 @@
 	<File>ScriptMarkers.xml</File>
 
 	<File>MiscObjects.xml</File>
-	<File>Modifiers\UpgradeObjects.xml</File>
+	<File>UpgradeObjects.xml</File>
 	<File>Maps\SecondaryStructures.xml</File>
 
 	<File>MOV_Cinematics.xml</File>
@@ -114,7 +114,7 @@
 	<File>GroundBuildablesUnderworld.xml</File>
 	<File>Maps\GroundStructures_Underworld.xml</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
-	<File>Modifiers\UpgradeObjects_Underworld.XML</File>
+	<File>UpgradeObjects_Underworld.XML</File>
 
 	<!-- Expansion Units: Heroes -->
 	<File>Units\Underworld\Units_Hero_Underworld_IG88.xml</File>
