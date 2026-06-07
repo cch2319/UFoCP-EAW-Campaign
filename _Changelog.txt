@@ -139,6 +139,7 @@ Unit Fixes:
 • The Rebels' MC30c didn't have damage multipliers on its rear laser cannon.  Temporarily, it's been given the Corellian Corvette's damage multipliers (as its a laser cannon battery/anti-starfighter). (BUG #575)
 • The Vengeance Frigate had awkward firing angles, as the model bone used to dictate initial firing points upwards.  To smooth out the behavior, the Frigate's firing angle height was boosted from 90* to 120*. (BUG #772)
 • Indigenous Mandalorian units would freeze and not play an animation when getting crushed by tank-like vehicles or AT-ATs.  They were missing the "crushed" animation, and it has been swapped out for their standard death animation. (BUG #755)
+• Various indigenous units would be unable to target and fire at structures and units.  Their FoW reveal range was too low compared to their attack range. (BUG #756)
 
 
 

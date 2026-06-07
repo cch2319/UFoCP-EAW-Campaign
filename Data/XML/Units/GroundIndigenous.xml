@@ -1770,7 +1770,7 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 8.0</Targeting_Fire_Inaccuracy>
 
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>100.00</Land_FOW_Reveal_Range>
 		<Targeting_Min_Attack_Distance>100.0</Targeting_Min_Attack_Distance>
 		<Harass_Enemy_Exclusion_Range>100.0</Harass_Enemy_Exclusion_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -2207,7 +2207,7 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 8.0</Targeting_Fire_Inaccuracy>
 
-		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>90.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>90.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -2998,6 +2998,7 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 5.0</Targeting_Fire_Inaccuracy>
 
+		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -3131,6 +3132,7 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 8.0</Targeting_Fire_Inaccuracy>
 
+		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -3264,6 +3266,7 @@
 		<Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 5.0</Targeting_Fire_Inaccuracy>
 
+		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
