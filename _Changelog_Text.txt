@@ -59,6 +59,8 @@ Additions:
 	-- RUS: Батарея плазменных пушек
 	-- SPA: Batería de cañones de plasma
 • Infantry barracks, light vehicle factories, heavy vehicle factories and officer academies now have a generic description shared between all factions' buildings, instead of being tooltip-less.  Otherwise, each unique building (Infiltrator Academy, Droid Works, etc.) have received unique descriptions. (BUG #744, #745, #746)
+• "TEXT_SFX_WED_CHATTER_DS_2" has been created to implement an unused voice line for Wedge Antilles. (BUG #417)
+• "TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION" has been created for Rogue Squadron's S-Foils ability. (BUG #417)
 
 
 Housekeeping:
@@ -751,6 +753,10 @@ Housekeeping:
 
 • TEXT_SPEECH_UW_ACT03_G18_11: (BUG #670)
 	-- ENG: Tyber Zann: I cannot allow underlings... --> Tyber Zann: (Blaster Fire) I cannot allow underlings...
+
+• TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION: (BUG #417)
+	-- ENG: This ability temporarily boosts Rogue Squadron's rate of fire, movement speed, and damage. --> Coordinate Rogue Squadron's attack run for a devastating strike.  Temporarily boosts Rogue Squadron's rate of fire and damage, while slightly reducing their movement speed.
+	-- GER: Diese Fähigkeit gibt einen vorübergehenden Bonus auf die Feuerrate, die Bewegungsgeschwindigkeit und den Schaden des Rogue-Geschwaders. --> Koordinieren Sie den Angriffsflug des Rogue Squadron für einen vernichtenden Schlag. Erhöht vorübergehend die Feuerrate und den Schaden des Rogue-Geschwaders, verringert dabei jedoch leicht dessen Bewegungsgeschwindigkeit.
 
 • TEXT_TOOLTIP_CRUSADER_GUNSHIP: (BUG #740)
 	-- ENG: The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty. --> The Crusader is a product of Mandal Hypernautics, created for anti-fighter duty.  Light assault ship with 12 laser cannons, which can be fitted with anti-missile point-defense weapons from the black market.

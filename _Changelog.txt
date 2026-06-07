@@ -80,6 +80,11 @@ Multiplayer:
 • As a part of BUG #683 (mentioned below), MP Space Kuat now use optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
 
 
+Balance Changes:
+• Given popular request, Rogue Squadron has been lamented as one of the worst performing hero units, and has received an ability rework/buffs.  Multiple audio issues (such as *most* of the Wedge-speaking-from-the-dead oversights) and interface problems (such as missing units Rogue Squad is weak against) have been fixed as well. (BUG #417)
+• X-wings received a small buff where their "max targeting distance" didn't match their maximum FoW reveal distance, unlike basically every other fighter in the game. (BUG #417)
+
+
 Ability Fixes:
 • "STRIKE" for Rogue Squadron would embrace its inner creepypasta, lose its icon and rename itself to "-BAD VALUE-" when used while selecting multiple X-wings.  It has now embraced normality, no hyper-realistic blood included. (BUG #272)
 

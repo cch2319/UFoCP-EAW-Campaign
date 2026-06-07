@@ -14175,6 +14175,7 @@ TEXT_SFX_WED_CHATTER_4,Ici Rouge 2, je me dirige vers vous.
 TEXT_SFX_WED_CHATTER_5,Attends, je m'occupe de lui, Luke !
 TEXT_SFX_WED_CHATTER_6,J'en ai eu un.
 TEXT_SFX_WED_CHATTER_DS,Vous avez vu la taille de ce machin !
+TEXT_SFX_WED_CHATTER_DS_2,I'm hit !
 TEXT_SFX_WED_GUARD_1,Je couvre la cible.
 TEXT_SFX_WED_GUARD_2,J'escorte la cible !
 TEXT_SFX_WED_MOVE_1,Affirmatif
@@ -17931,6 +17932,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,Cette aptitude convertit l'énergi
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Conversion d'énergie
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Permet de replier les ailerons pour augmenter la vitesse. La puissance de feu de l'unité est alors réduite.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Verrouiller ailerons S
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Rogue Squadron can shunt extra power to their engines.  While S-Foils are locked, this unit will have increased speed, but greatly reduced shield and weapon recharge rate.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Permet d'effectuer une manoeuvre d'évitement pour échapper aux tirs ennemis. L'infanterie se déplace alors plus lentement.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Se mettre à couvert
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Augmente la vitesse pendant une courte période.

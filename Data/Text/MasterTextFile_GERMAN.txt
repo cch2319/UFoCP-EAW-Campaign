@@ -14175,6 +14175,7 @@ TEXT_SFX_WED_CHATTER_4,Hier Rot Zwei, fliege auf Euch zu.
 TEXT_SFX_WED_CHATTER_5,Ich bin an ihm dran, Luke, halte durch!
 TEXT_SFX_WED_CHATTER_6,Ich hab' einen ...!
 TEXT_SFX_WED_CHATTER_DS,Seht Euch nur mal die Größe von dem Ding an!
+TEXT_SFX_WED_CHATTER_DS_2,Ich bin getroffen!
 TEXT_SFX_WED_GUARD_1,Gebe dem Ziel Geleitschutz.
 TEXT_SFX_WED_GUARD_2,Ziel unter Geleitschutz.
 TEXT_SFX_WED_MOVE_1,Jawohl.
@@ -17931,6 +17932,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,Diese Fähigkeit überlastet die S
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Schildschlag
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Klappt die S-Flügel ein, um eine höhere Geschwindigkeit zu erzielen. Mit geschlossenen S-Flügeln hat diese Einheit jedoch eine geringere Feuerkraft.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Flügel einklappen
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Das Rogue-Geschwaders kann zusätzliche Energie in seine Triebwerke leiten. Solange die S-Flügel ausgefahren sind, verfügt diese Einheit über eine höhere Geschwindigkeit, jedoch sind die Schildstärke und die Wiederaufladezeit der Waffen deutlich verringert.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Ausweichmanöver unternehmen, um Schäden durch Feindfeuer zu reduzieren. Infanterie bewegt sich während eines Ausweichmanövers nur langsam.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Deckung
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Erlaubt für kurze Zeit eine erhöhte Laufgeschwindigkeit.
@@ -17941,7 +17943,7 @@ TEXT_TOOLTIP_ABILITY_STICKY_BOMB_DESCRIPTION,Wirft eine Bombe ab, die sich an ei
 TEXT_TOOLTIP_ABILITY_STICKY_BOMB_NAME,Thermaldetonator
 TEXT_TOOLTIP_ABILITY_STIM_PACK_DESCRIPTION,Dank Stim-Packs kann eine Einheit schneller laufen und mehr Schaden anrichten. Allerdings schädigt jede Benutzung die Einheit auch.
 TEXT_TOOLTIP_ABILITY_STIM_PACK_NAME,Stim-Pack
-TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,Diese Fähigkeit gibt einen vorübergehenden Bonus auf die Feuerrate, die Bewegungsgeschwindigkeit und den Schaden des Rogue-Geschwaders.
+TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,Koordinieren Sie den Angriffsflug des Rogue Squadron für einen vernichtenden Schlag. Erhöht vorübergehend die Feuerrate und den Schaden des Rogue-Geschwaders, verringert dabei jedoch leicht dessen Bewegungsgeschwindigkeit.
 TEXT_TOOLTIP_ABILITY_STRIKE_NAME,Schlag
 TEXT_TOOLTIP_ABILITY_STUN_DESCRIPTION,Wird er aktiviert, breitet sich ein Stoß ringförmig um den Helden aus und setzt alle Infanteristen im betroffenen Gebiet für begrenzte Zeit außer Gefecht.
 TEXT_TOOLTIP_ABILITY_STUN_NAME,Lähmschlag

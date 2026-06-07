@@ -14175,6 +14175,7 @@ TEXT_SFX_WED_CHATTER_4,Qui Rosso 2, mi dirigo verso di voi.
 TEXT_SFX_WED_CHATTER_5,Sono su di lui, Luke, resisti!
 TEXT_SFX_WED_CHATTER_6,Ho un...
 TEXT_SFX_WED_CHATTER_DS,Guarda quant'è grosso quell'affare!
+TEXT_SFX_WED_CHATTER_DS_2,I'm hit!
 TEXT_SFX_WED_GUARD_1,Di scorta al bersaglio.
 TEXT_SFX_WED_GUARD_2,Bersaglio sotto scorta.
 TEXT_SFX_WED_MOVE_1,Affermativo.
@@ -17931,6 +17932,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,Questa abilità assorbe l'energia 
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Scudo energetico
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Chiude le ali dell'unità per aumentare la velocità di punta, a scapito però della potenza di fuoco.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Chiusura Lastre-S
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Rogue Squadron can shunt extra power to their engines.  While S-Foils are locked, this unit will have increased speed, but greatly reduced shield and weapon recharge rate.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Ordina una manovra evasiva per sottrarsi al fuoco nemico. In questo modo le unità possono limitare i danni subiti, a scapito però della loro velocità di movimento.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Al riparo
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Produce istantaneamente una forte accelerazione di breve durata.

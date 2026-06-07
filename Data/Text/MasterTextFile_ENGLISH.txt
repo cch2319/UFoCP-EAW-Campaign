@@ -14175,6 +14175,7 @@ TEXT_SFX_WED_CHATTER_4,This is Red 2, flying towards you
 TEXT_SFX_WED_CHATTER_5,I'm on him Luke, hold on!
 TEXT_SFX_WED_CHATTER_6,I got one...
 TEXT_SFX_WED_CHATTER_DS,Look at the size of that thing!
+TEXT_SFX_WED_CHATTER_DS_2,I'm hit!
 TEXT_SFX_WED_GUARD_1,Escorting target
 TEXT_SFX_WED_GUARD_2,Target under escort
 TEXT_SFX_WED_MOVE_1,Affirmative
@@ -17931,6 +17932,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,This ability drains the shield for
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Shield Flare
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Locks S-Foils together to provide increased speed.  While S-Foils are locked, this unit will have reduced firepower.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Lock S-Foils
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Rogue Squadron can shunt extra power to their engines.  This unit will have increased speed while S-Foils are locked, but unlike normal X-wings, greatly reduced shield and weapon recharge rate.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Take evasive maneuvers to reduce damage from enemy fire.  While using evasive maneuvers, infantry move slowly.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Take Cover
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Allows an accelerated run speed for a short duration.
@@ -17941,7 +17943,7 @@ TEXT_TOOLTIP_ABILITY_STICKY_BOMB_DESCRIPTION,Throw a bomb that will stick to a t
 TEXT_TOOLTIP_ABILITY_STICKY_BOMB_NAME,Thermal Detonator
 TEXT_TOOLTIP_ABILITY_STIM_PACK_DESCRIPTION,Stim packs allow the unit to run faster and do more damage.  Each use causes damage to the unit.
 TEXT_TOOLTIP_ABILITY_STIM_PACK_NAME,Stim Pack
-TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,This ability temporarily boosts Rogue Squadron's rate of fire, movement speed, and damage.
+TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,Coordinate Rogue Squadron's attack run for a devastating strike.  Temporarily boosts Rogue Squadron's rate of fire and damage, while slightly reducing their movement speed.
 TEXT_TOOLTIP_ABILITY_STRIKE_NAME,Strike
 TEXT_TOOLTIP_ABILITY_STUN_DESCRIPTION,When activated, a blast will radiate from around the hero stunning all infantry for a limited amount of time.
 TEXT_TOOLTIP_ABILITY_STUN_NAME,Sonic Stunner

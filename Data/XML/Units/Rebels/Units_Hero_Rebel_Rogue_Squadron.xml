@@ -7,27 +7,22 @@
 
 	<!-- ROGUE SQUADRON SPACE - INDIVIDUAL UNIT -->
 	<UniqueUnit Name="Wedge_XWing_Rogue">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_WEDGE_01_XWING</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Interdictor_Cruiser Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 
-		<Space_Model_Name>RV_rogue_squad.alo</Space_Model_Name>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Space_Model_Name>rv_rogue_squad.alo</Space_Model_Name>
+		<Scale_Factor>0.80</Scale_Factor>
+		<LOD_Bias>10</LOD_Bias>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.00f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius>50.0</Mouse_Collide_Override_Sphere_Radius>
 
-		<Armor_Type>Armor_Hero_Transport</Armor_Type>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
-		<Tactical_Health>200</Tactical_Health>
-		<Shield_Points>100</Shield_Points>
-		<Damage>40</Damage>
 
-		<!-- Wedge's X-Wing is a Death Star killer! -->
-		<Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
-
+		<Affiliation>Rebel</Affiliation>
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			ABILITY_COUNTDOWN,
@@ -38,10 +33,97 @@
 			SHIELDED,
 			HIDE_WHEN_FOGGED,
 			AMBIENT_SFX,
+			DAMAGE_TRACKING,
 			NEBULA
 		</SpaceBehavior>
-		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<!-- Wedge's X-Wing is a Death Star killer! -->
+		<Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
 
+		<CategoryMask>Fighter | AntiBomber</CategoryMask>
+		<Ship_Class>fighter</Ship_Class>
+		<Property_Flags>SmallShip</Property_Flags>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
+		<Damage>1</Damage>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.20</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.00f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Population_Value>0</Population_Value>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>Rogue_Squadron_Space</Create_Team_Type>
+
+
+		<Armor_Type>Armor_Hero_Transport</Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Points>200</Shield_Points>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+		<Energy_Capacity>700</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Fires_Forward>No</Fires_Forward>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>No</Is_Bomber>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<MovementClass>Space</MovementClass>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Mass>0.98</Mass>
+		<Min_Speed>2.50</Min_Speed>
+		<Max_Speed>4.00</Max_Speed>
+		<Max_Rate_Of_Turn>3.00</Max_Rate_Of_Turn>
+		<Max_Thrust>1.00</Max_Thrust>
+		<Max_Rate_Of_Roll>5.00</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.00</Begin_Turn_Towards_Distance>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.50</Hyperspace_Speed>
+		<Maintenance_Cost>0.10</Maintenance_Cost>
+		<Formation_Priority>1</Formation_Priority>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Size_Value>8</Size_Value>
+		<Dense_FOW_Reveal_Range_Multiplier>0.20</Dense_FOW_Reveal_Range_Multiplier>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Custom_Footprint_Radius>7.00</Custom_Footprint_Radius>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.00</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.00</Minimum_Follow_Distance>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Strafe_Distance>500.0</Strafe_Distance>
+
+		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Damage>15.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.10</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.00</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance>Fighter, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 1.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 1.00</Fire_Inaccuracy_Distance>
+
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Wedge_Rogue</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Wedge_Rogue</SFXEvent_Move>
 		<SFXEvent_Move_Into_Nebula>Unit_Move_Wedge_Rogue</SFXEvent_Move_Into_Nebula>
@@ -56,25 +138,21 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Wedge_Rogue</SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Wedge_Rogue</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
-		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Ambient_Moving>Unit_X_Wing_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_X_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Create_Team>Yes</Create_Team>
-
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.50f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	3.00f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.95f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
+				<Expiration_Seconds>12</Expiration_Seconds>
 
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
@@ -85,10 +163,13 @@
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 5.00f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		 2.10f</Mod_Multiplier>
+
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION</Alternate_Description_Text>
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
@@ -118,6 +199,22 @@
 
 		<Text_ID>TEXT_UNIT_ROGUE_02</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select />
+		<SFXEvent_Attack />
+		<SFXEvent_Guard />
+		<SFXEvent_Move />
+		<SFXEvent_Move_Into_Nebula />
+		<SFXEvent_Move_Into_Asteroid_Field />
+		<SFXEvent_Fleet_Move />
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
@@ -125,7 +222,6 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Zev</SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
-		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
 
 
@@ -135,6 +231,22 @@
 
 		<Text_ID>TEXT_UNIT_ROGUE_04</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select />
+		<SFXEvent_Attack />
+		<SFXEvent_Guard />
+		<SFXEvent_Move />
+		<SFXEvent_Move_Into_Nebula />
+		<SFXEvent_Move_Into_Asteroid_Field />
+		<SFXEvent_Fleet_Move />
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
@@ -142,7 +254,6 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Derek_Klivian</SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_Derek_Klivian</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Unit_Lost />
-		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
 
 
@@ -152,6 +263,22 @@
 
 		<Text_ID>TEXT_UNIT_ROGUE_07</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select />
+		<SFXEvent_Attack />
+		<SFXEvent_Guard />
+		<SFXEvent_Move />
+		<SFXEvent_Move_Into_Nebula />
+		<SFXEvent_Move_Into_Asteroid_Field />
+		<SFXEvent_Fleet_Move />
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Kasan</SFXEvent_Health_Low_Warning>
@@ -159,16 +286,31 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Kasan</SFXEvent_Enemy_Damaged_Health_Low_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
-		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
 
 
-	<!-- Rogue Ten: Tarrub Datch -->
+	<!-- Rogue Ten: Tarrin Datch -->
 	<UniqueUnit Name="Rogue_10_XWing">
 		<Variant_Of_Existing_Type>Wedge_XWing_Rogue</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_ROGUE_10</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select />
+		<SFXEvent_Attack />
+		<SFXEvent_Guard />
+		<SFXEvent_Move />
+		<SFXEvent_Move_Into_Nebula />
+		<SFXEvent_Move_Into_Asteroid_Field />
+		<SFXEvent_Fleet_Move />
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
@@ -176,7 +318,6 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning />
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
-		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
 
 
@@ -186,6 +327,22 @@
 
 		<Text_ID>TEXT_UNIT_ROGUE_11</Text_ID>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
+
+		<SFXEvent_Select />
+		<SFXEvent_Attack />
+		<SFXEvent_Guard />
+		<SFXEvent_Move />
+		<SFXEvent_Move_Into_Nebula />
+		<SFXEvent_Move_Into_Asteroid_Field />
+		<SFXEvent_Fleet_Move />
 		<SFXEvent_Assist_Move />
 		<SFXEvent_Assist_Attack />
 		<SFXEvent_Health_Low_Warning />
@@ -193,7 +350,6 @@
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning />
 		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost />
-		<Is_Named_Hero>No</Is_Named_Hero>
 	</UniqueUnit>
 
 
@@ -201,10 +357,10 @@
 	<!-- ROGUE SQUADRON SPACE - SQUADRON INFO -->
 	<Squadron Name="Rogue_Squadron_Space">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>Interdictor_Cruiser Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -259,17 +415,16 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.50f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	3.00f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.95f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
+				<Expiration_Seconds>12</Expiration_Seconds>
 
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
@@ -280,12 +435,15 @@
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 5.00f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		 2.10f</Mod_Multiplier>
+
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION</Alternate_Description_Text>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
@@ -296,11 +454,12 @@
 	<Container Name="Rogue_Squadron_Space_Container">
 		<Text_ID>TEXT_HERO_ROGUE_SQUADRON</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_ROGUE_SQUADRON</Encyclopedia_Text>
-		<Show_Name>No</Show_Name>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Bomber Death_Star_II</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Interdictor_Cruiser Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
+
+		<Show_Name>No</Show_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
@@ -330,7 +489,6 @@
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -343,7 +501,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
 
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
@@ -361,17 +519,16 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<!-- Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.5</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>8</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.50f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	3.00f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.95f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>12</Expiration_Seconds>
 
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
@@ -382,13 +539,15 @@
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 5.00f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		 2.10f</Mod_Multiplier>
 
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION</Alternate_Description_Text>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge_Rogue</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>

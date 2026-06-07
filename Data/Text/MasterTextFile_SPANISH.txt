@@ -14175,6 +14175,7 @@ TEXT_SFX_WED_CHATTER_4,Aquí Rojo 2, volando hacia ti.
 TEXT_SFX_WED_CHATTER_5,Estoy sobre él, Luke, ¡aguanta!
 TEXT_SFX_WED_CHATTER_6,Me he cargado a uno...
 TEXT_SFX_WED_CHATTER_DS,¡Mirad el tamaño de esa cosa!
+TEXT_SFX_WED_CHATTER_DS_2,I'm hit!
 TEXT_SFX_WED_GUARD_1,Escoltando objetivo.
 TEXT_SFX_WED_GUARD_2,Objetivo bajo escolta.
 TEXT_SFX_WED_MOVE_1,Afirmativo.
@@ -17931,6 +17932,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,Esta habilidad consume el escudo p
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Bengala de escudo
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Acopla las alas y júntalas para aumentar la velocidad. Mientras los alerones estén acoplados, la unidad X tendrá una potencia de fuego reducida.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Acoplar alas
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Rogue Squadron can shunt extra power to their engines.  While S-Foils are locked, this unit will have increased speed, but greatly reduced shield and weapon recharge rate.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Realiza maniobras evasivas para reducir el daño causado por el fuego enemigo. Mientras las efectúa, la infantería se mueve más despacio.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,A cubierto
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Permite aumentar la velocidad durante un breve periodo de tiempo.
