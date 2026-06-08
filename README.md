@@ -16,7 +16,7 @@ To change the game's language, the parameter `LANGUAGE=[Language Name]` can be u
 
 [b]Note:[/b] The engine currently (natively) supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский/Russkii) and Spain Spanish (España Español).  Non-native languages can be displayed, but requires a renamed MasterTextFile_ENGLISH.dat.  Instructions for non-native languages are below:
 
-## 日本（日本語）
+### 日本（日本語）
 「Unofficial Forces of Corruption Patch」では、バージョン2.2.0以降、公式にはサポートされていない言語として日本語が追加されました。この翻訳は、「sabanyanko.web.fc2.com」というリアルタイムストラテジーゲームのフォーラムから入手したもので、作成者は不明です。
 
 ダウンロードしたMODで日本語対応機能を使用するには、「MasterTextFile_ENGLISH.dat」を「MasterTextFile_ENGLISH.dat.bak」にリネームしてください。その後、「MasterTextFile_JAPANESE.dat」を「MasterTextFile_ENGLISH.dat」にリネームしてください。
