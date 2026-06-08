@@ -50,6 +50,7 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
+• Japanese has now been added to the Unofficial Forces of Corruption Patch!  This fanmade translation was done by unknown user(s), and was pulled from SabanYanko.com (further clarified in "_Readme.txt").  A "MasterTextFile_JAPANESE.dat" file has been included in the mod's text directory - to use it, see the mod's main GitHub page readme for instructions.
 • Plasma Cannon Batteries on the Consortium's space stations (the hardpoints that fire projectiles similar to the MZ-8 or Plasma Burst Turret) now have localization in all languages, and are no longer called "Special Weapon." (BUG #677)
 	-- ENG: Plasma Cannon Battery
 	-- FRA: Batterie de canons à plasma

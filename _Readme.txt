@@ -67,6 +67,9 @@ Text:
 - mike.nl (Mike Lankamp)
 -- DAT String Editor (https://modtools.petrolution.net/tools/StringEditor)
 
+- Unknown Users/Contributors (SabanYanko.com)
+-- Japanese localization for Forces of Corruption. (https://sabanyanko.web.fc2.com/starwarsempireatwarfoc/)
+
 
 Texturing:
 - .lany
