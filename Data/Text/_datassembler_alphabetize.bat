@@ -6,3 +6,5 @@ _datassembler.exe /a MasterTextFile_JAPANESE.txt
 _datassembler.exe /a MasterTextFile_POLISH.txt
 _datassembler.exe /a MasterTextFile_RUSSIAN.txt
 _datassembler.exe /a MasterTextFile_SPANISH.txt
+
+del /f /q buildlog.txt
