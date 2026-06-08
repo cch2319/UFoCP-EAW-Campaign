@@ -10,11 +10,11 @@ You must legally own the [Steam/updated version](https://store.steampowered.com/
 * [1]: "Unsupported," as in: this project is restricted to Windows.  The outdated Mac version of the game is unsupported, along with Linux emulation via Proton or Wine.  This patch may work with those versions, but there will be no guarantee of support should anything go wrong.  The current Windows Steam release is semi-frequently updated, and supported with new bugfixes and modding features from Petroglyph.
 
 ## Language Support
-Officially, only English and German text are "supported" by UFCP.  These are languages that have [i]fully translated[/i] text included.  [b]HOWEVER![/b]  If UFCP needs to add new strings for whatever reason, those are added to all languages as well [i]in English[/i].  We are currently accepting translators/freetime translation help in Pull Requests from those who wish to assist.
+Officially, only English and German text are "supported" by UFCP.  These are languages that have _fully translated_ text included.  **HOWEVER!**  If UFCP needs to add new strings for whatever reason, those are added to all languages as well _in English_.  We are currently accepting translators/freetime translation help in Pull Requests from those who wish to assist.
 
 To change the game's language, the parameter `LANGUAGE=[Language Name]` can be used, but the Language Name passthrough MUST be the English name of that language.
 
-[b]Note:[/b] The engine currently (natively) supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский/Russkii) and Spain Spanish (España Español).  Non-native languages can be displayed, but requires a renamed MasterTextFile_ENGLISH.dat.  Instructions for non-native languages are below:
+**NOTE:** The engine currently (natively) supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский/Russkii) and Spain Spanish (España Español).  Non-native languages can be displayed, but requires a renamed MasterTextFile_ENGLISH.dat.  Instructions for non-native languages are below:
 
 ## 日本（日本語）
 「Unofficial Forces of Corruption Patch」では、バージョン2.2.0以降、公式にはサポートされていない言語として日本語が追加されました。この翻訳は、「sabanyanko.web.fc2.com」というリアルタイムストラテジーゲームのフォーラムから入手したもので、作成者は不明です。
