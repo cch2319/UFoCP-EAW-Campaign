@@ -84,7 +84,7 @@
 		<Max_Thrust>1.00</Max_Thrust>
 		<Max_Rate_Of_Roll>5.00</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>800.00</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>700.00</Begin_Turn_Towards_Distance>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Max_Lift>4</Max_Lift>
@@ -109,7 +109,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
-		<Projectile_Damage>15.0</Projectile_Damage>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.10</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.00</Projectile_Fire_Recharge_Seconds>
@@ -204,6 +204,7 @@
 
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Points>100</Shield_Points>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
@@ -236,6 +237,7 @@
 
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Points>100</Shield_Points>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
@@ -268,6 +270,7 @@
 
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Points>100</Shield_Points>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
@@ -300,6 +303,7 @@
 
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Points>100</Shield_Points>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
@@ -332,6 +336,7 @@
 
 		<Tactical_Health>250</Tactical_Health>
 		<Shield_Points>100</Shield_Points>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Recharge_Seconds>1.50</Projectile_Fire_Recharge_Seconds>
