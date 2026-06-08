@@ -373,13 +373,13 @@ TEXT_AXIS_MILITARY,軍隊 (相対的な力)
 TEXT_AXIS_PLANETS,惑星
 TEXT_AXIS_TECH_LEVEL,技術レベル
 TEXT_B_WING_SQUADRON,B-wing 中隊
-TEXT_BACK_BUTTON,Back
+TEXT_BACK_BUTTON,戻る
 TEXT_BAD_PASSWORD,Password incorrect
 TEXT_BASE_CREDIT_PRODUCTION,Credits:
 TEXT_BASE_CREDIT_VALUE,Base Credits
 TEXT_BASE_LAYOUT,Base Layout
 TEXT_BATTLE,Battle!
-TEXT_BATTLE_TIME,Battle Time:
+TEXT_BATTLE_TIME,戦闘時間:
 TEXT_BEGINNING_NAT_NEGOTIATION,Opening connection
 TEXT_BESPIN_PIRACY_OBJECTIVE_00,タイバー・ザン と Interdictor の残存.
 TEXT_BESPIN_PIRACY_OBJECTIVE_01,指定の位置で Interdictor の機能を起動。
@@ -413,7 +413,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett has temporarily neutralized Han So
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett has temporarily neutralized Kyle Katarn! Location:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett has temporarily neutralized Mon Mothma! Location:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett has temporarily neutralized Obi-Wan Kenobi! Location:
-TEXT_BOMB_CLASS,Bomb
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Activates Bossk's flamethrower, damaging units in front of him.
 TEXT_BOSSK_SWAP_DESCRIPTION,Swap between blaster and plasma grenades
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Both mouse buttons rotate 
@@ -438,7 +437,7 @@ TEXT_BOUNTY_HUNTER_NEUTRALIZES_KYLE_KATARN,A Bounty Hunter has temporarily neutr
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_MARA_JADE,A Bounty Hunter has temporarily neutralized Mara Jade! Location:
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_MON_MOTHMA,A Bounty Hunter has temporarily neutralized Mon Mothma! Location:
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_OBI_WAN_KENOBI,A Bounty Hunter has temporarily neutralized Obi-Wan Kenobi! Location:
-TEXT_BRIBE_DISPLAY_TEXT,Bribe:
+TEXT_BRIBE_DISPLAY_TEXT,賄賂:
 TEXT_BUDDY_AUTHORIZE_MSG,I have authorized your request to add me to your list.
 TEXT_BUDDY_BUDDY_REQUEST_MSG,Requests to be added as a buddy.
 TEXT_BUDDY_CONNECT_CDKEY_ERROR_MSG,CDKey authentication failed.  You must have a valid CDKey.
@@ -481,68 +480,68 @@ TEXT_BUILD_PAD_SKIRMISH,Neutral Build Pad
 TEXT_BUILD_TREE,Build Tree
 TEXT_BUILDING_CAP,Building Cap
 TEXT_BUTTON,[[ BUTTON ]]
-TEXT_BUTTON_ACCEPT,Accept
-TEXT_BUTTON_ADVANCED,Advanced...
+TEXT_BUTTON_ACCEPT,承認
+TEXT_BUTTON_ADVANCED,詳細設定...
 TEXT_BUTTON_ADVANCED_SETTINGS,Adv. Settings
-TEXT_BUTTON_APPLY,Apply
-TEXT_BUTTON_AUTO_DETECT,Auto Detect
-TEXT_BUTTON_AUTORESOLVE,Auto-Resolve
-TEXT_BUTTON_AUTORESOLVE_BATTLE,Auto-Resolve Battle
+TEXT_BUTTON_APPLY,適用
+TEXT_BUTTON_AUTO_DETECT,自動判定
+TEXT_BUTTON_AUTORESOLVE,自動解決
+TEXT_BUTTON_AUTORESOLVE_BATTLE,自動解決バトル
 TEXT_BUTTON_BACK,Back
 TEXT_BUTTON_BEGIN,Begin
 TEXT_BUTTON_BUILD,Build
 TEXT_BUTTON_BUY,Buy
 TEXT_BUTTON_BUY_FOC_NOW,Buy Now
-TEXT_BUTTON_CANCEL,Cancel
+TEXT_BUTTON_CANCEL,キャンセル
 TEXT_BUTTON_CLEAR_ALL,Clear All
 TEXT_BUTTON_CLEAR_FILTERS,Reset
-TEXT_BUTTON_CLOSE,Close
+TEXT_BUTTON_CLOSE,閉じる
 TEXT_BUTTON_COMMUNITY,Community
 TEXT_BUTTON_CONNECT,Connect
 TEXT_BUTTON_CONTINUE,Exit
 TEXT_BUTTON_CONTINUE_AFTER_SYNC,Continue
 TEXT_BUTTON_CONTINUE_CAMPAIGN,Continue Campaign
 TEXT_BUTTON_CREATE_FLEET,Create Fleet
-TEXT_BUTTON_CUSTOM_CAMPAIGN,Galactic Conquest
+TEXT_BUTTON_CUSTOM_CAMPAIGN,ギャラクティック・コンクエスト
 TEXT_BUTTON_CUSTOM_MATCH,Custom Match
 TEXT_BUTTON_DEBUG_LOAD_SKIRMISH_MAP,Debug Load Map
-TEXT_BUTTON_DEFAULTS,Default
-TEXT_BUTTON_DELETE,Delete
-TEXT_BUTTON_DISCONNECT_QUIT,Quit Game
+TEXT_BUTTON_DEFAULTS,初期設定に戻す
+TEXT_BUTTON_DELETE,削除
+TEXT_BUTTON_DISCONNECT_QUIT,ゲームを終了
 TEXT_BUTTON_EXIT,Exit
 TEXT_BUTTON_EXIT_AND_DOWNLOAD_EAW_DEMO,Get EAW Demo
 TEXT_BUTTON_EXIT_BUY,Order Now
 TEXT_BUTTON_EXIT_DEMO,Exit
-TEXT_BUTTON_EXIT_GAME,Exit Game
+TEXT_BUTTON_EXIT_GAME,ゲームから退出
 TEXT_BUTTON_FLAG_THIS,Flag This
 TEXT_BUTTON_GOTO_PLANET,Goto Planet
 TEXT_BUTTON_GROUND_COMBAT,Ground Combat
 TEXT_BUTTON_HOME,News
-TEXT_BUTTON_HOST_GAME,Host Game
+TEXT_BUTTON_HOST_GAME,ゲーム会を開催する
 TEXT_BUTTON_HYPERSPACE,Hyperspace
 TEXT_BUTTON_INTERNET_BUDDIES,Buddies
 TEXT_BUTTON_INTERNET_LOAD,Load Game
 TEXT_BUTTON_INTERNET_LOAD_REPLAY,Load Replay
 TEXT_BUTTON_INTERNET_OPTIONS,Options
 TEXT_BUTTON_INVADE,Invade System 
-TEXT_BUTTON_JOIN_GAME,Join Game
+TEXT_BUTTON_JOIN_GAME,ゲームセッションに参加する
 TEXT_BUTTON_LAND_BATTLE,Land Battle
-TEXT_BUTTON_LOAD,Load
-TEXT_BUTTON_LOAD_GAME,Load Game
+TEXT_BUTTON_LOAD,ロード
+TEXT_BUTTON_LOAD_GAME,ゲームをロード
 TEXT_BUTTON_LOAD_REPLAY,Load Replay
-TEXT_BUTTON_MAIN_MENU,Main Menu
-TEXT_BUTTON_MULTIPLAYER,Multiplayer
-TEXT_BUTTON_MULTIPLAYER_INTERNET,Internet
-TEXT_BUTTON_MULTIPLAYER_LAN,LAN
+TEXT_BUTTON_MAIN_MENU,メインメニュー
+TEXT_BUTTON_MULTIPLAYER,みんなで遊ぼう
+TEXT_BUTTON_MULTIPLAYER_INTERNET,インターネットを通じて
+TEXT_BUTTON_MULTIPLAYER_LAN,ローカルエリアネットワーク経由で
 TEXT_BUTTON_NEUTRALIZE_HERO,Neutralize!
 TEXT_BUTTON_NEW_CAMPAIGN,新規キャンペーン
 TEXT_BUTTON_NEXT,Next
-TEXT_BUTTON_NO,No
+TEXT_BUTTON_NO,いいえ
 TEXT_BUTTON_OK,Okay
-TEXT_BUTTON_OPTIONS,Options
+TEXT_BUTTON_OPTIONS,オプション
 TEXT_BUTTON_ORGANIZATION,Organization
 TEXT_BUTTON_PLANET,System
-TEXT_BUTTON_PLANET_INFO,Planet Info
+TEXT_BUTTON_PLANET_INFO,惑星情報
 TEXT_BUTTON_PLAY,Play
 TEXT_BUTTON_PLAY_DEMO,Play Demo
 TEXT_BUTTON_PLAY_FACTION_A,Play Rebellion
@@ -553,19 +552,19 @@ TEXT_BUTTON_PLAY_GAME,Play Game
 TEXT_BUTTON_PLAY_TUTORIAL,チュートリアルをプレイする
 TEXT_BUTTON_PLAYBACK_GAME,Playback Game
 TEXT_BUTTON_PLAYER_PROFILE,Arena
-TEXT_BUTTON_PRODUCTION,Production
+TEXT_BUTTON_PRODUCTION,生産
 TEXT_BUTTON_QUICK_MATCH,Quick Match
-TEXT_BUTTON_QUIT_GAME,Quit Game
+TEXT_BUTTON_QUIT_GAME,ゲームを終了
 TEXT_BUTTON_RECORD_GAME,Record Game
 TEXT_BUTTON_REFRESH,Refresh
 TEXT_BUTTON_REINFORCE,Commit
-TEXT_BUTTON_RESOLVE_BATTLE,Auto-Resolve
-TEXT_BUTTON_RESTORE_KEYBOARD_DEFAULTS,Defaults
-TEXT_BUTTON_RESUME_GAME,Resume Game
+TEXT_BUTTON_RESOLVE_BATTLE,自動解決
+TEXT_BUTTON_RESTORE_KEYBOARD_DEFAULTS,初期設定に戻す
+TEXT_BUTTON_RESUME_GAME,ゲームを再開
 TEXT_BUTTON_RETREAT,Retreat
-TEXT_BUTTON_RETURN_TO_GALACTIC,Return to Galactic 
-TEXT_BUTTON_SAVE,Save
-TEXT_BUTTON_SAVE_GAME,Save Game
+TEXT_BUTTON_RETURN_TO_GALACTIC,銀河へと戻る
+TEXT_BUTTON_SAVE,セーブ
+TEXT_BUTTON_SAVE_GAME,ゲームをセーブ
 TEXT_BUTTON_SAVE_REPLAY,Save Replay
 TEXT_BUTTON_SEARCH,Search
 TEXT_BUTTON_SELECT,Select
@@ -577,11 +576,11 @@ TEXT_BUTTON_SEND_MESSAGE,Send
 TEXT_BUTTON_SET_CLAN,Set
 TEXT_BUTTON_SET_FILTER,Filter
 TEXT_BUTTON_SINGLE_PLAYER_GAMES,シングル・プレーヤー
-TEXT_BUTTON_SKIRMISH,Skirmish Battles
+TEXT_BUTTON_SKIRMISH,スカーミッシュ・バトル
 TEXT_BUTTON_SLICE,Steal!
 TEXT_BUTTON_SPACE_BATTLE,Space Battle
 TEXT_BUTTON_SPACE_COMBAT,Space Combat
-TEXT_BUTTON_START_GAME,Start Game
+TEXT_BUTTON_START_GAME,ゲームをスタート
 TEXT_BUTTON_START_TUTORIAL,チュートリアルを開始
 TEXT_BUTTON_STOP,Stop
 TEXT_BUTTON_TUTORIAL,チュートリアル
@@ -745,17 +744,19 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_15_02,20 Days
 TEXT_CAMPAIGN_SINGLE_VICTORY_25_00,Coruscant
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_00,Time Limit:
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_01,Conquer specified planets:
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00,Empire Will Achieve Victory If:
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00,The Empire Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     The Rebellion is removed from the galaxy
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma is killed
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     The Emperor must survive
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     The Death Star must not be destroyed
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,Rebellion Will Achieve Victory If:
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,The Rebellion Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,Rebellion Will Achieve Victory If All Objectives Are Met:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     The Empire is removed from the galaxy
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     Emperor Is killed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     Death Star is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma must survive
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,The Zann Consortium Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     The Rebellion and Empire are removed from the galaxy
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma and the Emperor are killed
@@ -773,6 +774,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     The Maw, Mon Calamari, Tatooine
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     The planets Yavin 4 and Coruscant have been conquered
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     The planets Coruscant and Endor have been conquered
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     The planets Yavin 4 and Endor have been conquered
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Small Empire Human - Rebel AI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Small Human - Enemy AI *
 TEXT_CAMPAIGN_SMALL_MAP,Small Campaign Map
@@ -878,8 +881,8 @@ TEXT_COMBAT_EFFICIENCY,Combat Efficiency:
 TEXT_COMBAT_RESOLVE_OPTIONS,Automatically resolve combat?
 TEXT_COMBAT_RESOLVED,%ls has defeated %ls at %ls
 TEXT_COMBO_CAMPAIGN,Campaign
-TEXT_COMBO_LAND_SKIRMISH,Land Battle
-TEXT_COMBO_SPACE_SKIRMISH,Space Battle
+TEXT_COMBO_LAND_SKIRMISH,地上戦
+TEXT_COMBO_SPACE_SKIRMISH,宇宙戦
 TEXT_COMM_ARRAY_HARD POINT,通信アレイ
 TEXT_COMM_ARRAY_HARDPOINT,通信アレイ
 TEXT_COMPLETED_STORIES_BUTTON,Completed
@@ -892,8 +895,8 @@ TEXT_CONTAINS,Contains:
 TEXT_CONTINUE,Continue
 TEXT_CORELLIA_PIRACY_OBJECTIVE_00,Destroy the space dock assemblies.
 TEXT_CORELLIA_PIRACY_OBJECTIVE_01,タイバー・ザンの生存。
-TEXT_CORRUPT_LAND_GARRISON,Zann Consortium Garrison
-TEXT_CORRUPT_SPACE_FLEET,Zann Consortium Fleet
+TEXT_CORRUPT_LAND_GARRISON,ザン・コンソーシアム守備隊 (Garrison)
+TEXT_CORRUPT_SPACE_FLEET,ザン・コンソーシアム艦隊
 TEXT_CORRUPTION_ABREGADORAE_STORY_BRIBERY,Abregado-rae is a manufacturing and trade-oriented planet in the Abregado system. Because the Remma trade route goes through the system, bribing the officials there will prove most productive. 
 TEXT_CORRUPTION_AETENII_STORY_PIRACY,Aeten II is known for its rare and dwindling supply Stygium Crystal deposits which are used in the construction of various ship based cloaking technologies. Setting up an Aeten II piracy ring on nearby moons brings valuable credits to the Consortium.
 TEXT_CORRUPTION_AETENII_STORY_RACKETEER,Stygium Crystal miners on Aeten II are wealthy and highly susceptible to rigged games of chance as well as the special entertainments the Zann Consortium can bring to the world. 
@@ -1049,7 +1052,7 @@ TEXT_CPU_SPEED,CPU
 TEXT_CR,Cr
 TEXT_CR_LC,cr
 TEXT_CR_UC,CR
-TEXT_CRAWL_HEADER,EMPIRE AT WAR
+TEXT_CRAWL_HEADER,エンパイア・アット・ウォー
 TEXT_CREATE,Create
 TEXT_CREATE_ACCOUNT,Create New Account
 TEXT_CREDIT_GENERATION,Credit:
@@ -1307,7 +1310,7 @@ TEXT_EMAIL_ADDRESS,Email Address
 TEXT_EMPIRE_ACT1_CRAWL_PART_1,The entire galaxy is under the rule of the tyrannical Galactic Empire.  The only remaining resistance is a small Rebel Alliance that dares to challenge their military supremacy.  
 TEXT_EMPIRE_ACT1_CRAWL_PART_2,The impending creation of the Empire's ultimate weapon, the DEATH STAR, threatens to crush the Rebellion.  Once operational, the Empire will have the power to destroy an entire planet.  
 TEXT_EMPIRE_ACT1_CRAWL_PART_3,Threatening to turn the tide of this struggle is an unknown Imperial traitor, who deals in military secrets.  The Emperor has tasked his apprentice, DARTH VADER, with tracking down and eliminating this double agent....  
-TEXT_EMPIRE_ACT1_CRAWL_PART_TITLE,EMPIRE AT WAR
+TEXT_EMPIRE_ACT1_CRAWL_PART_TITLE,エンパイア・アット・ウォー
 TEXT_EMPIRE_BUILD_PAD,Empire Build Site
 TEXT_EMPIRE_BUILD_PAD_01,Empire Build Pad
 TEXT_EMPIRE_BUILD_PAD_01-TEMP,Imperial Build Pad
@@ -1361,11 +1364,13 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: All Terrain Armored Transport
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: All Terrain Scout Transport
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: Mobile Proton Torpedo Launcher
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Self-Propelled Medium Artillery-Turbolaser
+TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Builds: Field Commander, Fleet Commander
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Unlocks: Infiltrator Training Facility
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,The most advanced heavy-armor vehicle factory the Empire can produce.  Constructs powerful all-terrain units.
 TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Builds: AT-AA, AT-AT
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Animal Nest
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,The Annihilator is commanded by Admiral Gaarn.
+TEXT_ENCYCLOPEDIA_BARRACKS,Living quarters and command center for infantry.  Trains infantry squads and supporting units.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Builds: Stormtrooper, Scout Trooper
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Unlocks: Officer Academy
 TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Trains Infantry Platoons and Plex Soldiers and enables the construction of Officer Academies.
@@ -1393,9 +1398,11 @@ TEXT_ENCYCLOPEDIA_CANTINA_00,Builds: Smugglers
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Class: Technology Upgrade
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Class: Aircraft
 TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Class: Alliance Ambassador
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Animal Nest
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Class: Artillery
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Class: Battle Station
 TEXT_ENCYCLOPEDIA_CLASS_BEAST,Class: Trained Beast
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Bomb
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Class: Bomber
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Class: Bounty Hunter
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Class: Capital Ship
@@ -1414,6 +1421,7 @@ TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Class: Factory Ship
 TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Class: Fanatical Devotee
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Class: Field Commander
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Class: Fighter
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Fighter Squadron
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Class: Fleet Commander
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Class: Frigate
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Class: Hand of the Emperor
@@ -1455,6 +1463,7 @@ TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,全ユニットの視界がわずかに広がり
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_01,アンロックするもの:　Sensor Node 
 TEXT_ENCYCLOPEDIA_CREDIT_EFFECT_SMUGGLER,The system is losing %d credits per day due to smuggler activity. Deploy a bounty hunter at this system to remove the effect.
 TEXT_ENCYCLOPEDIA_DROIDNODE_UNDERWORLD,Allows droids to travel almost instantly between any node or a droid works structure (if present).
+TEXT_ENCYCLOPEDIA_DROIDWORKS,Repurposed construction plant from the Clone Wars.  This battle droid factory is fitted to only produce droidekas.
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Produces Destroyer Droids
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01,Upgrades: Droid Systems Level 1-2, MDU Armor Plating Level 1-2
 TEXT_ENCYCLOPEDIA_E_SHIP_SPEED,Increases the movement speed of your team's Frigate and Capital class starships.
@@ -1462,9 +1471,10 @@ TEXT_ENCYCLOPEDIA_E_SPACE_ALL_ARMOR,Upgrades the armor plating for all space uni
 TEXT_ENCYCLOPEDIA_E_STARBASE_FIREPOWER,Increases the amount of damage done by each hard point on your team's starbase.
 TEXT_ENCYCLOPEDIA_EFFECT_SMUGGLER,This system is losing credits due to smuggler activity. Deploy a bounty hunter at this system to remove the effect.
 TEXT_ENCYCLOPEDIA_EWOK_SPAWNER,破壊されるまで、 周期的に Ewoks ユニットを送り出します。
+TEXT_ENCYCLOPEDIA_FACTORY,Advanced vehicle plant capable of producing Mandalorian-designed heavy tanks.
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Produces M.A.L. and F9-TZ Transports
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Upgrades: Weapon Boost Level 1-2.
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Fighter Squadron
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Unlocks: Repulsorlift Jammer
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,破壊されるまで、 周期的に Geonosians ユニットを送り出します。
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modifies the planet's income rate with gambling profits. Gambling can bring big wins or big losses.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Prevents all enemy repulsorlift vehicles from functioning on the planet. Does not affect allied vehicles.
@@ -1472,6 +1482,7 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,When active, the movement speed of all enemy repul
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,As long as this structure is intact, no enemy ships can hyperspace away.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Prevents reinforcements from warping in a large radius around the structure.
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,破壊されるまで、 周期的に Gungans ユニットを送り出します。
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Heavy vehicle factory that constructs advanced long-range armor.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Builds: 2-M Repulsor Tank, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Unlocks: Advanced Vehicle Factory, Hypervelocity Gun
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Builds: MPTL Artillery, T4-B Tanks
@@ -1482,9 +1493,11 @@ TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,破壊されるまで、 周期的に Hutts ユ�
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,A ground-to-space weapon that bypasses shields for tremendous damage. Inaccurate against smaller fast-moving ships.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Home of Emperor Palpatine; periodically creates Elite Imperial Guards until destroyed.
 TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Builds: Infiltrator
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Special war academy that specializes in advanced commando units.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,A ground-to-space weapon. Disables shields and engines on enemy ships. Inaccurate vs. small ships. Causes no permanent physical damage.  Prevents incurring losses when retreating from a land battle, even when an enemy fleet is in orbit.
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Blocks communication and sensors of enemy ships, causing their fog-of-war sight range to be cut in half.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,破壊されるまで、 周期的に Jawas ユニットを送り出します。
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Light vehicle factory dedicated to training fast, lightly-armored units.
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Builds: AT-ST, TIE mauler
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Unlocks: Heavy Vehicle Factory, Turbolaser Tower
 TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Builds: T2-B Tanks, Speeders
@@ -1502,6 +1515,8 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,破壊されるまで、 周期的に Must
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,破壊されるまで、 周期的に Noghri ユニットを送り出します。
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,The center for Tyber Zann’s financial interests on a planet. The palace generates credit income and allows for the production of special units on some planets.  Provides power to base structures and radar coverage.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Upgrades: Technology Levels 1-3, Bombing Run, Orbital Bombardment, Salvage, Structure Shielding Level 1-2.
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Produces: Defiler, MDU
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Builds: Defilers, MDUs, Ewok Handlers, Nightsisters, Vornskr Packs
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,Level one palace allows production of special units on some planets.  Provides base power and shield.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,Level two palace provides all the previous benefits; in addition, allows production of saboteurs and provides radar coverage.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_3,Level three palace provides all the previous benefits; in addition, discounts the production cost of planet-specific units, and adds defensive capabilities.
@@ -1540,10 +1555,15 @@ TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,This ship is unmanned, deactivated, and awai
 TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION,This ship is under construction and not functional
 TEXT_ENCYCLOPEDIA_SULLUSTAN_SPAWNER,破壊されるまで、 周期的に Sullustans ユニットを送り出します。
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Allows Production (with pre-requisites) of: Heavy Vehicle Factory, SPMA-T, TIE mauler, TIE bomber, Broadside-class Cruiser, Upgrade to Tech Level 2
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Boba Fett, Emperor Palpatine, and Grand Moff Tarkin.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 3, Victory-class Star Destroyer, Heavy Vehicle Factory, Base Shield Generator, Magnapulse Cannon, Turbolaser Tower, SPMA-T Upgrade to Tech Level 3
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Blizzard 1 - General Maximilian Veers.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Accuser - Captain Piett.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Arc Hammer - General Mohc.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Allows Production (with pre-requisites) of: The Death Star
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Admonitor - Grand Admiral Thrawn.
 TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,An indigenous unit enslaved to the will of the Zann Consortium
 TEXT_ENCYCLOPEDIA_TURBOLASER_00,A surface-to-surface weapon capable of destroying the most powerful enemy assault vehicles, but has little effect against smaller fast-moving objects.
 TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE,Places 2-5 turbolaser towers in strategic defensive positions around your base.  The number of towers depends on the size of the base and the planet's terrain.
@@ -1562,48 +1582,48 @@ TEXT_ENCYCLOPEDIA_VORNSKR_WOLF,Vornskrs are highly efficient hunters, especially
 TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,破壊されるまで、 周期的に wampa ユニットを送り出します。
 TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,破壊されるまで、 周期的に Wookiees ユニットを送り出します。
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,This tree houses many Ysalamiri families.  The Ysalamiri block all use of the Force in a large radius around the tree.
-TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se’Lab’s Palace 
+TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se'Lab's Palace 
 TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_ENEMY_FLEET,Enemy Fleet
+TEXT_ENEMY_FLEET,敵艦隊
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,敵艦隊、 ##0 に接近中。
-TEXT_ENEMY_HEROES_DEFEATED,Heroes Defeated:
-TEXT_ENEMY_LOSSES,Enemy losses:
-TEXT_ENEMY_SCORE,Enemy Score:
+TEXT_ENEMY_HEROES_DEFEATED,打ち負かされたヒーロー:
+TEXT_ENEMY_LOSSES,敵の損失:
+TEXT_ENEMY_SCORE,敵のスコア:
 TEXT_ENEMY_SPACE_STATION_LEVEL_LOST,The enemy space station has taken serious damage.
-TEXT_ENGINE_HARDPOINT,Engines
+TEXT_ENGINE_HARDPOINT,エンジン
 TEXT_ENTER_GAME_PASSWORD,Password required
 TEXT_ENTER_SAVE_NAME,Please enter a description
 TEXT_ENVIRONMENT_DETAIL,Environment Detail
 TEXT_ESRB_WARNING,ESRB Notice:  Game Experience May Change During Online Play.
-TEXT_EVIL_LAND_GARRISON,Empire Garrison
-TEXT_EVIL_SPACE_FLEET,Empire Fleet
+TEXT_EVIL_LAND_GARRISON,帝国守備隊
+TEXT_EVIL_SPACE_FLEET,帝国艦隊
 TEXT_EWOK_SELF_DESTRUCT,Boom!
 TEXT_EWOK_SELF_DESTRUCT_DESC,Remotely detonates the bomb strapped to the mind-controlled Ewok 
-TEXT_EXPANSION_TITLE,Star Wars: Empire at War - Forces of Corruption
-TEXT_F9TZ_TRANSPORT_COMPANY,F9-TZ Transport Company
-TEXT_FACTION_BOTHAN,Bothans
-TEXT_FACTION_EMPIRE,Empire
-TEXT_FACTION_EWOK,Ewok
-TEXT_FACTION_HOSTILE,Hostile
-TEXT_FACTION_HUTTS,Hutts
-TEXT_FACTION_HUTTS_02,Hutts
-TEXT_FACTION_MONCAL,Mon Calamarians
-TEXT_FACTION_NEUTRAL,Neutral
-TEXT_FACTION_PIRATES,Black Sun Pirates
-TEXT_FACTION_REBELS,Rebellion
-TEXT_FACTION_SARLACC,Sarlacc
-TEXT_FACTION_UNDERWORLD,Zann Consortium
-TEXT_FACTION_UNDERWORLD_NICKNAME,Consortium
-TEXT_FACTION_WOOKIE,Wookiee
-TEXT_FIGHTER_BAY_HARDPOINT,Hangar
+TEXT_EXPANSION_TITLE,スター・ウォーズ　エンパイア・アット・ウォー：フォース・オブ・コラプション
+TEXT_F9TZ_TRANSPORT_COMPANY,F9-TZ トランスポート中隊
+TEXT_FACTION_BOTHAN,ボサン (Bothan)
+TEXT_FACTION_EMPIRE,帝国
+TEXT_FACTION_EWOK,イウォーク (Ewok)
+TEXT_FACTION_HOSTILE,敵対勢力 (Hostile)
+TEXT_FACTION_HUTTS,ハット (Hutts)
+TEXT_FACTION_HUTTS_02,ハット (Hutts)
+TEXT_FACTION_MONCAL,モン・カラマリアン (Mon Calamarians)
+TEXT_FACTION_NEUTRAL,中立
+TEXT_FACTION_PIRATES,ブラック・サン・パイレーツ (Black Sun Pirates)
+TEXT_FACTION_REBELS,反乱軍
+TEXT_FACTION_SARLACC,サルラック (Sarlacc)
+TEXT_FACTION_UNDERWORLD,ザン・コンソーシアム
+TEXT_FACTION_UNDERWORLD_NICKNAME,コンソーシアム
+TEXT_FACTION_WOOKIE,ウーキー (Wookiee)
+TEXT_FIGHTER_BAY_HARDPOINT,格納庫
 TEXT_FILTER_GAME_LIST_HEADER,Game List Filters
 TEXT_FLAGSHIP,Flagship
 TEXT_FLEET,Fleet
 TEXT_FLEET_EVENT_HYPERSPACE_ACCIDENT,Your fleet has suffered a hyperspace accident!
 TEXT_FLEET_EVENT_HYPERSPACE_ACCIDENT_AVOIDED,Your fleet commander has narrowly averted a hyperspace accident!
-TEXT_FLEET_PANE_0,Fleet 1
-TEXT_FLEET_PANE_1,Fleet 2
-TEXT_FLEET_PANE_2,Fleet 3
+TEXT_FLEET_PANE_0,艦隊 1 (Fleet 1)
+TEXT_FLEET_PANE_1,艦隊 2 (Fleet 2)
+TEXT_FLEET_PANE_2,艦隊 3 (Fleet 3)
 TEXT_FLEETS_SUMMARY_DESCRIPTION,Hint: Shows all your Land and Space Fleets. Sort by clicking on column titles.
 TEXT_FOCUSDEMO_INTRO_E,A Rebel uprising has taken place on many of the Outer Rim worlds.  The Emperor has discovered that the citizens of Bothawui are assisting the Rebellion.  He wishes to teach them a lesson personally.  We have also learned that one of the pirate leaders has established a stronghold above the planet Ilum.  We will need the assistance of Boba Fett to capture this criminal alive for questioning.  The Rebels continue to grow everyday.  Destroy them before they grow too large.
 TEXT_FOCUSDEMO_INTRO_TASK_01,Task:  Build a force and dispose of the Rebel presence in the galaxy.
@@ -1629,35 +1649,35 @@ TEXT_GAME_EXPANSION_FOC,Forces of Corruption game
 TEXT_GAME_FULL,Game is already full
 TEXT_GAME_NAME_MUST_BE_UNIQUE,The game name must be unique
 TEXT_GAME_NOT_FOUND,Game not found!
-TEXT_GAME_OPTIONS,Game
-TEXT_GAME_OPTIONS_TITLE,Main Menu
-TEXT_GAME_PAUSED,Game Paused
+TEXT_GAME_OPTIONS,ゲーム設定
+TEXT_GAME_OPTIONS_TITLE,メインメニュー
+TEXT_GAME_PAUSED,ゲームをポーズ中
 TEXT_GAME_PORT,Use Specific Port
-TEXT_GAME_SPEED,Land/Space Game Speed
+TEXT_GAME_SPEED,地上戦／宇宙戦のゲームスピード
 TEXT_GAME_SPEED_CHANGED,Game speed changed
-TEXT_GAME_TYPE_CAMPAIGN,Campaign
-TEXT_GAME_TYPE_CAPTURE_CONTROL_POINTS,Land Control
-TEXT_GAME_TYPE_CLIENT_INFO,Game Type:
+TEXT_GAME_TYPE_CAMPAIGN,キャンペーン
+TEXT_GAME_TYPE_CAPTURE_CONTROL_POINTS,地上コントロール
+TEXT_GAME_TYPE_CLIENT_INFO,ゲームタイプ:
 TEXT_GAME_TYPE_EWOK_HUNTER,Ewok Infestation
-TEXT_GAME_TYPE_FILTER,Game Type
-TEXT_GAME_TYPE_FILTER_ALL,Show all
-TEXT_GAME_TYPE_SCENARIO,Scenario
-TEXT_GAME_TYPE_TEAM_LAND,Land
-TEXT_GAME_TYPE_TEAM_SPACE,Space
+TEXT_GAME_TYPE_FILTER,ゲームタイプ
+TEXT_GAME_TYPE_FILTER_ALL,全て表示
+TEXT_GAME_TYPE_SCENARIO,シナリオ
+TEXT_GAME_TYPE_TEAM_LAND,地上
+TEXT_GAME_TYPE_TEAM_SPACE,宇宙
 TEXT_GAMMA,Gamma
 TEXT_GARRISON_SQUADRON,Station Garrison
-TEXT_GENERIC_EMPIRE,Empire
-TEXT_GENERIC_NEUTRALIZE_MESSAGE,A hero has been neutralized! Location:
-TEXT_GENERIC_REBEL,Rebellion
+TEXT_GENERIC_EMPIRE,帝国
+TEXT_GENERIC_NEUTRALIZE_MESSAGE,ヒーローが一人制圧されました! 位置:
+TEXT_GENERIC_REBEL,反乱軍
 TEXT_GENERIC_WIN, faction has won the game.
 TEXT_GERMANY,Germany
 TEXT_GIVE_CREDITS,(Multiplayer) Give Credits
 TEXT_GOAL_LAND_TACTICAL_INDIGENOUS_00,The indigenous population has been corrupted and is under our control.
-TEXT_GOOD_AGAINST,Strong Against: 
-TEXT_GOOD_LAND_GARRISON,Rebellion Garrison
-TEXT_GOOD_SPACE_FLEET,Rebellion Fleet
+TEXT_GOOD_AGAINST,以下との戦闘に有利: 
+TEXT_GOOD_LAND_GARRISON,反乱軍駐屯部隊
+TEXT_GOOD_SPACE_FLEET,反乱軍艦隊
 TEXT_GRAPHICS_SETTINGS_CHANGED_CONFIRMATION,Your graphics options have been changed.  Do you want to keep these settings?
-TEXT_GRAVITY_WELL_HARDPOINT,Gravity Well Generator
+TEXT_GRAVITY_WELL_HARDPOINT,重力井戸発生装置
 TEXT_GRAVITY_WELL_STATION,Gravity Well Station
 TEXT_GROUND_ADVANCED_VEHICLE_FACTORY,Advanced Factory
 TEXT_GROUND_BARRACKS,Barracks
@@ -2268,8 +2288,8 @@ TEXT_LOSS_VALUE,Loss Value:
 TEXT_LOST_BATTLE,You have lost the battle!
 TEXT_LOW,Low
 TEXT_MAIN_MENU,Main Menu
-TEXT_MAIN_MENU_TITLE_1,Star Wars 
-TEXT_MAIN_MENU_TITLE_2,Empire at War
+TEXT_MAIN_MENU_TITLE_1,スター・ウォーズ 
+TEXT_MAIN_MENU_TITLE_2,エンパイア・アット・ウォー
 TEXT_MAIN_OPTIONS,Options
 TEXT_MAL_SWAP_DESCRIPTION,Swap between standard Concussion missiles and Carbonite Missiles; Carbonite missiles slow and damage their targets.
 TEXT_MANDALORE_PIRACY_OBJECTIVE_00,Keldalbe 級戦艦に搭乗する Mandalorian クラン・リーダーを倒せ。
@@ -2473,7 +2493,7 @@ TEXT_NAT_ERROR_CODE_INIT_TIMEOUT,Unable to communicate with NAT Negotiation Serv
 TEXT_NAT_ERROR_CODE_SUCCESS,NAT Negotiation successful
 TEXT_NAT_ERROR_CODE_UNKNOWN_ERROR,NAT Negotiation server indicated an unknown error condition
 TEXT_NAT_HINT,(NAT)
-TEXT_NATIVE_POPULATION,Population:
+TEXT_NATIVE_POPULATION,居住状況:
 TEXT_NATIVE_WILDLIFE,Wildlife:
 TEXT_NET_INCOME,Net Income
 TEXT_NET_INCOME_BEFORE_EXPENDITURES,Net Income (before expenditures)
@@ -2647,7 +2667,6 @@ TEXT_PA_SPY_NETWORK,Spy Network
 TEXT_PA_STAMINA_BOOST,Stamina Boost
 TEXT_PA_TACTICAL_AUTO_DAMAGE,自動ダメージ
 TEXT_PA_TACTICAL_HEAL_INFANTRY,Heal Infantry
-TEXT_PALACE_UNDERWORLD_BUILDS,Produces: Defiler, MDU
 TEXT_PARTICLE_DETAIL,Particles Detail
 TEXT_PASSWORDED_GAME,Password Required
 TEXT_PATCH_REQUEST_TEXT,A new update is available and required for Internet play, would you like to download the update?
@@ -3102,11 +3121,11 @@ TEXT_PLANET_MANAAN_INFO_TAC,Infantry auto heal due to Kolto healing agent reserv
 TEXT_PLANET_MANAAN_INFO_TER,Ocean
 TEXT_PLANET_MANAAN_INFO_WEA,Clear, Rain
 TEXT_PLANET_MANAAN_INFO_WL,None
-TEXT_PLANET_MANDALORE_ENCYC,生産価格引き下げ (Mandalorian ユニット):　Mandal Hypernautics Corporation の存在により Mandalorian ユニット（StarViper Squadron, Crusader-class Gunship, Kedalbe-class Battleship, Canderous Assault Tank）のコストが下がります。
+TEXT_PLANET_MANDALORE_ENCYC,生産価格引き下げ (Mandalorian ユニット):　Mandal Hypernautics Corporation の存在により Mandalorian ユニット（StarViper Squadron, Crusader-class Gunship, Keldabe-class Battleship, Canderous Assault Tank）のコストが下がります。
 TEXT_PLANET_MANDALORE_INFO_ADV,Production Price Reduction (Mandalorian Units)
 TEXT_PLANET_MANDALORE_INFO_HIS,A dangerous jungle planet located in the Outer Rim, Mandalore was the home system to fierce masked warrior clans led by the mysterious warlord Mandalore. The clans, made up of deadly but honorable crusaders, rode semi intelligent Basilisk war droids, boasted cutting-edge weaponry, and were considered the best fighters in the galaxy. The mask and title of Mandalore belonged to no single individual but were traditionally passed down from one warrior to the next on the leader's death. The Mandalorians have been scattered and their true numbers are unknown: their elite troops have all but vanished and only a few are known to maintain the time honoured military traditions of the Mandalorian clans. 
 TEXT_PLANET_MANDALORE_INFO_POP,Mandalorians
-TEXT_PLANET_MANDALORE_INFO_TAC,The cost of Mandalorian units (StarViper, Crusader, Kedalbe, Canderous) is reduced due to the presence of the Mandal Hypernautics Corporation.
+TEXT_PLANET_MANDALORE_INFO_TAC,The cost of Mandalorian units (StarViper, Crusader, Keldabe, Canderous) is reduced due to the presence of the Mandal Hypernautics Corporation.
 TEXT_PLANET_MANDALORE_INFO_TER,Forest, Jungle, Desert
 TEXT_PLANET_MANDALORE_INFO_WEA,Rain
 TEXT_PLANET_MANDALORE_INFO_WL,Strills, Rawls
@@ -3303,11 +3322,11 @@ TEXT_PLANET_TYNNA_INFO_TER,Forests, lakes, oceans
 TEXT_PLANET_TYNNA_INFO_WEA,Clear, Rain
 TEXT_PLANET_TYNNA_INFO_WL,Suuri
 TEXT_PLANET_UNCORRUPTABLE,This area of space can only be corrupted by conquering it.
-TEXT_PLANET_UTAPAU_ENCYC,高度なシールド (Kedalbe-class Battleship):　この惑星が支配下にある間、 Kedalbe-class Battleship は 25% 高いシールドパワーを獲得します。 地上基地は検知不能です。
+TEXT_PLANET_UTAPAU_ENCYC,高度なシールド (Keldabe-class Battleship):　この惑星が支配下にある間、 Keldabe-class Battleship は 25% 高いシールドパワーを獲得します。 地上基地は検知不能です。
 TEXT_PLANET_UTAPAU_INFO_ADV,Advanced Shields; Base Stealth: Ground
 TEXT_PLANET_UTAPAU_INFO_HIS,Located in the remote Tarabba sector, Utapau is a planet pitted with enormous sinkholes. Many of these sinkholes contain intricate cities that stretch deep into the caves and crevices beneath the planet's surface. Because of the porous nature of Utapau's surface, water is scarcely found there. It is abundant on the floor of the sinkholes however, which grant the cities a readily available water supply. The inhabitants are near-human, divided into two distinct species, the tall, lordly, slow-moving Pau'ans, nicknamed Ancients for their astonishing longevity; and the stubby Utai, called Shorts, both for their stature and for their brief busy lives. Their energy economy is based on wind power. The planet's limited interstellar trade began only a few decades ago.
 TEXT_PLANET_UTAPAU_INFO_POP,Pau'ans, Utai
-TEXT_PLANET_UTAPAU_INFO_TAC,Kedalbe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
+TEXT_PLANET_UTAPAU_INFO_TAC,Keldabe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
 TEXT_PLANET_UTAPAU_INFO_TER,Desert
 TEXT_PLANET_UTAPAU_INFO_WEA,Sandstorms
 TEXT_PLANET_UTAPAU_INFO_WL,Varactyl
@@ -7870,7 +7889,7 @@ TEXT_SFX_KAD_MOVE_9,Approaching new coordinates now.
 TEXT_SFX_KAD_NEBULA_1,Nebula conditions are blocking our transmissions. 
 TEXT_SFX_KAD_RETREAT_1,Prepare for hyperspace
 TEXT_SFX_KAD_RETREAT_2,Prepare the jump to light speed
-TEXT_SFX_KAD_SELECT_1,Kedalbe reporting
+TEXT_SFX_KAD_SELECT_1,Keldabe reporting
 TEXT_SFX_KAD_SELECT_10,Roger that
 TEXT_SFX_KAD_SELECT_11,Form up
 TEXT_SFX_KAD_SELECT_12,Awaiting orders
@@ -7882,7 +7901,7 @@ TEXT_SFX_KAD_SELECT_3,Weapons on line
 TEXT_SFX_KAD_SELECT_4,Weapons charged
 TEXT_SFX_KAD_SELECT_5,Frequency open
 TEXT_SFX_KAD_SELECT_6,Fleet, your transmission garbled, repeat. 
-TEXT_SFX_KAD_SELECT_7,Kedalbe Battleship reporting at duty station
+TEXT_SFX_KAD_SELECT_7,Keldabe Battleship reporting at duty station
 TEXT_SFX_KAD_SELECT_8,Battleship standing by
 TEXT_SFX_KAD_SELECT_9,I copy
 TEXT_SFX_KAS_RS_CHATTER_1,I have no approach vector - I'm not set!
@@ -14157,6 +14176,7 @@ TEXT_SFX_WED_CHATTER_4,This is Red 2, flying towards you
 TEXT_SFX_WED_CHATTER_5,I'm on him Luke, hold on!
 TEXT_SFX_WED_CHATTER_6,I got one...
 TEXT_SFX_WED_CHATTER_DS,Look at the size of that thing!
+TEXT_SFX_WED_CHATTER_DS_2,I'm hit!
 TEXT_SFX_WED_GUARD_1,Escorting target
 TEXT_SFX_WED_GUARD_2,Target under escort
 TEXT_SFX_WED_MOVE_1,Affirmative
@@ -14543,16 +14563,16 @@ TEXT_SIPHON_FAILURE_VIGILANCE,Steal credit attempt has failed! Your hero has bee
 TEXT_SIPHON_PREVENTED_VIGILANCE,Steal credit attempt thwarted! Your planet's security forces have apprehended an enemy hero.
 TEXT_SITH_HOLOCRON,Artifact
 TEXT_SITH_HOLOCRON_TOOLTIP,A mysterious Sith artifact
-TEXT_SKIRMISH_ADVANCED_OPTIONS_HEADER,Advanced Game Options
+TEXT_SKIRMISH_ADVANCED_OPTIONS_HEADER,詳細ゲーム設定
 TEXT_SKIRMISH_BUY_UNITS_CHOICES,Select Forces for Battle:
 TEXT_SKIRMISH_BUY_UNITS_CREDITS_BALANCE,Available Credits:
 TEXT_SKIRMISH_BUY_UNITS_MENU_TITLE,Temporary Build Forces Menu
-TEXT_SKIRMISH_CREDITS,Starting Credits
+TEXT_SKIRMISH_CREDITS,開始クレジット
 TEXT_SKIRMISH_GAME_TIMER,Time Limit (minutes)
-TEXT_SKIRMISH_HOST_GAME_TITLE,Skirmish Battle Setup
-TEXT_SKIRMISH_MAX_TECH_LEVEL,Max Tech Level
-TEXT_SKIRMISH_OPTIONS,Skirmish Options
-TEXT_SKIRMISH_STARTING_TECH_LEVEL,Starting Tech Level
+TEXT_SKIRMISH_HOST_GAME_TITLE,スカーミッシュ・バトル セットアップ
+TEXT_SKIRMISH_MAX_TECH_LEVEL,最大技術レベル
+TEXT_SKIRMISH_OPTIONS,スカーミッシュ設定
+TEXT_SKIRMISH_STARTING_TECH_LEVEL,開始技術レベル
 TEXT_SLICE_DIALOG_DESCRIPTION,Select the technology to be stolen.  When all items are stolen from the current list, the Rebellion tech level will advance and a new list will become available.
 TEXT_SLICE_DIALOG_TITLE,Steal Technology
 TEXT_SLICE_FAILURE_CAPTURED,Steal attempt failed!  Tani has been captured by the Empire! (double respawn time)
@@ -15085,7 +15105,7 @@ TEXT_SPEECH_FOCUS_DEMO_27,Tyber Zann: Ah, very nice...  Imperial cloaking techno
 TEXT_SPEECH_FOCUS_DEMO_28,Tyber Zann: Whenever an enemy planet has been corrupted we can spy on the activity on that planet. In this case, it appears that the Rebel Alliance is defending Felucia with an Ion Cannon. I hate surprises...
 TEXT_SPEECH_FOCUS_DEMO_29,Tyber Zann: Everyone has a price... use my Bribery ability to sway enemy units to our cause.
 TEXT_SPEECH_FOCUS_DEMO_30,Tyber Zann: Unlike the Rebel and Empire, these asteroids pose no threat to our ships.  We can use this ability as part of our tactics, to hide or evade the enemy
-TEXT_SPEECH_FOCUS_DEMO_31,Tyber Zann: This Rebel space station is heavily shielded, but our Kedalbe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
+TEXT_SPEECH_FOCUS_DEMO_31,Tyber Zann: This Rebel space station is heavily shielded, but our Keldabe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
 TEXT_SPEECH_FOCUS_DEMO_32,Hint: You can zoom in 2X to configure all of your bases to your liking.
 TEXT_SPEECH_FOCUS_DEMO_33,Tyber Zann: Since this planet has been corrupted by our influence, we will receive a bounty for every enemy that we kill.  Apparently, crime does pay.
 TEXT_SPEECH_FOCUS_DEMO_34,Tyber Zann: Thanks to our advanced recon we have been able to pin point the location of the rebel power generator. Unfortunately it lies within an area traversable only by infantry.
@@ -15230,7 +15250,7 @@ TEXT_SPEECH_MANDALORE_BRB_VICTORY_COR34_08,Defiler: I've successfully bribed the
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_10,Tyber Zann: Captain, you would have made a good Consortium leader, too bad you have to die. 
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_11,Tyber Zann: You fight bravely, but not wisely. Your time ends now. 
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_12,Tyber Zann: You are brave but very foolish to challenge the Zann Consortium.
-TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Tyber Zann: Men, expect waves of assault ships as we corrupt the planet. The battle isn't over until we have destroyed the Kedalbe warship. 
+TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Tyber Zann: Men, expect waves of assault ships as we corrupt the planet. The battle isn't over until we have destroyed the Keldabe warship. 
 TEXT_SPEECH_MANDALORE_PIR_LOSS_COR34_07,Tyber Zann: I'm surrounded by incompetence! I give you one last time to prove yourselves.  Do not fail me again!
 TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03,Tyber Zann: Facing the Mandalorians will be one of our greatest challenges. I'll face their clan leader in space above the planet.
 TEXT_SPEECH_MANDALORE_PIR_VICTORY_COR34_05,Tyber Zann: I've successfully corrupted Mandalore. Victory over the Mandalorians will strike fear in all those who dare to oppose us.
@@ -16194,7 +16214,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_39,Tyber Zann: Excellent, these Buzz Droids are 
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_40,Tyber Zann: Whenever an enemy planet has been corrupted we can spy on the activity on that planet. In this case, it appears that the Rebel Alliance is defending Felucia with an Ion Cannon. I hate surprises...
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_41,Tyber Zann: Everyone has a price... use my Bribery ability to sway enemy units to our side. 
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_42,Tyber Zann: These asteroids pose no threat to my ships. The Rebels and Imperials wish they could say the same! I can use this advantage as part of my tactics, to hide from or evade my enemies.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Tyber Zann: This Rebel space station is heavily shielded, but our Kedalbe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Tyber Zann: This Rebel space station is heavily shielded, but our Keldabe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_44,Hint: Click the Base Layout button on the planetary detail screen or scroll your mouse wheel to zoom in 2 times to configure your base layout to your preferences.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_45,Tyber Zann: Since this planet has been corrupted by our influence, we will receive a bounty for every enemy that we kill.  Apparently, crime does pay.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_46,Tyber Zann: The information I received through bribery has allowed me to pinpoint the location of Jabba's forces. He's set up near an Imperial generator. 
@@ -17913,6 +17933,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,This ability drains the shield for
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Shield Flare
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Locks S-Foils together to provide increased speed.  While S-Foils are locked, this unit will have reduced firepower.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Lock S-Foils
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Rogue Squadron can shunt extra power to their engines.  This unit will have increased speed while S-Foils are locked, but unlike normal X-wings, greatly reduced shield and weapon recharge rate.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Take evasive maneuvers to reduce damage from enemy fire.  While using evasive maneuvers, infantry move slowly.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Take Cover
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Allows an accelerated run speed for a short duration.
@@ -17959,6 +17980,7 @@ TEXT_TOOLTIP_AKBAR,Rebellion admiral able to command ships of the fleet for maxi
 TEXT_TOOLTIP_ANNIHILATOR,The Annihilator
 TEXT_TOOLTIP_ANTILLES,The ship of Captain Raymus Antilles, a veteran of the Clone Wars who serves under Senators Bail and Leia Organa. His ship is a heavily modified Corellian Corvette.
 TEXT_TOOLTIP_ARC_HAMMER,A mobile factory ship, commanded by General Rom Mohc.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
+TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Heavy assault frigate armed with 2 enhanced turbolaser batteries and 2 laser cannon batteries. An advanced combat ship with emphasis on firepower at the expense of durability.
 TEXT_TOOLTIP_ATAA,All Terrain Anti Aircraft walker armed with flak cannons capable of defeating flying threats with ease. Can emit a field that disrupts missile guidance systems.  3 vehicles per company.
 TEXT_TOOLTIP_ATAT,All Terrain - Armored Transport armed with twin heavy laser cannons. Thick armor compensates for its slow speed. Able to deploy Stormtroopers.
@@ -18078,6 +18100,7 @@ TEXT_TOOLTIP_GARRISON_ES_04,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, A
 TEXT_TOOLTIP_GARRISON_ES_05,Garrison: TIE fighter, TIE bomber, Tartan Cruiser, Acclamator
 TEXT_TOOLTIP_GARRISON_FACTORY,Garrison: M.A.L.
 TEXT_TOOLTIP_GARRISON_INFILT,Garrison: Infiltrator
+TEXT_TOOLTIP_GARRISON_OFFICER,Garrison: Field Commanders
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garrison: Rebel Soldier, PLEX Soldier
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garrison: MPTL, Spotter
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Garrison: T2-B Tank
@@ -18120,7 +18143,7 @@ TEXT_TOOLTIP_GUI_UNAVAILABLE,Unavailable
 TEXT_TOOLTIP_GUI_UNIDENTIFIED_UNIT,Unidentified enemy unit
 TEXT_TOOLTIP_HAN_AND_CHEWIE,Smuggler duo capable of traveling the galaxy undetected, stealing credits, and inflicting confusion on the battlefield.
 TEXT_TOOLTIP_HAN_SOLO,Smuggler able to move quickly and temporarily disable nearby enemy vehicles and turrets.
-TEXT_TOOLTIP_HARDPOINT,Hardpoint
+TEXT_TOOLTIP_HARDPOINT,ハードポイント
 TEXT_TOOLTIP_HEAL_TURRET,Infantry healing station able to heal nearby friendly infantry.
 TEXT_TOOLTIP_HEALTH,Health
 TEXT_TOOLTIP_HERO_FILTER,Brings heroes to the top of a unit stack on the galactic map.
@@ -18129,9 +18152,11 @@ TEXT_TOOLTIP_HEROES_BUTTON,Heroes
 TEXT_TOOLTIP_HOME_ONE,Capital ship of Commander Ackbar, an excellent fleet commander able to direct other ships to fire for maximum effect. Home One is armed with 4 turbolaser batteries and 4 ion cannon batteries.
 TEXT_TOOLTIP_HOME_ONE_01,Capital ship of Admiral Ackbar, an excellent fleet commander able to direct other ships to fire for maximum effect. Home One is armed with 4 turbolaser batteries and 4 ion cannon batteries.
 TEXT_TOOLTIP_HOUNDSTOOTH,Bossk's personal transport ship.
+TEXT_TOOLTIP_HOUNDSTOOTH_02,A slow but powerful starfighter, the Hound's Tooth is Bossk's personal transport ship.  Armed with 2 rapid-fire missile batteries, 2 laser cannons, and a missile jammer which repels projectiles away from the hull.
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Allows production of various Hutt units and upgrades.
 TEXT_TOOLTIP_HYPERV_BUTTON,Fire the Hypervelocity Gun
 TEXT_TOOLTIP_IG2000,IG-88's ship is an extension of his own mind.
+TEXT_TOOLTIP_IG2000_02,A light and maneuverable fighter, IG-2000 is a direct extension of IG-88's mind.  Armed with two laser cannons, IG-88 can disrupt enemy ship computers, draining their shields and affecting their accuracy.
 TEXT_TOOLTIP_IG88,A sinister bounty hunter with the body of a droid and the mind of a hyper-intelligent AI. Can deploy at a system to eliminate enemy heroes.
 TEXT_TOOLTIP_INFILTRATOR,Highly trained special-weapons soldier armed with sniper rifle and able to plant explosive devices.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d Credits gained from capture of planet %s
@@ -18142,7 +18167,7 @@ TEXT_TOOLTIP_INTERRUPTED_PRODUCTION,An enemy fleet has interrupted space product
 TEXT_TOOLTIP_IONC_BUTTON,Fire the Ion Cannon
 TEXT_TOOLTIP_IPV,Patrol cruiser designed for Outer Rim security. Can handle most pirate and corvette threats.
 TEXT_TOOLTIP_JUGGERNAUT,A lighter version of the Juggernaut used in the clone wars, the B5 is still heavily armored and can carry both infantry and light vehicles.
-TEXT_TOOLTIP_KEDALBE_BATTLESHIP,The Keldabe-class, named for Mandalore's capital city, is another product of Mandal Hypernautics.  It is a heavy capital ship, competing with Imperial Star Destroyers.
+TEXT_TOOLTIP_Keldabe_BATTLESHIP,The Keldabe-class, named for Mandalore's capital city, is another product of Mandal Hypernautics.  It is a heavy capital ship, competing with Imperial Star Destroyers.
 TEXT_TOOLTIP_KRAYT_DESTROYER,The dual mega-cannons of the Aggressor-class can devastate most slow-moving ships.
 TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION,Forces a chain reaction within the main power core causing a tremendous explosion.
 TEXT_TOOLTIP_KYLE_KATARN,A former Imperial commando who defected to the Alliance when he discovered the Empire killed his father.  Kyle is adept with many weapons, including high explosives.
@@ -18194,7 +18219,9 @@ TEXT_TOOLTIP_PATHFINDER,Units placed in this slot will hyperspace into the battl
 TEXT_TOOLTIP_PAUSE_PLAY,Pause/Play the game
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Pause/Play
 TEXT_TOOLTIP_PEACEBRINGER,The flagship of Tyber Zann, the Merciless has enhanced engines and a cloaking generator.
+TEXT_TOOLTIP_PEACEBRINGER_02,Tyber Zann's flagship is an Aggressor-class Destroyer with enhanced engines, and can be upgraded further with a cloaking generator from the black market.  Armed with 2 turbolaser batteries, both the Merciless' ion and plasma cannons can overcharge for two very powerful blasts.
 TEXT_TOOLTIP_PIETT,Imperial fleet commander. Commands enhanced Star Destroyer with improved weaponry.
+TEXT_TOOLTIP_PIETT_02,Dedicated Imperial Fleet Commander.  Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in, with an additional 25% to other Star Destroyers.  The Accuser is an enhanced Star Destroyer equipped with a proton energy weapon for a quick, devastating attack.
 TEXT_TOOLTIP_PIETT_SD,Heavy Imperial attack cruiser armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. Also armed with devastating proton beam weapon and a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_PIRATE,Black Sun Pirate mercenary. Ruthless and deadly. 3 squads (of 3 soldiers each) per company.
 TEXT_TOOLTIP_PIRATE_FIGHTER,Heavy fighter armed with laser cannons. Designed to inflict maximum damage without sacrificing armor protection. 5 fighters per squadron.
@@ -18253,6 +18280,7 @@ TEXT_TOOLTIP_SABOTEUR,Defiler は賄賂持って星に潜入したり、 恐喝�
 TEXT_TOOLTIP_SCAVENGER_DROID,Scavenger droids latch onto vehicles and disassemble them, converting the scrap to credits.
 TEXT_TOOLTIP_SCOUTTROOPER,Imperial soldiers riding fast speeder bikes. Can drop explosive mines to great effect against enemy infantry. 2 troopers per company.
 TEXT_TOOLTIP_SD_ADMONITOR,The Admonitor is Grand Admiral Thrawn's flagship.
+TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician who grants minor damage, defense and speed bonuses to all ships in space combat he participates in.  The Admonitor is a Star Destroyer that can overcharge its batteries and rapidly assault any target in range.
 TEXT_TOOLTIP_SELL_STRUCTURE,Sell the current structure
 TEXT_TOOLTIP_SENSOR_NODE,A specialized sensor that reveals a large area of surrounding fog of war.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,The scrambler interferes with enemy radar and sight ranges, and also jams missile guidance systems.
@@ -18903,7 +18931,7 @@ TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE,宇宙ステーションのプラズ�
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1,クルセイダー (Crusader) 級ガンシップの射程を 15% 増加。
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L2,クルセイダー (Crusader) 級ガンシップと インターセプター IV (Interceptor IV) 級フリゲートの射程を 15% 増加。
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3,クルセイダー (Crusader) 級ガンシップと インターセプター IV (Interceptor IV) 級フリゲート、 Keldabe 級戦艦の射程を 15% 増加。
-TEXT_UPGRADE_TOOLTIP_UTAPAU_KEDALBE_SHIELD,支配下のウータパウ （Utapau） により、 Keldabe 級戦艦のシールドが 25% 増強されます。
+TEXT_UPGRADE_TOOLTIP_UTAPAU_Keldabe_SHIELD,支配下のウータパウ （Utapau） により、 Keldabe 級戦艦のシールドが 25% 増強されます。
 TEXT_UPGRADE_U_EXTORT_CASH_L1,ゆすり取り現金 (レベル 1)
 TEXT_UPGRADE_U_EXTORT_CASH_L2,ゆすり取り現金 (レベル 2)
 TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1,構造物のシールド防御 (レベル 1)
@@ -18939,7 +18967,7 @@ TEXT_UPGRADE_US_SPECIAL_WEAPON_USE,宇宙ステーション用プラズマ・キ
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L1,攻撃目標捕捉システム (レベル 1)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2,攻撃目標捕捉システム (レベル 2)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3,攻撃目標捕捉システム (レベル 2)
-TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Keldabe シールド・ブースト
+TEXT_UPGRADE_UTAPAU_Keldabe_SHIELD,Keldabe シールド・ブースト
 TEXT_UPGRADES,アップグレード
 TEXT_UPLOAD_PROGRESS,アップグレード進捗度: 
 TEXT_UPLOADING_MAP_TO_PLAYER,Uploading map to player: 
@@ -19170,7 +19198,8 @@ TEXT_WEAPON_CONCUSSIONMISSILE,衝撃ミサイル・ランチャー
 TEXT_WEAPON_HARDPOINT,Weapons System
 TEXT_WEAPON_IONCANNON,イオン・キャノン砲塔
 TEXT_WEAPON_LASERCANNON,レーザー・キャノン砲塔
-TEXT_WEAPON_MASS_DRIVER,マス＝ドライバー砲
+TEXT_WEAPON_MASS_DRIVER,Mass Driver Battery
+TEXT_WEAPON_PLASMACANNON,プラズマキャノン砲塔
 TEXT_WEAPON_SPECIAL,特殊兵器
 TEXT_WEAPON_TORPEDOES,プロトン魚雷ランチャー
 TEXT_WEAPON_TURBOLASER,ターボ・レーザー砲塔
