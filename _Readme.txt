@@ -99,5 +99,15 @@ Misc:
 -- .MEG Cooker from Yuuzhan Vong at War
 -- General support on UFoCP's GitHub.
 
+- Iosevka Contributors et al.
+-- Iosevka font by Contribs. et al (79 people as of 06/2026!), at https://github.com/be5invis/Iosevka
+-- Open source font (SIL Open Font License v1.1/OFL-1.1 License, http://scripts.sil.org/OFL) used for
+	"EXPANSION" and variants on the recreated EAW/FOC logos used on the loading screen/main menu.
+
+- Thomas Phinney, Vassil Kateliev & Brandon Buerkle
+-- Science Gothic font by Thomas Phinney, Vassil Kateliev & Brandon Buerkle, at https://fonts.google.com/specimen/Science+Gothic
+-- Open source font (SIL Open Font License v1.1/OFL-1.1 License, http://scripts.sil.org/OFL) used for
+	the Russian and Ukrainian EaW/FoC logos.
+
 - Herman Schechkin's ASCII-Generator.site (https://github.com/hermanTenuki/ASCII-Generator.site)
--- UFoCP's wonderful ASCII logos in the changelogs and Read.me, using the "big" setting.
+-- UFoCP's wonderful ASCII logos in the changelogs and Readme.txt, using the "big" setting.

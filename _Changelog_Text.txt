@@ -50,8 +50,8 @@ v2.2.0.XXXX (XX-XX-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
-• Japanese has now been added to the Unofficial Forces of Corruption Patch!  This fanmade translation was done by unknown user(s), and was pulled from SabanYanko.com (further clarified in "_Readme.txt").  A "MasterTextFile_JAPANESE.dat" file has been included in the mod's text directory - to use it, see the mod's main GitHub page readme for instructions.
-• Plasma Cannon Batteries on the Consortium's space stations (the hardpoints that fire projectiles similar to the MZ-8 or Plasma Burst Turret) now have localization in all languages, and are no longer called "Special Weapon." (BUG #677)
+• Japanese has now been added to the Unofficial Forces of Corruption Patch!  This fanmade translation was done by unknown user(s), and was pulled from SabanYanko.com (further clarified in "_Readme.txt").  A "MasterTextFile_JAPANESE.dat" file has been included in the mod's text directory - to use it, see the mod's main GitHub page readme for instructions in English and Japanese.
+• Plasma Cannon Batteries on the Consortium's space stations (the hardpoints that fire projectiles similar to the MZ-8 or Plasma Burst Turret) now have localization in all languages, and are no longer called "Special Weapon." (TEXT_WEAPON_PLASMACANNON) (BUG #677)
 	-- ENG: Plasma Cannon Battery
 	-- FRA: Batterie de canons à plasma
 	-- GER: Plasmakanonenbatterie
@@ -60,7 +60,7 @@ Additions:
 	-- POL: Bateria dział plazmowych
 	-- RUS: Батарея плазменных пушек
 	-- SPA: Batería de cañones de plasma
-• Infantry barracks, light vehicle factories, heavy vehicle factories and officer academies now have a generic description shared between all factions' buildings, instead of being tooltip-less.  Otherwise, each unique building (Infiltrator Academy, Droid Works, etc.) have received unique descriptions. (BUG #744, #745, #746)
+• Infantry barracks, light vehicle factories, heavy vehicle factories and officer academies now have a generic description shared between all factions' buildings, instead of being tooltip-less.  Otherwise, each unique building (Infiltrator Academy, Droid Works, etc.) have received unique descriptions. (TEXT_ENCYCLOPEDIA_ACADEMY, TEXT_ENCYCLOPEDIA_BARRACKS, TEXT_ENCYCLOPEDIA_HEAVY_FACTORY, TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY, TEXT_TOOLTIP_GARRISON_OFFICER, TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY, TEXT_ENCYCLOPEDIA_DROIDWORKS, TEXT_ENCYCLOPEDIA_FACTORY) (BUG #744, #745, #746)
 • "TEXT_SFX_WED_CHATTER_DS_2" has been created to implement an unused voice line for Wedge Antilles. (BUG #417)
 • "TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION" has been created for Rogue Squadron's S-Foils ability. (BUG #417)
 
@@ -833,7 +833,7 @@ v2.1.0.1212 (04-13-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
-• 4 new Galactic Conquest objectives have been added regarding the Death Star and Death Star II (mostly for internal consistency), to notate when the DS2 should be destroyed in GC. (BUG #554)
+• 4 new Galactic Conquest objectives have been added regarding the Death Star and Death Star II (mostly for internal consistency), to notate when the DS2 should be destroyed in GC. (TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05, TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05, TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14, TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15) (BUG #554)
 
 
 Housekeeping:
