@@ -107,6 +107,7 @@ Gameplay Fixes:
 
 Interface Fixes:
 • Rogue Squadron's tooltip claimed they were strong against the Death Star, a unit they can't encounter.  It has been swapped out for the Death Star II. (BUG #578)
+• The multiplayer lobby chat bar (where text is entered) was misaligned with the chat window and lobby interface, unlike in LAN lobbies. (BUG #771)
 
 
 Map/Planet Fixes:
