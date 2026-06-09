@@ -3830,8 +3830,8 @@
 	<Localized_Menu_Overlay>JAPANESE, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>KOREAN, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>CHINESE, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
-	<Localized_Menu_Overlay>RUSSIAN, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
-	<Localized_Menu_Overlay>POLISH, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay>RUSSIAN, 	Menuback_Overlay_russian.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay>POLISH, 	Menuback_Overlay_polish.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>THAI, 		Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 
 
