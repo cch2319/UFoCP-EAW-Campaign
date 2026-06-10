@@ -65,7 +65,7 @@ HOUSEKEEPING:
 
 
 MISC:
-• "Condensed" changelogs (a log that isn't separated by versions) are now included in the main mod directory for both text and standard changelogs.  While they are a bit unwieldy, they should make viewing all of UFCP's changes systematically easier.
+• "Condensed" changelogs (a log that isn't separated by versions) are now included in the main mod directory for both the standard and text changelogs, and an extra one solely for housekeeping changes.  While they are a bit unwieldy, they should make viewing all of UFCP's changes systematically easier.
 ======
 
 

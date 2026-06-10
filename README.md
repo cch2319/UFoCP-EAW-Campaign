@@ -14,12 +14,12 @@ Officially, only English and German text are "supported" by UFCP.  These are lan
 
 To change the game's language, the parameter `LANGUAGE=[Language Name]` can be used, but the Language Name passthrough MUST be the English name of that language.
 
-**NOTE:** The engine currently (natively) supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский/Russkii) and Spain Spanish (España Español).  Non-native languages can be displayed, but requires a renamed MasterTextFile_ENGLISH.dat.  Instructions for non-native languages are below:
+**NOTE:** The engine natively supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский) and Spain Spanish (Español).  Non-native languages _can_ be displayed - to use them, the "MasterTextFile_ENGLISH.dat" file has to be backed up somewhere, and the unsupported language file must be renamed to "MasterTextFile_ENGLISH.dat."  Instructions for non-native languages in local tongue are below:
 
 ### 日本（日本語）
-「Unofficial Forces of Corruption Patch」では、バージョン2.2.0以降、公式にはサポートされていない言語として日本語が追加されました。この翻訳は、「sabanyanko.web.fc2.com」というリアルタイムストラテジーゲームのフォーラムから入手したもので、作成者は不明です。
+「Unofficial Forces of Corruption Patch」では、バージョン2.0.0以降、日本語が公式にはサポートされていないものの、利用可能な言語オプションとして追加されています。この翻訳は、日本のリアルタイムストラテジーゲームフォーラム「sabanyanko.web.fc2.com」から入手したもので、作成者は不明です。
 
-ダウンロードしたMODで日本語対応機能を使用するには、「MasterTextFile_ENGLISH.dat」を「MasterTextFile_ENGLISH.dat.bak」にリネームしてください。その後、「MasterTextFile_JAPANESE.dat」を「MasterTextFile_ENGLISH.dat」にリネームしてください。
+ダウンロードしたMODで日本語に対応させるには、「MasterTextFile_ENGLISH.dat」を「MasterTextFile_ENGLISH.dat.bak」にリネームしてください。次に、「MasterTextFile_JAPANESE.dat」を「MasterTextFile_ENGLISH.dat」にリネームしてください。将来的には、Petroglyph社に対し、「LANGUAGE=JAPANESE」の起動オプションを再有効化するよう要望できることを願っています。
 
 ## Prerequisities
 ### Editors
