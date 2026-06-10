@@ -13,6 +13,38 @@
 		<Prereq>Honoghr_Intimidation_Mission_Begin</Prereq>
 	</Event>
 
+	<Event Name="Honoghr_Intimidation_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Honoghr_Intimidation_Mission_Begin</Prereq>
+	</Event>
+
+		<Event Name="Honoghr_Intimidation_Prevent_Retreat_Empire">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>EMPIRE</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Begin</Prereq>
+		</Event>
+
+		<Event Name="Honoghr_Intimidation_Prevent_Retreat_Rebel">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>REBEL</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Begin</Prereq>
+		</Event>
+
+		<Event Name="Honoghr_Intimidation_Prevent_Retreat_Hutts">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>HUTTS</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Begin</Prereq>
+		</Event>
+
 	<Event Name="Honoghr_Intimidation_Mission_Add_Objective_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>ADD_OBJECTIVE_00</Event_Param2>
@@ -114,6 +146,49 @@
 		<Reward_Param1>Hutt</Reward_Param1>
 	</Event>
 
+	<Event Name="Honoghr_Intimidation_Enable_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Honoghr_Intimidation_Mission_Complete_Victory_Trigger</Prereq>
+		<Prereq>Honoghr_Intimidation_Mission_Loss_Rebel</Prereq>
+		<Prereq>Honoghr_Intimidation_Mission_Loss_Empire</Prereq>
+		<Prereq>Honoghr_Intimidation_Mission_Loss_Hutt</Prereq>
+	</Event>
+
+		<Event Name="Honoghr_Intimidation_Enable_Retreat_Empire">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>EMPIRE</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Complete_Victory_Trigger</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Rebel</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Empire</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Hutt</Prereq>
+		</Event>
+
+		<Event Name="Honoghr_Intimidation_Enable_Retreat_Rebel">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>REBEL</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Complete_Victory_Trigger</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Rebel</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Empire</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Hutt</Prereq>
+		</Event>
+
+		<Event Name="Honoghr_Intimidation_Enable_Retreat_HUTTS">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>HUTTS</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+			<Prereq>Honoghr_Intimidation_Mission_Complete_Victory_Trigger</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Rebel</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Empire</Prereq>
+			<Prereq>Honoghr_Intimidation_Mission_Loss_Hutt</Prereq>
+		</Event>
 
 
 <!-- *************************************************************** -->

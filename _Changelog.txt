@@ -130,7 +130,8 @@ Model Fixes:
 
 Script/Story Fixes:
 • Thyferra Kidnapping would hardlock and be unable to completed if the player destroyed all of Ungarr Daris' defenses before trying to kidnap him.  The mission script dynamically tries to redirect Daris to the nearest friendly unit - however, if all units are destroyed, the entire scripting engine would crash.  Now, if all units are destroyed, Daris will retreat to the base's shield generator. (BUG #3)
-• Space Mandalore's Piracy corruption mission (in all regular, story campaign and tutorial forms) would allow the enemy faction to retreat during battle, which breaks the story sequence.  Retreat has now been disabled for all factions until the battle concludes. (BUG #64)
+• Space Mandalore's Piracy corruption mission (in all regular, Consortium campaign and tutorial forms) would allow the enemy faction to retreat during battle, which breaks the story sequence.  Retreat has now been disabled for all factions until the battle concludes. (BUG #64)
+• Land Honoghr's Intimidation corruption mission (in both the regular and Consortium campaign) would allow the enemy faction to retreat during battle, which breaks the story sequence.  Retreat has now been disabled for all factions until the battle concludes. (BUG #170)
 
 
 Structure Fixes:
