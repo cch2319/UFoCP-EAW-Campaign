@@ -307,6 +307,7 @@
 		<SFXEvent_Unit_Type_Spotted>Veers_AT_AT_Walker,					Unit_Announce_Veers_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Admonitor_Star_Destroyer,			Unit_Announce_Thrawn_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Interdictor_Cruiser,				Unit_interdictor_Kadalbe</SFXEvent_Unit_Type_Spotted>
 
 		<SFXEvent_Unit_Type_Spotted>Kyle_Katarn,						Unit_Announce_Katarn_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Obi_Wan_Kenobi,						Unit_Announce_ObiWan_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>

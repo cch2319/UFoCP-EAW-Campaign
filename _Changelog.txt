@@ -98,6 +98,7 @@ Audio Fixes:
 • Various space units (Luke, Red & Rogue Squadron, Skipray Blastboats) used incorrect XML settings for their "my enemy's health is low/critical" attacking VO and would never speak if they were killing an enemy.  In addition, Luke's FoC unit has recieved new dialogue because his original pool only referenced Biggs (who is dead) and Wedge (who's presence is dependent). (BUG #568)
 • The Consortium MDU would not use unique VO when constructing or selling turrets, instead opting for "Turret constructing..." and silence when a unit is sold.  Each MDU buildable now uses unique dialogue. (BUG #735)
 • Whenever corruption would be removed from a Rebel planet by a Rebel hero, the game would play the Empire Announcer's VO instead of the Rebel Announcer's. (BUG #748)
+• Unlike the Rebels, the Empire's Interdictor Cruisers wouldn't trigger a battlefield callout when seen.  The Consortium now uses the Keldabe Captain VO for spotting an Interdictor, as that's most consistent with the Rebels' VO. (BUG #773)
 
 
 Gameplay Fixes:
