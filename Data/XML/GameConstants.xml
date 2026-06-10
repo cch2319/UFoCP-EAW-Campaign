@@ -3819,6 +3819,7 @@
 	<Localized_Splash_Screen>POLISH, 	Splash_polish.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>RUSSIAN, 	Splash_russian.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>THAI, 		Splash_uk.TGA</Localized_Splash_Screen>
+	<Localized_Splash_Screen>UKRAINIAN, Splash_ukrainian.TGA</Localized_Splash_Screen>
 	<Localized_UK_English_Splash_Screen>splash_uk.dds</Localized_UK_English_Splash_Screen>
 
 	<!-- Localized main menu background overlay asset names -->
@@ -3833,6 +3834,7 @@
 	<Localized_Menu_Overlay>RUSSIAN, 	Menuback_Overlay_russian.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>POLISH, 	Menuback_Overlay_polish.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>THAI, 		Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay>UKRAINIAN, 	Menuback_Overlay_ukrainian.TGA</Localized_Menu_Overlay>
 
 
 	<!-- Preferred choice of pathfinder for invading. Non-hero units are always preferred -->
