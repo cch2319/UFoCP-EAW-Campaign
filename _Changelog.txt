@@ -48,7 +48,7 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix a regression caused by balance modification BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to break the story (cosmetically) and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact").  Tyber is now a stealth unit for the entirety of the campaign (as intended). (BUG #736)
+• Fix a regression caused by balance modification BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to interrupt the story sequence and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact").  Tyber is now a stealth unit for the entirety of the campaign as intended. (BUG #736)
 
 
 ENHANCEMENTS:

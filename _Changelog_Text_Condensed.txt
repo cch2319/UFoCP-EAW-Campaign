@@ -529,7 +529,6 @@ International:
 	-- RUS: ...отражает 25% лазерных лучей противника. --> ...отражает 30% лазерных лучей противника.
 	-- SPA: ...desvía el 25% del fuego láser recibido. --> ...desvía el 30% del fuego láser recibido.
 
-
 • TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00: (BUG #558)
 	-- ENG: Empire Will Achieve Victory If: --> The Empire Will Achieve Victory If:
 
@@ -560,7 +559,6 @@ International:
 • TEXT_TOOLTIP_ANNIHILATOR: (BUG #508)
 	-- ENG: The Annihilator --> The Annihilator - Admiral Gaarn
 	-- GER: Die Annihilator --> Die Annihilator - Admiral Gaarn
-
 
 • TEXT_ENCYCLOPEDIA_ACADEMY_01: (BUG #744)
 	-- ENG: Unlocks: Infiltrator Training Facility --> Unlocks: Infiltrator Academy
