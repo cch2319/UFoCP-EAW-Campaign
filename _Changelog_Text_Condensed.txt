@@ -717,8 +717,8 @@ International:
 	-- GER: Schaltet zufällige Ereignisse ein/aus --> Wenn diese Option aktiviert ist, starten spontan zufällige Missionen und Ereignisse mit prozeduralen Belohnungen.
 
 • TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE: (BUG #753)
-	-- ENG: Toggles starting units on/off --> When enabled, each player will begin the match with two starting fighter squadrons.
-	-- GER: Schaltet Starteinheiten ein/aus --> Wenn diese Option aktiviert ist, beginnt jeder Spieler das Match mit zwei Start-Kampfgeschwadern.
+	-- ENG: Toggles starting units on/off --> When enabled, each player will begin the match with two squads of infantry (Land Combat) or fighters (Space Combat).
+	-- GER: Schaltet Starteinheiten ein/aus --> Wenn diese Option aktiviert ist, beginnt jeder Spieler das Match mit zwei Infanterieeinheiten (Landkampf) oder Kampfflugzeugstaffeln (Weltraumkampf).
 
 • TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS: (BUG #753)
 	-- ENG: Toggles super weapons on/off -> When enabled, each player can purchase planetary super weapons.
@@ -767,6 +767,10 @@ International:
 • TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE: (BUG #753)
 	-- ENG: Check this to use a hardware mouse cursor.  A hardware mouse cursor is smoother and more responsive. --> When enabled, use direct input mouse control instead of a software-emulated cursor.  Direct input is smoother, more responsive and isn't tied to the game's framerate, but may perform worse with higher polling rates.
 	-- GER: Hier klicken für einen Hardware-Mauszeiger (weicher und reaktionsschneller). --> Wenn diese Option aktiviert ist, wird die Maussteuerung per Direct Input anstelle eines softwareemulierten Cursors verwendet. Direct Input ist flüssiger, reaktionsschneller und nicht an die Bildrate des Spiels gebunden, kann jedoch bei höheren Abtastraten zu Leistungseinbußen führen.
+
+• TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE: (BUG #753)
+	-- ENG: Start game with bases pre-built on/off --> When enabled, each player will begin the battle with their bases already built.
+	-- GER: Schaltet den Spielstart mit fertigen Stützpunkten ein/aus --> Wenn diese Option aktiviert ist, beginnt jeder Spieler den Kampf mit bereits errichteten Stützpunkten.
 
 • TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL: (BUG #753)
 	-- ENG: Use right mouse button for scrolling --> When enabled, use the right mouse button for camera scrolling instead of the middle mouse button.

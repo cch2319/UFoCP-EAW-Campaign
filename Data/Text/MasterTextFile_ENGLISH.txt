@@ -1768,7 +1768,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,When set to Ask, each player
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,When enabled, each player can purchase hero units.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Enable to better connect through firewalls
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,When enabled, random missions and events with procedural rewards will start spontaneously.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,When enabled, each player will begin the match with two starting fighter squadrons.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,When enabled, each player will begin the match with two squads of infantry (Land Combat) or fighters (Space Combat).
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,When enabled, each player can purchase planetary super weapons.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Enables UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Bypass Windows Firewall protocols
@@ -1818,7 +1818,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_PORT_NUMBER,Manually set network port #
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_QUICKMATCH_DEFAULT,Sets Quick Match game mode options
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NEW_AUTORESOLVE_BUTTON,The battle will be instantly resolved for you, but your losses may be higher.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_PARTICLE_DETAIL_SLIDER,High quality particles will produce more detailed explosions and other particle effects.  Lower quality may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Start game with bases pre-built on/off
+TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,When enabled, each player will begin the battle with their bases already built.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Easy game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Hard game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Medium game difficulty

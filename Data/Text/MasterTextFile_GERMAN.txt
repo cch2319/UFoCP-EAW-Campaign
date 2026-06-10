@@ -1768,7 +1768,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,Bei der Einstellung "Fragen"
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Wenn diese Option aktiviert ist, kann jeder Spieler Heldeneinheiten kaufen.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Einschalten für bessere Verbindungen durch Firewalls
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Wenn diese Option aktiviert ist, starten spontan zufällige Missionen und Ereignisse mit prozeduralen Belohnungen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Wenn diese Option aktiviert ist, beginnt jeder Spieler das Match mit zwei Start-Kampfgeschwadern.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Wenn diese Option aktiviert ist, beginnt jeder Spieler das Match mit zwei Infanterieeinheiten (Landkampf) oder Kampfflugzeugstaffeln (Weltraumkampf).
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Wenn diese Option aktiviert ist, kann jeder Spieler planetare Superwaffen erwerben.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Ermöglicht UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Umgehe die Windows-Firewall-Protokolle
@@ -1818,7 +1818,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_PORT_NUMBER,Nr. des Netzwerkports von Hand e
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_QUICKMATCH_DEFAULT,Optionen für das Sofortspiel einstellen
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NEW_AUTORESOLVE_BUTTON,Der Kampf wird automatisch entschieden, aber Eure Verluste könnten höher sein.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_PARTICLE_DETAIL_SLIDER,Partikel in hoher Qualität ergeben detailliertere Explosionen und andere Partikeleffekte. Geringere Qualität kann dafür die Geschwindigkeit erhöhen.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Schaltet den Spielstart mit fertigen Stützpunkten ein/aus
+TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Wenn diese Option aktiviert ist, beginnt jeder Spieler den Kampf mit bereits errichteten Stützpunkten.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Leichte Spielstufe
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Schwierige Spielstufe
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Mittlere Spielstufe
