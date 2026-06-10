@@ -37,6 +37,14 @@
 		<Prereq>Underworld_Tutorial_Piracy_Mission_Begin</Prereq>
 	</Event>
 
+		<Event Name="Underworld_Tutorial_Piracy_Disable_Retreat_Hutts">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>HUTTS</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>Underworld_Tutorial_Piracy_Mission_Begin</Prereq>
+		</Event>
+
 <!-- Recieve message for Highlight Buzz Droid Ability -->
 	<Event Name="Underworld_Tutorial_Buzz_Droid_Lua_Message">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -210,6 +218,14 @@
 					<Prereq>Underworld_Tutorial_Piracy_Fail_Objective_03</Prereq>
 				</Event>
 
+					<Event Name="Underworld_Tutorial_Piracy_Re-Enable_Retreat_Loss_Hutts">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_RETREAT</Reward_Type>
+						<Reward_Param1>HUTTS</Reward_Param1>
+						<Reward_Param2>0</Reward_Param2>
+						<Prereq>Underworld_Tutorial_Piracy_Fail_Objective_03</Prereq>
+					</Event>
+
 <!-- Recieve Victory condition from lua -->
 	<Event Name="Underworld_Tutorial_Piracy_Victory_Trigger">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -235,6 +251,13 @@
 					<Prereq>Underworld_Tutorial_Piracy_Mission_Victory_Reward</Prereq>
 				</Event>
 
+					<Event Name="Underworld_Tutorial_Piracy_Re-Enable_Retreat_Win_Hutts">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_RETREAT</Reward_Type>
+						<Reward_Param1>HUTTS</Reward_Param1>
+						<Reward_Param2>0</Reward_Param2>
+						<Prereq>Underworld_Tutorial_Piracy_Mission_Victory_Reward</Prereq>
+					</Event>
 
 <!-- killing opening dialog for escape key cine skipping -->
 	<Event Name="Underworld_Prologue_Mandalore_ESC_Prevent_Intro_Dialog_AI_Notification">

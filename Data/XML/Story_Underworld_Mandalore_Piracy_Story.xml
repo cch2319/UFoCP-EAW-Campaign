@@ -14,6 +14,14 @@
 		<Prereq>Mandalore_Piracy_Mission_Begin</Prereq>
 	</Event>
 
+		<Event Name="Mandalore_Piracy_Prevent_Retreat_Pirates">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>PIRATES</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>Mandalore_Piracy_Mission_Begin</Prereq>
+		</Event>
+
 	<Event Name="Mandalore_Piracy_Mission_Add_Objective_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -108,6 +116,30 @@
 		<Reward_Type>VICTORY</Reward_Type>
 		<Reward_Param1>Pirates</Reward_Param1>
 	</Event>
+
+	<Event Name="Mandalore_Piracy_Enable_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Mandalore_Piracy_Mission_Complete_Victory_Trigger</Prereq>
+		<Prereq>Mandalore_Piracy_Mission_Loss_Rebel</Prereq>
+		<Prereq>Mandalore_Piracy_Mission_Loss_Empire</Prereq>
+		<Prereq>Mandalore_Piracy_Mission_Loss_Hutt</Prereq>
+		<Prereq>Mandalore_Piracy_Mission_Loss_Pirates</Prereq>
+	</Event>
+
+		<Event Name="Mandalore_Piracy_Enable_Retreat_Pirates">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>DISABLE_RETREAT</Reward_Type>
+			<Reward_Param1>PIRATES</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+			<Prereq>Mandalore_Piracy_Mission_Complete_Victory_Trigger</Prereq>
+			<Prereq>Mandalore_Piracy_Mission_Loss_Rebel</Prereq>
+			<Prereq>Mandalore_Piracy_Mission_Loss_Empire</Prereq>
+			<Prereq>Mandalore_Piracy_Mission_Loss_Hutt</Prereq>
+			<Prereq>Mandalore_Piracy_Mission_Loss_Pirates</Prereq>
+		</Event>
 
 
 <!-- *************************************************************** -->
