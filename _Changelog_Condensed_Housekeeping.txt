@@ -98,5 +98,5 @@ https://github.com/AlyMar1994/UFoCP/issues/
 • The Gateways GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
 • The Origin of Corruption GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
 • V-wing fighters have had their unit object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
-• FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
+• FoC's internal surface GFX definition had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
 

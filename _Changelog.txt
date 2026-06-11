@@ -48,12 +48,12 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix a regression caused by balance modification BUG #154, where Tyber Zann would no longer be a stealth unit after completing Consortium campaign mission #7 ("Baiting the Hook").  This would cause Tyber to interrupt the story sequence and cause a space battle over Coruscant upon the completion of Consortium campaign mission #8 ("Following the Artifact").  Tyber is now a stealth unit for the entirety of the campaign as intended. (BUG #736)
+• Fix a regression caused by balance change BUG #154 where Tyber Zann would no longer be a stealth unit upon completion of Consortium campaign mission #7 ("Baiting the Hook").  This caused Tyber to interrupt the story sequence upon completion of Consortium campaign mission #8 ("Following the Artifact"), and start a space battle over Coruscant.  Tyber is now a stealth unit for the entirety of the campaign as intended. (BUG #736)
 
 
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
-• UFCP's new loading screen and main menu now supports all available languages supported by FoC. (BUG #451)
+• UFCP's new loading screen and main menu now supports multiple languages, including two extra loading screens that support Ukrainian and Japanese.  These new graphics also feature logos localized into other alphabets, such as Russian, which is a popular change made in many translation mods. (BUG #451)
 • The Land and Space Combat camera settings have been adjusted to increase the draw distance.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
 • The orbital drydock props, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon (instead of using a large square). (BUG #682) (Thanks, .lany!)
 • Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant than the original drydock props, but are also MP-friendly and should result in less MPGC instability. (BUG #482)
@@ -61,7 +61,7 @@ ENHANCEMENTS:
 
 HOUSEKEEPING:
 • V-wing fighters have had their unit object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
-• FoC's internal surface GFX definition has had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
+• FoC's internal surface GFX definition had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
 
 
 MISC:
@@ -74,10 +74,10 @@ NOTICE:
 
 
 Multiplayer:
-• MP Space combat stability should be greatly improved (and marginally, Land combat as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
+• MP Space combat stability should be greatly improved (and marginally for Land combat, as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
 • Reinforcement Points have received XML AI categories to prevent throwing assertion errors every few frames when present in a battle. (BUG #676)
 • As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
-• As a part of BUG #683 (mentioned below), MP Space Kuat now use optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
+• As a part of BUG #683 (mentioned below), MP Space Kuat now uses optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
 
 
 Balance Changes:
@@ -112,7 +112,7 @@ Interface Fixes:
 
 
 Map/Planet Fixes:
-• Most Space Combat maps in EaW and FoC (both MP and SP) had awkward angling that would be extremely unhelpful for the Consortium and Empire (the Rebels' stations mostly have 360* weapons, so they weren't affected).  It appears Petroglyph tried to account for this on some maps, but inverted the values, making the afflicted stations' weapons worthless and unable to hit anything.  Now, stations typically face most of the map at predictable angles. (BUG #423)
+• Most Space Combat maps' space stations in EaW and FoC (both MP and SP) had awkward angling that would be extremely unhelpful for the Consortium and Empire (the Rebels' stations mostly have 360* weapons, so they weren't affected).  It appears Petroglyph tried to account for this on some maps, but inverted the values, making the afflicted stations' weapons worthless and unable to hit anything.  Now, stations typically face most of the map at predictable angles. (BUG #423)
 • MP Space Bespin's lighting was unconfigured, and used (almost) the exact same lighting values as the Map Editor's default "New Space Map," with black ambient light, purpleish-blue color filling/shadows, and no bloom.  Luckily, there is an unused map in the game files, "_Space_Planet_Bespin_Atmosphere_02," that uses the Bespin skybox and has hand-made/finetuned lighting, color and bloom values.  The MP Space Bespin map has now had its lighting refitted with its singleplayer brother's lighting - check it out! (BUG #576)
 • Shola was defined as a volcanic planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #671)
 • Bonadan was defined as an urban planet but with "temperate" terrain; we don't think this setting (in the Planets definition) does anything, like originally claimed in UFCP v2.0, because planet terrain seems to be overridden by the setting in the Map Editor.  Regardless, this has been fixed. (BUG #672)
