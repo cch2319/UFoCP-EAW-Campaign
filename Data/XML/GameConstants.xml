@@ -3813,7 +3813,7 @@
 	<Localized_Splash_Screen>FRENCH, 	Splash_french.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>SPANISH, 	Splash_spanish.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>ITALIAN, 	Splash_italian.TGA</Localized_Splash_Screen>
-	<Localized_Splash_Screen>JAPANESE,	Splash_uk.TGA</Localized_Splash_Screen>
+	<Localized_Splash_Screen>JAPANESE,	Splash_japanese.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>KOREAN, 	Splash_uk.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>CHINESE, 	Splash_uk.TGA</Localized_Splash_Screen>
 	<Localized_Splash_Screen>POLISH, 	Splash_polish.TGA</Localized_Splash_Screen>
@@ -3828,7 +3828,7 @@
 	<Localized_Menu_Overlay>FRENCH, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>SPANISH, 	Menuback_Overlay_spanish.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>ITALIAN, 	Menuback_Overlay_italian.TGA</Localized_Menu_Overlay>
-	<Localized_Menu_Overlay>JAPANESE, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay>JAPANESE, 	Menuback_Overlay_japanese.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>KOREAN, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>CHINESE, 	Menuback_Overlay_german_french.TGA</Localized_Menu_Overlay>
 	<Localized_Menu_Overlay>RUSSIAN, 	Menuback_Overlay_russian.TGA</Localized_Menu_Overlay>

@@ -109,5 +109,10 @@ Misc:
 -- Open source font (SIL Open Font License v1.1/OFL-1.1 License, http://scripts.sil.org/OFL) used for
 	the Russian and Ukrainian EaW/FoC logos.
 
+- artakana
+-- Dela Gothic One by artakana, at https://fonts.google.com/specimen/Dela+Gothic+One
+-- Open source font (SIL Open Font License v1.1/OFL-1.1 License, http://scripts.sil.org/OFL) used for
+	the Japanese EaW/FoC logos.
+
 - Herman Schechkin's ASCII-Generator.site (https://github.com/hermanTenuki/ASCII-Generator.site)
 -- UFoCP's wonderful ASCII logos in the changelogs and Readme.txt, using the "big" setting.
