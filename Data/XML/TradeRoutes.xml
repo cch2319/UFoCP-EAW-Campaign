@@ -1234,8 +1234,6 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-=======
->>>>>>> 1d0db9d71e10d10651d1252ba4ffda0b99e5e884
 
 	<TradeRoute Name="Manaan_Wayland">
 		<Point_A>Manaan</Point_A>
